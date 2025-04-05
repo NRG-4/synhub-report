@@ -171,7 +171,7 @@ Con funcionalidades como tareas personalizadas, historial de cumplimiento, objet
     <th colspan="2"> Juan Diego Astonitas </th>
   </tr>
   <tr>
-    <td> <img src="/images/chapter-1/JuanAstonitas-pfp.png" alt="Juan Astonitas" width=300px > </td>
+    <td> <img src="images/chapter-1/JuanAstonitas-pfp.png" alt="Juan Astonitas" width=300px > </td>
     <td> Mi nombre es Juan Diego Astonitas Diaz, mi código de estudiante es u202110237 ,tengo 21 años, actualmente curso el 6to ciclo de la carrera de Ingeniería de Software, en la UPC en la sede San Miguel. Mis principales cualidades son el liderazgo y el dominio de NextJS. Haré todo lo que esté a mi alcance para respaldar al equipo en la finalización oportuna y efectiva de las tareas asignadas. </td>
   </tr>
   <tr>
