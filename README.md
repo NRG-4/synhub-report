@@ -145,6 +145,45 @@
 ### 1.1. Startup Profile
 #### 1.1.1. Descripción de la Startup
 #### 1.1.2. Perfiles de integrantes del equipo
+
+<table>
+  <tr>
+    <th colspan="2"> Juan Diego Astonitas </th>
+  </tr>
+  <tr>
+    <td> <img src="/images/chapter-1/JuanAstonitas-pfp.png" alt="Juan Astonitas" width=300px > </td>
+    <td> Mi nombre es Juan Diego Astonitas Diaz, mi código de estudiante es u202110237 ,tengo 21 años, actualmente curso el 6to ciclo de la carrera de Ingeniería de Software, en la UPC en la sede San Miguel. Mis principales cualidades son el liderazgo y el dominio de NextJS. Haré todo lo que esté a mi alcance para respaldar al equipo en la finalización oportuna y efectiva de las tareas asignadas. </td>
+  </tr>
+  <tr>
+    <th colspan="2"> Casas Sanchez Gabriel Alexander </th>
+  </tr>
+  <tr>
+    <td> <img src="" alt="Gabriel Casas" style="width: 300px"> </td>
+    <td> asdf </td>
+  </tr>
+<tr>
+    <th colspan="2"> Gianluca Santino Pasquale Barrenechea </th>
+  </tr>
+  <tr>
+    <td> <img src="" alt="Gianluca Pasquale" style="width: 300px"> </td>
+    <td> asdf </td>
+  </tr>
+<tr>
+    <th colspan="2">Jose Antonio  Alejo Cardenas</th>
+  </tr>
+  <tr>
+    <td> <img src="" alt="Jose Alejo" style="width: 300px"> </td>
+    <td> asdf </td>
+  </tr>
+<tr>
+    <th colspan="2">Sebastian Pacheco Astiguetta</th>
+  </tr>
+  <tr>
+    <td> <img src="" alt="Sebastian Pacheco" style="width: 300px"> </td>
+    <td> asdf </td>
+  </tr>
+</table>
+
 ### 1.2. Solution Profile
 #### 1.2.1. Antecedentes y problemática
 #### 1.2.2. Lean UX Process
