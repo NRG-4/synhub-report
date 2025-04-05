@@ -139,6 +139,74 @@
 
 ## Student Outcome
 
+El curso contribuye al cumplimiento del Student Outcome ABET:
+
+**ABET – EAC - Student Outcome 7**
+
+Criterio: *La capacidad de adquirir y aplicar nuevos conocimientos según sea
+necesario, utilizando estrategias deaprendizaje apropiadas.*
+
+En el siguiente cuadro se describe las accionesrealizadas y enunciados de conclusiones
+por parte del grupo, que permiten sustentar el haber alcanzado el logro del ABET –
+EAC - Student Outcome 7.
+
+<table>
+  <tr>
+    <td><strong>Criterio Específico</strong></td>
+    <td><strong>Acciones Realizadas</strong></td>
+    <td><strong>Conclusiones</strong></td>
+  </tr>
+  <tr>
+    <td>Actualiza conceptos y
+conocimientos necesarios
+para su desarrollo
+profesional y en especial
+para su proyecto en
+soluciones de software.</td>
+    <td>
+        Juan Astonitas<br>
+        TB1:<br> sdfg <br>
+        Jose Alejo<br>
+        TB1:<br> asdf. <br>
+        Gabriel Casas<br>
+        TB1:<br> asdf. <br>
+        Sebastian Pacheco<br>
+        TB1:<br> asdf. <br>
+        Gianluca Pasquale<br>
+        TB1:<br> asdf. <br>
+</td>
+    <td>
+      TB1:<br> asdf <br>
+    </td>
+  </tr>
+  <tr>
+    <td>Reconoce la necesidad del
+aprendizaje permanente
+para el desempeño
+profesional y el desarrollo
+de proyectos en soluciones
+de software.</td>
+    <td>
+      Juan Astonitas<br>
+        TB1:<br> sdfg <br>
+        Jose Alejo<br>
+        TB1:<br> asdf. <br>
+        Gabriel Casas<br>
+        TB1:<br> asdf. <br>
+        Sebastian Pacheco<br>
+        TB1:<br> asdf. <br>
+        Gianluca Pasquale<br>
+        TB1:<br> asdf. <br>
+
+</td>
+    <td>
+      TB1:<br> asdf <br>
+    </td>
+  </tr>
+</table>
+
+
+
 ## Objetivos SMART
 
 ## Capitulo I
