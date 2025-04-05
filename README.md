@@ -179,7 +179,7 @@ Con funcionalidades como tareas personalizadas, historial de cumplimiento, objet
     <th colspan="2"> Casas Sanchez Gabriel Alexander </th>
   </tr>
   <tr>
-    <td> <img src="/images/chapter-1/alex-pfp.jpg" alt="Gabriel Casas" style="width: 300px"> </td>
+    <td> <img src="images/chapter-1/alex-pfp.jpg" alt="Gabriel Casas" style="width: 300px"> </td>
     <td> Soy estudiante de Ingeniería de Software en sexto ciclo, con habilidades para dirigir y trabajar bien bajo presión. Aunque no disfruto mucho de los trabajos grupales, siempre asumo un rol destacado y sobresaliente en ellos, aprovechando mi capacidad académica y versatilidad. </td>
   </tr>
 <tr>
