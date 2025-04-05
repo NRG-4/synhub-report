@@ -10,11 +10,7 @@
 
 ### **Ingeniería de software**
 
-<br/>
-
 ## Informe de Trabajo Final
-
-<br/>
 
 ### **Nombre del startup:** NRG4
 
