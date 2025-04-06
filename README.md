@@ -181,8 +181,8 @@ Desde NRG4, aspiramos a consolidarnos como referentes en tecnología doméstica,
     <th colspan="2"> Gianluca Santino Pasquale Barrenechea </th>
   </tr>
   <tr>
-    <td> <img src="" alt="Gianluca Pasquale" style="width: 300px"> </td>
-    <td> asdf </td>
+    <td> <img src="images/chapter-1/gianluca-pfp.jpg" alt="Gianluca Pasquale" style="width: 300px"> </td>
+    <td> Me llamo Gianluca Santino Pasquale Barrenechea, estudiante de Ingeniería de Software (código u202112078). En nuestra Startup, me enfoco en el desarrollo frontend y backend, utilizando C++, C#, Python, Java, HTML y JavaScript. Mi objetivo es crear soluciones escalables y eficientes, mejorando la experiencia del usuario y optimizando la operación de la plataforma, siempre aplicando metodologías ágiles como Scrum. </td>
   </tr>
   <tr>
     <th colspan="2">Jose Antonio  Alejo Cardenas</th>
