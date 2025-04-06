@@ -153,17 +153,6 @@ SynHome es una plataforma digital enfocada en la gestión integral del hogar, di
 **Misión:** Empoderar a las familias mediante una plataforma digital que centraliza la gestión del hogar, optimiza la organización de tareas y horarios, y promueve una comunicación eficiente y equitativa entre todos los integrantes.
 **Visión:** Convertirnos en la plataforma de gestión familiar líder en hogares de habla hispana, reconocida por su capacidad de fortalecer la dinámica familiar, fomentar la corresponsabilidad y facilitar la vida cotidiana mediante tecnología simple, útil y confiable.
 
-**Problema identificado:** En el entorno actual, muchas familias enfrentan dificultades para organizar sus rutinas, distribuir equitativamente las tareas del hogar y mantener una comunicación fluida sobre las responsabilidades compartidas. Esto suele derivar en sobrecarga para ciertos miembros del hogar (principalmente la cabeza de familia) y desorganización general que afecta la convivencia y el bienestar familiar. A pesar del avance digital, pocas soluciones integrales han sido diseñadas específicamente para la gestión colaborativa del hogar.
-
-**Solución propuesta:**
-
-SynHome ofrece una plataforma intuitiva y multifuncional que permite a las familias:
-
-- Desde el rol administrativo (cabeza de familia): Asignar tareas, crear calendarios familiares, definir horarios, establecer roles con distintos permisos, hacer seguimiento del cumplimiento de responsabilidades, y coordinar reuniones virtuales o llamadas familiares.
-- Desde el rol de usuario (integrantes): Consultar su calendario, recibir recordatorios, solicitar cambios de horario, visualizar tareas asignadas y objetos compartidos, y conocer quién se encuentra disponible en el hogar.
-
-Con funcionalidades como tareas personalizadas, historial de cumplimiento, objetos asignables, roles configurables, y una interfaz clara para la visualización cruzada de horarios, SynHome permite gestionar la vida en casa con mayor equilibrio, transparencia y participación activa de todos.
-
 #### 1.1.2. Perfiles de integrantes del equipo
 
 <table>
@@ -206,6 +195,17 @@ Con funcionalidades como tareas personalizadas, historial de cumplimiento, objet
 </table>
 
 ### 1.2. Solution Profile
+**Problema identificado:** En el entorno actual, muchas familias enfrentan dificultades para organizar sus rutinas, distribuir equitativamente las tareas del hogar y mantener una comunicación fluida sobre las responsabilidades compartidas. Esto suele derivar en sobrecarga para ciertos miembros del hogar (principalmente la cabeza de familia) y desorganización general que afecta la convivencia y el bienestar familiar. A pesar del avance digital, pocas soluciones integrales han sido diseñadas específicamente para la gestión colaborativa del hogar.
+
+**Solución propuesta:**
+
+SynHome ofrece una plataforma intuitiva y multifuncional que permite a las familias:
+
+- Desde el rol administrativo (cabeza de familia): Asignar tareas, crear calendarios familiares, definir horarios, establecer roles con distintos permisos, hacer seguimiento del cumplimiento de responsabilidades, y coordinar reuniones virtuales o llamadas familiares.
+- Desde el rol de usuario (integrantes): Consultar su calendario, recibir recordatorios, solicitar cambios de horario, visualizar tareas asignadas y objetos compartidos, y conocer quién se encuentra disponible en el hogar.
+
+Con funcionalidades como tareas personalizadas, historial de cumplimiento, objetos asignables, roles configurables, y una interfaz clara para la visualización cruzada de horarios, SynHome permite gestionar la vida en casa con mayor equilibrio, transparencia y participación activa de todos.
+
 
 #### 1.2.1. Antecedentes y problemática
 
