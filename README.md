@@ -220,6 +220,40 @@ Con funcionalidades como tareas personalizadas, historial de cumplimiento, objet
 ##### 1.2.2.1. Lean UX Problem Statements
 
 ##### 1.2.2.2. Lean UX Assumptions
+**User Assumptions (Suposiciones de Usuario)**
+- ¿Quién es el usuario?: El usuario es alguien que busca una solución para organizar las tareas del hogar y mejorar la comunicación familiar.
+- ¿Dónde encaja nuestro producto en su trabajo o vida?: El producto encaja en la vida diaria del usuario, facilitando la gestión de tareas y responsabilidades familiares.
+- ¿Cuándo y cómo se usa nuestro producto?: El producto se usa diariamente, especialmente en momentos de planificación y organización familiar.
+- ¿Qué características son importantes?: Las características importantes incluyen la asignación de tareas, la visualización de horarios, conocer la disponibilidad de la familia y la posibilidad de personalizar roles y permisos.
+- ¿Cómo debe verse y comportarse nuestro producto?: El producto debe verse intuitivo y amigable, con una interfaz clara que permita a los usuarios navegar fácilmente entre las diferentes funciones.
+
+**Business Assumptions (Suposiciones de Negocio)**
+- Necesidades y problemas: Creo que los miembros del hogar tienen la necesidad de organizar sus tareas de manera eficiente y mejorar la comunicación familiar.
+- Plataforma: Estas necesidades se pueden resolver a través de una aplicación móvil que ofrezca herramientas para la gestión de tareas y la comunicación, proporcionando una experiencia fluida y accesible.
+- Segmentación: Los miembros del hogar son (o serán) personas que buscan accesibilidad para  organizar sus tareas del hogar.
+- Comportamientos: El valor principal que un miembro del hogar quiere obtener de mi servicio es la facilidad de uso y la mejora en la organización de las tareas del hogar.
+- Beneficios: El miembro del hogar obtendrá, al usar mi servicio, beneficios como una mejor organización personal, mayor claridad sobre sus responsabilidades, y una sensación de logro al completar tareas.
+- Captación de clientes: Adquiriré la mayoría de mis clientes a través de campañas de marketing digital, recomendaciones de usuarios actuales y colaboraciones con influencers en el ámbito familiar.
+- Modelo de ingresos: Generaré ingresos a través de la clasificación de la aplicación como uno de pago.
+- Competencia: Mi principal competencia en el mercado serán aplicaciones similares que ofrecen funciones de organización y gestión de tareas.
+- Los superaremos debido a nuestro enfoque en la personalización y la facilidad de uso, así como a la integración de funciones específicas para el hogar.
+
+**Technical Assumptions (Suposiciones Técnicas)**
+- Tecnología utilizada: Podemos utilizar tecnologías móviles actuales para desarrollar la aplicación.
+- Integraciones: La aplicación se integrará con otras plataformas de calendario y comunicación.
+- Escalabilidad: La aplicación podrá escalar para soportar un número creciente de usuarios y datos.
+
+**Market Assumptions (Suposiciones de Mercado)**
+- Tamaño del mercado: Existe un mercado significativo de familias que buscan soluciones para la organización del hogar.
+- Competencia: Las aplicaciones similares son los principales competidores.
+- Tendencias: El mercado de aplicaciones de organización y productividad está en crecimiento, impulsado por la necesidad de soluciones digitales en la vida diaria.
+
+**Design Assumptions (Suposiciones de Diseño)**
+- Interacción del usuario: Los usuarios interactuarán con la aplicación con mayor facilidad si implementamos un calendario compartido familiar, recordatorios automáticos y asignación de tareas domésticas.
+- Experiencia del usuario: Los usuarios valorarán una experiencia de organización simple, flexible, colaborativa y motivadora.
+- Colores y la tipografía: Los usuarios prefieren una paleta de colores pastel y una tipografía moderna y legible.
+- Preferencias visuales: Los usuarios consideran atractivo un diseño simple con iconos intuitivos.
+- Prototipos y pruebas: Necesitamos validar la facilidad de uso la efectividad del diseño a través de pruebas de usabilidad.
 
 ##### 1.2.2.3. Lean UX Hypothesis Statements
 
