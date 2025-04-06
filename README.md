@@ -227,6 +227,34 @@ Con funcionalidades como tareas personalizadas, historial de cumplimiento, objet
 
 ### 1.3. Segmentos Objetivo
 
+**Segmento Objetivo #1: Cabeza de familia**
+
+Este grupo está conformado por personas que asumen el rol principal en la gestión del hogar, encargándose de organizar las rutinas, asignar responsabilidades y coordinar las actividades familiares. Generalmente, se trata de padres, madres o tutores con una vida activa, que buscan herramientas digitales para mantener el orden, reducir su carga mental y fomentar la colaboración de todos los integrantes del hogar.
+
+Características clave:
+
+- Edad: 30 a 55 años 
+- Género: Ambos 
+- Estado civil: Casados, convivientes o solteros con hijos u otros dependientes 
+- Nivel educativo: Técnico o universitario 
+- Ocupación: Profesionales, empleados o trabajadores independientes 
+- Uso de tecnología: Usuarios frecuentes de smartphones, calendarios digitales y aplicaciones móviles para productividad 
+- Necesidades: Distribuir tareas de manera equitativa, evitar la sobrecarga, visualizar horarios, fomentar la participación de los demás miembros del hogar y mantener una comunicación fluida.
+
+**Segmento Objetivo #2:** Integrantes del hogar
+
+Este segmento incluye a todos los miembros del grupo familiar que no cumplen el rol administrativo, desde niños en edad escolar hasta adultos jóvenes o mayores que comparten responsabilidades dentro del hogar. Buscan una plataforma que les facilite entender sus tareas, planificar su día a día, recibir recordatorios y participar activamente en la vida doméstica de manera ordenada y colaborativa.
+
+Características clave:
+
+- Edad: 5 a 55 años
+- Género: Ambos
+- Estado civil: Solteros, en pareja o casados
+- Nivel educativo: Desde nivel escolar (primaria) hasta universitario
+- Ocupación: Estudiantes, trabajadores, amas de casa o personas desempleadas
+- Uso de tecnología: Acostumbrados al uso de smartphones, tablets y apps sociales o educativas
+- Necesidades: Consultar horarios, recibir recordatorios, visualizar tareas asignadas, pedir cambios en sus responsabilidades, mantenerse informados sobre quién está en casa y qué actividades deben realizar.
+
 ## Capítulo II: Requirements Elicitation & Analysis
 
 ### 2.1. Competidores
