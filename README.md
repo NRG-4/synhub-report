@@ -148,16 +148,22 @@
 
 #### 1.1.1. Descripción de la Startup
 
-SynHome es una plataforma digital enfocada en la gestión integral del hogar, diseñada para facilitar la organización familiar a través de una sola herramienta centralizada. Permite coordinar tareas, asignar responsabilidades, compartir horarios y monitorear el cumplimiento de actividades dentro del núcleo familiar. Nuestro enfoque es ofrecer una solución intuitiva, flexible y colaborativa que promueva la corresponsabilidad en el hogar y fomente la participación activa de todos los integrantes de la familia.
+Nuestra empresa NRG4 nace con la visión de ofrecer soluciones digitales que mejoren la calidad de vida dentro del hogar. En esta ocasión, presentamos SynHome, una plataforma pensada para resolver uno de los retos más comunes y menos atendidos en el entorno familiar moderno: la organización y distribución eficiente de las tareas del hogar.
 
-**Misión:** Empoderar a las familias mediante una plataforma digital que centraliza la gestión del hogar, optimiza la organización de tareas y horarios, y promueve una comunicación eficiente y equitativa entre todos los integrantes.
-**Visión:** Convertirnos en la plataforma de gestión familiar líder en hogares de habla hispana, reconocida por su capacidad de fortalecer la dinámica familiar, fomentar la corresponsabilidad y facilitar la vida cotidiana mediante tecnología simple, útil y confiable.
+Entendemos que en la dinámica actual, donde los tiempos son limitados y las responsabilidades se cruzan constantemente, es indispensable contar con herramientas que ayuden a mantener el orden, promover la participación equitativa y fortalecer la comunicación entre todos los miembros del hogar. Con SynHome, desde NRG4 buscamos justamente eso: transformar la forma en que las familias se organizan.
+
+**Misión:**
+
+Nuestra misión como empresa es facilitar la gestión diaria del hogar a través de una plataforma que promueve la corresponsabilidad, la organización eficiente y la comunicación clara entre los integrantes de una familia. Queremos empoderar tanto a quienes lideran la administración familiar como a cada integrante, brindándoles una herramienta sencilla y efectiva para mantener el equilibrio en sus rutinas diarias.
+
+**Visión:**
+
+Desde NRG4, aspiramos a consolidarnos como referentes en tecnología doméstica, siendo reconocidos por desarrollar soluciones que realmente impacten la vida de las personas. Con **SynHome**, buscamos ser la aplicación líder en organización familiar en el Perú y Latinoamérica, ayudando a millones de familias a construir entornos más ordenados, colaborativos y saludables.
 
 #### 1.1.2. Perfiles de integrantes del equipo
 
 <table>
-
-<tr>
+  <tr>
     <th colspan="2"> Juan Diego Astonitas </th>
   </tr>
   <tr>
@@ -171,21 +177,21 @@ SynHome es una plataforma digital enfocada en la gestión integral del hogar, di
     <td> <img src="images/chapter-1/alex-pfp.jpg" alt="Gabriel Casas" style="width: 300px"> </td>
     <td> Soy estudiante de Ingeniería de Software en sexto ciclo, con habilidades para dirigir y trabajar bien bajo presión. Aunque no disfruto mucho de los trabajos grupales, siempre asumo un rol destacado y sobresaliente en ellos, aprovechando mi capacidad académica y versatilidad. </td>
   </tr>
-<tr>
+  <tr>
     <th colspan="2"> Gianluca Santino Pasquale Barrenechea </th>
   </tr>
   <tr>
     <td> <img src="" alt="Gianluca Pasquale" style="width: 300px"> </td>
     <td> asdf </td>
   </tr>
-<tr>
+  <tr>
     <th colspan="2">Jose Antonio  Alejo Cardenas</th>
   </tr>
   <tr>
     <td> <img src="" alt="Jose Alejo" style="width: 300px"> </td>
     <td> asdf </td>
   </tr>
-<tr>
+  <tr>
     <th colspan="2">Sebastian Pacheco Astiguetta</th>
   </tr>
   <tr>
@@ -195,6 +201,7 @@ SynHome es una plataforma digital enfocada en la gestión integral del hogar, di
 </table>
 
 ### 1.2. Solution Profile
+
 **Problema identificado:** En el entorno actual, muchas familias enfrentan dificultades para organizar sus rutinas, distribuir equitativamente las tareas del hogar y mantener una comunicación fluida sobre las responsabilidades compartidas. Esto suele derivar en sobrecarga para ciertos miembros del hogar (principalmente la cabeza de familia) y desorganización general que afecta la convivencia y el bienestar familiar. A pesar del avance digital, pocas soluciones integrales han sido diseñadas específicamente para la gestión colaborativa del hogar.
 
 **Solución propuesta:**
@@ -205,7 +212,6 @@ SynHome ofrece una plataforma intuitiva y multifuncional que permite a las famil
 - Desde el rol de usuario (integrantes): Consultar su calendario, recibir recordatorios, solicitar cambios de horario, visualizar tareas asignadas y objetos compartidos, y conocer quién se encuentra disponible en el hogar.
 
 Con funcionalidades como tareas personalizadas, historial de cumplimiento, objetos asignables, roles configurables, y una interfaz clara para la visualización cruzada de horarios, SynHome permite gestionar la vida en casa con mayor equilibrio, transparencia y participación activa de todos.
-
 
 #### 1.2.1. Antecedentes y problemática
 
