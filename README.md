@@ -362,16 +362,28 @@ Picniic fue una app todo-en-uno para familias modernas, con una interfaz muy bie
 #### 2.1.2. Estrategias y tácticas frente a competidores
 
 **1. Diferenciación en la Propuesta de Valor**
-* Estrategia: Ofrecer funcionalidades únicas que se alineen mejor con las necesidades de las familias en comparación con competidores como Cozi o FamilyWall.
-* Táctica: Asegurarse de que SynHome se enfoque en una experiencia de usuario simplificada con opciones personalizables para cada miembro de la familia, adaptándose a diferentes tipos de hogares (con niños, personas mayores, etc.).
+
+Estrategia: 
+* Ofrecer funcionalidades únicas que se alineen mejor con las necesidades de las familias en comparación con competidores como Cozi o FamilyWall.
+
+Táctica: 
+* Asegurarse de que SynHome se enfoque en una experiencia de usuario simplificada con opciones personalizables para cada miembro de la familia, adaptándose a diferentes tipos de hogares (con niños, personas mayores, etc.).
 
 **2. Mejorar la Personalización**
-* Estrategia: Identificar la falta de personalización en las aplicaciones competidoras y ofrecer una mayor flexibilidad para adaptar la plataforma a las necesidades de cada familia.
-* Táctica: Permitir que los usuarios personalicen completamente sus tableros de tareas, tareas recurrentes, y la asignación de responsabilidades según las preferencias de cada miembro del hogar.
+
+Estrategia:
+* Identificar la falta de personalización en las aplicaciones competidoras y ofrecer una mayor flexibilidad para adaptar la plataforma a las necesidades de cada familia.
+
+Táctica: 
+* Permitir que los usuarios personalicen completamente sus tableros de tareas, tareas recurrentes, y la asignación de responsabilidades según las preferencias de cada miembro del hogar.
 
 **3. Soporte y Atención al Cliente**
-* Estrategia: Aprovechar la falta de soporte eficiente de algunas plataformas competidoras, brindando un servicio de atención al cliente excepcional.
-* Táctica: Proporcionar tutoriales en video y una base de conocimientos extensa para guiar a los usuarios a través de la configuración y el uso de la plataforma.
+
+Estrategia: 
+* Aprovechar la falta de soporte eficiente de algunas plataformas competidoras, brindando un servicio de atención al cliente excepcional.
+
+Táctica: 
+* Proporcionar tutoriales en video y una base de conocimientos extensa para guiar a los usuarios a través de la configuración y el uso de la plataforma.
 
 **4. Fomento de la Colaboración Familiar**
 
@@ -383,8 +395,12 @@ Tácticas:
 * Ofrecer recompensas y sistemas de gamificación para motivar a todos los miembros de la familia a completar tareas (por ejemplo, puntos o recompensas por completar tareas o mantener el hogar organizado durante un mes).
 
 **5. Alianzas Estratégicas**
-* Estrategia: Colaborar con empresas que compartan el mismo público objetivo para aumentar el alcance y la visibilidad.
-* Táctica: Formar alianzas con marcas de productos del hogar, como empresas de tecnología (por ejemplo, con dispositivos inteligentes para el hogar) o marcas de artículos domésticos que podrían beneficiar a los usuarios de SynHome.
+
+Estrategia: 
+* Colaborar con empresas que compartan el mismo público objetivo para aumentar el alcance y la visibilidad.
+
+Táctica: 
+* Formar alianzas con marcas de productos del hogar, como empresas de tecnología (por ejemplo, con dispositivos inteligentes para el hogar) o marcas de artículos domésticos que podrían beneficiar a los usuarios de SynHome.
 
 
 ### 2.2. Entrevistas
