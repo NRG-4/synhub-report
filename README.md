@@ -172,10 +172,12 @@
 
 En esta sección, se presenta un análisis de los principales competidores de nuestra startup, centrado en aquellos que operan con modelos de negocio digitales similares o que, aunque no sean idénticos, ofrecen productos o servicios que se superponen parcialmente con los de SynHome. Evaluamos tanto competidores directos, que se encuentran en el mismo segmento de mercado, como competidores indirectos, que abordan áreas relacionadas como el uso de calendarios, horarios, sistemas de recompensas,etc .
 
-<img src="./images/chapter-2/Cozi.jpg" alt="Cozi" width="200"/>
+
 
 
 **1. Cozi Family Organizer**
+
+<img src="./images/chapter-2/Cozi.jpg" alt="Cozi" width="200"/>
 
 **Descripción:**
 
@@ -192,10 +194,12 @@ Cozi es una de las apps más populares para la organización familiar. Está dis
 ---
 
 
-<img src="./images/chapter-2/FamilyWall.png" alt="FamilyWall" width="200"/>
+
 
 
 **2. FamilyWall**
+
+<img src="./images/chapter-2/FamilyWall.png" alt="FamilyWall" width="200"/>
 
 **Descripción:**
 
@@ -211,9 +215,11 @@ FamilyWall es una plataforma familiar digital que integra varias funciones en un
 
 ---
 
-<img src="./images/chapter-2/OurHome.jpg" alt="OurHome" width="200"/>
+
 
 **3. OurHome**
+
+<img src="./images/chapter-2/OurHome.jpg" alt="OurHome" width="200"/>
 
 **Descripción:**
 
@@ -231,10 +237,12 @@ OurHome se enfoca en fomentar la **participación de los niños** en las tareas 
 ---
 
 
-<img src="./images/chapter-2/Picniic.jpg" alt="Picniic" width="200"/>
+
 
 
 **4. Picniic *(Nota: ya no se actualiza activamente)***
+
+<img src="./images/chapter-2/Picniic.jpg" alt="Picniic" width="200"/>
 
 **Descripción:**
 
@@ -287,7 +295,7 @@ Picniic fue una app todo-en-uno para familias modernas, con una interfaz muy bie
   <tr>
     <td rowspan="2">Perfil de Marketing</td>
     <td> Mercado Objetivo </td>
-    <td> Padres que buscan herramientas para organizarse mejor y distribuir responsabilidades entre todos los miembros del hogar, incluidos los niños. </td>
+    <td> Padres que buscan herramientas para organizarse mejor y distribuir responsabilidades entre todos los miembros del hogar y miembros del grupo familiar que no cumplen el rol administrativo, desde niños en edad escolar hasta adultos jóvenes o mayores que comparten responsabilidades dentro del hogar. </td>
     <td> Padres que buscan gestionar mejor su tiempo y el de su familia. </td>
     <td> Familias que buscan una plataforma unificada para coordinar actividades y compartir momentos. </td>
     <td> Padres que buscan herramientas de motivación para sus hijos. </td>
