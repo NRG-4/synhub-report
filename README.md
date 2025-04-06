@@ -363,7 +363,68 @@ Picniic fue una app todo-en-uno para familias modernas, con una interfaz muy bie
 
 ### 2.2. Entrevistas
 
+En esta sección del informe se realizará el diseño, registro y análisis de las entrevistas de nuestros segmentos objetivos.
+
 #### 2.2.1. Diseño de entrevistas
+
+ **1. Entrevista para el Encargado o Cabeza de la Familia**
+* Preguntas principales:
+
+¿Cuántos años tienes y cuál es tu ocupación o rol dentro de la familia?
+
+¿En qué distrito vives y cuál es tu estado civil?
+
+¿Qué relación tienes con los miembros de tu familia?
+
+¿Cómo distribuyes las tareas para los miembros de tu familia?
+
+* Preguntas complementarias:
+
+¿Qué herramientas digitales o físicas utilizas para organizar las tareas en casa? ¿Cuáles son las más eficaces y por qué?
+
+¿Te resulta fácil o complicado delegar tareas en otros miembros de la familia? ¿Qué obstáculos encuentras?
+
+¿Qué te motiva a mantener el hogar organizado? ¿Cuáles son tus principales frustraciones al gestionar las tareas familiares?
+
+¿Has tenido problemas de comunicación con otros miembros de la familia sobre quién debe hacer qué? ¿Cómo lo has resuelto?
+
+¿Qué esperas de una herramienta digital para gestionar las tareas del hogar? ¿Qué características serían clave para ti?
+
+¿Cuáles son los dispositivos digitales que más utilizas en tu día a día? ¿Prefieres aplicaciones móviles, herramientas web, o ambos?
+
+¿Qué tipo de plataformas digitales usas para comunicarte con los miembros de tu familia, como WhatsApp, correos electrónicos o apps específicas?
+
+¿Qué importancia le das a la seguridad y privacidad de la información familiar en una aplicación de organización?
+
+**2. Entrevista para el Integrante de la Familia**
+
+   * Preguntas principales:
+
+¿Cuántos años tienes y cuál es tu ocupación o rol dentro de la familia?
+
+¿En qué distrito vives y cuál es tu estado civil?
+
+¿Qué relación tienes con el encargado del hogar o cabeza de la familia?
+
+¿Cómo se distribuyen las tareas entre tú y el resto de la familia?
+
+  * Preguntas complementarias:
+
+¿Qué tareas del hogar realizas regularmente? ¿Cómo las aprendes o te las comunican?
+
+¿Te sientes involucrado o motivado en la organización de las tareas en casa? ¿Por qué?
+
+¿Cuáles son las tareas del hogar que te parecen más difíciles o tediosas de realizar?
+
+¿Qué aplicaciones o herramientas digitales utilizas para organizar tu vida diaria (trabajo, estudios, etc.)? ¿Te gustaría que las tareas del hogar también se gestionaran digitalmente?
+
+¿Qué dispositivos utilizas más a menudo (móvil, computadora, tablet)? ¿Cómo prefieres interactuar con ellos?
+
+¿Qué canales digitales prefieres para interactuar con tu familia (mensajes de texto, llamadas, apps, etc.)?
+
+¿Qué tipo de comunicación te gustaría que se estableciera en torno a las tareas del hogar? ¿Prefieres mensajes en grupo, recordatorios personalizados, o algo diferente?
+
+¿Tienes alguna frustración o dificultad con la manera en que se asignan las tareas actualmente? ¿Cómo crees que se podría mejorar?
 
 #### 2.2.2. Registro de entrevistas
 
