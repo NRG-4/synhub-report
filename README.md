@@ -195,8 +195,8 @@ Desde NRG4, aspiramos a consolidarnos como referentes en tecnología doméstica,
     <th colspan="2">Sebastian Pacheco Astiguetta</th>
   </tr>
   <tr>
-    <td> <img src="" alt="Sebastian Pacheco" style="width: 300px"> </td>
-    <td> asdf </td>
+    <td> <img src="images/chapter-1/Sebastian-pfp.png" alt="Sebastian Pacheco" style="width: 300px"> </td>
+    <td> Soy Sebastian Pacheco, tengo 22 años y soy alumno de Ingeniería de Software en la UPC. Me considero una persona trabajadora y activa, priorizando las responsabilidades ante todo, pero también destaco en trabajo en equipo, permitiendo a todos que participen. Tengo conocimiento de C++ y Python, los cuales pongo en práctica mediante proyectos personales. </td>
   </tr>
 </table>
 
