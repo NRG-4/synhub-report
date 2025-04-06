@@ -446,7 +446,24 @@ En esta sección, mostraremos los perfiles de los usuarios que hemos definido pa
 
 #### 2.3.3. User Journey Mapping
 
+En esta sección, se presenta el mapa de viaje del usuario, que ilustra las etapas y experiencias de los usuarios al interactuar con nuestro producto. Este mapa nos ayudará a identificar oportunidades de mejora y a comprender mejor las necesidades de nuestros usuarios.
+
+**1. User Journey: Encargado o Cabeza de la Familia**
+<img src="images/chapter-2/JOURNEY1.png" alt="User1 Journey" />
+
+**2. User Journey: Integrante de la Familia**
+<img src="images/chapter-2/JOURNEY2.png" alt="User2 Journey" />
+
 #### 2.3.4. Empathy Mapping
+
+En esta sección, se presenta el mapa de empatía, que nos ayudará a comprender mejor las emociones, pensamientos y necesidades de nuestros usuarios. Este mapa es una herramienta valiosa para identificar oportunidades de mejora en la experiencia del usuario.
+
+**1. Empathy Map: Encargado o Cabeza de la Familia**
+<img src="images/chapter-2/EMPMAP1.png" alt="Empathy Map 1" />
+
+**2. Empathy Map: Integrante de la Familia**
+<img src="images/chapter-2/EMPMAP2.png" alt="Empathy Map 2" />
+
 
 #### 2.3.5. As-is Scenario Mapping
 
