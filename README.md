@@ -215,6 +215,54 @@ Con funcionalidades como tareas personalizadas, historial de cumplimiento, objet
 
 #### 1.2.1. Antecedentes y problemática
 
+**What**
+- ¿Cuál es el problema?
+
+El problema que aborda SynHome es la dificultad que enfrentan muchas familias para organizar sus rutinas diarias, distribuir de manera equitativa las tareas del hogar y mantener una comunicación clara y constante sobre las responsabilidades compartidas.
+
+- ¿Cuál es la relación con la persona en cuestión?
+
+La relación es facilitar la conexión y colaboración entre los integrantes del hogar, permitiendo que cada persona, desde la cabeza de familia hasta los demás miembros, tenga visibilidad, participación activa y responsabilidad en la organización del día a día.
+
+**When**
+- ¿Cuándo sucede el problema?
+
+Sucede al intentar organizar rutinas semanales, repartir tareas domésticas, recordar compromisos o simplemente al mantener informados a todos los miembros sobre lo que ocurre en el hogar.
+
+- ¿Cuándo utiliza el cliente el producto?
+
+El cliente utiliza SynHome a lo largo del día, especialmente al momento de planificar la semana familiar, asignar o consultar tareas domésticas, coordinar horarios entre los integrantes del hogar, o dar seguimiento al cumplimiento de responsabilidades. También se recurre a la plataforma cuando surgen imprevistos que requieren reorganizar actividades, o cuando se desea comunicar cambios y recordatorios de forma clara y accesible para todos.
+
+**Where**
+- ¿Dónde está el cliente cuando usa el producto?
+
+El cliente utiliza SynHome principalmente desde su hogar, que es el entorno natural donde se gestionan las actividades familiares, pero también puede acceder a la plataforma desde cualquier lugar con conexión a Internet, como el trabajo, en la calle o durante un viaje.
+
+- ¿Dónde surge el problema?
+
+Se ven involucrados todos los miembros del hogar, especialmente la cabeza de familia, quien suele asumir la mayor carga en la organización y seguimiento de las tareas domésticas.
+
+**Who**
+- ¿Quienes se ven involucrados en el problema?
+
+Se ven involucrados todos los miembros del hogar, especialmente la cabeza de familia, quien suele asumir la mayor carga en la organización y seguimiento de las tareas domésticas.
+
+**Why**
+- ¿Cuáles son las causas del problema?
+
+Las causas del problema radican principalmente en la ausencia de herramientas digitales diseñadas específicamente para la gestión colaborativa del hogar. Muchas familias dependen de métodos informales o dispersos como notas físicas, chats desorganizados o calendarios individuales, lo que dificulta la coordinación efectiva de tareas y responsabilidades.
+
+**How**
+- ¿En qué condiciones los clientes usan nuestro producto?
+
+Los clientes usan SynHome en situaciones cotidianas donde necesitan organizar, coordinar o recordar las responsabilidades familiares, especialmente cuando buscan reducir la carga mental asociada a la gestión del hogar.
+
+**How Much**
+
+- ¿Cuál es la magnitud del problema?
+
+La magnitud del problema es significativa, ya que, según el estudio Global Home Index (GHI) aplicado en Perú por el Instituto de Ciencias para la Familia de la Universidad de Piura (Huarcaya, 2017), solo el 16% de las familias se capacita en organización del tiempo, y apenas el 17% distribuye tareas domésticas de manera equitativa según edades y capacidades. Esto refleja una falta de herramientas y métodos eficientes para gestionar el hogar, lo que genera sobrecarga en ciertos miembros y desorganización familiar.
+
 #### 1.2.2. Lean UX Process
 
 El lean UX process es un enfoque iterativo centrado en el usuario para el diseño de proyectos y productos. Este enfoque se base en ciclos rápidos (sprints) de investigación, diseño y pruebas para validar la propuesta o ideas planteadas por el equipo. Estas propuestas estarán siempre orientadas a satisfacer las necesidades de los usuarios.
