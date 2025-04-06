@@ -170,6 +170,81 @@
 
 ### 2.1. Competidores
 
+![Cozi](./images/chapter-2/Cozi.jpg)
+
+
+
+**1. Cozi Family Organizer**
+
+**📝 Descripción:**
+
+Cozi es una de las apps más populares para la organización familiar. Está diseñada para ayudar a que todos los miembros de la familia estén sincronizados con respecto a horarios, tareas, compras y planes familiares.
+
+**Principales características:**
+
+* **Calendario familiar compartido** con código de colores por miembro.
+* **Listas de compras y tareas** accesibles desde cualquier dispositivo.
+* **Planificador de comidas** con recetas y lista de ingredientes.
+* **Recordatorios y alertas** por correo o notificación push.
+* **Diario familiar** para registrar momentos especiales.
+
+---
+
+![Cozi](./images/chapter-2/FamilyWall.png)
+
+**🔵 2. FamilyWall**
+
+**📝 Descripción:**
+
+FamilyWall es una plataforma familiar digital que integra varias funciones en un solo espacio. Su diseño visual y amigable la hace ideal para familias con hijos de diferentes edades.
+
+**Principales características:**
+
+* **Calendario familiar compartido** y sincronización con Google/Outlook.
+* **Ubicación en tiempo real** (ideal para saber dónde están los hijos).
+* **Listas de tareas y compras** colaborativas.
+* **Mensajería privada o grupal**.
+* **Galería multimedia compartida** (fotos y videos familiares).
+
+---
+
+![Cozi](./images/chapter-2/OurHome.jpg)
+
+**🟢 3. OurHome**
+
+**📝 Descripción:**
+
+OurHome se enfoca en fomentar la **participación de los niños** en las tareas del hogar a través de un sistema de puntos y recompensas. Muy útil para familias que buscan educar en responsabilidad.
+
+**Principales características:**
+
+* **Asignación de tareas con recompensas** en forma de puntos.
+* **Seguimiento de cumplimiento** por niño.
+* **Sistema de metas y logros personalizados.**
+* **Lista de compras compartida.**
+* **Calendario con eventos y actividades familiares.**
+* **Interfaz atractiva para niños.**
+
+---
+
+
+![Cozi](./images/chapter-2/Picniic.jpg)
+
+**⚫ 4. Picniic *(Nota: ya no se actualiza activamente)***
+
+**📝 Descripción:**
+
+Picniic fue una app todo-en-uno para familias modernas, con una interfaz muy bien diseñada. Aunque su desarrollo ha sido pausado, sigue siendo una inspiración para apps como SynHome.
+
+**Principales características:**
+
+* **Calendario familiar visual y compartido.**
+* **Gestión de tareas y responsabilidades.**
+* **Lista de compras inteligente.**
+* **Planificador de comidas.**
+* **Centro de información médica, contactos de emergencia, etc.**
+* **Perfil de cada miembro con tareas asignadas.**
+
 #### 2.1.1. Análisis competitivo<table>
 
 <table> 
@@ -221,60 +296,6 @@
     <td>  </td>
   </tr>
   <tr>
-
-  </tr>
-  <tr>
-    <td rowspan="3">Perfil de Producto</td>
-    <td> Productos & Servicios </td>
-    <td>  </td>
-    <td>  </td>
-    <td>  </td>
-    <td>  </td>
-  </tr>
-  <tr>
-    <td> Precios & Costos </td>
-    <td>  </td>
-    <td>  </td>
-    <td>  </td>
-    <td>   </td>
-  </tr>
-  <tr> 
-    <td>Canales de distribución (Web y/o Móvil)</td>
-    <td>  </td>
-    <td>  </td>
-    <td>  </td>
-    <td>  </td>
-  </tr>
-  <tr>
-    <td rowspan="4"> Análisis SWOT </td>
-    <td> Fortalezas </td>
-    <td>  </td>
-    <td>  </td>
-    <td>  </td>
-    <td>  </td>
-  </tr>
-  <tr>
-    <td> Debilidades </td>
-    <td>  </td>
-    <td>  </td>
-    <td>  </td>
-    <td>  </td>
-  </tr>
-  <tr>
-    <td> Oportunidades </td>
-    <td>  </td>
-    <td>  </td>
-    <td>  </td>
-    <td>  </td>
-  </tr>
-  <tr>
-    <td> Amenazas </td>
-    <td>  </td>
-    <td>  </td>
-    <td>  </td>
-    <td>  </td>
-  </tr>
-</table>
 
 #### 2.1.2. Estrategias y tácticas frente a competidores
 
