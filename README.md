@@ -170,13 +170,12 @@
 
 ### 2.1. Competidores
 
-![Cozi](./images/chapter-2/Cozi.jpg)
-
+<img src="./images/chapter-2/Cozi.jpg" alt="Cozi" width="200"/>
 
 
 **1. Cozi Family Organizer**
 
-**📝 Descripción:**
+**Descripción:**
 
 Cozi es una de las apps más populares para la organización familiar. Está diseñada para ayudar a que todos los miembros de la familia estén sincronizados con respecto a horarios, tareas, compras y planes familiares.
 
@@ -190,11 +189,13 @@ Cozi es una de las apps más populares para la organización familiar. Está dis
 
 ---
 
-![Cozi](./images/chapter-2/FamilyWall.png)
 
-**🔵 2. FamilyWall**
+<img src="./images/chapter-2/FamilyWall.png" alt="FamilyWall" width="200"/>
 
-**📝 Descripción:**
+
+**2. FamilyWall**
+
+**Descripción:**
 
 FamilyWall es una plataforma familiar digital que integra varias funciones en un solo espacio. Su diseño visual y amigable la hace ideal para familias con hijos de diferentes edades.
 
@@ -208,11 +209,15 @@ FamilyWall es una plataforma familiar digital que integra varias funciones en un
 
 ---
 
-![Cozi](./images/chapter-2/OurHome.jpg)
+<img src="./images/chapter-2/Picniic.jpg" alt="Picniic" width="200"/>
 
-**🟢 3. OurHome**
 
-**📝 Descripción:**
+<img src="./images/chapter-2/OurHome.jpg" alt="OurHome" width="200"/>
+
+
+**3. OurHome**
+
+**Descripción:**
 
 OurHome se enfoca en fomentar la **participación de los niños** en las tareas del hogar a través de un sistema de puntos y recompensas. Muy útil para familias que buscan educar en responsabilidad.
 
@@ -228,11 +233,15 @@ OurHome se enfoca en fomentar la **participación de los niños** en las tareas 
 ---
 
 
-![Cozi](./images/chapter-2/Picniic.jpg)
+<img src="./images/chapter-2/Picniic.jpg" alt="Picniic" width="200"/>
 
-**⚫ 4. Picniic *(Nota: ya no se actualiza activamente)***
 
-**📝 Descripción:**
+<img src="./images/chapter-2/Picniic.jpg" alt="Picniic" width="200"/>
+
+
+**4. Picniic *(Nota: ya no se actualiza activamente)***
+
+**Descripción:**
 
 Picniic fue una app todo-en-uno para familias modernas, con una interfaz muy bien diseñada. Aunque su desarrollo ha sido pausado, sigue siendo una inspiración para apps como SynHome.
 
@@ -256,46 +265,95 @@ Picniic fue una app todo-en-uno para familias modernas, con una interfaz muy bie
     <td colspan="4"> Pregunta </td>
   </tr>
   <tr>
-    <td colspan="4"> Respuesta </td>
+    <td colspan="4"> Deberiamos llevar a cabo este analisis para conocer el entorno, la competencia, tomar decisiones de desarrollo  y construir nuestra propuesta de valor.  </td>
   </tr>
   <tr>
     <td colspan="2"> Productos </td>
-    <td>  </td>
-    <td>  </td>
-    <td>  </td>
-    <td>  </td>
+    <td style="text-align: center;">  <div>SynHome</div>  <img src="./images/chapter-2/SynHome.png" alt="SynHome" width="200"/> </td>
+    <td style="text-align: center;"> <div>Cozi</div>  <img src="./images/chapter-2/Cozi.jpg" alt="Picniic" width="200"/> </td>
+    <td style="text-align: center;"> <div>FamilyWall</div>  <img src="./images/chapter-2/FamilyWall.png" alt="Picniic" width="200"/> </td>
+    <td style="text-align: center;"> <div>OurHome</div>  <img src="./images/chapter-2/OurHome.jpg" alt="Picniic" width="200"/> </td>
   </tr>
   <tr>
     <td rowspan="2">Perfil</td>
     <td>Overview</td>
-    <td>  </td>
-    <td>  </td>
-    <td>  </td>
-    <td>  </td>
+    <td> Está diseñada para ayudar a las familias a organizarse mejor, distribuyendo las tareas del hogar de manera equitativa, mejorando la comunicación interna y optimizando el tiempo de cada miembro. </td>
+    <td> Organización familiar que permite a los miembros de la familia gestionar su calendario, tareas, listas de compras y otros aspectos de la vida diaria de manera colaborativa.</td>
+    <td> Plataforma de gestión familiar diseñada para ayudar a las familias a organizar su vida diaria. Ofrece funciones para coordinar calendarios, tareas, mensajes, fotos y más. </td>
+    <td> Aplicación diseñada para ayudar a las familias a gestionar tareas, responsabilidades y la comunicación. Es conocida por su énfasis en asignar tareas a los miembros de la familia </td>
   </tr>
   <tr>
     <td>Ventaja competitiva ¿Qué valor ofrece a los clientes? </td>
-    <td>  </td>
-    <td>  </td>
-    <td>  </td>
-    <td>  </td>
+    <td> Fomenta el trabajo colaborativo: Cada miembro tiene un rol definido y se involucra activamente en el mantenimiento del hogar, lo que fortalece la unidad familiar. </td>
+    <td> Permite el seguimiento de actividades familiares, desde citas médicas hasta eventos escolares. </td>
+    <td> Ayuda a mejorar la comunicación familiar mediante el chat y las actualizaciones compartidas. </td>
+    <td> Sistema de puntos para incentivar la participación en tareas y responsabilidades del hogar. </td>
   </tr>
   <tr>
     <td rowspan="2">Perfil de Marketing</td>
     <td> Mercado Objetivo </td>
-    <td>  </td>
-    <td>  </td>
-    <td>  </td>
-    <td>  </td>
+    <td> Padres que buscan herramientas para organizarse mejor y distribuir responsabilidades entre todos los miembros del hogar, incluidos los niños. </td>
+    <td> Padres que buscan gestionar mejor su tiempo y el de su familia. </td>
+    <td> Familias que buscan una plataforma unificada para coordinar actividades y compartir momentos. </td>
+    <td> Padres que buscan herramientas de motivación para sus hijos. </td>
   </tr>
   <tr>
     <td> Estrategias de Marketing </td>
-    <td>  </td>
-    <td>  </td>
-    <td>  </td>
-    <td>  </td>
+    <td> Pruebas gratuitas y versiones premium: Ofrecer una versión gratuita básica y luego incentivar la migración a la versión premium con funciones avanzadas. </td>
+    <td> Publicidad en redes sociales (Facebook, Instagram) dirigida a padres. </td>
+    <td> Ofrecen pruebas gratuitas para fomentar la adopción. </td>
+    <td> Ofrecen herramientas educativas para fomentar la participación de los niños en las tareas del hogar. </td>
+  </tr>
+<td rowspan="3">Perfil de Producto</td>
+    <td> Productos & Servicios </td>
+    <td> Gestión de tareas familiares(responsabilidades a cada miembro del hogar), horario y calendario compartido (visible para todos los miembros), sistema de recompensas (motivación para los miembros más jóvenes de la familia). </td>
+    <td> Calendarios familiares, listas de compras y tareas, recetas familiares,planificación de comidas y recordatorios de citas y eventos. </td>
+    <td> Calendario compartido, listas de compras y tareas, mensajería privada, compartición de fotosy planificación de eventos familiares. </td>
+    <td> Asignación de tareas y responsabilidades, planificación de comidas y listas de compras y sistema de recompensas basado en puntos. </td>
   </tr>
   <tr>
+    <td> Precios & Costos</td>
+    <td> Gratis con funciones básicas limitadas y costo mensual de 7 dolares </td>
+    <td> Versión premium por $29.99/año, que ofrece funciones adicionales como la personalización y la eliminación de anuncios. </td>
+    <td> Premium por $4.99/mes o $29.99/año con características avanzadas. </td>
+    <td> Premium por $3.99/mes o $29.99/año para funciones avanzadas. </td>
+  </tr>
+  <tr>
+    <td> Canales de distribución </td>
+    <td> App Store y Google Play Store. </td>
+    <td> App Store y Google Play Store. </td>
+    <td> App Store y Google Play Store. </td>
+    <td> App Store y Google Play Store. </td>
+  </tr>
+<td rowspan="5">Análisis SWOT</td>
+<tr>
+    <td> Fortalezas </td>
+    <td> Atractivo para familias que buscan mejorar la comunicación y colaboración en sus rutinas diarias. </td>
+    <td> Fácil de usar y con una interfaz intuitiva. </td>
+    <td> Funciones completas para gestionar la familia en un solo lugar. </td>
+    <td> Enfoque único en motivación mediante recompensas y sistema de puntos. </td>
+  </tr>
+<tr>
+    <td> Debilidades</td>
+    <td> La versión gratuita puede no ser suficiente para familias que buscan una solución más completa, lo que podría limitar la retención de usuarios. </td>
+    <td> La experiencia de usuario no es tan provechosa como otras aplicaciones de gestión más complejas. </td>
+    <td> La versión gratuita tiene restricciones significativas. </td>
+    <td> El sistema de recompensas puede no ser adecuado para todas las familias. </td>
+  </tr>
+<tr>
+    <td> Oportunidades</td>
+    <td> Ampliación de funciones: Integrar más características que permitan gestionar otros aspectos del hogar como las compras o la planificación de viajes familiares. </td>
+    <td> Aumento de colaboración en tareas entre miembros de la familia. </td>
+    <td> Expansión en la gestión de actividades educativas. </td>
+    <td> Mayor integración con otros dispositivos inteligentes del hogar. </td>
+  </tr>
+<tr>
+    <td> Amenazas</td>
+    <td> Falta de adopción por parte de familias que prefieren métodos tradicionales o no están tan familiarizadas con las aplicaciones móviles. </td>
+    <td> Falta de diferenciación en comparación con aplicaciones de productividad general como Google Calendar. </td>
+    <td> La falta de integraciones con otras plataformas populares como Google Calendar. </td>
+    <td> Escaso enfoque en la privacidad en algunos casos. </td>
+  </tr>
 
 #### 2.1.2. Estrategias y tácticas frente a competidores
 
