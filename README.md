@@ -273,6 +273,7 @@ El lean UX process es un enfoque iterativo centrado en el usuario para el diseñ
 **User Assumptions (Suposiciones de Usuario)**
 - ¿Quién es el usuario?: El usuario es alguien que busca una solución para organizar las tareas del hogar y mejorar la comunicación familiar.
 - ¿Dónde encaja nuestro producto en su trabajo o vida?: El producto encaja en la vida diaria del usuario, facilitando la gestión de tareas y responsabilidades familiares.
+- ¿Qué problemas resuelve nuestro producto?: Nuestro producto resuelve problemas de desorganización y falta de comunicación en el hogar.
 - ¿Cuándo y cómo se usa nuestro producto?: El producto se usa diariamente, especialmente en momentos de planificación y organización familiar.
 - ¿Qué características son importantes?: Las características importantes incluyen la asignación de tareas, la visualización de horarios, conocer la disponibilidad de la familia y la posibilidad de personalizar roles y permisos.
 - ¿Cómo debe verse y comportarse nuestro producto?: El producto debe verse intuitivo y amigable, con una interfaz clara que permita a los usuarios navegar fácilmente entre las diferentes funciones.
@@ -282,7 +283,7 @@ El lean UX process es un enfoque iterativo centrado en el usuario para el diseñ
 - Plataforma: Estas necesidades se pueden resolver a través de una aplicación móvil que ofrezca herramientas para la gestión de tareas y la comunicación, proporcionando una experiencia fluida y accesible.
 - Segmentación: Los miembros del hogar son (o serán) personas que buscan accesibilidad para  organizar sus tareas del hogar.
 - Comportamientos: El valor principal que un miembro del hogar quiere obtener de mi servicio es la facilidad de uso y la mejora en la organización de las tareas del hogar.
-- Beneficios: El miembro del hogar obtendrá, al usar mi servicio, beneficios como una mejor organización personal, mayor claridad sobre sus responsabilidades, y una sensación de logro al completar tareas.
+- Beneficios: El miembro del hogar obtendrá beneficios como una mejor organización personal, mayor claridad sobre sus responsabilidades, y una sensación de logro al completar tareas.
 - Captación de clientes: Adquiriré la mayoría de mis clientes a través de campañas de marketing digital, recomendaciones de usuarios actuales y colaboraciones con influencers en el ámbito familiar.
 - Modelo de ingresos: Generaré ingresos a través de la clasificación de la aplicación como uno de pago.
 - Competencia: Mi principal competencia en el mercado serán aplicaciones similares que ofrecen funciones de organización y gestión de tareas.
@@ -306,6 +307,109 @@ El lean UX process es un enfoque iterativo centrado en el usuario para el diseñ
 - Prototipos y pruebas: Necesitamos validar la facilidad de uso la efectividad del diseño a través de pruebas de usabilidad.
 
 ##### 1.2.2.3. Lean UX Hypothesis Statements
+**Hypothesis Statement 01:**
+- Creemos que el usuario es alguien que busca una solución para organizar las tareas del hogar y mejorar la comunicación familiar.
+- Sabremos que estamos en lo correcto cuando veamos comentarios positivos de los usuarios sobre la efectividad de la aplicación y un aumento de usuarios registrados.
+
+**Hypothesis Stamenent 02:**
+- Creemos que el producto encaja en la vida diaria del usuario, facilitando la gestión de tareas y responsabilidades familiares.
+- Sabremos que estamos en lo correcto cuando veamos comentarios positivos de los usuarios sobre la facilidad de uso y la integración en su rutina diaria.
+
+**Hypothesis Stamenent 03:**
+- Creemos que el producto resuelve problemas de desorganización y falta de comunicación en el hogar.
+- Sabremos que estamos en lo correcto cuando veamos una disminución en los conflictos familiares relacionados con la organización de tareas.
+
+**Hypothesis Stamenent 04:**
+- Creemos que el producto se usa diariamente, especialmente en momentos de planificación y organización familiar.
+- Sabremos que estamos en lo correcto cuando veamos un aumento en la frecuencia de uso de la aplicación.
+
+**Hypothesis Stamenent 05:**
+- Creemos que las características importantes incluyen la asignación de tareas, la visualización de horarios, conocer la disponibilidad de la familia y la posibilidad de personalizar roles y permisos.
+- Sabremos que estamos en lo correcto cuando veamos comentarios positivos de los usuarios sobre estas características y un aumento en la satisfacción del usuario.
+
+**Hypothesis Stamenent 06:**
+- Creemos que el producto debe verse intuitivo y amigable, con una interfaz clara que permita a los usuarios navegar fácilmente entre las diferentes funciones.
+- Sabremos que estamos en lo correcto cuando veamos comentarios positivos de los usuarios sobre la interfaz y la facilidad de navegación.
+
+**Hypothesis Stamenent 07:**
+- Creemos que los miembros del hogar tienen la necesidad de organizar sus tareas de manera eficiente y mejorar la comunicación familiar.
+- Sabremos que estamos en lo correcto cuando veamos un aumento en la adopción de la aplicación y comentarios positivos sobre su utilidad.
+
+**Hypothesis Stamenent 08:**
+- Creemos que estas necesidades se pueden resolver a través de una aplicación móvil que ofrezca herramientas para la gestión de tareas y la comunicación, proporcionando una experiencia fluida y accesible.
+- Sabremos que estamos en lo correcto cuando veamos un aumento en la satisfacción del usuario asociada a la gestión del hogar.
+
+**Hypothesis Stamenent 09:**
+- Creemos que los miembros del hogar son personas que buscan accesibilidad para organizar sus tareas del hogar.
+- Sabremos que estamos en lo correcto cuando veamos un aumento en el número de usuarios registrados que buscan este tipo de solución.
+
+**Hypothesis Stamenent 10:**
+- Creemos que el valor principal que un miembro del hogar quiere obtener de mi servicio es la facilidad de uso y la mejora en la organización de las tareas del hogar.
+- Sabremos que estamos en lo correcto cuando veamos comentarios positivos sobre la facilidad de uso y la efectividad de la aplicación en la organización de tareas.
+
+**Hypothesis Stamenent 11:**
+- Creemos que el miembro del hogar obtendrá beneficios como una mejor organización personal, mayor claridad sobre sus responsabilidades, y una sensación de logro al completar tareas.
+- Sabremos que estamos en lo correcto cuando veamos comentarios positivos sobre los beneficios percibidos y un aumento en la satisfacción del usuario.
+
+**Hypothesis Stamenent 12:**
+- Creemos que adquiriremos la mayoría de nuestros clientes a través de campañas de marketing digital, recomendaciones de usuarios actuales y colaboraciones con influencers en el ámbito familiar.
+- Sabremos que estamos en lo correcto cuando veamos un aumento en la adquisición de usuarios a través de estos canales y un crecimiento en la base de usuarios.
+
+**Hypothesis Stamenent 13:**
+- Creemos que generaremos ingresos a través de la clasificación de la aplicación como uno de pago.
+- Sabremos que estamos en lo correcto cuando veamos un aumento de ingresos provenientes de la compra de la aplicación.
+
+**Hypothesis Stamenent 14:**
+- Creemos que nuestra principal competencia en el mercado serán aplicaciones similares que ofrecen funciones de organización y gestión de tareas.
+- Sabremos que estamos en lo correcto cuando veamos un análisis competitivo que confirme esta suposición.
+
+**Hypothesis Stamenent 15:**
+- Creemos que superaremos a la competencia debido a nuestro enfoque en la personalización y la facilidad de uso, así como a la integración de funciones específicas para el hogar.
+- Sabremos que estamos en lo correcto cuando veamos comentarios positivos sobre estos aspectos y un aumento en la adopción de la aplicación en comparación con la competencia.
+
+**Hypothesis Stamenent 16:**
+- Creemos que podemos utilizar tecnologías móviles actuales para desarrollar la aplicación.
+- Sabremos que estamos en lo correcto cuando veamos que la aplicación funciona sin problemas en dispositivos móviles y cumple con los estándares de rendimiento.
+
+**Hypothesis Stamenent 17:**
+- Creemos que la aplicación se integrará con otras plataformas de calendario y comunicación.
+- Sabremos que estamos en lo correcto cuando veamos que la integración funciona sin problemas y los usuarios pueden sincronizar sus calendarios y comunicaciones de manera efectiva.
+
+**Hypothesis Stamenent 18:**
+- Creemos que la aplicación podrá escalar para soportar un número creciente de usuarios y datos.
+- Sabremos que estamos en lo correcto cuando veamos que la aplicación maneja un aumento en la carga de usuarios y datos sin problemas de rendimiento.
+
+**Hypothesis Stamenent 19:**
+- Creemos que existe un mercado significativo de familias que buscan soluciones para la organización del hogar.
+- Sabremos que estamos en lo correcto cuando veamos un aumento en la adopción de la aplicación y un crecimiento en la base de usuarios.
+
+**Hypothesis Stamenent 20:**
+- Creemos que las aplicaciones similares son los principales competidores.
+- Sabremos que estamos en lo correcto cuando veamos un análisis competitivo que confirme esta suposición y un aumento en la adopción de nuestra aplicación en comparación con la competencia.
+
+**Hypothesis Stamenent 21:**
+- Creemos que el mercado de aplicaciones de organización y productividad está en crecimiento, impulsado por la necesidad de soluciones digitales en la vida diaria.
+- Sabremos que estamos en lo correcto cuando veamos un aumento en la adopción de aplicaciones de organización y productividad familiar y un crecimiento en la base de usuarios de nuestra aplicación.
+
+**Hypothesis Stamenent 22:**
+- Creemos que los usuarios interactuarán con la aplicación con mayor facilidad si implementamos un calendario compartido familiar, recordatorios automáticos y asignación de tareas domésticas.
+- Sabremos que estamos en lo correcto cuando veamos comentarios positivos sobre la facilidad de uso y la efectividad de estas características en la organización de tareas.
+
+**Hypothesis Stamenent 23:**
+- Creemos que los usuarios valorarán una experiencia de organización simple, flexible, colaborativa y motivadora.
+- Sabremos que estamos en lo correcto cuando veamos comentarios positivos sobre la experiencia de usuario y un aumento en la satisfacción del usuario.
+
+**Hypothesis Stamenent 24:**
+- Creemos que los usuarios prefieren una paleta de colores pastel y una tipografía moderna y legible.
+- Sabremos que estamos en lo correcto cuando veamos comentarios positivos sobre la estética de la aplicación y un aumento en la satisfacción del usuario.
+
+**Hypothesis Stamenent 25:**
+- Creemos que los usuarios consideran atractivo un diseño simple con iconos intuitivos.
+- Sabremos que estamos en lo correcto cuando veamos comentarios positivos sobre la usabilidad y la estética de la aplicación.
+
+**Hypothesis Stamenent 26:**
+- Creemos que necesitamos validar la facilidad de uso y la efectividad del diseño a través de pruebas de usabilidad.
+- Sabremos que estamos en lo correcto cuando veamos resultados positivos en las pruebas de usabilidad y comentarios constructivos de los usuarios.
 
 ##### 1.2.2.4. Lean UX Canvas
 
