@@ -185,7 +185,7 @@ Desde NRG4, aspiramos a consolidarnos como referentes en tecnología doméstica,
     <td> Me llamo Gianluca Santino Pasquale Barrenechea, estudiante de Ingeniería de Software (código u202112078). En nuestra Startup, me enfoco en el desarrollo frontend y backend, utilizando C++, C#, Python, Java, HTML y JavaScript. Mi objetivo es crear soluciones escalables y eficientes, mejorando la experiencia del usuario y optimizando la operación de la plataforma, siempre aplicando metodologías ágiles como Scrum. </td>
   </tr>
   <tr>
-    <th colspan="2">Jose Antonio  Alejo Cardenas</th>
+    <th colspan="2">Jose Antonio Alejo Cardenas</th>
   </tr>
   <tr>
     <td> <img src="" alt="Jose Alejo" style="width: 300px"> </td>
@@ -216,6 +216,7 @@ Con funcionalidades como tareas personalizadas, historial de cumplimiento, objet
 #### 1.2.1. Antecedentes y problemática
 
 **What**
+
 - ¿Cuál es el problema?
 
 El problema que aborda SynHome es la dificultad que enfrentan muchas familias para organizar sus rutinas diarias, distribuir de manera equitativa las tareas del hogar y mantener una comunicación clara y constante sobre las responsabilidades compartidas.
@@ -225,6 +226,7 @@ El problema que aborda SynHome es la dificultad que enfrentan muchas familias pa
 La relación es facilitar la conexión y colaboración entre los integrantes del hogar, permitiendo que cada persona, desde la cabeza de familia hasta los demás miembros, tenga visibilidad, participación activa y responsabilidad en la organización del día a día.
 
 **When**
+
 - ¿Cuándo sucede el problema?
 
 Sucede al intentar organizar rutinas semanales, repartir tareas domésticas, recordar compromisos o simplemente al mantener informados a todos los miembros sobre lo que ocurre en el hogar.
@@ -234,6 +236,7 @@ Sucede al intentar organizar rutinas semanales, repartir tareas domésticas, rec
 El cliente utiliza SynHome a lo largo del día, especialmente al momento de planificar la semana familiar, asignar o consultar tareas domésticas, coordinar horarios entre los integrantes del hogar, o dar seguimiento al cumplimiento de responsabilidades. También se recurre a la plataforma cuando surgen imprevistos que requieren reorganizar actividades, o cuando se desea comunicar cambios y recordatorios de forma clara y accesible para todos.
 
 **Where**
+
 - ¿Dónde está el cliente cuando usa el producto?
 
 El cliente utiliza SynHome principalmente desde su hogar, que es el entorno natural donde se gestionan las actividades familiares, pero también puede acceder a la plataforma desde cualquier lugar con conexión a Internet, como el trabajo, en la calle o durante un viaje.
@@ -243,16 +246,19 @@ El cliente utiliza SynHome principalmente desde su hogar, que es el entorno natu
 Se ven involucrados todos los miembros del hogar, especialmente la cabeza de familia, quien suele asumir la mayor carga en la organización y seguimiento de las tareas domésticas.
 
 **Who**
+
 - ¿Quienes se ven involucrados en el problema?
 
 Se ven involucrados todos los miembros del hogar, especialmente la cabeza de familia, quien suele asumir la mayor carga en la organización y seguimiento de las tareas domésticas.
 
 **Why**
+
 - ¿Cuáles son las causas del problema?
 
 Las causas del problema radican principalmente en la ausencia de herramientas digitales diseñadas específicamente para la gestión colaborativa del hogar. Muchas familias dependen de métodos informales o dispersos como notas físicas, chats desorganizados o calendarios individuales, lo que dificulta la coordinación efectiva de tareas y responsabilidades.
 
 **How**
+
 - ¿En qué condiciones los clientes usan nuestro producto?
 
 Los clientes usan SynHome en situaciones cotidianas donde necesitan organizar, coordinar o recordar las responsabilidades familiares, especialmente cuando buscan reducir la carga mental asociada a la gestión del hogar.
@@ -269,8 +275,16 @@ El lean UX process es un enfoque iterativo centrado en el usuario para el diseñ
 
 ##### 1.2.2.1. Lean UX Problem Statements
 
+Las familias modernas enfrentan desafíos significativos al intentar coordinar actividades, tareas del hogar y responsabilidades individuales entre sus miembros. A pesar del uso de herramientas digitales como calendarios compartidos o aplicaciones de mensajería, estas soluciones suelen ser fragmentadas, poco intuitivas o no están adaptadas al contexto específico de una familia.
+
+Actualmente, existen muy pocas soluciones centralizadas, eficientes y accesibles que permitan a las familias gestionar su vida diaria de manera colaborativa y estructurada. Esto ha llevado a una falta de organización, distribución desigual de responsabilidades, olvidos frecuentes y conflictos por tareas no cumplidas.
+
+SynHome surge como una propuesta para cubrir esta necesidad mediante una plataforma digital especializada en la organización del hogar, que facilite la asignación de tareas, el seguimiento del cumplimiento, la visualización de horarios compartidos y el fortalecimiento de la colaboración familiar.
+
 ##### 1.2.2.2. Lean UX Assumptions
+
 **User Assumptions (Suposiciones de Usuario)**
+
 - ¿Quién es el usuario?: El usuario es alguien que busca una solución para organizar las tareas del hogar y mejorar la comunicación familiar.
 - ¿Dónde encaja nuestro producto en su trabajo o vida?: El producto encaja en la vida diaria del usuario, facilitando la gestión de tareas y responsabilidades familiares.
 - ¿Qué problemas resuelve nuestro producto?: Nuestro producto resuelve problemas de desorganización y falta de comunicación en el hogar.
@@ -279,6 +293,7 @@ El lean UX process es un enfoque iterativo centrado en el usuario para el diseñ
 - ¿Cómo debe verse y comportarse nuestro producto?: El producto debe verse intuitivo y amigable, con una interfaz clara que permita a los usuarios navegar fácilmente entre las diferentes funciones.
 
 **Business Assumptions (Suposiciones de Negocio)**
+
 - Necesidades y problemas: Creo que los miembros del hogar tienen la necesidad de organizar sus tareas de manera eficiente y mejorar la comunicación familiar.
 - Plataforma: Estas necesidades se pueden resolver a través de una aplicación móvil que ofrezca herramientas para la gestión de tareas y la comunicación, proporcionando una experiencia fluida y accesible.
 - Segmentación: Los miembros del hogar son (o serán) personas que buscan accesibilidad para  organizar sus tareas del hogar.
@@ -290,16 +305,19 @@ El lean UX process es un enfoque iterativo centrado en el usuario para el diseñ
 - Los superaremos debido a nuestro enfoque en la personalización y la facilidad de uso, así como a la integración de funciones específicas para el hogar.
 
 **Technical Assumptions (Suposiciones Técnicas)**
+
 - Tecnología utilizada: Podemos utilizar tecnologías móviles actuales para desarrollar la aplicación.
 - Integraciones: La aplicación se integrará con otras plataformas de calendario y comunicación.
 - Escalabilidad: La aplicación podrá escalar para soportar un número creciente de usuarios y datos.
 
 **Market Assumptions (Suposiciones de Mercado)**
+
 - Tamaño del mercado: Existe un mercado significativo de familias que buscan soluciones para la organización del hogar.
 - Competencia: Las aplicaciones similares son los principales competidores.
 - Tendencias: El mercado de aplicaciones de organización y productividad está en crecimiento, impulsado por la necesidad de soluciones digitales en la vida diaria.
 
 **Design Assumptions (Suposiciones de Diseño)**
+
 - Interacción del usuario: Los usuarios interactuarán con la aplicación con mayor facilidad si implementamos un calendario compartido familiar, recordatorios automáticos y asignación de tareas domésticas.
 - Experiencia del usuario: Los usuarios valorarán una experiencia de organización simple, flexible, colaborativa y motivadora.
 - Colores y la tipografía: Los usuarios prefieren una paleta de colores pastel y una tipografía moderna y legible.
@@ -307,107 +325,134 @@ El lean UX process es un enfoque iterativo centrado en el usuario para el diseñ
 - Prototipos y pruebas: Necesitamos validar la facilidad de uso la efectividad del diseño a través de pruebas de usabilidad.
 
 ##### 1.2.2.3. Lean UX Hypothesis Statements
+
 **Hypothesis Statement 01:**
+
 - Creemos que el usuario es alguien que busca una solución para organizar las tareas del hogar y mejorar la comunicación familiar.
 - Sabremos que estamos en lo correcto cuando veamos comentarios positivos de los usuarios sobre la efectividad de la aplicación y un aumento de usuarios registrados.
 
 **Hypothesis Stamenent 02:**
+
 - Creemos que el producto encaja en la vida diaria del usuario, facilitando la gestión de tareas y responsabilidades familiares.
 - Sabremos que estamos en lo correcto cuando veamos comentarios positivos de los usuarios sobre la facilidad de uso y la integración en su rutina diaria.
 
 **Hypothesis Stamenent 03:**
+
 - Creemos que el producto resuelve problemas de desorganización y falta de comunicación en el hogar.
 - Sabremos que estamos en lo correcto cuando veamos una disminución en los conflictos familiares relacionados con la organización de tareas.
 
 **Hypothesis Stamenent 04:**
+
 - Creemos que el producto se usa diariamente, especialmente en momentos de planificación y organización familiar.
 - Sabremos que estamos en lo correcto cuando veamos un aumento en la frecuencia de uso de la aplicación.
 
 **Hypothesis Stamenent 05:**
+
 - Creemos que las características importantes incluyen la asignación de tareas, la visualización de horarios, conocer la disponibilidad de la familia y la posibilidad de personalizar roles y permisos.
 - Sabremos que estamos en lo correcto cuando veamos comentarios positivos de los usuarios sobre estas características y un aumento en la satisfacción del usuario.
 
 **Hypothesis Stamenent 06:**
+
 - Creemos que el producto debe verse intuitivo y amigable, con una interfaz clara que permita a los usuarios navegar fácilmente entre las diferentes funciones.
 - Sabremos que estamos en lo correcto cuando veamos comentarios positivos de los usuarios sobre la interfaz y la facilidad de navegación.
 
 **Hypothesis Stamenent 07:**
+
 - Creemos que los miembros del hogar tienen la necesidad de organizar sus tareas de manera eficiente y mejorar la comunicación familiar.
 - Sabremos que estamos en lo correcto cuando veamos un aumento en la adopción de la aplicación y comentarios positivos sobre su utilidad.
 
 **Hypothesis Stamenent 08:**
+
 - Creemos que estas necesidades se pueden resolver a través de una aplicación móvil que ofrezca herramientas para la gestión de tareas y la comunicación, proporcionando una experiencia fluida y accesible.
 - Sabremos que estamos en lo correcto cuando veamos un aumento en la satisfacción del usuario asociada a la gestión del hogar.
 
 **Hypothesis Stamenent 09:**
+
 - Creemos que los miembros del hogar son personas que buscan accesibilidad para organizar sus tareas del hogar.
 - Sabremos que estamos en lo correcto cuando veamos un aumento en el número de usuarios registrados que buscan este tipo de solución.
 
 **Hypothesis Stamenent 10:**
+
 - Creemos que el valor principal que un miembro del hogar quiere obtener de mi servicio es la facilidad de uso y la mejora en la organización de las tareas del hogar.
 - Sabremos que estamos en lo correcto cuando veamos comentarios positivos sobre la facilidad de uso y la efectividad de la aplicación en la organización de tareas.
 
 **Hypothesis Stamenent 11:**
+
 - Creemos que el miembro del hogar obtendrá beneficios como una mejor organización personal, mayor claridad sobre sus responsabilidades, y una sensación de logro al completar tareas.
 - Sabremos que estamos en lo correcto cuando veamos comentarios positivos sobre los beneficios percibidos y un aumento en la satisfacción del usuario.
 
 **Hypothesis Stamenent 12:**
+
 - Creemos que adquiriremos la mayoría de nuestros clientes a través de campañas de marketing digital, recomendaciones de usuarios actuales y colaboraciones con influencers en el ámbito familiar.
 - Sabremos que estamos en lo correcto cuando veamos un aumento en la adquisición de usuarios a través de estos canales y un crecimiento en la base de usuarios.
 
 **Hypothesis Stamenent 13:**
+
 - Creemos que generaremos ingresos a través de la clasificación de la aplicación como uno de pago.
 - Sabremos que estamos en lo correcto cuando veamos un aumento de ingresos provenientes de la compra de la aplicación.
 
 **Hypothesis Stamenent 14:**
+
 - Creemos que nuestra principal competencia en el mercado serán aplicaciones similares que ofrecen funciones de organización y gestión de tareas.
 - Sabremos que estamos en lo correcto cuando veamos un análisis competitivo que confirme esta suposición.
 
 **Hypothesis Stamenent 15:**
+
 - Creemos que superaremos a la competencia debido a nuestro enfoque en la personalización y la facilidad de uso, así como a la integración de funciones específicas para el hogar.
 - Sabremos que estamos en lo correcto cuando veamos comentarios positivos sobre estos aspectos y un aumento en la adopción de la aplicación en comparación con la competencia.
 
 **Hypothesis Stamenent 16:**
+
 - Creemos que podemos utilizar tecnologías móviles actuales para desarrollar la aplicación.
 - Sabremos que estamos en lo correcto cuando veamos que la aplicación funciona sin problemas en dispositivos móviles y cumple con los estándares de rendimiento.
 
 **Hypothesis Stamenent 17:**
+
 - Creemos que la aplicación se integrará con otras plataformas de calendario y comunicación.
 - Sabremos que estamos en lo correcto cuando veamos que la integración funciona sin problemas y los usuarios pueden sincronizar sus calendarios y comunicaciones de manera efectiva.
 
 **Hypothesis Stamenent 18:**
+
 - Creemos que la aplicación podrá escalar para soportar un número creciente de usuarios y datos.
 - Sabremos que estamos en lo correcto cuando veamos que la aplicación maneja un aumento en la carga de usuarios y datos sin problemas de rendimiento.
 
 **Hypothesis Stamenent 19:**
+
 - Creemos que existe un mercado significativo de familias que buscan soluciones para la organización del hogar.
 - Sabremos que estamos en lo correcto cuando veamos un aumento en la adopción de la aplicación y un crecimiento en la base de usuarios.
 
 **Hypothesis Stamenent 20:**
+
 - Creemos que las aplicaciones similares son los principales competidores.
 - Sabremos que estamos en lo correcto cuando veamos un análisis competitivo que confirme esta suposición y un aumento en la adopción de nuestra aplicación en comparación con la competencia.
 
 **Hypothesis Stamenent 21:**
+
 - Creemos que el mercado de aplicaciones de organización y productividad está en crecimiento, impulsado por la necesidad de soluciones digitales en la vida diaria.
 - Sabremos que estamos en lo correcto cuando veamos un aumento en la adopción de aplicaciones de organización y productividad familiar y un crecimiento en la base de usuarios de nuestra aplicación.
 
 **Hypothesis Stamenent 22:**
+
 - Creemos que los usuarios interactuarán con la aplicación con mayor facilidad si implementamos un calendario compartido familiar, recordatorios automáticos y asignación de tareas domésticas.
 - Sabremos que estamos en lo correcto cuando veamos comentarios positivos sobre la facilidad de uso y la efectividad de estas características en la organización de tareas.
 
 **Hypothesis Stamenent 23:**
+
 - Creemos que los usuarios valorarán una experiencia de organización simple, flexible, colaborativa y motivadora.
 - Sabremos que estamos en lo correcto cuando veamos comentarios positivos sobre la experiencia de usuario y un aumento en la satisfacción del usuario.
 
 **Hypothesis Stamenent 24:**
+
 - Creemos que los usuarios prefieren una paleta de colores pastel y una tipografía moderna y legible.
 - Sabremos que estamos en lo correcto cuando veamos comentarios positivos sobre la estética de la aplicación y un aumento en la satisfacción del usuario.
 
 **Hypothesis Stamenent 25:**
+
 - Creemos que los usuarios consideran atractivo un diseño simple con iconos intuitivos.
 - Sabremos que estamos en lo correcto cuando veamos comentarios positivos sobre la usabilidad y la estética de la aplicación.
 
 **Hypothesis Stamenent 26:**
+
 - Creemos que necesitamos validar la facilidad de uso y la efectividad del diseño a través de pruebas de usabilidad.
 - Sabremos que estamos en lo correcto cuando veamos resultados positivos en las pruebas de usabilidad y comentarios constructivos de los usuarios.
 
@@ -421,12 +466,12 @@ Este grupo está conformado por personas que asumen el rol principal en la gesti
 
 Características clave:
 
-- Edad: 30 a 55 años 
-- Género: Ambos 
-- Estado civil: Casados, convivientes o solteros con hijos u otros dependientes 
-- Nivel educativo: Técnico o universitario 
-- Ocupación: Profesionales, empleados o trabajadores independientes 
-- Uso de tecnología: Usuarios frecuentes de smartphones, calendarios digitales y aplicaciones móviles para productividad 
+- Edad: 30 a 55 años
+- Género: Ambos
+- Estado civil: Casados, convivientes o solteros con hijos u otros dependientes
+- Nivel educativo: Técnico o universitario
+- Ocupación: Profesionales, empleados o trabajadores independientes
+- Uso de tecnología: Usuarios frecuentes de smartphones, calendarios digitales y aplicaciones móviles para productividad
 - Necesidades: Distribuir tareas de manera equitativa, evitar la sobrecarga, visualizar horarios, fomentar la participación de los demás miembros del hogar y mantener una comunicación fluida.
 
 **Segmento Objetivo #2:** Integrantes del hogar
