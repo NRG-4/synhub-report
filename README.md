@@ -172,30 +172,25 @@
 
 En esta sección, se presenta un análisis de los principales competidores de nuestra startup, centrado en aquellos que operan con modelos de negocio digitales similares o que, aunque no sean idénticos, ofrecen productos o servicios que se superponen parcialmente con los de SynHome. Evaluamos tanto competidores directos, que se encuentran en el mismo segmento de mercado, como competidores indirectos, que abordan áreas relacionadas como el uso de calendarios, horarios, sistemas de recompensas,etc .
 
+**1. Asana**
 
-
-
-**1. Cozi Family Organizer**
-
-<img src="./images/chapter-2/Cozi.jpg" alt="Cozi" width="200"/>
+<img src="./images/chapter-2/asana.jpg" alt="Asana" width="200"/>
 
 **Descripción:**
 
-Cozi es una de las apps más populares para la organización familiar. Está diseñada para ayudar a que todos los miembros de la familia estén sincronizados con respecto a horarios, tareas, compras y planes familiares.
+Asana es una herramienta de gestión de proyectos que permite a los equipos organizar tareas, asignar responsabilidades y seguir el progreso de los proyectos.**Ofrece múltiples vistas, como listas, tableros Kanban y calendarios, facilitando la personalización según las necesidades del equipo.
 
-**Principales características:**
+**Características principales:**
 
-* **Calendario familiar compartido** con código de colores por miembro.
-* **Listas de compras y tareas** accesibles desde cualquier dispositivo.
-* **Planificador de comidas** con recetas y lista de ingredientes.
-* **Recordatorios y alertas** por correo o notificación push.
-* **Diario familiar** para registrar momentos especiales.
+* **Proyectos y tareas** organizados en listas, tableros Kanban, calendarios y cronogramas.
+* **Subtareas y dependencias** para definir pasos y secuencias de trabajo.
+* **Colaboración**: asignación de tareas, comentarios, archivos adjuntos.
+* **Notificaciones y recordatorios** por correo y en app.
+* **Informes y seguimiento** de progreso (gráficas, porcentaje completado).
+* **Integraciones** con Slack, Google Drive, Microsoft Teams, etc.
+* **App móvil** intuitiva, con acceso a tareas, calendario y colaboración.
 
 ---
-
-
-
-
 
 **2. FamilyWall**
 
@@ -215,192 +210,51 @@ FamilyWall es una plataforma familiar digital que integra varias funciones en un
 
 ---
 
-
-
 **3. OurHome**
 
-<img src="./images/chapter-2/OurHome.jpg" alt="OurHome" width="200"/>
+<img src="./images/chapter-2/clickup.jpg" alt="ClickUp" width="200"/>
 
 **Descripción:**
 
-OurHome se enfoca en fomentar la **participación de los niños** en las tareas del hogar a través de un sistema de puntos y recompensas. Muy útil para familias que buscan educar en responsabilidad.
+ClickUp es una plataforma todo-en-uno que ofrece funciones de gestión de tareas, documentos, objetivos y más.**Es conocida por su alta personalización y adaptabilidad a diferentes flujos de trabajo.
 
-**Principales características:**
+**Características principales:**
 
-* **Asignación de tareas con recompensas** en forma de puntos.
-* **Seguimiento de cumplimiento** por niño.
-* **Sistema de metas y logros personalizados.**
-* **Lista de compras compartida.**
-* **Calendario con eventos y actividades familiares.**
-* **Interfaz atractiva para niños.**
+* **Jerarquía flexible**: espacios, carpetas, listas, tareas y subtareas.
+* **Vistas múltiples**: lista, tablero, calendario, Gantt, cronología, workload.
+* **Seguimiento de tiempo** incluido (sin integraciones externas).
+* **Docs internos**, notas y wikis colaborativos.
+* **Gestión de metas y OKRs** (objectives and key results).
+* **Automatizaciones personalizadas**.
+* **Comentarios con menciones**, edición colaborativa.
+* **Plantillas reutilizables** para tareas o proyectos.
+* **App móvil** potente, aunque puede ser compleja para usuarios nuevos.
 
 ---
 
-
-
-
-
 **4. Picniic *(Nota: ya no se actualiza activamente)***
 
-<img src="./images/chapter-2/Picniic.jpg" alt="Picniic" width="200"/>
+<img src="./images/chapter-2/monday.com.jpg" alt="monday.com" width="200"/>
 
 **Descripción:**
 
-Picniic fue una app todo-en-uno para familias modernas, con una interfaz muy bien diseñada. Aunque su desarrollo ha sido pausado, sigue siendo una inspiración para apps como SynHome.
+Monday.com proporciona una interfaz visual para planificar, rastrear y colaborar en proyectos.**Ofrece integraciones con diversas herramientas y es apreciada por su facilidad de uso y escalabilidad.
 
-**Principales características:**
+**Características principales:**
 
-* **Calendario familiar visual y compartido.**
-* **Gestión de tareas y responsabilidades.**
-* **Lista de compras inteligente.**
-* **Planificador de comidas.**
-* **Centro de información médica, contactos de emergencia, etc.**
-* **Perfil de cada miembro con tareas asignadas.**
+* **Tablas visuales** personalizables para tareas, flujos, y procesos.
+* **Elementos configurables**: estado, fecha, texto, números, personas, etiquetas.
+* **Automatizaciones fáciles** (si sucede X, entonces haz Y).
+* **Vistas de calendario, cronograma, Kanban y workload**.
+* **Colaboración por columnas** con comentarios y archivos.
+* **Integraciones** con Gmail, Outlook, Zoom, Google Drive, etc.
+* **Búsqueda y filtros** potentes.
+* **App móvil** clara, amigable y funcional.
 
 #### 2.1.1. Análisis competitivo<table>
 
-<table> 
-  <tr>
-    <th colspan="6"> Competitive Analysis Landscape </th>
-  </tr>
-  <tr>
-    <td colspan="2" rowspan="2">¿Por qué llevar acabo este análisis? </td>
-    <td colspan="4"> Pregunta </td>
-  </tr>
-  <tr>
-    <td colspan="4"> Deberiamos llevar a cabo este analisis para conocer el entorno, la competencia, tomar decisiones de desarrollo  y construir nuestra propuesta de valor.  </td>
-  </tr>
-  <tr>
-    <td colspan="2"> Productos </td>
-    <td style="text-align: center;">  <div>SynHome</div>  <img src="./images/chapter-2/SynHome.png" alt="SynHome" width="200"/> </td>
-    <td style="text-align: center;"> <div>Cozi</div>  <img src="./images/chapter-2/Cozi.jpg" alt="Picniic" width="200"/> </td>
-    <td style="text-align: center;"> <div>FamilyWall</div>  <img src="./images/chapter-2/FamilyWall.png" alt="Picniic" width="200"/> </td>
-    <td style="text-align: center;"> <div>OurHome</div>  <img src="./images/chapter-2/OurHome.jpg" alt="Picniic" width="200"/> </td>
-  </tr>
-  <tr>
-    <td rowspan="2">Perfil</td>
-    <td>Overview</td>
-    <td> Está diseñada para ayudar a las familias a organizarse mejor, distribuyendo las tareas del hogar de manera equitativa, mejorando la comunicación interna y optimizando el tiempo de cada miembro. </td>
-    <td> Organización familiar que permite a los miembros de la familia gestionar su calendario, tareas, listas de compras y otros aspectos de la vida diaria de manera colaborativa.</td>
-    <td> Plataforma de gestión familiar diseñada para ayudar a las familias a organizar su vida diaria. Ofrece funciones para coordinar calendarios, tareas, mensajes, fotos y más. </td>
-    <td> Aplicación diseñada para ayudar a las familias a gestionar tareas, responsabilidades y la comunicación. Es conocida por su énfasis en asignar tareas a los miembros de la familia </td>
-  </tr>
-  <tr>
-    <td>Ventaja competitiva ¿Qué valor ofrece a los clientes? </td>
-    <td> Fomenta el trabajo colaborativo: Cada miembro tiene un rol definido y se involucra activamente en el mantenimiento del hogar, lo que fortalece la unidad familiar. </td>
-    <td> Permite el seguimiento de actividades familiares, desde citas médicas hasta eventos escolares. </td>
-    <td> Ayuda a mejorar la comunicación familiar mediante el chat y las actualizaciones compartidas. </td>
-    <td> Sistema de puntos para incentivar la participación en tareas y responsabilidades del hogar. </td>
-  </tr>
-  <tr>
-    <td rowspan="2">Perfil de Marketing</td>
-    <td> Mercado Objetivo </td>
-    <td> Padres que buscan herramientas para organizarse mejor y distribuir responsabilidades entre todos los miembros del hogar y miembros del grupo familiar que no cumplen el rol administrativo, desde niños en edad escolar hasta adultos jóvenes o mayores que comparten responsabilidades dentro del hogar. </td>
-    <td> Padres que buscan gestionar mejor su tiempo y el de su familia. </td>
-    <td> Familias que buscan una plataforma unificada para coordinar actividades y compartir momentos. </td>
-    <td> Padres que buscan herramientas de motivación para sus hijos. </td>
-  </tr>
-  <tr>
-    <td> Estrategias de Marketing </td>
-    <td> Pruebas gratuitas y versiones premium: Ofrecer una versión gratuita básica y luego incentivar la migración a la versión premium con funciones avanzadas. </td>
-    <td> Publicidad en redes sociales (Facebook, Instagram) dirigida a padres. </td>
-    <td> Ofrecen pruebas gratuitas para fomentar la adopción. </td>
-    <td> Ofrecen herramientas educativas para fomentar la participación de los niños en las tareas del hogar. </td>
-  </tr>
-<td rowspan="3">Perfil de Producto</td>
-    <td> Productos & Servicios </td>
-    <td> Gestión de tareas familiares(responsabilidades a cada miembro del hogar), horario y calendario compartido (visible para todos los miembros), sistema de recompensas (motivación para los miembros más jóvenes de la familia). </td>
-    <td> Calendarios familiares, listas de compras y tareas, recetas familiares,planificación de comidas y recordatorios de citas y eventos. </td>
-    <td> Calendario compartido, listas de compras y tareas, mensajería privada, compartición de fotosy planificación de eventos familiares. </td>
-    <td> Asignación de tareas y responsabilidades, planificación de comidas y listas de compras y sistema de recompensas basado en puntos. </td>
-  </tr>
-  <tr>
-    <td> Precios & Costos</td>
-    <td> Gratis con funciones básicas limitadas y costo mensual de 7 dolares </td>
-    <td> Versión premium por $29.99/año, que ofrece funciones adicionales como la personalización y la eliminación de anuncios. </td>
-    <td> Premium por $4.99/mes o $29.99/año con características avanzadas. </td>
-    <td> Premium por $3.99/mes o $29.99/año para funciones avanzadas. </td>
-  </tr>
-  <tr>
-    <td> Canales de distribución </td>
-    <td> App Store y Google Play Store. </td>
-    <td> App Store y Google Play Store. </td>
-    <td> App Store y Google Play Store. </td>
-    <td> App Store y Google Play Store. </td>
-  </tr>
-<td rowspan="5">Análisis SWOT</td>
-<tr>
-    <td> Fortalezas </td>
-    <td> Atractivo para familias que buscan mejorar la comunicación y colaboración en sus rutinas diarias. </td>
-    <td> Fácil de usar y con una interfaz intuitiva. </td>
-    <td> Funciones completas para gestionar la familia en un solo lugar. </td>
-    <td> Enfoque único en motivación mediante recompensas y sistema de puntos. </td>
-  </tr>
-<tr>
-    <td> Debilidades</td>
-    <td> La versión gratuita puede no ser suficiente para familias que buscan una solución más completa, lo que podría limitar la retención de usuarios. </td>
-    <td> La experiencia de usuario no es tan provechosa como otras aplicaciones de gestión más complejas. </td>
-    <td> La versión gratuita tiene restricciones significativas. </td>
-    <td> El sistema de recompensas puede no ser adecuado para todas las familias. </td>
-  </tr>
-<tr>
-    <td> Oportunidades</td>
-    <td> Ampliación de funciones: Integrar más características que permitan gestionar otros aspectos del hogar como las compras o la planificación de viajes familiares. </td>
-    <td> Aumento de colaboración en tareas entre miembros de la familia. </td>
-    <td> Expansión en la gestión de actividades educativas. </td>
-    <td> Mayor integración con otros dispositivos inteligentes del hogar. </td>
-  </tr>
-<tr>
-    <td> Amenazas</td>
-    <td> Falta de adopción por parte de familias que prefieren métodos tradicionales o no están tan familiarizadas con las aplicaciones móviles. </td>
-    <td> Falta de diferenciación en comparación con aplicaciones de productividad general como Google Calendar. </td>
-    <td> La falta de integraciones con otras plataformas populares como Google Calendar. </td>
-    <td> Escaso enfoque en la privacidad en algunos casos. </td>
-  </tr>
-</table>
 
 #### 2.1.2. Estrategias y tácticas frente a competidores
-
-**1. Diferenciación en la Propuesta de Valor**
-
-Estrategia: 
-* Ofrecer funcionalidades únicas que se alineen mejor con las necesidades de las familias en comparación con competidores como Cozi o FamilyWall.
-
-Táctica: 
-* Asegurarse de que SynHome se enfoque en una experiencia de usuario simplificada con opciones personalizables para cada miembro de la familia, adaptándose a diferentes tipos de hogares (con niños, personas mayores, etc.).
-
-**2. Mejorar la Personalización**
-
-Estrategia:
-* Identificar la falta de personalización en las aplicaciones competidoras y ofrecer una mayor flexibilidad para adaptar la plataforma a las necesidades de cada familia.
-
-Táctica: 
-* Permitir que los usuarios personalicen completamente sus tableros de tareas, tareas recurrentes, y la asignación de responsabilidades según las preferencias de cada miembro del hogar.
-
-**3. Soporte y Atención al Cliente**
-
-Estrategia: 
-* Aprovechar la falta de soporte eficiente de algunas plataformas competidoras, brindando un servicio de atención al cliente excepcional.
-
-Táctica: 
-* Proporcionar tutoriales en video y una base de conocimientos extensa para guiar a los usuarios a través de la configuración y el uso de la plataforma.
-
-**4. Fomento de la Colaboración Familiar**
-
-Estrategia:
-* Enfatizar la necesidad de colaboración y corresponsabilidad en la gestión del hogar, algo que no todas las aplicaciones competidoras promueven.
-
-Tácticas: 
-* Implementar funcionalidades que fomenten la participación activa de todos los miembros de la familia, como tableros compartidos y notificaciones de progreso para incentivar la cooperación.
-* Ofrecer recompensas y sistemas de gamificación para motivar a todos los miembros de la familia a completar tareas (por ejemplo, puntos o recompensas por completar tareas o mantener el hogar organizado durante un mes).
-
-**5. Alianzas Estratégicas**
-
-Estrategia: 
-* Colaborar con empresas que compartan el mismo público objetivo para aumentar el alcance y la visibilidad.
-
-Táctica: 
-* Formar alianzas con marcas de productos del hogar, como empresas de tecnología (por ejemplo, con dispositivos inteligentes para el hogar) o marcas de artículos domésticos que podrían beneficiar a los usuarios de SynHome.
 
 
 ### 2.2. Entrevistas
@@ -409,7 +263,8 @@ En esta sección del informe se realizará el diseño, registro y análisis de l
 
 #### 2.2.1. Diseño de entrevistas
 
- **1. Entrevista para el Encargado o Cabeza de la Familia**
+**1. Entrevista para el Encargado o Cabeza de la Familia**
+
 * Preguntas principales:
 
 ¿Cuántos años tienes y cuál es tu ocupación o rol dentro de la familia?
@@ -440,7 +295,7 @@ En esta sección del informe se realizará el diseño, registro y análisis de l
 
 **2. Entrevista para el Integrante de la Familia**
 
-   * Preguntas principales:
+* Preguntas principales:
 
 ¿Cuántos años tienes y cuál es tu ocupación o rol dentro de la familia?
 
@@ -450,7 +305,7 @@ En esta sección del informe se realizará el diseño, registro y análisis de l
 
 ¿Cómo se distribuyen las tareas entre tú y el resto de la familia?
 
-  * Preguntas complementarias:
+* Preguntas complementarias:
 
 ¿Qué tareas del hogar realizas regularmente? ¿Cómo las aprendes o te las comunican?
 
@@ -505,7 +360,6 @@ En esta sección, se presenta el mapa de empatía, que nos ayudará a comprender
 
 **2. Empathy Map: Integrante de la Familia**
 <img src="images/chapter-2/EMPMAP2.png" alt="Empathy Map 2" />
-
 
 #### 2.3.5. As-is Scenario Mapping
 
