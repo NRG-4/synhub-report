@@ -212,6 +212,7 @@ La plataforma SynHub ofrece un entorno digital intuitivo y multifuncional que pe
 - Desde el rol de integrante del equipo: consultar su calendario personal y grupal, recibir notificaciones y recordatorios, proponer ajustes en tareas u horarios, visualizar responsabilidades asignadas y conocer la disponibilidad de otros miembros.
 
 Gracias a funcionalidades como la personalización de tareas, historial de cumplimiento, objetos o recursos compartidos, roles configurables, y una interfaz clara para visualizar la carga y horarios del equipo, la plataforma impulsa la organización eficiente, la corresponsabilidad y una comunicación más fluida dentro de cualquier tipo de grupo.
+
 #### 1.2.1. Antecedentes y problemática
 
 **What**
@@ -274,11 +275,11 @@ El lean UX process es un enfoque iterativo centrado en el usuario para el diseñ
 
 ##### 1.2.2.1. Lean UX Problem Statements
 
-Las familias modernas enfrentan desafíos significativos al intentar coordinar actividades, tareas del hogar y responsabilidades individuales entre sus miembros. A pesar del uso de herramientas digitales como calendarios compartidos o aplicaciones de mensajería, estas soluciones suelen ser fragmentadas, poco intuitivas o no están adaptadas al contexto específico de una familia.
+En el entorno actual, tanto en contextos familiares como laborales y comunitarios, los grupos enfrentan grandes desafíos para coordinar tareas, organizar horarios y mantener una comunicación fluida y estructurada entre sus miembros. Aunque existen herramientas digitales como aplicaciones de mensajería, calendarios o tableros de tareas, muchas de estas soluciones son fragmentadas, poco integradas o carecen de una lógica colaborativa adaptada al trabajo en equipo cotidiano.
 
-Actualmente, existen muy pocas soluciones centralizadas, eficientes y accesibles que permitan a las familias gestionar su vida diaria de manera colaborativa y estructurada. Esto ha llevado a una falta de organización, distribución desigual de responsabilidades, olvidos frecuentes y conflictos por tareas no cumplidas.
+Esta falta de soluciones centralizadas y personalizables genera desorganización, distribución desigual de responsabilidades, olvidos, retrasos y fricciones entre los integrantes de un grupo. Ya sea en un entorno familiar, una oficina, un equipo de voluntariado o un pequeño negocio, la necesidad de una herramienta unificada que facilite la colaboración, la planificación y el seguimiento de actividades es cada vez más evidente.
 
-SynHome surge como una propuesta para cubrir esta necesidad mediante una plataforma digital especializada en la organización del hogar, que facilite la asignación de tareas, el seguimiento del cumplimiento, la visualización de horarios compartidos y el fortalecimiento de la colaboración familiar.
+SynHub nace como una plataforma digital diseñada para cubrir esta brecha: una solución integral para la gestión de grupos que permite distribuir tareas, visualizar horarios compartidos, establecer roles con distintos niveles de permisos, recibir recordatorios y mejorar la eficiencia del trabajo en conjunto.
 
 ##### 1.2.2.2. Lean UX Assumptions
 
