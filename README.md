@@ -358,6 +358,46 @@ Monday.com proporciona una interfaz visual para planificar, rastrear y colaborar
 #### 2.1.2. Estrategias y tácticas frente a competidores
 
 
+**1. Estrategia de Diferenciación por Simplicidad y Usabilidad**
+
+**Objetivo:** Posicionar a SynHub como la opción más intuitiva, fácil de usar y accesible para todo tipo de grupos (no solo empresas).
+
+**Tácticas:**
+
+* Diseñar una **interfaz limpia y visual**, con navegación amigable incluso para usuarios sin experiencia en apps de gestión.
+* Implementar un **proceso de onboarding rápido** (menos de 2 minutos para crear un grupo y asignar tareas).
+* Ofrecer **tutoriales interactivos**, ayuda contextual y videos cortos integrados en la app.
+* En comparación con Asana y ClickUp, enfatizar: *“No necesitas ser experto para organizarte bien”*.
+
+**2. Estrategia de Enfoque en Nichos Desatendidos**
+
+**Objetivo:** Atacar segmentos específicos como equipos académicos, voluntarios, universitarios, comunidades o grupos familiares avanzados.
+
+**Tácticas:**
+
+* Crear plantillas y funciones específicas para grupos no empresariales (ej: calendario de clases, tareas compartidas, roles para miembros del hogar, etc.).
+* FamilyWall cubre familias, pero SynHub puede expandirse hacia **"equipos híbridos": familia + trabajo + estudio**.
+
+**3. Estrategia de Humanización y Cercanía de Marca**
+
+**Objetivo:** Ganarse la confianza de usuarios por medio de comunicación cercana, soporte cálido y experiencia de usuario emocionalmente positiva.
+
+**Tácticas:**
+
+* Ofrecer un **soporte al cliente rápido y empático**, especialmente en etapas iniciales.
+* Utilizar un **lenguaje humano y accesible** en toda la plataforma (evitar tecnicismos).
+* A diferencia de Asana y ClickUp, donde la marca es más corporativa, **SynHub puede mostrarse como una plataforma "hecha por y para personas reales"**.
+
+**4. Estrategia de Precio Accesible y Transparente**
+
+**Objetivo:** Atraer a usuarios que buscan funcionalidades potentes sin pagar precios empresariales.
+
+**Tácticas:**
+
+* Diseñar una estructura de precios clara, con un **plan gratuito funcional** y un **plan premium económico** (más barato que ClickUp o Asana).
+* Ofrecer descuentos especiales para grupos educativos o sin fines de lucro.
+* Incluir funcionalidades importantes sin obligar al usuario a escalar de plan por todo.
+
 ### 2.2. Entrevistas
 
 En esta sección del informe se realizará el diseño, registro y análisis de las entrevistas de nuestros segmentos objetivos.
