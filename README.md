@@ -404,65 +404,61 @@ En esta sección del informe se realizará el diseño, registro y análisis de l
 
 #### 2.2.1. Diseño de entrevistas
 
-**1. Entrevista para el Encargado o Cabeza de la Familia**
+
+**1. Entrevista para el Coordinador o Líder de Grupo**
 
 * Preguntas principales:
 
-¿Cuántos años tienes y cuál es tu ocupación o rol dentro de la familia?
+1.¿Podrías contarme un poco sobre ti? (edad, ocupación, lugar de residencia, estado civil)
 
-¿En qué distrito vives y cuál es tu estado civil?
+2.¿A qué tipo de grupo o equipos perteneces o lideras actualmente?
 
-¿Qué relación tienes con los miembros de tu familia?
+3.¿Cuál es tu rol dentro de ese grupo?
 
-¿Cómo distribuyes las tareas para los miembros de tu familia?
+* -Preguntas complementarias:
 
-* Preguntas complementarias:
+4.¿Con qué frecuencia se reúnen o interactúan?
 
-¿Qué herramientas digitales o físicas utilizas para organizar las tareas en casa? ¿Cuáles son las más eficaces y por qué?
+5.Cuántas personas conforman el grupo o equipo que lideras?
 
-¿Te resulta fácil o complicado delegar tareas en otros miembros de la familia? ¿Qué obstáculos encuentras?
+6.¿Qué herramientas o plataformas digitales utilizas para coordinar al equipo?
 
-¿Qué te motiva a mantener el hogar organizado? ¿Cuáles son tus principales frustraciones al gestionar las tareas familiares?
+7.¿Sueles tener problemas con la puntualidad, comunicación o cumplimiento?
 
-¿Has tenido problemas de comunicación con otros miembros de la familia sobre quién debe hacer qué? ¿Cómo lo has resuelto?
+8.¿Qué dispositivos usas más frecuentemente para organizarte (móvil, laptop, tablet)?
 
-¿Qué esperas de una herramienta digital para gestionar las tareas del hogar? ¿Qué características serían clave para ti?
+9.¿Usas redes sociales, apps colaborativas o agendas digitales?
 
-¿Cuáles son los dispositivos digitales que más utilizas en tu día a día? ¿Prefieres aplicaciones móviles, herramientas web, o ambos?
+10.¿Qué valoras más en una herramienta para organizar a tu equipo?
 
-¿Qué tipo de plataformas digitales usas para comunicarte con los miembros de tu familia, como WhatsApp, correos electrónicos o apps específicas?
 
-¿Qué importancia le das a la seguridad y privacidad de la información familiar en una aplicación de organización?
 
-**2. Entrevista para el Integrante de la Familia**
+**2. Entrevista para el Miembro del Equipo o Grupo**
 
 * Preguntas principales:
 
-¿Cuántos años tienes y cuál es tu ocupación o rol dentro de la familia?
+1.¿Podrías contarme un poco sobre ti? (edad, ocupación, lugar de residencia, estado civil)
 
-¿En qué distrito vives y cuál es tu estado civil?
+2.¿A qué tipo de grupo o equipo perteneces actualmente?
 
-¿Qué relación tienes con el encargado del hogar o cabeza de la familia?
-
-¿Cómo se distribuyen las tareas entre tú y el resto de la familia?
+3.¿Cuál es tu rol dentro del grupo? (por ejemplo: participante, colaborador, voluntario)
 
 * Preguntas complementarias:
 
-¿Qué tareas del hogar realizas regularmente? ¿Cómo las aprendes o te las comunican?
+4.¿Qué tipo de tareas realizas habitualmente?
 
-¿Te sientes involucrado o motivado en la organización de las tareas en casa? ¿Por qué?
+5.¿Qué herramientas o plataformas digitales utilizas para conocer tus actividades en el equipo?
 
-¿Cuáles son las tareas del hogar que te parecen más difíciles o tediosas de realizar?
+6.¿Cómo te enteras de tus responsabilidades dentro del grupo?
 
-¿Qué aplicaciones o herramientas digitales utilizas para organizar tu vida diaria (trabajo, estudios, etc.)? ¿Te gustaría que las tareas del hogar también se gestionaran digitalmente?
+7.¿Qué cosas te molestan o dificultan al trabajar en grupo?
 
-¿Qué dispositivos utilizas más a menudo (móvil, computadora, tablet)? ¿Cómo prefieres interactuar con ellos?
+8.¿Qué tipo de apps o plataformas te gustan más? (Ej: fáciles de usar, visuales, rápidas)
 
-¿Qué canales digitales prefieres para interactuar con tu familia (mensajes de texto, llamadas, apps, etc.)?
+9.¿Usas más el celular o la computadora para tus tareas diarias?
 
-¿Qué tipo de comunicación te gustaría que se estableciera en torno a las tareas del hogar? ¿Prefieres mensajes en grupo, recordatorios personalizados, o algo diferente?
+10.¿Qué tipo de apps o plataformas te gustan más? (Ej: fáciles de usar, visuales, rápidas)
 
-¿Tienes alguna frustración o dificultad con la manera en que se asignan las tareas actualmente? ¿Cómo crees que se podría mejorar?
 
 #### 2.2.2. Registro de entrevistas
 
