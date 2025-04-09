@@ -202,17 +202,16 @@ Desde NRG4, aspiramos a consolidarnos como referentes en tecnología para la org
 
 ### 1.2. Solution Profile
 
-**Problema identificado:** En el entorno actual, muchas familias enfrentan dificultades para organizar sus rutinas, distribuir equitativamente las tareas del hogar y mantener una comunicación fluida sobre las responsabilidades compartidas. Esto suele derivar en sobrecarga para ciertos miembros del hogar (principalmente la cabeza de familia) y desorganización general que afecta la convivencia y el bienestar familiar. A pesar del avance digital, pocas soluciones integrales han sido diseñadas específicamente para la gestión colaborativa del hogar.
+**Problema identificado:** En el entorno actual, muchos equipos y grupos de trabajo, ya sean laborales, académicos o comunitarios, enfrentan dificultades para organizar sus actividades, distribuir responsabilidades de manera equitativa y mantener una comunicación clara entre sus integrantes. Esto puede provocar una sobrecarga en ciertos miembros del grupo, falta de coordinación, tareas duplicadas o abandonadas, y una caída general en la productividad y el bienestar del equipo. Aunque existen múltiples herramientas digitales, pocas han sido diseñadas específicamente para facilitar una gestión integral y colaborativa que se adapte a diferentes dinámicas grupales.
 
 **Solución propuesta:**
 
-SynHome ofrece una plataforma intuitiva y multifuncional que permite a las familias:
+La plataforma SynHub ofrece un entorno digital intuitivo y multifuncional que permite a los equipos gestionar sus actividades de forma colaborativa y eficiente:
 
-- Desde el rol administrativo (cabeza de familia): Asignar tareas, crear calendarios familiares, definir horarios, establecer roles con distintos permisos, hacer seguimiento del cumplimiento de responsabilidades, y coordinar reuniones virtuales o llamadas familiares.
-- Desde el rol de usuario (integrantes): Consultar su calendario, recibir recordatorios, solicitar cambios de horario, visualizar tareas asignadas y objetos compartidos, y conocer quién se encuentra disponible en el hogar.
+- Desde el rol organizador o administrador: asignar tareas, crear calendarios grupales, definir horarios compartidos, establecer roles con diferentes niveles de acceso, hacer seguimiento del cumplimiento de responsabilidades y coordinar reuniones o encuentros virtuales.
+- Desde el rol de integrante del equipo: consultar su calendario personal y grupal, recibir notificaciones y recordatorios, proponer ajustes en tareas u horarios, visualizar responsabilidades asignadas y conocer la disponibilidad de otros miembros.
 
-Con funcionalidades como tareas personalizadas, historial de cumplimiento, objetos asignables, roles configurables, y una interfaz clara para la visualización cruzada de horarios, SynHome permite gestionar la vida en casa con mayor equilibrio, transparencia y participación activa de todos.
-
+Gracias a funcionalidades como la personalización de tareas, historial de cumplimiento, objetos o recursos compartidos, roles configurables, y una interfaz clara para visualizar la carga y horarios del equipo, la plataforma impulsa la organización eficiente, la corresponsabilidad y una comunicación más fluida dentro de cualquier tipo de grupo.
 #### 1.2.1. Antecedentes y problemática
 
 **What**
