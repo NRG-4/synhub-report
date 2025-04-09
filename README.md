@@ -460,33 +460,29 @@ SynHub nace como una plataforma digital diseñada para cubrir esta brecha: una s
 
 ### 1.3. Segmentos Objetivo
 
-**Segmento Objetivo #1: Cabeza de familia**
+**Segmento Objetivo #1: Coordinadores o Líderes de Grupo**
 
-Este grupo está conformado por personas que asumen el rol principal en la gestión del hogar, encargándose de organizar las rutinas, asignar responsabilidades y coordinar las actividades familiares. Generalmente, se trata de padres, madres o tutores con una vida activa, que buscan herramientas digitales para mantener el orden, reducir su carga mental y fomentar la colaboración de todos los integrantes del hogar.
-
+Este grupo incluye a personas que asumen la responsabilidad de organizar y gestionar las actividades dentro de un equipo o grupo. Pueden ser líderes de proyectos, responsables de logística en voluntariados, administradores de espacios compartidos, docentes coordinadores o encargados de comunidades (vecinales, académicas o laborales). Estas personas buscan una herramienta que les permita distribuir tareas, planificar actividades, hacer seguimiento del cumplimiento y facilitar la comunicación interna.
 Características clave:
 
-- Edad: 30 a 55 años
+- Edad: 25 a 60 años
 - Género: Ambos
-- Estado civil: Casados, convivientes o solteros con hijos u otros dependientes
-- Nivel educativo: Técnico o universitario
-- Ocupación: Profesionales, empleados o trabajadores independientes
-- Uso de tecnología: Usuarios frecuentes de smartphones, calendarios digitales y aplicaciones móviles para productividad
-- Necesidades: Distribuir tareas de manera equitativa, evitar la sobrecarga, visualizar horarios, fomentar la participación de los demás miembros del hogar y mantener una comunicación fluida.
+- Contexto: Trabajo en equipo (laboral, educativo, comunitario o institucional)
+- Ocupación: Líderes de proyectos, jefes de equipo, coordinadores, docentes, voluntarios, emprendedores 
+- Uso de tecnología: Usuarios activos de plataformas colaborativas, calendarios digitales, herramientas de gestión (como Trello, Google Calendar, Slack, etc.)
+- Necesidades: Distribuir responsabilidades, establecer fechas límite, tener visibilidad del progreso del equipo, mejorar la coordinación y reducir fricciones en la organización diaria.
 
-**Segmento Objetivo #2:** Integrantes del hogar
+**Segmento Objetivo #2: Miembros del Equipo o Grupo**
 
-Este segmento incluye a todos los miembros del grupo familiar que no cumplen el rol administrativo, desde niños en edad escolar hasta adultos jóvenes o mayores que comparten responsabilidades dentro del hogar. Buscan una plataforma que les facilite entender sus tareas, planificar su día a día, recibir recordatorios y participar activamente en la vida doméstica de manera ordenada y colaborativa.
-
+Corresponde a las personas que forman parte activa de un grupo con tareas y roles específicos, pero que no necesariamente tienen funciones administrativas. Incluye desde colaboradores de un proyecto, estudiantes de un curso, miembros de una comunidad, hasta empleados de una pequeña empresa. Este grupo busca mantenerse al tanto de sus responsabilidades, recibir recordatorios, y colaborar de forma clara y organizada con los demás.
 Características clave:
 
-- Edad: 5 a 55 años
+- Edad: 13 a 60 años
 - Género: Ambos
-- Estado civil: Solteros, en pareja o casados
-- Nivel educativo: Desde nivel escolar (primaria) hasta universitario
-- Ocupación: Estudiantes, trabajadores, amas de casa o personas desempleadas
-- Uso de tecnología: Acostumbrados al uso de smartphones, tablets y apps sociales o educativas
-- Necesidades: Consultar horarios, recibir recordatorios, visualizar tareas asignadas, pedir cambios en sus responsabilidades, mantenerse informados sobre quién está en casa y qué actividades deben realizar.
+- Contexto: Participación activa en un grupo organizado (laboral, educativo, social, comunitario, voluntariado, etc.)
+- Ocupación: Colaboradores, estudiantes, asistentes, voluntarios, trabajadores, participantes de redes de apoyo 
+- Uso de tecnología: Habitualmente usan apps móviles, redes sociales, herramientas de trabajo remoto o colaboración básica 
+- Necesidades: Consultar tareas, recibir recordatorios, gestionar su tiempo dentro del equipo, proponer cambios o ajustes, y mantenerse alineados con los objetivos grupales.
 
 ## Capítulo II: Requirements Elicitation & Analysis
 
