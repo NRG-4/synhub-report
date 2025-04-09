@@ -148,17 +148,17 @@
 
 #### 1.1.1. Descripción de la Startup
 
-Nuestra empresa NRG4 nace con la visión de ofrecer soluciones digitales que mejoren la calidad de vida dentro del hogar. En esta ocasión, presentamos SynHome, una plataforma pensada para resolver uno de los retos más comunes y menos atendidos en el entorno familiar moderno: la organización y distribución eficiente de las tareas del hogar.
+Nuestra empresa NRG4 nace con la visión de ofrecer soluciones digitales que mejoren la organización y la colaboración en los entornos donde convivimos y trabajamos. En esta ocasión, presentamos SynHub, una plataforma pensada para resolver uno de los retos más comunes y menos atendidos en grupos modernos: la coordinación eficiente de tareas, horarios y responsabilidades compartidas.
 
-Entendemos que en la dinámica actual, donde los tiempos son limitados y las responsabilidades se cruzan constantemente, es indispensable contar con herramientas que ayuden a mantener el orden, promover la participación equitativa y fortalecer la comunicación entre todos los miembros del hogar. Con SynHome, desde NRG4 buscamos justamente eso: transformar la forma en que las familias se organizan.
+Entendemos que en un mundo donde el tiempo es limitado y las actividades se superponen constantemente, contar con herramientas que faciliten la gestión grupal es indispensable. Ya sea en el hogar, en equipos de trabajo, grupos de estudio, organizaciones comunitarias o cualquier espacio colaborativo, SynHome permite mantener el orden, promover la participación equitativa y fortalecer la comunicación entre los miembros del grupo. Desde NRG4 buscamos justamente eso: transformar la forma en que las personas se organizan en conjunto.
 
 **Misión:**
 
-Nuestra misión como empresa es facilitar la gestión diaria del hogar a través de una plataforma que promueve la corresponsabilidad, la organización eficiente y la comunicación clara entre los integrantes de una familia. Queremos empoderar tanto a quienes lideran la administración familiar como a cada integrante, brindándoles una herramienta sencilla y efectiva para mantener el equilibrio en sus rutinas diarias.
+Nuestra misión como empresa es facilitar la gestión diaria de grupos a través de una plataforma que promueve la corresponsabilidad, la organización eficiente y la comunicación clara entre sus integrantes. Queremos empoderar tanto a quienes lideran estos espacios como a cada miembro del equipo, brindándoles una herramienta intuitiva y efectiva para coordinarse mejor y alcanzar objetivos comunes.
 
 **Visión:**
 
-Desde NRG4, aspiramos a consolidarnos como referentes en tecnología doméstica, siendo reconocidos por desarrollar soluciones que realmente impacten la vida de las personas. Con **SynHome**, buscamos ser la aplicación líder en organización familiar en el Perú y Latinoamérica, ayudando a millones de familias a construir entornos más ordenados, colaborativos y saludables.
+Desde NRG4, aspiramos a consolidarnos como referentes en tecnología para la organización colaborativa, siendo reconocidos por desarrollar soluciones que impacten positivamente la vida diaria de las personas. Con SynHub, buscamos posicionarnos como la plataforma líder en gestión de tareas y coordinación grupal en el Perú y Latinoamérica, facilitando entornos más ordenados, productivos y armoniosos en hogares, oficinas, comunidades y más.
 
 #### 1.1.2. Perfiles de integrantes del equipo
 
