@@ -475,10 +475,10 @@ En esta sección, mostraremos los perfiles de los usuarios que hemos definido pa
 
 En esta sección, se presenta el mapa de viaje del usuario, que ilustra las etapas y experiencias de los usuarios al interactuar con nuestro producto. Este mapa nos ayudará a identificar oportunidades de mejora y a comprender mejor las necesidades de nuestros usuarios.
 
-**1. User Journey: Encargado o Cabeza de la Familia**
+**1. User Journey: Coordinador de equipos**
 <img src="images/chapter-2/JOURNEY1.png" alt="User1 Journey" />
 
-**2. User Journey: Integrante de la Familia**
+**2. User Journey: Miembro de equipo**
 <img src="images/chapter-2/JOURNEY2.png" alt="User2 Journey" />
 
 #### 2.3.4. Empathy Mapping
