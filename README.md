@@ -485,10 +485,10 @@ En esta sección, se presenta el mapa de viaje del usuario, que ilustra las etap
 
 En esta sección, se presenta el mapa de empatía, que nos ayudará a comprender mejor las emociones, pensamientos y necesidades de nuestros usuarios. Este mapa es una herramienta valiosa para identificar oportunidades de mejora en la experiencia del usuario.
 
-**1. Empathy Map: Encargado o Cabeza de la Familia**
+**1. Empathy Map: Coordinador de equipos**
 <img src="images/chapter-2/EMPMAP1.png" alt="Empathy Map 1" />
 
-**2. Empathy Map: Integrante de la Familia**
+**2. Empathy Map: Miembro de equipo**
 <img src="images/chapter-2/EMPMAP2.png" alt="Empathy Map 2" />
 
 #### 2.3.5. As-is Scenario Mapping
