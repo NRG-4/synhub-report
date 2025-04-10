@@ -232,7 +232,7 @@ ClickUp es una plataforma todo-en-uno que ofrece funciones de gestión de tareas
 
 ---
 
-**4. Monday.com*
+**4. Monday.com**
 
 <img src="./images/chapter-2/monday.com.jpg" alt="monday.com" width="200"/>
 
@@ -504,6 +504,80 @@ En esta sección, se presenta el mapa de empatía, que nos ayudará a comprender
 
 
 ### 2.4. Ubiquitous Language
+
+
+<table border="1" cellpadding="8" cellspacing="0">
+  <tr>
+    <th colspan="3">📘 Ubiquitous Language</th>
+  </tr>
+  <tr>
+    <th style="text-align: left;">Término (en inglés)</th>
+    <th style="text-align: left;">Término (en español)</th>
+    <th style="text-align: left;">Definición (en español)</th>
+  </tr>
+  <tr>
+    <td>Task</td>
+    <td>Tarea</td>
+    <td>Acción específica asignada a un miembro del grupo para ser completada en un periodo.</td>
+  </tr>
+  <tr>
+    <td>Group</td>
+    <td>Grupo</td>
+    <td>Conjunto de personas que colaboran en actividades comunes dentro de SynHub.</td>
+  </tr>
+  <tr>
+    <td>Responsibility</td>
+    <td>Responsabilidad</td>
+    <td>Obligación asumida por un miembro del grupo respecto a una o varias tareas asignadas.</td>
+  </tr>
+  <tr>
+    <td>Task History</td>
+    <td>Historial de tareas</td>
+    <td>Registro cronológico de tareas realizadas, canceladas o pendientes.</td>
+  </tr>
+  <tr>
+    <td>Shared Calendar</td>
+    <td>Calendario compartido</td>
+    <td>Herramienta visual que muestra los eventos, plazos y tareas de todos los miembros.</td>
+  </tr>
+  <tr>
+    <td>Workload View</td>
+    <td>Visualización de carga</td>
+    <td>Representación gráfica del volumen de tareas por miembro, útil para balancear el trabajo.</td>
+  </tr>
+  <tr>
+    <td>Reward System</td>
+    <td>Sistema de recompensas</td>
+    <td>Mecanismo para motivar el cumplimiento de tareas mediante premios o reconocimientos.</td>
+  </tr>
+  <tr>
+    <td>Notification</td>
+    <td>Notificación</td>
+    <td>Aviso que informa a los usuarios sobre actualizaciones, nuevas tareas o recordatorios.</td>
+  </tr>
+  <tr>
+    <td>Role</td>
+    <td>Rol</td>
+    <td>Función asignada dentro del grupo (como líder, miembro, colaborador).</td>
+  </tr>
+  <tr>
+    <td>Subtask</td>
+    <td>Subtarea</td>
+    <td>Tarea secundaria dentro de una tarea principal que ayuda a dividir el trabajo.</td>
+  </tr>
+  <tr>
+    <td>Task Status</td>
+    <td>Estado de tarea</td>
+    <td>Situación actual de una tarea (ej. pendiente, en progreso, completada, cancelada).</td>
+  </tr>
+  <tr>
+    <td>Member</td>
+    <td>Miembro</td>
+    <td>Usuario que forma parte de un grupo dentro de la aplicación SynHub.</td>
+  </tr>
+  
+</table>
+
 
 ## Capítulo III: Requirements specification
 
