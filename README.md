@@ -506,7 +506,7 @@ En esta sección, se presenta el mapa de empatía, que nos ayudará a comprender
 ### 2.4. Ubiquitous Language
 
 
-<table border="1" cellpadding="8" cellspacing="0">
+<table cellpadding="8" cellspacing="0">
   <tr>
     <th colspan="3">📘 Ubiquitous Language</th>
   </tr>
@@ -575,7 +575,6 @@ En esta sección, se presenta el mapa de empatía, que nos ayudará a comprender
     <td>Miembro</td>
     <td>Usuario que forma parte de un grupo dentro de la aplicación SynHub.</td>
   </tr>
-  
 </table>
 
 
