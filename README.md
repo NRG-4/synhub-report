@@ -210,7 +210,7 @@ FamilyWall es una plataforma familiar digital que integra varias funciones en un
 
 ---
 
-**3. OurHome**
+**3. ClickUp**
 
 <img src="./images/chapter-2/clickup.jpg" alt="ClickUp" width="200"/>
 
@@ -232,7 +232,7 @@ ClickUp es una plataforma todo-en-uno que ofrece funciones de gestión de tareas
 
 ---
 
-**4. Picniic *(Nota: ya no se actualiza activamente)***
+**4. Monday.com*
 
 <img src="./images/chapter-2/monday.com.jpg" alt="monday.com" width="200"/>
 
@@ -252,7 +252,6 @@ Monday.com proporciona una interfaz visual para planificar, rastrear y colaborar
 * **App móvil** clara, amigable y funcional.
 
 #### 2.1.1. Análisis competitivo<table>
-
 
 <table> 
   <tr>
@@ -354,9 +353,7 @@ Monday.com proporciona una interfaz visual para planificar, rastrear y colaborar
   </tr>
 </table>
 
-
 #### 2.1.2. Estrategias y tácticas frente a competidores
-
 
 **1. Estrategia de Diferenciación por Simplicidad y Usabilidad**
 
@@ -404,7 +401,6 @@ En esta sección del informe se realizará el diseño, registro y análisis de l
 
 #### 2.2.1. Diseño de entrevistas
 
-
 **1. Entrevista para el Coordinador o Líder de Grupo**
 
 * Preguntas principales:
@@ -431,8 +427,6 @@ En esta sección del informe se realizará el diseño, registro y análisis de l
 
 10.¿Qué valoras más en una herramienta para organizar a tu equipo?
 
-
-
 **2. Entrevista para el Miembro del Equipo o Grupo**
 
 * Preguntas principales:
@@ -458,7 +452,6 @@ En esta sección del informe se realizará el diseño, registro y análisis de l
 9.¿Usas más el celular o la computadora para tus tareas diarias?
 
 10.¿Qué tipo de apps o plataformas te gustan más? (Ej: fáciles de usar, visuales, rápidas)
-
 
 #### 2.2.2. Registro de entrevistas
 
@@ -499,6 +492,16 @@ En esta sección, se presenta el mapa de empatía, que nos ayudará a comprender
 <img src="images/chapter-2/EMPMAP2.png" alt="Empathy Map 2" />
 
 #### 2.3.5. As-is Scenario Mapping
+
+**1. Segmento 1: Encargado o Cabeza de la Familia**
+
+<img src="./images/chapter-2/asislider.png" alt="AsIsLider" width="800"/>
+
+
+**2. Segmento 2: Encargado o Cabeza de la Familia**
+
+<img src="./images/chapter-2/asismiembro.png" alt="AsIsMiembro" width="800"/>
+
 
 ### 2.4. Ubiquitous Language
 
