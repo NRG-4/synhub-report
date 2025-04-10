@@ -582,6 +582,16 @@ En esta sección, se presenta el mapa de empatía, que nos ayudará a comprender
 
 ### 3.1. To-Be Scenario Mapping
 
+
+**1. Segmento 1: Encargado o Cabeza de la Familia**
+
+<img src="./images/chapter-2/tobelider.png" alt="ToBeLider" width="800"/>
+
+**2. Segmento 2: Encargado o Cabeza de la Familia**
+
+<img src="./images/chapter-2/tobemiembro.png" alt="ToBeMiembro" width="800"/>
+
+
 ### 3.2. User Stories
 
 ### 3.3. Impact Mapping
