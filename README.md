@@ -463,10 +463,10 @@ En esta sección del informe se realizará el diseño, registro y análisis de l
 
 En esta sección, mostraremos los perfiles de los usuarios que hemos definido para nuestro producto. Estos perfiles nos ayudaran a entender mejor las necesidades y expectativas de nuestros usuarios.
 
-**1. User Persona: Encargado o Cabeza de la Familia**
+**1. User Persona: Coordinador de equipos**
 <img src="images/chapter-2/USER1.png" alt="Encargado"/>
 
-**2. User Persona: Integrante de la Familia**
+**2. User Persona: Miembro de equipo**
 <img src="images/chapter-2/USER2.png" alt="Integrante"/>
 
 #### 2.3.2. User Task Matrix
