@@ -219,55 +219,55 @@ Gracias a funcionalidades como la personalización de tareas, historial de cumpl
 
 - ¿Cuál es el problema?
 
-El problema que aborda SynHome es la dificultad que enfrentan muchas familias para organizar sus rutinas diarias, distribuir de manera equitativa las tareas del hogar y mantener una comunicación clara y constante sobre las responsabilidades compartidas.
+adica en la falta de herramientas digitales integrales y adaptables que permitan a los equipos organizarse de manera efectiva. Actualmente, muchas dinámicas grupales enfrentan desafíos como la distribución desigual de tareas, la escasa visibilidad del progreso, la comunicación desorganizada y la descoordinación entre miembros, lo que impacta negativamente en la productividad, genera tensiones internas y reduce el bienestar colectivo.
 
 - ¿Cuál es la relación con la persona en cuestión?
 
-La relación es facilitar la conexión y colaboración entre los integrantes del hogar, permitiendo que cada persona, desde la cabeza de familia hasta los demás miembros, tenga visibilidad, participación activa y responsabilidad en la organización del día a día.
+La relación es facilitar a los miembros de equipos o grupos una herramienta diseñada específicamente para mejorar la organización, la distribución de tareas y la comunicación dentro de su grupo.
 
 **When**
 
 - ¿Cuándo sucede el problema?
 
-Sucede al intentar organizar rutinas semanales, repartir tareas domésticas, recordar compromisos o simplemente al mantener informados a todos los miembros sobre lo que ocurre en el hogar.
+El problema surge cuando los equipos y grupos deben coordinar actividades, repartir responsabilidades o mantener una comunicación constante para alcanzar objetivos comunes.
 
 - ¿Cuándo utiliza el cliente el producto?
 
-El cliente utiliza SynHome a lo largo del día, especialmente al momento de planificar la semana familiar, asignar o consultar tareas domésticas, coordinar horarios entre los integrantes del hogar, o dar seguimiento al cumplimiento de responsabilidades. También se recurre a la plataforma cuando surgen imprevistos que requieren reorganizar actividades, o cuando se desea comunicar cambios y recordatorios de forma clara y accesible para todos.
+El cliente utiliza SynHub cuando necesita organizar, coordinar o participar en actividades grupales de manera eficiente, ya sea al inicio de un proyecto, durante la planificación de tareas, en la preparación de reuniones o en el seguimiento de responsabilidades.
 
 **Where**
 
 - ¿Dónde está el cliente cuando usa el producto?
 
-El cliente utiliza SynHome principalmente desde su hogar, que es el entorno natural donde se gestionan las actividades familiares, pero también puede acceder a la plataforma desde cualquier lugar con conexión a Internet, como el trabajo, en la calle o durante un viaje.
+El cliente utiliza SynHub desde cualquier lugar con acceso a Internet, ya sea en su hogar, en la oficina, en una sala de reuniones, en el aula o incluso mientras se traslada.
 
 - ¿Dónde surge el problema?
 
-Se ven involucrados todos los miembros del hogar, especialmente la cabeza de familia, quien suele asumir la mayor carga en la organización y seguimiento de las tareas domésticas.
+El problema surge dentro de los propios entornos donde se desarrollan actividades grupales, como oficinas, instituciones educativas, organizaciones comunitarias o espacios colaborativos, en los que la coordinación efectiva es clave para lograr objetivos comunes.
 
 **Who**
 
 - ¿Quienes se ven involucrados en el problema?
 
-Se ven involucrados todos los miembros del hogar, especialmente la cabeza de familia, quien suele asumir la mayor carga en la organización y seguimiento de las tareas domésticas.
-
+Se ven involucrados tanto los organizadores o coordinadores de equipos (como líderes de proyecto, docentes, jefes de área o representantes comunitarios) como los integrantes de los grupos (estudiantes, colaboradores, voluntarios o participantes) que enfrentan dificultades para organizarse, distribuir responsabilidades y comunicarse eficazmente.
 **Why**
 
 - ¿Cuáles son las causas del problema?
 
-Las causas del problema radican principalmente en la ausencia de herramientas digitales diseñadas específicamente para la gestión colaborativa del hogar. Muchas familias dependen de métodos informales o dispersos como notas físicas, chats desorganizados o calendarios individuales, lo que dificulta la coordinación efectiva de tareas y responsabilidades.
+Las causas del problema radican en la ausencia de herramientas centralizadas, flexibles y específicas para la gestión colaborativa de equipos con diferentes estructuras y necesidades. Muchas soluciones existentes no permiten una asignación clara de responsabilidades, ni contemplan la diversidad de roles, horarios o dinámicas de los grupos.
 
 **How**
 
 - ¿En qué condiciones los clientes usan nuestro producto?
 
-Los clientes usan SynHome en situaciones cotidianas donde necesitan organizar, coordinar o recordar las responsabilidades familiares, especialmente cuando buscan reducir la carga mental asociada a la gestión del hogar.
+Los clientes usan SynHub cuando forman parte de equipos o grupos que necesitan coordinar actividades de manera organizada y colaborativa, especialmente en contextos donde hay múltiples tareas, horarios variables y responsabilidades compartidas.
 
 **How Much**
 
 - ¿Cuál es la magnitud del problema?
 
-La magnitud del problema es significativa, ya que, según el estudio Global Home Index (GHI) aplicado en Perú por el Instituto de Ciencias para la Familia de la Universidad de Piura (Huarcaya, 2017), solo el 16% de las familias se capacita en organización del tiempo, y apenas el 17% distribuye tareas domésticas de manera equitativa según edades y capacidades. Esto refleja una falta de herramientas y métodos eficientes para gestionar el hogar, lo que genera sobrecarga en ciertos miembros y desorganización familiar.
+La magnitud del problema de desorganización y comunicación ineficaz en equipos es considerable. Según el State of Teams Report de Atlassian (2021), solo el 17% de los equipos se consideran "saludables", mientras que el 54% son parcialmente saludables y el 29% directamente insalubres (p. 12). Además, el 57% de los participantes admitió que sus equipos no operan con la eficiencia necesaria, lo que genera retrasos y afecta la productividad (Atlassian, 2021, p. 18). Esto se agrava por la falta de conexión interpersonal: el 56% de los miembros reportó sentirse poco vinculado con sus compañeros, y el 37% mencionó que no puede expresar ideas libremente por falta de seguridad psicológica (Atlassian, 2021, p. 24).
+
 
 #### 1.2.2. Lean UX Process
 
