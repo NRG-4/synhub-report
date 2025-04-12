@@ -285,24 +285,24 @@ SynHub nace como una plataforma digital diseñada para cubrir esta brecha: una s
 
 **User Assumptions (Suposiciones de Usuario)**
 
-- ¿Quién es el usuario?: El usuario es alguien que busca una solución para organizar las tareas del hogar y mejorar la comunicación familiar.
-- ¿Dónde encaja nuestro producto en su trabajo o vida?: El producto encaja en la vida diaria del usuario, facilitando la gestión de tareas y responsabilidades familiares.
-- ¿Qué problemas resuelve nuestro producto?: Nuestro producto resuelve problemas de desorganización y falta de comunicación en el hogar.
-- ¿Cuándo y cómo se usa nuestro producto?: El producto se usa diariamente, especialmente en momentos de planificación y organización familiar.
-- ¿Qué características son importantes?: Las características importantes incluyen la asignación de tareas, la visualización de horarios, conocer la disponibilidad de la familia y la posibilidad de personalizar roles y permisos.
-- ¿Cómo debe verse y comportarse nuestro producto?: El producto debe verse intuitivo y amigable, con una interfaz clara que permita a los usuarios navegar fácilmente entre las diferentes funciones.
+- ¿Quién es el usuario?: El usuario es alguien que busca una solución para organizar las tareas en un equipo y mejorar la comunicación entre los miembros.
+- ¿Dónde encaja nuestro producto en su trabajo o vida?: El producto encaja en actividades grupales donde el usuario es partícipe junto a otros miembros, facilitando la gestión de tareas y responsabilidades dentro del equipo.
+- ¿Qué problemas resuelve nuestro producto?: Nuestro producto resuelve problemas de desorganización y falta de comunicación dentro del equipo.
+- ¿Cuándo y cómo se usa nuestro producto?: El producto se usa cuando hay necesidad de organización en actividades grupales, especialmente en momentos de planificación, seguimiento de tareas y coordinación entre miembros del equipo.
+- ¿Qué características son importantes?: Las características importantes incluyen la asignación de tareas, la visualización de horarios del equipo, conocer la disponibilidad de los miembros y la posibilidad de personalizar roles y permisos.
+- ¿Cómo debe verse y comportarse nuestro producto?: El producto debe tener una interfaz intuitiva y amigable, que permita a los usuarios navegar fácilmente entre las distintas funcionalidades.
 
 **Business Assumptions (Suposiciones de Negocio)**
 
-- Necesidades y problemas: Creo que los miembros del hogar tienen la necesidad de organizar sus tareas de manera eficiente y mejorar la comunicación familiar.
+- Necesidades y problemas: Creo que los equipos de trabajo tienen la necesidad de organizar sus tareas de manera eficiente y mejorar la comunicación entre sus miembros.
 - Plataforma: Estas necesidades se pueden resolver a través de una aplicación móvil que ofrezca herramientas para la gestión de tareas y la comunicación, proporcionando una experiencia fluida y accesible.
-- Segmentación: Los miembros del hogar son (o serán) personas que buscan accesibilidad para  organizar sus tareas del hogar.
-- Comportamientos: El valor principal que un miembro del hogar quiere obtener de mi servicio es la facilidad de uso y la mejora en la organización de las tareas del hogar.
-- Beneficios: El miembro del hogar obtendrá beneficios como una mejor organización personal, mayor claridad sobre sus responsabilidades, y una sensación de logro al completar tareas.
-- Captación de clientes: Adquiriré la mayoría de mis clientes a través de campañas de marketing digital, recomendaciones de usuarios actuales y colaboraciones con influencers en el ámbito familiar.
+- Segmentación: Los usuarios de la aplicación serán coordinadores de equipos e integrantes de esos equipos que buscan una forma accesible de organizar sus responsabilidades.
+- Comportamientos: El valor principal que un usuario quiere obtener de nuestro servicio es la facilidad de uso y la mejora en la organización y comunicación dentro del equipo.
+- Beneficios: Los usuarios obtendrán beneficios como una mejor organización personal, mayor claridad sobre sus responsabilidades dentro del equipo, y una sensación de logro al completar tareas.
+- Captación de clientes: Adquiriré la mayoría de nuestros usuarios a través de campañas de marketing digital y recomendaciones de usuarios actuales en el ámbito laboral y educativo.
 - Modelo de ingresos: Generaré ingresos a través de la clasificación de la aplicación como uno de pago.
 - Competencia: Mi principal competencia en el mercado serán aplicaciones similares que ofrecen funciones de organización y gestión de tareas.
-- Los superaremos debido a nuestro enfoque en la personalización y la facilidad de uso, así como a la integración de funciones específicas para el hogar.
+- Ventaja competitiva: Superaremos a la competencia gracias a nuestro enfoque en la personalización, la facilidad de uso y la integración de funciones específicas para la gestión de equipos.
 
 **Technical Assumptions (Suposiciones Técnicas)**
 
@@ -312,17 +312,17 @@ SynHub nace como una plataforma digital diseñada para cubrir esta brecha: una s
 
 **Market Assumptions (Suposiciones de Mercado)**
 
-- Tamaño del mercado: Existe un mercado significativo de familias que buscan soluciones para la organización del hogar.
+- Tamaño del mercado: Existe un mercado significativo de equipos que buscan soluciones para la organización y coordinación.
 - Competencia: Las aplicaciones similares son los principales competidores.
-- Tendencias: El mercado de aplicaciones de organización y productividad está en crecimiento, impulsado por la necesidad de soluciones digitales en la vida diaria.
+- Tendencias: El mercado de aplicaciones de organización y productividad está en crecimiento, impulsado por la necesidad de soluciones digitales en entornos laborales y educativos.
 
 **Design Assumptions (Suposiciones de Diseño)**
 
-- Interacción del usuario: Los usuarios interactuarán con la aplicación con mayor facilidad si implementamos un calendario compartido familiar, recordatorios automáticos y asignación de tareas domésticas.
+- Interacción del usuario: Los usuarios interactuarán con la aplicación con mayor facilidad si implementamos un calendario compartido del equipo, recordatorios automáticos y asignación de tareas.
 - Experiencia del usuario: Los usuarios valorarán una experiencia de organización simple, flexible, colaborativa y motivadora.
 - Colores y la tipografía: Los usuarios prefieren una paleta de colores pastel y una tipografía moderna y legible.
-- Preferencias visuales: Los usuarios consideran atractivo un diseño simple con iconos intuitivos.
-- Prototipos y pruebas: Necesitamos validar la facilidad de uso la efectividad del diseño a través de pruebas de usabilidad.
+- Preferencias visuales: Los usuarios consideran atractivo un diseño simple con íconos intuitivos.
+- Prototipos y pruebas: Necesitamos validar la facilidad de uso y la efectividad del diseño a través de pruebas de usabilidad.
 
 ##### 1.2.2.3. Lean UX Hypothesis Statements
 
