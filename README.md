@@ -312,4 +312,6 @@ de software.</td>
 
 ## Bibliografía
 
+- Khan, M. (2024, 4 septiembre). *State of Teams Report 2021 - Work Life by Atlassian*. Work Life By Atlassian. [https://www.atlassian.com/blog/state-of-teams](https://www.atlassian.com/blog/state-of-teams)
+
 ## Anexos
