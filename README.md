@@ -523,9 +523,7 @@ En esta sección, mostraremos los perfiles de los usuarios que hemos definido pa
   </tbody>
 </table>
 
-
 **2. Segmento 2: Miembros del Equipo o Grupo**
-
 
 <table cellpadding="8" cellspacing="0">
   <thead>
@@ -576,7 +574,6 @@ En esta sección, mostraremos los perfiles de los usuarios que hemos definido pa
     </tr>
   </tbody>
 </table>
-
 
 #### 2.3.3. User Journey Mapping
 
@@ -696,6 +693,9 @@ En esta sección, se presenta el mapa de empatía, que nos ayudará a comprender
 ### 3.2. User Stories
 
 ### 3.3. Impact Mapping
+
+<img src="./images/chapter-2/impactmapping.png" alt="ImpactMapping" width="800"/>
+
 
 ### 3.4. Product Backlog
 
