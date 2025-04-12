@@ -463,10 +463,10 @@ En esta sección del informe se realizará el diseño, registro y análisis de l
 
 En esta sección, mostraremos los perfiles de los usuarios que hemos definido para nuestro producto. Estos perfiles nos ayudaran a entender mejor las necesidades y expectativas de nuestros usuarios.
 
-**1. User Persona: Encargado o Cabeza de la Familia**
+**1. User Persona: Coordinador de equipos**
 <img src="images/chapter-2/USER1.png" alt="Encargado"/>
 
-**2. User Persona: Integrante de la Familia**
+**2. User Persona: Miembro de equipo**
 <img src="images/chapter-2/USER2.png" alt="Integrante"/>
 
 #### 2.3.2. User Task Matrix
@@ -582,20 +582,20 @@ En esta sección, mostraremos los perfiles de los usuarios que hemos definido pa
 
 En esta sección, se presenta el mapa de viaje del usuario, que ilustra las etapas y experiencias de los usuarios al interactuar con nuestro producto. Este mapa nos ayudará a identificar oportunidades de mejora y a comprender mejor las necesidades de nuestros usuarios.
 
-**1. User Journey: Encargado o Cabeza de la Familia**
+**1. User Journey: Coordinador de equipos**
 <img src="images/chapter-2/JOURNEY1.png" alt="User1 Journey" />
 
-**2. User Journey: Integrante de la Familia**
+**2. User Journey: Miembro de equipo**
 <img src="images/chapter-2/JOURNEY2.png" alt="User2 Journey" />
 
 #### 2.3.4. Empathy Mapping
 
 En esta sección, se presenta el mapa de empatía, que nos ayudará a comprender mejor las emociones, pensamientos y necesidades de nuestros usuarios. Este mapa es una herramienta valiosa para identificar oportunidades de mejora en la experiencia del usuario.
 
-**1. Empathy Map: Encargado o Cabeza de la Familia**
+**1. Empathy Map: Coordinador de equipos**
 <img src="images/chapter-2/EMPMAP1.png" alt="Empathy Map 1" />
 
-**2. Empathy Map: Integrante de la Familia**
+**2. Empathy Map: Miembro de equipo**
 <img src="images/chapter-2/EMPMAP2.png" alt="Empathy Map 2" />
 
 #### 2.3.5. As-is Scenario Mapping
