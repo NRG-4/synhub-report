@@ -704,32 +704,32 @@ En esta sección, se presenta el mapa de empatía, que nos ayudará a comprender
   </thead>
   <tbody>
     <tr>
-      <td>EPIC-01</td>
+      <td>EP-001</td>
       <td>Gestión de Grupos y Roles</td>
       <td>Esta épica abarca todas las funcionalidades relacionadas con la creación de grupos, selección de integrantes y visualización de roles. Busca facilitar al líder del grupo la conformación del equipo de trabajo y ofrecer a los miembros claridad sobre su estructura organizacional.</td>
     </tr>
     <tr>
-      <td>EPIC-02</td>
+      <td>EP-002</td>
       <td>Visualización y Organización del Trabajo</td>
       <td>Esta épica se enfoca en brindar al usuario una vista organizada de sus tareas diarias y del progreso general del equipo. Incluye tableros visuales y páginas personalizadas que ayudan a optimizar el tiempo y a mantener el enfoque en las responsabilidades asignadas.</td>
     </tr>
     <tr>
-      <td>EPIC-03</td>
+      <td>EP-003</td>
       <td>Gestión y Asignación de Tareas</td>
       <td>Reúne las funcionalidades que permiten al líder asignar tareas, establecer prioridades y realizar seguimiento al estado de estas. También incluye la posibilidad de que los miembros clasifiquen el progreso de sus actividades, promoviendo una gestión más dinámica y ordenada.</td>
     </tr>
     <tr>
-      <td>EPIC-04</td>
+      <td>EP-004</td>
       <td>Comunicación y Seguimiento</td>
       <td>Esta épica contempla las herramientas de comunicación interna entre los miembros y el envío de notificaciones automáticas. Está pensada para mejorar la coordinación, resolver dudas rápidamente y asegurar que todos estén informados sobre cambios importantes o fechas clave.</td>
     </tr>
     <tr>
-      <td>EPIC-05</td>
+      <td>EP-005</td>
       <td>Personalización y Disponibilidad del Usuario</td>
       <td>Agrupa funcionalidades que permiten a los miembros adaptar su experiencia según su disponibilidad semanal y sus horarios. Esto ayuda al líder a asignar tareas de forma eficiente y promueve una distribución de carga de trabajo más equilibrada.</td>
     </tr>
     <tr>
-      <td>EPIC-06</td>
+      <td>EP-007</td>
       <td></td>
       <td></td>
     </tr>
@@ -758,7 +758,7 @@ Then los integrantes seleccionados se asignan al grupo.
 Escenario 2: Given que ya hay miembros asignados al grupo,
 When el líder revisa el grupo,
 Then puede visualizar los perfiles y habilidades de cada integrante.</td>
-<td>EP-001</td>
+<td></td>
 </tr>
     <tr><td>US-002</td>
 <td>Visualizacion de integrantes y lider</td>
