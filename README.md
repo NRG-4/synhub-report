@@ -471,6 +471,113 @@ En esta sección, mostraremos los perfiles de los usuarios que hemos definido pa
 
 #### 2.3.2. User Task Matrix
 
+**1. Segmento 1: Coordinadores o Líderes de Grupo**
+
+<table cellpadding="8" cellspacing="0">
+  <thead>
+    <tr>
+      <th colspan="3">Coordinador o Líder de Grupo</th>
+    </tr>
+    <tr>
+      <th>Tarea</th>
+      <th>Frecuencia</th>
+      <th>Severidad</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Seleccion de miembros y objetivo</td>
+      <td>Alta</td>
+      <td>Medio</td>
+    </tr>
+    <tr>
+      <td>Creacion de grupos y horarios</td>
+      <td>Baja</td>
+      <td>Alta</td>
+    </tr>
+    <tr>
+      <td>Coordina reuniones por distintos medios</td>
+      <td>Media</td>
+      <td>Media</td>
+    </tr>
+    <tr>
+      <td>Asigna tareas a los miembros del grupo</td>
+      <td>Alta</td>
+      <td>Alta</td>
+    </tr>
+    <tr>
+      <td>Supervisar y actualizar avances de los miembros</td>
+      <td>Alta</td>
+      <td>Alta</td>
+    </tr>
+    <tr>
+      <td>Recolectar informacion dispersa de todos los miembros</td>
+      <td>Alta</td>
+      <td>Alta</td>
+    </tr>
+    <tr>
+      <td>Identificar mejoras apartir de las concluciones finales</td>
+      <td>Media</td>
+      <td>Baja</td>
+    </tr>
+  </tbody>
+</table>
+
+
+**2. Segmento 2: Miembros del Equipo o Grupo**
+
+
+<table cellpadding="8" cellspacing="0">
+  <thead>
+    <tr>
+      <th colspan="3">Miembro del Equipo o Grupo</th>
+    </tr>
+    <tr>
+      <th>Tarea</th>
+      <th>Frecuencia</th>
+      <th>Severidad</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Revisar los miembros y objetivo del grupo</td>
+      <td>Baja</td>
+      <td>Media</td>
+    </tr>
+    <tr>
+      <td>Revisar horarios y organización del grupo</td>
+      <td>Alta</td>
+      <td>Alta</td>
+    </tr>
+    <tr>
+      <td>Asistir a reuniones coordinadas por el líder</td>
+      <td>Media</td>
+      <td>Alta</td>
+    </tr>
+    <tr>
+      <td>Realizar tareas asignadas según cronograma</td>
+      <td>Alta</td>
+      <td>Alta</td>
+    </tr>
+    <tr>
+      <td>Actualizar al líder sobre el avance de sus tareas</td>
+      <td>Alta</td>
+      <td>Alta</td>
+    </tr>
+    <tr>
+      <td>Compartir información y hallazgos con el lider</td>
+      <td>Media</td>
+      <td>Media</td>
+    </tr>
+    <tr>
+      <td>Reflexionar sobre mejoras personales o del grupo</td>
+      <td>Baja</td>
+      <td>Media</td>
+    </tr>
+  </tbody>
+</table>
+
+
 #### 2.3.3. User Journey Mapping
 
 En esta sección, se presenta el mapa de viaje del usuario, que ilustra las etapas y experiencias de los usuarios al interactuar con nuestro producto. Este mapa nos ayudará a identificar oportunidades de mejora y a comprender mejor las necesidades de nuestros usuarios.
@@ -493,18 +600,15 @@ En esta sección, se presenta el mapa de empatía, que nos ayudará a comprender
 
 #### 2.3.5. As-is Scenario Mapping
 
-**1. Segmento 1: Encargado o Cabeza de la Familia**
+**1. Segmento 1: Coordinadores o Líderes de Grupo**
 
 <img src="./images/chapter-2/asislider.png" alt="AsIsLider" width="800"/>
 
-
-**2. Segmento 2: Encargado o Cabeza de la Familia**
+**2. Segmento 2: Miembros del Equipo o Grupo**
 
 <img src="./images/chapter-2/asismiembro.png" alt="AsIsMiembro" width="800"/>
 
-
 ### 2.4. Ubiquitous Language
-
 
 <table cellpadding="8" cellspacing="0">
   <tr>
@@ -577,20 +681,17 @@ En esta sección, se presenta el mapa de empatía, que nos ayudará a comprender
   </tr>
 </table>
 
-
 ## Capítulo III: Requirements specification
 
 ### 3.1. To-Be Scenario Mapping
 
-
-**1. Segmento 1: Encargado o Cabeza de la Familia**
+**1. Segmento 1: Coordinadores o Líderes de Grupo**
 
 <img src="./images/chapter-2/tobelider.png" alt="ToBeLider" width="800"/>
 
-**2. Segmento 2: Encargado o Cabeza de la Familia**
+**2. Segmento 2: Miembros del Equipo o Grupo**
 
 <img src="./images/chapter-2/tobemiembro.png" alt="ToBeMiembro" width="800"/>
-
 
 ### 3.2. User Stories
 
