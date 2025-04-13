@@ -417,6 +417,9 @@ Then puede tomar decisiones basadas en esa información.</td>
 </table>
 
 ### 3.3. Impact Mapping
+
+<img src="images/chapter-3/impactmapping.png" alt="ImpactMapping" width="800"/>
+
 ### 3.4. Product Backlog
 
 ## Capítulo IV: Solution Software Design
