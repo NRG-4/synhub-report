@@ -172,6 +172,15 @@
 
 ## Capítulo III: Requirements specification
 ### 3.1. To-Be Scenario Mapping
+
+**1. Segmento 1: Coordinadores o Líderes de Grupo**
+
+<img src="images/chapter-3/tobelider.png" width="800"/>
+
+**2. Segmento 2: Miembros del Equipo o Grupo**
+
+<img src="images/chapter-3/tobemiembro.png" alt="ToBeMiembro" width="800"/>
+
 ### 3.2. User Stories
 ### 3.3. Impact Mapping
 ### 3.4. Product Backlog
