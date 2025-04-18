@@ -183,6 +183,7 @@
 
 ### 3.2. User Stories
 
+
 **Epics:**
 
 <table >
@@ -221,8 +222,8 @@
     </tr>
     <tr>
       <td>EP-007</td>
-      <td></td>
-      <td></td>
+      <td>Análisis y Reportes de Productividad</td>
+      <td>Esta épica permite a líderes y miembros visualizar métricas clave de desempeño grupal e individual, generando reportes automáticos y dashboards interactivos. Su objetivo es optimizar la distribución de tareas y medir el progreso.</td>
     </tr>
   </tbody>
 </table>
@@ -385,15 +386,150 @@ When consulta la disponibilidad de un miembro,
 Then puede tomar decisiones basadas en esa información.</td>
 <td>EP-005</td>
 </tr>
-    <tr><td>US-013</td><td></td><td></td><td></td><td></td></tr>
-    <tr><td>US-014</td><td></td><td></td><td></td><td></td></tr>
-    <tr><td>US-015</td><td></td><td></td><td></td><td></td></tr>
-    <tr><td>US-016</td><td></td><td></td><td></td><td></td></tr>
-    <tr><td>US-017</td><td></td><td></td><td></td><td></td></tr>
-    <tr><td>US-018</td><td></td><td></td><td></td><td></td></tr>
-    <tr><td>US-019</td><td></td><td></td><td></td><td></td></tr>
-    <tr><td>US-020</td><td></td><td></td><td></td><td></td></tr>
-    <tr><td>US-021</td><td></td><td></td><td></td><td></td></tr>
+<tr>
+  <td>US-013</td>
+  <td>Dashboard de progreso grupal</td>
+  <td>Como líder, deseo ver un panel con el avance de objetivos, tareas completadas vs pendientes y carga de trabajo por miembro, para tomar decisiones informadas.</td>
+  <td>
+    <b>Escenario 1:</b><br>
+    Given que el líder accede al dashboard,<br>
+    When selecciona un período específico,<br>
+    Then visualiza gráficos actualizados de tareas completadas y pendientes por cada miembro.<br><br>
+    <b>Escenario 2:</b><br>
+    Given que existe una carga de trabajo desigual,<br>
+    When el líder revisa el mapa de distribución,<br>
+    Then el sistema muestra alertas destacadas en miembros con sobrecarga.
+  </td>
+  <td>EP-007</td>
+</tr>
+<tr>
+  <td>US-014</td>
+  <td>Histórico de cumplimiento de plazos</td>
+  <td>Como miembro, quiero revisar mi historial de tareas completadas a tiempo vs retrasadas, para autoevaluar mi productividad.</td>
+  <td>
+    <b>Escenario 1:</b><br>
+    Given que un miembro accede a su perfil,<br>
+    When navega a la sección "Mi rendimiento",<br>
+    Then ve una línea de tiempo con todas sus tareas marcadas como "cumplidas" o "retrasadas".<br><br>
+    <b>Escenario 2:</b><br>
+    Given que hay variaciones en la productividad,<br>
+    When el miembro filtra por mes,<br>
+    Then el sistema muestra un comparativo gráfico entre sus resultados y el promedio del grupo.
+  </td>
+  <td>EP-007</td>
+</tr>
+<tr>
+  <td>US-015</td>
+  <td>Balance de carga de trabajo</td>
+  <td>Como líder, necesito visualizar un mapa de calor con la distribución horaria de tareas por miembro, para equilibrar asignaciones.</td>
+  <td>
+    <b>Escenario 1:</b><br>
+    Given que el líder abre la vista de carga laboral,<br>
+    When selecciona un rango de fechas,<br>
+    Then el sistema despliega un mapa de calor con horas asignadas por día/miembro.<br><br>
+    <b>Escenario 2:</b><br>
+    Given que un miembro tiene una carga laboral excesiva,<br>
+    When el líder revisa el dashboard,<br>
+    Then la celda correspondiente se marca con una alerta visual.
+  </td>
+  <td>EP-007</td>
+</tr>
+<tr>
+  <td>US-016</td>
+  <td>Reporte de contribuciones individuales</td>
+  <td>Como miembro, deseo generar un reporte mensual con mis tareas completadas, horas invertidas y reconocimientos recibidos, para mi portafolio personal.</td>
+  <td>
+    <b>Escenario 1:</b><br>
+    Given que un miembro quiere exportar su reporte,<br>
+    When hace clic en "Generar reporte mensual",<br>
+    Then recibe un PDF con: tareas completadas, horas registradas y contribuciones grupales.<br><br>
+    <b>Escenario 2:</b><br>
+    Given que el reporte está generado,<br>
+    When el miembro selecciona "Compartir con líder",<br>
+    Then el sistema envía una notificación al líder con el archivo adjunto.
+  </td>
+  <td>EP-007</td>
+</tr>
+<tr>
+  <td>US-017</td>
+  <td>Predicción de tiempos de entrega</td>
+  <td>Como líder, quiero que el sistema sugiera fechas límite realistas para nuevas tareas, basado en el historial de productividad del equipo.</td>
+  <td>
+    <b>Escenario 1:</b><br>
+    Given que el líder crea una nueva tarea,<br>
+    When ingresa la descripción y complejidad,<br>
+    Then el sistema muestra una fecha sugerida basada en el historial del asignado.<br><br>
+    <b>Escenario 2:</b><br>
+    Given que la fecha sugerida no es adecuada,<br>
+    When el líder ajusta manualmente el plazo,<br>
+    Then el sistema registra la variación para futuras predicciones.
+  </td>
+  <td>EP-007</td>
+</tr>
+<tr>
+  <td>US-018</td>
+  <td>Reporte de dependencias críticas</td>
+  <td>Como líder, necesito identificar tareas bloqueadas por dependencias no resueltas, para priorizar recursos.</td>
+  <td>
+    <b>Escenario 1:</b><br>
+    Given que una tarea tiene dependencias pendientes,<br>
+    When el líder accede al reporte de bloqueos,<br>
+    Then el sistema muestra un diagrama de flujo con las relaciones entre tareas.<br><br>
+    <b>Escenario 2:</b><br>
+    Given que un bloqueo persiste,<br>
+    When el líder revisa el reporte,<br>
+    Then recibe una alerta urgente con sugerencias de reasignación.
+  </td>
+  <td>EP-007</td>
+</tr>
+<tr>
+  <td>US-019</td>
+  <td>Análisis de tendencias de comunicación</td>
+  <td>Como líder, deseo ver métricas de frecuencia y canales de comunicación usados, para optimizar flujos colaborativos.</td>
+  <td>
+    <b>Escenario 1:</b><br>
+    Given que el líder quiere analizar la comunicación,<br>
+    When selecciona "Tendencias de chat",<br>
+    Then ve un gráfico de barras con interacciones por día y hora.<br><br>
+    <b>Escenario 2:</b><br>
+    Given que existen canales poco utilizados,<br>
+    When el líder revisa el reporte de canales,<br>
+    Then el sistema recomienda consolidar o eliminar canales inactivos.
+  </td>
+  <td>EP-007</td>
+</tr>
+<tr>
+  <td>US-020</td>
+  <td>Registro de tiempo invertido por tarea</td>
+  <td>Como miembro, quiero registrar y categorizar el tiempo dedicado a cada actividad, para mejorar mi gestión personal.</td>
+  <td>
+    <b>Escenario 1:</b><br>
+    Given que un miembro inicia una tarea,<br>
+    When activa el temporizador integrado,<br>
+    Then el sistema registra automáticamente el tiempo al marcarla como completada.<br><br>
+    <b>Escenario 2:</b><br>
+    Given que el miembro olvidó activar el timer,<br>
+    When edita manualmente la tarea completada,<br>
+    Then puede ingresar las horas invertidas con etiquetas predefinidas.
+  </td>
+  <td>EP-007</td>
+</tr>
+<tr>
+  <td>US-021</td>
+  <td>Reporte de salud del equipo</td>
+  <td>Como líder, necesito un indicador global que mida equilibrio carga-tiempo, clima colaborativo y cumplimiento de metas, para prevenir burnout.</td>
+  <td>
+    <b>Escenario 1:</b><br>
+    Given que el líder abre el reporte de salud,<br>
+    When revisa el semáforo (verde/ámbar/rojo),<br>
+    Then puede hacer clic para ver factores detallados como horas extras o conflictos no resueltos.<br><br>
+    <b>Escenario 2:</b><br>
+    Given que el indicador está en rojo,<br>
+    When el líder consulta las recomendaciones,<br>
+    Then el sistema propone acciones específicas como redistribuir tareas o programar días de descanso.
+  </td>
+  <td>EP-007</td>
+</tr>
     <tr><td>US-022</td><td></td><td></td><td></td><td></td></tr>
     <tr><td>US-023</td><td></td><td></td><td></td><td></td></tr>
     <tr><td>US-024</td><td></td><td></td><td></td><td></td></tr>
