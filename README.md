@@ -519,7 +519,7 @@ Then puede tomar decisiones basadas en esa información.</td>
   <td>Reporte de salud del equipo</td>
   <td>Como líder, necesito un indicador global que mida equilibrio carga-tiempo, clima colaborativo y cumplimiento de metas, para prevenir burnout.</td>
   <td>
-    <b>Escenario 1:</b><br>
+    <b>Escenario 1: </b><br>
     Given que el líder abre el reporte de salud,<br>
     When revisa el semáforo (verde/ámbar/rojo),<br>
     Then puede hacer clic para ver factores detallados como horas extras o conflictos no resueltos.<br><br>
@@ -530,7 +530,37 @@ Then puede tomar decisiones basadas en esa información.</td>
   </td>
   <td>EP-007</td>
 </tr>
-    <tr><td>US-022</td><td></td><td></td><td></td><td></td></tr>
+    <tr>
+        <td>
+            US-022
+        </td>
+        <td>
+            Visualización de tareas grupales 
+        </td>
+        <td>
+            Como miembro de un equipo en SynHub, deseo acceder a una vista 
+            consolidada de todas las tareas activas de un grupo específico, incluyendo su estado, 
+            responsables y fechas clave,para que pueda coordinar acciones, identificar cuellos de 
+            botella y garantizar el avance colectivo hacia los objetivos comunes.
+        </td>
+        <td>
+            <b>Escenario 1: Listado detallado de tareas grupales</b><br>
+            Dado que el usuario pertenece a un grupo con tareas activas,<br>
+            Cuando accede a la sección del grupo en SynHub,<br>
+            Entonces el sistema muestra una lista de todas las tareas del grupo, ordenadas por fecha de vencimiento
+            , el nombre de cada tarea, una descripción breve y el responsable asignado
+            y el estado actual de cada tarea (ej: "pendiente", "en progreso", "completado").
+            <br><br>
+            <b>Escenario 2: Visibilidad de fechas clave y progreso</b><br>
+            Dado que el usuario visualiza las tareas del grupo,<br>
+            Cuando revisa la información de una tarea específica,<br>
+            Entonces el sistema muestra La fecha de vencimiento, el porcentaje de progreso y 
+            Alertas visuales para tareas con menos de 24 horas restantes para su entrega.
+        </td>
+        <td>
+            EP-002
+        </td>
+    </tr>
     <tr><td>US-023</td><td></td><td></td><td></td><td></td></tr>
     <tr><td>US-024</td><td></td><td></td><td></td><td></td></tr>
     <tr><td>US-025</td><td></td><td></td><td></td><td></td></tr>
