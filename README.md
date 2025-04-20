@@ -240,7 +240,7 @@
 
 **User Stories:**
 
-<table >
+<table>
   <thead>
     <tr>
       <th>User Storie ID</th>
@@ -250,151 +250,256 @@
       <th>Relacionado con (Epic ID)</th>
     </tr>
   </thead>
-  <tbody>
-    <tr><td>US-001</td>
+<tbody>
+<tr>
+<td>US-001</td>
 <td>Seleccion de los miembros del grupo</td>
-<td>Como lider de grupo, deseo poder selecionar los miembros , para conocer al equipo de trabajo y sus habilidades.  </td>
-<td>Escenario 1: Given que el líder tiene acceso a la funcionalidad de gestión del grupo,
-When selecciona miembros desde una lista disponible,
-Then los integrantes seleccionados se asignan al grupo.
-Escenario 2: Given que ya hay miembros asignados al grupo,
-When el líder revisa el grupo,
-Then puede visualizar los perfiles y habilidades de cada integrante.</td>
-<td></td>
+<td>Como lider de grupo, deseo poder selecionar los miembros, para conocer al equipo de trabajo y sus habilidades.</td>
+    <td>
+    <b>Escenario 1: Asignación de miembros</b><br>
+    Given que el líder tiene acceso a la funcionalidad de gestión del grupo,<br>
+    When selecciona miembros desde una lista disponible,<br>
+    Then los integrantes seleccionados se asignan al grupo.
+    <br>
+    <b>Escenario 2: Visualización de perfil de miembros</b><br>
+    Given que ya hay miembros asignados al grupo,<br>
+    When el líder revisa el grupo,<br>
+    Then puede visualizar los perfiles y habilidades de cada integrante.
+    <br>
+    <b>Escenario 3: Asignación de miembro ya existente</b><br>
+    Given el líder tiene acceso a la funcionalidad de gestión del grupo,<br>
+    When intenta seleccionar un miembro que ya está asignado,<br>
+    Then la aplicación deberia mostrar un mensaje de error indicando que el miembro ya pertenece al grupo.
+    </td>
+    <td>EP-001</td>
 </tr>
-    <tr><td>US-002</td>
-<td>Visualizacion de integrantes y lider</td>
-<td>Como miembro de grupo, deseo poder visualizar los integrantes de mi grupo, para saber quienes son mis compañeros y lider.</td>
-<td>Escenario 1: Given que el usuario forma parte de un grupo,
-When accede a la sección de su grupo,
-Then puede ver una lista de los miembros y del líder del grupo.
-Escenario 2: Given que hay cambios en el grupo,
-When el usuario visualiza la información actualizada,
-Then esta refleja los cambios de integrantes y liderazgo.</td>
-<td>EP-001</td>
+<tr>
+    <td>US-002</td>
+    <td>Visualizacion de integrantes y lider</td>
+    <td>Como miembro de grupo, deseo poder visualizar los integrantes de mi grupo, para saber quienes son mis compañeros y lider.</td>
+    <td>
+    <b>Escenario 1: Visualizar integrantes del grupo</b><br>
+    Given que el usuario forma parte de un grupo,<br>
+    When accede a la sección de su grupo,<br>
+    Then puede ver una lista de los miembros y del líder del grupo.
+    <br>
+    <b>Escenario 2: Visualizar modificaciones del grupo</b><br>
+    Given que hay cambios en el grupo,<br>
+    When el usuario visualiza la información actualizada,<br>
+    Then esta refleja los cambios de integrantes y liderazgo.
+    <br>
+    <b>Escenario 3: Error al cargar información del grupo</b><br>
+    Given el usuario forma parte de un grupo,<br>
+    When accede a la sección de su grupo<br>
+    And la información de un miembro no carga apropiadamente,<br>
+    Then la aplicación debería mostrar un mensaje informativo indicando que la información no pudo cargar.
+    </td>
+    <td>EP-001</td>
 </tr>
-    <tr><td>US-003</td>
-<td>Creacion del grupo </td>
-<td>Como lider de grupo, deseo poder definir grupo junto con su objetivo, para que todos los integrantes conozcan la meta o asunto.</td>
-<td>Escenario 1: Given que el líder no tiene aún un grupo creado,
-When define un nuevo grupo con un nombre y objetivo,
-Then el grupo queda registrado en el sistema.
-Escenario 2: Given que se ha creado un grupo,
-When los miembros se asignan,
-Then estos reciben el objetivo del grupo como referencia común.</td>
-<td>EP-001</td>
+<tr>
+    <td>US-003</td>
+    <td>Creacion del grupo</td>
+    <td>Como lider de grupo, deseo poder definir grupo junto con su objetivo, para que todos los integrantes conozcan la meta o asunto.</td>
+    <td>
+    <b>Escenario 1: Creación exitosa del grupo</b><br>
+    Given que el líder no tiene aún un grupo creado,<br>
+    When define un nuevo grupo con un nombre y objetivo,<br>
+    Then el grupo queda registrado en el sistema.
+    <br>
+    <b>Escenario 2: Notificación del objetivo</b><br>
+    Given que se ha creado un grupo,<br>
+    When los miembros se asignan,<br>
+    Then estos reciben el objetivo del grupo como referencia común.
+    <br>
+    <b>Escenario 3: Intento de creación de un grupo con el mismo nombre</b><br>
+    Given el líder tiene un grupo con cierto nombre,<br>
+    When intenta definir un nuevo grupo con el mismo nombre que uno de sus grupos,<br>
+    Then la aplicación debería mostrar un mensaje de error indicando que el nombre del grupo ya existe en su lista.
+    </td>
+    <td>EP-001</td>
 </tr>
-    <tr><td>US-004</td>
-<td>Página de inicio personalizada con tareas y horarios</td>
-<td>Como miembro del equipo, deseo tener una página de inicio que me muestre las tareas del día, las fechas de vencimiento y horarios disponibles, para que pueda concentrarme en lo que debo hacer y optimizar mi tiempo.</td>
-<td>Escenario 1: Given que el usuario accede al sistema,
-When entra a su página de inicio,
-Then visualiza las tareas programadas para el día y su vencimiento.
-Escenario 2: Given que el usuario tiene tareas en diferentes horarios,
-When consulta su página principal,
-Then puede ver cómo están distribuidas a lo largo del día.</td>
-<td>EP-002</td>
+<tr>
+    <td>US-004</td>
+    <td>Página de inicio personalizada con tareas y horarios</td>
+    <td>Como miembro del equipo, deseo tener una página de inicio que me muestre las tareas del día, las fechas de vencimiento y horarios disponibles, para que pueda concentrarme en lo que debo hacer y optimizar mi tiempo.</td>
+    <td>
+    <b>Escenario 1: Visualización de tareas del día</b><br>
+    Given que el usuario accede al sistema,<br>
+    When entra a su página de inicio,<br>
+    Then visualiza las tareas programadas para el día y su vencimiento.
+    <br>
+    <b>Escenario 2: Distribución horaria de las tareas</b><br>
+    Given que el usuario tiene tareas en diferentes horarios,<br>
+    When consulta su página principal,<br>
+    Then puede ver cómo están distribuidas a lo largo del día.
+    <br>
+    <b>Escenario 3: Tareas no programadas</b><br>
+    Given el usuario accede al sistema,<br>
+    When no tiene tareas programadas para el día,<br>
+    Then la aplicación debería mostrar un mensaje informativo indicando que no hay tareas pendientes.
+    </td>
+    <td>EP-002</td>
 </tr>
-    <tr><td>US-005</td>
-<td>Asignacion de niveles de prioridad</td>
-<td>Como líder de grupo, deseo poder asignar tareas con niveles de prioridad, para que el equipo pueda concentrarse en lo más urgente y asegurarnos de cumplir con los plazos de manera eficiente.</td>
-<td>Escenario 1: Given que el líder asigna una tarea,
-When define su nivel de prioridad,
-Then el sistema guarda esa prioridad junto con la tarea.
-Escenario 2: Given que un miembro consulta sus tareas,
-When revisa la información de una tarea,
-Then puede ver el nivel de prioridad asignado.</td>
+<tr>
+    <td>US-005</td>
+    <td>Asignacion de niveles de prioridad</td>
+    <td>Como líder de grupo, deseo poder asignar tareas con niveles de prioridad, para que el equipo pueda concentrarse en lo más urgente y asegurarnos de cumplir con los plazos de manera eficiente.</td>
+    <td>
+    <b>Escenario 1: Asignación exitosa de prioridad a la tarea</b><br>
+    Given que el líder asigna una tarea,<br>
+    When define su nivel de prioridad,<br>
+    Then el sistema guarda esa prioridad junto con la tarea.
+    <br>
+    <b>Escenario 2: Visualización de la prioridad</b><br>
+    Given que un miembro consulta sus tareas,<br>
+    When revisa la información de una tarea,<br>
+    Then puede ver el nivel de prioridad asignado.
+    <br>
+    <b>Escenario 3: Omisión de la asignación</b><br>
+    Given que el líder asigna una tarea,<br>
+    When no selecciona un nivel de prioridad de las opciones disponibles<br>
+    And intenta guardar la tarea,<br>
+    Then la aplicación debería mostrar un mensaje de advertencia indicando que la prioridad es obligatoria.
+    </td>
+    <td>EP-003</td>
+</tr>
+<tr>
+    <td>US-006</td>
+    <td>Notificaciones automáticas sobre tareas y fechas clave</td>
+    <td>Como miembro del equipo, deseo recibir notificaciones automáticas sobre las tareas asignadas, fechas de vencimiento y cualquier actualización importante, para asegurarme de estar siempre al tanto de mis responsabilidades y entregar mis tareas dentro del plazo establecido.</td>
+    <td>
+    <b>Escenario 1: Notificación de nueva tarea</b><br>
+    Given que se asigna una nueva tarea,<br>
+    When esta se registra en el sistema,<br>
+    Then el miembro del equipo recibe una notificación automática.
+    <br>
+    <b>Escenario 2: Alerta de vencimiento próximo</b><br>
+    Given que una tarea está próxima a vencer,<br>
+    When falta menos de 24 horas para su vencimiento,<br>
+    Then el usuario recibe una alerta recordatoria.
+    <br>
+    <b>Escenario 3: Fallo en la entrega</b><br>
+    Given que el miembro del equipo tiene una tarea asignada,<br>
+    When el tiempo de la entrega finaliza<br>
+    And no hay alguna actividad entregada o confirmación de que haya cumplido,<br>
+    Then la actividad se marca como no finalizada<br>
+    And la aplicación enviará al miembro una alerta.
+    </td>
+    <td>EP-004</td>
+</tr>
+<tr>
+    <td>US-007</td>
+    <td>Asignacion de tareas a los miembros</td>
+    <td>Como lider de grupo, deseo asignar tareas a miembros, para distribuir los pendientes facilmente dependiente de los roles.</td>
+    <td>
+    <b>Escenario 1:</b><br>
+    Given que el líder tiene un grupo formado,<br>
+    When asigna una tarea a un integrante,<br>
+    Then esta se vincula al perfil del miembro seleccionado.
+    <br>
+    <b>Escenario 2:</b><br>
+    Given que un usuario tiene una tarea asignada,<br>
+    When accede a su lista de tareas,<br>
+    Then puede ver el detalle de lo que debe hacer.
+    <br>
+    <b>Escenario 3:</b><br>
+    </td>
+    <td>EP-003</td>
+</tr>
+<tr>
+    <td>US-008</td>
+    <td>Clasificacion de tareas</td>
+    <td>Como miembro del grupo, deseo poder marcas como tareas como completa, en proceso, en revision, por hacer, para mantener a otros integrantes y al lider actualizados.</td>
+    <td>
+    <b>Escenario 1:</b><br>
+    Given que un usuario accede a su lista de tareas,<br>
+    When marca una tarea como "en proceso",<br>
+    Then los demás pueden ver su nuevo estado actualizado.
+    <br>
+    <b>Escenario 2:</b><br>
+    Given que el usuario ha completado una tarea,<br>
+    When la marca como "completa",<br>
+    Then el sistema actualiza el estado y el líder puede verlo.
+    <br>
+    <b>Escenario 3:</b><br>
+    </td>
+    <td>EP-003</td>
+</tr>
+<tr>
+    <td>US-009</td>
+    <td>Visualizacion del tablero de tareas</td>
+    <td>Como líder de grupo, deseo tener un tablero visual en tiempo real que me permita ver el progreso de todas las tareas de mi equipo y los tiempos de entrega, para poder identificar rápidamente cualquier retraso.</td>
+    <td>
+    <b>Escenario 1:</b><br>
+    Given que el líder accede a la vista de tablero,<br>
+    When observa las tareas del equipo,<br>
+    Then puede ver el estado y el avance de cada una en tiempo real.
+    <br>
+    <b>Escenario 2:</b><br>
+    Given que hay tareas atrasadas,<br>
+    When el líder revisa el tablero,<br>
+    Then estas se muestran claramente diferenciadas para identificar retrasos.
+    <br>
+    <b>Escenario 3:</b><br>
+    </td>
+    <td>EP-002</td>
+</tr>
+<tr>
+    <td>US-010</td>
+    <td>Solicitud de ayuda o comentarios</td>
+    <td>Como miembro del grupo, deseo poder solicitar ayuda o comentarios sobre una tarea específica, para resolver dudas y mejorar la calidad del trabajo entregado.</td>
+    <td>
+    <b>Escenario 1:</b><br>
+    Given que el usuario tiene dificultades con una tarea,<br>
+    When el miembro solicita ayuda,<br>
+    Then el sistema permite registrar y enviar esa solicitud al grupo o líder.
+    <br>
+    <b>Escenario 2:</b><br>
+    Given que el usuario recibe una respuesta,<br>
+    When consulta el historial de la tarea,<br>
+    Then puede ver los comentarios recibidos para resolver su duda.
+    <br>
+    <b>Escenario 3:</b><br>
+    </td>
+    <td>EP-004</td>
+</tr>
+<tr>
+    <td>US-011</td>
+    <td>Actualizar tareas de los miembros</td>
+    <td>Como lider de grupo, deseo poder actualizar el progreso o dificultad de una tarea, para mantener al encargado de la misma informado sobre su trabajo. </td>
+    <td>
+    <b>Escenario 1:</b><br>
+    Given que el líder revisa el estado de una tarea,<br>
+    When detecta que hay retrasos o complicaciones,<br>
+    Then puede modificar el estado o dificultad de la tarea.
+    <br>
+    <b>Escenario 2:</b><br>
+    Given que el cambio ha sido realizado,<br>
+    When el miembro accede a la tarea,<br>
+    Then puede ver los nuevos detalles o nivel de dificultad.
+    <br>
+    <b>Escenario 3:</b><br>
+    </td>
 <td>EP-003</td>
 </tr>
-    <tr><td>US-006</td>
-<td>Notificaciones automáticas sobre tareas y fechas clave</td>
-<td>Como miembro del equipo, deseo recibir notificaciones automáticas sobre las tareas asignadas, fechas de vencimiento y cualquier actualización importante, para asegurarme de estar siempre al tanto de mis responsabilidades y entregar mis tareas dentro del plazo establecido.</td>
-<td>Escenario 1: Given que se asigna una nueva tarea,
-When esta se registra en el sistema,
-Then el miembro del equipo recibe una notificación automática.
-Escenario 2: Given que una tarea está próxima a vencer,
-When falta menos de 24 horas para su vencimiento,
-Then el usuario recibe una alerta recordatoria.</td>
-<td>EP-004</td>
-</tr>
-    <tr><td>US-007</td>
-<td>Asignacion de tareas a los miembros</td>
-<td>Como lider de grupo, deseo asignar tareas a miembros, para distribuir los pendientes facilmente dependiente de los roles.</td>
-<td>Escenario 1:
-Given que el líder tiene un grupo formado,
-When asigna una tarea a un integrante,
-Then esta se vincula al perfil del miembro seleccionado.
-Escenario 2:
-Given que un usuario tiene una tarea asignada,
-When accede a su lista de tareas,
-Then puede ver el detalle de lo que debe hacer.
-</td>
-<td>EP-003</td>
-</tr>
-    <tr><td>US-008</td>
-<td>Clasificacion de tareas</td>
-<td>Como miembro del grupo, deseo poder marcas como tareas como completa, en proceso, en revision, por hacer, para mantener a otros integrantes y al lider actualizados.</td>
-<td>Escenario 1:
-Given que un usuario accede a su lista de tareas,
-When marca una tarea como "en proceso",
-Then los demás pueden ver su nuevo estado actualizado.
-Escenario 2:
-Given que el usuario ha completado una tarea,
-When la marca como "completa",
-Then el sistema actualiza el estado y el líder puede verlo.</td>
-<td>EP-003</td>
-</tr>
-    <tr><td>US-009</td>
-<td>Visualizacion del tablero de tareas</td>
-<td>Como líder de grupo, deseo tener un tablero visual en tiempo real que me permita ver el progreso de todas las tareas de mi equipo y los tiempos de entrega, para poder identificar rápidamente cualquier retraso.</td>
-<td>Escenario 1:
-Given que el líder accede a la vista de tablero,
-When observa las tareas del equipo,
-Then puede ver el estado y el avance de cada una en tiempo real.
-Escenario 2:
-Given que hay tareas atrasadas,
-When el líder revisa el tablero,
-Then estas se muestran claramente diferenciadas para identificar retrasos.</td>
-<td>EP-002</td>
-</tr>
-    <tr><td>US-010</td>
-<td>Solicitud de ayuda o comentarios</td>
-<td>Como miembro del grupo, deseo poder solicitar ayuda o comentarios sobre una tarea específica, para resolver dudas y mejorar la calidad del trabajo entregado.</td>
-<td>Escenario 1:
-Given que el usuario tiene dificultades con una tarea,
-When solicita ayuda,
-Then el sistema permite registrar y enviar esa solicitud al grupo o líder.
-Escenario 2:
-Given que el usuario recibe una respuesta,
-When consulta el historial de la tarea,
-Then puede ver los comentarios recibidos para resolver su duda.</td>
-<td>EP-004</td>
-</tr>
-    <tr><td>US-011</td>
-<td>Actualizar tareas de los miembros</td>
-<td>Como lider de grupo, deseo poder actualizar el progreso o dificultad de una tarea, para mantener al encargado de la misma informado sobre su trabajo. </td>
-<td>Escenario 1:
-Given que el líder revisa el estado de una tarea,
-When detecta que hay retrasos o complicaciones,
-Then puede modificar el estado o dificultad de la tarea.
-Escenario 2:
-Given que el cambio ha sido realizado,
-When el miembro accede a la tarea,
-Then puede ver los nuevos detalles o nivel de dificultad.</td>
-<td>EP-003</td>
-</tr>
-    <tr><td>US-012</td>
-<td>Gestión de disponibilidad</td>
-<td>Como miembro del grupo, deseo poder registrar mis horarios disponibles durante la semana, para que el líder pueda asignarme tareas según mi disponibilidad.</td>
-<td>Escenario 1:
-Given que un miembro desea registrar su disponibilidad,
-When indica los días y horas que puede trabajar,
-Then el sistema almacena esta información.
-Escenario 2:
-Given que el líder asigna tareas,
-When consulta la disponibilidad de un miembro,
-Then puede tomar decisiones basadas en esa información.</td>
-<td>EP-005</td>
+<tr>
+    <td>US-012</td>
+    <td>Gestión de disponibilidad</td>
+    <td>Como miembro del grupo, deseo poder registrar mis horarios disponibles durante la semana, para que el líder pueda asignarme tareas según mi disponibilidad.</td>
+    <td>
+    <b>Escenario 1:</b><br>
+    Given que un miembro desea registrar su disponibilidad,<br>
+    When indica los días y horas que puede trabajar,<br>
+    Then el sistema almacena esta información.
+    <br>
+    <b>Escenario 2:</b><br>
+    Given que el líder asigna tareas,<br>
+    When consulta la disponibilidad de un miembro,<br>
+    Then puede tomar decisiones basadas en esa información.
+    <br>
+    <b>Escenario 3:</b><br>
+    </td>
+    <td>EP-005</td>
 </tr>
 <tr>
   <td>US-013</td>
@@ -404,11 +509,14 @@ Then puede tomar decisiones basadas en esa información.</td>
     <b>Escenario 1:</b><br>
     Given que el líder accede al dashboard,<br>
     When selecciona un período específico,<br>
-    Then visualiza gráficos actualizados de tareas completadas y pendientes por cada miembro.<br><br>
+    Then visualiza gráficos actualizados de tareas completadas y pendientes por cada miembro.
+    <br>
     <b>Escenario 2:</b><br>
     Given que existe una carga de trabajo desigual,<br>
     When el líder revisa el mapa de distribución,<br>
     Then el sistema muestra alertas destacadas en miembros con sobrecarga.
+    <br>
+    <b>Escenario 3:</b><br>
   </td>
   <td>EP-007</td>
 </tr>
@@ -420,11 +528,14 @@ Then puede tomar decisiones basadas en esa información.</td>
     <b>Escenario 1:</b><br>
     Given que un miembro accede a su perfil,<br>
     When navega a la sección "Mi rendimiento",<br>
-    Then ve una línea de tiempo con todas sus tareas marcadas como "cumplidas" o "retrasadas".<br><br>
+    Then ve una línea de tiempo con todas sus tareas marcadas como "cumplidas" o "retrasadas".
+    <br>
     <b>Escenario 2:</b><br>
     Given que hay variaciones en la productividad,<br>
     When el miembro filtra por mes,<br>
     Then el sistema muestra un comparativo gráfico entre sus resultados y el promedio del grupo.
+    <br>
+    <b>Escenario 3:</b><br>
   </td>
   <td>EP-007</td>
 </tr>
@@ -436,11 +547,14 @@ Then puede tomar decisiones basadas en esa información.</td>
     <b>Escenario 1:</b><br>
     Given que el líder abre la vista de carga laboral,<br>
     When selecciona un rango de fechas,<br>
-    Then el sistema despliega un mapa de calor con horas asignadas por día/miembro.<br><br>
+    Then el sistema despliega un mapa de calor con horas asignadas por día/miembro.
+    <br>
     <b>Escenario 2:</b><br>
     Given que un miembro tiene una carga laboral excesiva,<br>
     When el líder revisa el dashboard,<br>
     Then la celda correspondiente se marca con una alerta visual.
+    <br>
+    <b>Escenario 3:</b><br>
   </td>
   <td>EP-007</td>
 </tr>
@@ -452,11 +566,14 @@ Then puede tomar decisiones basadas en esa información.</td>
     <b>Escenario 1:</b><br>
     Given que un miembro quiere exportar su reporte,<br>
     When hace clic en "Generar reporte mensual",<br>
-    Then recibe un PDF con: tareas completadas, horas registradas y contribuciones grupales.<br><br>
+    Then recibe un PDF con: tareas completadas, horas registradas y contribuciones grupales.
+    <br>
     <b>Escenario 2:</b><br>
     Given que el reporte está generado,<br>
     When el miembro selecciona "Compartir con líder",<br>
     Then el sistema envía una notificación al líder con el archivo adjunto.
+    <br>
+    <b>Escenario 3:</b><br>
   </td>
   <td>EP-007</td>
 </tr>
@@ -468,11 +585,14 @@ Then puede tomar decisiones basadas en esa información.</td>
     <b>Escenario 1:</b><br>
     Given que el líder crea una nueva tarea,<br>
     When ingresa la descripción y complejidad,<br>
-    Then el sistema muestra una fecha sugerida basada en el historial del asignado.<br><br>
+    Then el sistema muestra una fecha sugerida basada en el historial del asignado.
+    <br>
     <b>Escenario 2:</b><br>
     Given que la fecha sugerida no es adecuada,<br>
     When el líder ajusta manualmente el plazo,<br>
     Then el sistema registra la variación para futuras predicciones.
+    <br>
+    <b>Escenario 3:</b><br>
   </td>
   <td>EP-007</td>
 </tr>
@@ -484,11 +604,14 @@ Then puede tomar decisiones basadas en esa información.</td>
     <b>Escenario 1:</b><br>
     Given que una tarea tiene dependencias pendientes,<br>
     When el líder accede al reporte de bloqueos,<br>
-    Then el sistema muestra un diagrama de flujo con las relaciones entre tareas.<br><br>
+    Then el sistema muestra un diagrama de flujo con las relaciones entre tareas.
+    <br>
     <b>Escenario 2:</b><br>
     Given que un bloqueo persiste,<br>
     When el líder revisa el reporte,<br>
     Then recibe una alerta urgente con sugerencias de reasignación.
+    <br>
+    <b>Escenario 3:</b><br>
   </td>
   <td>EP-007</td>
 </tr>
@@ -500,11 +623,14 @@ Then puede tomar decisiones basadas en esa información.</td>
     <b>Escenario 1:</b><br>
     Given que el líder quiere analizar la comunicación,<br>
     When selecciona "Tendencias de chat",<br>
-    Then ve un gráfico de barras con interacciones por día y hora.<br><br>
+    Then ve un gráfico de barras con interacciones por día y hora.
+    <br>
     <b>Escenario 2:</b><br>
     Given que existen canales poco utilizados,<br>
     When el líder revisa el reporte de canales,<br>
     Then el sistema recomienda consolidar o eliminar canales inactivos.
+    <br>
+    <b>Escenario 3:</b><br>
   </td>
   <td>EP-007</td>
 </tr>
@@ -516,11 +642,14 @@ Then puede tomar decisiones basadas en esa información.</td>
     <b>Escenario 1:</b><br>
     Given que un miembro inicia una tarea,<br>
     When activa el temporizador integrado,<br>
-    Then el sistema registra automáticamente el tiempo al marcarla como completada.<br><br>
+    Then el sistema registra automáticamente el tiempo al marcarla como completada.
+    <br>
     <b>Escenario 2:</b><br>
     Given que el miembro olvidó activar el timer,<br>
     When edita manualmente la tarea completada,<br>
     Then puede ingresar las horas invertidas con etiquetas predefinidas.
+    <br>
+    <b>Escenario 3:</b><br>
   </td>
   <td>EP-007</td>
 </tr>
@@ -532,18 +661,19 @@ Then puede tomar decisiones basadas en esa información.</td>
     <b>Escenario 1: </b><br>
     Given que el líder abre el reporte de salud,<br>
     When revisa el semáforo (verde/ámbar/rojo),<br>
-    Then puede hacer clic para ver factores detallados como horas extras o conflictos no resueltos.<br><br>
+    Then puede hacer clic para ver factores detallados como horas extras o conflictos no resueltos.
+    <br>
     <b>Escenario 2:</b><br>
     Given que el indicador está en rojo,<br>
     When el líder consulta las recomendaciones,<br>
     Then el sistema propone acciones específicas como redistribuir tareas o programar días de descanso.
+    <br>
+    <b>Escenario 3:</b><br>
   </td>
   <td>EP-007</td>
 </tr>
     <tr>
-        <td>
-            US-022
-        </td>
+        <td>US-022</td>
         <td>
             Visualización de tareas grupales 
         </td>
@@ -555,28 +685,30 @@ Then puede tomar decisiones basadas en esa información.</td>
         </td>
         <td>
             <b>Escenario 1: Listado detallado de tareas grupales</b><br>
-            Dado que el usuario pertenece a un grupo con tareas activas,<br>
-            Cuando accede a la sección del grupo en SynHub,<br>
-            Entonces el sistema muestra una lista de todas las tareas del grupo, ordenadas por fecha de vencimiento
+            Given que el usuario pertenece a un grupo con tareas activas,<br>
+            When accede a la sección del grupo en SynHub,<br>
+            Then el sistema muestra una lista de todas las tareas del grupo, ordenadas por fecha de vencimiento
             , el nombre de cada tarea, una descripción breve y el responsable asignado
             y el estado actual de cada tarea (ej: "pendiente", "en progreso", "completado").
-            <br><br>
+            <br>
             <b>Escenario 2: Visibilidad de fechas clave y progreso</b><br>
-            Dado que el usuario visualiza las tareas del grupo,<br>
-            Cuando revisa la información de una tarea específica,<br>
-            Entonces el sistema muestra La fecha de vencimiento, el porcentaje de progreso y 
-            Alertas visuales para tareas con menos de 24 horas restantes para su 
-            <br><br>
+            Given que el usuario visualiza las tareas del grupo,<br>
+            When revisa la información de una tarea específica,<br>
+            Then el sistema muestra La fecha de vencimiento, el porcentaje de progreso y
+            Alertas visuales para tareas con menos de 24 horas restantes.
+            <br>
             <b>Escenario 3: : Sincronización en tiempo real de actualizaciones</b><br>
-            Dado que el usuario está en la sección de tareas grupales,<br>
-            Cuando otro miembro modifica el estado, responsable o fecha de una tarea,<br>
-            Entonces el sistema muestra La fecha de vencimiento, el porcentaje de progreso y 
-            Entonces los cambios se reflejan automáticamente en la vista del usuario.
-            <br><br>
+            Given que el usuario está en la sección de tareas grupales,<br>
+            When otro miembro modifica el estado, responsable o fecha de una tarea,<br>
+            Then el sistema muestra La fecha de vencimiento, el porcentaje de progreso
+            And los cambios se reflejan automáticamente en la vista del usuario.
+            <br>
             <b>Escenario 4: Filtrado básico para gestión de prioridades</b><br>
-            Dado que el usuario está en la sección de tareas grupales,<br>
-            Cuando selecciona un filtro por estado (ej: "pendiente", "en progreso", "completado"),<br>
-            Entonces el sistema muestra solo las tareas que cumplen con ese criterio.
+            Given que el usuario está en la sección de tareas grupales,<br>
+            When selecciona un filtro por estado (ej: "pendiente", "en progreso", "completado"),<br>
+            Then el sistema muestra solo las tareas que cumplen con ese criterio.
+            <br>
+            <b>Escenario 5:</b><br>
         </td>
         <td>
             EP-002
@@ -596,11 +728,13 @@ Then puede tomar decisiones basadas en esa información.</td>
         </td>
         <td>
             <b>Escenario 1: Acceso a la información completa de la tarea</b><br>
-            Dado que el usuario está en la lista de tareas (individuales o grupales),<br>
-            Cuando selecciona una tarea específica,<br>
-            Entonces el sistema despliega una vista detallada con Título de la tarea, descripción de la tarea ,
+            Given que el usuario está en la lista de tareas (individuales o grupales),<br>
+            When selecciona una tarea específica,<br>
+            Then el sistema despliega una vista detallada con Título de la tarea, descripción de la tarea ,
             Fecha de creación, fecha de vencimiento y prioridad asignada, Estado actual de la tarea, 
             participantes involucrados y comentarios asociados.
+            <br>
+            <b>Escenario 2:</b><br>
         </td>
         <td>
             EP-002
@@ -621,10 +755,12 @@ Then puede tomar decisiones basadas en esa información.</td>
         </td>
         <td>
             <b>Escenario 1: Visualización cronológica de actividades diarias</b><br>
-            Dado que el usuario está en la lista de tareas (individuales o grupales),<br>
-            Cuando accede a la sección "Mi Horario" en SynHub,<br>
-            Entonces el sistema muestra un calendario horario y tareas ubicadas en sus bloques 
+            Given que el usuario está en la lista de tareas (individuales o grupales),<br>
+            When accede a la sección "Mi Horario" en SynHub,<br>
+            Then el sistema muestra un calendario horario y tareas ubicadas en sus bloques
             de tiempo correspondientes.
+            <br>
+            <b>Escenario 2:</b><br>
         </td>
         <td>
             EP-002
@@ -645,10 +781,12 @@ Then puede tomar decisiones basadas en esa información.</td>
         </td>
         <td>
             <b>Escenario 1: Listado completo de grupos miembros</b><br>
-            Dado que el usuario está registrado en SynHub y pertenece a uno o más grupos,<br>
-            Cuando accede a la sección "Mis Grupos",<br>
-            Entonces el sistema muestra una lista de todos los grupos a los que pertenece, con la informacion
+            Given que el usuario está registrado en SynHub y pertenece a uno o más grupos,<br>
+            When accede a la sección "Mis Grupos",<br>
+            Then el sistema muestra una lista de todos los grupos a los que pertenece, con la informacion
             de cada uno, incluyendo el nombre del grupo , descripción breve del grupo y cantidad de miembros
+            <br>
+            <b>Escenario 2:</b><br>
         </td>
         <td>
             EP-002
@@ -659,8 +797,17 @@ Then puede tomar decisiones basadas en esa información.</td>
       <td>Subir documentos compartidos</td>
       <td>Como miembro, quiero subir documentos al repositorio grupal en SynHub, para centralizar la información clave del equipo.</td>
       <td>
-        <b>Escenario 1:</b> Dado que el usuario accede a "Documentos", Cuando selecciona "Subir", Entonces puede elegir archivos locales y asignar categorías.<br><br>
-        <b>Escenario 2:</b> Dado que el archivo se subió, Cuando otro miembro busca, Entonces aparece en resultados con metadatos básicos.
+        <b>Escenario 1:</b><br>
+        Given que el usuario accede a "Documentos",<br>
+        When el usuario selecciona "Subir",<br>
+        Then puede elegir archivos locales y asignar categorías.
+        <br>
+        <b>Escenario 2:</b><br>
+        Given que el archivo se subió,<br>
+        When otro miembro busca,<br>
+        Then aparece en resultados con metadatos básicos.
+        <br>
+        <b>Escenario 3:</b><br>
       </td>
       <td>EP-008</td>
     </tr>
@@ -669,8 +816,17 @@ Then puede tomar decisiones basadas en esa información.</td>
       <td>Control de versiones documentales</td>
       <td>Como coordinador, necesito ver historial de versiones cuando se modifican documentos compartidos, para rastrear cambios importantes.</td>
       <td>
-        <b>Escenario 1:</b> Dado que un documento tiene versiones previas, Cuando usuario hace clic en "Historial", Entonces muestra lista con fecha/autor de cada cambio.<br><br>
-        <b>Escenario 2:</b> Dado que se selecciona versión antigua, Cuando hace clic en "Comparar", Entonces resalta diferencias con versión actual.
+        <b>Escenario 1:</b><br>
+        Given que un documento tiene versiones previas,<br>
+        When el usuario hace clic en "Historial",<br>
+        Then muestra lista con fecha/autor de cada cambio.
+        <br>
+        <b>Escenario 2:</b><br>
+        Given que se selecciona versión antigua,<br>
+        When hace clic en "Comparar",<br>
+        Then la aplicación resalta diferencias con versión actual.
+        <br>
+        <b>Escenario 3:</b><br>
       </td>
       <td>EP-008</td>
     </tr>
@@ -679,7 +835,11 @@ Then puede tomar decisiones basadas en esa información.</td>
       <td>Sistema de logros/badges</td>
       <td>Como miembro, quiero ganar insignias al completar metas grupales, para sentirme reconocido por mis contribuciones.</td>
       <td>
-        <b>Escenario 1:</b> Dado que el usuario completa tareas asignadas, Cuando actualiza perfil, Entonces recibe un badge correspondiente.<br><br>
+        <b>Escenario 1:</b><br>
+        Given que el usuario completa tareas asignadas,<br>
+        When actualiza perfil,<br>
+        Then recibe un badge correspondiente.
+        <br>
         <b>Escenario 2:</b> Dado que hay badges disponibles, Cuando otros ven mi perfil, Entonces muestran mis logros con descripción.
       </td>
       <td>EP-009</td>
@@ -689,8 +849,16 @@ Then puede tomar decisiones basadas en esa información.</td>
       <td>Tablero de reconocimiento grupal</td>
       <td>Como líder, deseo destacar públicamente contribuciones excepcionales, para motivar al equipo.</td>
       <td>
-        <b>Escenario 1:</b> Dado que un miembro sobresale, Cuando líder selecciona "Reconocer", Entonces aparece su logro en el tablero público.<br><br>
-        <b>Escenario 2:</b> Dado que hay reconocimientos, Cuando el equipo accede al tablero, Entonces ven los últimos reconocimientos con fotos.
+        <b>Escenario 1:</b><br>
+        Given que un miembro sobresale,<br>
+        When líder selecciona "Reconocer",<br>
+        Then aparece su logro en el tablero público.<br><br>
+        <b>Escenario 2:</b><br>
+        Given que hay reconocimientos,<br>
+        When el equipo accede al tablero,<br>
+        Then ven los últimos reconocimientos con fotos.
+        <br>
+        <b>Escenario 3:</b><br>
       </td>
       <td>EP-009</td>
     </tr>
@@ -699,8 +867,17 @@ Then puede tomar decisiones basadas en esa información.</td>
       <td>Búsqueda inteligente en contenido grupal</td>
       <td>Como usuario, quiero buscar simultáneamente en tareas, documentos y conversaciones, para encontrar información rápidamente.</td>
       <td>
-        <b>Escenario 1:</b> Dado que el usuario escribe en barra de búsqueda, Cuando presiona Enter, Entonces muestra resultados categorizados (tareas/docs/chats).<br><br>
-        <b>Escenario 2:</b> Dado que hay múltiples resultados, Cuando aplica filtros, Entonces refina búsqueda por fecha/tipo/autor.
+        <b>Escenario 1:</b><br>
+        Given que el usuario escribe en barra de búsqueda,<br>
+        When presiona Enter,<br>
+        Then muestra resultados categorizados (tareas/docs/chats).
+        <br>
+        <b>Escenario 2:</b><br>
+        Given que hay múltiples resultados,<br>
+        When aplica filtros,<br>
+        Then refina búsqueda por fecha/tipo/autor.
+        <br>
+        <b>Escenario 3:</b><br>
       </td>
       <td>EP-002</td>
     </tr>
@@ -709,8 +886,17 @@ Then puede tomar decisiones basadas en esa información.</td>
       <td>Plantillas de grupos recurrentes</td>
       <td>Como administrador, necesito crear plantillas de grupos con tareas/roles predefinidos, para acelerar la creación de proyectos similares.</td>
       <td>
-        <b>Escenario 1:</b> Dado que el admin crea plantilla, Cuando define estructura base, Entonces puede guardarla como modelo reusable.<br><br>
-        <b>Escenario 2:</b> Dado que existe plantilla, Cuando crea nuevo grupo, Entonces ofrece opción de iniciar desde plantilla.
+        <b>Escenario 1:</b><br>
+        Given que el admin crea plantilla,<br>
+        When define estructura base,<br>
+        Then puede guardarla como modelo reusable.
+        <br>
+        <b>Escenario 2:</b><br>
+        Given que existe plantilla,<br>
+        When crea nuevo grupo,<br>
+        Then ofrece opción de iniciar desde plantilla.
+        <br>
+        <b>Escenario 3:</b><br>
       </td>
       <td>EP-001</td>
     </tr>
@@ -719,8 +905,17 @@ Then puede tomar decisiones basadas en esa información.</td>
       <td>Modo "Focus" para tareas individuales</td>
       <td>Como miembro, deseo activar un modo sin distracciones al trabajar en tareas complejas, para mejorar mi concentración.</td>
       <td>
-        <b>Escenario 1:</b> Dado que el usuario abre una tarea, Cuando activa "Modo Focus", Entonces oculta elementos de UI no esenciales.<br><br>
-        <b>Escenario 2:</b> Dado que el modo está activo, Cuando recibe notificación, Entonces la pospone hasta salir del modo.
+        <b>Escenario 1:</b><br>
+        Given que el usuario abre una tarea,<br>
+        When activa "Modo Focus",<br>
+        Then oculta elementos de UI no esenciales.
+        <br>
+        <b>Escenario 2:</b><br>
+        Given que el modo está activo,<br>
+        When recibe notificación,<br>
+        Then la pospone hasta salir del modo.
+        <br>
+        <b>Escenario 3:</b><br>
       </td>
       <td>EP-002</td>
     </tr>
@@ -729,12 +924,17 @@ Then puede tomar decisiones basadas en esa información.</td>
       <td>Solicitud de aprobación para recursos</td>
       <td>Como miembro, quiero solicitar uso de recursos restringidos que requieren aprobación del líder, para cumplir con políticas de control.</td>
       <td>
-        <b>Escenario 1:</b> Dado que el usuario selecciona un recurso restringido,<br>
-        Cuando hace clic en "Solicitar",<br>
-        Entonces debe completar un formulario con justificación y fecha requerida.<br><br>
-        <b>Escenario 2:</b> Dado que se envía la solicitud,<br>
-        Cuando el líder la aprueba,<br>
-        Entonces el sistema actualiza el estado y notifica al solicitante.
+        <b>Escenario 1:</b><br>
+        Given que el usuario selecciona un recurso restringido,<br>
+        When hace clic en "Solicitar",<br>
+        Then debe completar un formulario con justificación y fecha requerida.
+        <br>
+        <b>Escenario 2:</b><br>
+        Given que se envía la solicitud,<br>
+        When el líder la aprueba,<br>
+        Then el sistema actualiza el estado y notifica al solicitante.
+        <br>
+        <b>Escenario 3:</b><br>
       </td>
       <td>EP-008</td>
     </tr>
@@ -743,12 +943,17 @@ Then puede tomar decisiones basadas en esa información.</td>
       <td>Alertas de vencimiento de préstamos</td>
       <td>Como sistema, debo notificar cuando un recurso prestado está por vencer o se pasa de fecha, para prevenir conflictos de disponibilidad.</td>
       <td>
-        <b>Escenario 1:</b> Dado que un préstamo está activo,<br>
-        Cuando se acerca la fecha de devolución,<br>
-        Entonces el sistema envía un recordatorio al usuario.<br><br>
-        <b>Escenario 2:</b> Dado que el préstamo venció,<br>
-        Cuando no se registra devolución,<br>
-        Entonces el sistema notifica al administrador y al siguiente en la lista de espera.
+        <b>Escenario 1:</b><br>
+        Given que un préstamo está activo,<br>
+        When se acerca la fecha de devolución,<br>
+        Then el sistema envía un recordatorio al usuario.
+        <br>
+        <b>Escenario 2:</b><br>
+        Given que el préstamo venció,<br>
+        When no se registra devolución,<br>
+        Then el sistema notifica al administrador y al siguiente en la lista de espera.
+        <br>
+        <b>Escenario 3:</b><br>
       </td>
       <td>EP-008</td>
     </tr>
@@ -757,12 +962,17 @@ Then puede tomar decisiones basadas en esa información.</td>
       <td>Visualización de recursos asignados a tareas</td>
       <td>Como miembro, deseo ver qué recursos están vinculados a una tarea específica, para prepararme adecuadamente antes de comenzar.</td>
       <td>
-        <b>Escenario 1:</b> Dado que el usuario abre una tarea,<br>
-        Cuando revisa la sección "Recursos",<br>
-        Entonces ve una lista de ítems necesarios con su estado actual (disponible/reservado).<br><br>
-        <b>Escenario 2:</b> Dado que falta un recurso,<br>
-        Cuando hace clic en "Solicitar",<br>
-        Entonces el sistema sugiere alternativas disponibles similares.
+        <b>Escenario 1:</b><br>
+        Given que el usuario abre una tarea,<br>
+        When revisa la sección "Recursos",<br>
+        Then ve una lista de ítems necesarios con su estado actual (disponible/reservado).
+        <br>
+        <b>Escenario 2:</b><br>
+        Given que falta un recurso,<br>
+        When hace clic en "Solicitar",<br>
+        Then el sistema sugiere alternativas disponibles similares.
+        <br>
+        <b>Escenario 3:</b><br>
       </td>
       <td>EP-008</td>
     </tr>
@@ -771,12 +981,17 @@ Then puede tomar decisiones basadas en esa información.</td>
       <td>Sistema de logros y badges</td>
       <td>Como miembro, quiero ganar insignias al completar metas grupales, para sentirme reconocido por mis contribuciones.</td>
       <td>
-        <b>Escenario 1:</b> Dado que el usuario completa tareas asignadas,<br>
-        Cuando actualiza su perfil,<br>
-        Entonces recibe un badge correspondiente.<br><br>
-        <b>Escenario 2:</b> Dado que hay badges disponibles,<br>
-        Cuando otros ven mi perfil,<br>
-        Entonces muestran mis logros con descripción.
+        <b>Escenario 1:</b><br>
+        Given que el usuario completa tareas asignadas,<br>
+        When actualiza su perfil,<br>
+        Then recibe un badge correspondiente.
+        <br>
+        <b>Escenario 2:</b><br>
+        Given que hay badges disponibles,<br>
+        When otros ven mi perfil,<br>
+        Then muestran mis logros con descripción.
+        <br>
+        <b>Escenario 3:</b><br>
       </td>
       <td>EP-009</td>
     </tr>
@@ -785,12 +1000,17 @@ Then puede tomar decisiones basadas en esa información.</td>
       <td>Tablero de reconocimiento grupal</td>
       <td>Como líder, deseo destacar públicamente contribuciones excepcionales, para motivar al equipo.</td>
       <td>
-        <b>Escenario 1:</b> Dado que un miembro sobresale,<br>
-        Cuando el líder selecciona "Reconocer",<br>
-        Entonces aparece su logro en el tablero público.<br><br>
-        <b>Escenario 2:</b> Dado que hay reconocimientos,<br>
-        Cuando el equipo accede al tablero,<br>
-        Entonces ven los últimos reconocimientos con fotos.
+        <b>Escenario 1:</b><br>
+        Given que un miembro sobresale,<br>
+        When el líder selecciona "Reconocer",<br>
+        Then aparece su logro en el tablero público.
+        <br>
+        <b>Escenario 2:</b><br>
+        Given que hay reconocimientos,<br>
+        When el equipo accede al tablero,<br>
+        Then ven los últimos reconocimientos con fotos.
+        <br>
+        <b>Escenario 3:</b><br>
       </td>
       <td>EP-009</td>
     </tr>
@@ -799,12 +1019,17 @@ Then puede tomar decisiones basadas en esa información.</td>
       <td>Rutas de aprendizaje grupales</td>
       <td>Como líder, deseo asignar rutas de capacitación al equipo con recursos y metas de progreso, para desarrollar habilidades.</td>
       <td>
-        <b>Escenario 1:</b> Dado que el líder crea una ruta,<br>
-        Cuando agrega módulos,<br>
-        Entonces los miembros ven el progreso como porcentaje completado.<br><br>
-        <b>Escenario 2:</b> Dado que el usuario completa un módulo,<br>
-        Cuando sube evidencia,<br>
-        Entonces el líder puede aprobarla o pedir revisiones.
+        <b>Escenario 1:</b><br>
+        Given que el líder crea una ruta,<br>
+        When agrega módulos,<br>
+        Then los miembros ven el progreso como porcentaje completado.
+        <br>
+        <b>Escenario 2:</b><br>
+        Given que el usuario completa un módulo,<br>
+        When sube evidencia,<br>
+        Then el líder puede aprobarla o pedir revisiones.
+        <br>
+        <b>Escenario 3:</b><br>
       </td>
       <td>EP-009</td>
     </tr>
@@ -813,12 +1038,17 @@ Then puede tomar decisiones basadas en esa información.</td>
       <td>Checklist de preparación para recursos</td>
       <td>Como administrador, deseo crear checklists personalizados para cada recurso, para que los usuarios vengan preparados.</td>
       <td>
-        <b>Escenario 1:</b> Dado que el administrador edita un recurso,<br>
-        Cuando agrega un checklist,<br>
-        Entonces se muestra al usuario durante el proceso de reserva.<br><br>
-        <b>Escenario 2:</b> Dado que hay un checklist,<br>
-        Cuando el usuario hace una reserva,<br>
-        Entonces debe marcar cada ítem como "entendido" antes de confirmar.
+        <b>Escenario 1:</b><br>
+        Given que el administrador edita un recurso,<br>
+        When agrega un checklist,<br>
+        Then se muestra al usuario durante el proceso de reserva.
+        <br>
+        <b>Escenario 2:</b><br>
+        Given que hay un checklist,<br>
+        When el usuario hace una reserva,<br>
+        Then debe marcar cada ítem como "entendido" antes de confirmar.
+        <br>
+        <b>Escenario 3:</b><br>
       </td>
       <td>EP-008</td>
     </tr>
@@ -827,12 +1057,15 @@ Then puede tomar decisiones basadas en esa información.</td>
       <td>Fotos/documentos asociados a recursos</td>
       <td>Como administrador, quiero subir fotos/documentos técnicos de recursos complejos, para que los usuarios sepan exactamente qué esperar.</td>
       <td>
-        <b>Escenario 1:</b> Dado que el administrador agrega un recurso,<br>
-        Cuando sube imágenes/documentos,<br>
-        Entonces estos se muestran en la ficha técnica del recurso.<br><br>
-        <b>Escenario 2:</b> Dado que el usuario consulta un recurso,<br>
-        Cuando expande "Detalles",<br>
-        Entonces puede descargar manuales o especificaciones técnicas.
+        <b>Escenario 1:</b><br>
+        Given que el administrador agrega un recurso,<br>
+        When sube imágenes/documentos,<br>
+        Then estos se muestran en la ficha técnica del recurso.
+        <br>
+        <b>Escenario 2:</b><br
+        Given que el usuario consulta un recurso,<br>
+        When expande "Detalles",<br>
+        Then puede descargar manuales o especificaciones técnicas.
       </td>
       <td>EP-008</td>
     </tr>
@@ -841,8 +1074,17 @@ Then puede tomar decisiones basadas en esa información.</td>
       <td>Previsualización de archivos adjuntos</td>
       <td>Como usuario, deseo ver miniaturas/previews de archivos adjuntos a tareas sin descargarlos, para ahorrar tiempo.</td>
       <td>
-        <b>Escenario 1:</b> Dado que tarea tiene un archivo adjunto, Cuando pasa cursor, Entonces muestra preview con contenido relevante.<br><br>
-        <b>Escenario 2:</b> Dado que es imagen adjunta, Cuando hace clic en thumbnail, Entonces expande vista previa en lightbox.
+        <b>Escenario 1:</b><br>
+        Given que tarea tiene un archivo adjunto,<br>
+        When pasa cursor,<br>
+        Then muestra preview con contenido relevante.
+        <br>
+        <b>Escenario 2:</b><br>
+        Given que es imagen adjunta,<br>
+        When hace clic en thumbnail,<br>
+        Then expande vista previa en lightbox.
+        <br>
+        <b>Escenario 3:</b><br>
       </td>
       <td>EP-008</td>
     </tr>
