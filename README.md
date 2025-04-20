@@ -228,10 +228,11 @@ El Context Diagram muestra a SynHub (el sistema central) interactuando con sus u
 
 <img src="./images/chapter-4/contextDiagram.png" alt="Context Diagram" width="600"/>
 
-
 ##### 4.1.3.2. Software Architecture Container Level Diagrams
 
+El Container Diagram describe la arquitectura del sistema, donde los usuarios (Miembro y Líder) interactúan con la Landing Page (web) y la Mobile App, las cuales se conectan a una API REST (backend) que gestiona la lógica de negocio. Esta API se comunica con una base de datos PostgreSQL para almacenar datos y con Google Calendar (mediante su API) para sincronizar eventos. Cada componente (frontend, backend, base de datos y servicio externo) opera en contenedores o entornos independientes, conectados a través de APIs RESTful (HTTPS/JSON) y protocolos como JDBC (PostgreSQL) y OAuth 2.0 (Google).
 
+<img src="./images/chapter-4/containerDiagram.png" alt="Container Diagram" width="600"/>
 
 ##### 4.1.3.3. Software Architecture Deployment Diagrams
 
