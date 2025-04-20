@@ -222,6 +222,8 @@
 
 #### 4.1.3. Software Architecture
 
+La arquitectura del sistema se estructura en tres niveles: el Context Diagram define las interacciones externas entre SynHub (núcleo del sistema), sus usuarios (Miembro, Líder) y servicios externos (Google Calendar); el Container Diagram descompone SynHub en módulos clave (Mobile App, API REST, PostgreSQL y Landing Page), detallando sus responsabilidades y comunicación interna; y el Deployment Diagram especifica el despliegue físico/cloud de estos componentes, incluyendo servidores, dispositivos móviles y conexiones con APIs externas. Juntos, garantizan un diseño escalable, integrado y bien organizado.
+
 ##### 4.1.3.1. Software Architecture Context Level Diagrams
 
 El Context Diagram muestra a SynHub (el sistema central) interactuando con sus usuarios principales —el Miembro y el Líder— quienes utilizan la aplicación para gestionar actividades, mientras que SynHub se integra con Google Calendar para sincronizar eventos externos. Este diagrama enfatiza las relaciones externas del sistema, sin detallar componentes internos, destacando cómo los actores clave (usuarios y servicios externos) se conectan con la plataforma principal para intercambiar información.
