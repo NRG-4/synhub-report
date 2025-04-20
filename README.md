@@ -555,15 +555,95 @@ Then puede tomar decisiones basadas en esa información.</td>
             Dado que el usuario visualiza las tareas del grupo,<br>
             Cuando revisa la información de una tarea específica,<br>
             Entonces el sistema muestra La fecha de vencimiento, el porcentaje de progreso y 
-            Alertas visuales para tareas con menos de 24 horas restantes para su entrega.
+            Alertas visuales para tareas con menos de 24 horas restantes para su 
+            <br><br>
+            <b>Escenario 3: : Sincronización en tiempo real de actualizaciones</b><br>
+            Dado que el usuario está en la sección de tareas grupales,<br>
+            Cuando otro miembro modifica el estado, responsable o fecha de una tarea,<br>
+            Entonces el sistema muestra La fecha de vencimiento, el porcentaje de progreso y 
+            Entonces los cambios se reflejan automáticamente en la vista del usuario.
+            <br><br>
+            <b>Escenario 4: Filtrado básico para gestión de prioridades</b><br>
+            Dado que el usuario está en la sección de tareas grupales,<br>
+            Cuando selecciona un filtro por estado (ej: "pendiente", "en progreso", "completado"),<br>
+            Entonces el sistema muestra solo las tareas que cumplen con ese criterio.
         </td>
         <td>
             EP-002
         </td>
     </tr>
-    <tr><td>US-023</td><td></td><td></td><td></td><td></td></tr>
-    <tr><td>US-024</td><td></td><td></td><td></td><td></td></tr>
-    <tr><td>US-025</td><td></td><td></td><td></td><td></td></tr>
+    <tr>
+        <td>
+            US-023
+        </td>
+        <td>
+            Visualización detallada de una tarea específica
+        </td>
+        <td>
+            Como miembro de un equipo en SynHub, deseo acceder a una vista detallada de una tarea específica 
+            que muestre toda la información relevante, para que pueda comprender su contexto, 
+            verificar su estado actual y colaborar de manera informada con otros miembros del equipo.
+        </td>
+        <td>
+            <b>Escenario 1: Acceso a la información completa de la tarea</b><br>
+            Dado que el usuario está en la lista de tareas (individuales o grupales),<br>
+            Cuando selecciona una tarea específica,<br>
+            Entonces el sistema despliega una vista detallada con Título de la tarea, descripción de la tarea ,
+            Fecha de creación, fecha de vencimiento y prioridad asignada, Estado actual de la tarea, 
+            participantes involucrados y comentarios asociados.
+        </td>
+        <td>
+            EP-002
+        </td>
+    </tr>
+    <tr>
+        <td>
+            US-024
+        </td>
+        <td>
+            Visualización integrada del horario personal
+        </td>
+        <td>
+            Como miembro de un equipo en SynHub, deseo acceder a una vista clara de mi horario personal que 
+            muestre mis tareas programadas, reuniones y bloques de tiempo disponibles, para que pueda gestionar 
+            mi agenda diaria, evitar sobrecargas y equilibrar mis responsabilidades 
+            individuales y grupales.
+        </td>
+        <td>
+            <b>Escenario 1: Visualización cronológica de actividades diarias</b><br>
+            Dado que el usuario está en la lista de tareas (individuales o grupales),<br>
+            Cuando accede a la sección "Mi Horario" en SynHub,<br>
+            Entonces el sistema muestra un calendario horario y tareas ubicadas en sus bloques 
+            de tiempo correspondientes.
+        </td>
+        <td>
+            EP-002
+        </td>
+    </tr>
+    <tr>
+        <td>
+            US-025
+        </td>
+        <td>
+            Visualización de grupos miembros
+        </td>
+        <td>
+            Como miembro de múltiples equipos en SynHub, deseo acceder a una lista organizada de 
+            todos los grupos a los que pertenezco, junto con información clave de cada uno, para que
+            pueda navegar rápidamente entre ellos, mantener un seguimiento de sus actividades y participar 
+            activamente en las responsabilidades colectivas.
+        </td>
+        <td>
+            <b>Escenario 1: Listado completo de grupos miembros</b><br>
+            Dado que el usuario está registrado en SynHub y pertenece a uno o más grupos,<br>
+            Cuando accede a la sección "Mis Grupos",<br>
+            Entonces el sistema muestra una lista de todos los grupos a los que pertenece, con la informacion
+            de cada uno, incluyendo el nombre del grupo , descripción breve del grupo y cantidad de miembros
+        </td>
+        <td>
+            EP-002
+        </td>
+    </tr>
     <tr><td>US-026</td><td></td><td></td><td></td><td></td></tr>
     <tr><td>US-027</td><td></td><td></td><td></td><td></td></tr>
     <tr><td>US-028</td><td></td><td></td><td></td><td></td></tr>
