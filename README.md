@@ -225,6 +225,16 @@
       <td>Análisis y Reportes de Productividad</td>
       <td>Esta épica permite a líderes y miembros visualizar métricas clave de desempeño grupal e individual, generando reportes automáticos y dashboards interactivos. Su objetivo es optimizar la distribución de tareas y medir el progreso.</td>
     </tr>
+    <tr>
+      <td>EP-008</td>
+      <td>Gestión de Recursos Compartidos</td>
+      <td>Agrupa las funcionalidades para administrar recursos materiales, documentos y espacios físicos compartidos por el grupo dentro de SynHub, incluyendo reservas, préstamos y seguimiento de disponibilidad.</td>
+    </tr>
+    <tr>
+      <td>EP-009</td>
+      <td>Motivación y Reconocimiento</td>
+      <td>Funcionalidades para fomentar la participación activa, reconocer contribuciones destacadas y mantener altos niveles de engagement dentro de los equipos.</td>
+    </tr>
   </tbody>
 </table>
 
@@ -644,21 +654,198 @@ Then puede tomar decisiones basadas en esa información.</td>
             EP-002
         </td>
     </tr>
-    <tr><td>US-026</td><td></td><td></td><td></td><td></td></tr>
-    <tr><td>US-027</td><td></td><td></td><td></td><td></td></tr>
-    <tr><td>US-028</td><td></td><td></td><td></td><td></td></tr>
-    <tr><td>US-029</td><td></td><td></td><td></td><td></td></tr>
-    <tr><td>US-030</td><td></td><td></td><td></td><td></td></tr>
-    <tr><td>US-031</td><td></td><td></td><td></td><td></td></tr>
-    <tr><td>US-032</td><td></td><td></td><td></td><td></td></tr>
-    <tr><td>US-033</td><td></td><td></td><td></td><td></td></tr>
-    <tr><td>US-034</td><td></td><td></td><td></td><td></td></tr>
-    <tr><td>US-035</td><td></td><td></td><td></td><td></td></tr>
-    <tr><td>US-036</td><td></td><td></td><td></td><td></td></tr>
-    <tr><td>US-037</td><td></td><td></td><td></td><td></td></tr>
-    <tr><td>US-038</td><td></td><td></td><td></td><td></td></tr>
-    <tr><td>US-039</td><td></td><td></td><td></td><td></td></tr>
-    <tr><td>US-040</td><td></td><td></td><td></td><td></td></tr>
+      <tr>
+      <td>US-026</td>
+      <td>Subir documentos compartidos</td>
+      <td>Como miembro, quiero subir documentos al repositorio grupal en SynHub, para centralizar la información clave del equipo.</td>
+      <td>
+        <b>Escenario 1:</b> Dado que el usuario accede a "Documentos", Cuando selecciona "Subir", Entonces puede elegir archivos locales y asignar categorías.<br><br>
+        <b>Escenario 2:</b> Dado que el archivo se subió, Cuando otro miembro busca, Entonces aparece en resultados con metadatos básicos.
+      </td>
+      <td>EP-008</td>
+    </tr>
+    <tr>
+      <td>US-027</td>
+      <td>Control de versiones documentales</td>
+      <td>Como coordinador, necesito ver historial de versiones cuando se modifican documentos compartidos, para rastrear cambios importantes.</td>
+      <td>
+        <b>Escenario 1:</b> Dado que un documento tiene versiones previas, Cuando usuario hace clic en "Historial", Entonces muestra lista con fecha/autor de cada cambio.<br><br>
+        <b>Escenario 2:</b> Dado que se selecciona versión antigua, Cuando hace clic en "Comparar", Entonces resalta diferencias con versión actual.
+      </td>
+      <td>EP-008</td>
+    </tr>
+    <tr>
+      <td>US-028</td>
+      <td>Sistema de logros/badges</td>
+      <td>Como miembro, quiero ganar insignias al completar metas grupales, para sentirme reconocido por mis contribuciones.</td>
+      <td>
+        <b>Escenario 1:</b> Dado que el usuario completa tareas asignadas, Cuando actualiza perfil, Entonces recibe un badge correspondiente.<br><br>
+        <b>Escenario 2:</b> Dado que hay badges disponibles, Cuando otros ven mi perfil, Entonces muestran mis logros con descripción.
+      </td>
+      <td>EP-009</td>
+    </tr>
+    <tr>
+      <td>US-029</td>
+      <td>Tablero de reconocimiento grupal</td>
+      <td>Como líder, deseo destacar públicamente contribuciones excepcionales, para motivar al equipo.</td>
+      <td>
+        <b>Escenario 1:</b> Dado que un miembro sobresale, Cuando líder selecciona "Reconocer", Entonces aparece su logro en el tablero público.<br><br>
+        <b>Escenario 2:</b> Dado que hay reconocimientos, Cuando el equipo accede al tablero, Entonces ven los últimos reconocimientos con fotos.
+      </td>
+      <td>EP-009</td>
+    </tr>
+    <tr>
+      <td>US-030</td>
+      <td>Búsqueda inteligente en contenido grupal</td>
+      <td>Como usuario, quiero buscar simultáneamente en tareas, documentos y conversaciones, para encontrar información rápidamente.</td>
+      <td>
+        <b>Escenario 1:</b> Dado que el usuario escribe en barra de búsqueda, Cuando presiona Enter, Entonces muestra resultados categorizados (tareas/docs/chats).<br><br>
+        <b>Escenario 2:</b> Dado que hay múltiples resultados, Cuando aplica filtros, Entonces refina búsqueda por fecha/tipo/autor.
+      </td>
+      <td>EP-002</td>
+    </tr>
+    <tr>
+      <td>US-031</td>
+      <td>Plantillas de grupos recurrentes</td>
+      <td>Como administrador, necesito crear plantillas de grupos con tareas/roles predefinidos, para acelerar la creación de proyectos similares.</td>
+      <td>
+        <b>Escenario 1:</b> Dado que el admin crea plantilla, Cuando define estructura base, Entonces puede guardarla como modelo reusable.<br><br>
+        <b>Escenario 2:</b> Dado que existe plantilla, Cuando crea nuevo grupo, Entonces ofrece opción de iniciar desde plantilla.
+      </td>
+      <td>EP-001</td>
+    </tr>
+    <tr>
+      <td>US-032</td>
+      <td>Modo "Focus" para tareas individuales</td>
+      <td>Como miembro, deseo activar un modo sin distracciones al trabajar en tareas complejas, para mejorar mi concentración.</td>
+      <td>
+        <b>Escenario 1:</b> Dado que el usuario abre una tarea, Cuando activa "Modo Focus", Entonces oculta elementos de UI no esenciales.<br><br>
+        <b>Escenario 2:</b> Dado que el modo está activo, Cuando recibe notificación, Entonces la pospone hasta salir del modo.
+      </td>
+      <td>EP-002</td>
+    </tr>
+    <tr>
+      <td>US-033</td>
+      <td>Solicitud de aprobación para recursos</td>
+      <td>Como miembro, quiero solicitar uso de recursos restringidos que requieren aprobación del líder, para cumplir con políticas de control.</td>
+      <td>
+        <b>Escenario 1:</b> Dado que el usuario selecciona un recurso restringido,<br>
+        Cuando hace clic en "Solicitar",<br>
+        Entonces debe completar un formulario con justificación y fecha requerida.<br><br>
+        <b>Escenario 2:</b> Dado que se envía la solicitud,<br>
+        Cuando el líder la aprueba,<br>
+        Entonces el sistema actualiza el estado y notifica al solicitante.
+      </td>
+      <td>EP-008</td>
+    </tr>
+    <tr>
+      <td>US-034</td>
+      <td>Alertas de vencimiento de préstamos</td>
+      <td>Como sistema, debo notificar cuando un recurso prestado está por vencer o se pasa de fecha, para prevenir conflictos de disponibilidad.</td>
+      <td>
+        <b>Escenario 1:</b> Dado que un préstamo está activo,<br>
+        Cuando se acerca la fecha de devolución,<br>
+        Entonces el sistema envía un recordatorio al usuario.<br><br>
+        <b>Escenario 2:</b> Dado que el préstamo venció,<br>
+        Cuando no se registra devolución,<br>
+        Entonces el sistema notifica al administrador y al siguiente en la lista de espera.
+      </td>
+      <td>EP-008</td>
+    </tr>
+    <tr>
+      <td>US-035</td>
+      <td>Visualización de recursos asignados a tareas</td>
+      <td>Como miembro, deseo ver qué recursos están vinculados a una tarea específica, para prepararme adecuadamente antes de comenzar.</td>
+      <td>
+        <b>Escenario 1:</b> Dado que el usuario abre una tarea,<br>
+        Cuando revisa la sección "Recursos",<br>
+        Entonces ve una lista de ítems necesarios con su estado actual (disponible/reservado).<br><br>
+        <b>Escenario 2:</b> Dado que falta un recurso,<br>
+        Cuando hace clic en "Solicitar",<br>
+        Entonces el sistema sugiere alternativas disponibles similares.
+      </td>
+      <td>EP-008</td>
+    </tr>
+    <tr>
+      <td>US-036</td>
+      <td>Sistema de logros y badges</td>
+      <td>Como miembro, quiero ganar insignias al completar metas grupales, para sentirme reconocido por mis contribuciones.</td>
+      <td>
+        <b>Escenario 1:</b> Dado que el usuario completa tareas asignadas,<br>
+        Cuando actualiza su perfil,<br>
+        Entonces recibe un badge correspondiente.<br><br>
+        <b>Escenario 2:</b> Dado que hay badges disponibles,<br>
+        Cuando otros ven mi perfil,<br>
+        Entonces muestran mis logros con descripción.
+      </td>
+      <td>EP-009</td>
+    </tr>
+    <tr>
+      <td>US-037</td>
+      <td>Tablero de reconocimiento grupal</td>
+      <td>Como líder, deseo destacar públicamente contribuciones excepcionales, para motivar al equipo.</td>
+      <td>
+        <b>Escenario 1:</b> Dado que un miembro sobresale,<br>
+        Cuando el líder selecciona "Reconocer",<br>
+        Entonces aparece su logro en el tablero público.<br><br>
+        <b>Escenario 2:</b> Dado que hay reconocimientos,<br>
+        Cuando el equipo accede al tablero,<br>
+        Entonces ven los últimos reconocimientos con fotos.
+      </td>
+      <td>EP-009</td>
+    </tr>
+    <tr>
+      <td>US-038</td>
+      <td>Rutas de aprendizaje grupales</td>
+      <td>Como líder, deseo asignar rutas de capacitación al equipo con recursos y metas de progreso, para desarrollar habilidades.</td>
+      <td>
+        <b>Escenario 1:</b> Dado que el líder crea una ruta,<br>
+        Cuando agrega módulos,<br>
+        Entonces los miembros ven el progreso como porcentaje completado.<br><br>
+        <b>Escenario 2:</b> Dado que el usuario completa un módulo,<br>
+        Cuando sube evidencia,<br>
+        Entonces el líder puede aprobarla o pedir revisiones.
+      </td>
+      <td>EP-009</td>
+    </tr>
+    <tr>
+      <td>US-039</td>
+      <td>Checklist de preparación para recursos</td>
+      <td>Como administrador, deseo crear checklists personalizados para cada recurso, para que los usuarios vengan preparados.</td>
+      <td>
+        <b>Escenario 1:</b> Dado que el administrador edita un recurso,<br>
+        Cuando agrega un checklist,<br>
+        Entonces se muestra al usuario durante el proceso de reserva.<br><br>
+        <b>Escenario 2:</b> Dado que hay un checklist,<br>
+        Cuando el usuario hace una reserva,<br>
+        Entonces debe marcar cada ítem como "entendido" antes de confirmar.
+      </td>
+      <td>EP-008</td>
+    </tr>
+    <tr>
+      <td>US-040</td>
+      <td>Fotos/documentos asociados a recursos</td>
+      <td>Como administrador, quiero subir fotos/documentos técnicos de recursos complejos, para que los usuarios sepan exactamente qué esperar.</td>
+      <td>
+        <b>Escenario 1:</b> Dado que el administrador agrega un recurso,<br>
+        Cuando sube imágenes/documentos,<br>
+        Entonces estos se muestran en la ficha técnica del recurso.<br><br>
+        <b>Escenario 2:</b> Dado que el usuario consulta un recurso,<br>
+        Cuando expande "Detalles",<br>
+        Entonces puede descargar manuales o especificaciones técnicas.
+      </td>
+      <td>EP-008</td>
+    </tr>
+    <tr>
+      <td>US-041</td>
+      <td>Previsualización de archivos adjuntos</td>
+      <td>Como usuario, deseo ver miniaturas/previews de archivos adjuntos a tareas sin descargarlos, para ahorrar tiempo.</td>
+      <td>
+        <b>Escenario 1:</b> Dado que tarea tiene un archivo adjunto, Cuando pasa cursor, Entonces muestra preview con contenido relevante.<br><br>
+        <b>Escenario 2:</b> Dado que es imagen adjunta, Cuando hace clic en thumbnail, Entonces expande vista previa en lightbox.
+      </td>
+      <td>EP-008</td>
+    </tr>
   </tbody>
 </table>
 
