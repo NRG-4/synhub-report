@@ -218,6 +218,12 @@ Este proceso estratégico permitió no solo estructurar el sistema de manera má
 
 #### 4.1.1. EventStorming
 
+En esta sección se expone y fundamenta el proceso de **EventStorming** llevado a cabo por el equipo, con el propósito de construir una primera aproximación al modelado general del dominio del problema. Esta técnica, centrada en la identificación de eventos relevantes dentro del sistema, permite capturar el conocimiento colectivo de los participantes y detonar conversaciones clave sobre el comportamiento esperado del sistema en distintos escenarios.
+
+La sesión fue organizada estratégicamente con una duración de entre una a dos horas. Durante esta actividad, se emplearon post-its digitales para representar eventos y comandos lo que facilitó una exploración visual e iterativa del flujo de trabajo.
+
+<img src="images/chapter-4/eventStorming1.png">
+
 ##### 4.1.1.1. Candidate Context Discovery
 
 ##### 4.1.1.2. Domain Message Flows Modeling
