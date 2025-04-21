@@ -210,6 +210,12 @@
 
 ### 4.1. Strategic-Level Domain-Driven Design
 
+En esta sección se presenta el enfoque adoptado para tomar decisiones estratégicas en el desarrollo del sistema, aplicando los principios del Domain-Driven Design (DDD). El objetivo principal fue identificar y establecer los límites naturales del dominio, descomponiendo la solución en Bounded Contexts.
+
+Para lograr esta descomposición, el equipo empleó herramientas colaborativas clave como Event Storming, que permitió mapear y visualizar de forma dinámica los flujos de eventos, comandos y actores dentro del dominio; y el Bounded Context Canvas, utilizado para definir los elementos esenciales de cada contexto, incluyendo objetivos, modelos, responsabilidades y relaciones con otros contextos.
+
+Este proceso estratégico permitió no solo estructurar el sistema de manera más coherente, sino también alinear las decisiones técnicas con los objetivos de negocio, facilitando la comunicación entre los distintos actores involucrados en el desarrollo del proyecto.
+
 #### 4.1.1. EventStorming
 
 ##### 4.1.1.1. Candidate Context Discovery
