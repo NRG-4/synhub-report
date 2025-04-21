@@ -322,6 +322,8 @@ Finalmente se muestra una captura global de la arquitectura del sistema, donde s
 
 <img src="images/chapter-4/flowModeling6.png" alt="Architecture" width="600"/>
 
+Enlace del Miro board sobre el que se trabajo: https://miro.com/app/board/uXjVIAKXzls=/?share_link_id=902923638078
+
 ##### 4.1.1.3. Bounded Context Canvases
 
 #### 4.1.2. Context Mapping
