@@ -392,17 +392,20 @@
     <td>Asignacion de tareas a los miembros</td>
     <td>Como lider de grupo, deseo asignar tareas a miembros, para distribuir los pendientes facilmente dependiente de los roles.</td>
     <td>
-    <b>Escenario 1:</b><br>
+    <b>Escenario 1: Asignación exitosa de tarea a un miembro</b><br>
     Given que el líder tiene un grupo formado,<br>
-    When asigna una tarea a un integrante,<br>
-    Then esta se vincula al perfil del miembro seleccionado.
+    When el líder asigna una tarea a un integrante,<br>
+    Then la aplicación vincula la tarea al perfil del miembro seleccionado.
     <br>
-    <b>Escenario 2:</b><br>
+    <b>Escenario 2: Visualización de detalles de la tarea asignada</b><br>
     Given que un usuario tiene una tarea asignada,<br>
-    When accede a su lista de tareas,<br>
-    Then puede ver el detalle de lo que debe hacer.
+    When el usuario accede a su lista de tareas,<br>
+    Then la aplicación mostrará al usuario el detalle de lo que debe hacer.
     <br>
-    <b>Escenario 3:</b><br>
+    <b>Escenario 3: Intento de asignar una tarea sin seleccionar un miembro</b><br>
+    Given que el líder tiene un grupo formado,<br>
+    When el líder intenta guardar una tarea sin haber seleccionado ningún miembro,<br>
+    Then la aplicación debería avisar al líder que debe seleccionar al menos un miembro para asignar la tarea
     </td>
     <td>EP-003</td>
 </tr>
@@ -411,17 +414,23 @@
     <td>Clasificacion de tareas</td>
     <td>Como miembro del grupo, deseo poder marcas como tareas como completa, en proceso, en revision, por hacer, para mantener a otros integrantes y al lider actualizados.</td>
     <td>
-    <b>Escenario 1:</b><br>
+    <b>Escenario 1: Actualización del estado de una tarea</b><br>
     Given que un usuario accede a su lista de tareas,<br>
     When marca una tarea como "en proceso",<br>
     Then los demás pueden ver su nuevo estado actualizado.
     <br>
-    <b>Escenario 2:</b><br>
+    <b>Escenario 2: Marcado de una tarea como completada</b><br>
     Given que el usuario ha completado una tarea,<br>
-    When la marca como "completa",<br>
-    Then el sistema actualiza el estado y el líder puede verlo.
+    When el usuario marca la tarea como "completa",<br>
+    Then la aplicación actualiza el estado<br>
+    And permitirá la visualización para el líder.
     <br>
-    <b>Escenario 3:</b><br>
+    <b>Escenario 3: Intento de marcar una tarea sin confirmación</b><br>
+    Given que un usuario accede a su lista de tareas,<br>
+    When intenta marcar una tarea como completado<br>
+    And no se presenta evidencia o entregable de haber finalizado<br>
+    And el usuario no es el líder,<br>
+    Then la aplicación no permite la actualización de la tarea.
     </td>
     <td>EP-003</td>
 </tr>
@@ -430,17 +439,20 @@
     <td>Visualizacion del tablero de tareas</td>
     <td>Como líder de grupo, deseo tener un tablero visual en tiempo real que me permita ver el progreso de todas las tareas de mi equipo y los tiempos de entrega, para poder identificar rápidamente cualquier retraso.</td>
     <td>
-    <b>Escenario 1:</b><br>
+    <b>Escenario 1: Visualización en tiempo real del estado de las tareas</b><br>
     Given que el líder accede a la vista de tablero,<br>
     When observa las tareas del equipo,<br>
-    Then puede ver el estado y el avance de cada una en tiempo real.
+    Then el sistema muestra el estado y el avance de cada una en tiempo real.
     <br>
-    <b>Escenario 2:</b><br>
+    <b>Escenario 2: Identificación visual de tareas atrasadas</b><br>
     Given que hay tareas atrasadas,<br>
     When el líder revisa el tablero,<br>
-    Then estas se muestran claramente diferenciadas para identificar retrasos.
+    Then la aplicación muestra un indicador de atraso para identificarlos con facilidad.
     <br>
-    <b>Escenario 3:</b><br>
+    <b>Escenario 3: Fallo en la carga de datos del tablero</b><br>
+    Given que el líder accede a la vista del tablero de tareas del grupo,<br>
+    When el sistema no puede cargar la información de las tareas,<br>
+    Then la aplicación debería mostar un mensaje de error informativo.
     </td>
     <td>EP-002</td>
 </tr>
@@ -449,17 +461,21 @@
     <td>Solicitud de ayuda o comentarios</td>
     <td>Como miembro del grupo, deseo poder solicitar ayuda o comentarios sobre una tarea específica, para resolver dudas y mejorar la calidad del trabajo entregado.</td>
     <td>
-    <b>Escenario 1:</b><br>
+    <b>Escenario 1: Envío exitoso de solicitud de ayuda</b><br>
     Given que el usuario tiene dificultades con una tarea,<br>
     When el miembro solicita ayuda,<br>
     Then el sistema permite registrar y enviar esa solicitud al grupo o líder.
     <br>
-    <b>Escenario 2:</b><br>
+    <b>Escenario 2: Visualización de respuestas y comentarios</b><br>
     Given que el usuario recibe una respuesta,<br>
     When consulta el historial de la tarea,<br>
-    Then puede ver los comentarios recibidos para resolver su duda.
+    Then el sistema muestra los comentarios recibidos para resolver su duda.
     <br>
-    <b>Escenario 3:</b><br>
+    <b>Escenario 3: Intento de enviar una solicitud de ayuda sin contenido</b><br>
+    Given que el usuario tiene dificultades con una tarea específica,<br>
+    When el miembro intenta enviar una solicitud de ayuda o comentarios sin ingresar ningún texto o descripción de su problema o duda,<br>
+    Then la aplicación no permite el registro de la solicitud<br>
+    And avisa al usuario de la falta de contenido de la solicitud.
     </td>
     <td>EP-004</td>
 </tr>
@@ -468,17 +484,21 @@
     <td>Actualizar tareas de los miembros</td>
     <td>Como lider de grupo, deseo poder actualizar el progreso o dificultad de una tarea, para mantener al encargado de la misma informado sobre su trabajo. </td>
     <td>
-    <b>Escenario 1:</b><br>
+    <b>Escenario 1: Modificación exitosa del estado o dificultad de la tarea</b><br>
     Given que el líder revisa el estado de una tarea,<br>
     When detecta que hay retrasos o complicaciones,<br>
     Then puede modificar el estado o dificultad de la tarea.
     <br>
-    <b>Escenario 2:</b><br>
+    <b>Escenario 2: Visualización de la actualización de la tarea por el miembro</b><br>
     Given que el cambio ha sido realizado,<br>
     When el miembro accede a la tarea,<br>
     Then puede ver los nuevos detalles o nivel de dificultad.
     <br>
-    <b>Escenario 3:</b><br>
+    <b>Escenario 3:Intento de modificar una tarea como miembro de equipo</b><br>
+    Given que el usuario intenta actualizar la información de una tarea,<br>
+    When el usuario intenta modificar una tarea,<br>
+    And el usuario no tiene el rol de líder<br>
+    Then el sistema deberá negar la modificación, avisando que debe ser líder para realizar cambios.
     </td>
 <td>EP-003</td>
 </tr>
@@ -487,17 +507,21 @@
     <td>Gestión de disponibilidad</td>
     <td>Como miembro del grupo, deseo poder registrar mis horarios disponibles durante la semana, para que el líder pueda asignarme tareas según mi disponibilidad.</td>
     <td>
-    <b>Escenario 1:</b><br>
+    <b>Escenario 1: Registro exitoso de la disponibilidad del miembro</b><br>
     Given que un miembro desea registrar su disponibilidad,<br>
     When indica los días y horas que puede trabajar,<br>
     Then el sistema almacena esta información.
     <br>
-    <b>Escenario 2:</b><br>
+    <b>Escenario 2: Visualización de la disponibilidad al asignar tareas</b><br>
     Given que el líder asigna tareas,<br>
     When consulta la disponibilidad de un miembro,<br>
-    Then puede tomar decisiones basadas en esa información.
+    Then el sistema muestra el horario de disponibilidad<br>
+    And el líder puede tomar decisiones basadas en esa información.
     <br>
-    <b>Escenario 3:</b><br>
+    <b>Escenario 3: Intento de registrar horarios no válidos</b><br>
+    Given que un miembro desea registrar su disponibilidad,<br>
+    When el miembro intenta ingresar horarios que no son válidos (horario pasado, por ejemplo)<br>
+    Then el sistema debería mostrar un mensaje de error indicando el formato erróneo.
     </td>
     <td>EP-005</td>
 </tr>
@@ -506,17 +530,20 @@
   <td>Dashboard de progreso grupal</td>
   <td>Como líder, deseo ver un panel con el avance de objetivos, tareas completadas vs pendientes y carga de trabajo por miembro, para tomar decisiones informadas.</td>
   <td>
-    <b>Escenario 1:</b><br>
+    <b>Escenario 1: Visualización del progreso de tareas por miembro</b><br>
     Given que el líder accede al dashboard,<br>
     When selecciona un período específico,<br>
-    Then visualiza gráficos actualizados de tareas completadas y pendientes por cada miembro.
+    Then el sistema muestra gráficos actualizados de tareas completadas y pendientes por cada miembro.
     <br>
-    <b>Escenario 2:</b><br>
+    <b>Escenario 2: Identificación de miembros con sobrecarga de trabajo</b><br>
     Given que existe una carga de trabajo desigual,<br>
     When el líder revisa el mapa de distribución,<br>
     Then el sistema muestra alertas destacadas en miembros con sobrecarga.
     <br>
-    <b>Escenario 3:</b><br>
+    <b>Escenario 3: Fallo en la carga de datos del dashboard</b><br>
+    Given que el líder accede al dashboard de progreso del grupo,<br>
+    When el sistema experimenta un error al intentar recuperar los datos necesarios,<br>
+    Then la aplicación debería mostrar un mensaje de error indicando que los datos no cargaron correctamente.
   </td>
   <td>EP-007</td>
 </tr>
@@ -525,17 +552,21 @@
   <td>Histórico de cumplimiento de plazos</td>
   <td>Como miembro, quiero revisar mi historial de tareas completadas a tiempo vs retrasadas, para autoevaluar mi productividad.</td>
   <td>
-    <b>Escenario 1:</b><br>
+    <b>Escenario 1: Visualización de la línea de tiempo de tareas</b><br>
     Given que un miembro accede a su perfil,<br>
     When navega a la sección "Mi rendimiento",<br>
-    Then ve una línea de tiempo con todas sus tareas marcadas como "cumplidas" o "retrasadas".
+    Then el sistema muestra una línea de tiempo con todas sus tareas marcadas como "cumplidas" o "retrasadas".
     <br>
-    <b>Escenario 2:</b><br>
+    <b>Escenario 2: Comparativa de rendimiento mensual con el grupo</b><br>
     Given que hay variaciones en la productividad,<br>
     When el miembro filtra por mes,<br>
     Then el sistema muestra un comparativo gráfico entre sus resultados y el promedio del grupo.
     <br>
-    <b>Escenario 3:</b><br>
+    <b>Escenario 3: No hay historial de tareas completadas</b><br>
+    Given que un miembro nuevo accede a la sección "Mi rendimiento"
+    And el miembro aún no ha completado ninguna tarea,<br>
+    When navega a la sección "Mi rendimiento",<br>
+    Then el sistema debería mostrar un mensaje indicando que debe realizar alguna tarea antes de acceder a "Mi rendimiento".
   </td>
   <td>EP-007</td>
 </tr>
@@ -544,17 +575,21 @@
   <td>Balance de carga de trabajo</td>
   <td>Como líder, necesito visualizar un mapa de calor con la distribución horaria de tareas por miembro, para equilibrar asignaciones.</td>
   <td>
-    <b>Escenario 1:</b><br>
+    <b>Escenario 1: Visualización del mapa de calor de carga laboral</b><br>
     Given que el líder abre la vista de carga laboral,<br>
     When selecciona un rango de fechas,<br>
     Then el sistema despliega un mapa de calor con horas asignadas por día/miembro.
     <br>
-    <b>Escenario 2:</b><br>
+    <b>Escenario 2: Alerta visual de sobrecarga laboral</b><br>
     Given que un miembro tiene una carga laboral excesiva,<br>
     When el líder revisa el dashboard,<br>
-    Then la celda correspondiente se marca con una alerta visual.
+    Then el sistema marca la celda correspondiente con una alerta visual.
     <br>
-    <b>Escenario 3:</b><br>
+    <b>Escenario 3: No hay tareas asignadas en el rango de fechas seleccionado</b><br>
+    Given que el líder abre la vista de carga laboral y selecciona un rango de fechas en el que no hay ninguna tarea asignada a ningún miembro del equipo,<br>
+    When el líder intenta generar el mapa de calor,<br>
+    Then el sistema debería no proceder con la generación del mapa de calor<br>
+    And debería mostrar un mensaje informativo indicando la falta de datos.
   </td>
   <td>EP-007</td>
 </tr>
