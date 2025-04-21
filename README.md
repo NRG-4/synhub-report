@@ -296,6 +296,31 @@ Finalmente se dividio cada evento en comandos, eventos, agregados, vistas y enti
 <img src="images/chapter-4/eventStorming3-5.png" alt="Solicitudes y Validaciones" width="600"/>
 
 ##### 4.1.1.2. Domain Message Flows Modeling
+Como siguiente paso se buscó interconectar los bounded contexts encontrados en la sección anterior, para esto se buscó encontrar los eventos que se comunican entre los distintos contextos.
+
+**Gestión de grupos y notificaciones:** Al generar una invitación de grupo se envía una notificación al usuario invitado, y al aceptar la invitación se envía una notificación al creador del grupo.
+
+<img src="images/chapter-4/flowModeling1.png" alt="Gestión de grupos y notificaciones" width="600"/>
+
+**Gestión de tareas y notificaciones:** Al crear una tarea se envía una notificación al usuario asignado, y al cumplir la tarea se envía una notificación al creador de la tarea.
+
+<img src="images/chapter-4/flowModeling2.png" alt="Gestión de tareas y notificaciones" width="600"/>
+
+**Notificaciones y Solicitudes y Validaciones:** Al crear una solicitud de validación se envía una notificación al usuario asignado, y al aceptar la solicitud se envía una notificación al creador de la solicitud.
+
+<img src="images/chapter-4/flowModeling3.png" alt="Notificaciones y Solicitudes y Validaciones" width="600"/>
+
+**Solicitudes y Validadciones y Análitica y reportes:** Al validarse si se completó o no una tarea se crean o modifican las estadísticas de progreso grupal.
+
+<img src="images/chapter-4/flowModeling4.png" alt="Solicitudes y Validadciones y Análitica y reportes" width="600"/>
+
+**Solicitudes y Validadciones y Notificaciones:** Al momento de marcarse tareas como completadas o no completadas se envía una notificación al coordinador. Al asignar reprogramar tareas se enviará notificaciones al usuario antiguo y al nuevo usuario al que pertenece la tarea. Al modificar(actualizar, reprogramar o eliminar) tareas se enviará una notificación a todos los involucrados (coordinadores e integrantes).
+
+<img src="images/chapter-4/flowModeling5.png" alt="Solicitudes y Validadciones y Notificaciones" width="600"/>
+
+Finalmente se muestra una captura global de la arquitectura del sistema, donde se puede ver la interacción entre los distintos componentes y como se comunican entre ellos.
+
+<img src="images/chapter-4/flowModeling6.png" alt="Architecture" width="600"/>
 
 ##### 4.1.1.3. Bounded Context Canvases
 
@@ -309,19 +334,19 @@ La arquitectura del sistema se estructura en tres niveles: el Context Diagram de
 
 El Context Diagram muestra a SynHub (el sistema central) interactuando con sus usuarios principales —el Miembro y el Líder— quienes utilizan la aplicación para gestionar actividades, mientras que SynHub se integra con Google Calendar para sincronizar eventos externos. Este diagrama enfatiza las relaciones externas del sistema, sin detallar componentes internos, destacando cómo los actores clave (usuarios y servicios externos) se conectan con la plataforma principal para intercambiar información.
 
-<img src="./images/chapter-4/contextDiagram.png" alt="Context Diagram" width="600"/>
+<img src="images/chapter-4/contextDiagram.png" alt="Context Diagram" width="600"/>
 
 ##### 4.1.3.2. Software Architecture Container Level Diagrams
 
 El Container Diagram describe la arquitectura del sistema, donde los usuarios (Miembro y Líder) interactúan con la Landing Page (web) y la Mobile App, las cuales se conectan a una API REST (backend) que gestiona la lógica de negocio. Esta API se comunica con una base de datos PostgreSQL para almacenar datos y con Google Calendar (mediante su API) para sincronizar eventos. Cada componente (frontend, backend, base de datos y servicio externo) opera en contenedores o entornos independientes, conectados a través de APIs RESTful (HTTPS/JSON) y protocolos como JDBC (PostgreSQL) y OAuth 2.0 (Google).
 
-<img src="./images/chapter-4/containerDiagram.png" alt="Container Diagram" width="600"/>
+<img src="images/chapter-4/containerDiagram.png" alt="Container Diagram" width="600"/>
 
 ##### 4.1.3.3. Software Architecture Deployment Diagrams
 
 El diagrama de despliegue representa un sistema donde una aplicación móvil se comunica con una API REST mediante HTTP/HTTPS; esta API gestiona la lógica de negocio, interactúa con una base de datos PostgreSQL para almacenar datos y se integra con Google Calendar a través de su API  para sincronizar eventos. Los componentes clave incluyen: la app (frontend), el servidor de la API (backend), la base de datos (almacenamiento) y el servicio externo de Google , conectados mediante protocolos como RESTful APIs (JSON).
 
-<img src="./images/chapter-4/deploymentDiagram.png" alt="Deployment Diagram" width="600"/>
+<img src="images/chapter-4/deploymentDiagram.png" alt="Deployment Diagram" width="600"/>
 
 ### 4.2. Tactical-Level Domain-Driven Design
 
