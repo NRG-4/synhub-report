@@ -225,6 +225,75 @@ La sesión fue organizada estratégicamente con una duración de entre una a dos
 <img src="images/chapter-4/eventStorming1.png">
 
 ##### 4.1.1.1. Candidate Context Discovery
+Una vez finalizada la sesión de Event Storming, se realizó un análisis exhaustivo de los eventos identificados, con el objetivo de descubrir los contextos candidatos que podrían ser relevantes para el dominio del problema. Este proceso implicó la identificación de patrones y relaciones entre los eventos, así como la evaluación de su impacto en el sistema. 
+Gracias a esto se establecieron listados de eventos que formaban parte de un mismo proceso de acción para la aplicación.
+
+<img src="images/chapter-4/eventStorming2.png">
+
+A continuación se muestra con detalle las líneas de acción creadas:
+
+**Creación de grupo**
+
+<img src="images/chapter-4/eventStorming2-1.png" alt="Creación de grupo" width="600"/>
+
+**Asignación de tareas**
+
+<img src="images/chapter-4/eventStorming2-2.png" alt="Asignación de tareas" width="600"/>
+
+**Modificación de tareas**
+
+<img src="images/chapter-4/eventStorming2-3.png" alt="Modificación de tareas" width="600"/>
+
+**Cumplimiento de tareas**
+
+<img src="images/chapter-4/eventStorming2-4.png" alt="Cumplimiento de tareas" width="600"/>
+
+**Incumplimiento de tareas**
+
+<img src="images/chapter-4/eventStorming2-5.png" alt="Incumplimiento de tareas" width="600"/>
+
+Una vez creadas las líneas de acción se buscó encontrar los "pain points", solo se tuvo que modificar la línea de acción de creación de grupo.
+**Creación de grupo**
+
+<img src="images/chapter-4/eventStorming2-1-1.png" alt="Creación de grupo" width="600"/>
+
+Una vez terminadas las líneas de acción se buscó encontrar los "pivotal point", los cuales son eventos que pueden cambiar el flujo de la aplicación.
+Los pivotal point encontrados fueron:
+- La creación de un grupo
+- La creación de una tarea
+- La modificación de una tarea
+- La asignación de una tarea
+- Acciones que requieran enviar notificaciones
+- El cumplimiento de tareas
+- El incumplimiento de tareas
+
+Gracias a encontrar los pivotal points se pudo identificar como los distintos eventos formaban parte de distintos contextos, los cuales son:
+- Gestión de grupos
+- Notificaciones
+- Gestión de tareas
+- Análitica y reportes
+- Solicitudes y Validaciones
+
+Finalmente se dividio cada evento en comandos, eventos, agregados, vistas y entidades, los cuales son los siguientes:
+**Gestión de grupos**
+
+<img src="images/chapter-4/eventStorming3-1.png" alt="Gestión de grupos" width="600"/>
+
+**Notificaciones**
+
+<img src="images/chapter-4/eventStorming3-2.png" alt="Notificaciones" width="600"/>
+
+**Gestión de tareas**
+
+<img src="images/chapter-4/eventStorming3-3.png" alt="Notificaciones" width="600"/>
+
+**Análitica y reportes**
+
+<img src="images/chapter-4/eventStorming3-4.png" alt="Análitica y reportes" width="600"/>
+
+**Solicitudes y Validaciones**
+
+<img src="images/chapter-4/eventStorming3-5.png" alt="Solicitudes y Validaciones" width="600"/>
 
 ##### 4.1.1.2. Domain Message Flows Modeling
 
