@@ -325,6 +325,34 @@ Finalmente se muestra una captura global de la arquitectura del sistema, donde s
 Enlace del Miro board sobre el que se trabajo: https://miro.com/app/board/uXjVIAKXzls=/?share_link_id=902923638078
 
 ##### 4.1.1.3. Bounded Context Canvases
+En esta sección se desarrolla la descomposición estratégica del dominio mediante la elaboración de los Bounded Context Canvases, con el objetivo de identificar y delimitar áreas funcionales coherentes dentro del sistema. Esta práctica forma parte esencial del enfoque de Domain-Driven Design (DDD), ya que permite clarificar los límites semánticos y técnicos entre distintas partes del sistema, minimizando la complejidad y facilitando una evolución independiente de cada componente.
+
+El equipo ha definido previamente un conjunto de Bounded Contexts candidatos, ordenados según su importancia funcional y estratégica. A partir de esta priorización, se procede con el diseño iterativo de los Bounded Context Canvases. Cada canvas incluye los siguientes elementos clave:
+- Context Overview Definition: para entender el propósito y alcance del contexto.
+- Business Rules Distillation & Ubiquitous Language Capture: para identificar reglas de negocio clave y establecer un lenguaje común entre stakeholders y desarrolladores.
+- Capability Analysis y Capability Layering: para comprender las capacidades funcionales ofrecidas por el contexto y, de ser necesario, organizarlas en capas.
+- Dependencies Capture: para reconocer relaciones con otros contextos y sus posibles implicancias.
+- Design Critique: para revisar y refinar el diseño propuesto con una mirada crítica y colaborativa.
+
+**Gestión de grupos**
+
+<img src="images/chapter-4/groups-bc-canvas.png" alt="Gestión de grupos" width="600"/>
+
+**Gestión de tareas**
+
+<img src="images/chapter-4/tareas-bc-canvas.png" alt="Gestión de tareas" width="600"/>
+
+**Solicitudes y Validaciones**
+
+<img src="images/chapter-4/solicitudes-bc-canvas.png" alt="Solicitudes y Validaciones" width="600"/>
+
+**Notificaciones**
+
+<img src="images/chapter-4/notificaciones-bc-canvas.png" alt="Notificaciones" width="600"/>
+
+**Análitica y reportes**
+
+<img src="images/chapter-4/reportes-bc-canvas.png" alt="Análitica y reportes" width="600"/>
 
 #### 4.1.2. Context Mapping
 
