@@ -225,6 +225,43 @@ EAC - Student Outcome 7.
 
 ## Objetivos SMART
 
+
+*Casas Sánchez Gabriel Alexander*
+Objetivo 1:
+Desarrollar competencias avanzadas en backend mediante la obtención de una certificación oficial en Node.js dentro de los primeros 12 meses posteriores a la graduación, con el fin de calificar para roles como desarrollador fullstack en empresas tecnológicas.
+
+Objetivo 2:
+Colaborar activamente en al menos dos proyectos open source en GitHub dentro del primer año después de egresar, para fortalecer habilidades técnicas, manejo de control de versiones y trabajo en equipo remoto.
+
+*Alejo Cárdenas José Antonio*
+Objetivo 1:
+Finalizar un diplomado especializado en frontend con React y fundamentos de UX/UI dentro de los primeros 10 meses tras culminar la carrera, para postular a posiciones como frontend developer.
+
+Objetivo 2:
+Diseñar y lanzar un portafolio web personal con mínimo tres proyectos reales antes de los primeros seis meses de egresado, que evidencie mis conocimientos en interfaces modernas, accesibilidad y diseño adaptable.
+
+*Astonitas Díaz Juan Diego*
+Objetivo 1:
+Aplicar a programas de prácticas preprofesionales o puestos junior como backend developer en empresas de tecnología dentro de los seis meses posteriores a mi egreso, aprovechando mis conocimientos en bases de datos y APIs.
+
+Objetivo 2:
+Crear un proyecto personal funcional basado en microservicios usando Spring Boot y Docker dentro de los primeros ocho meses después de egresar, que pueda integrar a mi portafolio como evidencia de competencias técnicas.
+
+*Pasquale Barrenechea Gianluca Santino*
+Objetivo 1:
+Participar en un bootcamp intensivo de desarrollo fullstack MERN en los primeros seis meses luego de la graduación, con el objetivo de dominar tanto el frontend como el backend en JavaScript.
+
+Objetivo 2:
+Publicar dos artículos técnicos en plataformas como Medium o Dev.to en el primer año tras egresar, compartiendo aprendizajes sobre desarrollo de software y buenas prácticas en proyectos web.
+
+*Pacheco Astiguetta Sebastián*
+Objetivo 1:
+Postular a programas de talento junior o trainee en desarrollo fullstack dentro de los primeros siete meses tras finalizar la carrera, con enfoque en empresas tecnológicas emergentes.
+
+Objetivo 2:
+Finalizar un curso especializado en testing automatizado con Jest o Cypress antes de cumplir un año de egresado, con el fin de asegurar la calidad del software en proyectos reales.
+
+
 ## Capitulo I
 
 ### 1.1. Startup Profile
