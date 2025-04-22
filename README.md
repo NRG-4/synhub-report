@@ -1213,6 +1213,50 @@
       </td>
       <td>EP-008</td>
     </tr>
+    <tr>
+        <td>US-042</td>
+        <td>Ajuste de Disponibilidad Temporal</td>
+        <td>Como miembro, deseo poder ajustar mi disponibilidad estimada para un día específico, para que el líder considere mi tiempo al asignar tareas.</td>
+        <td>
+            <b>Escenario 1: Ajuste de disponibilidad en un día</b><br>
+            Given que un miembro desea modificar su disponibilidad para un día específico,<br>
+            When el miembro selecciona el nuevo horario de disponibilidad para un día específico<br>
+            And ingresa el motivo de modificación,<br>
+            Then el sistema sobreescribe la disponibilidad para la fecha y horario especificado.
+            <br>
+            <b>Escenario 2: Eliminación de la modificación de disponibilidad</b><br>
+            Given que un miembro modificó su disponibilidad anteriormente para un día específico<br>
+            And desea eliminar la modificación<br>
+            When el miembro visualiza su horario<br>
+            And selecciona el cambio realizado sobre ese día<br>
+            And confirma su eliminación<br>
+            Then el sistema elimina el cambio realizado del horario.
+        </td>
+        <td>EP-005</td>
+    </tr>
+    <tr>
+        <td>US-042</td>
+        <td>Notificación de ajuste de disponibilidad significativo</td>
+        <td>Como líder, deseo recibir notificaciones automáticas cuando un miembro actualiza significativamente su disponibilidad</td>
+        <td>
+            <b>Escenario 1: Notificación de cambio significativo</b><br>
+            Given un miembro actualiza su disponibilidad,<br>
+            When la disponibilidad recibe un cambio mayor a cinco horas por defecto,<br>
+            Then el sistema notifica al líder sobre el cambio del usuario.
+            <br>
+            <b>Escenario 2: Configuración de la notificación</b><br>
+            Given el líder desea cambiar el límite del cambio de disponibilidad para la notificación,<br>
+            When el líder ingresa el nuevo límite,<br>
+            Then el sistema actualiza el límite para las notificaciones.
+            <br>
+            <b>Escenario 3: Valores del límite no permitidos</b><br>
+            Given el líder desea cambiar el límite del cambio de disponibilidad para la notificación,<br>
+            When el líder ingresa el nuevo límite<br>
+            And el límite supera lo establecido en el sistema,<br>
+            Then el sistema muestra un mensaje de error indicando que el límite establecido no está permitido.
+        </td>
+        <td>EP-005</td>
+    </tr>
   </tbody>
 </table>
 
