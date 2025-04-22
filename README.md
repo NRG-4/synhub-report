@@ -1319,6 +1319,8 @@
             <tr><td>39</td><td>US-040</td><td>Etiquetas personalizadas</td><td>Como usuario, deseo agregar etiquetas personalizadas a mis tareas...</td><td>1</td></tr>
             <tr><td>40</td><td>US-041</td><td>Integración con herramientas externas</td><td>Como usuario avanzado, deseo integrar la plataforma con otras herramientas...</td><td>1</td></tr>
             <tr><td>41</td><td>US-008</td><td>Asignación de fechas límite</td><td>Como líder de grupo, deseo establecer fechas límite en las tareas...</td><td>3</td></tr>
+            <tr><td>40</td><td>US-042</td><td>Ajuste de disponibilidad temporal</td><td>Como miembro, deseo poder ajustar mi disponibilidad estimada para un día específico...</td><td>1</td></tr>
+            <tr><td>40</td><td>US-043</td><td>Notificación de ajuste de disponibilidad significativo</td><td>Como líder, deseo recibir notificaciones automáticas cuando un miembro actualiza...</td><td>2</td></tr>
         </tbody>
     </table>
 </body>
