@@ -32,8 +32,50 @@
 ## Registro de Versiones del Informe
 
 
-| Versión | Fecha | Autor | Descripción de modificación |
-| -------- | ----- | ----- | ----------------------------- |
+
+<table>
+  <thead>
+    <tr>
+      <th>Versión</th>
+      <th>Fecha</th>
+      <th>Autor</th>
+      <th>Descripción de modificación</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>0.1</td>
+      <td>2025-04-02</td>
+      <td>Casas Sanchez Gabriel Alexander, Astonitas Díaz Juan Diego y Pacheco Astiguetta Sebastian</td>
+      <td>Desarrollo de los ítems: 1.1. Startup Profile, que incluye los subítems 1.1.1. Descripción de la Startup y 1.1.2. Perfiles de integrantes del equipo. Luego se presenta el 1.2. Solution Profile, que contiene los apartados 1.2.1. Antecedentes y problemática y 1.2.2. Lean UX Process, el cual se desglosa en 1.2.2.1. Lean UX Problem Statements, 1.2.2.2, 1.2.2.3 y 1.2.2.4. Finalmente, se desarrolla la sección 1.3. Lean UX Assumptions, que incluye los ítems Lean UX Hypothesis Statements, Lean UX Canvas y Segmentos objetivo.</td>
+    </tr>
+    <tr>
+      <td>0.2</td>
+      <td>2025-04-07</td>
+      <td>Pasquale Barrenechea Gianluca Santino y Alejo Cardenas Jose Antonio</td>
+      <td>Desarrollo de los ítems: La sección 2 del informe está compuesta por varios apartados clave, comenzando con el 2.1. Competidores, que abarca los subítems 2.1.1. Análisis competitivo y 2.1.2. Estrategias y tácticas frente a competidores. Luego se desarrolla el 2.2. Entrevistas, que incluye 2.2.1. Diseño de entrevistas, 2.2.2. Registro de entrevistas y 2.2.3. Análisis de entrevistas. A continuación, se presenta el 2.3. Needfinding, compuesto por 2.3.1. User Personas, 2.3.2. User Task Matrix, 2.3.3. User Journey Mapping, 2.3.4. Empathy Mapping y 2.3.5. As-is Scenario Mapping. Finalmente, se cierra esta parte del informe con el apartado 2.4. Ubiquitous Language.</td>
+    </tr>
+    <tr>
+      <td>0.3</td>
+      <td>2025-04-18</td>
+      <td>Alejo Cardenas Jose Antonio, Astonitas Díaz Juan Diego</td>
+      <td>Desarrollo de los ítems: 3.1. To-Be Scenario Mapping, 3.2. Avance de las User Stories, 3.3. Impact Mapping y 3.4. Avance del Product Backlog.</td>
+    </tr>
+    <tr>
+      <td>0.4</td>
+      <td>2025-04-21</td>
+      <td>Casas Sanchez Gabriel Alexander, Alejo Cardenas Jose Antonio, Astonitas Díaz Juan Diego, Pasquale Barrenechea Gianluca Santino y Pacheco Astiguetta Sebastian</td>
+      <td>Desarrollo de los ítems: 3.2. Finalizacion de las User Stories, 3.4. Finalizacion del Product Backlog, 4.1. Strategic-Level Domain-Driven Design y comprende los siguientes subítems: 4.1.1. EventStorming, que a su vez incluye 4.1.1.1. Candidate Context Discovery, 4.1.1.2, 4.1.1.3. Domain Message Flows Modeling y Bounded Context Canvases. También se desarrolla el apartado 4.1.2. Context Mapping y 4.1.3. Software Architecture, que contiene 4.1.3.1. Software Architecture Context Level Diagrams, 4.1.3.2. Software Architecture Container Level Diagrams y 4.1.3.3 Software Architecture Deployment Diagrams.  </td>
+    </tr>
+    <tr>
+      <td>1.0</td>
+      <td>2025-04-22</td>
+      <td>Casas Sanchez Gabriel Alexander, Astonitas Díaz Juan Diego y Alejo Cardenas Jose Antonio</td>
+      <td>Revisión completa hasta el capitulo 4, corrección ortográfica y coherencia global del reporte.</td>
+    </tr>
+  </tbody>
+</table>
+
 
 ## Project Report Collaboration Insights
 
@@ -268,7 +310,6 @@ Los clientes usan SynHub cuando forman parte de equipos o grupos que necesitan c
 
 La magnitud del problema de desorganización y comunicación ineficaz en equipos es considerable. Según el State of Teams Report de Atlassian (2021), solo el 17% de los equipos se consideran "saludables", mientras que el 54% son parcialmente saludables y el 29% directamente insalubres (p. 12). Además, el 57% de los participantes admitió que sus equipos no operan con la eficiencia necesaria, lo que genera retrasos y afecta la productividad (Atlassian, 2021, p. 18). Esto se agrava por la falta de conexión interpersonal: el 56% de los miembros reportó sentirse poco vinculado con sus compañeros, y el 37% mencionó que no puede expresar ideas libremente por falta de seguridad psicológica (Atlassian, 2021, p. 24).
 
-
 #### 1.2.2. Lean UX Process
 
 El lean UX process es un enfoque iterativo centrado en el usuario para el diseño de proyectos y productos. Este enfoque se base en ciclos rápidos (sprints) de investigación, diseño y pruebas para validar la propuesta o ideas planteadas por el equipo. Estas propuestas estarán siempre orientadas a satisfacer las necesidades de los usuarios.
@@ -470,7 +511,7 @@ Características clave:
 - Edad: 25 a 60 años
 - Género: Ambos
 - Contexto: Trabajo en equipo (laboral, educativo, comunitario o institucional)
-- Ocupación: Líderes de proyectos, jefes de equipo, coordinadores, docentes, voluntarios, emprendedores 
+- Ocupación: Líderes de proyectos, jefes de equipo, coordinadores, docentes, voluntarios, emprendedores
 - Uso de tecnología: Usuarios activos de plataformas colaborativas, calendarios digitales, herramientas de gestión (como Trello, Google Calendar, Slack, etc.)
 - Necesidades: Distribuir responsabilidades, establecer fechas límite, tener visibilidad del progreso del equipo, mejorar la coordinación y reducir fricciones en la organización diaria.
 
@@ -482,8 +523,8 @@ Características clave:
 - Edad: 13 a 60 años
 - Género: Ambos
 - Contexto: Participación activa en un grupo organizado (laboral, educativo, social, comunitario, voluntariado, etc.)
-- Ocupación: Colaboradores, estudiantes, asistentes, voluntarios, trabajadores, participantes de redes de apoyo 
-- Uso de tecnología: Habitualmente usan apps móviles, redes sociales, herramientas de trabajo remoto o colaboración básica 
+- Ocupación: Colaboradores, estudiantes, asistentes, voluntarios, trabajadores, participantes de redes de apoyo
+- Uso de tecnología: Habitualmente usan apps móviles, redes sociales, herramientas de trabajo remoto o colaboración básica
 - Necesidades: Consultar tareas, recibir recordatorios, gestionar su tiempo dentro del equipo, proponer cambios o ajustes, y mantenerse alineados con los objetivos grupales.
 
 ## Capítulo II: Requirements Elicitation & Analysis
