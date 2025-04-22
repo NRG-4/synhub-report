@@ -598,17 +598,21 @@
   <td>Reporte de contribuciones individuales</td>
   <td>Como miembro, deseo generar un reporte mensual con mis tareas completadas, horas invertidas y reconocimientos recibidos, para mi portafolio personal.</td>
   <td>
-    <b>Escenario 1:</b><br>
+    <b>Escenario 1: Generación exitosa del reporte mensual</b><br>
     Given que un miembro quiere exportar su reporte,<br>
     When hace clic en "Generar reporte mensual",<br>
-    Then recibe un PDF con: tareas completadas, horas registradas y contribuciones grupales.
+    Then la aplicación muestra un PDF con tareas completadas, horas registradas y contribuciones grupales.
     <br>
-    <b>Escenario 2:</b><br>
+    <b>Escenario 2: Compartir el reporte con el líder</b><br>
     Given que el reporte está generado,<br>
     When el miembro selecciona "Compartir con líder",<br>
     Then el sistema envía una notificación al líder con el archivo adjunto.
     <br>
-    <b>Escenario 3:</b><br>
+    <b>Escenario 3: Error al generar el reporte</b><br>
+    Given que un miembro quiere exportar su reporte mensual,<br>
+    When hace clic en "Generar reporte mensual"<br>
+    And el sistema no procesa adecuadamente la información,<br>
+    Then el sistema debería mostrar un mensaje de error indicando que debe intentar más tarde.
   </td>
   <td>EP-007</td>
 </tr>
@@ -617,17 +621,22 @@
   <td>Predicción de tiempos de entrega</td>
   <td>Como líder, quiero que el sistema sugiera fechas límite realistas para nuevas tareas, basado en el historial de productividad del equipo.</td>
   <td>
-    <b>Escenario 1:</b><br>
+    <b>Escenario 1: Sugerencia de fecha límite</b><br>
     Given que el líder crea una nueva tarea,<br>
     When ingresa la descripción y complejidad,<br>
     Then el sistema muestra una fecha sugerida basada en el historial del asignado.
     <br>
-    <b>Escenario 2:</b><br>
+    <b>Escenario 2 Ajuste manual del plazo:</b><br>
     Given que la fecha sugerida no es adecuada,<br>
     When el líder ajusta manualmente el plazo,<br>
     Then el sistema registra la variación para futuras predicciones.
     <br>
-    <b>Escenario 3:</b><br>
+    <b>Escenario 3: Historial insuficiente del miembro</b><br>
+    Given el líder crea una tarea<br>
+    And la asigna a un miembro nuevo o con poco historial,<br>
+    When el sistema intenta sugerir una fecha límite,<br>
+    Then el sistema debería indicar que no hay suficiente información histórica disponible para ese miembro<br>
+    And ofrece una fecha límite predeterminada.
   </td>
   <td>EP-007</td>
 </tr>
@@ -636,17 +645,20 @@
   <td>Reporte de dependencias críticas</td>
   <td>Como líder, necesito identificar tareas bloqueadas por dependencias no resueltas, para priorizar recursos.</td>
   <td>
-    <b>Escenario 1:</b><br>
+    <b>Escenario 1: Visualización de dependencias</b><br>
     Given que una tarea tiene dependencias pendientes,<br>
     When el líder accede al reporte de bloqueos,<br>
     Then el sistema muestra un diagrama de flujo con las relaciones entre tareas.
     <br>
-    <b>Escenario 2:</b><br>
+    <b>Escenario 2: Alerta de bloqueo persistente</b><br>
     Given que un bloqueo persiste,<br>
     When el líder revisa el reporte,<br>
     Then recibe una alerta urgente con sugerencias de reasignación.
     <br>
-    <b>Escenario 3:</b><br>
+    <b>Escenario 3: No hay dependencias bloqueando tareas</b><br>
+    Given no existen tareas bloqueadas por dependencias incompletas,<br>
+    When el líder accede al reporte de bloqueos,<br>
+    Then el sistema debería mostrar un mensaje indicando que no hay dependencias críticas o tareas bloqueadas en este momento.
   </td>
   <td>EP-007</td>
 </tr>
@@ -655,17 +667,20 @@
   <td>Análisis de tendencias de comunicación</td>
   <td>Como líder, deseo ver métricas de frecuencia y canales de comunicación usados, para optimizar flujos colaborativos.</td>
   <td>
-    <b>Escenario 1:</b><br>
+    <b>Escenario 1: Visualización de tendencias de chat</b><br>
     Given que el líder quiere analizar la comunicación,<br>
     When selecciona "Tendencias de chat",<br>
-    Then ve un gráfico de barras con interacciones por día y hora.
+    Then el sistema muestra un gráfico de barras con interacciones por día y hora.
     <br>
-    <b>Escenario 2:</b><br>
+    <b>Escenario 2: Recomendación sobre canales</b><br>
     Given que existen canales poco utilizados,<br>
     When el líder revisa el reporte de canales,<br>
     Then el sistema recomienda consolidar o eliminar canales inactivos.
     <br>
-    <b>Escenario 3:</b><br>
+    <b>Escenario 3: No hay datos de comunicación disponibles</b><br>
+    Given no se ha registrado actividad de comunicación en el periodo analizado,<br>
+    When el líder accede a los reportes de tendencias,<br>
+    Then el sistema mostrará un mensaje indicando que no hay datos de comunicación disponibles para el período seleccionado.
   </td>
   <td>EP-007</td>
 </tr>
@@ -674,17 +689,20 @@
   <td>Registro de tiempo invertido por tarea</td>
   <td>Como miembro, quiero registrar y categorizar el tiempo dedicado a cada actividad, para mejorar mi gestión personal.</td>
   <td>
-    <b>Escenario 1:</b><br>
+    <b>Escenario 1: Registro automático de tiempo</b><br>
     Given que un miembro inicia una tarea,<br>
     When activa el temporizador integrado,<br>
     Then el sistema registra automáticamente el tiempo al marcarla como completada.
     <br>
-    <b>Escenario 2:</b><br>
+    <b>Escenario 2: Registro manual de tiempo</b><br>
     Given que el miembro olvidó activar el timer,<br>
     When edita manualmente la tarea completada,<br>
     Then puede ingresar las horas invertidas con etiquetas predefinidas.
     <br>
-    <b>Escenario 3:</b><br>
+    <b>Escenario 3: Intento de registrar tiempo no válido</b><br>
+    Given un miembro edita el tiempo de una tarea,<br>
+    When intenta ingresar un formato de tiempo incorrecto,<br>
+    Then el sistema debería mostrar un error indicando formato inválido.
   </td>
   <td>EP-007</td>
 </tr>
@@ -693,17 +711,20 @@
   <td>Reporte de salud del equipo</td>
   <td>Como líder, necesito un indicador global que mida equilibrio carga-tiempo, clima colaborativo y cumplimiento de metas, para prevenir burnout.</td>
   <td>
-    <b>Escenario 1: </b><br>
+    <b>Escenario 1: Visualización del indicador de salud</b><br>
     Given que el líder abre el reporte de salud,<br>
     When revisa el semáforo (verde/ámbar/rojo),<br>
     Then puede hacer clic para ver factores detallados como horas extras o conflictos no resueltos.
     <br>
-    <b>Escenario 2:</b><br>
+    <b>Escenario 2: Recomendaciones por indicador rojo</b><br>
     Given que el indicador está en rojo,<br>
     When el líder consulta las recomendaciones,<br>
     Then el sistema propone acciones específicas como redistribuir tareas o programar días de descanso.
     <br>
-    <b>Escenario 3:</b><br>
+    <b>Escenario 3: Insuficiencia de datos para el reporte</b><br>
+    Given el equipo es nuevo o no hay suficientes datos registrados,<br>
+    When el líder accede al reporte de salud,<br>
+    Then el sistema debería mostrar un mensaje indicando que no hay suficientes datos.
   </td>
   <td>EP-007</td>
 </tr>
@@ -730,12 +751,12 @@
             Given que el usuario visualiza las tareas del grupo,<br>
             When revisa la información de una tarea específica,<br>
             Then el sistema muestra La fecha de vencimiento, el porcentaje de progreso y
-            Alertas visuales para tareas con menos de 24 horas restantes.
+            alertas visuales para tareas con menos de 24 horas restantes.
             <br>
-            <b>Escenario 3: : Sincronización en tiempo real de actualizaciones</b><br>
+            <b>Escenario 3: Sincronización en tiempo real de actualizaciones</b><br>
             Given que el usuario está en la sección de tareas grupales,<br>
             When otro miembro modifica el estado, responsable o fecha de una tarea,<br>
-            Then el sistema muestra La fecha de vencimiento, el porcentaje de progreso
+            Then el sistema muestra La fecha de vencimiento, el porcentaje de progreso<br>
             And los cambios se reflejan automáticamente en la vista del usuario.
             <br>
             <b>Escenario 4: Filtrado básico para gestión de prioridades</b><br>
@@ -743,7 +764,10 @@
             When selecciona un filtro por estado (ej: "pendiente", "en progreso", "completado"),<br>
             Then el sistema muestra solo las tareas que cumplen con ese criterio.
             <br>
-            <b>Escenario 5:</b><br>
+            <b>Escenario 5: Grupo sin tareas activas</b><br>
+            Given el usuario pertenece a un grupo sin tareas activas,<br>
+            When accede a la sección del grupo en SynHub,<br>
+            Then el sistema debería mostrar un mensaje indicando que no hay tareas activas para este grupo.
         </td>
         <td>
             EP-002
@@ -769,7 +793,11 @@
             Fecha de creación, fecha de vencimiento y prioridad asignada, Estado actual de la tarea, 
             participantes involucrados y comentarios asociados.
             <br>
-            <b>Escenario 2:</b><br>
+            <b>Escenario 2: Error al cargar los detalles de la tarea</b><br>
+            Given el usuario está en la lista de tareas (individuales o grupales),<br>
+            When selecciona una tarea específica<br>
+            And el sistema experimenta un error al intentar cargar la información,<br>
+            Then el sistema debería mostrar un mensaje de error indicando que no se pudieron cargar los detalles.
         </td>
         <td>
             EP-002
@@ -795,7 +823,10 @@
             Then el sistema muestra un calendario horario y tareas ubicadas en sus bloques
             de tiempo correspondientes.
             <br>
-            <b>Escenario 2:</b><br>
+            <b>Escenario 2: Superposición de tareas y reuniones</b><br>
+            Given el usuario tiene tareas programadas y reuniones agendadas para el mismo bloque de tiempo,<br>
+            When accede a la sección "Mi Horario" en SynHub,
+            Then el sistema debería mostrar visualmente la superposición de estas actividades de manera clara e informar al usuario que tiene reuniones que colisionan.
         </td>
         <td>
             EP-002
@@ -821,7 +852,10 @@
             Then el sistema muestra una lista de todos los grupos a los que pertenece, con la informacion
             de cada uno, incluyendo el nombre del grupo , descripción breve del grupo y cantidad de miembros
             <br>
-            <b>Escenario 2:</b><br>
+            <b>Escenario 2: Usuario sin grupos asignados</b><br>
+            Given que el usuario está registrado en SynHub pero aún no ha sido añadido a ningún grupo,<br>
+            When accede a la sección "Mis Grupos",<br>
+            Then el sistema debería mostrar un mensaje informativo indicando que el usuario no pertenece a ningún grupo<br>
         </td>
         <td>
             EP-002
@@ -832,17 +866,23 @@
       <td>Subir documentos compartidos</td>
       <td>Como miembro, quiero subir documentos al repositorio grupal en SynHub, para centralizar la información clave del equipo.</td>
       <td>
-        <b>Escenario 1:</b><br>
+        <b>Escenario 1: Subida exitosa de documento</b><br>
         Given que el usuario accede a "Documentos",<br>
-        When el usuario selecciona "Subir",<br>
-        Then puede elegir archivos locales y asignar categorías.
+        When el usuario selecciona "Subir"<br>
+        And elege archivos locales<br>
+        And asigna las categorías,<br>
+        Then el sistema almacena los archivos para el usuario.
         <br>
-        <b>Escenario 2:</b><br>
+        <b>Escenario 2: Búsqueda exitosa de documento subido</b><br>
         Given que el archivo se subió,<br>
-        When otro miembro busca,<br>
-        Then aparece en resultados con metadatos básicos.
+        When otro miembro busca el archivo,<br>
+        Then el sistema muestra los resultados con metadatos básicos.
         <br>
-        <b>Escenario 3:</b><br>
+        <b>Escenario 3: Intento de subir un archivo con formato no permitido</b><br>
+        Given el usuario accede a la sección "Documentos"
+        And selecciona "Subir",<br>
+        When el usuario intenta cargar un archivo con un formato que no está permitido por el sistema,<br>
+        Then el sistema debería mostrar un mensaje de error indicando que el formato del archivo no es compatible.
       </td>
       <td>EP-008</td>
     </tr>
@@ -851,17 +891,20 @@
       <td>Control de versiones documentales</td>
       <td>Como coordinador, necesito ver historial de versiones cuando se modifican documentos compartidos, para rastrear cambios importantes.</td>
       <td>
-        <b>Escenario 1:</b><br>
+        <b>Escenario 1: Visualización del historial de versiones</b><br>
         Given que un documento tiene versiones previas,<br>
         When el usuario hace clic en "Historial",<br>
         Then muestra lista con fecha/autor de cada cambio.
         <br>
-        <b>Escenario 2:</b><br>
+        <b>Escenario 2: Comparación de versiones</b><br>
         Given que se selecciona versión antigua,<br>
         When hace clic en "Comparar",<br>
         Then la aplicación resalta diferencias con versión actual.
         <br>
-        <b>Escenario 3:</b><br>
+        <b>Escenario 3: Intento de acceder al historial de un documento sin versiones previas</b><br>
+        Given un documento compartido no ha sido modificado desde su creación,<br>
+        When el coordinador hace clic en el botón "Historial" para ver las versiones anteriores,<br>
+        Then el sistema debería mostrar un mensaje indicando que no hay versiones previas disponibles para este documento.
       </td>
       <td>EP-008</td>
     </tr>
@@ -870,12 +913,19 @@
       <td>Sistema de logros/badges</td>
       <td>Como miembro, quiero ganar insignias al completar metas grupales, para sentirme reconocido por mis contribuciones.</td>
       <td>
-        <b>Escenario 1:</b><br>
+        <b>Escenario 1: Obtención de badge por completar tareas</b><br>
         Given que el usuario completa tareas asignadas,<br>
         When actualiza perfil,<br>
         Then recibe un badge correspondiente.
         <br>
-        <b>Escenario 2:</b> Dado que hay badges disponibles, Cuando otros ven mi perfil, Entonces muestran mis logros con descripción.
+        <b>Escenario 2: Visualización de badges en el perfil</b><br>
+        Dado que hay badges disponibles, Cuando otros ven mi perfil, Entonces muestran mis logros con descripción.
+        <br>
+        <b>Escenario 3: Error al asignar el badge</b><br>
+        Given que el usuario completa las tareas requeridas para un badge,<br>
+        When el sistema intenta asignar el badge al perfil del usuario sin éxito,<br>
+        Then el sistema registra el error para revisión<br>
+        And avisará al usuario de que más tarde se intentará asignar el badge nuevamente.
       </td>
       <td>EP-009</td>
     </tr>
@@ -884,16 +934,22 @@
       <td>Tablero de reconocimiento grupal</td>
       <td>Como líder, deseo destacar públicamente contribuciones excepcionales, para motivar al equipo.</td>
       <td>
-        <b>Escenario 1:</b><br>
+        <b>Escenario 1: Publicación de reconocimiento</b><br>
         Given que un miembro sobresale,<br>
-        When líder selecciona "Reconocer",<br>
-        Then aparece su logro en el tablero público.<br><br>
-        <b>Escenario 2:</b><br>
+        When líder selecciona "Reconocer"<br>
+        And selecciona el miembro sobresaliente<br>
+        Then el sistema muestra su logro en el tablero público.
+        <br>
+        <b>Escenario 2: Visualización de reconocimientos</b><br>
         Given que hay reconocimientos,<br>
         When el equipo accede al tablero,<br>
-        Then ven los últimos reconocimientos con fotos.
+        Then el sistema muestra los últimos reconocimientos con fotos.
         <br>
-        <b>Escenario 3:</b><br>
+        <b>Escenario 3: Intento de reconocer sin seleccionar un miembro</b><br>
+        Given el líder desea destacar una contribución,<br>
+        When el líder no selecciona a ningún miembro del equipo para otorgar el reconocimiento<br>
+        And selecciona la opción "Reconocer",<br>
+        Then el sistema debería mostrar un mensaje de error indicando que debe seleccionar al menos un miembro.
       </td>
       <td>EP-009</td>
     </tr>
@@ -902,17 +958,21 @@
       <td>Búsqueda inteligente en contenido grupal</td>
       <td>Como usuario, quiero buscar simultáneamente en tareas, documentos y conversaciones, para encontrar información rápidamente.</td>
       <td>
-        <b>Escenario 1:</b><br>
-        Given que el usuario escribe en barra de búsqueda,<br>
-        When presiona Enter,<br>
-        Then muestra resultados categorizados (tareas/docs/chats).
+        <b>Escenario 1: Búsqueda con resultados categorizados</b><br>
+        Given que el usuario escribe en la barra de búsqueda,<br>
+        When el usuario presiona Enter,<br>
+        Then el sistema muestra resultados categorizados (tareas/docs/chats).
         <br>
-        <b>Escenario 2:</b><br>
+        <b>Escenario 2: Refinamiento de la búsqueda con filtros</b><br>
         Given que hay múltiples resultados,<br>
-        When aplica filtros,<br>
-        Then refina búsqueda por fecha/tipo/autor.
+        When el usuario aplica filtros,<br>
+        Then el sistema refina búsqueda por fecha/tipo/autor.
         <br>
-        <b>Escenario 3:</b><br>
+        <b>Escenario 3: Búsqueda sin resultados</b><br>
+        Given el usuario escribe un término en la barra de búsqueda,<br>
+        When presiona Enter<br>
+        And no se encuentran coincidencias para ese término en ninguna de las secciones de tareas, documentos o conversaciones del grupo,<br>
+        Then el sistema debería mostrar un mensaje indicando que no se encontraron resultados para la búsqueda realizada.
       </td>
       <td>EP-002</td>
     </tr>
@@ -921,17 +981,20 @@
       <td>Plantillas de grupos recurrentes</td>
       <td>Como administrador, necesito crear plantillas de grupos con tareas/roles predefinidos, para acelerar la creación de proyectos similares.</td>
       <td>
-        <b>Escenario 1:</b><br>
-        Given que el admin crea plantilla,<br>
-        When define estructura base,<br>
-        Then puede guardarla como modelo reusable.
+        <b>Escenario 1: Creación de plantilla de grupo</b><br>
+        Given que el líder crea una plantilla,<br>
+        When se define la estructura base,<br>
+        Then el sistema lo guarda como modelo reusable.
         <br>
-        <b>Escenario 2:</b><br>
-        Given que existe plantilla,<br>
-        When crea nuevo grupo,<br>
-        Then ofrece opción de iniciar desde plantilla.
+        <b>Escenario 2: Uso de plantilla al crear un grupo</b><br>
+        Given que existe una plantilla en el sistema,<br>
+        When el líder crea un nuevo grupo,<br>
+        Then el sistema ofrece opción de iniciar desde plantilla.
         <br>
-        <b>Escenario 3:</b><br>
+        <b>Escenario 3: Intento de crear plantilla sin nombre</b><br>
+        Given el líder intenta crear una nueva plantilla de grupo,<br>
+        When define la estructura base pero intenta guardar la plantilla sin asignarle un nombre,<br>
+        Then el sistema debería mostrar un mensaje de error indicando que el nombre de la plantilla es obligatorio.
       </td>
       <td>EP-001</td>
     </tr>
@@ -940,17 +1003,21 @@
       <td>Modo "Focus" para tareas individuales</td>
       <td>Como miembro, deseo activar un modo sin distracciones al trabajar en tareas complejas, para mejorar mi concentración.</td>
       <td>
-        <b>Escenario 1:</b><br>
+        <b>Escenario 1: Activación del Modo Focus</b><br>
         Given que el usuario abre una tarea,<br>
         When activa "Modo Focus",<br>
         Then oculta elementos de UI no esenciales.
         <br>
-        <b>Escenario 2:</b><br>
-        Given que el modo está activo,<br>
-        When recibe notificación,<br>
-        Then la pospone hasta salir del modo.
+        <b>Escenario 2: Posponer notificaciones en Modo Focus</b><br>
+        Given que el modo Focus está activo,<br>
+        When el usuario recibe una notificación,<br>
+        Then el sistema pospondrá la notificación hasta que el usuario desactive el modo Focus.
         <br>
-        <b>Escenario 3:</b><br>
+        <b>Escenario 3: Error al activar el Modo Focus</b><br>
+        Given el usuario abre una tarea y desea activar el "Modo Focus",<br>
+        When el usuario intenta activar el "Modo Focus"
+        And ocurre un error en el sistema que impide su activación,
+        Then la aplicación debería mostrar un mensaje de error indicando que no se pudo activar el "Modo Focus".
       </td>
       <td>EP-002</td>
     </tr>
@@ -959,17 +1026,22 @@
       <td>Solicitud de aprobación para recursos</td>
       <td>Como miembro, quiero solicitar uso de recursos restringidos que requieren aprobación del líder, para cumplir con políticas de control.</td>
       <td>
-        <b>Escenario 1:</b><br>
+        <b>Escenario 1: Formulario de solicitud de recurso</b><br>
         Given que el usuario selecciona un recurso restringido,<br>
         When hace clic en "Solicitar",<br>
-        Then debe completar un formulario con justificación y fecha requerida.
+        Then la aplicación debería pedir al usuario completar un formulario con justificación y fecha requerida.
         <br>
-        <b>Escenario 2:</b><br>
-        Given que se envía la solicitud,<br>
+        <b>Escenario 2: Aprobación de solicitud y notificación</b><br>
+        Given que se envía la solicitud al líder,<br>
         When el líder la aprueba,<br>
-        Then el sistema actualiza el estado y notifica al solicitante.
+        Then el sistema actualiza el estado<br>
+        And notifica al solicitante.
         <br>
-        <b>Escenario 3:</b><br>
+        <b>Escenario 3: Negación de solicitud y notificación</b><br>
+        Given que se envía la solicitud al líder,<br>
+        When el líder lo deniega,<br>
+        Then el sistema actualiza el estado<br>
+        And notifica al solicitante.
       </td>
       <td>EP-008</td>
     </tr>
@@ -978,17 +1050,15 @@
       <td>Alertas de vencimiento de préstamos</td>
       <td>Como sistema, debo notificar cuando un recurso prestado está por vencer o se pasa de fecha, para prevenir conflictos de disponibilidad.</td>
       <td>
-        <b>Escenario 1:</b><br>
+        <b>Escenario 1: Recordatorio de devolución próxima</b><br>
         Given que un préstamo está activo,<br>
         When se acerca la fecha de devolución,<br>
         Then el sistema envía un recordatorio al usuario.
         <br>
-        <b>Escenario 2:</b><br>
+        <b>Escenario 2: Notificación por devolución tardía</b><br>
         Given que el préstamo venció,<br>
         When no se registra devolución,<br>
         Then el sistema notifica al administrador y al siguiente en la lista de espera.
-        <br>
-        <b>Escenario 3:</b><br>
       </td>
       <td>EP-008</td>
     </tr>
@@ -997,17 +1067,15 @@
       <td>Visualización de recursos asignados a tareas</td>
       <td>Como miembro, deseo ver qué recursos están vinculados a una tarea específica, para prepararme adecuadamente antes de comenzar.</td>
       <td>
-        <b>Escenario 1:</b><br>
+        <b>Escenario 1: Ver lista de recursos de la tarea</b><br>
         Given que el usuario abre una tarea,<br>
         When revisa la sección "Recursos",<br>
-        Then ve una lista de ítems necesarios con su estado actual (disponible/reservado).
+        Then el sistema muestra una lista de ítems necesarios con su estado actual (disponible/reservado).
         <br>
-        <b>Escenario 2:</b><br>
+        <b>Escenario 2: Sugerencia de recursos alternativos</b><br>
         Given que falta un recurso,<br>
         When hace clic en "Solicitar",<br>
         Then el sistema sugiere alternativas disponibles similares.
-        <br>
-        <b>Escenario 3:</b><br>
       </td>
       <td>EP-008</td>
     </tr>
@@ -1016,17 +1084,20 @@
       <td>Sistema de logros y badges</td>
       <td>Como miembro, quiero ganar insignias al completar metas grupales, para sentirme reconocido por mis contribuciones.</td>
       <td>
-        <b>Escenario 1:</b><br>
+        <b>Escenario 1: Asignación de badge al completar tareas</b><br>
         Given que el usuario completa tareas asignadas,<br>
         When actualiza su perfil,<br>
-        Then recibe un badge correspondiente.
+        Then el sistema registra al usuario elo badge correspondiente.
         <br>
-        <b>Escenario 2:</b><br>
+        <b>Escenario 2: Visualización de badges en perfiles de usuario</b><br>
         Given que hay badges disponibles,<br>
         When otros ven mi perfil,<br>
-        Then muestran mis logros con descripción.
+        Then el sistema muestra mis logros con descripción.
         <br>
-        <b>Escenario 3:</b><br>
+        <b>Escenario 3: Revocación de badge</b><br>
+        Given un usuario ha obtenido un badge,<br>
+        When el usuario ya no cumple con los criterios originales o el líder revoca el badge manualmente<br>
+        Then el sistema debería revocar el badge del perfil del usuario.
       </td>
       <td>EP-009</td>
     </tr>
@@ -1035,17 +1106,20 @@
       <td>Tablero de reconocimiento grupal</td>
       <td>Como líder, deseo destacar públicamente contribuciones excepcionales, para motivar al equipo.</td>
       <td>
-        <b>Escenario 1:</b><br>
+        <b>Escenario 1: Publicación de un reconocimiento</b><br>
         Given que un miembro sobresale,<br>
         When el líder selecciona "Reconocer",<br>
-        Then aparece su logro en el tablero público.
+        Then el sistema expone su logro en el tablero público.
         <br>
-        <b>Escenario 2:</b><br>
+        <b>Escenario 2: Visualización de reconocimientos en el tablero</b><br>
         Given que hay reconocimientos,<br>
         When el equipo accede al tablero,<br>
-        Then ven los últimos reconocimientos con fotos.
+        Then el sistema muestra los últimos reconocimientos con fotos.
         <br>
-        <b>Escenario 3:</b><br>
+        <b>Escenario 3: Intento de publicar un reconocimiento sin descripción</b><br>
+        Given el líder selecciona a un miembro para reconocer su contribución,<br>
+        When el líder intenta publicar el reconocimiento sin ingresar una descripción,<br>
+        Then el sistema debería mostrar un mensaje de error indicando que la descripción del reconocimiento es obligatoria.
       </td>
       <td>EP-009</td>
     </tr>
@@ -1054,17 +1128,21 @@
       <td>Rutas de aprendizaje grupales</td>
       <td>Como líder, deseo asignar rutas de capacitación al equipo con recursos y metas de progreso, para desarrollar habilidades.</td>
       <td>
-        <b>Escenario 1:</b><br>
+        <b>Escenario 1: Visualización del progreso de la ruta</b><br>
         Given que el líder crea una ruta,<br>
         When agrega módulos,<br>
-        Then los miembros ven el progreso como porcentaje completado.
+        Then el sistema muestra a los miembros el progreso como porcentaje completado en la consulta.
         <br>
-        <b>Escenario 2:</b><br>
+        <b>Escenario 2: Aprobación de evidencia de módulo completado</b><br>
         Given que el usuario completa un módulo,<br>
         When sube evidencia,<br>
-        Then el líder puede aprobarla o pedir revisiones.
+        Then el sistema notificará al líder sobre la aprobación o petición de revisiones.
         <br>
-        <b>Escenario 3:</b><br>
+        <b>Escenario 3: Intento de acceder a una ruta no asignada</b><br>
+        Given el líder ha creado rutas de aprendizaje en el sistema,<br>
+        When un miembro intenta acceder a una ruta de aprendizaje que no le ha sido asignada por el líder,<br>
+        Then el sistema debería impedir el acceso a esa ruta<br>
+        And notificará al usuario de la falta de permisos.
       </td>
       <td>EP-009</td>
     </tr>
@@ -1073,17 +1151,20 @@
       <td>Checklist de preparación para recursos</td>
       <td>Como administrador, deseo crear checklists personalizados para cada recurso, para que los usuarios vengan preparados.</td>
       <td>
-        <b>Escenario 1:</b><br>
+        <b>Escenario 1: Adición de checklist a un recurso</b><br>
         Given que el administrador edita un recurso,<br>
         When agrega un checklist,<br>
-        Then se muestra al usuario durante el proceso de reserva.
+        Then el sistema muestra al usuario el checklist editado durante el proceso de reserva.
         <br>
-        <b>Escenario 2:</b><br>
+        <b>Escenario 2: Obligatoriedad del checklist durante la reserva</b><br>
         Given que hay un checklist,<br>
         When el usuario hace una reserva,<br>
-        Then debe marcar cada ítem como "entendido" antes de confirmar.
+        Then el sistema debe pedir al usuario marcar cada ítem como "entendido" antes de confirmar.
         <br>
-        <b>Escenario 3:</b><br>
+        <b>Escenario 3: Intento de reservar sin completar el checklist</b><br>
+        Given un recurso tiene un checklist de preparación obligatorio,<br>
+        When un usuario intenta completar la reserva del recurso sin haber marcado todos los ítems del checklist como entendidos,<br>
+        Then el sistema impide la confirmación de la reserva indicando que debe marcar todos los elementos del checklist antes de poder reservar el recurso.
       </td>
       <td>EP-008</td>
     </tr>
@@ -1092,15 +1173,20 @@
       <td>Fotos/documentos asociados a recursos</td>
       <td>Como administrador, quiero subir fotos/documentos técnicos de recursos complejos, para que los usuarios sepan exactamente qué esperar.</td>
       <td>
-        <b>Escenario 1:</b><br>
-        Given que el administrador agrega un recurso,<br>
+        <b>Escenario 1: Carga de imágenes y documentos a un recurso</b><br>
+        Given que el administrador desea agregar un recurso,<br>
         When sube imágenes/documentos,<br>
-        Then estos se muestran en la ficha técnica del recurso.
+        Then el sistema los muestra en la ficha técnica del recurso.
         <br>
-        <b>Escenario 2:</b><br
+        <b>Escenario 2: Descarga de documentos técnicos por el usuario</b><br>
         Given que el usuario consulta un recurso,<br>
         When expande "Detalles",<br>
-        Then puede descargar manuales o especificaciones técnicas.
+        Then el sistema permite descargar manuales o especificaciones técnicas.
+        <br>
+        <b>Escenario 3: Intento de subir un tipo de archivo no permitido</b><br>
+        Given el administrador desea agregar un recurso,<br>
+        When intenta subir un archivo con un tipo de formato no permitido por el sistema,<br>
+        Then el sistema debería mostrar un mensaje de error indicando que el tipo de archivo no es compatible
       </td>
       <td>EP-008</td>
     </tr>
@@ -1109,17 +1195,21 @@
       <td>Previsualización de archivos adjuntos</td>
       <td>Como usuario, deseo ver miniaturas/previews de archivos adjuntos a tareas sin descargarlos, para ahorrar tiempo.</td>
       <td>
-        <b>Escenario 1:</b><br>
-        Given que tarea tiene un archivo adjunto,<br>
-        When pasa cursor,<br>
-        Then muestra preview con contenido relevante.
+        <b>Escenario 1: Previsualización al pasar el cursor</b><br>
+        Given que la tarea tiene un archivo adjunto,<br>
+        When pasa el cursor encima,<br>
+        Then el sistema muestra un preview con contenido relevante.
         <br>
-        <b>Escenario 2:</b><br>
-        Given que es imagen adjunta,<br>
-        When hace clic en thumbnail,<br>
-        Then expande vista previa en lightbox.
+        <b>Escenario 2: Expansión de previsualización de imágenes</b><br>
+        Given que la tarea tiene una imagen adjunta,<br>
+        When el usuario hace clic en thumbnail,<br>
+        Then el sistema expande la vista previa en lightbox.
         <br>
-        <b>Escenario 3:</b><br>
+        <b>Escenario 3: Error con la previsualización</b><br>
+        Given que la tarea tiene un archivo adjunto,<br>
+        When pasa el cursor encima<br>
+        And la previsualización falla,<br>
+        Then el sistema debe mostrar un mensaje que indique que la vista previa no está disponible.
       </td>
       <td>EP-008</td>
     </tr>
