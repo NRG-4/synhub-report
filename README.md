@@ -225,7 +225,8 @@ La sesión fue organizada estratégicamente con una duración de entre una a dos
 <img src="images/chapter-4/eventStorming1.png">
 
 ##### 4.1.1.1. Candidate Context Discovery
-Una vez finalizada la sesión de Event Storming, se realizó un análisis exhaustivo de los eventos identificados, con el objetivo de descubrir los contextos candidatos que podrían ser relevantes para el dominio del problema. Este proceso implicó la identificación de patrones y relaciones entre los eventos, así como la evaluación de su impacto en el sistema. 
+
+Una vez finalizada la sesión de Event Storming, se realizó un análisis exhaustivo de los eventos identificados, con el objetivo de descubrir los contextos candidatos que podrían ser relevantes para el dominio del problema. Este proceso implicó la identificación de patrones y relaciones entre los eventos, así como la evaluación de su impacto en el sistema.
 Gracias a esto se establecieron listados de eventos que formaban parte de un mismo proceso de acción para la aplicación.
 
 <img src="images/chapter-4/eventStorming2.png">
@@ -259,6 +260,7 @@ Una vez creadas las líneas de acción se buscó encontrar los "pain points", so
 
 Una vez terminadas las líneas de acción se buscó encontrar los "pivotal point", los cuales son eventos que pueden cambiar el flujo de la aplicación.
 Los pivotal point encontrados fueron:
+
 - La creación de un grupo
 - La creación de una tarea
 - La modificación de una tarea
@@ -268,6 +270,7 @@ Los pivotal point encontrados fueron:
 - El incumplimiento de tareas
 
 Gracias a encontrar los pivotal points se pudo identificar como los distintos eventos formaban parte de distintos contextos, los cuales son:
+
 - Gestión de grupos
 - Notificaciones
 - Gestión de tareas
@@ -296,6 +299,7 @@ Finalmente se dividio cada evento en comandos, eventos, agregados, vistas y enti
 <img src="images/chapter-4/eventStorming3-5.png" alt="Solicitudes y Validaciones" width="600"/>
 
 ##### 4.1.1.2. Domain Message Flows Modeling
+
 Como siguiente paso se buscó interconectar los bounded contexts encontrados en la sección anterior, para esto se buscó encontrar los eventos que se comunican entre los distintos contextos.
 
 **Gestión de grupos y notificaciones:** Al generar una invitación de grupo se envía una notificación al usuario invitado, y al aceptar la invitación se envía una notificación al creador del grupo.
@@ -325,9 +329,11 @@ Finalmente se muestra una captura global de la arquitectura del sistema, donde s
 Enlace del Miro board sobre el que se trabajo: https://miro.com/app/board/uXjVIAKXzls=/?share_link_id=902923638078
 
 ##### 4.1.1.3. Bounded Context Canvases
+
 En esta sección se desarrolla la descomposición estratégica del dominio mediante la elaboración de los Bounded Context Canvases, con el objetivo de identificar y delimitar áreas funcionales coherentes dentro del sistema. Esta práctica forma parte esencial del enfoque de Domain-Driven Design (DDD), ya que permite clarificar los límites semánticos y técnicos entre distintas partes del sistema, minimizando la complejidad y facilitando una evolución independiente de cada componente.
 
 El equipo ha definido previamente un conjunto de Bounded Contexts candidatos, ordenados según su importancia funcional y estratégica. A partir de esta priorización, se procede con el diseño iterativo de los Bounded Context Canvases. Cada canvas incluye los siguientes elementos clave:
+
 - Context Overview Definition: para entender el propósito y alcance del contexto.
 - Business Rules Distillation & Ubiquitous Language Capture: para identificar reglas de negocio clave y establecer un lenguaje común entre stakeholders y desarrolladores.
 - Capability Analysis y Capability Layering: para comprender las capacidades funcionales ofrecidas por el contexto y, de ser necesario, organizarlas en capas.
@@ -355,6 +361,23 @@ El equipo ha definido previamente un conjunto de Bounded Contexts candidatos, or
 <img src="images/chapter-4/reportes-bc-canvas.png" alt="Análitica y reportes" width="600"/>
 
 #### 4.1.2. Context Mapping
+
+El Context Mapping es una técnica clave dentro del enfoque de Domain-Driven Design (DDD) a nivel estratégico, que permite visualizar y comprender cómo interactúan los distintos Bounded Contexts dentro de un sistema complejo. A través de esta herramienta, se identifican las relaciones, dependencias y límites de comunicación entre contextos, definiendo claramente los flujos de información, los tipos de colaboración (como Customer/Supplier, Conformist, Partnership o Anticorruption Layer), y el uso de patrones como Open Host Service.
+
+El propósito del Context Mapping es facilitar una arquitectura de software más modular, mantenible y alineada con el dominio del negocio, permitiendo que cada contexto evolucione de forma autónoma sin generar acoplamientos innecesarios. Esta representación también apoya la toma de decisiones sobre integraciones, responsabilidades y coordinación entre equipos.
+
+<img src="images/chapter-4/context-mapping.png" alt="Context Mapping" width="600"/>
+
+
+| Destino (Downstream)       | Origen (Upstream)           | Tipo de Relación | ¿OHS? | Comentario                                                              |
+| -------------------------- | --------------------------- | ----------------- | ------ | ----------------------------------------------------------------------- |
+| Analítica y Reportes      | Gestión de Grupos          | Customer/Supplier | No     | Expone info grupal                                                      |
+| Solicitudes y Validaciones | Gestión de Grupos          | Customer/Supplier | Si     | Se nutre de los datos de los integrantres                               |
+| Gestión de Tareas         | Gestión de Grupos          | Customer/Supplier | No     | Obtiene información de los integrantes de grupo                        |
+| Gestión de Tareas         | Solicitudes y Validaciones  | Partnership       | No     | Comparte información entre sí de las tareas                           |
+| Analítica y Reportes      | Gestión de Tareas          | Customer/Supplier | Si     | Se nutre de la información de las tareas para elaborar reportes        |
+| Analítica y Reportes      | Solicitudes y Validaciones  | Customer/Supplier | No     | Otiene la infomración de actualización de cmabios y solicitudes       |
+| Notificaciones             | Grupos, solicitudes, tareas | Partnership       | No     | Emite notificaciones según instrucciones de los demás bounded context |
 
 #### 4.1.3. Software Architecture
 
