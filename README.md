@@ -182,7 +182,85 @@
 
 ## Student Outcome
 
+El curso contribuye al cumplimiento del Student Outcome ABET:
+
+**ABET – EAC - Student Outcome 7**
+
+Criterio: *La capacidad de adquirir y aplicar nuevos conocimientos según sea
+necesario, utilizando estrategias deaprendizaje apropiadas.*
+
+En el siguiente cuadro se describe las accionesrealizadas y enunciados de conclusiones
+por parte del grupo, que permiten sustentar el haber alcanzado el logro del ABET –
+EAC - Student Outcome 7.
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left;">Criterio específico</th>
+      <th style="text-align: left;">Acciones realizadas</th>
+      <th style="text-align: left;">Conclusiones</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1. Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de software.</td>
+      <td>
+        Casas Sanchez Gabriel Alexander-TB1: Desarrollo de secciones clave como Startup Profile, Problem Statement, Business Canvas, Segmentos Objetivos y Solution Profile. Participó activamente en el modelado estratégico mediante Event Storming, desarrollando Candidate Context Discovery, Domain Message Flows Modeling, Bounded Context Canvases y Context Mapping.<br>  Alejo Cardenas Jose Antonio-TB1: Encargado del Análisis Competitivo y la definición de Estrategias y Tácticas frente a Competidores. Elaboró artefactos de investigación y diseño como la User Task Matrix, el As-is Scenario Mapping y Ubiquitous Language. Participó en la proyección del producto con To-Be Scenario Mapping, Impact Mapping, Software Architecture, User Stories y el Diseño de Entrevistas.<br> Astonitas Díaz Juan Diego-TB1: Responsable de la redacción de los Antecedentes y Problemática. Contribuyó con la definición de User Stories, la elaboración y registro de Entrevistas, así como el diseño de la Base de Datos (Database Design).<br> Pasquale Barrenechea Gianluca Santino-TB1: Desarrolló herramientas clave de diseño centradas en el usuario como User Personas, User Journey Mapping y Empathy Mapping. También participó en la definición de User Stories, el armado del Product Backlog y la realización de Entrevistas.<br> Pacheco Astiguetta Sebastian-TB1: Encargado del análisis de Assumptions y la formulación de Hypothesis Statements. Además, colaboró en la definición de User Stories y en la ejecución de Entrevistas.<br>
+      </td>
+      <td>
+        Durante el desarrollo del trabajo final, cada integrante del equipo actualizó y fortaleció sus conocimientos en metodologías ágiles, diseño centrado en el usuario, modelado estratégico y arquitectura de software. A través de la aplicación práctica de herramientas como Lean UX Canvas, Event Storming, Context Mapping y desarrollo de User Stories, logramos conectar la teoría con la ejecución de un proyecto real. Esta experiencia no solo nos permitió comprender mejor los conceptos aprendidos en clase, sino también integrarlos en la solución propuesta, elevando así nuestra preparación profesional y nuestra capacidad de enfrentar retos en el desarrollo de soluciones de software.
+      </td>
+    </tr>
+    <tr>
+      <td>2. Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de software.</td>
+      <td>
+        Casas Sanchez Gabriel Alexander-TB1: Desarrollo de secciones clave como Startup Profile, Problem Statement, Business Canvas, Segmentos Objetivos y Solution Profile. Participó activamente en el modelado estratégico mediante Event Storming, desarrollando Candidate Context Discovery, Domain Message Flows Modeling, Bounded Context Canvases y Context Mapping.<br>  Alejo Cardenas Jose Antonio-TB1: Encargado del Análisis Competitivo y la definición de Estrategias y Tácticas frente a Competidores. Elaboró artefactos de investigación y diseño como la User Task Matrix, el As-is Scenario Mapping y Ubiquitous Language. Participó en la proyección del producto con To-Be Scenario Mapping, Impact Mapping, Software Architecture, User Stories y el Diseño de Entrevistas.<br> Astonitas Díaz Juan Diego-TB1: Responsable de la redacción de los Antecedentes y Problemática. Contribuyó con la definición de User Stories, la elaboración y registro de Entrevistas, así como el diseño de la Base de Datos (Database Design).<br> Pasquale Barrenechea Gianluca Santino-TB1: Desarrolló herramientas clave de diseño centradas en el usuario como User Personas, User Journey Mapping y Empathy Mapping. También participó en la definición de User Stories, el armado del Product Backlog y la realización de Entrevistas.<br> Pacheco Astiguetta Sebastian-TB1: Encargado del análisis de Assumptions y la formulación de Hypothesis Statements. Además, colaboró en la definición de User Stories y en la ejecución de Entrevistas.<br>
+      </td>
+      <td>
+        El trabajo realizado evidenció la importancia del aprendizaje constante en el ámbito profesional. A lo largo del proyecto, nos enfrentamos a desafíos que requerían investigar nuevas herramientas, adoptar enfoques colaborativos y profundizar en técnicas no vistas previamente. Este proceso nos mostró que el conocimiento adquirido no es estático, sino que debe complementarse con una actitud activa hacia la mejora continua. Reconocemos que en un entorno tecnológico en constante evolución, solo mediante el aprendizaje permanente se puede ofrecer soluciones de calidad, adaptarse a las necesidades del usuario y desenvolverse de manera efectiva en el desarrollo profesional y de proyectos.
+      </td>
+    </tr>
+  </tbody>
+</table>
+
 ## Objetivos SMART
+
+
+*Casas Sánchez Gabriel Alexander*
+Objetivo 1:
+Desarrollar competencias avanzadas en backend mediante la obtención de una certificación oficial en Node.js dentro de los primeros 12 meses posteriores a la graduación, con el fin de calificar para roles como desarrollador fullstack en empresas tecnológicas.
+
+Objetivo 2:
+Colaborar activamente en al menos dos proyectos open source en GitHub dentro del primer año después de egresar, para fortalecer habilidades técnicas, manejo de control de versiones y trabajo en equipo remoto.
+
+*Alejo Cárdenas José Antonio*
+Objetivo 1:
+Finalizar un diplomado especializado en frontend con React y fundamentos de UX/UI dentro de los primeros 10 meses tras culminar la carrera, para postular a posiciones como frontend developer.
+
+Objetivo 2:
+Diseñar y lanzar un portafolio web personal con mínimo tres proyectos reales antes de los primeros seis meses de egresado, que evidencie mis conocimientos en interfaces modernas, accesibilidad y diseño adaptable.
+
+*Astonitas Díaz Juan Diego*
+Objetivo 1:
+Aplicar a programas de prácticas preprofesionales o puestos junior como backend developer en empresas de tecnología dentro de los seis meses posteriores a mi egreso, aprovechando mis conocimientos en bases de datos y APIs.
+
+Objetivo 2:
+Crear un proyecto personal funcional basado en microservicios usando Spring Boot y Docker dentro de los primeros ocho meses después de egresar, que pueda integrar a mi portafolio como evidencia de competencias técnicas.
+
+*Pasquale Barrenechea Gianluca Santino*
+Objetivo 1:
+Participar en un bootcamp intensivo de desarrollo fullstack MERN en los primeros seis meses luego de la graduación, con el objetivo de dominar tanto el frontend como el backend en JavaScript.
+
+Objetivo 2:
+Publicar dos artículos técnicos en plataformas como Medium o Dev.to en el primer año tras egresar, compartiendo aprendizajes sobre desarrollo de software y buenas prácticas en proyectos web.
+
+*Pacheco Astiguetta Sebastián*
+Objetivo 1:
+Postular a programas de talento junior o trainee en desarrollo fullstack dentro de los primeros siete meses tras finalizar la carrera, con enfoque en empresas tecnológicas emergentes.
+
+Objetivo 2:
+Finalizar un curso especializado en testing automatizado con Jest o Cypress antes de cumplir un año de egresado, con el fin de asegurar la calidad del software en proyectos reales.
+
 
 ## Capitulo I
 
@@ -692,5 +770,7 @@ Características clave:
 ## Conclusiones
 
 ## Bibliografía
+
+- Khan, M. (2024, 4 septiembre). *State of Teams Report 2021 - Work Life by Atlassian*. Work Life By Atlassian. [https://www.atlassian.com/blog/state-of-teams](https://www.atlassian.com/blog/state-of-teams)
 
 ## Anexos
