@@ -40,9 +40,64 @@
       <th>Descripción de modificación</th>
     </tr>
   </thead>
+  <tbody>
+    <tr>
+      <td>0.1</td>
+      <td>2025-04-02</td>
+      <td>Casas Sanchez Gabriel Alexander, Astonitas Díaz Juan Diego y Pacheco Astiguetta Sebastian</td>
+      <td>Desarrollo de los ítems: 1.1. Startup Profile, que incluye los subítems 1.1.1. Descripción de la Startup y 1.1.2. Perfiles de integrantes del equipo. Luego se presenta el 1.2. Solution Profile, que contiene los apartados 1.2.1. Antecedentes y problemática y 1.2.2. Lean UX Process, el cual se desglosa en 1.2.2.1. Lean UX Problem Statements, 1.2.2.2, 1.2.2.3 y 1.2.2.4. Finalmente, se desarrolla la sección 1.3. Lean UX Assumptions, que incluye los ítems Lean UX Hypothesis Statements, Lean UX Canvas y Segmentos objetivo.</td>
+    </tr>
+    <tr>
+      <td>0.2</td>
+      <td>2025-04-07</td>
+      <td>Pasquale Barrenechea Gianluca Santino y Alejo Cardenas Jose Antonio</td>
+      <td>Desarrollo de los ítems: La sección 2 del informe está compuesta por varios apartados clave, comenzando con el 2.1. Competidores, que abarca los subítems 2.1.1. Análisis competitivo y 2.1.2. Estrategias y tácticas frente a competidores. Luego se desarrolla el 2.2. Entrevistas, que incluye 2.2.1. Diseño de entrevistas, 2.2.2. Registro de entrevistas y 2.2.3. Análisis de entrevistas. A continuación, se presenta el 2.3. Needfinding, compuesto por 2.3.1. User Personas, 2.3.2. User Task Matrix, 2.3.3. User Journey Mapping, 2.3.4. Empathy Mapping y 2.3.5. As-is Scenario Mapping. Finalmente, se cierra esta parte del informe con el apartado 2.4. Ubiquitous Language.</td>
+    </tr>
+    <tr>
+      <td>0.3</td>
+      <td>2025-04-18</td>
+      <td>Alejo Cardenas Jose Antonio, Astonitas Díaz Juan Diego</td>
+      <td>Desarrollo de los ítems: 3.1. To-Be Scenario Mapping, 3.2. Avance de las User Stories, 3.3. Impact Mapping y 3.4. Avance del Product Backlog.</td>
+    </tr>
+    <tr>
+      <td>0.4</td>
+      <td>2025-04-21</td>
+      <td>Casas Sanchez Gabriel Alexander, Alejo Cardenas Jose Antonio, Astonitas Díaz Juan Diego, Pasquale Barrenechea Gianluca Santino y Pacheco Astiguetta Sebastian</td>
+      <td>Desarrollo de los ítems: 3.2. Finalizacion de las User Stories, 3.4. Finalizacion del Product Backlog, 4.1. Strategic-Level Domain-Driven Design y comprende los siguientes subítems: 4.1.1. EventStorming, que a su vez incluye 4.1.1.1. Candidate Context Discovery, 4.1.1.2, 4.1.1.3. Domain Message Flows Modeling y Bounded Context Canvases. También se desarrolla el apartado 4.1.2. Context Mapping y 4.1.3. Software Architecture, que contiene 4.1.3.1. Software Architecture Context Level Diagrams, 4.1.3.2. Software Architecture Container Level Diagrams y 4.1.3.3 Software Architecture Deployment Diagrams.  </td>
+    </tr>
+    <tr>
+      <td>1.0</td>
+      <td>2025-04-22</td>
+      <td>Casas Sanchez Gabriel Alexander, Astonitas Díaz Juan Diego y Alejo Cardenas Jose Antonio</td>
+      <td>Revisión completa hasta el capitulo 4, corrección ortográfica y coherencia global del reporte.</td>
+    </tr>
+  </tbody>
 </table>
 
 ## Project Report Collaboration Insights
+
+El enlace a github del reporte del proyecto es el siguiente: [https://github.com/NRG-4/report](https://github.com/NRG-4/report).
+
+Entrega TB1 (23/04/2025):
+
+<img src="images/insights/report-insights-1-1.png" alt="Insights Report Collaboration Insights 1" />
+<img src="images/insights/report-insights-1-2.png" alt="Insights Report Collaboration Insights 2" />
+<img src="images/insights/report-insights-1-3.png" alt="Insights Report Collaboration Insights 3" />
+<img src="images/insights/report-insights-1-4.png" alt="Insights Report Collaboration Insights 4" />
+<img src="images/insights/report-insights-1-5.png" alt="Insights Report Collaboration Insights 5" />
+<img src="images/insights/report-insights-1-6.png" alt="Insights Report Collaboration Insights 6" />
+<img src="images/insights/report-insights-1-7.png" alt="Insights Report Collaboration Insights 7" />
+
+
+Para esta primera entrega se desarollaron los cpaítulos del 1 al 4, en la captura adjuntada se evidencia del trabajo colaborativo de github. Todos los integrantes del grupo trabajaron en el proyecto.
+
+Recapitulando los commits se dividieron de la siguiente manera:
+
+* Alejo Cardenas Jose Antonio (Firtness): 30 commits
+* Astonitas Díaz Juan Diego (NeoRise456): 13 commits
+* Casas Sanchez Gabriel Alexander (Al3xiel): 31 commits
+* Pacheco Astiguetta Sebastian (Pachieeee): 11 commits
+* Pasquale Barrenechea Gianluca Santino (cwassointt): 10 commits
 
 ## Contenido
 
