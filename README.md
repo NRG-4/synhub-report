@@ -455,6 +455,210 @@ En esta sección del informe se realizará el diseño, registro y análisis de l
 
 #### 2.2.2. Registro de entrevistas
 
+En esta sección registramos los puntos e ideas más importantes de las entrevistas realizadas a los coordinadores y miembros de grupo. Los detalles completos de las entrevistas, incluyendo las grabaciones, se encuentran disponibles en el siguiente enlace: [Needfinsing Interviews NRG4](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202110237_upc_edu_pe/EVU0t5OwgeJCvWwCDOpMJoEBHecwn4GeX7zRlS2j9zSbzw?e=d9LT27)
+
+A continuación se presentan los detalles clave de las entrevistas realizadas a los coordinadores de grupo:
+
+<table cellpadding="8" cellspacing="0">
+  <tbody>
+    <tr>
+      <td>Entrevista 1</td>
+      <td> <img src="./images/chapter-2/interview1.png" alt="interview 1" width="400"/> </td>
+    </tr>
+    <tr>
+      <td>Nombre Entrevistado</td>
+      <td>Luis Alejo Cardenas</td>
+    </tr>
+    <tr>
+      <td>Edad</td>
+      <td>25</td>
+    </tr>
+    <tr>
+      <td>Distrito</td>
+      <td>San Martin de Porres</td>
+    </tr>
+    <tr>
+      <td>Ocupacion</td>
+      <td>Project Manager</td>
+    </tr>
+    <tr>
+      <td>Duración Entrevista</td>
+      <td>03:15 </td>
+    </tr>
+    <tr>
+      <td>Minuto de Inicio</td>
+      <td>00:00 - 03:15</td>
+    </tr>
+  </tbody>
+</table>
+
+<table cellpadding="8" cellspacing="0">
+  <tbody>
+    <tr>
+      <td>Entrevista 2</td>
+      <td> <img src="./images/chapter-2/interview2.png" alt="interview 2" width="400"/> </td>
+    </tr>
+    <tr>
+      <td>Nombre Entrevistado</td>
+      <td>Sebastian Real</td>
+    </tr>
+    <tr>
+      <td>Edad</td>
+      <td>20</td>
+    </tr>
+    <tr>
+      <td>Distrito</td>
+      <td>la Perla</td>
+    </tr>
+    <tr>
+      <td>Ocupacion</td>
+      <td>Estudiante</td>
+    </tr>
+    <tr>
+      <td>Duración Entrevista</td>
+      <td> 02:09 </td>
+    </tr>
+    <tr>
+      <td>Minuto de Inicio</td>
+      <td>03:16 - 05:23</td>
+    </tr>
+  </tbody>
+</table>
+
+<table cellpadding="8" cellspacing="0">
+  <tbody>
+    <tr>
+      <td>Entrevista 3</td>
+      <td> <img src="./images/chapter-2/interview3.png" alt="interview 3" width="400"/> </td>
+    </tr>
+    <tr>
+      <td>Nombre Entrevistado</td>
+      <td>Aldo Alexander Vazques Sotomayor</td>
+    </tr>
+    <tr>
+      <td>Edad</td>
+      <td>21</td>
+    </tr>
+    <tr>
+      <td>Distrito</td>
+      <td>Breña</td>
+    </tr>
+    <tr>
+      <td>Ocupacion</td>
+      <td>Estudiante</td>
+    </tr>
+    <tr>
+      <td>Duración Entrevista</td>
+      <td>02:37 </td>
+    </tr>
+    <tr>
+      <td>Minuto de Inicio</td>
+      <td>05:24 - 7:58</td>
+    </tr>
+  </tbody>
+</table>
+
+A continuación se presentan los detalles clave de las entrevistas realizadas a los miembros de grupo:
+
+<table cellpadding="8" cellspacing="0">
+  <tbody>
+    <tr>
+      <td>Entrevista 4</td>
+      <td> <img src="./images/chapter-2/interview4.png" alt="interview 4" width="400"/> </td>
+    </tr>
+    <tr>
+      <td>Nombre Entrevistado</td>
+      <td>Elvia Marcela Rodríguez Villa</td>
+    </tr>
+    <tr>
+      <td>Edad</td>
+      <td>23</td>
+    </tr>
+    <tr>
+      <td>Distrito</td>
+      <td>Comas</td>
+    </tr>
+    <tr>
+      <td>Ocupacion</td>
+      <td>Practicante Machine Learning</td>
+    </tr>
+    <tr>
+      <td>Duración Entrevista</td>
+      <td>04:22 </td>
+    </tr>
+    <tr>
+      <td>Minuto de Inicio</td>
+      <td>07:59 - 12:20</td>
+    </tr>
+  </tbody>
+</table>
+
+<table cellpadding="8" cellspacing="0">
+  <tbody>
+    <tr>
+      <td>Entrevista 5</td>
+      <td> <img src="./images/chapter-2/interview5.png" alt="interview 5" width="400"/> </td>
+    </tr>
+    <tr>
+      <td>Nombre Entrevistado</td>
+      <td>David Rivas</td>
+    </tr>
+    <tr>
+      <td>Edad</td>
+      <td>21</td>
+    </tr>
+    <tr>
+      <td>Distrito</td>
+      <td>Jesus Maria</td>
+    </tr>
+    <tr>
+      <td>Ocupacion</td>
+      <td>Estudiante</td>
+    </tr>
+    <tr>
+      <td>Duración Entrevista</td>
+      <td>06:01 </td>
+    </tr>
+    <tr>
+      <td>Minuto de Inicio</td>
+      <td>12:20 - 18:21</td>
+    </tr>
+  </tbody>
+</table>
+
+<table cellpadding="8" cellspacing="0">
+  <tbody>
+    <tr>
+      <td>Entrevista 6</td>
+      <td> <img src="./images/chapter-2/interview6.png" alt="interview 6" width="400"/> </td>
+    </tr>
+    <tr>
+      <td>Nombre Entrevistado</td>
+      <td>Camila Palacios</td>
+    </tr>
+    <tr>
+      <td>Edad</td>
+      <td>22</td>
+    </tr>
+    <tr>
+      <td>Distrito</td>
+      <td>Pueblo Libre</td>
+    </tr>
+    <tr>
+      <td>Ocupacion</td>
+      <td>Practicante de Psicologia</td>
+    </tr>
+    <tr>
+      <td>Duración Entrevista</td>
+      <td>06:41 </td>
+    </tr>
+    <tr>
+      <td>Minuto de Inicio</td>
+      <td>18:21 - 25:01</td>
+    </tr>
+  </tbody>
+</table>
+
 #### 2.2.3. Análisis de entrevistas
 
 **Segmento Objetivo 1: Coordinadores o Líderes de Grupo**
