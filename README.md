@@ -147,16 +147,94 @@
 
 ## Student Outcome
 
+El curso contribuye al cumplimiento del Student Outcome ABET:
+
+**ABET – EAC - Student Outcome 7**
+
+Criterio: *La capacidad de adquirir y aplicar nuevos conocimientos según sea
+necesario, utilizando estrategias deaprendizaje apropiadas.*
+
+En el siguiente cuadro se describe las accionesrealizadas y enunciados de conclusiones
+por parte del grupo, que permiten sustentar el haber alcanzado el logro del ABET –
+EAC - Student Outcome 7.
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left;">Criterio específico</th>
+      <th style="text-align: left;">Acciones realizadas</th>
+      <th style="text-align: left;">Conclusiones</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1. Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de software.</td>
+      <td>
+        Casas Sanchez Gabriel Alexander-TB1: Desarrollo de secciones clave como Startup Profile, Problem Statement, Business Canvas, Segmentos Objetivos y Solution Profile. Participó activamente en el modelado estratégico mediante Event Storming, desarrollando Candidate Context Discovery, Domain Message Flows Modeling, Bounded Context Canvases y Context Mapping.<br>  Alejo Cardenas Jose Antonio-TB1: Encargado del Análisis Competitivo y la definición de Estrategias y Tácticas frente a Competidores. Elaboró artefactos de investigación y diseño como la User Task Matrix, el As-is Scenario Mapping y Ubiquitous Language. Participó en la proyección del producto con To-Be Scenario Mapping, Impact Mapping, Software Architecture, User Stories y el Diseño de Entrevistas.<br> Astonitas Díaz Juan Diego-TB1: Responsable de la redacción de los Antecedentes y Problemática. Contribuyó con la definición de User Stories, la elaboración y registro de Entrevistas, así como el diseño de la Base de Datos (Database Design).<br> Pasquale Barrenechea Gianluca Santino-TB1: Desarrolló herramientas clave de diseño centradas en el usuario como User Personas, User Journey Mapping y Empathy Mapping. También participó en la definición de User Stories, el armado del Product Backlog y la realización de Entrevistas.<br> Pacheco Astiguetta Sebastian-TB1: Encargado del análisis de Assumptions y la formulación de Hypothesis Statements. Además, colaboró en la definición de User Stories y en la ejecución de Entrevistas.<br>
+      </td>
+      <td>
+        Durante el desarrollo del trabajo final, cada integrante del equipo actualizó y fortaleció sus conocimientos en metodologías ágiles, diseño centrado en el usuario, modelado estratégico y arquitectura de software. A través de la aplicación práctica de herramientas como Lean UX Canvas, Event Storming, Context Mapping y desarrollo de User Stories, logramos conectar la teoría con la ejecución de un proyecto real. Esta experiencia no solo nos permitió comprender mejor los conceptos aprendidos en clase, sino también integrarlos en la solución propuesta, elevando así nuestra preparación profesional y nuestra capacidad de enfrentar retos en el desarrollo de soluciones de software.
+      </td>
+    </tr>
+    <tr>
+      <td>2. Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de software.</td>
+      <td>
+        Casas Sanchez Gabriel Alexander-TB1: Desarrollo de secciones clave como Startup Profile, Problem Statement, Business Canvas, Segmentos Objetivos y Solution Profile. Participó activamente en el modelado estratégico mediante Event Storming, desarrollando Candidate Context Discovery, Domain Message Flows Modeling, Bounded Context Canvases y Context Mapping.<br>  Alejo Cardenas Jose Antonio-TB1: Encargado del Análisis Competitivo y la definición de Estrategias y Tácticas frente a Competidores. Elaboró artefactos de investigación y diseño como la User Task Matrix, el As-is Scenario Mapping y Ubiquitous Language. Participó en la proyección del producto con To-Be Scenario Mapping, Impact Mapping, Software Architecture, User Stories y el Diseño de Entrevistas.<br> Astonitas Díaz Juan Diego-TB1: Responsable de la redacción de los Antecedentes y Problemática. Contribuyó con la definición de User Stories, la elaboración y registro de Entrevistas, así como el diseño de la Base de Datos (Database Design).<br> Pasquale Barrenechea Gianluca Santino-TB1: Desarrolló herramientas clave de diseño centradas en el usuario como User Personas, User Journey Mapping y Empathy Mapping. También participó en la definición de User Stories, el armado del Product Backlog y la realización de Entrevistas.<br> Pacheco Astiguetta Sebastian-TB1: Encargado del análisis de Assumptions y la formulación de Hypothesis Statements. Además, colaboró en la definición de User Stories y en la ejecución de Entrevistas.<br>
+      </td>
+      <td>
+        El trabajo realizado evidenció la importancia del aprendizaje constante en el ámbito profesional. A lo largo del proyecto, nos enfrentamos a desafíos que requerían investigar nuevas herramientas, adoptar enfoques colaborativos y profundizar en técnicas no vistas previamente. Este proceso nos mostró que el conocimiento adquirido no es estático, sino que debe complementarse con una actitud activa hacia la mejora continua. Reconocemos que en un entorno tecnológico en constante evolución, solo mediante el aprendizaje permanente se puede ofrecer soluciones de calidad, adaptarse a las necesidades del usuario y desenvolverse de manera efectiva en el desarrollo profesional y de proyectos.
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 ## Objetivos SMART
 
+**Casas Sánchez Gabriel Alexander**
+
+Objetivo 1:
+Desarrollar competencias avanzadas en backend mediante la obtención de una certificación oficial en Node.js dentro de los primeros 12 meses posteriores a la graduación, con el fin de calificar para roles como desarrollador fullstack en empresas tecnológicas.
+
+Objetivo 2:
+Colaborar activamente en al menos dos proyectos open source en GitHub dentro del primer año después de egresar, para fortalecer habilidades técnicas, manejo de control de versiones y trabajo en equipo remoto.
+
+**Alejo Cárdenas José Antonio**
+
+Objetivo 1:
+Finalizar un diplomado especializado en frontend con React y fundamentos de UX/UI dentro de los primeros 10 meses tras culminar la carrera, para postular a posiciones como frontend developer.
+
+Objetivo 2:
+Diseñar y lanzar un portafolio web personal con mínimo tres proyectos reales antes de los primeros seis meses de egresado, que evidencie mis conocimientos en interfaces modernas, accesibilidad y diseño adaptable.
+
+**Astonitas Díaz Juan Diego**
+
+Objetivo 1:
+Aplicar a programas de prácticas preprofesionales o puestos junior como backend developer en empresas de tecnología dentro de los seis meses posteriores a mi egreso, aprovechando mis conocimientos en bases de datos y APIs.
+
+Objetivo 2:
+Crear un proyecto personal funcional basado en microservicios usando Spring Boot y Docker dentro de los primeros ocho meses después de egresar, que pueda integrar a mi portafolio como evidencia de competencias técnicas.
+
+**Pasquale Barrenechea Gianluca Santino**
+
+Objetivo 1:
+Participar en un bootcamp intensivo de desarrollo fullstack MERN en los primeros seis meses luego de la graduación, con el objetivo de dominar tanto el frontend como el backend en JavaScript.
+
+Objetivo 2:
+Publicar dos artículos técnicos en plataformas como Medium o Dev.to en el primer año tras egresar, compartiendo aprendizajes sobre desarrollo de software y buenas prácticas en proyectos web.
+
+**Pacheco Astiguetta Sebastián**
+
+Objetivo 1:
+Postular a programas de talento junior o trainee en desarrollo fullstack dentro de los primeros siete meses tras finalizar la carrera, con enfoque en empresas tecnológicas emergentes.
+
+Objetivo 2:
+Finalizar un curso especializado en testing automatizado con Jest o Cypress antes de cumplir un año de egresado, con el fin de asegurar la calidad del software en proyectos reales.
 
 ## Capitulo I
 
 ### 1.1. Startup Profile
 
 #### 1.1.1. Descripción de la Startup
-
 Nuestra empresa NRG4 nace con la visión de ofrecer soluciones digitales que mejoren la organización y la colaboración en los entornos donde convivimos y trabajamos. En esta ocasión, presentamos SynHub, una plataforma pensada para resolver uno de los retos más comunes y menos atendidos en grupos modernos: la coordinación eficiente de tareas, horarios y responsabilidades compartidas.
 
 Entendemos que en un mundo donde el tiempo es limitado y las actividades se superponen constantemente, contar con herramientas que faciliten la gestión grupal es indispensable. Ya sea en el hogar, en equipos de trabajo, grupos de estudio, organizaciones comunitarias o cualquier espacio colaborativo, SynHome permite mantener el orden, promover la participación equitativa y fortalecer la comunicación entre los miembros del grupo. Desde NRG4 buscamos justamente eso: transformar la forma en que las personas se organizan en conjunto.
@@ -498,41 +576,1885 @@ Características clave:
 
 ### 2.1. Competidores
 
-#### 2.1.1. Análisis competitivo
+En esta sección, se presenta un análisis de los principales competidores de nuestra startup, centrado en aquellos que operan con modelos de negocio digitales similares o que, aunque no sean idénticos, ofrecen productos o servicios que se superponen parcialmente con los de SynHome. Evaluamos tanto competidores directos, que se encuentran en el mismo segmento de mercado, como competidores indirectos, que abordan áreas relacionadas como el uso de calendarios, horarios, sistemas de recompensas,etc .
+
+**1. Asana**
+
+<img src="./images/chapter-2/asana.jpg" alt="Asana" width="200"/>
+
+**Descripción:**
+
+Asana es una herramienta de gestión de proyectos que permite a los equipos organizar tareas, asignar responsabilidades y seguir el progreso de los proyectos.**Ofrece múltiples vistas, como listas, tableros Kanban y calendarios, facilitando la personalización según las necesidades del equipo.
+
+**Características principales:**
+
+* **Proyectos y tareas** organizados en listas, tableros Kanban, calendarios y cronogramas.
+* **Subtareas y dependencias** para definir pasos y secuencias de trabajo.
+* **Colaboración**: asignación de tareas, comentarios, archivos adjuntos.
+* **Notificaciones y recordatorios** por correo y en app.
+* **Informes y seguimiento** de progreso (gráficas, porcentaje completado).
+* **Integraciones** con Slack, Google Drive, Microsoft Teams, etc.
+* **App móvil** intuitiva, con acceso a tareas, calendario y colaboración.
+
+---
+
+**2. FamilyWall**
+
+<img src="./images/chapter-2/FamilyWall.png" alt="FamilyWall" width="200"/>
+
+**Descripción:**
+
+FamilyWall es una plataforma familiar digital que integra varias funciones en un solo espacio. Su diseño visual y amigable la hace ideal para familias con hijos de diferentes edades.
+
+**Principales características:**
+
+* **Calendario familiar compartido** y sincronización con Google/Outlook.
+* **Ubicación en tiempo real** (ideal para saber dónde están los hijos).
+* **Listas de tareas y compras** colaborativas.
+* **Mensajería privada o grupal**.
+* **Galería multimedia compartida** (fotos y videos familiares).
+
+---
+
+**3. ClickUp**
+
+<img src="./images/chapter-2/clickup.jpg" alt="ClickUp" width="200"/>
+
+**Descripción:**
+
+ClickUp es una plataforma todo-en-uno que ofrece funciones de gestión de tareas, documentos, objetivos y más.**Es conocida por su alta personalización y adaptabilidad a diferentes flujos de trabajo.
+
+**Características principales:**
+
+* **Jerarquía flexible**: espacios, carpetas, listas, tareas y subtareas.
+* **Vistas múltiples**: lista, tablero, calendario, Gantt, cronología, workload.
+* **Seguimiento de tiempo** incluido (sin integraciones externas).
+* **Docs internos**, notas y wikis colaborativos.
+* **Gestión de metas y OKRs** (objectives and key results).
+* **Automatizaciones personalizadas**.
+* **Comentarios con menciones**, edición colaborativa.
+* **Plantillas reutilizables** para tareas o proyectos.
+* **App móvil** potente, aunque puede ser compleja para usuarios nuevos.
+
+---
+
+**4. Monday.com**
+
+<img src="./images/chapter-2/monday.com.jpg" alt="monday.com" width="200"/>
+
+**Descripción:**
+
+Monday.com proporciona una interfaz visual para planificar, rastrear y colaborar en proyectos.**Ofrece integraciones con diversas herramientas y es apreciada por su facilidad de uso y escalabilidad.
+
+**Características principales:**
+
+* **Tablas visuales** personalizables para tareas, flujos, y procesos.
+* **Elementos configurables**: estado, fecha, texto, números, personas, etiquetas.
+* **Automatizaciones fáciles** (si sucede X, entonces haz Y).
+* **Vistas de calendario, cronograma, Kanban y workload**.
+* **Colaboración por columnas** con comentarios y archivos.
+* **Integraciones** con Gmail, Outlook, Zoom, Google Drive, etc.
+* **Búsqueda y filtros** potentes.
+* **App móvil** clara, amigable y funcional.
+
+#### 2.1.1. Análisis competitivo<table>
+
+<table> 
+  <tr>
+    <th colspan="6"> Competitive Analysis Landscape </th>
+  </tr>
+  <tr>
+    <td colspan="2" rowspan="2">¿Por qué llevar acabo este análisis? </td>
+    <td colspan="4"> Pregunta </td>
+  </tr>
+  <tr>
+    <td colspan="4"> Deberiamos llevar a cabo este analisis para conocer el entorno, la competencia, tomar decisiones de desarrollo  y construir nuestra propuesta de valor.  </td>
+  </tr>
+  <tr>
+    <td colspan="2"> Productos </td>
+    <td style="text-align: center;">  <div>SynHub</div>  <img src="./images/chapter-2/synhub.png" alt="SynHub" width="200"/> </td>
+    <td style="text-align: center;"> <div>Asana</div>  <img src="./images/chapter-2/asana.jpg" alt="Asana" width="200"/> </td>
+    <td style="text-align: center;"> <div>FamilyWall</div>  <img src="./images/chapter-2/FamilyWall.png" alt="Picniic" width="200"/> </td>
+    <td style="text-align: center;"> <div>ClickUp</div>  <img src="./images/chapter-2/clickup.jpg" alt="clickup" width="200"/> </td>
+  </tr>
+  <tr>
+    <td rowspan="2">Perfil</td>
+    <td>Overview</td>
+    <td> SynHub es una plataforma digital colaborativa diseñada para facilitar la organización y gestión de actividades de grupos o equipos de trabajo de cualquier tipo: laborales, académicos, sociales. </td>
+    <td> Plataforma de gestión de proyectos y tareas diseñada para ayudar a los equipos a organizar, rastrear y gestionar su trabajo. Ofrece diversas vistas como listas, tableros Kanban y calendarios para facilitar la planificación y el seguimiento de proyectos.</td>
+    <td> FamilyWall plataforma de gestión familiar diseñada para ayudar a las familias a organizar su vida diaria. Ofrece funciones para coordinar calendarios, tareas, mensajes, fotos y más. </td>
+    <td> ClickUp es una plataforma todo-en-uno que ofrece herramientas para la gestión de tareas, documentos, objetivos y más, con un alto grado de personalización para adaptarse a diferentes flujos de trabajo. </td>
+  </tr>
+  <tr>
+    <td>Ventaja competitiva ¿Qué valor ofrece a los clientes? </td>
+    <td> Potencia la corresponsabilidad con funciones como seguimiento de cumplimiento, historial de tareas y visualización de carga de trabajo. </td>
+    <td> Asana destaca por su interfaz intuitiva y facilidad de uso, permitiendo a los equipos adaptarse rápidamente a la plataforma. Su capacidad para integrarse con numerosas herramientas de terceros amplía su funcionalidad y la hace versátil para diferentes tipos de equipos. </td>
+    <td> Ayuda a mejorar la comunicación familiar mediante el chat y las actualizaciones compartidas. </td>
+    <td> Su capacidad de personalización y la amplia variedad de funciones integradas en una sola plataforma la hacen atractiva para equipos que buscan consolidar múltiples herramientas en una. </td>
+  </tr>
+  <tr>
+    <td rowspan="2">Perfil de Marketing</td>
+    <td> Mercado Objetivo </td>
+    <td> Grupos académicos o universitarios (estudiantes, equipos de proyecto, docentes), familias que buscan distribuir y asignar tareas del hogar y equipos que buscan una herramienta flexible, económica y con curva de aprendizaje baja. </td>
+    <td> Empresas de todos los tamaños que buscan una solución eficiente para la gestión de proyectos y tareas, desde startups hasta grandes corporaciones. </td>
+    <td> Familias que buscan una plataforma unificada para coordinar actividades y compartir momentos. </td>
+    <td> Equipos y empresas de diversos tamaños que buscan una solución integral para la gestión de proyectos y tareas, especialmente aquellos que requieren alta personalización. </td>
+  </tr>
+  <tr>
+    <td> Estrategias de Marketing </td>
+    <td> Pruebas gratuitas y versiones premium: Ofrecer una versión gratuita básica y luego incentivar la migración a la versión premium con funciones avanzadas. </td>
+    <td> Asana utiliza contenido educativo, como guías y webinars, para atraer y educar a su audiencia. Además, ofrece una versión gratuita con funcionalidades básicas para captar usuarios que luego pueden optar por planes premium. </td>
+    <td> Ofrecen pruebas gratuitas para fomentar la adopción. </td>
+    <td> ClickUp se centra en destacar su versatilidad y capacidad todo-en-uno. Utiliza contenido educativo, testimonios de clientes y comparativas con otras herramientas para demostrar su valor. </td>
+  </tr>
+<td rowspan="3">Perfil de Producto</td>
+    <td> Productos & Servicios </td>
+    <td> Gestión de tareas familiares(responsabilidades a cada miembro del hogar), horario y calendario compartido (visible para todos los miembros), sistema de recompensas (motivación para los miembros más jóvenes de la familia). </td>
+    <td> Gestión de tareas y proyectos, Vistas personalizadas: lista, tablero, calendario, Integraciones con herramientas como Slack, Google Drive y Microsoft Teams, Informes y seguimiento del progreso. </td>
+    <td> Calendario compartido, listas de compras y tareas, mensajería privada, compartición de fotosy planificación de eventos familiares. </td>
+    <td> Gestión de tareas y proyectos con múltiples vistas, Documentos y wikis colaborativos, Seguimiento del tiempo integrado y Automatizaciones personalizadas. </td>
+  </tr>
+  <tr>
+    <td> Precios & Costos</td>
+    <td> Plan Gratuito y Plan Premium – $6.99/usuario/mes </td>
+    <td> Gratis: Funciones básicas para equipos pequeños y Premium: Mensual $13.49 y Anual $10.99 c/m . </td>
+    <td> Premium por $4.99/mes o $29.99/año con características avanzadas. </td>
+    <td> Gratis: Funciones básicas para equipos pequeños y Unlimited: Mensual $9 y Anual $10.99 c/m . </td>
+  </tr>
+  <tr>
+    <td> Canales de distribución </td>
+    <td> App móvil (Android / iOS) </td>
+    <td> Disponible en plataforma web y aplicaciones móviles para iOS y Android. </td>
+    <td> App Store y Google Play Store. </td>
+    <td> Disponible en plataforma web y aplicaciones móviles para iOS y Android. </td>
+  </tr>
+<td rowspan="5">Análisis SWOT</td>
+<tr>
+    <td> Fortalezas </td>
+    <td> Versatilidad para distintos tipos de equipos y contextos. </td>
+    <td> Interfaz intuitiva y fácil de usar. </td>
+    <td> Funciones completas para gestionar la familia en un solo lugar. </td>
+    <td> Alta personalización y flexibilidad en flujos de trabajo. </td>
+  </tr>
+<tr>
+    <td> Debilidades</td>
+    <td> Marca nueva: carece de reconocimiento y reputación. </td>
+    <td> Limitaciones en la personalización de flujos de trabajo complejos. </td>
+    <td> La versión gratuita tiene restricciones significativas. </td>
+    <td> Curva de aprendizaje pronunciada debido a la cantidad de funciones. </td>
+  </tr>
+<tr>
+    <td> Oportunidades</td>
+    <td> Penetrar en mercados que no están siendo bien servidos por soluciones complejas. </td>
+    <td> Expansión en mercados internacionales emergentes. </td>
+    <td> Expansión en la gestión de actividades educativas. </td>
+    <td> Expansión en sectores específicos que requieren soluciones personalizadas. </td>
+  </tr>
+<tr>
+    <td> Amenazas</td>
+    <td> Grandes plataformas podrían lanzar versiones más económicas para captar a este nicho. </td>
+    <td> Competencia creciente en el sector de herramientas de gestión de proyectos. </td>
+    <td> La falta de integraciones con otras plataformas populares como Google Calendar. </td>
+    <td> Competencia con herramientas especializadas que pueden ofrecer soluciones más simples. </td>
+  </tr>
+</table>
 
 #### 2.1.2. Estrategias y tácticas frente a competidores
 
+**1. Estrategia de Diferenciación por Simplicidad y Usabilidad**
+
+**Objetivo:** Posicionar a SynHub como la opción más intuitiva, fácil de usar y accesible para todo tipo de grupos (no solo empresas).
+
+**Tácticas:**
+
+* Diseñar una **interfaz limpia y visual**, con navegación amigable incluso para usuarios sin experiencia en apps de gestión.
+* Implementar un **proceso de onboarding rápido** (menos de 2 minutos para crear un grupo y asignar tareas).
+* Ofrecer **tutoriales interactivos**, ayuda contextual y videos cortos integrados en la app.
+* En comparación con Asana y ClickUp, enfatizar: *“No necesitas ser experto para organizarte bien”*.
+
+**2. Estrategia de Enfoque en Nichos Desatendidos**
+
+**Objetivo:** Atacar segmentos específicos como equipos académicos, voluntarios, universitarios, comunidades o grupos familiares avanzados.
+
+**Tácticas:**
+
+* Crear plantillas y funciones específicas para grupos no empresariales (ej: calendario de clases, tareas compartidas, roles para miembros del hogar, etc.).
+* FamilyWall cubre familias, pero SynHub puede expandirse hacia **"equipos híbridos": familia + trabajo + estudio**.
+
+**3. Estrategia de Humanización y Cercanía de Marca**
+
+**Objetivo:** Ganarse la confianza de usuarios por medio de comunicación cercana, soporte cálido y experiencia de usuario emocionalmente positiva.
+
+**Tácticas:**
+
+* Ofrecer un **soporte al cliente rápido y empático**, especialmente en etapas iniciales.
+* Utilizar un **lenguaje humano y accesible** en toda la plataforma (evitar tecnicismos).
+* A diferencia de Asana y ClickUp, donde la marca es más corporativa, **SynHub puede mostrarse como una plataforma "hecha por y para personas reales"**.
+
+**4. Estrategia de Precio Accesible y Transparente**
+
+**Objetivo:** Atraer a usuarios que buscan funcionalidades potentes sin pagar precios empresariales.
+
+**Tácticas:**
+
+* Diseñar una estructura de precios clara, con un **plan gratuito funcional** y un **plan premium económico** (más barato que ClickUp o Asana).
+* Ofrecer descuentos especiales para grupos educativos o sin fines de lucro.
+* Incluir funcionalidades importantes sin obligar al usuario a escalar de plan por todo.
+
 ### 2.2. Entrevistas
+
+En esta sección del informe se realizará el diseño, registro y análisis de las entrevistas de nuestros segmentos objetivos.
 
 #### 2.2.1. Diseño de entrevistas
 
+**1. Entrevista para el Coordinador o Líder de Grupo**
+
+* Preguntas principales:
+
+1.¿Podrías contarme un poco sobre ti? (edad, ocupación, lugar de residencia, estado civil)
+
+2.¿A qué tipo de grupo o equipos perteneces o lideras actualmente?
+
+3.¿Cuál es tu rol dentro de ese grupo?
+
+* -Preguntas complementarias:
+
+4.¿Con qué frecuencia se reúnen o interactúan?
+
+5.Cuántas personas conforman el grupo o equipo que lideras?
+
+6.¿Qué herramientas o plataformas digitales utilizas para coordinar al equipo?
+
+7.¿Sueles tener problemas con la puntualidad, comunicación o cumplimiento?
+
+8.¿Qué dispositivos usas más frecuentemente para organizarte (móvil, laptop, tablet)?
+
+9.¿Usas redes sociales, apps colaborativas o agendas digitales?
+
+10.¿Qué valoras más en una herramienta para organizar a tu equipo?
+
+**2. Entrevista para el Miembro del Equipo o Grupo**
+
+* Preguntas principales:
+
+1.¿Podrías contarme un poco sobre ti? (edad, ocupación, lugar de residencia, estado civil)
+
+2.¿A qué tipo de grupo o equipo perteneces actualmente?
+
+3.¿Cuál es tu rol dentro del grupo? (por ejemplo: participante, colaborador, voluntario)
+
+* Preguntas complementarias:
+
+4.¿Qué tipo de tareas realizas habitualmente?
+
+5.¿Qué herramientas o plataformas digitales utilizas para conocer tus actividades en el equipo?
+
+6.¿Cómo te enteras de tus responsabilidades dentro del grupo?
+
+7.¿Qué cosas te molestan o dificultan al trabajar en grupo?
+
+8.¿Qué tipo de apps o plataformas te gustan más? (Ej: fáciles de usar, visuales, rápidas)
+
+9.¿Usas más el celular o la computadora para tus tareas diarias?
+
+10.¿Qué tipo de apps o plataformas te gustan más? (Ej: fáciles de usar, visuales, rápidas)
+
 #### 2.2.2. Registro de entrevistas
 
+En esta sección registramos los puntos e ideas más importantes de las entrevistas realizadas a los coordinadores y miembros de grupo. Los detalles completos de las entrevistas, incluyendo las grabaciones, se encuentran disponibles en el siguiente enlace: [Needfinsing Interviews NRG4](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202110237_upc_edu_pe/EVU0t5OwgeJCvWwCDOpMJoEBHecwn4GeX7zRlS2j9zSbzw?e=d9LT27)
+
+A continuación se presentan los detalles clave de las entrevistas realizadas a los coordinadores de grupo:
+
+<table cellpadding="8" cellspacing="0">
+  <tbody>
+    <tr>
+      <td>Entrevista 1</td>
+      <td> <img src="./images/chapter-2/interview1.png" alt="interview 1" width="400"/> </td>
+    </tr>
+    <tr>
+      <td>Nombre Entrevistado</td>
+      <td>Luis Alejo Cardenas</td>
+    </tr>
+    <tr>
+      <td>Edad</td>
+      <td>25</td>
+    </tr>
+    <tr>
+      <td>Distrito</td>
+      <td>San Martin de Porres</td>
+    </tr>
+    <tr>
+      <td>Ocupacion</td>
+      <td>Project Manager</td>
+    </tr>
+    <tr>
+      <td>Duración Entrevista</td>
+      <td>03:15 </td>
+    </tr>
+    <tr>
+      <td>Minuto de Inicio</td>
+      <td>00:00 - 03:15</td>
+    </tr>
+  </tbody>
+</table>
+
+<table cellpadding="8" cellspacing="0">
+  <tbody>
+    <tr>
+      <td>Entrevista 2</td>
+      <td> <img src="./images/chapter-2/interview2.png" alt="interview 2" width="400"/> </td>
+    </tr>
+    <tr>
+      <td>Nombre Entrevistado</td>
+      <td>Sebastian Real</td>
+    </tr>
+    <tr>
+      <td>Edad</td>
+      <td>20</td>
+    </tr>
+    <tr>
+      <td>Distrito</td>
+      <td>la Perla</td>
+    </tr>
+    <tr>
+      <td>Ocupacion</td>
+      <td>Estudiante</td>
+    </tr>
+    <tr>
+      <td>Duración Entrevista</td>
+      <td> 02:09 </td>
+    </tr>
+    <tr>
+      <td>Minuto de Inicio</td>
+      <td>03:16 - 05:23</td>
+    </tr>
+  </tbody>
+</table>
+
+<table cellpadding="8" cellspacing="0">
+  <tbody>
+    <tr>
+      <td>Entrevista 3</td>
+      <td> <img src="./images/chapter-2/interview3.png" alt="interview 3" width="400"/> </td>
+    </tr>
+    <tr>
+      <td>Nombre Entrevistado</td>
+      <td>Aldo Alexander Vazques Sotomayor</td>
+    </tr>
+    <tr>
+      <td>Edad</td>
+      <td>21</td>
+    </tr>
+    <tr>
+      <td>Distrito</td>
+      <td>Breña</td>
+    </tr>
+    <tr>
+      <td>Ocupacion</td>
+      <td>Estudiante</td>
+    </tr>
+    <tr>
+      <td>Duración Entrevista</td>
+      <td>02:37 </td>
+    </tr>
+    <tr>
+      <td>Minuto de Inicio</td>
+      <td>05:24 - 7:58</td>
+    </tr>
+  </tbody>
+</table>
+
+A continuación se presentan los detalles clave de las entrevistas realizadas a los miembros de grupo:
+
+<table cellpadding="8" cellspacing="0">
+  <tbody>
+    <tr>
+      <td>Entrevista 4</td>
+      <td> <img src="./images/chapter-2/interview4.png" alt="interview 4" width="400"/> </td>
+    </tr>
+    <tr>
+      <td>Nombre Entrevistado</td>
+      <td>Elvia Marcela Rodríguez Villa</td>
+    </tr>
+    <tr>
+      <td>Edad</td>
+      <td>23</td>
+    </tr>
+    <tr>
+      <td>Distrito</td>
+      <td>Comas</td>
+    </tr>
+    <tr>
+      <td>Ocupacion</td>
+      <td>Practicante Machine Learning</td>
+    </tr>
+    <tr>
+      <td>Duración Entrevista</td>
+      <td>04:22 </td>
+    </tr>
+    <tr>
+      <td>Minuto de Inicio</td>
+      <td>07:59 - 12:20</td>
+    </tr>
+  </tbody>
+</table>
+
+<table cellpadding="8" cellspacing="0">
+  <tbody>
+    <tr>
+      <td>Entrevista 5</td>
+      <td> <img src="./images/chapter-2/interview5.png" alt="interview 5" width="400"/> </td>
+    </tr>
+    <tr>
+      <td>Nombre Entrevistado</td>
+      <td>David Rivas</td>
+    </tr>
+    <tr>
+      <td>Edad</td>
+      <td>21</td>
+    </tr>
+    <tr>
+      <td>Distrito</td>
+      <td>Jesus Maria</td>
+    </tr>
+    <tr>
+      <td>Ocupacion</td>
+      <td>Estudiante</td>
+    </tr>
+    <tr>
+      <td>Duración Entrevista</td>
+      <td>06:01 </td>
+    </tr>
+    <tr>
+      <td>Minuto de Inicio</td>
+      <td>12:20 - 18:21</td>
+    </tr>
+  </tbody>
+</table>
+
+<table cellpadding="8" cellspacing="0">
+  <tbody>
+    <tr>
+      <td>Entrevista 6</td>
+      <td> <img src="./images/chapter-2/interview6.png" alt="interview 6" width="400"/> </td>
+    </tr>
+    <tr>
+      <td>Nombre Entrevistado</td>
+      <td>Camila Palacios</td>
+    </tr>
+    <tr>
+      <td>Edad</td>
+      <td>22</td>
+    </tr>
+    <tr>
+      <td>Distrito</td>
+      <td>Pueblo Libre</td>
+    </tr>
+    <tr>
+      <td>Ocupacion</td>
+      <td>Practicante de Psicologia</td>
+    </tr>
+    <tr>
+      <td>Duración Entrevista</td>
+      <td>06:41 </td>
+    </tr>
+    <tr>
+      <td>Minuto de Inicio</td>
+      <td>18:21 - 25:01</td>
+    </tr>
+  </tbody>
+</table>
+
 #### 2.2.3. Análisis de entrevistas
+
+**Segmento Objetivo 1: Coordinadores o Líderes de Grupo**
+
+* **Demografía:** La edad promedio de los coordinadores entrevistados es de 25 años, con todos los participantes trabajando en campos relacionados con la tecnología. Esto indica un perfil demográfico juvenil en roles de liderazgo dentro de entornos tecnológicos.
+* **Tamaño del equipo:** Los coordinadores gestionan equipos de tamaños variados, habiendo un líder que supervisa un equipo de seis miembros. Esto sugiere una preferencia por equipos de tamaño pequeño a mediano para una gestión efectiva.
+* **Frecuencia de comunicación:** Todos los coordinadores reportaron participar en reuniones o interacciones diarias, lo que destaca un enfoque estructurado de comunicación que fomenta la alineación del equipo. Esta comunicación constante es crucial para el éxito del proyecto.
+* **Frecuencia de comunicación:** Todos los coordinadores reportaron participar en reuniones o interacciones diarias, lo que destaca un enfoque estructurado de comunicación que fomenta la alineación del equipo. Esta comunicación constante es crucial para el éxito del proyecto.
+
+**Segmento Objetivo 2: Miembros del Equipo o Grupo**
+
+* **Preferencias de comunicación:** El 67 % de los miembros del equipo prefiere una combinación de comunicación presencial y digital, con un fuerte énfasis en interacciones en tiempo real para la resolución de problemas. Esto refleja la necesidad de flexibilidad en los métodos de comunicación.
+* **Estrategias de compromiso:** El 67 % de los miembros del equipo mencionó el uso de materiales creativos, como infografías y presentaciones, para mejorar el compromiso y la comprensión dentro del equipo. Esto sugiere que se valoran los métodos de comunicación innovadores.
+* **Herramientas de gestión de tareas:** Todos los miembros del equipo informaron utilizar herramientas que les permiten seguir sus tareas de forma visual, lo que indica una preferencia universal por ayudas visuales para monitorear el progreso y mantener la motivación.
 
 ### 2.3. Needfinding
 
 #### 2.3.1. User Personas
 
+En esta sección, mostraremos los perfiles de los usuarios que hemos definido para nuestro producto. Estos perfiles nos ayudaran a entender mejor las necesidades y expectativas de nuestros usuarios.
+
+**1. User Persona: Coordinador de equipos**
+<img src="images/chapter-2/USER1.png" alt="Encargado"/>
+
+**2. User Persona: Miembro de equipo**
+<img src="images/chapter-2/USER2.png" alt="Integrante"/>
+
 #### 2.3.2. User Task Matrix
+
+**1. Segmento 1: Coordinadores o Líderes de Grupo**
+
+<table cellpadding="8" cellspacing="0">
+  <thead>
+    <tr>
+      <th colspan="3">Coordinador o Líder de Grupo</th>
+    </tr>
+    <tr>
+      <th>Tarea</th>
+      <th>Frecuencia</th>
+      <th>Severidad</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Seleccion de miembros y objetivo</td>
+      <td>Alta</td>
+      <td>Medio</td>
+    </tr>
+    <tr>
+      <td>Creacion de grupos y horarios</td>
+      <td>Baja</td>
+      <td>Alta</td>
+    </tr>
+    <tr>
+      <td>Coordina reuniones por distintos medios</td>
+      <td>Media</td>
+      <td>Media</td>
+    </tr>
+    <tr>
+      <td>Asigna tareas a los miembros del grupo</td>
+      <td>Alta</td>
+      <td>Alta</td>
+    </tr>
+    <tr>
+      <td>Supervisar y actualizar avances de los miembros</td>
+      <td>Alta</td>
+      <td>Alta</td>
+    </tr>
+    <tr>
+      <td>Recolectar informacion dispersa de todos los miembros</td>
+      <td>Alta</td>
+      <td>Alta</td>
+    </tr>
+    <tr>
+      <td>Identificar mejoras apartir de las concluciones finales</td>
+      <td>Media</td>
+      <td>Baja</td>
+    </tr>
+  </tbody>
+</table>
+
+**2. Segmento 2: Miembros del Equipo o Grupo**
+
+<table cellpadding="8" cellspacing="0">
+  <thead>
+    <tr>
+      <th colspan="3">Miembro del Equipo o Grupo</th>
+    </tr>
+    <tr>
+      <th>Tarea</th>
+      <th>Frecuencia</th>
+      <th>Severidad</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Revisar los miembros y objetivo del grupo</td>
+      <td>Baja</td>
+      <td>Media</td>
+    </tr>
+    <tr>
+      <td>Revisar horarios y organización del grupo</td>
+      <td>Alta</td>
+      <td>Alta</td>
+    </tr>
+    <tr>
+      <td>Asistir a reuniones coordinadas por el líder</td>
+      <td>Media</td>
+      <td>Alta</td>
+    </tr>
+    <tr>
+      <td>Realizar tareas asignadas según cronograma</td>
+      <td>Alta</td>
+      <td>Alta</td>
+    </tr>
+    <tr>
+      <td>Actualizar al líder sobre el avance de sus tareas</td>
+      <td>Alta</td>
+      <td>Alta</td>
+    </tr>
+    <tr>
+      <td>Compartir información y hallazgos con el lider</td>
+      <td>Media</td>
+      <td>Media</td>
+    </tr>
+    <tr>
+      <td>Reflexionar sobre mejoras personales o del grupo</td>
+      <td>Baja</td>
+      <td>Media</td>
+    </tr>
+  </tbody>
+</table>
 
 #### 2.3.3. User Journey Mapping
 
+En esta sección, se presenta el mapa de viaje del usuario, que ilustra las etapas y experiencias de los usuarios al interactuar con nuestro producto. Este mapa nos ayudará a identificar oportunidades de mejora y a comprender mejor las necesidades de nuestros usuarios.
+
+**1. User Journey: Coordinador de equipos**
+<img src="images/chapter-2/JOURNEY1.png" alt="User1 Journey" />
+
+**2. User Journey: Miembro de equipo**
+<img src="images/chapter-2/JOURNEY2.png" alt="User2 Journey" />
+
 #### 2.3.4. Empathy Mapping
+
+En esta sección, se presenta el mapa de empatía, que nos ayudará a comprender mejor las emociones, pensamientos y necesidades de nuestros usuarios. Este mapa es una herramienta valiosa para identificar oportunidades de mejora en la experiencia del usuario.
+
+**1. Empathy Map: Coordinador de equipos**
+<img src="images/chapter-2/EMPMAP1.png" alt="Empathy Map 1" />
+
+**2. Empathy Map: Miembro de equipo**
+<img src="images/chapter-2/EMPMAP2.png" alt="Empathy Map 2" />
 
 #### 2.3.5. As-is Scenario Mapping
 
+**1. Segmento 1: Coordinadores o Líderes de Grupo**
+
+<img src="./images/chapter-2/asislider.png" alt="AsIsLider" width="800"/>
+
+**2. Segmento 2: Miembros del Equipo o Grupo**
+
+<img src="./images/chapter-2/asismiembro.png" alt="AsIsMiembro" width="800"/>
+
 ### 2.4. Ubiquitous Language
+
+<table cellpadding="8" cellspacing="0">
+  <tr>
+    <th colspan="3">📘 Ubiquitous Language</th>
+  </tr>
+  <tr>
+    <th style="text-align: left;">Término (en inglés)</th>
+    <th style="text-align: left;">Término (en español)</th>
+    <th style="text-align: left;">Definición (en español)</th>
+  </tr>
+  <tr>
+    <td>Task</td>
+    <td>Tarea</td>
+    <td>Acción específica asignada a un miembro del grupo para ser completada en un periodo.</td>
+  </tr>
+  <tr>
+    <td>Group</td>
+    <td>Grupo</td>
+    <td>Conjunto de personas que colaboran en actividades comunes dentro de SynHub.</td>
+  </tr>
+  <tr>
+    <td>Responsibility</td>
+    <td>Responsabilidad</td>
+    <td>Obligación asumida por un miembro del grupo respecto a una o varias tareas asignadas.</td>
+  </tr>
+  <tr>
+    <td>Task History</td>
+    <td>Historial de tareas</td>
+    <td>Registro cronológico de tareas realizadas, canceladas o pendientes.</td>
+  </tr>
+  <tr>
+    <td>Shared Calendar</td>
+    <td>Calendario compartido</td>
+    <td>Herramienta visual que muestra los eventos, plazos y tareas de todos los miembros.</td>
+  </tr>
+  <tr>
+    <td>Workload View</td>
+    <td>Visualización de carga</td>
+    <td>Representación gráfica del volumen de tareas por miembro, útil para balancear el trabajo.</td>
+  </tr>
+  <tr>
+    <td>Reward System</td>
+    <td>Sistema de recompensas</td>
+    <td>Mecanismo para motivar el cumplimiento de tareas mediante premios o reconocimientos.</td>
+  </tr>
+  <tr>
+    <td>Notification</td>
+    <td>Notificación</td>
+    <td>Aviso que informa a los usuarios sobre actualizaciones, nuevas tareas o recordatorios.</td>
+  </tr>
+  <tr>
+    <td>Role</td>
+    <td>Rol</td>
+    <td>Función asignada dentro del grupo (como líder, miembro, colaborador).</td>
+  </tr>
+  <tr>
+    <td>Subtask</td>
+    <td>Subtarea</td>
+    <td>Tarea secundaria dentro de una tarea principal que ayuda a dividir el trabajo.</td>
+  </tr>
+  <tr>
+    <td>Task Status</td>
+    <td>Estado de tarea</td>
+    <td>Situación actual de una tarea (ej. pendiente, en progreso, completada, cancelada).</td>
+  </tr>
+  <tr>
+    <td>Member</td>
+    <td>Miembro</td>
+    <td>Usuario que forma parte de un grupo dentro de la aplicación SynHub.</td>
+  </tr>
+</table>
 
 ## Capítulo III: Requirements specification
 
 ### 3.1. To-Be Scenario Mapping
 
+**1. Segmento 1: Coordinadores o Líderes de Grupo**
+
+<img src="images/chapter-3/tobelider.png" width="800"/>
+
+**2. Segmento 2: Miembros del Equipo o Grupo**
+
+<img src="images/chapter-3/tobemiembro.png" alt="ToBeMiembro" width="800"/>
+
 ### 3.2. User Stories
+
+**Epics:**
+
+<table >
+  <thead>
+    <tr>
+      <th>Epic ID</th>
+      <th>Título</th>
+      <th>Descripción</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>EP-001</td>
+      <td>Gestión de Grupos y Roles</td>
+      <td>Esta épica abarca todas las funcionalidades relacionadas con la creación de grupos, selección de integrantes y visualización de roles. Busca facilitar al líder del grupo la conformación del equipo de trabajo y ofrecer a los miembros claridad sobre su estructura organizacional.</td>
+    </tr>
+    <tr>
+      <td>EP-002</td>
+      <td>Visualización y Organización del Trabajo</td>
+      <td>Esta épica se enfoca en brindar al usuario una vista organizada de sus tareas diarias y del progreso general del equipo. Incluye tableros visuales y páginas personalizadas que ayudan a optimizar el tiempo y a mantener el enfoque en las responsabilidades asignadas.</td>
+    </tr>
+    <tr>
+      <td>EP-003</td>
+      <td>Gestión y Asignación de Tareas</td>
+      <td>Reúne las funcionalidades que permiten al líder asignar tareas, establecer prioridades y realizar seguimiento al estado de estas. También incluye la posibilidad de que los miembros clasifiquen el progreso de sus actividades, promoviendo una gestión más dinámica y ordenada.</td>
+    </tr>
+    <tr>
+      <td>EP-004</td>
+      <td>Comunicación y Seguimiento</td>
+      <td>Esta épica contempla las herramientas de comunicación interna entre los miembros y el envío de notificaciones automáticas. Está pensada para mejorar la coordinación, resolver dudas rápidamente y asegurar que todos estén informados sobre cambios importantes o fechas clave.</td>
+    </tr>
+    <tr>
+      <td>EP-005</td>
+      <td>Personalización y Disponibilidad del Usuario</td>
+      <td>Agrupa funcionalidades que permiten a los miembros adaptar su experiencia según su disponibilidad semanal y sus horarios. Esto ayuda al líder a asignar tareas de forma eficiente y promueve una distribución de carga de trabajo más equilibrada.</td>
+    </tr>
+    <tr>
+      <td>EP-007</td>
+      <td>Análisis y Reportes de Productividad</td>
+      <td>Esta épica permite a líderes y miembros visualizar métricas clave de desempeño grupal e individual, generando reportes automáticos y dashboards interactivos. Su objetivo es optimizar la distribución de tareas y medir el progreso.</td>
+    </tr>
+    <tr>
+      <td>EP-008</td>
+      <td>Gestión de Recursos Compartidos</td>
+      <td>Agrupa las funcionalidades para administrar recursos materiales, documentos y espacios físicos compartidos por el grupo dentro de SynHub, incluyendo reservas, préstamos y seguimiento de disponibilidad.</td>
+    </tr>
+    <tr>
+      <td>EP-009</td>
+      <td>Motivación y Reconocimiento</td>
+      <td>Funcionalidades para fomentar la participación activa, reconocer contribuciones destacadas y mantener altos niveles de engagement dentro de los equipos.</td>
+    </tr>
+  </tbody>
+</table>
+
+**User Stories:**
+
+<table>
+  <thead>
+    <tr>
+      <th>User Storie ID</th>
+      <th>Título</th>
+      <th>Descripción</th>
+      <th>Criterios de Aceptación</th>
+      <th>Relacionado con (Epic ID)</th>
+    </tr>
+  </thead>
+<tbody>
+<tr>
+<td>US-001</td>
+<td>Seleccion de los miembros del grupo</td>
+<td>Como lider de grupo, deseo poder selecionar los miembros, para conocer al equipo de trabajo y sus habilidades.</td>
+    <td>
+    <b>Escenario 1: Asignación de miembros</b><br>
+    Given que el líder tiene acceso a la funcionalidad de gestión del grupo,<br>
+    When selecciona miembros desde una lista disponible,<br>
+    Then los integrantes seleccionados se asignan al grupo.
+    <br>
+    <b>Escenario 2: Visualización de perfil de miembros</b><br>
+    Given que ya hay miembros asignados al grupo,<br>
+    When el líder revisa el grupo,<br>
+    Then puede visualizar los perfiles y habilidades de cada integrante.
+    <br>
+    <b>Escenario 3: Asignación de miembro ya existente</b><br>
+    Given el líder tiene acceso a la funcionalidad de gestión del grupo,<br>
+    When intenta seleccionar un miembro que ya está asignado,<br>
+    Then la aplicación deberia mostrar un mensaje de error indicando que el miembro ya pertenece al grupo.
+    </td>
+    <td>EP-001</td>
+</tr>
+<tr>
+    <td>US-002</td>
+    <td>Visualizacion de integrantes y lider</td>
+    <td>Como miembro de grupo, deseo poder visualizar los integrantes de mi grupo, para saber quienes son mis compañeros y lider.</td>
+    <td>
+    <b>Escenario 1: Visualizar integrantes del grupo</b><br>
+    Given que el usuario forma parte de un grupo,<br>
+    When accede a la sección de su grupo,<br>
+    Then puede ver una lista de los miembros y del líder del grupo.
+    <br>
+    <b>Escenario 2: Visualizar modificaciones del grupo</b><br>
+    Given que hay cambios en el grupo,<br>
+    When el usuario visualiza la información actualizada,<br>
+    Then esta refleja los cambios de integrantes y liderazgo.
+    <br>
+    <b>Escenario 3: Error al cargar información del grupo</b><br>
+    Given el usuario forma parte de un grupo,<br>
+    When accede a la sección de su grupo<br>
+    And la información de un miembro no carga apropiadamente,<br>
+    Then la aplicación debería mostrar un mensaje informativo indicando que la información no pudo cargar.
+    </td>
+    <td>EP-001</td>
+</tr>
+<tr>
+    <td>US-003</td>
+    <td>Creacion del grupo</td>
+    <td>Como lider de grupo, deseo poder definir grupo junto con su objetivo, para que todos los integrantes conozcan la meta o asunto.</td>
+    <td>
+    <b>Escenario 1: Creación exitosa del grupo</b><br>
+    Given que el líder no tiene aún un grupo creado,<br>
+    When define un nuevo grupo con un nombre y objetivo,<br>
+    Then el grupo queda registrado en el sistema.
+    <br>
+    <b>Escenario 2: Notificación del objetivo</b><br>
+    Given que se ha creado un grupo,<br>
+    When los miembros se asignan,<br>
+    Then estos reciben el objetivo del grupo como referencia común.
+    <br>
+    <b>Escenario 3: Intento de creación de un grupo con el mismo nombre</b><br>
+    Given el líder tiene un grupo con cierto nombre,<br>
+    When intenta definir un nuevo grupo con el mismo nombre que uno de sus grupos,<br>
+    Then la aplicación debería mostrar un mensaje de error indicando que el nombre del grupo ya existe en su lista.
+    </td>
+    <td>EP-001</td>
+</tr>
+<tr>
+    <td>US-004</td>
+    <td>Página de inicio personalizada con tareas y horarios</td>
+    <td>Como miembro del equipo, deseo tener una página de inicio que me muestre las tareas del día, las fechas de vencimiento y horarios disponibles, para que pueda concentrarme en lo que debo hacer y optimizar mi tiempo.</td>
+    <td>
+    <b>Escenario 1: Visualización de tareas del día</b><br>
+    Given que el usuario accede al sistema,<br>
+    When entra a su página de inicio,<br>
+    Then visualiza las tareas programadas para el día y su vencimiento.
+    <br>
+    <b>Escenario 2: Distribución horaria de las tareas</b><br>
+    Given que el usuario tiene tareas en diferentes horarios,<br>
+    When consulta su página principal,<br>
+    Then puede ver cómo están distribuidas a lo largo del día.
+    <br>
+    <b>Escenario 3: Tareas no programadas</b><br>
+    Given el usuario accede al sistema,<br>
+    When no tiene tareas programadas para el día,<br>
+    Then la aplicación debería mostrar un mensaje informativo indicando que no hay tareas pendientes.
+    </td>
+    <td>EP-002</td>
+</tr>
+<tr>
+    <td>US-005</td>
+    <td>Asignacion de niveles de prioridad</td>
+    <td>Como líder de grupo, deseo poder asignar tareas con niveles de prioridad, para que el equipo pueda concentrarse en lo más urgente y asegurarnos de cumplir con los plazos de manera eficiente.</td>
+    <td>
+    <b>Escenario 1: Asignación exitosa de prioridad a la tarea</b><br>
+    Given que el líder asigna una tarea,<br>
+    When define su nivel de prioridad,<br>
+    Then el sistema guarda esa prioridad junto con la tarea.
+    <br>
+    <b>Escenario 2: Visualización de la prioridad</b><br>
+    Given que un miembro consulta sus tareas,<br>
+    When revisa la información de una tarea,<br>
+    Then puede ver el nivel de prioridad asignado.
+    <br>
+    <b>Escenario 3: Omisión de la asignación</b><br>
+    Given que el líder asigna una tarea,<br>
+    When no selecciona un nivel de prioridad de las opciones disponibles<br>
+    And intenta guardar la tarea,<br>
+    Then la aplicación debería mostrar un mensaje de advertencia indicando que la prioridad es obligatoria.
+    </td>
+    <td>EP-003</td>
+</tr>
+<tr>
+    <td>US-006</td>
+    <td>Notificaciones automáticas sobre tareas y fechas clave</td>
+    <td>Como miembro del equipo, deseo recibir notificaciones automáticas sobre las tareas asignadas, fechas de vencimiento y cualquier actualización importante, para asegurarme de estar siempre al tanto de mis responsabilidades y entregar mis tareas dentro del plazo establecido.</td>
+    <td>
+    <b>Escenario 1: Notificación de nueva tarea</b><br>
+    Given que se asigna una nueva tarea,<br>
+    When esta se registra en el sistema,<br>
+    Then el miembro del equipo recibe una notificación automática.
+    <br>
+    <b>Escenario 2: Alerta de vencimiento próximo</b><br>
+    Given que una tarea está próxima a vencer,<br>
+    When falta menos de 24 horas para su vencimiento,<br>
+    Then el usuario recibe una alerta recordatoria.
+    <br>
+    <b>Escenario 3: Fallo en la entrega</b><br>
+    Given que el miembro del equipo tiene una tarea asignada,<br>
+    When el tiempo de la entrega finaliza<br>
+    And no hay alguna actividad entregada o confirmación de que haya cumplido,<br>
+    Then la actividad se marca como no finalizada<br>
+    And la aplicación enviará al miembro una alerta.
+    </td>
+    <td>EP-004</td>
+</tr>
+<tr>
+    <td>US-007</td>
+    <td>Asignacion de tareas a los miembros</td>
+    <td>Como lider de grupo, deseo asignar tareas a miembros, para distribuir los pendientes facilmente dependiente de los roles.</td>
+    <td>
+    <b>Escenario 1: Asignación exitosa de tarea a un miembro</b><br>
+    Given que el líder tiene un grupo formado,<br>
+    When el líder asigna una tarea a un integrante,<br>
+    Then la aplicación vincula la tarea al perfil del miembro seleccionado.
+    <br>
+    <b>Escenario 2: Visualización de detalles de la tarea asignada</b><br>
+    Given que un usuario tiene una tarea asignada,<br>
+    When el usuario accede a su lista de tareas,<br>
+    Then la aplicación mostrará al usuario el detalle de lo que debe hacer.
+    <br>
+    <b>Escenario 3: Intento de asignar una tarea sin seleccionar un miembro</b><br>
+    Given que el líder tiene un grupo formado,<br>
+    When el líder intenta guardar una tarea sin haber seleccionado ningún miembro,<br>
+    Then la aplicación debería avisar al líder que debe seleccionar al menos un miembro para asignar la tarea
+    </td>
+    <td>EP-003</td>
+</tr>
+<tr>
+    <td>US-008</td>
+    <td>Clasificacion de tareas</td>
+    <td>Como miembro del grupo, deseo poder marcas como tareas como completa, en proceso, en revision, por hacer, para mantener a otros integrantes y al lider actualizados.</td>
+    <td>
+    <b>Escenario 1: Actualización del estado de una tarea</b><br>
+    Given que un usuario accede a su lista de tareas,<br>
+    When marca una tarea como "en proceso",<br>
+    Then los demás pueden ver su nuevo estado actualizado.
+    <br>
+    <b>Escenario 2: Marcado de una tarea como completada</b><br>
+    Given que el usuario ha completado una tarea,<br>
+    When el usuario marca la tarea como "completa",<br>
+    Then la aplicación actualiza el estado<br>
+    And permitirá la visualización para el líder.
+    <br>
+    <b>Escenario 3: Intento de marcar una tarea sin confirmación</b><br>
+    Given que un usuario accede a su lista de tareas,<br>
+    When intenta marcar una tarea como completado<br>
+    And no se presenta evidencia o entregable de haber finalizado<br>
+    And el usuario no es el líder,<br>
+    Then la aplicación no permite la actualización de la tarea.
+    </td>
+    <td>EP-003</td>
+</tr>
+<tr>
+    <td>US-009</td>
+    <td>Visualizacion del tablero de tareas</td>
+    <td>Como líder de grupo, deseo tener un tablero visual en tiempo real que me permita ver el progreso de todas las tareas de mi equipo y los tiempos de entrega, para poder identificar rápidamente cualquier retraso.</td>
+    <td>
+    <b>Escenario 1: Visualización en tiempo real del estado de las tareas</b><br>
+    Given que el líder accede a la vista de tablero,<br>
+    When observa las tareas del equipo,<br>
+    Then el sistema muestra el estado y el avance de cada una en tiempo real.
+    <br>
+    <b>Escenario 2: Identificación visual de tareas atrasadas</b><br>
+    Given que hay tareas atrasadas,<br>
+    When el líder revisa el tablero,<br>
+    Then la aplicación muestra un indicador de atraso para identificarlos con facilidad.
+    <br>
+    <b>Escenario 3: Fallo en la carga de datos del tablero</b><br>
+    Given que el líder accede a la vista del tablero de tareas del grupo,<br>
+    When el sistema no puede cargar la información de las tareas,<br>
+    Then la aplicación debería mostar un mensaje de error informativo.
+    </td>
+    <td>EP-002</td>
+</tr>
+<tr>
+    <td>US-010</td>
+    <td>Solicitud de ayuda o comentarios</td>
+    <td>Como miembro del grupo, deseo poder solicitar ayuda o comentarios sobre una tarea específica, para resolver dudas y mejorar la calidad del trabajo entregado.</td>
+    <td>
+    <b>Escenario 1: Envío exitoso de solicitud de ayuda</b><br>
+    Given que el usuario tiene dificultades con una tarea,<br>
+    When el miembro solicita ayuda,<br>
+    Then el sistema permite registrar y enviar esa solicitud al grupo o líder.
+    <br>
+    <b>Escenario 2: Visualización de respuestas y comentarios</b><br>
+    Given que el usuario recibe una respuesta,<br>
+    When consulta el historial de la tarea,<br>
+    Then el sistema muestra los comentarios recibidos para resolver su duda.
+    <br>
+    <b>Escenario 3: Intento de enviar una solicitud de ayuda sin contenido</b><br>
+    Given que el usuario tiene dificultades con una tarea específica,<br>
+    When el miembro intenta enviar una solicitud de ayuda o comentarios sin ingresar ningún texto o descripción de su problema o duda,<br>
+    Then la aplicación no permite el registro de la solicitud<br>
+    And avisa al usuario de la falta de contenido de la solicitud.
+    </td>
+    <td>EP-004</td>
+</tr>
+<tr>
+    <td>US-011</td>
+    <td>Actualizar tareas de los miembros</td>
+    <td>Como lider de grupo, deseo poder actualizar el progreso o dificultad de una tarea, para mantener al encargado de la misma informado sobre su trabajo. </td>
+    <td>
+    <b>Escenario 1: Modificación exitosa del estado o dificultad de la tarea</b><br>
+    Given que el líder revisa el estado de una tarea,<br>
+    When detecta que hay retrasos o complicaciones,<br>
+    Then puede modificar el estado o dificultad de la tarea.
+    <br>
+    <b>Escenario 2: Visualización de la actualización de la tarea por el miembro</b><br>
+    Given que el cambio ha sido realizado,<br>
+    When el miembro accede a la tarea,<br>
+    Then puede ver los nuevos detalles o nivel de dificultad.
+    <br>
+    <b>Escenario 3:Intento de modificar una tarea como miembro de equipo</b><br>
+    Given que el usuario intenta actualizar la información de una tarea,<br>
+    When el usuario intenta modificar una tarea,<br>
+    And el usuario no tiene el rol de líder<br>
+    Then el sistema deberá negar la modificación, avisando que debe ser líder para realizar cambios.
+    </td>
+<td>EP-003</td>
+</tr>
+<tr>
+    <td>US-012</td>
+    <td>Gestión de disponibilidad</td>
+    <td>Como miembro del grupo, deseo poder registrar mis horarios disponibles durante la semana, para que el líder pueda asignarme tareas según mi disponibilidad.</td>
+    <td>
+    <b>Escenario 1: Registro exitoso de la disponibilidad del miembro</b><br>
+    Given que un miembro desea registrar su disponibilidad,<br>
+    When indica los días y horas que puede trabajar,<br>
+    Then el sistema almacena esta información.
+    <br>
+    <b>Escenario 2: Visualización de la disponibilidad al asignar tareas</b><br>
+    Given que el líder asigna tareas,<br>
+    When consulta la disponibilidad de un miembro,<br>
+    Then el sistema muestra el horario de disponibilidad<br>
+    And el líder puede tomar decisiones basadas en esa información.
+    <br>
+    <b>Escenario 3: Intento de registrar horarios no válidos</b><br>
+    Given que un miembro desea registrar su disponibilidad,<br>
+    When el miembro intenta ingresar horarios que no son válidos (horario pasado, por ejemplo)<br>
+    Then el sistema debería mostrar un mensaje de error indicando el formato erróneo.
+    </td>
+    <td>EP-005</td>
+</tr>
+<tr>
+  <td>US-013</td>
+  <td>Dashboard de progreso grupal</td>
+  <td>Como líder, deseo ver un panel con el avance de objetivos, tareas completadas vs pendientes y carga de trabajo por miembro, para tomar decisiones informadas.</td>
+  <td>
+    <b>Escenario 1: Visualización del progreso de tareas por miembro</b><br>
+    Given que el líder accede al dashboard,<br>
+    When selecciona un período específico,<br>
+    Then el sistema muestra gráficos actualizados de tareas completadas y pendientes por cada miembro.
+    <br>
+    <b>Escenario 2: Identificación de miembros con sobrecarga de trabajo</b><br>
+    Given que existe una carga de trabajo desigual,<br>
+    When el líder revisa el mapa de distribución,<br>
+    Then el sistema muestra alertas destacadas en miembros con sobrecarga.
+    <br>
+    <b>Escenario 3: Fallo en la carga de datos del dashboard</b><br>
+    Given que el líder accede al dashboard de progreso del grupo,<br>
+    When el sistema experimenta un error al intentar recuperar los datos necesarios,<br>
+    Then la aplicación debería mostrar un mensaje de error indicando que los datos no cargaron correctamente.
+  </td>
+  <td>EP-007</td>
+</tr>
+<tr>
+  <td>US-014</td>
+  <td>Histórico de cumplimiento de plazos</td>
+  <td>Como miembro, quiero revisar mi historial de tareas completadas a tiempo vs retrasadas, para autoevaluar mi productividad.</td>
+  <td>
+    <b>Escenario 1: Visualización de la línea de tiempo de tareas</b><br>
+    Given que un miembro accede a su perfil,<br>
+    When navega a la sección "Mi rendimiento",<br>
+    Then el sistema muestra una línea de tiempo con todas sus tareas marcadas como "cumplidas" o "retrasadas".
+    <br>
+    <b>Escenario 2: Comparativa de rendimiento mensual con el grupo</b><br>
+    Given que hay variaciones en la productividad,<br>
+    When el miembro filtra por mes,<br>
+    Then el sistema muestra un comparativo gráfico entre sus resultados y el promedio del grupo.
+    <br>
+    <b>Escenario 3: No hay historial de tareas completadas</b><br>
+    Given que un miembro nuevo accede a la sección "Mi rendimiento"
+    And el miembro aún no ha completado ninguna tarea,<br>
+    When navega a la sección "Mi rendimiento",<br>
+    Then el sistema debería mostrar un mensaje indicando que debe realizar alguna tarea antes de acceder a "Mi rendimiento".
+  </td>
+  <td>EP-007</td>
+</tr>
+<tr>
+  <td>US-015</td>
+  <td>Balance de carga de trabajo</td>
+  <td>Como líder, necesito visualizar un mapa de calor con la distribución horaria de tareas por miembro, para equilibrar asignaciones.</td>
+  <td>
+    <b>Escenario 1: Visualización del mapa de calor de carga laboral</b><br>
+    Given que el líder abre la vista de carga laboral,<br>
+    When selecciona un rango de fechas,<br>
+    Then el sistema despliega un mapa de calor con horas asignadas por día/miembro.
+    <br>
+    <b>Escenario 2: Alerta visual de sobrecarga laboral</b><br>
+    Given que un miembro tiene una carga laboral excesiva,<br>
+    When el líder revisa el dashboard,<br>
+    Then el sistema marca la celda correspondiente con una alerta visual.
+    <br>
+    <b>Escenario 3: No hay tareas asignadas en el rango de fechas seleccionado</b><br>
+    Given que el líder abre la vista de carga laboral y selecciona un rango de fechas en el que no hay ninguna tarea asignada a ningún miembro del equipo,<br>
+    When el líder intenta generar el mapa de calor,<br>
+    Then el sistema debería no proceder con la generación del mapa de calor<br>
+    And debería mostrar un mensaje informativo indicando la falta de datos.
+  </td>
+  <td>EP-007</td>
+</tr>
+<tr>
+  <td>US-016</td>
+  <td>Reporte de contribuciones individuales</td>
+  <td>Como miembro, deseo generar un reporte mensual con mis tareas completadas, horas invertidas y reconocimientos recibidos, para mi portafolio personal.</td>
+  <td>
+    <b>Escenario 1: Generación exitosa del reporte mensual</b><br>
+    Given que un miembro quiere exportar su reporte,<br>
+    When hace clic en "Generar reporte mensual",<br>
+    Then la aplicación muestra un PDF con tareas completadas, horas registradas y contribuciones grupales.
+    <br>
+    <b>Escenario 2: Compartir el reporte con el líder</b><br>
+    Given que el reporte está generado,<br>
+    When el miembro selecciona "Compartir con líder",<br>
+    Then el sistema envía una notificación al líder con el archivo adjunto.
+    <br>
+    <b>Escenario 3: Error al generar el reporte</b><br>
+    Given que un miembro quiere exportar su reporte mensual,<br>
+    When hace clic en "Generar reporte mensual"<br>
+    And el sistema no procesa adecuadamente la información,<br>
+    Then el sistema debería mostrar un mensaje de error indicando que debe intentar más tarde.
+  </td>
+  <td>EP-007</td>
+</tr>
+<tr>
+  <td>US-017</td>
+  <td>Predicción de tiempos de entrega</td>
+  <td>Como líder, quiero que el sistema sugiera fechas límite realistas para nuevas tareas, basado en el historial de productividad del equipo.</td>
+  <td>
+    <b>Escenario 1: Sugerencia de fecha límite</b><br>
+    Given que el líder crea una nueva tarea,<br>
+    When ingresa la descripción y complejidad,<br>
+    Then el sistema muestra una fecha sugerida basada en el historial del asignado.
+    <br>
+    <b>Escenario 2 Ajuste manual del plazo:</b><br>
+    Given que la fecha sugerida no es adecuada,<br>
+    When el líder ajusta manualmente el plazo,<br>
+    Then el sistema registra la variación para futuras predicciones.
+    <br>
+    <b>Escenario 3: Historial insuficiente del miembro</b><br>
+    Given el líder crea una tarea<br>
+    And la asigna a un miembro nuevo o con poco historial,<br>
+    When el sistema intenta sugerir una fecha límite,<br>
+    Then el sistema debería indicar que no hay suficiente información histórica disponible para ese miembro<br>
+    And ofrece una fecha límite predeterminada.
+  </td>
+  <td>EP-007</td>
+</tr>
+<tr>
+  <td>US-018</td>
+  <td>Reporte de dependencias críticas</td>
+  <td>Como líder, necesito identificar tareas bloqueadas por dependencias no resueltas, para priorizar recursos.</td>
+  <td>
+    <b>Escenario 1: Visualización de dependencias</b><br>
+    Given que una tarea tiene dependencias pendientes,<br>
+    When el líder accede al reporte de bloqueos,<br>
+    Then el sistema muestra un diagrama de flujo con las relaciones entre tareas.
+    <br>
+    <b>Escenario 2: Alerta de bloqueo persistente</b><br>
+    Given que un bloqueo persiste,<br>
+    When el líder revisa el reporte,<br>
+    Then recibe una alerta urgente con sugerencias de reasignación.
+    <br>
+    <b>Escenario 3: No hay dependencias bloqueando tareas</b><br>
+    Given no existen tareas bloqueadas por dependencias incompletas,<br>
+    When el líder accede al reporte de bloqueos,<br>
+    Then el sistema debería mostrar un mensaje indicando que no hay dependencias críticas o tareas bloqueadas en este momento.
+  </td>
+  <td>EP-007</td>
+</tr>
+<tr>
+  <td>US-019</td>
+  <td>Análisis de tendencias de comunicación</td>
+  <td>Como líder, deseo ver métricas de frecuencia y canales de comunicación usados, para optimizar flujos colaborativos.</td>
+  <td>
+    <b>Escenario 1: Visualización de tendencias de chat</b><br>
+    Given que el líder quiere analizar la comunicación,<br>
+    When selecciona "Tendencias de chat",<br>
+    Then el sistema muestra un gráfico de barras con interacciones por día y hora.
+    <br>
+    <b>Escenario 2: Recomendación sobre canales</b><br>
+    Given que existen canales poco utilizados,<br>
+    When el líder revisa el reporte de canales,<br>
+    Then el sistema recomienda consolidar o eliminar canales inactivos.
+    <br>
+    <b>Escenario 3: No hay datos de comunicación disponibles</b><br>
+    Given no se ha registrado actividad de comunicación en el periodo analizado,<br>
+    When el líder accede a los reportes de tendencias,<br>
+    Then el sistema mostrará un mensaje indicando que no hay datos de comunicación disponibles para el período seleccionado.
+  </td>
+  <td>EP-007</td>
+</tr>
+<tr>
+  <td>US-020</td>
+  <td>Registro de tiempo invertido por tarea</td>
+  <td>Como miembro, quiero registrar y categorizar el tiempo dedicado a cada actividad, para mejorar mi gestión personal.</td>
+  <td>
+    <b>Escenario 1: Registro automático de tiempo</b><br>
+    Given que un miembro inicia una tarea,<br>
+    When activa el temporizador integrado,<br>
+    Then el sistema registra automáticamente el tiempo al marcarla como completada.
+    <br>
+    <b>Escenario 2: Registro manual de tiempo</b><br>
+    Given que el miembro olvidó activar el timer,<br>
+    When edita manualmente la tarea completada,<br>
+    Then puede ingresar las horas invertidas con etiquetas predefinidas.
+    <br>
+    <b>Escenario 3: Intento de registrar tiempo no válido</b><br>
+    Given un miembro edita el tiempo de una tarea,<br>
+    When intenta ingresar un formato de tiempo incorrecto,<br>
+    Then el sistema debería mostrar un error indicando formato inválido.
+  </td>
+  <td>EP-007</td>
+</tr>
+<tr>
+  <td>US-021</td>
+  <td>Reporte de salud del equipo</td>
+  <td>Como líder, necesito un indicador global que mida equilibrio carga-tiempo, clima colaborativo y cumplimiento de metas, para prevenir burnout.</td>
+  <td>
+    <b>Escenario 1: Visualización del indicador de salud</b><br>
+    Given que el líder abre el reporte de salud,<br>
+    When revisa el semáforo (verde/ámbar/rojo),<br>
+    Then puede hacer clic para ver factores detallados como horas extras o conflictos no resueltos.
+    <br>
+    <b>Escenario 2: Recomendaciones por indicador rojo</b><br>
+    Given que el indicador está en rojo,<br>
+    When el líder consulta las recomendaciones,<br>
+    Then el sistema propone acciones específicas como redistribuir tareas o programar días de descanso.
+    <br>
+    <b>Escenario 3: Insuficiencia de datos para el reporte</b><br>
+    Given el equipo es nuevo o no hay suficientes datos registrados,<br>
+    When el líder accede al reporte de salud,<br>
+    Then el sistema debería mostrar un mensaje indicando que no hay suficientes datos.
+  </td>
+  <td>EP-007</td>
+</tr>
+    <tr>
+        <td>US-022</td>
+        <td>
+            Visualización de tareas grupales 
+        </td>
+        <td>
+            Como miembro de un equipo en SynHub, deseo acceder a una vista 
+            consolidada de todas las tareas activas de un grupo específico, incluyendo su estado, 
+            responsables y fechas clave,para que pueda coordinar acciones, identificar cuellos de 
+            botella y garantizar el avance colectivo hacia los objetivos comunes.
+        </td>
+        <td>
+            <b>Escenario 1: Listado detallado de tareas grupales</b><br>
+            Given que el usuario pertenece a un grupo con tareas activas,<br>
+            When accede a la sección del grupo en SynHub,<br>
+            Then el sistema muestra una lista de todas las tareas del grupo, ordenadas por fecha de vencimiento
+            , el nombre de cada tarea, una descripción breve y el responsable asignado
+            y el estado actual de cada tarea (ej: "pendiente", "en progreso", "completado").
+            <br>
+            <b>Escenario 2: Visibilidad de fechas clave y progreso</b><br>
+            Given que el usuario visualiza las tareas del grupo,<br>
+            When revisa la información de una tarea específica,<br>
+            Then el sistema muestra La fecha de vencimiento, el porcentaje de progreso y
+            alertas visuales para tareas con menos de 24 horas restantes.
+            <br>
+            <b>Escenario 3: Sincronización en tiempo real de actualizaciones</b><br>
+            Given que el usuario está en la sección de tareas grupales,<br>
+            When otro miembro modifica el estado, responsable o fecha de una tarea,<br>
+            Then el sistema muestra La fecha de vencimiento, el porcentaje de progreso<br>
+            And los cambios se reflejan automáticamente en la vista del usuario.
+            <br>
+            <b>Escenario 4: Filtrado básico para gestión de prioridades</b><br>
+            Given que el usuario está en la sección de tareas grupales,<br>
+            When selecciona un filtro por estado (ej: "pendiente", "en progreso", "completado"),<br>
+            Then el sistema muestra solo las tareas que cumplen con ese criterio.
+            <br>
+            <b>Escenario 5: Grupo sin tareas activas</b><br>
+            Given el usuario pertenece a un grupo sin tareas activas,<br>
+            When accede a la sección del grupo en SynHub,<br>
+            Then el sistema debería mostrar un mensaje indicando que no hay tareas activas para este grupo.
+        </td>
+        <td>
+            EP-002
+        </td>
+    </tr>
+    <tr>
+        <td>
+            US-023
+        </td>
+        <td>
+            Visualización detallada de una tarea específica
+        </td>
+        <td>
+            Como miembro de un equipo en SynHub, deseo acceder a una vista detallada de una tarea específica 
+            que muestre toda la información relevante, para que pueda comprender su contexto, 
+            verificar su estado actual y colaborar de manera informada con otros miembros del equipo.
+        </td>
+        <td>
+            <b>Escenario 1: Acceso a la información completa de la tarea</b><br>
+            Given que el usuario está en la lista de tareas (individuales o grupales),<br>
+            When selecciona una tarea específica,<br>
+            Then el sistema despliega una vista detallada con Título de la tarea, descripción de la tarea ,
+            Fecha de creación, fecha de vencimiento y prioridad asignada, Estado actual de la tarea, 
+            participantes involucrados y comentarios asociados.
+            <br>
+            <b>Escenario 2: Error al cargar los detalles de la tarea</b><br>
+            Given el usuario está en la lista de tareas (individuales o grupales),<br>
+            When selecciona una tarea específica<br>
+            And el sistema experimenta un error al intentar cargar la información,<br>
+            Then el sistema debería mostrar un mensaje de error indicando que no se pudieron cargar los detalles.
+        </td>
+        <td>
+            EP-002
+        </td>
+    </tr>
+    <tr>
+        <td>
+            US-024
+        </td>
+        <td>
+            Visualización integrada del horario personal
+        </td>
+        <td>
+            Como miembro de un equipo en SynHub, deseo acceder a una vista clara de mi horario personal que 
+            muestre mis tareas programadas, reuniones y bloques de tiempo disponibles, para que pueda gestionar 
+            mi agenda diaria, evitar sobrecargas y equilibrar mis responsabilidades 
+            individuales y grupales.
+        </td>
+        <td>
+            <b>Escenario 1: Visualización cronológica de actividades diarias</b><br>
+            Given que el usuario está en la lista de tareas (individuales o grupales),<br>
+            When accede a la sección "Mi Horario" en SynHub,<br>
+            Then el sistema muestra un calendario horario y tareas ubicadas en sus bloques
+            de tiempo correspondientes.
+            <br>
+            <b>Escenario 2: Superposición de tareas y reuniones</b><br>
+            Given el usuario tiene tareas programadas y reuniones agendadas para el mismo bloque de tiempo,<br>
+            When accede a la sección "Mi Horario" en SynHub,
+            Then el sistema debería mostrar visualmente la superposición de estas actividades de manera clara e informar al usuario que tiene reuniones que colisionan.
+        </td>
+        <td>
+            EP-002
+        </td>
+    </tr>
+    <tr>
+        <td>
+            US-025
+        </td>
+        <td>
+            Visualización de grupos miembros
+        </td>
+        <td>
+            Como miembro de múltiples equipos en SynHub, deseo acceder a una lista organizada de 
+            todos los grupos a los que pertenezco, junto con información clave de cada uno, para que
+            pueda navegar rápidamente entre ellos, mantener un seguimiento de sus actividades y participar 
+            activamente en las responsabilidades colectivas.
+        </td>
+        <td>
+            <b>Escenario 1: Listado completo de grupos miembros</b><br>
+            Given que el usuario está registrado en SynHub y pertenece a uno o más grupos,<br>
+            When accede a la sección "Mis Grupos",<br>
+            Then el sistema muestra una lista de todos los grupos a los que pertenece, con la informacion
+            de cada uno, incluyendo el nombre del grupo , descripción breve del grupo y cantidad de miembros
+            <br>
+            <b>Escenario 2: Usuario sin grupos asignados</b><br>
+            Given que el usuario está registrado en SynHub pero aún no ha sido añadido a ningún grupo,<br>
+            When accede a la sección "Mis Grupos",<br>
+            Then el sistema debería mostrar un mensaje informativo indicando que el usuario no pertenece a ningún grupo<br>
+        </td>
+        <td>
+            EP-002
+        </td>
+    </tr>
+      <tr>
+      <td>US-026</td>
+      <td>Subir documentos compartidos</td>
+      <td>Como miembro, quiero subir documentos al repositorio grupal en SynHub, para centralizar la información clave del equipo.</td>
+      <td>
+        <b>Escenario 1: Subida exitosa de documento</b><br>
+        Given que el usuario accede a "Documentos",<br>
+        When el usuario selecciona "Subir"<br>
+        And elege archivos locales<br>
+        And asigna las categorías,<br>
+        Then el sistema almacena los archivos para el usuario.
+        <br>
+        <b>Escenario 2: Búsqueda exitosa de documento subido</b><br>
+        Given que el archivo se subió,<br>
+        When otro miembro busca el archivo,<br>
+        Then el sistema muestra los resultados con metadatos básicos.
+        <br>
+        <b>Escenario 3: Intento de subir un archivo con formato no permitido</b><br>
+        Given el usuario accede a la sección "Documentos"
+        And selecciona "Subir",<br>
+        When el usuario intenta cargar un archivo con un formato que no está permitido por el sistema,<br>
+        Then el sistema debería mostrar un mensaje de error indicando que el formato del archivo no es compatible.
+      </td>
+      <td>EP-008</td>
+    </tr>
+    <tr>
+      <td>US-027</td>
+      <td>Control de versiones documentales</td>
+      <td>Como coordinador, necesito ver historial de versiones cuando se modifican documentos compartidos, para rastrear cambios importantes.</td>
+      <td>
+        <b>Escenario 1: Visualización del historial de versiones</b><br>
+        Given que un documento tiene versiones previas,<br>
+        When el usuario hace clic en "Historial",<br>
+        Then muestra lista con fecha/autor de cada cambio.
+        <br>
+        <b>Escenario 2: Comparación de versiones</b><br>
+        Given que se selecciona versión antigua,<br>
+        When hace clic en "Comparar",<br>
+        Then la aplicación resalta diferencias con versión actual.
+        <br>
+        <b>Escenario 3: Intento de acceder al historial de un documento sin versiones previas</b><br>
+        Given un documento compartido no ha sido modificado desde su creación,<br>
+        When el coordinador hace clic en el botón "Historial" para ver las versiones anteriores,<br>
+        Then el sistema debería mostrar un mensaje indicando que no hay versiones previas disponibles para este documento.
+      </td>
+      <td>EP-008</td>
+    </tr>
+    <tr>
+      <td>US-028</td>
+      <td>Sistema de logros/badges</td>
+      <td>Como miembro, quiero ganar insignias al completar metas grupales, para sentirme reconocido por mis contribuciones.</td>
+      <td>
+        <b>Escenario 1: Obtención de badge por completar tareas</b><br>
+        Given que el usuario completa tareas asignadas,<br>
+        When actualiza perfil,<br>
+        Then recibe un badge correspondiente.
+        <br>
+        <b>Escenario 2: Visualización de badges en el perfil</b><br>
+        Dado que hay badges disponibles, Cuando otros ven mi perfil, Entonces muestran mis logros con descripción.
+        <br>
+        <b>Escenario 3: Error al asignar el badge</b><br>
+        Given que el usuario completa las tareas requeridas para un badge,<br>
+        When el sistema intenta asignar el badge al perfil del usuario sin éxito,<br>
+        Then el sistema registra el error para revisión<br>
+        And avisará al usuario de que más tarde se intentará asignar el badge nuevamente.
+      </td>
+      <td>EP-009</td>
+    </tr>
+    <tr>
+      <td>US-029</td>
+      <td>Tablero de reconocimiento grupal</td>
+      <td>Como líder, deseo destacar públicamente contribuciones excepcionales, para motivar al equipo.</td>
+      <td>
+        <b>Escenario 1: Publicación de reconocimiento</b><br>
+        Given que un miembro sobresale,<br>
+        When líder selecciona "Reconocer"<br>
+        And selecciona el miembro sobresaliente<br>
+        Then el sistema muestra su logro en el tablero público.
+        <br>
+        <b>Escenario 2: Visualización de reconocimientos</b><br>
+        Given que hay reconocimientos,<br>
+        When el equipo accede al tablero,<br>
+        Then el sistema muestra los últimos reconocimientos con fotos.
+        <br>
+        <b>Escenario 3: Intento de reconocer sin seleccionar un miembro</b><br>
+        Given el líder desea destacar una contribución,<br>
+        When el líder no selecciona a ningún miembro del equipo para otorgar el reconocimiento<br>
+        And selecciona la opción "Reconocer",<br>
+        Then el sistema debería mostrar un mensaje de error indicando que debe seleccionar al menos un miembro.
+      </td>
+      <td>EP-009</td>
+    </tr>
+    <tr>
+      <td>US-030</td>
+      <td>Búsqueda inteligente en contenido grupal</td>
+      <td>Como usuario, quiero buscar simultáneamente en tareas, documentos y conversaciones, para encontrar información rápidamente.</td>
+      <td>
+        <b>Escenario 1: Búsqueda con resultados categorizados</b><br>
+        Given que el usuario escribe en la barra de búsqueda,<br>
+        When el usuario presiona Enter,<br>
+        Then el sistema muestra resultados categorizados (tareas/docs/chats).
+        <br>
+        <b>Escenario 2: Refinamiento de la búsqueda con filtros</b><br>
+        Given que hay múltiples resultados,<br>
+        When el usuario aplica filtros,<br>
+        Then el sistema refina búsqueda por fecha/tipo/autor.
+        <br>
+        <b>Escenario 3: Búsqueda sin resultados</b><br>
+        Given el usuario escribe un término en la barra de búsqueda,<br>
+        When presiona Enter<br>
+        And no se encuentran coincidencias para ese término en ninguna de las secciones de tareas, documentos o conversaciones del grupo,<br>
+        Then el sistema debería mostrar un mensaje indicando que no se encontraron resultados para la búsqueda realizada.
+      </td>
+      <td>EP-002</td>
+    </tr>
+    <tr>
+      <td>US-031</td>
+      <td>Plantillas de grupos recurrentes</td>
+      <td>Como administrador, necesito crear plantillas de grupos con tareas/roles predefinidos, para acelerar la creación de proyectos similares.</td>
+      <td>
+        <b>Escenario 1: Creación de plantilla de grupo</b><br>
+        Given que el líder crea una plantilla,<br>
+        When se define la estructura base,<br>
+        Then el sistema lo guarda como modelo reusable.
+        <br>
+        <b>Escenario 2: Uso de plantilla al crear un grupo</b><br>
+        Given que existe una plantilla en el sistema,<br>
+        When el líder crea un nuevo grupo,<br>
+        Then el sistema ofrece opción de iniciar desde plantilla.
+        <br>
+        <b>Escenario 3: Intento de crear plantilla sin nombre</b><br>
+        Given el líder intenta crear una nueva plantilla de grupo,<br>
+        When define la estructura base pero intenta guardar la plantilla sin asignarle un nombre,<br>
+        Then el sistema debería mostrar un mensaje de error indicando que el nombre de la plantilla es obligatorio.
+      </td>
+      <td>EP-001</td>
+    </tr>
+    <tr>
+      <td>US-032</td>
+      <td>Modo "Focus" para tareas individuales</td>
+      <td>Como miembro, deseo activar un modo sin distracciones al trabajar en tareas complejas, para mejorar mi concentración.</td>
+      <td>
+        <b>Escenario 1: Activación del Modo Focus</b><br>
+        Given que el usuario abre una tarea,<br>
+        When activa "Modo Focus",<br>
+        Then oculta elementos de UI no esenciales.
+        <br>
+        <b>Escenario 2: Posponer notificaciones en Modo Focus</b><br>
+        Given que el modo Focus está activo,<br>
+        When el usuario recibe una notificación,<br>
+        Then el sistema pospondrá la notificación hasta que el usuario desactive el modo Focus.
+        <br>
+        <b>Escenario 3: Error al activar el Modo Focus</b><br>
+        Given el usuario abre una tarea y desea activar el "Modo Focus",<br>
+        When el usuario intenta activar el "Modo Focus"
+        And ocurre un error en el sistema que impide su activación,
+        Then la aplicación debería mostrar un mensaje de error indicando que no se pudo activar el "Modo Focus".
+      </td>
+      <td>EP-002</td>
+    </tr>
+    <tr>
+      <td>US-033</td>
+      <td>Solicitud de aprobación para recursos</td>
+      <td>Como miembro, quiero solicitar uso de recursos restringidos que requieren aprobación del líder, para cumplir con políticas de control.</td>
+      <td>
+        <b>Escenario 1: Formulario de solicitud de recurso</b><br>
+        Given que el usuario selecciona un recurso restringido,<br>
+        When hace clic en "Solicitar",<br>
+        Then la aplicación debería pedir al usuario completar un formulario con justificación y fecha requerida.
+        <br>
+        <b>Escenario 2: Aprobación de solicitud y notificación</b><br>
+        Given que se envía la solicitud al líder,<br>
+        When el líder la aprueba,<br>
+        Then el sistema actualiza el estado<br>
+        And notifica al solicitante.
+        <br>
+        <b>Escenario 3: Negación de solicitud y notificación</b><br>
+        Given que se envía la solicitud al líder,<br>
+        When el líder lo deniega,<br>
+        Then el sistema actualiza el estado<br>
+        And notifica al solicitante.
+      </td>
+      <td>EP-008</td>
+    </tr>
+    <tr>
+      <td>US-034</td>
+      <td>Alertas de vencimiento de préstamos</td>
+      <td>Como sistema, debo notificar cuando un recurso prestado está por vencer o se pasa de fecha, para prevenir conflictos de disponibilidad.</td>
+      <td>
+        <b>Escenario 1: Recordatorio de devolución próxima</b><br>
+        Given que un préstamo está activo,<br>
+        When se acerca la fecha de devolución,<br>
+        Then el sistema envía un recordatorio al usuario.
+        <br>
+        <b>Escenario 2: Notificación por devolución tardía</b><br>
+        Given que el préstamo venció,<br>
+        When no se registra devolución,<br>
+        Then el sistema notifica al administrador y al siguiente en la lista de espera.
+      </td>
+      <td>EP-008</td>
+    </tr>
+    <tr>
+      <td>US-035</td>
+      <td>Visualización de recursos asignados a tareas</td>
+      <td>Como miembro, deseo ver qué recursos están vinculados a una tarea específica, para prepararme adecuadamente antes de comenzar.</td>
+      <td>
+        <b>Escenario 1: Ver lista de recursos de la tarea</b><br>
+        Given que el usuario abre una tarea,<br>
+        When revisa la sección "Recursos",<br>
+        Then el sistema muestra una lista de ítems necesarios con su estado actual (disponible/reservado).
+        <br>
+        <b>Escenario 2: Sugerencia de recursos alternativos</b><br>
+        Given que falta un recurso,<br>
+        When hace clic en "Solicitar",<br>
+        Then el sistema sugiere alternativas disponibles similares.
+      </td>
+      <td>EP-008</td>
+    </tr>
+    <tr>
+      <td>US-036</td>
+      <td>Sistema de logros y badges</td>
+      <td>Como miembro, quiero ganar insignias al completar metas grupales, para sentirme reconocido por mis contribuciones.</td>
+      <td>
+        <b>Escenario 1: Asignación de badge al completar tareas</b><br>
+        Given que el usuario completa tareas asignadas,<br>
+        When actualiza su perfil,<br>
+        Then el sistema registra al usuario elo badge correspondiente.
+        <br>
+        <b>Escenario 2: Visualización de badges en perfiles de usuario</b><br>
+        Given que hay badges disponibles,<br>
+        When otros ven mi perfil,<br>
+        Then el sistema muestra mis logros con descripción.
+        <br>
+        <b>Escenario 3: Revocación de badge</b><br>
+        Given un usuario ha obtenido un badge,<br>
+        When el usuario ya no cumple con los criterios originales o el líder revoca el badge manualmente<br>
+        Then el sistema debería revocar el badge del perfil del usuario.
+      </td>
+      <td>EP-009</td>
+    </tr>
+    <tr>
+      <td>US-037</td>
+      <td>Tablero de reconocimiento grupal</td>
+      <td>Como líder, deseo destacar públicamente contribuciones excepcionales, para motivar al equipo.</td>
+      <td>
+        <b>Escenario 1: Publicación de un reconocimiento</b><br>
+        Given que un miembro sobresale,<br>
+        When el líder selecciona "Reconocer",<br>
+        Then el sistema expone su logro en el tablero público.
+        <br>
+        <b>Escenario 2: Visualización de reconocimientos en el tablero</b><br>
+        Given que hay reconocimientos,<br>
+        When el equipo accede al tablero,<br>
+        Then el sistema muestra los últimos reconocimientos con fotos.
+        <br>
+        <b>Escenario 3: Intento de publicar un reconocimiento sin descripción</b><br>
+        Given el líder selecciona a un miembro para reconocer su contribución,<br>
+        When el líder intenta publicar el reconocimiento sin ingresar una descripción,<br>
+        Then el sistema debería mostrar un mensaje de error indicando que la descripción del reconocimiento es obligatoria.
+      </td>
+      <td>EP-009</td>
+    </tr>
+    <tr>
+      <td>US-038</td>
+      <td>Rutas de aprendizaje grupales</td>
+      <td>Como líder, deseo asignar rutas de capacitación al equipo con recursos y metas de progreso, para desarrollar habilidades.</td>
+      <td>
+        <b>Escenario 1: Visualización del progreso de la ruta</b><br>
+        Given que el líder crea una ruta,<br>
+        When agrega módulos,<br>
+        Then el sistema muestra a los miembros el progreso como porcentaje completado en la consulta.
+        <br>
+        <b>Escenario 2: Aprobación de evidencia de módulo completado</b><br>
+        Given que el usuario completa un módulo,<br>
+        When sube evidencia,<br>
+        Then el sistema notificará al líder sobre la aprobación o petición de revisiones.
+        <br>
+        <b>Escenario 3: Intento de acceder a una ruta no asignada</b><br>
+        Given el líder ha creado rutas de aprendizaje en el sistema,<br>
+        When un miembro intenta acceder a una ruta de aprendizaje que no le ha sido asignada por el líder,<br>
+        Then el sistema debería impedir el acceso a esa ruta<br>
+        And notificará al usuario de la falta de permisos.
+      </td>
+      <td>EP-009</td>
+    </tr>
+    <tr>
+      <td>US-039</td>
+      <td>Checklist de preparación para recursos</td>
+      <td>Como administrador, deseo crear checklists personalizados para cada recurso, para que los usuarios vengan preparados.</td>
+      <td>
+        <b>Escenario 1: Adición de checklist a un recurso</b><br>
+        Given que el administrador edita un recurso,<br>
+        When agrega un checklist,<br>
+        Then el sistema muestra al usuario el checklist editado durante el proceso de reserva.
+        <br>
+        <b>Escenario 2: Obligatoriedad del checklist durante la reserva</b><br>
+        Given que hay un checklist,<br>
+        When el usuario hace una reserva,<br>
+        Then el sistema debe pedir al usuario marcar cada ítem como "entendido" antes de confirmar.
+        <br>
+        <b>Escenario 3: Intento de reservar sin completar el checklist</b><br>
+        Given un recurso tiene un checklist de preparación obligatorio,<br>
+        When un usuario intenta completar la reserva del recurso sin haber marcado todos los ítems del checklist como entendidos,<br>
+        Then el sistema impide la confirmación de la reserva indicando que debe marcar todos los elementos del checklist antes de poder reservar el recurso.
+      </td>
+      <td>EP-008</td>
+    </tr>
+    <tr>
+      <td>US-040</td>
+      <td>Fotos/documentos asociados a recursos</td>
+      <td>Como administrador, quiero subir fotos/documentos técnicos de recursos complejos, para que los usuarios sepan exactamente qué esperar.</td>
+      <td>
+        <b>Escenario 1: Carga de imágenes y documentos a un recurso</b><br>
+        Given que el administrador desea agregar un recurso,<br>
+        When sube imágenes/documentos,<br>
+        Then el sistema los muestra en la ficha técnica del recurso.
+        <br>
+        <b>Escenario 2: Descarga de documentos técnicos por el usuario</b><br>
+        Given que el usuario consulta un recurso,<br>
+        When expande "Detalles",<br>
+        Then el sistema permite descargar manuales o especificaciones técnicas.
+        <br>
+        <b>Escenario 3: Intento de subir un tipo de archivo no permitido</b><br>
+        Given el administrador desea agregar un recurso,<br>
+        When intenta subir un archivo con un tipo de formato no permitido por el sistema,<br>
+        Then el sistema debería mostrar un mensaje de error indicando que el tipo de archivo no es compatible
+      </td>
+      <td>EP-008</td>
+    </tr>
+    <tr>
+      <td>US-041</td>
+      <td>Previsualización de archivos adjuntos</td>
+      <td>Como usuario, deseo ver miniaturas/previews de archivos adjuntos a tareas sin descargarlos, para ahorrar tiempo.</td>
+      <td>
+        <b>Escenario 1: Previsualización al pasar el cursor</b><br>
+        Given que la tarea tiene un archivo adjunto,<br>
+        When pasa el cursor encima,<br>
+        Then el sistema muestra un preview con contenido relevante.
+        <br>
+        <b>Escenario 2: Expansión de previsualización de imágenes</b><br>
+        Given que la tarea tiene una imagen adjunta,<br>
+        When el usuario hace clic en thumbnail,<br>
+        Then el sistema expande la vista previa en lightbox.
+        <br>
+        <b>Escenario 3: Error con la previsualización</b><br>
+        Given que la tarea tiene un archivo adjunto,<br>
+        When pasa el cursor encima<br>
+        And la previsualización falla,<br>
+        Then el sistema debe mostrar un mensaje que indique que la vista previa no está disponible.
+      </td>
+      <td>EP-008</td>
+    </tr>
+    <tr>
+        <td>US-042</td>
+        <td>Ajuste de Disponibilidad Temporal</td>
+        <td>Como miembro, deseo poder ajustar mi disponibilidad estimada para un día específico, para que el líder considere mi tiempo al asignar tareas.</td>
+        <td>
+            <b>Escenario 1: Ajuste de disponibilidad en un día</b><br>
+            Given que un miembro desea modificar su disponibilidad para un día específico,<br>
+            When el miembro selecciona el nuevo horario de disponibilidad para un día específico<br>
+            And ingresa el motivo de modificación,<br>
+            Then el sistema sobreescribe la disponibilidad para la fecha y horario especificado.
+            <br>
+            <b>Escenario 2: Eliminación de la modificación de disponibilidad</b><br>
+            Given que un miembro modificó su disponibilidad anteriormente para un día específico<br>
+            And desea eliminar la modificación<br>
+            When el miembro visualiza su horario<br>
+            And selecciona el cambio realizado sobre ese día<br>
+            And confirma su eliminación<br>
+            Then el sistema elimina el cambio realizado del horario.
+        </td>
+        <td>EP-005</td>
+    </tr>
+    <tr>
+        <td>US-042</td>
+        <td>Notificación de ajuste de disponibilidad significativo</td>
+        <td>Como líder, deseo recibir notificaciones automáticas cuando un miembro actualiza significativamente su disponibilidad</td>
+        <td>
+            <b>Escenario 1: Notificación de cambio significativo</b><br>
+            Given un miembro actualiza su disponibilidad,<br>
+            When la disponibilidad recibe un cambio mayor a cinco horas por defecto,<br>
+            Then el sistema notifica al líder sobre el cambio del usuario.
+            <br>
+            <b>Escenario 2: Configuración de la notificación</b><br>
+            Given el líder desea cambiar el límite del cambio de disponibilidad para la notificación,<br>
+            When el líder ingresa el nuevo límite,<br>
+            Then el sistema actualiza el límite para las notificaciones.
+            <br>
+            <b>Escenario 3: Valores del límite no permitidos</b><br>
+            Given el líder desea cambiar el límite del cambio de disponibilidad para la notificación,<br>
+            When el líder ingresa el nuevo límite<br>
+            And el límite supera lo establecido en el sistema,<br>
+            Then el sistema muestra un mensaje de error indicando que el límite establecido no está permitido.
+        </td>
+        <td>EP-005</td>
+    </tr>
+  </tbody>
+</table>
 
 ### 3.3. Impact Mapping
 
+<img src="images/chapter-3/impactmapping.png" alt="ImpactMapping" width="800"/>
+
 ### 3.4. Product Backlog
+
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>Prioridad</th>
+                <th>Story ID</th>
+                <th>Título</th>
+                <th>Descripción</th>
+                <th>SP</th>
+            </tr>
+        </thead>
+          <tbody>
+            <tr><td>1</td><td>US-001</td><td>Selección de los miembros del grupo</td><td>Como líder de grupo, deseo poder seleccionar los miembros...</td><td>5</td></tr>
+            <tr><td>2</td><td>US-003</td><td>Creación del grupo</td><td>Como líder de grupo, deseo poder definir grupo junto con su objetivo...</td><td>5</td></tr>
+            <tr><td>3</td><td>US-007</td><td>Asignación de tareas a los miembros</td><td>Como líder de grupo, deseo asignar tareas a miembros...</td><td>5</td></tr>
+            <tr><td>4</td><td>US-004</td><td>Página de inicio personalizada con tareas y horarios</td><td>Como miembro del equipo, deseo tener una página de inicio...</td><td>5</td></tr>
+            <tr><td>5</td><td>US-005</td><td>Asignación de niveles de prioridad</td><td>Como líder de grupo, deseo poder asignar tareas con niveles de prioridad...</td><td>3</td></tr>
+            <tr><td>6</td><td>US-006</td><td>Notificaciones automáticas sobre tareas y fechas clave</td><td>Como miembro del equipo, deseo recibir notificaciones automáticas...</td><td>3</td></tr>
+            <tr><td>7</td><td>US-009</td><td>Visualización del tablero de tareas</td><td>Como líder de grupo, deseo tener un tablero visual en tiempo real...</td><td>3</td></tr>
+            <tr><td>8</td><td>US-013</td><td>Dashboard de progreso grupal</td><td>Como líder, deseo ver un panel con el avance de objetivos...</td><td>3</td></tr>
+            <tr><td>9</td><td>US-022</td><td>Visualización de tareas grupales</td><td>Como miembro de un equipo en SynHub, deseo acceder a una vista consolidada...</td><td>3</td></tr>
+            <tr><td>10</td><td>US-002</td><td>Visualización de integrantes y líder</td><td>Como miembro de grupo, deseo poder visualizar los integrantes de mi grupo...</td><td>3</td></tr>
+            <tr><td>11</td><td>US-010</td><td>Edición de tareas</td><td>Como miembro del equipo, deseo poder editar las tareas asignadas...</td><td>3</td></tr>
+            <tr><td>12</td><td>US-011</td><td>Eliminación de tareas</td><td>Como líder de grupo, deseo poder eliminar tareas obsoletas o incorrectas...</td><td>3</td></tr>
+            <tr><td>13</td><td>US-012</td><td>Filtro de tareas por prioridad y fecha</td><td>Como miembro del equipo, deseo filtrar tareas por prioridad o fecha límite...</td><td>3</td></tr>
+            <tr><td>14</td><td>US-014</td><td>Comentarios en tareas</td><td>Como miembro del grupo, deseo poder dejar comentarios en tareas específicas...</td><td>3</td></tr>
+            <tr><td>15</td><td>US-015</td><td>Historial de cambios en tareas</td><td>Como líder, deseo ver el historial de cambios en las tareas...</td><td>3</td></tr>
+            <tr><td>16</td><td>US-016</td><td>Asignación múltiple de tareas</td><td>Como líder de grupo, deseo poder asignar una tarea a varios miembros...</td><td>3</td></tr>
+            <tr><td>17</td><td>US-017</td><td>Buscador de tareas</td><td>Como miembro, deseo buscar tareas por palabra clave...</td><td>3</td></tr>
+            <tr><td>18</td><td>US-018</td><td>Visualización por calendario</td><td>Como miembro, deseo ver las tareas en una vista de calendario...</td><td>3</td></tr>
+            <tr><td>19</td><td>US-019</td><td>Exportar tareas a PDF</td><td>Como miembro, deseo exportar mis tareas a un archivo PDF...</td><td>2</td></tr>
+            <tr><td>20</td><td>US-020</td><td>Integración con Google Calendar</td><td>Como miembro, deseo integrar mis tareas con Google Calendar...</td><td>2</td></tr>
+            <tr><td>21</td><td>US-021</td><td>Recordatorios por correo</td><td>Como miembro, deseo recibir recordatorios por correo...</td><td>2</td></tr>
+            <tr><td>22</td><td>US-023</td><td>Reordenar tareas manualmente</td><td>Como usuario, deseo arrastrar y soltar tareas para reorganizarlas manualmente...</td><td>2</td></tr>
+            <tr><td>23</td><td>US-024</td><td>Colores por estado</td><td>Como usuario, deseo que las tareas cambien de color según su estado...</td><td>2</td></tr>
+            <tr><td>24</td><td>US-025</td><td>Perfil de usuario</td><td>Como usuario, deseo tener un perfil donde pueda cambiar mi foto, nombre y rol...</td><td>2</td></tr>
+            <tr><td>25</td><td>US-026</td><td>Roles de usuario</td><td>Como administrador, deseo poder asignar roles a los usuarios...</td><td>2</td></tr>
+            <tr><td>26</td><td>US-027</td><td>Confirmación de lectura</td><td>Como líder, deseo saber quién ha visto una tarea asignada...</td><td>2</td></tr>
+            <tr><td>27</td><td>US-028</td><td>Reasignar tareas</td><td>Como líder, deseo poder reasignar tareas de un miembro a otro...</td><td>2</td></tr>
+            <tr><td>28</td><td>US-029</td><td>Chat grupal</td><td>Como usuario, deseo tener un chat para comunicarme con mi grupo...</td><td>2</td></tr>
+            <tr><td>29</td><td>US-030</td><td>Reacciones en comentarios</td><td>Como usuario, deseo poder reaccionar a comentarios con emojis...</td><td>2</td></tr>
+            <tr><td>30</td><td>US-031</td><td>Soporte técnico</td><td>Como usuario, deseo contactar al soporte técnico desde la plataforma...</td><td>2</td></tr>
+            <tr><td>31</td><td>US-032</td><td>Indicador de actividad</td><td>Como líder, deseo ver quién está activo en la plataforma...</td><td>2</td></tr>
+            <tr><td>32</td><td>US-033</td><td>Recuperación de contraseña</td><td>Como usuario, deseo poder recuperar mi contraseña si la olvido...</td><td>2</td></tr>
+            <tr><td>33</td><td>US-034</td><td>Confirmación al eliminar tarea</td><td>Como usuario, deseo recibir una alerta de confirmación antes de eliminar una tarea...</td><td>1</td></tr>
+            <tr><td>34</td><td>US-035</td><td>Instrucciones de uso</td><td>Como nuevo usuario, deseo acceder a un tutorial o guía rápida...</td><td>1</td></tr>
+            <tr><td>35</td><td>US-036</td><td>Modo oscuro</td><td>Como usuario, deseo activar un modo oscuro...</td><td>1</td></tr>
+            <tr><td>36</td><td>US-037</td><td>Estadísticas de uso</td><td>Como administrador, deseo ver estadísticas generales del uso de la plataforma...</td><td>1</td></tr>
+            <tr><td>37</td><td>US-038</td><td>Control de versiones</td><td>Como desarrollador, deseo mantener un control de versiones del sistema...</td><td>1</td></tr>
+            <tr><td>38</td><td>US-039</td><td>Soporte móvil</td><td>Como usuario, deseo acceder desde mi celular sin perder funcionalidad...</td><td>1</td></tr>
+            <tr><td>39</td><td>US-040</td><td>Etiquetas personalizadas</td><td>Como usuario, deseo agregar etiquetas personalizadas a mis tareas...</td><td>1</td></tr>
+            <tr><td>40</td><td>US-041</td><td>Integración con herramientas externas</td><td>Como usuario avanzado, deseo integrar la plataforma con otras herramientas...</td><td>1</td></tr>
+            <tr><td>41</td><td>US-008</td><td>Asignación de fechas límite</td><td>Como líder de grupo, deseo establecer fechas límite en las tareas...</td><td>3</td></tr>
+            <tr><td>40</td><td>US-042</td><td>Ajuste de disponibilidad temporal</td><td>Como miembro, deseo poder ajustar mi disponibilidad estimada para un día específico...</td><td>1</td></tr>
+            <tr><td>40</td><td>US-043</td><td>Notificación de ajuste de disponibilidad significativo</td><td>Como líder, deseo recibir notificaciones automáticas cuando un miembro actualiza...</td><td>2</td></tr>
+        </tbody>
+    </table>
+</body>
 
 ## Capítulo IV: Solution Software Design
 
@@ -659,5 +2581,7 @@ Características clave:
 ## Conclusiones
 
 ## Bibliografía
+
+- Khan, M. (2024, 4 septiembre). *State of Teams Report 2021 - Work Life by Atlassian*. Work Life By Atlassian. [https://www.atlassian.com/blog/state-of-teams](https://www.atlassian.com/blog/state-of-teams)
 
 ## Anexos
