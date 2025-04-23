@@ -235,6 +235,7 @@ Finalizar un curso especializado en testing automatizado con Jest o Cypress ante
 ### 1.1. Startup Profile
 
 #### 1.1.1. Descripción de la Startup
+
 Nuestra empresa NRG4 nace con la visión de ofrecer soluciones digitales que mejoren la organización y la colaboración en los entornos donde convivimos y trabajamos. En esta ocasión, presentamos SynHub, una plataforma pensada para resolver uno de los retos más comunes y menos atendidos en grupos modernos: la coordinación eficiente de tareas, horarios y responsabilidades compartidas.
 
 Entendemos que en un mundo donde el tiempo es limitado y las actividades se superponen constantemente, contar con herramientas que faciliten la gestión grupal es indispensable. Ya sea en el hogar, en equipos de trabajo, grupos de estudio, organizaciones comunitarias o cualquier espacio colaborativo, SynHome permite mantener el orden, promover la participación equitativa y fortalecer la comunicación entre los miembros del grupo. Desde NRG4 buscamos justamente eso: transformar la forma en que las personas se organizan en conjunto.
@@ -2460,23 +2461,196 @@ En esta sección, se presenta el mapa de empatía, que nos ayudará a comprender
 
 ### 4.1. Strategic-Level Domain-Driven Design
 
+En esta sección se presenta el enfoque adoptado para tomar decisiones estratégicas en el desarrollo del sistema, aplicando los principios del Domain-Driven Design (DDD). El objetivo principal fue identificar y establecer los límites naturales del dominio, descomponiendo la solución en Bounded Contexts.
+
+Para lograr esta descomposición, el equipo empleó herramientas colaborativas clave como Event Storming, que permitió mapear y visualizar de forma dinámica los flujos de eventos, comandos y actores dentro del dominio; y el Bounded Context Canvas, utilizado para definir los elementos esenciales de cada contexto, incluyendo objetivos, modelos, responsabilidades y relaciones con otros contextos.
+
+Este proceso estratégico permitió no solo estructurar el sistema de manera más coherente, sino también alinear las decisiones técnicas con los objetivos de negocio, facilitando la comunicación entre los distintos actores involucrados en el desarrollo del proyecto.
+
 #### 4.1.1. EventStorming
+
+En esta sección se expone y fundamenta el proceso de **EventStorming** llevado a cabo por el equipo, con el propósito de construir una primera aproximación al modelado general del dominio del problema. Esta técnica, centrada en la identificación de eventos relevantes dentro del sistema, permite capturar el conocimiento colectivo de los participantes y detonar conversaciones clave sobre el comportamiento esperado del sistema en distintos escenarios.
+
+La sesión fue organizada estratégicamente con una duración de entre una a dos horas. Durante esta actividad, se emplearon post-its digitales para representar eventos y comandos lo que facilitó una exploración visual e iterativa del flujo de trabajo.
+
+<img src="images/chapter-4/eventStorming1.png">
 
 ##### 4.1.1.1. Candidate Context Discovery
 
+Una vez finalizada la sesión de Event Storming, se realizó un análisis exhaustivo de los eventos identificados, con el objetivo de descubrir los contextos candidatos que podrían ser relevantes para el dominio del problema. Este proceso implicó la identificación de patrones y relaciones entre los eventos, así como la evaluación de su impacto en el sistema.
+Gracias a esto se establecieron listados de eventos que formaban parte de un mismo proceso de acción para la aplicación.
+
+<img src="images/chapter-4/eventStorming2.png">
+
+A continuación se muestra con detalle las líneas de acción creadas:
+
+**Creación de grupo**
+
+<img src="images/chapter-4/eventStorming2-1.png" alt="Creación de grupo" width="600"/>
+
+**Asignación de tareas**
+
+<img src="images/chapter-4/eventStorming2-2.png" alt="Asignación de tareas" width="600"/>
+
+**Modificación de tareas**
+
+<img src="images/chapter-4/eventStorming2-3.png" alt="Modificación de tareas" width="600"/>
+
+**Cumplimiento de tareas**
+
+<img src="images/chapter-4/eventStorming2-4.png" alt="Cumplimiento de tareas" width="600"/>
+
+**Incumplimiento de tareas**
+
+<img src="images/chapter-4/eventStorming2-5.png" alt="Incumplimiento de tareas" width="600"/>
+
+Una vez creadas las líneas de acción se buscó encontrar los "pain points", solo se tuvo que modificar la línea de acción de creación de grupo.
+**Creación de grupo**
+
+<img src="images/chapter-4/eventStorming2-1-1.png" alt="Creación de grupo" width="600"/>
+
+Una vez terminadas las líneas de acción se buscó encontrar los "pivotal point", los cuales son eventos que pueden cambiar el flujo de la aplicación.
+Los pivotal point encontrados fueron:
+
+- La creación de un grupo
+- La creación de una tarea
+- La modificación de una tarea
+- La asignación de una tarea
+- Acciones que requieran enviar notificaciones
+- El cumplimiento de tareas
+- El incumplimiento de tareas
+
+Gracias a encontrar los pivotal points se pudo identificar como los distintos eventos formaban parte de distintos contextos, los cuales son:
+
+- Gestión de grupos
+- Notificaciones
+- Gestión de tareas
+- Análitica y reportes
+- Solicitudes y Validaciones
+
+Finalmente se dividio cada evento en comandos, eventos, agregados, vistas y entidades, los cuales son los siguientes:
+**Gestión de grupos**
+
+<img src="images/chapter-4/eventStorming3-1.png" alt="Gestión de grupos" width="600"/>
+
+**Notificaciones**
+
+<img src="images/chapter-4/eventStorming3-2.png" alt="Notificaciones" width="600"/>
+
+**Gestión de tareas**
+
+<img src="images/chapter-4/eventStorming3-3.png" alt="Notificaciones" width="600"/>
+
+**Análitica y reportes**
+
+<img src="images/chapter-4/eventStorming3-4.png" alt="Análitica y reportes" width="600"/>
+
+**Solicitudes y Validaciones**
+
+<img src="images/chapter-4/eventStorming3-5.png" alt="Solicitudes y Validaciones" width="600"/>
+
 ##### 4.1.1.2. Domain Message Flows Modeling
+
+Como siguiente paso se buscó interconectar los bounded contexts encontrados en la sección anterior, para esto se buscó encontrar los eventos que se comunican entre los distintos contextos.
+
+**Gestión de grupos y notificaciones:** Al generar una invitación de grupo se envía una notificación al usuario invitado, y al aceptar la invitación se envía una notificación al creador del grupo.
+
+<img src="images/chapter-4/flowModeling1.png" alt="Gestión de grupos y notificaciones" width="600"/>
+
+**Gestión de tareas y notificaciones:** Al crear una tarea se envía una notificación al usuario asignado, y al cumplir la tarea se envía una notificación al creador de la tarea.
+
+<img src="images/chapter-4/flowModeling2.png" alt="Gestión de tareas y notificaciones" width="600"/>
+
+**Notificaciones y Solicitudes y Validaciones:** Al crear una solicitud de validación se envía una notificación al usuario asignado, y al aceptar la solicitud se envía una notificación al creador de la solicitud.
+
+<img src="images/chapter-4/flowModeling3.png" alt="Notificaciones y Solicitudes y Validaciones" width="600"/>
+
+**Solicitudes y Validadciones y Análitica y reportes:** Al validarse si se completó o no una tarea se crean o modifican las estadísticas de progreso grupal.
+
+<img src="images/chapter-4/flowModeling4.png" alt="Solicitudes y Validadciones y Análitica y reportes" width="600"/>
+
+**Solicitudes y Validadciones y Notificaciones:** Al momento de marcarse tareas como completadas o no completadas se envía una notificación al coordinador. Al asignar reprogramar tareas se enviará notificaciones al usuario antiguo y al nuevo usuario al que pertenece la tarea. Al modificar(actualizar, reprogramar o eliminar) tareas se enviará una notificación a todos los involucrados (coordinadores e integrantes).
+
+<img src="images/chapter-4/flowModeling5.png" alt="Solicitudes y Validadciones y Notificaciones" width="600"/>
+
+Finalmente se muestra una captura global de la arquitectura del sistema, donde se puede ver la interacción entre los distintos componentes y como se comunican entre ellos.
+
+<img src="images/chapter-4/flowModeling6.png" alt="Architecture" width="600"/>
+
+Enlace del Miro board sobre el que se trabajo: https://miro.com/app/board/uXjVIAKXzls=/?share_link_id=902923638078
 
 ##### 4.1.1.3. Bounded Context Canvases
 
+En esta sección se desarrolla la descomposición estratégica del dominio mediante la elaboración de los Bounded Context Canvases, con el objetivo de identificar y delimitar áreas funcionales coherentes dentro del sistema. Esta práctica forma parte esencial del enfoque de Domain-Driven Design (DDD), ya que permite clarificar los límites semánticos y técnicos entre distintas partes del sistema, minimizando la complejidad y facilitando una evolución independiente de cada componente.
+
+El equipo ha definido previamente un conjunto de Bounded Contexts candidatos, ordenados según su importancia funcional y estratégica. A partir de esta priorización, se procede con el diseño iterativo de los Bounded Context Canvases. Cada canvas incluye los siguientes elementos clave:
+
+- Context Overview Definition: para entender el propósito y alcance del contexto.
+- Business Rules Distillation & Ubiquitous Language Capture: para identificar reglas de negocio clave y establecer un lenguaje común entre stakeholders y desarrolladores.
+- Capability Analysis y Capability Layering: para comprender las capacidades funcionales ofrecidas por el contexto y, de ser necesario, organizarlas en capas.
+- Dependencies Capture: para reconocer relaciones con otros contextos y sus posibles implicancias.
+- Design Critique: para revisar y refinar el diseño propuesto con una mirada crítica y colaborativa.
+
+**Gestión de grupos**
+
+<img src="images/chapter-4/groups-bc-canvas.png" alt="Gestión de grupos" width="600"/>
+
+**Gestión de tareas**
+
+<img src="images/chapter-4/tareas-bc-canvas.png" alt="Gestión de tareas" width="600"/>
+
+**Solicitudes y Validaciones**
+
+<img src="images/chapter-4/solicitudes-bc-canvas.png" alt="Solicitudes y Validaciones" width="600"/>
+
+**Notificaciones**
+
+<img src="images/chapter-4/notificaciones-bc-canvas.png" alt="Notificaciones" width="600"/>
+
+**Análitica y reportes**
+
+<img src="images/chapter-4/reportes-bc-canvas.png" alt="Análitica y reportes" width="600"/>
+
 #### 4.1.2. Context Mapping
+
+El Context Mapping es una técnica clave dentro del enfoque de Domain-Driven Design (DDD) a nivel estratégico, que permite visualizar y comprender cómo interactúan los distintos Bounded Contexts dentro de un sistema complejo. A través de esta herramienta, se identifican las relaciones, dependencias y límites de comunicación entre contextos, definiendo claramente los flujos de información, los tipos de colaboración (como Customer/Supplier, Conformist, Partnership o Anticorruption Layer), y el uso de patrones como Open Host Service.
+
+El propósito del Context Mapping es facilitar una arquitectura de software más modular, mantenible y alineada con el dominio del negocio, permitiendo que cada contexto evolucione de forma autónoma sin generar acoplamientos innecesarios. Esta representación también apoya la toma de decisiones sobre integraciones, responsabilidades y coordinación entre equipos.
+
+<img src="images/chapter-4/context-mapping.png" alt="Context Mapping" width="600"/>
+
+
+| Destino (Downstream)       | Origen (Upstream)           | Tipo de Relación | ¿OHS? | Comentario                                                              |
+| -------------------------- | --------------------------- | ----------------- | ------ | ----------------------------------------------------------------------- |
+| Analítica y Reportes      | Gestión de Grupos          | Customer/Supplier | No     | Expone info grupal                                                      |
+| Solicitudes y Validaciones | Gestión de Grupos          | Customer/Supplier | Si     | Se nutre de los datos de los integrantres                               |
+| Gestión de Tareas         | Gestión de Grupos          | Customer/Supplier | No     | Obtiene información de los integrantes de grupo                        |
+| Gestión de Tareas         | Solicitudes y Validaciones  | Partnership       | No     | Comparte información entre sí de las tareas                           |
+| Analítica y Reportes      | Gestión de Tareas          | Customer/Supplier | Si     | Se nutre de la información de las tareas para elaborar reportes        |
+| Analítica y Reportes      | Solicitudes y Validaciones  | Customer/Supplier | No     | Otiene la infomración de actualización de cmabios y solicitudes       |
+| Notificaciones             | Grupos, solicitudes, tareas | Partnership       | No     | Emite notificaciones según instrucciones de los demás bounded context |
 
 #### 4.1.3. Software Architecture
 
+La arquitectura del sistema se estructura en tres niveles: el Context Diagram define las interacciones externas entre SynHub (núcleo del sistema), sus usuarios (Miembro, Líder) y servicios externos (Google Calendar); el Container Diagram descompone SynHub en módulos clave (Mobile App, API REST, PostgreSQL y Landing Page), detallando sus responsabilidades y comunicación interna; y el Deployment Diagram especifica el despliegue físico/cloud de estos componentes, incluyendo servidores, dispositivos móviles y conexiones con APIs externas. Juntos, garantizan un diseño escalable, integrado y bien organizado.
+
 ##### 4.1.3.1. Software Architecture Context Level Diagrams
+
+El Context Diagram muestra a SynHub (el sistema central) interactuando con sus usuarios principales —el Miembro y el Líder— quienes utilizan la aplicación para gestionar actividades, mientras que SynHub se integra con Google Calendar para sincronizar eventos externos. Este diagrama enfatiza las relaciones externas del sistema, sin detallar componentes internos, destacando cómo los actores clave (usuarios y servicios externos) se conectan con la plataforma principal para intercambiar información.
+
+<img src="images/chapter-4/contextDiagram.png" alt="Context Diagram" width="600"/>
 
 ##### 4.1.3.2. Software Architecture Container Level Diagrams
 
+El Container Diagram describe la arquitectura del sistema, donde los usuarios (Miembro y Líder) interactúan con la Landing Page (web) y la Mobile App, las cuales se conectan a una API REST (backend) que gestiona la lógica de negocio. Esta API se comunica con una base de datos PostgreSQL para almacenar datos y con Google Calendar (mediante su API) para sincronizar eventos. Cada componente (frontend, backend, base de datos y servicio externo) opera en contenedores o entornos independientes, conectados a través de APIs RESTful (HTTPS/JSON) y protocolos como JDBC (PostgreSQL) y OAuth 2.0 (Google).
+
+<img src="images/chapter-4/containerDiagram.png" alt="Container Diagram" width="600"/>
+
 ##### 4.1.3.3. Software Architecture Deployment Diagrams
+
+El diagrama de despliegue representa un sistema donde una aplicación móvil se comunica con una API REST mediante HTTP/HTTPS; esta API gestiona la lógica de negocio, interactúa con una base de datos PostgreSQL para almacenar datos y se integra con Google Calendar a través de su API  para sincronizar eventos. Los componentes clave incluyen: la app (frontend), el servidor de la API (backend), la base de datos (almacenamiento) y el servicio externo de Google , conectados mediante protocolos como RESTful APIs (JSON).
+
+<img src="images/chapter-4/deploymentDiagram.png" alt="Deployment Diagram" width="600"/>
 
 ### 4.2. Tactical-Level Domain-Driven Design
 
