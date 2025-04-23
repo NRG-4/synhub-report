@@ -31,8 +31,6 @@
 
 ## Registro de Versiones del Informe
 
-
-
 <table>
   <thead>
     <tr>
@@ -42,40 +40,7 @@
       <th>Descripción de modificación</th>
     </tr>
   </thead>
-  <tbody>
-    <tr>
-      <td>0.1</td>
-      <td>2025-04-02</td>
-      <td>Casas Sanchez Gabriel Alexander, Astonitas Díaz Juan Diego y Pacheco Astiguetta Sebastian</td>
-      <td>Desarrollo de los ítems: 1.1. Startup Profile, que incluye los subítems 1.1.1. Descripción de la Startup y 1.1.2. Perfiles de integrantes del equipo. Luego se presenta el 1.2. Solution Profile, que contiene los apartados 1.2.1. Antecedentes y problemática y 1.2.2. Lean UX Process, el cual se desglosa en 1.2.2.1. Lean UX Problem Statements, 1.2.2.2, 1.2.2.3 y 1.2.2.4. Finalmente, se desarrolla la sección 1.3. Lean UX Assumptions, que incluye los ítems Lean UX Hypothesis Statements, Lean UX Canvas y Segmentos objetivo.</td>
-    </tr>
-    <tr>
-      <td>0.2</td>
-      <td>2025-04-07</td>
-      <td>Pasquale Barrenechea Gianluca Santino y Alejo Cardenas Jose Antonio</td>
-      <td>Desarrollo de los ítems: La sección 2 del informe está compuesta por varios apartados clave, comenzando con el 2.1. Competidores, que abarca los subítems 2.1.1. Análisis competitivo y 2.1.2. Estrategias y tácticas frente a competidores. Luego se desarrolla el 2.2. Entrevistas, que incluye 2.2.1. Diseño de entrevistas, 2.2.2. Registro de entrevistas y 2.2.3. Análisis de entrevistas. A continuación, se presenta el 2.3. Needfinding, compuesto por 2.3.1. User Personas, 2.3.2. User Task Matrix, 2.3.3. User Journey Mapping, 2.3.4. Empathy Mapping y 2.3.5. As-is Scenario Mapping. Finalmente, se cierra esta parte del informe con el apartado 2.4. Ubiquitous Language.</td>
-    </tr>
-    <tr>
-      <td>0.3</td>
-      <td>2025-04-18</td>
-      <td>Alejo Cardenas Jose Antonio, Astonitas Díaz Juan Diego</td>
-      <td>Desarrollo de los ítems: 3.1. To-Be Scenario Mapping, 3.2. Avance de las User Stories, 3.3. Impact Mapping y 3.4. Avance del Product Backlog.</td>
-    </tr>
-    <tr>
-      <td>0.4</td>
-      <td>2025-04-21</td>
-      <td>Casas Sanchez Gabriel Alexander, Alejo Cardenas Jose Antonio, Astonitas Díaz Juan Diego, Pasquale Barrenechea Gianluca Santino y Pacheco Astiguetta Sebastian</td>
-      <td>Desarrollo de los ítems: 3.2. Finalizacion de las User Stories, 3.4. Finalizacion del Product Backlog, 4.1. Strategic-Level Domain-Driven Design y comprende los siguientes subítems: 4.1.1. EventStorming, que a su vez incluye 4.1.1.1. Candidate Context Discovery, 4.1.1.2, 4.1.1.3. Domain Message Flows Modeling y Bounded Context Canvases. También se desarrolla el apartado 4.1.2. Context Mapping y 4.1.3. Software Architecture, que contiene 4.1.3.1. Software Architecture Context Level Diagrams, 4.1.3.2. Software Architecture Container Level Diagrams y 4.1.3.3 Software Architecture Deployment Diagrams.  </td>
-    </tr>
-    <tr>
-      <td>1.0</td>
-      <td>2025-04-22</td>
-      <td>Casas Sanchez Gabriel Alexander, Astonitas Díaz Juan Diego y Alejo Cardenas Jose Antonio</td>
-      <td>Revisión completa hasta el capitulo 4, corrección ortográfica y coherencia global del reporte.</td>
-    </tr>
-  </tbody>
 </table>
-
 
 ## Project Report Collaboration Insights
 
@@ -225,42 +190,45 @@ EAC - Student Outcome 7.
 
 ## Objetivos SMART
 
+**Casas Sánchez Gabriel Alexander**
 
-*Casas Sánchez Gabriel Alexander*
 Objetivo 1:
 Desarrollar competencias avanzadas en backend mediante la obtención de una certificación oficial en Node.js dentro de los primeros 12 meses posteriores a la graduación, con el fin de calificar para roles como desarrollador fullstack en empresas tecnológicas.
 
 Objetivo 2:
 Colaborar activamente en al menos dos proyectos open source en GitHub dentro del primer año después de egresar, para fortalecer habilidades técnicas, manejo de control de versiones y trabajo en equipo remoto.
 
-*Alejo Cárdenas José Antonio*
+**Alejo Cárdenas José Antonio**
+
 Objetivo 1:
 Finalizar un diplomado especializado en frontend con React y fundamentos de UX/UI dentro de los primeros 10 meses tras culminar la carrera, para postular a posiciones como frontend developer.
 
 Objetivo 2:
 Diseñar y lanzar un portafolio web personal con mínimo tres proyectos reales antes de los primeros seis meses de egresado, que evidencie mis conocimientos en interfaces modernas, accesibilidad y diseño adaptable.
 
-*Astonitas Díaz Juan Diego*
+**Astonitas Díaz Juan Diego**
+
 Objetivo 1:
 Aplicar a programas de prácticas preprofesionales o puestos junior como backend developer en empresas de tecnología dentro de los seis meses posteriores a mi egreso, aprovechando mis conocimientos en bases de datos y APIs.
 
 Objetivo 2:
 Crear un proyecto personal funcional basado en microservicios usando Spring Boot y Docker dentro de los primeros ocho meses después de egresar, que pueda integrar a mi portafolio como evidencia de competencias técnicas.
 
-*Pasquale Barrenechea Gianluca Santino*
+**Pasquale Barrenechea Gianluca Santino**
+
 Objetivo 1:
 Participar en un bootcamp intensivo de desarrollo fullstack MERN en los primeros seis meses luego de la graduación, con el objetivo de dominar tanto el frontend como el backend en JavaScript.
 
 Objetivo 2:
 Publicar dos artículos técnicos en plataformas como Medium o Dev.to en el primer año tras egresar, compartiendo aprendizajes sobre desarrollo de software y buenas prácticas en proyectos web.
 
-*Pacheco Astiguetta Sebastián*
+**Pacheco Astiguetta Sebastián**
+
 Objetivo 1:
 Postular a programas de talento junior o trainee en desarrollo fullstack dentro de los primeros siete meses tras finalizar la carrera, con enfoque en empresas tecnológicas emergentes.
 
 Objetivo 2:
 Finalizar un curso especializado en testing automatizado con Jest o Cypress antes de cumplir un año de egresado, con el fin de asegurar la calidad del software en proyectos reales.
-
 
 ## Capitulo I
 
