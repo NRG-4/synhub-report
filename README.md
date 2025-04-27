@@ -2738,6 +2738,30 @@ El objetivo de estas directrices es asegurar que todas las interfaces de usuario
 Al seguir estas directrices, SynHub busca garantizar una interfaz intuitiva que sea fácil de navegar para todos los usuarios, creando una atmósfera de confianza y accesibilidad. Se hace énfasis en diseñar una aplicación moderna, accesible y centrada en el usuario, en la que cada detalle visual contribuya a hacer más fluida la experiencia del usuario, mientras refleja los valores de eficiencia y colaboración que la plataforma promueve.
 
 ##### 5.1.1.1. General Style Guidelines
+**Colores:**
+
+Para SynHub, una plataforma orientada a la gestión colaborativa de tareas, horarios y responsabilidades, es importante elegir una paleta de colores que refuerce la accesibilidad, claridad y profesionalismo, mientras refleja el enfoque organizado y eficiente de la aplicación.
+
+Los colores principales busca establecer una apariencia de confiabilidad y simplicidad. Mientras que los colores secundarios serán utilizados para los fondos de las vistas, estados de validación y el color de la tipografía.
+
+<img src="images/chapter-5/colors.png" alt="Colores" width="600"/>
+
+**Tipografía**
+
+Lato es una tipografía con base en sans-serif, lo que significa que tienen un enfoque limpio y sin adornos, ideal para entornos digitales y modernos, donde la facilidad de lectura y la atracción visual son fundamentales. Además, sus líneas geométricas y proporciones balanceadas refuerzan la identidad visual de una empresa que se especializa en servicios de belleza de alta calidad, ofreciendo una experiencia visual coherente y atractiva.
+
+<img src="images/chapter-5/typography.png" alt="Tipografía" width="600"/>
+
+**Simplicidad y Claridad**
+
+La simplicidad y claridad son principios esenciales para crear aplicaciones funcionales que faciliten la interacción del usuario. Al centrarse en estos principios, SynHub podrá proporcionar una experiencia eficiente, accesible y agradable, ayudando a los usuarios a concentrarse en lo que realmente importa: la organización y gestión colaborativa de tareas.
+Se buscará cumpli con los siguientes objetivos:
+- **Interfaz Minimalista:** Utilizar un diseño limpio y sin distracciones. Solo se deben mostrar los elementos más esenciales, como botones, menús y texto que guíen al usuario hacia la acción principal.
+- **Uso de Espacios Blancos:** Un espacio adecuado entre los elementos de la interfaz ayuda a que la pantalla no se vea sobrecargada.
+- **Simplificación de los Flujos de Usuarios:** Los procesos y flujos dentro de la aplicación deben ser lo más directos posibles.
+- **Jerarquía Visual:** Es importante destacar los elementos más importantes de la pantalla usando diferentes tamaños, colores y posiciones.
+- **Iconos y Símbolos Intuitivos:** Los iconos deben ser fáciles de reconocer y comprender sin necesidad de texto adicional.
+- **Lenguaje Claro y Directo:** Los textos deben ser fáciles de entender. Usar un lenguaje simple y accesible.
 
 #### 5.1.2. Information Architecture
 
