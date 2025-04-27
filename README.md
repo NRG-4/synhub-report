@@ -2765,6 +2765,8 @@ Se buscará cumpli con los siguientes objetivos:
 
 #### 5.1.2. Information Architecture
 
+es un aspecto fundamental en el diseño de experiencias digitales, ya que define cómo se organizará y presentará la información en las plataformas web y móvil. En esta sección, el equipo establece las decisiones clave que guiarán la estructura de los productos, asegurando que los usuarios y visitantes puedan navegar de manera intuitiva y encontrar la información o funcionalidad que necesitan de manera rápida y eficiente.
+
 ##### 5.1.2.1. Organization Systems
 
 ##### 5.1.2.2. Labeling Systems
