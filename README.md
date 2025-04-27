@@ -2827,6 +2827,24 @@ Estas decisiones están diseñadas para evitar que los usuarios se sientan abrum
 **Solicitudes (líderes de grupo):** En la sección de solicitudes se visualizará una lista de todas las solicitudes realizadas por los integrantes del grupo, al hacer click sobre ellas se mostrará la descripción de la solicitud y el estado de la misma. Esta funcionalidad permitirá a los líderes tener un acceso rápido a la información relevante sobre las solicitudes de sus integrantes. Además, podrá filtrar las solicitudes por el tipo de solicitud (reprogramación, validación o incumplimiento).
 
 ##### 5.1.2.5. Navigation Systems
+La estructura de navegación y las opciones disponibles en nuestro producto digital están diseñadas para proporcionar una experiencia de usuario intuitiva y eficiente. A continuación se muestra un resumen de las secciones y elementos clave:
+
+**Landing Page**
+Barra de navegación con secciones:
+- About Us
+- Mision & Vision
+- Features
+- Nrg5 Team
+
+**Mobile App**
+Mediante el uso de un menú lateral, los usuarios podrán acceder a las siguientes secciones:
+- Tareas
+- Calendario
+- Estadísticas
+- Recordatorios
+- Mi Perfil
+- Configuración
+- Mis Grupos
 
 #### 5.1.3. Landing Page UI Design
 
