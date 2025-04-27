@@ -2733,6 +2733,9 @@ El diagrama de despliegue representa un sistema donde una aplicación móvil se 
 Product Design es el proceso de imaginar, planificar y crear un producto que resuelva un problema o satisfaga una necesidad específica de los usuarios. Involucra entender profundamente a los usuarios, definir requisitos funcionales y de experiencia, diseñar interfaces intuitivas, y validar soluciones mediante iteraciones constantes.
 
 #### 5.1.1. Style Guidelines
+El objetivo de estas directrices es asegurar que todas las interfaces de usuario (UI) de SynHub sigan un enfoque coherente y accesible, promoviendo una experiencia visual clara y agradable. Esto incluye el uso de elementos visuales consistentes, como colores, tipografías y gráficos, tanto para la landing page como para la aplicación móvil.
+
+Al seguir estas directrices, SynHub busca garantizar una interfaz intuitiva que sea fácil de navegar para todos los usuarios, creando una atmósfera de confianza y accesibilidad. Se hace énfasis en diseñar una aplicación moderna, accesible y centrada en el usuario, en la que cada detalle visual contribuya a hacer más fluida la experiencia del usuario, mientras refleja los valores de eficiencia y colaboración que la plataforma promueve.
 
 ##### 5.1.1.1. General Style Guidelines
 
