@@ -88,7 +88,6 @@ Entrega TB1 (23/04/2025):
 <img src="images/insights/report-insights-1-6.png" alt="Insights Report Collaboration Insights 6" />
 <img src="images/insights/report-insights-1-7.png" alt="Insights Report Collaboration Insights 7" />
 
-
 Para esta primera entrega se desarollaron los cpaítulos del 1 al 4, en la captura adjuntada se evidencia del trabajo colaborativo de github. Todos los integrantes del grupo trabajaron en el proyecto.
 
 Recapitulando los commits se dividieron de la siguiente manera:
@@ -2730,6 +2729,8 @@ El diagrama de despliegue representa un sistema donde una aplicación móvil se 
 ## Capítulo V: Solution UI/UX Design
 
 ### 5.1. Product Design
+
+Product Design es el proceso de imaginar, planificar y crear un producto que resuelva un problema o satisfaga una necesidad específica de los usuarios. Involucra entender profundamente a los usuarios, definir requisitos funcionales y de experiencia, diseñar interfaces intuitivas, y validar soluciones mediante iteraciones constantes.
 
 #### 5.1.1. Style Guidelines
 
