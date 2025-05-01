@@ -2862,6 +2862,122 @@ El diagrama de despliegue representa un sistema donde una aplicación móvil se 
 
 ##### 4.2.1.3. Application Layer
 
+<p>En el Application Layer del contexto de <strong>Analítica y Reportes</strong>, se definen los servicios encargados de orquestar la lógica de aplicación relacionada con la generación, recuperación y exportación de reportes, así como con el manejo de eventos relevantes del sistema.</p>
+
+<p>El <code>ReportQueryService</code> maneja la lógica de recuperación de reportes y métricas existentes, mientras que el <code>ReportCommandService</code> gestiona la generación de nuevos reportes a partir de registros de actividad. A su vez, se definen <code>Command Handlers</code> y <code>Event Handlers</code> para ejecutar operaciones específicas basadas en acciones del usuario o eventos del sistema.</p>
+
+<h3>Justificación:</h3>
+<p>Separar los flujos de consultas (queries) y comandos (commands) en servicios especializados permite mantener el sistema modular, coherente y escalable. De esta forma, se asegura que las reglas de negocio para cada operación estén centralizadas y que cualquier modificación futura no afecte otros componentes. Además, esta estructura facilita la incorporación de nuevas funcionalidades analíticas o lógicas de negocio más complejas.</p>
+
+<hr>
+
+<h3>Service: <code>ReportQueryService</code></h3>
+<p><strong>Descripción:</strong> Servicio para consultar reportes y métricas existentes.</p>
+
+<h4>Atributos</h4>
+<table>
+  <thead>
+    <tr><th>Tipo de dato</th><th>Nombre</th><th>Visibilidad</th><th>Descripción</th></tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>ReportRepository</td>
+      <td>reportRepository</td>
+      <td>Private</td>
+      <td>Repositorio que permite acceder a reportes almacenados.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h4>Métodos</h4>
+<table>
+  <thead>
+    <tr><th>Método</th><th>Tipo de retorno</th><th>Visibilidad</th><th>Descripción</th></tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>existsById(reportId: Long)</td>
+      <td>Boolean</td>
+      <td>Public</td>
+      <td>Verifica si un reporte existe por su ID.</td>
+    </tr>
+    <tr>
+      <td>findByUserId(userId: Long)</td>
+      <td>List&lt;Report&gt;</td>
+      <td>Public</td>
+      <td>Devuelve los reportes asociados a un usuario.</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr>
+
+<h3>Service: <code>ReportCommandService</code></h3>
+<p><strong>Descripción:</strong> Servicio encargado de generar, construir y exportar reportes desde registros de actividad.</p>
+
+<h4>Atributos</h4>
+<table>
+  <thead>
+    <tr><th>Tipo de dato</th><th>Nombre</th><th>Visibilidad</th><th>Descripción</th></tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>ActivityLogRepository</td>
+      <td>activityLogRepository</td>
+      <td>Private</td>
+      <td>Repositorio de logs de actividad.</td>
+    </tr>
+    <tr>
+      <td>ReportFactory</td>
+      <td>reportFactory</td>
+      <td>Private</td>
+      <td>Fábrica para la creación de nuevos reportes.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h4>Métodos</h4>
+<table>
+  <thead>
+    <tr><th>Método</th><th>Tipo de retorno</th><th>Visibilidad</th><th>Descripción</th></tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>generateReport(userId: Long)</td>
+      <td>Report</td>
+      <td>Public</td>
+      <td>Genera un reporte basado en las actividades recientes del usuario.</td>
+    </tr>
+    <tr>
+      <td>exportToCSV(reportId: Long)</td>
+      <td>String</td>
+      <td>Public</td>
+      <td>Exporta un reporte en formato CSV.</td>
+    </tr>
+    <tr>
+      <td>exportToPDF(reportId: Long)</td>
+      <td>byte[]</td>
+      <td>Public</td>
+      <td>Exporta un reporte como archivo PDF.</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr>
+
+<h3>Command Handlers</h3>
+
+<ul>
+  <li><strong>GenerateReportCommandHandler:</strong> Invocado cuando el usuario solicita la creación de un nuevo reporte. Ejecuta la lógica de <code>ReportCommandService.generateReport()</code>.</li>
+</ul>
+
+<h3>Event Handlers</h3>
+
+<ul>
+  <li><strong>TaskCompletedEventHandler:</strong> Registra un nuevo <code>ActivityLog</code> cuando se completa una tarea.</li>
+  <li><strong>GroupJoinedEventHandler:</strong> Registra actividad cuando un usuario se une a un grupo.</li>
+</ul>
+
 ##### 4.2.1.4. Infrastructure Layer
 
 ##### 4.2.1.5. Bounded Context Software Architecture Component Level Diagrams
