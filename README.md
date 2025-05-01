@@ -2980,6 +2980,93 @@ El diagrama de despliegue representa un sistema donde una aplicación móvil se 
 
 ##### 4.2.1.4. Infrastructure Layer
 
+<p>En el <strong>Infrastructure Layer</strong> del contexto de <strong>Analítica y Reportes</strong>, se encuentran las clases responsables de interactuar con la base de datos y servicios externos necesarios para la persistencia y recuperación de información clave, como los registros de actividad y los reportes generados. Este layer implementa las interfaces definidas en el <em>Domain Layer</em> para los repositorios de <code>ActivityLog</code> y <code>Report</code>.</p>
+
+<h3>Justificación:</h3>
+<p>El uso de repositorios implementados en esta capa permite desacoplar la lógica de negocio de los detalles técnicos de acceso a datos. De este modo, cualquier cambio en la tecnología de almacenamiento o proveedor de servicios externos (por ejemplo, base de datos SQL vs NoSQL, o cambio de servicio de exportación) no afectará la lógica central del sistema. Esto asegura una arquitectura flexible, mantenible y alineada con principios de separación de responsabilidades.</p>
+
+<hr>
+
+<h3>Repository: <code>ActivityLogRepositoryImpl</code></h3>
+<p><strong>Descripción:</strong> Repositorio que implementa la persistencia de registros de actividad de los usuarios.</p>
+
+<table>
+  <thead>
+    <tr><th>Método</th><th>Tipo de retorno</th><th>Visibilidad</th><th>Descripción</th></tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>findByUserId(userId: Long)</td>
+      <td>List&lt;ActivityLog&gt;</td>
+      <td>Public</td>
+      <td>Obtiene los registros de actividad de un usuario.</td>
+    </tr>
+    <tr>
+      <td>save(log: ActivityLog)</td>
+      <td>void</td>
+      <td>Public</td>
+      <td>Guarda un nuevo registro de actividad.</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr>
+
+<h3>Repository: <code>ReportRepositoryImpl</code></h3>
+<p><strong>Descripción:</strong> Repositorio que permite almacenar y recuperar reportes generados por los usuarios.</p>
+
+<table>
+  <thead>
+    <tr><th>Método</th><th>Tipo de retorno</th><th>Visibilidad</th><th>Descripción</th></tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>findById(reportId: Long)</td>
+      <td>Report</td>
+      <td>Public</td>
+      <td>Obtiene un reporte por su identificador único.</td>
+    </tr>
+    <tr>
+      <td>findByUserId(userId: Long)</td>
+      <td>List&lt;Report&gt;</td>
+      <td>Public</td>
+      <td>Obtiene todos los reportes asociados a un usuario.</td>
+    </tr>
+    <tr>
+      <td>save(report: Report)</td>
+      <td>void</td>
+      <td>Public</td>
+      <td>Guarda un nuevo reporte en la base de datos.</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr>
+
+<h3>Service: <code>ExportService</code></h3>
+<p><strong>Descripción:</strong> Servicio externo que permite convertir reportes en formatos PDF y CSV para su descarga.</p>
+
+<table>
+  <thead>
+    <tr><th>Método</th><th>Tipo de retorno</th><th>Visibilidad</th><th>Descripción</th></tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>generatePDF(report: Report)</td>
+      <td>byte[]</td>
+      <td>Public</td>
+      <td>Convierte un reporte en un archivo PDF.</td>
+    </tr>
+    <tr>
+      <td>generateCSV(report: Report)</td>
+      <td>String</td>
+      <td>Public</td>
+      <td>Convierte un reporte en texto CSV.</td>
+    </tr>
+  </tbody>
+</table>
+
+
 ##### 4.2.1.5. Bounded Context Software Architecture Component Level Diagrams
 
 ##### 4.2.1.6. Bounded Context Software Architecture Code Level Diagrams
