@@ -285,24 +285,7 @@ Postular a programas de talento junior o trainee en desarrollo fullstack dentro 
 Objetivo 2:
 Finalizar un curso especializado en testing automatizado con Jest o Cypress antes de cumplir un año de egresado, con el fin de asegurar la calidad del software en proyectos reales.
 
-## Capitulo I: Presentación
-
-### 1.1. Startup Profile
-
-#### 1.1.1. Descripción de la Startup
-
-Nuestra empresa NRG4 nace con la visión de ofrecer soluciones digitales que mejoren la organización y la colaboración en los entornos donde convivimos y trabajamos. En esta ocasión, presentamos SynHub, una plataforma pensada para resolver uno de los retos más comunes y menos atendidos en grupos modernos: la coordinación eficiente de tareas, horarios y responsabilidades compartidas.
-
-Entendemos que en un mundo donde el tiempo es limitado y las actividades se superponen constantemente, contar con herramientas que faciliten la gestión grupal es indispensable. Ya sea en el hogar, en equipos de trabajo, grupos de estudio, organizaciones comunitarias o cualquier espacio colaborativo, SynHome permite mantener el orden, promover la participación equitativa y fortalecer la comunicación entre los miembros del grupo. Desde NRG4 buscamos justamente eso: transformar la forma en que las personas se organizan en conjunto.
-
-**Misión:**
-
-Nuestra misión como empresa es facilitar la gestión diaria de grupos a través de una plataforma que promueve la corresponsabilidad, la organización eficiente y la comunicación clara entre sus integrantes. Queremos empoderar tanto a quienes lideran estos espacios como a cada miembro del equipo, brindándoles una herramienta intuitiva y efectiva para coordinarse mejor y alcanzar objetivos comunes.
-
-**Visión:**
-
-Desde NRG4, aspiramos a consolidarnos como referentes en tecnología para la organización colaborativa, siendo reconocidos por desarrollar soluciones que impacten positivamente la vida diaria de las personas. Con SynHub, buscamos posicionarnos como la plataforma líder en gestión de tareas y coordinación grupal en el Perú y Latinoamérica, facilitando entornos más ordenados, productivos y armoniosos en hogares, oficinas, comunidades y más.
-
+#z
 #### 1.1.2. Perfiles de integrantes del equipo
 
 <table>
@@ -610,11 +593,11 @@ Este grupo incluye a personas que asumen la responsabilidad de organizar y gesti
 Características clave:
 
 - Edad: 25 a 60 años
-- Género: Ambos
-- Contexto: Trabajo en equipo (laboral, educativo, comunitario o institucional)
-- Ocupación: Líderes de proyectos, jefes de equipo, coordinadores, docentes, voluntarios, emprendedores
-- Uso de tecnología: Usuarios activos de plataformas colaborativas, calendarios digitales, herramientas de gestión (como Trello, Google Calendar, Slack, etc.)
-- Necesidades: Distribuir responsabilidades, establecer fechas límite, tener visibilidad del progreso del equipo, mejorar la coordinación y reducir fricciones en la organización diaria.
+  - Género: Ambos
+  - Contexto: Trabajo en equipo (laboral, educativo, comunitario o institucional)
+  - Ocupación: Líderes de proyectos, jefes de equipo, coordinadores, docentes, voluntarios, emprendedores
+  - Uso de tecnología: Usuarios activos de plataformas colaborativas, calendarios digitales, herramientas de gestión (como Trello, Google Calendar, Slack, etc.)
+  - Necesidades: Distribuir responsabilidades, establecer fechas límite, tener visibilidad del progreso del equipo, mejorar la coordinación y reducir fricciones en la organización diaria.
 
 **Segmento Objetivo #2: Miembros del Equipo o Grupo**
 
@@ -622,11 +605,11 @@ Corresponde a las personas que forman parte activa de un grupo con tareas y role
 Características clave:
 
 - Edad: 13 a 60 años
-- Género: Ambos
-- Contexto: Participación activa en un grupo organizado (laboral, educativo, social, comunitario, voluntariado, etc.)
-- Ocupación: Colaboradores, estudiantes, asistentes, voluntarios, trabajadores, participantes de redes de apoyo
-- Uso de tecnología: Habitualmente usan apps móviles, redes sociales, herramientas de trabajo remoto o colaboración básica
-- Necesidades: Consultar tareas, recibir recordatorios, gestionar su tiempo dentro del equipo, proponer cambios o ajustes, y mantenerse alineados con los objetivos grupales.
+  - Género: Ambos
+  - Contexto: Participación activa en un grupo organizado (laboral, educativo, social, comunitario, voluntariado, etc.)
+  - Ocupación: Colaboradores, estudiantes, asistentes, voluntarios, trabajadores, participantes de redes de apoyo
+  - Uso de tecnología: Habitualmente usan apps móviles, redes sociales, herramientas de trabajo remoto o colaboración básica
+  - Necesidades: Consultar tareas, recibir recordatorios, gestionar su tiempo dentro del equipo, proponer cambios o ajustes, y mantenerse alineados con los objetivos grupales.
 
 ## Capítulo II: Requirements Elicitation & Analysis
 
@@ -2709,9 +2692,116 @@ El diagrama de despliegue representa un sistema donde una aplicación móvil se 
 
 ### 4.2. Tactical-Level Domain-Driven Design
 
-#### 4.2.1. Bounded Context:
+#### 4.2.X. Bounded Context:
+
+##### 4.2.X.1. Domain Layer
+
+##### 4.2.X.2. Interface Layer
+
+##### 4.2.X.3. Application Layer
+
+##### 4.2.X.4. Infrastructure Layer
+
+##### 4.2.X.5. Bounded Context Software Architecture Component Level Diagrams
+
+##### 4.2.X.6. Bounded Context Software Architecture Code Level Diagrams
+
+###### 4.2.X.6.1. Bounded Context Domain Layer Class Diagrams
+
+###### 4.2.1.6.2. Bounded Context Database Design Diagram
+
+#### 4.2.1. Bounded Context: Analítica y Reportes
 
 ##### 4.2.1.1. Domain Layer
+
+<p>En el Domain Layer del contexto de <strong>Analítica y Reportes</strong>, los agregados principales son <code>ActivityLog</code>, <code>Report</code> y <code>Metric</code>. Estos representan los componentes clave del sistema de análisis de comportamiento y productividad dentro de grupos colaborativos en la plataforma SynHub.</p>
+
+<p>Los registros de actividad (<code>ActivityLog</code>) permiten capturar eventos relevantes generados por los usuarios durante el uso del sistema (como completar tareas, integrarse a un grupo o modificar horarios). Con base en estos registros, los reportes (<code>Report</code>) se generan para ofrecer métricas de uso, rendimiento y participación. Las métricas (<code>Metric</code>) encapsulan información cuantitativa puntual que puede ser evaluada y comparada a lo largo del tiempo.</p>
+
+<h3>Justificación:</h3>
+<p>Este enfoque permite encapsular de manera clara los datos recolectados y procesados en estructuras especializadas, garantizando una separación de responsabilidades entre la recolección (logs), el análisis (reportes) y la medición (métricas). Así se facilita el seguimiento de indicadores clave y se apoya la toma de decisiones basada en datos.</p>
+
+<hr>
+
+<h3>Aggregate: <code>ActivityLog</code></h3>
+<p><strong>Descripción:</strong> Representa un registro de actividad generado por un usuario en el sistema.</p>
+
+<table>
+  <thead>
+    <tr><th>Atributos</th><th>Tipo de dato</th><th>Visibilidad</th><th>Descripción</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>id</td><td>Long</td><td>Private</td><td>Identificador único del log.</td></tr>
+    <tr><td>userId</td><td>Long</td><td>Private</td><td>ID del usuario que generó la actividad.</td></tr>
+    <tr><td>actionType</td><td>String</td><td>Private</td><td>Tipo de acción realizada (ej. "task_completed", "group_joined").</td></tr>
+    <tr><td>timestamp</td><td>LocalDateTime</td><td>Private</td><td>Fecha y hora de la acción.</td></tr>
+    <tr><td>metadata</td><td>String</td><td>Private</td><td>Información adicional contextual (ej. ID de tarea, grupo, etc).</td></tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr><th>Métodos</th><th>Tipo de retorno</th><th>Visibilidad</th><th>Descripción</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>createLog()</td><td>void</td><td>Public</td><td>Crea un nuevo registro de actividad.</td></tr>
+    <tr><td>getSummary()</td><td>String</td><td>Public</td><td>Devuelve un resumen legible del log.</td></tr>
+  </tbody>
+</table>
+
+<hr>
+
+<h3>Aggregate: <code>Report</code></h3>
+<p><strong>Descripción:</strong> Representa un informe generado a partir de múltiples registros de actividad.</p>
+
+<table>
+  <thead>
+    <tr><th>Atributos</th><th>Tipo de dato</th><th>Visibilidad</th><th>Descripción</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>id</td><td>Long</td><td>Private</td><td>Identificador único del reporte.</td></tr>
+    <tr><td>name</td><td>String</td><td>Private</td><td>Nombre o título del reporte.</td></tr>
+    <tr><td>generatedAt</td><td>LocalDateTime</td><td>Private</td><td>Fecha y hora de generación del reporte.</td></tr>
+    <tr><td>data</td><td>List&lt;Metric&gt;</td><td>Private</td><td>Lista de métricas que componen el reporte.</td></tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr><th>Métodos</th><th>Tipo de retorno</th><th>Visibilidad</th><th>Descripción</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>generateFromLogs()</td><td>void</td><td>Public</td><td>Genera el reporte a partir de logs.</td></tr>
+    <tr><td>exportToCSV()</td><td>String</td><td>Public</td><td>Exporta el reporte en formato CSV.</td></tr>
+    <tr><td>exportToPDF()</td><td>byte[]</td><td>Public</td><td>Exporta el reporte como archivo PDF.</td></tr>
+  </tbody>
+</table>
+
+<hr>
+
+<h3>Value Object: <code>Metric</code></h3>
+<p><strong>Descripción:</strong> Representa una métrica cuantitativa específica del comportamiento o rendimiento del usuario/grupo.</p>
+
+<table>
+  <thead>
+    <tr><th>Atributos</th><th>Tipo de dato</th><th>Visibilidad</th><th>Descripción</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>name</td><td>String</td><td>Private</td><td>Nombre de la métrica (ej. "Tareas completadas").</td></tr>
+    <tr><td>value</td><td>Double</td><td>Private</td><td>Valor numérico de la métrica.</td></tr>
+    <tr><td>context</td><td>String</td><td>Private</td><td>Contexto asociado (ej. ID de grupo, período de tiempo).</td></tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr><th>Métodos</th><th>Tipo de retorno</th><th>Visibilidad</th><th>Descripción</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>calculate()</td><td>Double</td><td>Public</td><td>Calcula o actualiza el valor de la métrica.</td></tr>
+    <tr><td>toString()</td><td>String</td><td>Public</td><td>Devuelve la métrica en formato legible.</td></tr>
+  </tbody>
+</table>
 
 ##### 4.2.1.2. Interface Layer
 
@@ -2725,7 +2815,6 @@ El diagrama de despliegue representa un sistema donde una aplicación móvil se 
 
 ###### 4.2.1.6.1. Bounded Context Domain Layer Class Diagrams
 
-###### 4.2.1.6.2. Bounded Context Database Design Diagram
 
 ## Capítulo V: Solution UI/UX Design
 
