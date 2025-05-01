@@ -2805,6 +2805,61 @@ El diagrama de despliegue representa un sistema donde una aplicación móvil se 
 
 ##### 4.2.1.2. Interface Layer
 
+<p>El Interface Layer para el contexto de <strong>Analítica y Reportes</strong> está conformado por el <code>ReportController</code>, que expone las operaciones necesarias para que los usuarios puedan visualizar, generar y exportar reportes a partir de los registros de actividad del sistema. Este controlador representa el punto de entrada para las funcionalidades clave relacionadas a métricas de uso y productividad, tanto a nivel individual como grupal.</p>
+
+<h3>Justificación:</h3>
+<p>El Interface Layer es fundamental para desacoplar la lógica de presentación de la lógica de negocio. Al utilizar un controlador especializado, se mantiene una separación clara entre las solicitudes de la interfaz de usuario (UI) y las operaciones internas de generación de reportes, cálculos de métricas y exportación de datos. Esto permite una mejor escalabilidad del sistema y facilita el mantenimiento futuro de la plataforma.</p>
+
+<hr>
+
+<h3>Controller: <code>ReportController</code></h3>
+<p><strong>Descripción:</strong> Controlador para la gestión de reportes y métricas analíticas dentro de la plataforma SynHub.</p>
+
+<h4>Atributos</h4>
+<table>
+  <thead>
+    <tr><th>Tipo de dato</th><th>Nombre</th><th>Visibilidad</th><th>Descripción</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>ReportQueryService</td><td>reportQueryService</td><td>Private</td><td>Servicio para consultas de reportes existentes.</td></tr>
+    <tr><td>ReportCommandService</td><td>reportCommandService</td><td>Private</td><td>Servicio para generar y exportar nuevos reportes.</td></tr>
+  </tbody>
+</table>
+
+<h4>Métodos</h4>
+<table>
+  <thead>
+    <tr><th>Método</th><th>Tipo de retorno</th><th>Visibilidad</th><th>Descripción</th></tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>getUserReports(userId: Long)</td>
+      <td>List&lt;Report&gt;</td>
+      <td>Public</td>
+      <td>Obtiene todos los reportes generados por un usuario.</td>
+    </tr>
+    <tr>
+      <td>generateReport(userId: Long)</td>
+      <td>Report</td>
+      <td>Public</td>
+      <td>Genera un nuevo reporte para el usuario en base a su actividad reciente.</td>
+    </tr>
+    <tr>
+      <td>exportReportToPDF(reportId: Long)</td>
+      <td>byte[]</td>
+      <td>Public</td>
+      <td>Exporta un reporte en formato PDF.</td>
+    </tr>
+    <tr>
+      <td>exportReportToCSV(reportId: Long)</td>
+      <td>String</td>
+      <td>Public</td>
+      <td>Exporta un reporte en formato CSV.</td>
+    </tr>
+  </tbody>
+</table>
+
+
 ##### 4.2.1.3. Application Layer
 
 ##### 4.2.1.4. Infrastructure Layer
