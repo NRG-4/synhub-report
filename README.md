@@ -3069,6 +3069,15 @@ El diagrama de despliegue representa un sistema donde una aplicación móvil se 
 
 ##### 4.2.1.5. Bounded Context Software Architecture Component Level Diagrams
 
+<p>Este diagrama de componentes representa un sistema monolítico que gestiona datos analíticos y reportes dentro de la plataforma SynHub. Una <strong>Single-Page Application (SPA)</strong>, implementada con Angular, interactúa con una <strong>Web API Application</strong> desarrollada en Spring Boot mediante llamadas HTTP (REST).</p>
+
+<p>La SPA realiza peticiones al <code>ReportController</code> para generar, visualizar o exportar reportes. Este controlador delega la lógica correspondiente en dos componentes principales: el <code>ReportQueryService</code> para operaciones de lectura y recuperación de datos analíticos, y el <code>ReportCommandService</code> para la generación y exportación de reportes.</p>
+
+<p>Ambos servicios se comunican con sus respectivos repositorios (<code>ActivityLogRepository</code> y <code>ReportRepository</code>) que abstraen el acceso a la base de datos. Para la exportación de reportes, se emplea un servicio adicional (<code>ExportService</code>) que convierte los datos en formatos PDF y CSV. Los repositorios utilizan JPA para realizar operaciones de lectura y escritura en una base de datos relacional (MySQL).</p>
+
+<hr>
+
+
 ##### 4.2.1.6. Bounded Context Software Architecture Code Level Diagrams
 
 ###### 4.2.1.6.1. Bounded Context Domain Layer Class Diagrams
