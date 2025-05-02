@@ -3209,6 +3209,117 @@ El diagrama de despliegue representa un sistema donde una aplicación móvil se 
 
 ##### 4.2.2.3. Application Layer
 
+<p>En el Application Layer del contexto de <strong>Notificaciones</strong>, se definen los servicios encargados de coordinar la lógica de aplicación relacionada con el envío, recuperación y actualización del estado de las notificaciones, así como el manejo de eventos relevantes del sistema (como asignaciones de tareas o incorporaciones a grupos).</p>
+
+<p>El <code>NotificationQueryService</code> permite obtener todas las notificaciones asociadas a un usuario y filtrar por estado, mientras que el <code>NotificationCommandService</code> gestiona el proceso de envío de nuevas notificaciones y el cambio de estado. Asimismo, se emplean <code>Command Handlers</code> y <code>Event Handlers</code> para automatizar acciones de notificación según flujos del sistema.</p>
+
+<h3>Justificación:</h3>
+<p>Separar los servicios por tipo de operación (consultas y comandos) mejora la organización y legibilidad del código, y facilita la extensión del sistema para admitir nuevas reglas o condiciones. Además, utilizar handlers para eventos del dominio permite mantener una arquitectura reactiva, con bajo acoplamiento entre módulos del sistema.</p>
+
+<hr>
+
+<h3>Service: <code>NotificationQueryService</code></h3>
+<p><strong>Descripción:</strong> Servicio para consultar notificaciones existentes de un usuario.</p>
+
+<h4>Atributos</h4>
+<table>
+  <thead>
+    <tr><th>Tipo de dato</th><th>Nombre</th><th>Visibilidad</th><th>Descripción</th></tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>NotificationRepository</td>
+      <td>notificationRepository</td>
+      <td>Private</td>
+      <td>Repositorio que permite acceder a notificaciones almacenadas.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h4>Métodos</h4>
+<table>
+  <thead>
+    <tr><th>Método</th><th>Tipo de retorno</th><th>Visibilidad</th><th>Descripción</th></tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>findByUserId(userId: Long)</td>
+      <td>List&lt;Notification&gt;</td>
+      <td>Public</td>
+      <td>Devuelve las notificaciones dirigidas a un usuario.</td>
+    </tr>
+    <tr>
+      <td>findUnreadByUserId(userId: Long)</td>
+      <td>List&lt;Notification&gt;</td>
+      <td>Public</td>
+      <td>Devuelve solo las notificaciones no leídas de un usuario.</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr>
+
+<h3>Service: <code>NotificationCommandService</code></h3>
+<p><strong>Descripción:</strong> Servicio encargado de enviar nuevas notificaciones y actualizar su estado.</p>
+
+<h4>Atributos</h4>
+<table>
+  <thead>
+    <tr><th>Tipo de dato</th><th>Nombre</th><th>Visibilidad</th><th>Descripción</th></tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>NotificationRepository</td>
+      <td>notificationRepository</td>
+      <td>Private</td>
+      <td>Repositorio de persistencia de notificaciones.</td>
+    </tr>
+    <tr>
+      <td>NotificationService</td>
+      <td>notificationService</td>
+      <td>Private</td>
+      <td>Servicio de dominio que contiene las reglas de envío y validación.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h4>Métodos</h4>
+<table>
+  <thead>
+    <tr><th>Método</th><th>Tipo de retorno</th><th>Visibilidad</th><th>Descripción</th></tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>send(notification: Notification)</td>
+      <td>void</td>
+      <td>Public</td>
+      <td>Envía una notificación al usuario correspondiente.</td>
+    </tr>
+    <tr>
+      <td>markAsRead(notificationId: Long)</td>
+      <td>void</td>
+      <td>Public</td>
+      <td>Actualiza el estado de una notificación a "leída".</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr>
+
+<h3>Command Handlers</h3>
+
+<ul>
+  <li><strong>SendNotificationCommandHandler:</strong> Ejecuta la lógica de <code>NotificationCommandService.send()</code> al recibir una orden explícita de enviar una notificación.</li>
+  <li><strong>MarkNotificationAsReadCommandHandler:</strong> Marca como leída una notificación específica.</li>
+</ul>
+
+<h3>Event Handlers</h3>
+
+<ul>
+  <li><strong>TaskAssignedEventHandler:</strong> Envía una notificación al usuario asignado cuando se le designa una nueva tarea.</li>
+  <li><strong>GroupJoinedEventHandler:</strong> Notifica al grupo o coordinador cuando un nuevo usuario se une a un equipo.</li>
+</ul>
+
 ##### 4.2.2.4. Infrastructure Layer
 
 ##### 4.2.2.5. Bounded Context Software Architecture Component Level Diagrams
