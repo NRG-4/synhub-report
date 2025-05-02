@@ -3176,6 +3176,37 @@ El diagrama de despliegue representa un sistema donde una aplicación móvil se 
 
 ##### 4.2.2.2. Interface Layer
 
+<p>En el Interface Layer del bounded context <strong>Notificaciones</strong>, se expone la clase <code>NotificationController</code> que proporciona endpoints para listar notificaciones, marcarlas como leídas y crear nuevas. Estos endpoints son utilizados por la interfaz web y otros servicios de la plataforma.</p>
+
+<h3>Justificación:</h3>
+<p>La capa de presentación permite desacoplar la lógica de negocio del acceso a la plataforma, proporcionando una interfaz RESTful clara y segura. Permite integrar fácilmente funcionalidades como notificaciones emergentes, resúmenes diarios o recordatorios.</p>
+
+<h3>Controller: <code>NotificationController</code></h3>
+
+<h4>Atributos</h4>
+<table>
+  <thead>
+    <tr><th>Tipo de dato</th><th>Nombre</th><th>Visibilidad</th><th>Descripción</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>NotificationQueryService</td><td>notificationQueryService</td><td>Private</td><td>Servicio para obtener notificaciones.</td></tr>
+    <tr><td>NotificationCommandService</td><td>notificationCommandService</td><td>Private</td><td>Servicio para enviar o modificar notificaciones.</td></tr>
+  </tbody>
+</table>
+
+<h4>Métodos</h4>
+<table>
+  <thead>
+    <tr><th>Método</th><th>Tipo de retorno</th><th>Visibilidad</th><th>Descripción</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>getUserNotifications(userId)</td><td>List&lt;Notification&gt;</td><td>Public</td><td>Retorna las notificaciones del usuario.</td></tr>
+    <tr><td>markAsRead(notificationId)</td><td>void</td><td>Public</td><td>Marca la notificación como leída.</td></tr>
+    <tr><td>sendNotification(request)</td><td>void</td><td>Public</td><td>Envía una nueva notificación a un usuario o grupo.</td></tr>
+  </tbody>
+</table>
+<hr>
+
 ##### 4.2.2.3. Application Layer
 
 ##### 4.2.2.4. Infrastructure Layer
