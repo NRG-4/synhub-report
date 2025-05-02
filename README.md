@@ -3073,6 +3073,118 @@ El diagrama de despliegue representa un sistema donde una aplicación móvil se 
 
 ###### 4.2.1.6.1. Bounded Context Domain Layer Class Diagrams
 
+#### 4.2.2. Bounded Context: Notificaciones
+
+##### 4.2.2.1. Domain Layer
+
+<p>En el Domain Layer del contexto de <strong>Notificaciones</strong>, los agregados principales son <code>Notification</code> y <code>User</code>. Estos representan los componentes clave para la gestión de mensajes dentro de la plataforma SynHub, permitiendo alertar, informar o recordar a los usuarios sobre eventos relevantes del sistema.</p>
+
+<p>Las notificaciones (<code>Notification</code>) encapsulan toda la información necesaria para ser entregadas de manera eficiente, incluyendo su tipo, estado de lectura y contenido. Las preferencias del usuario (<code>User</code>) permiten personalizar la forma en que estas son recibidas. La lógica de negocio para el envío y validación de notificaciones se concentra en el servicio de dominio <code>NotificationService</code>.</p>
+
+<h3>Justificación:</h3>
+<p>Este enfoque permite separar claramente la lógica de creación, personalización y entrega de mensajes del resto del sistema, facilitando su reutilización y garantizando una experiencia de usuario consistente. Al utilizar un servicio de dominio, se asegura que las notificaciones se envíen conforme a las reglas definidas por el sistema y las preferencias del usuario.</p>
+
+<hr>
+
+<h3>Aggregate: <code>Notification</code></h3>
+<p><strong>Descripción:</strong> Representa una notificación generada por el sistema para un usuario específico.</p>
+
+<table>
+  <thead>
+    <tr><th>Atributos</th><th>Tipo de dato</th><th>Visibilidad</th><th>Descripción</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>id</td><td>Long</td><td>Private</td><td>Identificador único de la notificación.</td></tr>
+    <tr><td>userId</td><td>Long</td><td>Private</td><td>ID del usuario destinatario.</td></tr>
+    <tr><td>title</td><td>String</td><td>Private</td><td>Título de la notificación.</td></tr>
+    <tr><td>message</td><td>String</td><td>Private</td><td>Contenido principal del mensaje.</td></tr>
+    <tr><td>type</td><td>NotificationType</td><td>Private</td><td>Tipo de notificación (informativa, recordatorio, alerta, etc.).</td></tr>
+    <tr><td>status</td><td>String</td><td>Private</td><td>Estado de la notificación (leída/no leída).</td></tr>
+    <tr><td>timestamp</td><td>LocalDateTime</td><td>Private</td><td>Fecha y hora en la que se creó la notificación.</td></tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr><th>Métodos</th><th>Tipo de retorno</th><th>Visibilidad</th><th>Descripción</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>send()</td><td>void</td><td>Public</td><td>Inicia el envío de la notificación según el canal configurado.</td></tr>
+    <tr><td>markAsRead()</td><td>void</td><td>Public</td><td>Marca la notificación como leída por el usuario.</td></tr>
+    <tr><td>isRead()</td><td>Boolean</td><td>Public</td><td>Verifica si la notificación ya ha sido leída.</td></tr>
+  </tbody>
+</table>
+
+<hr>
+
+<h3>Aggregate: <code>User</code></h3>
+<p><strong>Descripción:</strong> Representa al usuario destinatario de las notificaciones, incluyendo sus preferencias de recepción.</p>
+
+<table>
+  <thead>
+    <tr><th>Atributos</th><th>Tipo de dato</th><th>Visibilidad</th><th>Descripción</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>id</td><td>Long</td><td>Private</td><td>Identificador único del usuario.</td></tr>
+    <tr><td>email</td><td>String</td><td>Private</td><td>Correo electrónico del usuario.</td></tr>
+    <tr><td>preferences</td><td>UserPreferences</td><td>Private</td><td>Preferencias del usuario para recibir notificaciones.</td></tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr><th>Métodos</th><th>Tipo de retorno</th><th>Visibilidad</th><th>Descripción</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>getPreferences()</td><td>UserPreferences</td><td>Public</td><td>Devuelve las preferencias de notificación del usuario.</td></tr>
+    <tr><td>updatePreferences()</td><td>void</td><td>Public</td><td>Actualiza la configuración de notificaciones del usuario.</td></tr>
+  </tbody>
+</table>
+
+<hr>
+
+<h3>Value Object: <code>NotificationType</code></h3>
+<p><strong>Descripción:</strong> Representa el tipo de notificación enviada.</p>
+
+<table>
+  <thead>
+    <tr><th>Nombre</th><th>Descripción</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>INFO</td><td>Notificación informativa general.</td></tr>
+    <tr><td>TASK</td><td>Relacionado con tareas asignadas o completadas.</td></tr>
+    <tr><td>REMINDER</td><td>Recordatorio de eventos o plazos próximos.</td></tr>
+    <tr><td>ALERT</td><td>Mensaje de advertencia o situación importante.</td></tr>
+  </tbody>
+</table>
+
+<hr>
+
+<h3>Domain Service: <code>NotificationService</code></h3>
+<p><strong>Descripción:</strong> Encapsula la lógica de negocio central para validar y enviar notificaciones, así como determinar los canales de entrega según las preferencias del usuario.</p>
+
+<table>
+  <thead>
+    <tr><th>Método</th><th>Tipo de retorno</th><th>Descripción</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>sendNotification(Notification notification)</td><td>void</td><td>Envía una notificación según el tipo y configuración del usuario.</td></tr>
+    <tr><td>validateType(Notification notification)</td><td>Boolean</td><td>Verifica si el tipo de notificación es válido y permitido.</td></tr>
+  </tbody>
+</table>
+
+
+##### 4.2.2.2. Interface Layer
+
+##### 4.2.2.3. Application Layer
+
+##### 4.2.2.4. Infrastructure Layer
+
+##### 4.2.2.5. Bounded Context Software Architecture Component Level Diagrams
+
+##### 4.2.2.6. Bounded Context Software Architecture Code Level Diagrams
+
+###### 4.2.2.6.1. Bounded Context Domain Layer Class Diagrams
 
 ## Capítulo V: Solution UI/UX Design
 
