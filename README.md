@@ -3322,6 +3322,107 @@ El diagrama de despliegue representa un sistema donde una aplicación móvil se 
 
 ##### 4.2.2.4. Infrastructure Layer
 
+<p>En el <strong>Infrastructure Layer</strong> del contexto de <strong>Notificaciones</strong>, se encuentran las clases responsables de persistir las notificaciones y consultar las preferencias de los usuarios. Además, esta capa implementa adaptadores para el envío real de notificaciones a través de servicios externos como correos electrónicos o notificaciones push.</p>
+
+<p>Este layer implementa las interfaces definidas en el <em>Domain Layer</em> para los repositorios <code>NotificationRepository</code> y <code>UserPreferencesRepository</code>, y contiene los adaptadores necesarios para integrar el sistema con servicios externos como Firebase o EmailJS.</p>
+
+<h3>Justificación:</h3>
+<p>El uso de repositorios y adaptadores en esta capa permite mantener la lógica del dominio independiente de las tecnologías de mensajería o almacenamiento utilizadas. Esto facilita la evolución del sistema, ya que cualquier cambio en los proveedores externos o motores de persistencia no afecta las reglas de negocio. La infraestructura se vuelve reemplazable, modular y fácil de testear.</p>
+
+<hr>
+
+<h3>Repository: <code>NotificationRepositoryImpl</code></h3>
+<p><strong>Descripción:</strong> Repositorio que implementa el acceso y almacenamiento de notificaciones en la base de datos.</p>
+
+<table>
+  <thead>
+    <tr><th>Método</th><th>Tipo de retorno</th><th>Visibilidad</th><th>Descripción</th></tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>findByUserId(userId: Long)</td>
+      <td>List&lt;Notification&gt;</td>
+      <td>Public</td>
+      <td>Obtiene todas las notificaciones asociadas a un usuario.</td>
+    </tr>
+    <tr>
+      <td>findUnreadByUserId(userId: Long)</td>
+      <td>List&lt;Notification&gt;</td>
+      <td>Public</td>
+      <td>Devuelve solo las notificaciones no leídas.</td>
+    </tr>
+    <tr>
+      <td>save(notification: Notification)</td>
+      <td>void</td>
+      <td>Public</td>
+      <td>Guarda una nueva notificación en la base de datos.</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr>
+
+<h3>Repository: <code>UserPreferencesRepositoryImpl</code></h3>
+<p><strong>Descripción:</strong> Repositorio que permite acceder a las preferencias de notificación configuradas por el usuario.</p>
+
+<table>
+  <thead>
+    <tr><th>Método</th><th>Tipo de retorno</th><th>Visibilidad</th><th>Descripción</th></tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>findByUserId(userId: Long)</td>
+      <td>UserPreferences</td>
+      <td>Public</td>
+      <td>Obtiene las preferencias de notificación del usuario.</td>
+    </tr>
+    <tr>
+      <td>update(userId: Long, preferences: UserPreferences)</td>
+      <td>void</td>
+      <td>Public</td>
+      <td>Actualiza las preferencias de notificación de un usuario.</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr>
+
+<h3>Service: <code>FirebasePushAdapter</code></h3>
+<p><strong>Descripción:</strong> Adaptador que utiliza Firebase para enviar notificaciones push a dispositivos móviles o navegadores web.</p>
+
+<table>
+  <thead>
+    <tr><th>Método</th><th>Tipo de retorno</th><th>Visibilidad</th><th>Descripción</th></tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>sendPush(notification: Notification)</td>
+      <td>void</td>
+      <td>Public</td>
+      <td>Envía una notificación push utilizando Firebase Cloud Messaging (FCM).</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr>
+
+<h3>Service: <code>EmailJSAdapter</code></h3>
+<p><strong>Descripción:</strong> Adaptador que utiliza la API de EmailJS para enviar notificaciones por correo electrónico.</p>
+
+<table>
+  <thead>
+    <tr><th>Método</th><th>Tipo de retorno</th><th>Visibilidad</th><th>Descripción</th></tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>sendEmail(notification: Notification)</td>
+      <td>void</td>
+      <td>Public</td>
+      <td>Envía una notificación por correo electrónico al destinatario indicado.</td>
+    </tr>
+  </tbody>
+</table>
+
 ##### 4.2.2.5. Bounded Context Software Architecture Component Level Diagrams
 
 ##### 4.2.2.6. Bounded Context Software Architecture Code Level Diagrams
