@@ -3434,6 +3434,14 @@ El diagrama de despliegue representa un sistema donde una aplicación móvil se 
 
 ##### 4.2.2.5. Bounded Context Software Architecture Component Level Diagrams
 
+<p>Este diagrama de componentes representa un sistema monolítico que gestiona notificaciones dentro de la plataforma SynHub. Una <strong>Single-Page Application (SPA)</strong>, implementada con Angular, interactúa con una <strong>Web API Application</strong> desarrollada en Spring Boot mediante llamadas HTTP (REST).</p>
+
+<p>La SPA realiza peticiones al <code>NotificationController</code> para consultar, marcar como leídas o generar nuevas notificaciones. Este controlador delega la lógica correspondiente a dos servicios principales: <code>NotificationQueryService</code> para recuperar notificaciones y <code>NotificationCommandService</code> para enviarlas o actualizar su estado.</p>
+
+<p>Ambos servicios se comunican con los repositorios correspondientes (<code>NotificationRepository</code> y <code>UserPreferencesRepository</code>) para acceder a los datos persistidos y las preferencias del usuario. Además, <code>NotificationCommandService</code> utiliza adaptadores externos como <code>FirebasePushAdapter</code> y <code>EmailJSAdapter</code> para el envío efectivo de notificaciones mediante canales push o correo electrónico. Los repositorios emplean JPA para realizar operaciones de lectura y escritura en una base de datos MySQL.</p>
+
+<img src="images/chapter-4/structurizr2.png" alt="Bounded Context Software Architecture Component Level Diagrams"/>
+
 ##### 4.2.2.6. Bounded Context Software Architecture Code Level Diagrams
 
 ###### 4.2.2.6.1. Bounded Context Domain Layer Class Diagrams
