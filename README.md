@@ -3075,8 +3075,8 @@ El diagrama de despliegue representa un sistema donde una aplicación móvil se 
 
 <p>Ambos servicios se comunican con sus respectivos repositorios (<code>ActivityLogRepository</code> y <code>ReportRepository</code>) que abstraen el acceso a la base de datos. Para la exportación de reportes, se emplea un servicio adicional (<code>ExportService</code>) que convierte los datos en formatos PDF y CSV. Los repositorios utilizan JPA para realizar operaciones de lectura y escritura en una base de datos relacional (MySQL).</p>
 
-<hr>
 
+<img src="images/chapter-4/structurizr1.png" alt="Bounded Context Software Architecture Component Level Diagrams"/>
 
 ##### 4.2.1.6. Bounded Context Software Architecture Code Level Diagrams
 
