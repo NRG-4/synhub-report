@@ -3080,7 +3080,21 @@ El diagrama de despliegue representa un sistema donde una aplicación móvil se 
 
 ##### 4.2.1.6. Bounded Context Software Architecture Code Level Diagrams
 
-###### 4.2.1.6.1. Bounded Context Domain Layer Class Diagrams
+##### 4.2.1.6.1. Bounded Context Domain Layer Class Diagrams
+
+<p>El siguiente diagrama de clases representa el bounded context <strong>Analítica y Reportes</strong> y muestra tres agregados principales: <code>ActivityLog</code>, <code>Report</code> y <code>Metric</code>. Además, se incluye el servicio de dominio <code>ReportFactory</code> y las interfaces de repositorio <code>ActivityLogRepository</code> y <code>ReportRepository</code>.</p>
+
+<p>El agregado <code>ActivityLog</code> tiene atributos como <code>id: Long</code>, <code>userId: Long</code>, <code>actionType: String</code>, <code>timestamp: LocalDateTime</code> y <code>metadata: String</code>, y representa una acción significativa realizada por un usuario dentro del sistema. Estos logs son la fuente principal para la generación de reportes.</p>
+
+<p>El agregado <code>Report</code> está compuesto por una lista de métricas (<code>List&lt;Metric&gt;</code>) y atributos como <code>id: Long</code>, <code>name: String</code>, <code>generatedAt: LocalDateTime</code>, y encapsula los datos procesados derivados de los logs. Posee métodos para generar reportes, así como para exportarlos en distintos formatos.</p>
+
+<p>La clase <code>Metric</code> es un objeto de valor que contiene los atributos <code>name: String</code>, <code>value: Double</code> y <code>context: String</code>. Esta clase representa datos cuantificables incluidos en los reportes, como tareas completadas o participación en reuniones.</p>
+
+<p>El servicio de dominio <code>ReportFactory</code> permite construir instancias del agregado <code>Report</code> a partir de un conjunto de <code>ActivityLog</code>, encapsulando la lógica de transformación. Además, se definen las interfaces <code>ActivityLogRepository</code> y <code>ReportRepository</code>, las cuales abstraen el acceso a los datos persistidos en la base de datos.</p>
+
+<p>Las relaciones representadas en el diagrama incluyen composición entre <code>Report</code> y <code>Metric</code> (un reporte contiene muchas métricas), y asociaciones entre los servicios y sus respectivas entidades o interfaces.</p>
+
+<img src="images/chapter-4/UML1.png" alt="Bounded Context Domain Layer Class Diagrams" />
 
 #### 4.2.2. Bounded Context: Notificaciones
 
