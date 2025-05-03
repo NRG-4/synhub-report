@@ -3458,7 +3458,21 @@ El diagrama de despliegue representa un sistema donde una aplicación móvil se 
 
 ##### 4.2.2.6. Bounded Context Software Architecture Code Level Diagrams
 
-###### 4.2.2.6.1. Bounded Context Domain Layer Class Diagrams
+##### 4.2.2.6.1. Bounded Context Domain Layer Class Diagrams
+
+<p>El siguiente diagrama de clases representa el bounded context <strong>Notificaciones</strong> y muestra dos agregados principales: <code>Notification</code> y <code>User</code>. Además, se incluye el servicio de dominio <code>NotificationService</code> y la enumeración <code>NotificationType</code>.</p>
+
+<p>El agregado <code>Notification</code> tiene atributos como <code>id: Long</code>, <code>userId: Long</code>, <code>title: String</code>, <code>message: String</code>, <code>type: NotificationType</code>, <code>status: String</code>, y <code>timestamp: LocalDateTime</code>. Representa una notificación generada por el sistema para un usuario específico. Incluye métodos como <code>send()</code> para iniciar el envío de la notificación, <code>markAsRead()</code> para marcar la notificación como leída, y <code>isRead()</code> para verificar su estado.</p>
+
+<p>El agregado <code>User</code> representa al destinatario de las notificaciones, con atributos como <code>id: Long</code>, <code>email: String</code>. Este agregado permite conocer la dirección de correo del usuario. Los métodos del agregado incluyen <code>getPreferences()</code>, que devuelve las preferencias de notificación del usuario, y <code>updatePreferences()</code>, que actualiza estas preferencias.</p>
+
+<p>La enumeración <code>NotificationType</code> define los posibles tipos de notificación, como <code>INFO</code>, <code>TASK</code>, <code>REMINDER</code>, y <code>ALERT</code>, que se usan para clasificar las notificaciones generadas por el sistema.</p>
+
+<p>El servicio de dominio <code>NotificationService</code> encapsula la lógica de negocio central para validar las notificaciones. Este servicio incluye el método <code>validateType()</code>, que valida si el tipo de notificación es permitido.</p>
+
+<p>Las relaciones entre las clases incluyen una asociación entre <code>Notification</code> y <code>User</code> (una notificación tiene un único destinatario), y una dependencia del servicio <code>NotificationService</code> hacia el agregado <code>Notification</code>.</p>
+
+<img src="images/chapter-4/UML2.png" alt="Bounded Context Domain Layer Class Diagrams" />
 
 #### 4.2.3. Bounded Context: Gestión de grupos
 
