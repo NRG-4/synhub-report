@@ -4130,7 +4130,95 @@ El diagrama de despliegue representa un sistema donde una aplicación móvil se 
 
 ![Database Schema Groups](images/chapter-4/database-schema-groups.png)
 
+#### 4.2.4. Bounded Context: Solicitudes y Validaciones
 
+##### 4.2.4.1. Domain Layer
+En el Domain Layer correspondiente al contexto de Solicitudes y Validaciones, la capa presenta como agregado principal a **Request**, el encargado de presentar una solicitud para la aprobación de ciertas acciones que un miembro desea realizar dentro del grupo. También se reconocen otros agregados como **Validation** y **Comment**.
+Las solicitudes son generadas por los usuarios miembro, y éstas pasan por un proceso de validación donde el líder del grupo evalúa las solicitudes. Para tomar una decisión de manera eficiente, ambos lados pueden comentar en la solicitud, y éste queda registrado.
+
+**Justificación:**
+El enfoque de este contexto es permitir que las solicitudes y las validaciones sean ambos eficientes y comunicativas, siguiendo las reglas de negocio establecidas. Los métodos establecidos proporcionan el acceso a los atributos asociados a la solicitud, de esta manera utilizando y asignando los datos de manera que no haya peligro de corrupción o pérdida de datos.
+
+**Entidad: Request**
+Descripción: Representa la solicitud a realizar, junto a su estado y sus comentarios.
+| Atributos | Tipo | Descripción |
+|-|-|-|
+| id | Long | Identificador único. |
+| description | String | Detalles de la solicitud. |
+| type | RequestType | El tipo de la solicitud (reglas varían según el tipo). |
+| status | RequestStatus | El estado de aprobación. |
+| submittedBy | Long | La ID del usuario que publicó la solicitud. |
+| relatedTaskId | Long | La ID de la evidencia a presentar. |
+| commentList | List<Comment> | La lista de comentarios asociados a la solicitud. |
+
+| Métodos | Tipo | Descripción |
+|-|-|-|
+| create | void | Crea una nueva solicitud. |
+| addComment | Comment | Crea un comentario para la solicitud.
+| attachFile | void | Adjunta un archivo subido desde el dispositivo, y lo asocia a la solicitud. |
+| validate | void | Valida la solicitud siempre y cuando tenga el rol de líder. |
+| updateStatus | void | Actualiza el estado de la solicitud siempre y cuando tenga el rol de líder. |
+
+**Entidad: Comment**
+Descripción: Representa los comentarios destinados a una solicitud.
+| Atributos | Tipo | Descripción |
+|-|-|-|
+| id | Long | Identificador único. |
+| requestId | Long | La ID de la solicitud asociada. |
+| authorId | Long | La ID del autor del comentario. |
+| content | String | El contenido del comentario. |
+
+| Métodos | Tipo | Descripción |
+|-|-|-|
+| create | void | Crea el comentario bajo la solicitud. |
+| edit | void | Edita el comentario seleccionado. |
+| isEditable | boolean | Verifica si el comentario a editar pertenece al usuario. |
+
+**Entidad: Validation**
+Descripción: Representa la validación de una solicitud.
+| Atributos | Tipo | Descripción |
+|-|-|-|
+| id | Long | Identificador único. |
+| requestId | Long | La ID de la solicitud asociada. |
+| reason | String | El motivo de la decisión. |
+| validatedAt | DateTime | La fecha de validación. |
+
+| Métodos | Tipo | Descripción |
+|-|-|-|
+| approve | void | Aprueba la solicitud. |
+| reject | void | Rechaza la solicitud. |
+
+**Entidad: FileAttachment**
+Descripción: Representa el archivo que sirve como evidencia.
+| Atributos | Tipo | Descripción |
+|-|-|-|
+| id | Long | Identificador único. |
+| requestId | Long | La ID de la solicitud asociada. |
+| fileName | String | Nombre del archivo. |
+| fileType | String | Tipo de archivo. |
+| storagePath | String | Ruta de almacenamiento o URL del archivo. |
+| uploadedBy | Long | La ID del usuario que subió el archivo. |
+| uploadedAt | DateTime | Fecha en que se subió el archivo. |
+
+| Métodos | Tipo | Descripción |
+|-|-|-|
+| create | void | Crea el archivo en el sistema. |
+| isValidType | boolean | Verifica si el archivo es válido dentro de las reglas de negocio. |
+| isSizeWithin | boolean | Verifica si el archivo no supera cierta cantidad de peso del archivo. |
+
+##### 4.2.4.2. Interface Layer
+
+##### 4.2.4.3. Application Layer
+
+##### 4.2.4.4. Infrastructure Layer
+
+##### 4.2.4.5. Bounded Context Software Architecture Component Level Diagrams
+
+##### 4.2.4.6. Bounded Context Software Architecture Code Level Diagrams
+
+###### 4.2.4.6.1. Bounded Context Domain Layer Class Diagrams
+
+###### 4.2.4.6.2. Bounded Context Database Design Diagram
 
 ## Capítulo V: Solution UI/UX Design
 
