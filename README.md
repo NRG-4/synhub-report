@@ -4151,7 +4151,7 @@ Descripción: Representa la solicitud a realizar, junto a su estado y sus coment
 | submittedBy | Long | La ID del usuario que publicó la solicitud. |
 | validatedBy | Long | La ID del usuario líder que verifica la solicitud. |
 | validationReason | String | La razón de la decisión tomada por el líder. |
-| evidence | List<FileAttachment> | La lista de archivos que funcionan como evidencia. |
+| evidenceList | List<FileAttachment> | La lista de archivos que funcionan como evidencia. |
 | commentList | List<Comment> | La lista de comentarios asociados a la solicitud. |
 
 | Métodos | Tipo | Descripción |
