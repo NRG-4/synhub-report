@@ -4207,6 +4207,74 @@ Descripción: Representa el archivo que sirve como evidencia.
 | isSizeWithin | boolean | Verifica si el archivo no supera cierta cantidad de peso del archivo. |
 
 ##### 4.2.4.2. Interface Layer
+En el interface layer corresponde la conexión entre los usuarios y los servicios proporcionados para la solicitud y validación. Los controladores son los encargados de realizar la creación, validación y manejo de comentarios de las solicitudes, entre otras acciones pertenecientes al contexto.
+
+**Justificación:**
+La capa funciona como una conexión entre los usuarios a la aplicación mediante el uso de APIs; es decir, exponer los endpoints para que el sistema interactúe con los servicios. Los servicios de comandos y de consultas son dependencias, los cuales actúan bajo controladores que siguen la lógica del negocio.
+
+**Controlador:** RequestController
+Descripción: Controlador que maneja los endpoints relacionados con las solicitudes.
+
+| Método | Ruta | Descripción |
+|-|-|-|
+| createRequest | `POST /requests` | Crear una nueva solicitud (request) |
+| listRequests | `GET /requests` | Obtener listado de requests (filtrables por estado, tipo, grupo) |
+| getRequestById | `GET /requests/{id}` | Obtener detalles de un request específico |
+| updateSubmissionAsSent | `PATCH /requests/{id}/submit` | Marcar request como enviada |
+| updateStatus | `PATCH /requests/{id}/status` | Cambiar el estado (solo si está permitido) |
+| setValidation | `PATCH /requests/{id}/validate` | Aprobar o rechazar un request (por un líder) |
+
+| Dependencias | Descripción |
+|-|-|
+| RequestCommandService | Servicio para crear o modificar solicitudes. |
+| RequestQueryService | Servicio para obtener las solicitudes. |
+| RequestResourceAssembler | Ensamblador de las solicitudes como recurso. |
+
+**Controlador:** CommentController
+Descripción: Controlador que maneja los endpoints relacionados con los comentarios de una solicitud.
+
+| Método | Ruta | Descripción |
+|-|-|-|
+| addComment | `POST /requests/{id}/comments` | Agregar un comentario a un request. |
+| listComments | `GET /requests/{id}/comments` | Listar comentarios asociados. |
+| editComment | `PATCH /comments/{commentId}`   | Editar un comentario. |
+| deleteComment | `DELETE /comments/{commentId}`   | Eliminar un comentario. |
+
+| Dependencias | Descripción |
+|-|-|
+| CommentCommandService | Servicio para crear comentarios dentro de una solicitud. |
+| CommentQueryService | Servicio para obtener los comentarios de una solicitud. |
+| CommentResourceAssembler | Ensamblador de los comentarios como recurso. |
+
+**Controlador:** FilesController
+Descripción: Controlador que maneja los endpoints relacionados con los archivos de una solicitud.
+
+| Método   | Ruta               | Descripción                            |
+| -------- | ---------------------- | -------------------------------------- |
+| addFile | `POST /requests/{id}/files` | Subir archivo a un request. |
+| listFiles | `GET /requests/{id}/files` | Listar archivos asociados a un request. |
+| getFileById | `GET /files/{fileId}`      | Descargar un archivo específico. |
+| removeFile | `DELETE /files/{fileId}`      | Eliminar el archivo correspondiente. |
+
+| Dependencias | Descripción |
+|-|-|
+| AttachmentCommandService | Servicio para adjuntar un archivo dentro de una solicitud. |
+| AttachmentQueryService | Servicio para obtener el archivo de una solicitud. |
+| AttachmentResourceAssembler | Ensamblador del archivo como recurso. |
+
+**Controlador:** ValidationController
+Descripción: Controlador que maneja los endpoints relacionados con las validaciones.
+
+| Método | Ruta                    | Descripción                                |
+| ------ | --------------------------- | ------------------------------------------ |
+| validateRequest | `POST /requests/{id}/validation` | Realizar validación (aprobación o rechazo). |
+| viewRequestValidation | `GET /requests/{id}/validation` | Ver estado y motivo de la validación. |
+
+| Dependencias | Descripción |
+|-|-|
+| ValidationCommandService | Servicio para permitir acciones para la validación de una solicitud. |
+| ValidationQueryService | Servicio para obtener detalles de la validación de una solicitud. |
+| ValidationResourceAssembler | Ensamblador de la validación como recurso. |
 
 ##### 4.2.4.3. Application Layer
 
