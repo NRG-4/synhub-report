@@ -4245,28 +4245,14 @@ Descripción: Controlador que maneja los endpoints relacionados con los archivos
 | -------- | ---------------------- | -------------------------------------- |
 | addFile | `POST /requests/{id}/files` | Subir archivo a un request. |
 | listFiles | `GET /requests/{id}/files` | Listar archivos asociados a un request. |
-| getFileById | `GET /files/{fileId}`      | Descargar un archivo específico. |
-| removeFile | `DELETE /files/{fileId}`      | Eliminar el archivo correspondiente. |
+| getFileById | `GET /files/{fileId}` | Descargar un archivo específico. |
+| removeFile | `DELETE /files/{fileId}` | Eliminar el archivo correspondiente. |
 
 | Dependencias | Descripción |
 |-|-|
 | AttachmentCommandService | Servicio para adjuntar un archivo dentro de una solicitud. |
 | AttachmentQueryService | Servicio para obtener el archivo de una solicitud. |
 | AttachmentResourceAssembler | Ensamblador del archivo como recurso. |
-
-**Controlador: ValidationController**
-Descripción: Controlador que maneja los endpoints relacionados con las validaciones.
-
-| Método | Ruta                    | Descripción                                |
-| ------ | --------------------------- | ------------------------------------------ |
-| validateRequest | `POST /requests/{id}/validation` | Realizar validación (aprobación o rechazo). |
-| viewRequestValidation | `GET /requests/{id}/validation` | Ver estado y motivo de la validación. |
-
-| Dependencias | Descripción |
-|-|-|
-| ValidationCommandService | Servicio para permitir acciones para la validación de una solicitud. |
-| ValidationQueryService | Servicio para obtener detalles de la validación de una solicitud. |
-| ValidationResourceAssembler | Ensamblador de la validación como recurso. |
 
 ##### 4.2.4.3. Application Layer
 En el application layer se listan las operaciones que son separadas del dominio principal, pero que de todas maneras son importantes para el funcionamiento y cumplimiento de las necesidades del usuario.
