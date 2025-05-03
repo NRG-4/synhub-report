@@ -3460,6 +3460,664 @@ El diagrama de despliegue representa un sistema donde una aplicación móvil se 
 
 ###### 4.2.2.6.1. Bounded Context Domain Layer Class Diagrams
 
+#### 4.2.3. Bounded Context: Gestión de grupos
+
+##### 4.2.3.1. Domain Layer
+
+<hr>
+
+<h3>Aggregate: <code>Group</code></h3>
+<p><strong>Descripción:</strong> Representa un grupo en el sistema, con usuarios miembros y un propietario.</p>
+
+<table>
+  <thead>
+    <tr><th>Atributos</th><th>Tipo de dato</th><th>Visibilidad</th><th>Descripción</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>id</td><td>Long</td><td>Private</td><td>Identificador único del grupo.</td></tr>
+    <tr><td>name</td><td>String</td><td>Private</td><td>Nombre del grupo.</td></tr>
+    <tr><td>imgUrl</td><td>String</td><td>Private</td><td>Url de la imagen del grupo.</td></tr>
+    <tr><td>count</td><td>Short</td><td>Private</td><td>Cantidad de miembros (puede derivarse de memberIds).</td></tr>
+    <tr><td>createdAt</td><td>Timestamp</td><td>Private</td><td>Fecha de creación del grupo.</td></tr>
+    <tr><td>updatedAt</td><td>Timestamp</td><td>Private</td><td>Fecha de última actualización.</td></tr>
+    <tr><td>ownerId</td><td>Long</td><td>Private</td><td>ID del usuario propietario.</td></tr>
+    <tr><td>members</td><td>List&lt;User&gt;</td><td>Private</td><td>Lista de usuarios miembros.</td></tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr><th>Métodos</th><th>Tipo de retorno</th><th>Visibilidad</th><th>Descripción</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>getId()</td><td>Long</td><td>Public</td><td>Devuelve el ID del grupo.</td></tr>
+    <tr><td>getName()</td><td>String</td><td>Public</td><td>Devuelve el nombre del grupo.</td></tr>
+    <tr><td>getImgUrl()</td><td>String</td><td>Public</td><td>Devuelve la url de la imagen.</td></tr>
+    <tr><td>getCount()</td><td>Short</td><td>Public</td><td>Devuelve la cantidad de miembros.</td></tr>
+    <tr><td>getCreatedAt()</td><td>Timestamp</td><td>Public</td><td>Devuelve la fecha de creación.</td></tr>
+    <tr><td>getUpdatedAt()</td><td>Timestamp</td><td>Public</td><td>Devuelve la fecha de última actualización.</td></tr>
+    <tr><td>getOwnerId()</td><td>Long</td><td>Public</td><td>Devuelve el ID del propietario.</td></tr>
+    <tr><td>getMembers()</td><td>List&lt;User&gt;</td><td>Public</td><td>Devuelve la lista de miembros.</td></tr>
+  </tbody>
+</table>
+
+##### 4.2.3.2. Interface Layer
+
+<hr>
+
+<h3>Controlador: <code>GroupController</code></h3>
+
+<table>
+  <tr>
+    <th>Título</th>
+    <td>GroupController</td>
+  </tr>
+  <tr>
+    <th>Descripción</th>
+    <td>Controlador REST que maneja las operaciones CRUD para grupos y gestión de miembros</td>
+  </tr>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th>Método</th>
+      <th>Ruta</th>
+      <th>Descripción</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>getGroupByID</td>
+      <td>GET /api/v1/group/{id}</td>
+      <td>Obtiene los detalles de un grupo específico por su ID</td>
+    </tr>
+    <tr>
+      <td>getAllUserGroups</td>
+      <td>GET /api/v1/group/user/{userId}</td>
+      <td>Obtiene todos los grupos a los que pertenece un usuario</td>
+    </tr>
+    <tr>
+      <td>registerGroup</td>
+      <td>POST /api/v1/group</td>
+      <td>Crea un nuevo grupo en el sistema</td>
+    </tr>
+    <tr>
+      <td>AddMemberToGroup</td>
+      <td>POST /api/v1/group/{groupId}/member/{userId}</td>
+      <td>Añade un usuario como miembro a un grupo existente</td>
+    </tr>
+    <tr>
+      <td>updateGroup</td>
+      <td>PUT /api/v1/group/{id}</td>
+      <td>Actualiza la información de un grupo existente</td>
+    </tr>
+    <tr>
+      <td>DeleteGroup</td>
+      <td>DELETE /api/v1/group/{id}</td>
+      <td>Elimina un grupo del sistema</td>
+    </tr>
+  </tbody>
+</table>
+
+<h4>Dependencias:</h4>
+
+<table>
+  <thead>
+    <tr>
+      <th>Dependencia</th>
+      <th>Descripción</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>GroupQueryService</td>
+      <td>Servicio para consultas y recuperación de datos de grupos</td>
+    </tr>
+    <tr>
+      <td>GroupCommandService</td>
+      <td>Servicio para ejecutar comandos de modificación sobre grupos</td>
+    </tr>
+    <tr>
+      <td>CreateGroupCommandFromResourceAssembler</td>
+      <td>Convierte recursos REST en comandos de creación de grupos</td>
+    </tr>
+    <tr>
+      <td>UpdateGroupCommandFromResourceAssembler</td>
+      <td>Convierte recursos REST en comandos de actualización de grupos</td>
+    </tr>
+    <tr>
+      <td>DeleteGroupCommandFromResourceAssembler</td>
+      <td>Convierte recursos REST en comandos de eliminación de grupos</td>
+    </tr>
+    <tr>
+      <td>GroupResourceFromEntityAssembler</td>
+      <td>Convierte entidades de grupo en recursos REST para la respuesta</td>
+    </tr>
+  </tbody>
+</table>
+
+##### 4.2.3.3. Application Layer
+
+<hr>
+
+<h3>Clase: <code>GroupQueryServiceImpl</code></h3>
+
+<table>
+  <tr>
+    <th>Título</th>
+    <td>GroupQueryServiceImpl</td>
+  </tr>
+  <tr>
+    <th>Descripción</th>
+    <td>Implementación del servicio de consultas para operaciones de lectura relacionadas con grupos</td>
+  </tr>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th>Método</th>
+      <th>Descripción</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>handle(GetGroupByIdQuery)</td>
+      <td>Obtiene los detalles completos de un grupo por su ID</td>
+    </tr>
+    <tr>
+      <td>handle(GetUserMembershipQuery)</td>
+      <td>Verifica si un usuario pertenece a un grupo específico</td>
+    </tr>
+    <tr>
+      <td>handle(ListGroupMembersQuery)</td>
+      <td>Devuelve todos los miembros activos de un grupo</td>
+    </tr>
+    <tr>
+      <td>handle(CheckGroupInvitationStatusQuery)</td>
+      <td>Verifica el estado de una invitación a un grupo</td>
+    </tr>
+    <tr>
+      <td>handle(GetGroupPermissionsQuery)</td>
+      <td>Obtiene los permisos asociados a un rol específico en el grupo</td>
+    </tr>
+    <tr>
+      <td>handle(ListUserGroupsQuery)</td>
+      <td>Lista todos los grupos a los que pertenece un usuario</td>
+    </tr>
+    <tr>
+      <td>handle(ValidateGroupOwnershipQuery)</td>
+      <td>Verifica si un usuario es coordinador del grupo</td>
+    </tr>
+    <tr>
+      <td>handle(GetGroupConfigurationQuery)</td>
+      <td>Recupera las preferencias/configuración del grupo</td>
+    </tr>
+    <tr>
+      <td>handle(ListPendingInvitationsQuery)</td>
+      <td>Obtiene las invitaciones pendientes de un grupo</td>
+    </tr>
+    <tr>
+      <td>handle(CheckGroupAvailabilityQuery)</td>
+      <td>Valida la disponibilidad del nombre del grupo</td>
+    </tr>
+  </tbody>
+</table>
+
+<h4>Dependencias:</h4>
+
+<table>
+  <thead>
+    <tr>
+      <th>Dependencia</th>
+      <th>Descripción</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>GroupRepository</td>
+      <td>Repositorio para acceso a datos de grupos</td>
+    </tr>
+    <tr>
+      <td>UserExternalService</td>
+      <td>Servicio externo para validación de usuarios</td>
+    </tr>
+    <tr>
+      <td>GetGroupByIdQuery</td>
+      <td>Query para obtener detalles de grupo por ID</td>
+    </tr>
+    <tr>
+      <td>GetUserMembershipQuery</td>
+      <td>Query para verificar membresía de usuario</td>
+    </tr>
+    <tr>
+      <td>ListGroupMembersQuery</td>
+      <td>Query para listar miembros del grupo</td>
+    </tr>
+    <tr>
+      <td>CheckGroupInvitationStatusQuery</td>
+      <td>Query para estado de invitaciones</td>
+    </tr>
+    <tr>
+      <td>GetGroupPermissionsQuery</td>
+      <td>Query para obtener permisos de rol</td>
+    </tr>
+    <tr>
+      <td>ListUserGroupsQuery</td>
+      <td>Query para grupos de un usuario</td>
+    </tr>
+    <tr>
+      <td>ValidateGroupOwnershipQuery</td>
+      <td>Query para validar coordinadores</td>
+    </tr>
+    <tr>
+      <td>GetGroupConfigurationQuery</td>
+      <td>Query para configuración del grupo</td>
+    </tr>
+    <tr>
+      <td>ListPendingInvitationsQuery</td>
+      <td>Query para invitaciones pendientes</td>
+    </tr>
+    <tr>
+      <td>CheckGroupAvailabilityQuery</td>
+      <td>Query para validar nombre de grupo</td>
+    </tr>
+  </tbody>
+</table>
+
+
+<hr>
+
+<h3>Clase: <code>GroupCommandServiceImpl</code></h3>
+
+<table>
+  <tr>
+    <th>Título</th>
+    <td>GroupCommandServiceImpl</td>
+  </tr>
+  <tr>
+    <th>Descripción</th>
+    <td>Implementación del servicio de comandos para operaciones de escritura relacionadas con grupos</td>
+  </tr>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th>Método</th>
+      <th>Descripción</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>handle(CreateGroupCommand)</td>
+      <td>Crea un nuevo grupo con la configuración inicial</td>
+    </tr>
+    <tr>
+      <td>handle(UpdateGroupCommand)</td>
+      <td>Actualiza la información básica del grupo (nombre, descripción, imagen)</td>
+    </tr>
+    <tr>
+      <td>handle(DeleteGroupCommand)</td>
+      <td>Elimina un grupo existente del sistema</td>
+    </tr>
+    <tr>
+      <td>handle(AddMemberCommand)</td>
+      <td>Añade un nuevo miembro al grupo</td>
+    </tr>
+    <tr>
+      <td>handle(RemoveMemberCommand)</td>
+      <td>Elimina un miembro existente del grupo</td>
+    </tr>
+    <tr>
+      <td>handle(SendInvitationCommand)</td>
+      <td>Envía una invitación a un usuario para unirse al grupo</td>
+    </tr>
+    <tr>
+      <td>handle(UpdateGroupSettingsCommand)</td>
+      <td>Actualiza las preferencias y configuración del grupo</td>
+    </tr>
+    <tr>
+      <td>handle(UpdateMemberRoleCommand)</td>
+      <td>Modifica los permisos/rol de un miembro en el grupo</td>
+    </tr>
+    <tr>
+      <td>handle(ProcessInvitationResponseCommand)</td>
+      <td>Procesa la aceptación/rechazo de una invitación</td>
+    </tr>
+    <tr>
+      <td>handle(TransferOwnershipCommand)</td>
+      <td>Transfiere la propiedad/coordinación del grupo a otro miembro</td>
+    </tr>
+  </tbody>
+</table>
+
+<h4>Dependencias:</h4>
+
+<table>
+  <thead>
+    <tr>
+      <th>Dependencia</th>
+      <th>Descripción</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>GroupRepository</td>
+      <td>Repositorio para acceso a datos de grupos</td>
+    </tr>
+    <tr>
+      <td>UserExternalService</td>
+      <td>Servicio externo para validación de usuarios</td>
+    </tr>
+    <tr>
+      <td>NotificationService</td>
+      <td>Servicio para enviar notificaciones sobre cambios</td>
+    </tr>
+    <tr>
+      <td>CreateGroupCommand</td>
+      <td>Comando para creación de nuevos grupos</td>
+    </tr>
+    <tr>
+      <td>UpdateGroupCommand</td>
+      <td>Comando para actualización de grupos</td>
+    </tr>
+    <tr>
+      <td>DeleteGroupCommand</td>
+      <td>Comando para eliminación de grupos</td>
+    </tr>
+    <tr>
+      <td>AddMemberCommand</td>
+      <td>Comando para añadir miembros</td>
+    </tr>
+    <tr>
+      <td>RemoveMemberCommand</td>
+      <td>Comando para remover miembros</td>
+    </tr>
+    <tr>
+      <td>SendInvitationCommand</td>
+      <td>Comando para enviar invitaciones</td>
+    </tr>
+    <tr>
+      <td>UpdateGroupSettingsCommand</td>
+      <td>Comando para actualizar configuraciones</td>
+    </tr>
+    <tr>
+      <td>UpdateMemberRoleCommand</td>
+      <td>Comando para modificar roles</td>
+    </tr>
+    <tr>
+      <td>ProcessInvitationResponseCommand</td>
+      <td>Comando para procesar respuestas a invitaciones</td>
+    </tr>
+    <tr>
+      <td>TransferOwnershipCommand</td>
+      <td>Comando para transferir propiedad</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr>
+
+<h3>Clase: <code>GroupCommandServiceImpl</code></h3>
+
+<table>
+  <tr>
+    <th>Título</th>
+    <td>GroupCommandServiceImpl</td>
+  </tr>
+  <tr>
+    <th>Descripción</th>
+    <td>Implementación del servicio de comandos para operaciones de escritura relacionadas con grupos</td>
+  </tr>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th>Método</th>
+      <th>Descripción</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>handle(CreateGroupCommand)</td>
+      <td>Crea un nuevo grupo con la configuración inicial</td>
+    </tr>
+    <tr>
+      <td>handle(UpdateGroupCommand)</td>
+      <td>Actualiza la información básica del grupo (nombre, descripción, imagen)</td>
+    </tr>
+    <tr>
+      <td>handle(DeleteGroupCommand)</td>
+      <td>Elimina un grupo existente del sistema</td>
+    </tr>
+    <tr>
+      <td>handle(AddMemberCommand)</td>
+      <td>Añade un nuevo miembro al grupo</td>
+    </tr>
+    <tr>
+      <td>handle(RemoveMemberCommand)</td>
+      <td>Elimina un miembro existente del grupo</td>
+    </tr>
+    <tr>
+      <td>handle(SendInvitationCommand)</td>
+      <td>Envía una invitación a un usuario para unirse al grupo</td>
+    </tr>
+    <tr>
+      <td>handle(UpdateGroupSettingsCommand)</td>
+      <td>Actualiza las preferencias y configuración del grupo</td>
+    </tr>
+    <tr>
+      <td>handle(UpdateMemberRoleCommand)</td>
+      <td>Modifica los permisos/rol de un miembro en el grupo</td>
+    </tr>
+    <tr>
+      <td>handle(ProcessInvitationResponseCommand)</td>
+      <td>Procesa la aceptación/rechazo de una invitación</td>
+    </tr>
+    <tr>
+      <td>handle(TransferOwnershipCommand)</td>
+      <td>Transfiere la propiedad/coordinación del grupo a otro miembro</td>
+    </tr>
+  </tbody>
+</table>
+
+<h4>Dependencias:</h4>
+
+<table>
+  <thead>
+    <tr>
+      <th>Dependencia</th>
+      <th>Descripción</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>GroupRepository</td>
+      <td>Repositorio para acceso a datos de grupos</td>
+    </tr>
+    <tr>
+      <td>UserExternalService</td>
+      <td>Servicio externo para validación de usuarios</td>
+    </tr>
+    <tr>
+      <td>NotificationService</td>
+      <td>Servicio para enviar notificaciones sobre cambios</td>
+    </tr>
+    <tr>
+      <td>CreateGroupCommand</td>
+      <td>Comando para creación de nuevos grupos</td>
+    </tr>
+    <tr>
+      <td>UpdateGroupCommand</td>
+      <td>Comando para actualización de grupos</td>
+    </tr>
+    <tr>
+      <td>DeleteGroupCommand</td>
+      <td>Comando para eliminación de grupos</td>
+    </tr>
+    <tr>
+      <td>AddMemberCommand</td>
+      <td>Comando para añadir miembros</td>
+    </tr>
+    <tr>
+      <td>RemoveMemberCommand</td>
+      <td>Comando para remover miembros</td>
+    </tr>
+    <tr>
+      <td>SendInvitationCommand</td>
+      <td>Comando para enviar invitaciones</td>
+    </tr>
+    <tr>
+      <td>UpdateGroupSettingsCommand</td>
+      <td>Comando para actualizar configuraciones</td>
+    </tr>
+    <tr>
+      <td>UpdateMemberRoleCommand</td>
+      <td>Comando para modificar roles</td>
+    </tr>
+    <tr>
+      <td>ProcessInvitationResponseCommand</td>
+      <td>Comando para procesar respuestas a invitaciones</td>
+    </tr>
+    <tr>
+      <td>TransferOwnershipCommand</td>
+      <td>Comando para transferir propiedad</td>
+    </tr>
+  </tbody>
+</table>
+
+##### 4.2.3.4. Infrastructure Layer
+
+<hr>
+
+<h3>Clase: <code>GroupRepository</code></h3>
+
+<table>
+  <tr>
+    <th>Título</th>
+    <td>GroupRepository</td>
+  </tr>
+  <tr>
+    <th>Descripción</th>
+    <td>Interfaz de persistencia para operaciones CRUD y consultas específicas de grupos</td>
+  </tr>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th>Método</th>
+      <th>Descripción</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>save(GroupEntity)</td>
+      <td>Persiste un nuevo grupo o actualiza uno existente</td>
+    </tr>
+    <tr>
+      <td>deleteById(Long)</td>
+      <td>Elimina un grupo por su ID</td>
+    </tr>
+    <tr>
+      <td>findById(Long)</td>
+      <td>Recupera un grupo completo por su ID</td>
+    </tr>
+    <tr>
+      <td>existsById(Long)</td>
+      <td>Verifica existencia de un grupo</td>
+    </tr>
+    <tr>
+      <td>findByOwnerId(Long, Pageable)</td>
+      <td>Busca grupos por ID de propietario con paginación</td>
+    </tr>
+    <tr>
+      <td>findMembersByGroupId(Long)</td>
+      <td>Obtiene todos los miembros de un grupo</td>
+    </tr>
+    <tr>
+      <td>findInvitationById(Long)</td>
+      <td>Recupera el estado de una invitación específica</td>
+    </tr>
+    <tr>
+      <td>findGroupConfig(Long)</td>
+      <td>Obtiene configuración específica del grupo</td>
+    </tr>
+     <tr>
+      <td>addMember(Long, Long)</td>
+      <td>Añade un usuario a la lista de miembros</td>
+    </tr>
+    <tr>
+      <td>removeMember(Long, Long)</td>
+      <td>Elimina un usuario de los miembros</td>
+    </tr>
+    <tr>
+      <td>saveInvitation(GroupInvitationEntity)</td>
+      <td>Persiste una nueva invitación</td>
+    </tr>
+    <tr>
+      <td>updateGroupVisibility(Long, String)</td>
+      <td>Actualiza visibilidad del grupo</td>
+    </tr>
+    <tr>
+      <td>updateMemberRole(Long, Long, String)</td>
+      <td>Modifica el rol de un miembro</td>
+    </tr>
+     <tr>
+      <td>existsMemberInGroup(Long, Long)</td>
+      <td>Verifica si usuario ya es miembro</td>
+    </tr>
+    <tr>
+      <td>countMembers(Long)</td>
+      <td>Cuenta miembros activos en grupo</td>
+    </tr>
+    <tr>
+      <td>findActiveInvitations(UUID)</td>
+      <td>Obtiene invitaciones pendientes</td>
+    </tr>
+  </tbody>
+</table>
+
+<h4>Dependencias:</h4>
+
+<table>
+  <thead>
+    <tr>
+      <th>Dependencia</th>
+      <th>Propósito</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>User</td>
+      <td> Clase que representa al usuario en el sistema.   </td>
+    </tr>
+    <tr>
+      <td>Grupo </td>
+      <td> Clase que representa a un grupo en el sistema. </td>
+    </tr>
+  </tbody>
+</table>
+
+##### 4.2.3.5. Bounded Context Software Architecture Component Level Diagrams
+
+![GroupComponentDiagram.png](images/chapter-4/GroupComponentDiagram.png)
+
+##### 4.2.3.6. Bounded Context Software Architecture Code Level Diagrams
+
+###### 4.2.3.6.1. Bounded Context Domain Layer Class Diagrams
+
+![group class diagram](images/chapter-4/group-class-diagram.png)
+
+###### 4.2.3.6.2. Bounded Context Database Design Diagram
+
+![Database Schema Groups](images/chapter-4/database-schema-groups.png)
+
+
+
 ## Capítulo V: Solution UI/UX Design
 
 ### 5.1. Product Design
