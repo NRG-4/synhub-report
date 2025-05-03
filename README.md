@@ -4139,7 +4139,7 @@ Las solicitudes son generadas por los usuarios miembro, y éstas pasan por un pr
 **Justificación:**
 El enfoque de este contexto es permitir que las solicitudes y las validaciones sean ambos eficientes y comunicativas, siguiendo las reglas de negocio establecidas. Los métodos establecidos proporcionan el acceso a los atributos asociados a la solicitud, de esta manera utilizando y asignando los datos de manera que no haya peligro de corrupción o pérdida de datos.
 
-**Entidad: Request**
+**Entidad: Request**<br>
 Descripción: Representa la solicitud a realizar, junto a su estado y sus comentarios.
 | Atributos | Tipo | Descripción |
 |-|-|-|
@@ -4159,7 +4159,7 @@ Descripción: Representa la solicitud a realizar, junto a su estado y sus coment
 | validate | void | Valida la solicitud siempre y cuando tenga el rol de líder. |
 | updateStatus | void | Actualiza el estado de la solicitud siempre y cuando tenga el rol de líder. |
 
-**Entidad: Comment**
+**Entidad: Comment**<br>
 Descripción: Representa los comentarios destinados a una solicitud.
 | Atributos | Tipo | Descripción |
 |-|-|-|
@@ -4174,7 +4174,7 @@ Descripción: Representa los comentarios destinados a una solicitud.
 | edit | void | Edita el comentario seleccionado. |
 | isEditable | boolean | Verifica si el comentario a editar pertenece al usuario. |
 
-**Entidad: Validation**
+**Entidad: Validation**<br>
 Descripción: Representa la validación de una solicitud.
 | Atributos | Tipo | Descripción |
 |-|-|-|
@@ -4188,7 +4188,7 @@ Descripción: Representa la validación de una solicitud.
 | approve | void | Aprueba la solicitud. |
 | reject | void | Rechaza la solicitud. |
 
-**Entidad: FileAttachment**
+**Entidad: FileAttachment**<br>
 Descripción: Representa el archivo que sirve como evidencia.
 | Atributos | Tipo | Descripción |
 |-|-|-|
@@ -4212,7 +4212,7 @@ En el interface layer corresponde la conexión entre los usuarios y los servicio
 **Justificación:**
 La capa funciona como una conexión entre los usuarios a la aplicación mediante el uso de APIs; es decir, exponer los endpoints para que el sistema interactúe con los servicios. Los servicios de comandos y de consultas son dependencias, los cuales actúan bajo controladores que siguen la lógica del negocio.
 
-**Controlador:** RequestController
+**Controlador: RequestController**<br>
 Descripción: Controlador que maneja los endpoints relacionados con las solicitudes.
 
 | Método | Ruta | Descripción |
@@ -4230,7 +4230,7 @@ Descripción: Controlador que maneja los endpoints relacionados con las solicitu
 | RequestQueryService | Servicio para obtener las solicitudes. |
 | RequestResourceAssembler | Ensamblador de las solicitudes como recurso. |
 
-**Controlador:** CommentController
+**Controlador: CommentController**<br>
 Descripción: Controlador que maneja los endpoints relacionados con los comentarios de una solicitud.
 
 | Método | Ruta | Descripción |
@@ -4246,7 +4246,7 @@ Descripción: Controlador que maneja los endpoints relacionados con los comentar
 | CommentQueryService | Servicio para obtener los comentarios de una solicitud. |
 | CommentResourceAssembler | Ensamblador de los comentarios como recurso. |
 
-**Controlador:** FilesController
+**Controlador: FilesController**
 Descripción: Controlador que maneja los endpoints relacionados con los archivos de una solicitud.
 
 | Método   | Ruta               | Descripción                            |
@@ -4262,7 +4262,7 @@ Descripción: Controlador que maneja los endpoints relacionados con los archivos
 | AttachmentQueryService | Servicio para obtener el archivo de una solicitud. |
 | AttachmentResourceAssembler | Ensamblador del archivo como recurso. |
 
-**Controlador:** ValidationController
+**Controlador: ValidationController**
 Descripción: Controlador que maneja los endpoints relacionados con las validaciones.
 
 | Método | Ruta                    | Descripción                                |
@@ -4277,6 +4277,16 @@ Descripción: Controlador que maneja los endpoints relacionados con las validaci
 | ValidationResourceAssembler | Ensamblador de la validación como recurso. |
 
 ##### 4.2.4.3. Application Layer
+En el application layer se listan las operaciones que son separadas del dominio principal, pero que de todas maneras son importantes para el funcionamiento y cumplimiento de las necesidades del usuario.
+
+**Justificación:**
+La capa actúa como intermediario entre la capa de dominio y la capa de interfaz, enforzando las reglas de negocio con respecto al uso de servicios y facilitando la reutilización de ésta.
+
+**Servicio: Request**
+
+**Servicio: Comment**
+
+**Servicio: Request**
 
 ##### 4.2.4.4. Infrastructure Layer
 
