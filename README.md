@@ -4141,6 +4141,7 @@ El enfoque de este contexto es permitir que las solicitudes y las validaciones s
 
 **Entidad: Request**<br>
 Descripción: Representa la solicitud a realizar, junto a su estado y sus comentarios.
+
 | Atributos | Tipo | Descripción |
 |-|-|-|
 | id | Long | Identificador único. |
@@ -4148,19 +4149,23 @@ Descripción: Representa la solicitud a realizar, junto a su estado y sus coment
 | type | RequestType | El tipo de la solicitud (reglas varían según el tipo). |
 | status | RequestStatus | El estado de aprobación. |
 | submittedBy | Long | La ID del usuario que publicó la solicitud. |
-| relatedTaskId | Long | La ID de la evidencia a presentar. |
+| validatedBy | Long | La ID del usuario líder que verifica la solicitud. |
+| validationReason | String | La razón de la decisión tomada por el líder. |
+| evidence | List<FileAttachment> | La lista de archivos que funcionan como evidencia. |
 | commentList | List<Comment> | La lista de comentarios asociados a la solicitud. |
 
 | Métodos | Tipo | Descripción |
 |-|-|-|
 | create | void | Crea una nueva solicitud. |
-| addComment | Comment | Crea un comentario para la solicitud.
+| addComment | Comment | Crea un comentario para la solicitud. |
+| approve | void | Aprueba la solicitud. |
+| reject | void | Rechaza la solicitud. |
 | attachFile | void | Adjunta un archivo subido desde el dispositivo, y lo asocia a la solicitud. |
-| validate | void | Valida la solicitud siempre y cuando tenga el rol de líder. |
-| updateStatus | void | Actualiza el estado de la solicitud siempre y cuando tenga el rol de líder. |
+| isLeader | boolean | Verifica si el usuario que valida es líder. |
 
 **Entidad: Comment**<br>
 Descripción: Representa los comentarios destinados a una solicitud.
+
 | Atributos | Tipo | Descripción |
 |-|-|-|
 | id | Long | Identificador único. |
@@ -4174,22 +4179,9 @@ Descripción: Representa los comentarios destinados a una solicitud.
 | edit | void | Edita el comentario seleccionado. |
 | isEditable | boolean | Verifica si el comentario a editar pertenece al usuario. |
 
-**Entidad: Validation**<br>
-Descripción: Representa la validación de una solicitud.
-| Atributos | Tipo | Descripción |
-|-|-|-|
-| id | Long | Identificador único. |
-| requestId | Long | La ID de la solicitud asociada. |
-| reason | String | El motivo de la decisión. |
-| validatedAt | DateTime | La fecha de validación. |
-
-| Métodos | Tipo | Descripción |
-|-|-|-|
-| approve | void | Aprueba la solicitud. |
-| reject | void | Rechaza la solicitud. |
-
 **Entidad: FileAttachment**<br>
 Descripción: Representa el archivo que sirve como evidencia.
+
 | Atributos | Tipo | Descripción |
 |-|-|-|
 | id | Long | Identificador único. |
@@ -4282,7 +4274,20 @@ En el application layer se listan las operaciones que son separadas del dominio 
 **Justificación:**
 La capa actúa como intermediario entre la capa de dominio y la capa de interfaz, enforzando las reglas de negocio con respecto al uso de servicios y facilitando la reutilización de ésta.
 
-**Servicio: Request**
+**Servicio: RequestCommandServiceImpl**
+Descripción: Implementa el servicio RequestCommandService que maneja la creación de productos en la aplicación.
+
+| Método | Descripción |
+|-|-|
+| handle(CreateRequestCommand command) | Maneja la creación de una solicitud, utilizando la información obtenida desde la aplicación y almacenándolo en la base de datos. |
+
+**Servicio: RequestQueryServiceImpl**
+Descripción: Implementa el servicio RequestQueryService que maneja la recuperación de solicitudes de la aplicación.
+
+| Método | Descripción |
+|-|-|
+| handle(getRequestById command) | Maneja la consulta de una solicitud por ID, devolviendo un Optional<Request> que contiene la solicitud o vacío si fuera el caso. |
+| handle(get command) | Maneja la consulta de una solicitud por ID, devolviendo un Optional<Request> que contiene la solicitud o vacío si fuera el caso. |
 
 **Servicio: Comment**
 
