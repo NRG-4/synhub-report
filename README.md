@@ -4848,6 +4848,118 @@ Esta capa es crucial porque centraliza la lógica de negocio, garantizando que l
 
 ##### 4.2.5.4. Infrastructure Layer
 
+La Infrastructure Layer de este contexto se encarga de implementar las dependencias externas necesarias para el funcionamiento del sistema, como el acceso a la base de datos PostgreSQL y la integración con servicios externos como Google Calendar. Aquí se desarrollan las clases concretas que cumplen con los contratos definidos en el Domain Layer.
+
+**Justificación:**
+Esta capa permite mantener una arquitectura desacoplada, separando la lógica de dominio de los detalles técnicos. Gracias a ella, se facilita el mantenimiento, la escalabilidad y la posibilidad de reemplazar tecnologías sin afectar el núcleo del negocio.
+
+### **Repositories**
+
+**TaskRepository:**
+
+
+<table>
+  <tr>
+    <th>Método</th>
+    <th>Descripción</th>
+    <th>Clases Dependientes</th>
+  </tr>
+  <tr>
+    <td>save(task: Task)</td>
+    <td>Guarda una nueva tarea .</td>
+    <td>Task</td>
+  </tr>
+  <tr>
+    <td>findById(id: TaskId): Task?</td>
+    <td>Busca una tarea por su identificador.</td>
+    <td>TaskId, Task</td>
+  </tr>
+  <tr>
+    <td>delete(id: TaskId)</td>
+    <td>Elimina una tarea específica.</td>
+    <td>TaskId</td>
+  </tr>
+  <tr>
+    <td>findByStatus(status: TaskStatus): List<Task></td>
+    <td>Obtiene tareas según su estado.</td>
+    <td>TaskStatus, Task</td>
+  </tr>
+  <tr>
+    <td>findByAssignee(userId: UserId): List<Task></td>
+    <td>Lista de tareas asignadas a un usuario.</td>
+    <td>UserId, Task</td>
+  </tr>
+<tr>
+  <td>update(task: Task)</td>
+  <td>Actualiza los campos de una tarea existente como título, descripción o responsables.</td>
+  <td>Task</td>
+</tr>
+</table>
+
+
+**SubtaskRepository:**
+
+
+<table>
+  <tr>
+    <th>Método</th>
+    <th>Descripción</th>
+    <th>Clases Dependientes</th>
+  </tr>
+  <tr>
+    <td>save(subtask: Subtask)</td>
+    <td>Guarda una subtarea asociada.</td>
+    <td>Subtask</td>
+  </tr>
+  <tr>
+    <td>findByTaskId(taskId: TaskId): List<Subtask></td>
+    <td>Obtiene todas las subtareas de una tarea.</td>
+    <td>TaskId, Subtask</td>
+  </tr>
+  <tr>
+    <td>delete(id: SubtaskId)</td>
+    <td>Elimina una subtarea específica.</td>
+    <td>SubtaskId</td>
+  </tr>
+<tr>
+  <td>update(subtask: Subtask)</td>
+  <td>Modifica los datos de una subtarea específica, como su nombre o estado.</td>
+  <td>Subtask</td>
+</tr>
+</table>
+
+
+**CommentRepository:**
+
+
+<table>
+  <tr>
+    <th>Método</th>
+    <th>Descripción</th>
+    <th>Clases Dependientes</th>
+  </tr>
+  <tr>
+    <td>save(comment: Comment)</td>
+    <td>Almacena un nuevo comentario .</td>
+    <td>Comment</td>
+  </tr>
+  <tr>
+    <td>findByTaskId(taskId: TaskId): List<Comment></td>
+    <td>Obtiene los comentarios asociados a una tarea.</td>
+    <td>TaskId, Comment</td>
+  </tr>
+  <tr>
+    <td>delete(id: CommentId)</td>
+    <td>Elimina un comentario por su ID.</td>
+    <td>CommentId</td>
+  </tr>
+<tr>
+  <td>update(comment: Comment)</td>
+  <td>Edita el contenido de un comentario asociado a una tarea.</td>
+  <td>Comment</td>
+</tr>
+</table>
+
 
 ##### 4.2.5.5. Bounded Context Software Architecture Component Level Diagrams
 
