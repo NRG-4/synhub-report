@@ -4337,6 +4337,9 @@ Descripción: Repositorio que maneja la persistencia de la entidad File en la ba
 | findByRequestId(Long id) | Recupera el archivo por el ID de una solicitud, devolviendo un Optional<File> que contiene el archivo o vacío si fuera el caso. |
 
 ##### 4.2.4.5. Bounded Context Software Architecture Component Level Diagrams
+El diagrama muestra una arquitectura de componente destinado a las solicitudes para cambios grupales y validación. Para cada entidad (request, comment y file), se destina un controlador encargado de realizar todas las operaciones relacionadas mediante servicios de comando o de consulta. Estos servicios finalmente acceden al repositorio, que recupera los datos necesarios de la base de datos PostgreSQL.
+
+![Request And Validation component diagram](images/chapter-4/request-validation-dsl.png)
 
 ##### 4.2.4.6. Bounded Context Software Architecture Code Level Diagrams
 
