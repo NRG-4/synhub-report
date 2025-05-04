@@ -4344,6 +4344,9 @@ El diagrama muestra una arquitectura de componente destinado a las solicitudes p
 ##### 4.2.4.6. Bounded Context Software Architecture Code Level Diagrams
 
 ###### 4.2.4.6.1. Bounded Context Domain Layer Class Diagrams
+El diagrama muestra las entidades o agregados Request, Comment y FileAttachment, y su relación. Request tiene dos enumeraciones, siendo estas el tipo de solicitud y el estado de la solicitud. Todas las entidades tienen los servicios de comando y de consulta, por ejemplo "RequestCommandService" y "RequestQueryService".
+
+![Request And Validation Class Diagram](images/chapter-4/ClassDiagram_Request-Validation.png)
 
 ###### 4.2.4.6.2. Bounded Context Database Design Diagram
 
