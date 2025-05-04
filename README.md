@@ -88,7 +88,6 @@ Entrega TB1 (23/04/2025):
 <img src="images/insights/report-insights-1-6.png" alt="Insights Report Collaboration Insights 6" />
 <img src="images/insights/report-insights-1-7.png" alt="Insights Report Collaboration Insights 7" />
 
-
 Para esta primera entrega se desarollaron los cpaítulos del 1 al 4, en la captura adjuntada se evidencia del trabajo colaborativo de github. Todos los integrantes del grupo trabajaron en el proyecto.
 
 Recapitulando los commits se dividieron de la siguiente manera:
@@ -286,6 +285,7 @@ Objetivo 2:
 Finalizar un curso especializado en testing automatizado con Jest o Cypress antes de cumplir un año de egresado, con el fin de asegurar la calidad del software en proyectos reales.
 
 #z
+
 #### 1.1.2. Perfiles de integrantes del equipo
 
 <table>
@@ -2762,7 +2762,7 @@ El diagrama de despliegue representa un sistema donde una aplicación móvil se 
     <tr><td>id</td><td>Long</td><td>Private</td><td>Identificador único del reporte.</td></tr>
     <tr><td>name</td><td>String</td><td>Private</td><td>Nombre o título del reporte.</td></tr>
     <tr><td>generatedAt</td><td>LocalDateTime</td><td>Private</td><td>Fecha y hora de generación del reporte.</td></tr>
-    <tr><td>data</td><td>List&lt;Metric&gt;</td><td>Private</td><td>Lista de métricas que componen el reporte.</td></tr>
+    <tr><td>data</td><td>List<Metric></td><td>Private</td><td>Lista de métricas que componen el reporte.</td></tr>
   </tbody>
 </table>
 
@@ -2834,7 +2834,7 @@ El diagrama de despliegue representa un sistema donde una aplicación móvil se 
   <tbody>
     <tr>
       <td>getUserReports(userId: Long)</td>
-      <td>List&lt;Report&gt;</td>
+      <td>List<Report></td>
       <td>Public</td>
       <td>Obtiene todos los reportes generados por un usuario.</td>
     </tr>
@@ -2858,7 +2858,6 @@ El diagrama de despliegue representa un sistema donde una aplicación móvil se 
     </tr>
   </tbody>
 </table>
-
 
 ##### 4.2.1.3. Application Layer
 
@@ -2903,7 +2902,7 @@ El diagrama de despliegue representa un sistema donde una aplicación móvil se 
     </tr>
     <tr>
       <td>findByUserId(userId: Long)</td>
-      <td>List&lt;Report&gt;</td>
+      <td>List<Report></td>
       <td>Public</td>
       <td>Devuelve los reportes asociados a un usuario.</td>
     </tr>
@@ -2997,7 +2996,7 @@ El diagrama de despliegue representa un sistema donde una aplicación móvil se 
   <tbody>
     <tr>
       <td>findByUserId(userId: Long)</td>
-      <td>List&lt;ActivityLog&gt;</td>
+      <td>List<ActivityLog></td>
       <td>Public</td>
       <td>Obtiene los registros de actividad de un usuario.</td>
     </tr>
@@ -3028,7 +3027,7 @@ El diagrama de despliegue representa un sistema donde una aplicación móvil se 
     </tr>
     <tr>
       <td>findByUserId(userId: Long)</td>
-      <td>List&lt;Report&gt;</td>
+      <td>List<Report></td>
       <td>Public</td>
       <td>Obtiene todos los reportes asociados a un usuario.</td>
     </tr>
@@ -3066,7 +3065,6 @@ El diagrama de despliegue representa un sistema donde una aplicación móvil se 
   </tbody>
 </table>
 
-
 ##### 4.2.1.5. Bounded Context Software Architecture Component Level Diagrams
 
 <p>Este diagrama de componentes representa un sistema monolítico que gestiona datos analíticos y reportes dentro de la plataforma SynHub. Una <strong>Single-Page Application (SPA)</strong>, implementada con Angular, interactúa con una <strong>Web API Application</strong> desarrollada en Spring Boot mediante llamadas HTTP (REST).</p>
@@ -3074,7 +3072,6 @@ El diagrama de despliegue representa un sistema donde una aplicación móvil se 
 <p>La SPA realiza peticiones al <code>ReportController</code> para generar, visualizar o exportar reportes. Este controlador delega la lógica correspondiente en dos componentes principales: el <code>ReportQueryService</code> para operaciones de lectura y recuperación de datos analíticos, y el <code>ReportCommandService</code> para la generación y exportación de reportes.</p>
 
 <p>Ambos servicios se comunican con sus respectivos repositorios (<code>ActivityLogRepository</code> y <code>ReportRepository</code>) que abstraen el acceso a la base de datos. Para la exportación de reportes, se emplea un servicio adicional (<code>ExportService</code>) que convierte los datos en formatos PDF y CSV. Los repositorios utilizan JPA para realizar operaciones de lectura y escritura en una base de datos relacional (MySQL).</p>
-
 
 <img src="images/chapter-4/structurizr1.png" alt="Bounded Context Software Architecture Component Level Diagrams"/>
 
@@ -3086,7 +3083,7 @@ El diagrama de despliegue representa un sistema donde una aplicación móvil se 
 
 <p>El agregado <code>ActivityLog</code> tiene atributos como <code>id: Long</code>, <code>userId: Long</code>, <code>actionType: String</code>, <code>timestamp: LocalDateTime</code> y <code>metadata: String</code>, y representa una acción significativa realizada por un usuario dentro del sistema. Estos logs son la fuente principal para la generación de reportes.</p>
 
-<p>El agregado <code>Report</code> está compuesto por una lista de métricas (<code>List&lt;Metric&gt;</code>) y atributos como <code>id: Long</code>, <code>name: String</code>, <code>generatedAt: LocalDateTime</code>, y encapsula los datos procesados derivados de los logs. Posee métodos para generar reportes, así como para exportarlos en distintos formatos.</p>
+<p>El agregado <code>Report</code> está compuesto por una lista de métricas (<code>List<Metric></code>) y atributos como <code>id: Long</code>, <code>name: String</code>, <code>generatedAt: LocalDateTime</code>, y encapsula los datos procesados derivados de los logs. Posee métodos para generar reportes, así como para exportarlos en distintos formatos.</p>
 
 <p>La clase <code>Metric</code> es un objeto de valor que contiene los atributos <code>name: String</code>, <code>value: Double</code> y <code>context: String</code>. Esta clase representa datos cuantificables incluidos en los reportes, como tareas completadas o participación en reuniones.</p>
 
@@ -3196,7 +3193,6 @@ El diagrama de despliegue representa un sistema donde una aplicación móvil se 
   </tbody>
 </table>
 
-
 ##### 4.2.2.2. Interface Layer
 
 <p>En el Interface Layer del bounded context <strong>Notificaciones</strong>, se expone la clase <code>NotificationController</code> que proporciona endpoints para listar notificaciones, marcarlas como leídas y crear nuevas. Estos endpoints son utilizados por la interfaz web y otros servicios de la plataforma.</p>
@@ -3223,7 +3219,7 @@ El diagrama de despliegue representa un sistema donde una aplicación móvil se 
     <tr><th>Método</th><th>Tipo de retorno</th><th>Visibilidad</th><th>Descripción</th></tr>
   </thead>
   <tbody>
-    <tr><td>getUserNotifications(userId)</td><td>List&lt;Notification&gt;</td><td>Public</td><td>Retorna las notificaciones del usuario.</td></tr>
+    <tr><td>getUserNotifications(userId)</td><td>List<Notification></td><td>Public</td><td>Retorna las notificaciones del usuario.</td></tr>
     <tr><td>markAsRead(notificationId)</td><td>void</td><td>Public</td><td>Marca la notificación como leída.</td></tr>
     <tr><td>sendNotification(request)</td><td>void</td><td>Public</td><td>Envía una nueva notificación a un usuario o grupo.</td></tr>
   </tbody>
@@ -3267,13 +3263,13 @@ El diagrama de despliegue representa un sistema donde una aplicación móvil se 
   <tbody>
     <tr>
       <td>findByUserId(userId: Long)</td>
-      <td>List&lt;Notification&gt;</td>
+      <td>List<Notification></td>
       <td>Public</td>
       <td>Devuelve las notificaciones dirigidas a un usuario.</td>
     </tr>
     <tr>
       <td>findUnreadByUserId(userId: Long)</td>
-      <td>List&lt;Notification&gt;</td>
+      <td>List<Notification></td>
       <td>Public</td>
       <td>Devuelve solo las notificaciones no leídas de un usuario.</td>
     </tr>
@@ -3364,13 +3360,13 @@ El diagrama de despliegue representa un sistema donde una aplicación móvil se 
   <tbody>
     <tr>
       <td>findByUserId(userId: Long)</td>
-      <td>List&lt;Notification&gt;</td>
+      <td>List<Notification></td>
       <td>Public</td>
       <td>Obtiene todas las notificaciones asociadas a un usuario.</td>
     </tr>
     <tr>
       <td>findUnreadByUserId(userId: Long)</td>
-      <td>List&lt;Notification&gt;</td>
+      <td>List<Notification></td>
       <td>Public</td>
       <td>Devuelve solo las notificaciones no leídas.</td>
     </tr>
@@ -3495,7 +3491,7 @@ El diagrama de despliegue representa un sistema donde una aplicación móvil se 
     <tr><td>createdAt</td><td>Timestamp</td><td>Private</td><td>Fecha de creación del grupo.</td></tr>
     <tr><td>updatedAt</td><td>Timestamp</td><td>Private</td><td>Fecha de última actualización.</td></tr>
     <tr><td>ownerId</td><td>Long</td><td>Private</td><td>ID del usuario propietario.</td></tr>
-    <tr><td>members</td><td>List&lt;User&gt;</td><td>Private</td><td>Lista de usuarios miembros.</td></tr>
+    <tr><td>members</td><td>List<User></td><td>Private</td><td>Lista de usuarios miembros.</td></tr>
   </tbody>
 </table>
 
@@ -3511,7 +3507,7 @@ El diagrama de despliegue representa un sistema donde una aplicación móvil se 
     <tr><td>getCreatedAt()</td><td>Timestamp</td><td>Public</td><td>Devuelve la fecha de creación.</td></tr>
     <tr><td>getUpdatedAt()</td><td>Timestamp</td><td>Public</td><td>Devuelve la fecha de última actualización.</td></tr>
     <tr><td>getOwnerId()</td><td>Long</td><td>Public</td><td>Devuelve el ID del propietario.</td></tr>
-    <tr><td>getMembers()</td><td>List&lt;User&gt;</td><td>Public</td><td>Devuelve la lista de miembros.</td></tr>
+    <tr><td>getMembers()</td><td>List<User></td><td>Public</td><td>Devuelve la lista de miembros.</td></tr>
   </tbody>
 </table>
 
@@ -3739,7 +3735,6 @@ El diagrama de despliegue representa un sistema donde una aplicación móvil se 
     </tr>
   </tbody>
 </table>
-
 
 <hr>
 
@@ -4133,6 +4128,7 @@ El diagrama de despliegue representa un sistema donde una aplicación móvil se 
 #### 4.2.4. Bounded Context: Solicitudes y Validaciones
 
 ##### 4.2.4.1. Domain Layer
+
 En el Domain Layer correspondiente al contexto de Solicitudes y Validaciones, la capa presenta como agregado principal a **Request**, el encargado de presentar una solicitud para la aprobación de ciertas acciones que un miembro desea realizar dentro del grupo. También se reconocen otros agregados como **Validation** y **Comment**.
 Las solicitudes son generadas por los usuarios miembro, y éstas pasan por un proceso de validación donde el líder del grupo evalúa las solicitudes. Para tomar una decisión de manera eficiente, ambos lados pueden comentar en la solicitud, y éste queda registrado.
 
@@ -4142,63 +4138,70 @@ El enfoque de este contexto es permitir que las solicitudes y las validaciones s
 **Entidad: Request**<br>
 Descripción: Representa la solicitud a realizar, junto a su estado y sus comentarios.
 
-| Atributos | Tipo | Descripción |
-|-|-|-|
-| id | Long | Identificador único. |
-| description | String | Detalles de la solicitud. |
-| type | RequestType | El tipo de la solicitud (reglas varían según el tipo). |
-| status | RequestStatus | El estado de aprobación. |
-| submittedBy | Long | La ID del usuario que publicó la solicitud. |
-| validatedBy | Long | La ID del usuario líder que verifica la solicitud. |
-| validationReason | String | La razón de la decisión tomada por el líder. |
-| evidenceList | List<FileAttachment> | La lista de archivos que funcionan como evidencia. |
-| commentList | List<Comment> | La lista de comentarios asociados a la solicitud. |
 
-| Métodos | Tipo | Descripción |
-|-|-|-|
-| create | void | Crea una nueva solicitud. |
-| addComment | Comment | Crea un comentario para la solicitud. |
-| approve | void | Aprueba la solicitud. |
-| reject | void | Rechaza la solicitud. |
-| attachFile | void | Adjunta un archivo subido desde el dispositivo, y lo asocia a la solicitud. |
-| isLeader | boolean | Verifica si el usuario que valida es líder. |
+| Atributos        | Tipo                 | Descripción                                             |
+| ---------------- | -------------------- | -------------------------------------------------------- |
+| id               | Long                 | Identificador único.                                    |
+| description      | String               | Detalles de la solicitud.                                |
+| type             | RequestType          | El tipo de la solicitud (reglas varían según el tipo). |
+| status           | RequestStatus        | El estado de aprobación.                                |
+| submittedBy      | Long                 | La ID del usuario que publicó la solicitud.             |
+| validatedBy      | Long                 | La ID del usuario líder que verifica la solicitud.      |
+| validationReason | String               | La razón de la decisión tomada por el líder.          |
+| evidenceList     | List<FileAttachment> | La lista de archivos que funcionan como evidencia.       |
+| commentList      | List<Comment>        | La lista de comentarios asociados a la solicitud.        |
+
+
+| Métodos   | Tipo    | Descripción                                                                |
+| ---------- | ------- | --------------------------------------------------------------------------- |
+| create     | void    | Crea una nueva solicitud.                                                   |
+| addComment | Comment | Crea un comentario para la solicitud.                                       |
+| approve    | void    | Aprueba la solicitud.                                                       |
+| reject     | void    | Rechaza la solicitud.                                                       |
+| attachFile | void    | Adjunta un archivo subido desde el dispositivo, y lo asocia a la solicitud. |
+| isLeader   | boolean | Verifica si el usuario que valida es líder.                                |
 
 **Entidad: Comment**<br>
 Descripción: Representa los comentarios destinados a una solicitud.
 
-| Atributos | Tipo | Descripción |
-|-|-|-|
-| id | Long | Identificador único. |
-| requestId | Long | La ID de la solicitud asociada. |
-| authorId | Long | La ID del autor del comentario. |
-| content | String | El contenido del comentario. |
 
-| Métodos | Tipo | Descripción |
-|-|-|-|
-| create | void | Crea el comentario bajo la solicitud. |
-| edit | void | Edita el comentario seleccionado. |
+| Atributos | Tipo   | Descripción                    |
+| --------- | ------ | ------------------------------- |
+| id        | Long   | Identificador único.           |
+| requestId | Long   | La ID de la solicitud asociada. |
+| authorId  | Long   | La ID del autor del comentario. |
+| content   | String | El contenido del comentario.    |
+
+
+| Métodos   | Tipo    | Descripción                                             |
+| ---------- | ------- | -------------------------------------------------------- |
+| create     | void    | Crea el comentario bajo la solicitud.                    |
+| edit       | void    | Edita el comentario seleccionado.                        |
 | isEditable | boolean | Verifica si el comentario a editar pertenece al usuario. |
 
 **Entidad: FileAttachment**<br>
 Descripción: Representa el archivo que sirve como evidencia.
 
-| Atributos | Tipo | Descripción |
-|-|-|-|
-| id | Long | Identificador único. |
-| requestId | Long | La ID de la solicitud asociada. |
-| fileName | String | Nombre del archivo. |
-| fileType | String | Tipo de archivo. |
-| storagePath | String | Ruta de almacenamiento o URL del archivo. |
-| uploadedBy | Long | La ID del usuario que subió el archivo. |
-| uploadedAt | DateTime | Fecha en que se subió el archivo. |
 
-| Métodos | Tipo | Descripción |
-|-|-|-|
-| create | void | Crea el archivo en el sistema. |
-| isValidType | boolean | Verifica si el archivo es válido dentro de las reglas de negocio. |
+| Atributos   | Tipo     | Descripción                              |
+| ----------- | -------- | ----------------------------------------- |
+| id          | Long     | Identificador único.                     |
+| requestId   | Long     | La ID de la solicitud asociada.           |
+| fileName    | String   | Nombre del archivo.                       |
+| fileType    | String   | Tipo de archivo.                          |
+| storagePath | String   | Ruta de almacenamiento o URL del archivo. |
+| uploadedBy  | Long     | La ID del usuario que subió el archivo.  |
+| uploadedAt  | DateTime | Fecha en que se subió el archivo.        |
+
+
+| Métodos     | Tipo    | Descripción                                                          |
+| ------------ | ------- | --------------------------------------------------------------------- |
+| create       | void    | Crea el archivo en el sistema.                                        |
+| isValidType  | boolean | Verifica si el archivo es válido dentro de las reglas de negocio.    |
 | isSizeWithin | boolean | Verifica si el archivo no supera cierta cantidad de peso del archivo. |
 
 ##### 4.2.4.2. Interface Layer
+
 En el interface layer corresponde la conexión entre los usuarios y los servicios proporcionados para la solicitud y validación. Los controladores son los encargados de realizar la creación, validación y manejo de comentarios de las solicitudes, entre otras acciones pertenecientes al contexto.
 
 **Justificación:**
@@ -4207,54 +4210,61 @@ La capa funciona como una conexión entre los usuarios a la aplicación mediante
 **Controlador: RequestController**<br>
 Descripción: Controlador que maneja los endpoints relacionados con las solicitudes.
 
-| Método | Ruta | Descripción |
-|-|-|-|
-| createRequest | `POST /requests` | Crear una nueva solicitud (request) |
-| listRequests | `GET /requests` | Obtener listado de requests (filtrables por estado, tipo, grupo) |
-| getRequestById | `GET /requests/{id}` | Obtener detalles de un request específico |
-| updateSubmissionAsSent | `PATCH /requests/{id}/submit` | Marcar request como enviada |
-| updateStatus | `PATCH /requests/{id}/status` | Cambiar el estado (solo si está permitido) |
-| setValidation | `PATCH /requests/{id}/validate` | Aprobar o rechazar un request (por un líder) |
 
-| Dependencias | Descripción |
-|-|-|
-| RequestCommandService | Servicio para crear o modificar solicitudes. |
-| RequestQueryService | Servicio para obtener las solicitudes. |
+| Método                | Ruta                            | Descripción                                                     |
+| ---------------------- | ------------------------------- | ---------------------------------------------------------------- |
+| createRequest          | `POST /requests`                | Crear una nueva solicitud (request)                              |
+| listRequests           | `GET /requests`                 | Obtener listado de requests (filtrables por estado, tipo, grupo) |
+| getRequestById         | `GET /requests/{id}`            | Obtener detalles de un request específico                       |
+| updateSubmissionAsSent | `PATCH /requests/{id}/submit`   | Marcar request como enviada                                      |
+| updateStatus           | `PATCH /requests/{id}/status`   | Cambiar el estado (solo si está permitido)                      |
+| setValidation          | `PATCH /requests/{id}/validate` | Aprobar o rechazar un request (por un líder)                    |
+
+
+| Dependencias             | Descripción                                 |
+| ------------------------ | -------------------------------------------- |
+| RequestCommandService    | Servicio para crear o modificar solicitudes. |
+| RequestQueryService      | Servicio para obtener las solicitudes.       |
 | RequestResourceAssembler | Ensamblador de las solicitudes como recurso. |
 
 **Controlador: CommentController**<br>
 Descripción: Controlador que maneja los endpoints relacionados con los comentarios de una solicitud.
 
-| Método | Ruta | Descripción |
-|-|-|-|
-| addComment | `POST /requests/{id}/comments` | Agregar un comentario a un request. |
-| listComments | `GET /requests/{id}/comments` | Listar comentarios asociados. |
-| editComment | `PATCH /comments/{commentId}`   | Editar un comentario. |
-| deleteComment | `DELETE /comments/{commentId}`   | Eliminar un comentario. |
 
-| Dependencias | Descripción |
-|-|-|
-| CommentCommandService | Servicio para crear comentarios dentro de una solicitud. |
-| CommentQueryService | Servicio para obtener los comentarios de una solicitud. |
-| CommentResourceAssembler | Ensamblador de los comentarios como recurso. |
+| Método       | Ruta                           | Descripción                        |
+| ------------- | ------------------------------ | ----------------------------------- |
+| addComment    | `POST /requests/{id}/comments` | Agregar un comentario a un request. |
+| listComments  | `GET /requests/{id}/comments`  | Listar comentarios asociados.       |
+| editComment   | `PATCH /comments/{commentId}`  | Editar un comentario.               |
+| deleteComment | `DELETE /comments/{commentId}` | Eliminar un comentario.             |
+
+
+| Dependencias             | Descripción                                             |
+| ------------------------ | -------------------------------------------------------- |
+| CommentCommandService    | Servicio para crear comentarios dentro de una solicitud. |
+| CommentQueryService      | Servicio para obtener los comentarios de una solicitud.  |
+| CommentResourceAssembler | Ensamblador de los comentarios como recurso.             |
 
 **Controlador: FileController**<br>
 Descripción: Controlador que maneja los endpoints relacionados con los archivos de una solicitud.
 
-| Método   | Ruta               | Descripción                            |
-| -------- | ---------------------- | -------------------------------------- |
-| addFile | `POST /requests/{id}/files` | Subir archivo a un request. |
-| listFiles | `GET /requests/{id}/files` | Listar archivos asociados a un request. |
-| getFileById | `GET /files/{fileId}` | Descargar un archivo específico. |
-| removeFile | `DELETE /files/{fileId}` | Eliminar el archivo correspondiente. |
 
-| Dependencias | Descripción |
-|-|-|
-| FileCommandService | Servicio para adjuntar un archivo dentro de una solicitud. |
-| FileQueryService | Servicio para obtener el archivo de una solicitud. |
-| FileResourceAssembler | Ensamblador del archivo como recurso. |
+| Método     | Ruta                        | Descripción                            |
+| ----------- | --------------------------- | --------------------------------------- |
+| addFile     | `POST /requests/{id}/files` | Subir archivo a un request.             |
+| listFiles   | `GET /requests/{id}/files`  | Listar archivos asociados a un request. |
+| getFileById | `GET /files/{fileId}`       | Descargar un archivo específico.       |
+| removeFile  | `DELETE /files/{fileId}`    | Eliminar el archivo correspondiente.    |
+
+
+| Dependencias          | Descripción                                               |
+| --------------------- | ---------------------------------------------------------- |
+| FileCommandService    | Servicio para adjuntar un archivo dentro de una solicitud. |
+| FileQueryService      | Servicio para obtener el archivo de una solicitud.         |
+| FileResourceAssembler | Ensamblador del archivo como recurso.                      |
 
 ##### 4.2.4.3. Application Layer
+
 En el application layer se listan las operaciones que son separadas del dominio principal, pero que de todas maneras son importantes para el funcionamiento y cumplimiento de las necesidades del usuario.
 
 **Justificación:**
@@ -4263,50 +4273,57 @@ La capa actúa como intermediario entre la capa de dominio y la capa de interfaz
 **Servicio: RequestCommandServiceImpl**<br>
 Descripción: Implementa el servicio RequestCommandService que maneja la creación de productos en la aplicación.
 
-| Método | Descripción |
-|-|-|
+
+| Método                              | Descripción                                                                                                                         |
+| ------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------ |
 | handle(CreateRequestCommand command) | Maneja la creación de una solicitud, utilizando la información obtenida desde la aplicación y almacenándolo en la base de datos. |
 
 **Servicio: RequestQueryServiceImpl**<br>
 Descripción: Implementa el servicio RequestQueryService que maneja la recuperación de solicitudes de la aplicación.
 
-| Método | Descripción |
-|-|-|
+
+| Método                           | Descripción                                                                                                                      |
+| --------------------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
 | handle(getRequestByIdQuery query) | Maneja la consulta de una solicitud por ID, devolviendo un Optional<Request> que contiene la solicitud o vacío si fuera el caso. |
-| handle(getAllRequestsQuery query) | Maneja la consulta para recuperar todas las solicitudes, devolviendo una lista de solicitudes. |
+| handle(getAllRequestsQuery query) | Maneja la consulta para recuperar todas las solicitudes, devolviendo una lista de solicitudes.                                    |
 
 **Servicio: CommentCommandServiceImpl**<br>
 Descripción: Implementa el servicio CommentCommandService que maneja la creación de comentarios para las solicitudes de la aplicación.
 
-| Método | Descripción |
-|-|-|
+
+| Método                              | Descripción                                                                  |
+| ------------------------------------ | ----------------------------------------------------------------------------- |
 | handle(createCommentCommand command) | Maneja la creación de un comentario que esté relacionado con una solicitud. |
-| handle(deleteCommentCommand command) | Elimina el comentario seleccionado. |
+| handle(deleteCommentCommand command) | Elimina el comentario seleccionado.                                           |
 
 **Servicio: CommentQueryServiceImpl**<br>
 Descripción: Implementa el servicio CommentQueryService que maneja la recuperación de comentarios asociados a una solicitud.
 
-| Método | Descripción |
-|-|-|
-| handle(getCommentByIdQuery query) | Maneja la consulta de un comentario específico por ID, devolviendo un Optional<Comment> que contiene el comentario o vacío si fuera el caso. |
-| handle(getRequestComments query) | Maneja la consulta de una lista de comentarios asociados con la ID de una solicitud, devolviendo una lista que contiene lso comentarios o vacío si fuera el caso. |
+
+| Método                           | Descripción                                                                                                                                                       |
+| --------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| handle(getCommentByIdQuery query) | Maneja la consulta de un comentario específico por ID, devolviendo un Optional<Comment> que contiene el comentario o vacío si fuera el caso.                     |
+| handle(getRequestComments query)  | Maneja la consulta de una lista de comentarios asociados con la ID de una solicitud, devolviendo una lista que contiene lso comentarios o vacío si fuera el caso. |
 
 **Servicio: FileCommandServiceImpl**<br>
 Descripción: Implementa el servicio FileCommandService que maneja la subida de archivos para las solicitudes de la aplicación.
 
-| Método | Descripción |
-|-|-|
+
+| Método                           | Descripción                                                            |
+| --------------------------------- | ----------------------------------------------------------------------- |
 | handle(uploadFileCommand command) | Maneja la subida de un archivo que esté relacionado con una solicitud. |
-| handle(removeFileCommand command) | Elimina el archivo subido a la solicitud. |
+| handle(removeFileCommand command) | Elimina el archivo subido a la solicitud.                               |
 
 **Servicio: FileQueryServiceImpl**<br>
 Descripción: Implementa el servicio FileCommandService que maneja la recuperación de archivos asociados a una solicitud.
 
-| Método | Descripción |
-|-|-|
+
+| Método                               | Descripción                                                                                                                          |
+| ------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
 | handle(getFileByRequestIdQuery query) | Maneja la consulta de un archivo específico por ID, devolviendo un Optional<File> que contiene el archivo o vacío si fuera el caso. |
 
 ##### 4.2.4.4. Infrastructure Layer
+
 En el infrastructure layer se maneja la persistencia de datos mediante repositorios, los cuales interactúan con la base de datos para realizar operaciones CRUD sobre las solicitudes, comentarios y archivos.
 
 **Justificación:**
@@ -4315,28 +4332,32 @@ Sirve como la conexión entre la aplicación y el acceso a datos del dominio, si
 **Repositorio: RequestRepository**<br>
 Descripción: Repositorio que maneja la persistencia de la entidad Request en la base de datos mediante JPA.
 
-| Método | Descripción |
-|-|-|
-| findAll() | Recupera todas las solicitudes de la base de datos. |
+
+| Método           | Descripción                                                                                                           |
+| ----------------- | ---------------------------------------------------------------------------------------------------------------------- |
+| findAll()         | Recupera todas las solicitudes de la base de datos.                                                                    |
 | findById(Long id) | Recupera la solicitud por su ID, devolviendo un Optional<Request> que contiene la solicitud o vacío si fuera el caso. |
 
 **Repositorio: CommentRepository**<br>
 Descripción: Repositorio que maneja la persistencia de la entidad Comment en la base de datos mediante JPA.
 
-| Método | Descripción |
-|-|-|
-| findAll() | Recupera todos los comentarios de la base de datos. |
-| findById(Long id) | Recupera el comentario por su ID, devolviendo un Optional<Comment> que contiene el comentario o vacío si fuera el caso. |
+
+| Método                  | Descripción                                                                                                                       |
+| ------------------------ | ---------------------------------------------------------------------------------------------------------------------------------- |
+| findAll()                | Recupera todos los comentarios de la base de datos.                                                                                |
+| findById(Long id)        | Recupera el comentario por su ID, devolviendo un Optional<Comment> que contiene el comentario o vacío si fuera el caso.           |
 | findByRequestId(Long id) | Recupera los comentarios por el ID de una solicitud, devolviendo una lista que contiene los comentarios o vacío si fuera el caso. |
 
 **Repositorio: FileRepository**<br>
 Descripción: Repositorio que maneja la persistencia de la entidad File en la base de datos mediante JPA.
 
-| Método | Descripción |
-|-|-|
+
+| Método                  | Descripción                                                                                                                     |
+| ------------------------ | -------------------------------------------------------------------------------------------------------------------------------- |
 | findByRequestId(Long id) | Recupera el archivo por el ID de una solicitud, devolviendo un Optional<File> que contiene el archivo o vacío si fuera el caso. |
 
 ##### 4.2.4.5. Bounded Context Software Architecture Component Level Diagrams
+
 El diagrama muestra una arquitectura de componente destinado a las solicitudes para cambios grupales y validación. Para cada entidad (request, comment y file), se destina un controlador encargado de realizar todas las operaciones relacionadas mediante servicios de comando o de consulta. Estos servicios finalmente acceden al repositorio, que recupera los datos necesarios de la base de datos PostgreSQL.
 
 ![Request And Validation component diagram](images/chapter-4/request-validation-dsl.png)
@@ -4344,11 +4365,283 @@ El diagrama muestra una arquitectura de componente destinado a las solicitudes p
 ##### 4.2.4.6. Bounded Context Software Architecture Code Level Diagrams
 
 ###### 4.2.4.6.1. Bounded Context Domain Layer Class Diagrams
+
 El diagrama muestra las entidades o agregados Request, Comment y FileAttachment, y su relación. Request tiene dos enumeraciones, siendo estas el tipo de solicitud y el estado de la solicitud. Todas las entidades tienen los servicios de comando y de consulta, por ejemplo "RequestCommandService" y "RequestQueryService".
 
 ![Request And Validation Class Diagram](images/chapter-4/ClassDiagram_Request-Validation.png)
 
 ###### 4.2.4.6.2. Bounded Context Database Design Diagram
+
+4.2.5. Bounded Context: Gestion de tareas
+
+##### 4.2.5.1. Domain Layer
+
+El Domain Layer en Gestión de Tareas modela el núcleo del negocio: creación, asignación y seguimiento de tareas. Usa Entities como `Task` (con identidad única) y Value Objects como `DueDate` (inmutables). Los Aggregates (ej.: `TaskAggregate`) agrupan estas piezas bajo una raíz para garantizar consistencia. Domain Services (ej.: `TaskAssignmentService`) manejan lógica compleja, como validar permisos, mientras las Factories (ej.: `TaskFactory`) crean objetos válidos desde el inicio.**Justificación del Diseño**
+Este enfoque sigue *Domain-Driven Design* para alinear el código con el lenguaje del negocio y encapsular reglas. Por ejemplo:La entidad `Task` valida que haya al menos 1 responsable, evitando estados inválidos.El Value Object `DueDate` garantiza fechas futuras, centralizando la validación.Los Aggregates protegen invariantes: una `Subtask` no puede existir sin una `Task` padre.
+
+**Justificación del Diseño**
+Este enfoque sigue *Domain-Driven Design* para alinear el código con el lenguaje del negocio y encapsular reglas. Por ejemplo:
+
+* La entidad `Task` valida que haya al menos 1 responsable, evitando estados inválidos.
+* El *Value Object* `DueDate` garantiza fechas futuras, centralizando la validación.
+* Los *Aggregates* protegen invariantes: una `Subtask` no puede existir sin una `Task` padre.
+
+### **Aggregate: `TaskAggregate`**
+
+**Descripción**:
+Agregado raíz que gestiona la creación, asignación y progreso de una tarea, garantizando las reglas de negocio.
+
+### **Entities:**
+
+Entity: **`Task`**
+
+
+<table border="0">
+  <tr>
+    <th>Atributo</th>
+    <th>Tipo</th>
+    <th>Descripción</th>
+  </tr>
+  <tr>
+    <td>taskId</td>
+    <td>UUID</td>
+    <td>Identificador único de la tarea</td>
+  </tr>
+  <tr>
+    <td>title</td>
+    <td>String</td>
+    <td>Título de la tarea</td>
+  </tr>
+  <tr>
+    <td>description</td>
+    <td>String</td>
+    <td>Descripción detallada de la tarea</td>
+  </tr>
+  <tr>
+    <td>status</td>
+    <td>TaskStatus (VO)</td>
+    <td>Estado actual de la tarea (pendiente, en progreso, completada, cancelada)</td>
+  </tr>
+  <tr>
+    <td>dueDate</td>
+    <td>DueDate (VO)</td>
+    <td>Fecha límite para completar la tarea</td>
+  </tr>
+  <tr>
+    <td>assignees</td>
+    <td>Set(UserId) </td>
+    <td>Conjunto de usuarios asignados a la tarea</td>
+  </tr>
+  <tr>
+    <td>tags</td>
+    <td>Set(Tag)</td>
+    <td>Conjunto de etiquetas asociadas a la tarea</td>
+  </tr>
+</table>
+
+
+Entity: **`Subtask`**
+
+
+<table border="0">
+  <tr>
+    <th>Atributo</th>
+    <th>Tipo</th>
+    <th>Descripción</th>
+  </tr>
+  <tr>
+    <td>subtaskId</td>
+    <td>UUID</td>
+    <td>Identificador único de la subtarea</td>
+  </tr>
+  <tr>
+    <td>description</td>
+    <td>String</td>
+    <td>Descripción de la subtarea</td>
+  </tr>
+  <tr>
+    <td>completed</td>
+    <td>Boolean</td>
+    <td>Indica si la subtarea ha sido completada</td>
+  </tr>
+</table>
+
+
+Entity: **`Comment`**
+
+
+<table border="0">
+  <tr>
+    <th>Atributo</th>
+    <th>Tipo</th>
+    <th>Descripción</th>
+  </tr>
+  <tr>
+    <td>commentId</td>
+    <td>UUID</td>
+    <td>Identificador único del comentario</td>
+  </tr>
+  <tr>
+    <td>authorId</td>
+    <td>UserId</td>
+    <td>Usuario que escribió el comentario</td>
+  </tr>
+  <tr>
+    <td>text</td>
+    <td>String</td>
+    <td>Contenido textual del comentario</td>
+  </tr>
+  <tr>
+    <td>createdAt</td>
+    <td>Date</td>
+    <td>Fecha en que se creó el comentario</td>
+  </tr>
+</table>
+
+
+### **Value Objects**
+
+Value Object: **`TaskStatus`**
+
+
+<table border="0">
+  <tr>
+    <th>Atributo</th>
+    <th>Tipo</th>
+    <th>Descripción</th>
+  </tr>
+  <tr>
+    <td>status</td>
+    <td>Enum</td>
+    <td>Estado de la tarea. Valores posibles: PENDING, IN_PROGRESS, COMPLETED, CANCELLED</td>
+  </tr>
+</table>
+
+
+Value Object: **`DueDate`**
+
+
+<table border="0">
+  <tr>
+    <th>Atributo</th>
+    <th>Tipo</th>
+    <th>Descripción</th>
+  </tr>
+  <tr>
+    <td>initialDate</td>
+    <td>Date</td>
+    <td>Fecha inical establecida para completar la tarea</td>
+  </tr>
+<tr>
+    <td>finalDate</td>
+    <td>Date</td>
+    <td>Fecha límite establecida para completar la tarea</td>
+  </tr>
+</table>
+
+
+
+### **Factories**
+
+<table border="0">
+  <tr>
+    <th>Nombre</th>
+    <th>Propósito</th>
+    <th>Validaciones y Métodos</th>
+  </tr>
+  <tr>
+    <td>TaskFactory</td>
+    <td>Crear instancias válidas de Task.</td>
+    <td>
+      <strong>Validaciones:</strong><br>
+      - Título no vacío (3-100 caracteres).<br>
+      - Al menos 1 responsable.<br>
+      - Fecha de vencimiento válida.<br>
+      <strong>Método:</strong><br>
+      create(title: String, assignees: Set<UserId>, dueDate: DueDate): Task
+    </td>
+  </tr>
+  <tr>
+    <td>SubtaskFactory</td>
+    <td>Crear subtareas asociadas a una Task</td>
+    <td>
+      <strong>Validaciones:</strong><br>
+      - Descripción no vacía (máximo 200 caracteres).<br>
+      <strong>Método:</strong><br>
+      create(description: String): Subtask
+    </td>
+  </tr>
+</table>
+
+
+### **Domain Services**
+
+
+<table border="0">
+  <tr>
+    <th>Nombre</th>
+    <th>Responsabilidad</th>
+    <th>Reglas Aplicadas y Métodos</th>
+  </tr>
+  <tr>
+    <td>TaskAssignmentService</td>
+    <td>Gestionar la asignación/reasignación de responsables.</td>
+    <td>
+      <strong>Reglas:</strong><br>
+      - Solo coordinadores o creadores pueden reasignar.<br>
+      - Usuario asignado debe existir (valida con IUserRepository).<br>
+      <strong>Método:</strong><br>reassignTask(task: Task, newAssignee: UserId, requester: UserId): void
+    </td>
+  </tr>
+  <tr>
+    <td>TaskProgressService</td>
+    <td>Controlar cambios de estado (ej.: marcar como "completada").</td>
+    <td>
+      <strong>Reglas:</strong><br>
+      - Tareas COMPLETED no pueden modificarse.<br>
+      - Transiciones válidas: PENDING → IN_PROGRESO → COMPLETED.<br>
+      <strong>Método:</strong><br>
+      updateStatus(task: Task, newStatus: TaskStatus): void
+    </td>
+  </tr>
+<tr>
+    <td>TaskCommentService</td>
+    <td>Gestionar la adición de comentarios a tareas por parte de los usuarios autorizados.</td>
+    <td>
+      - Valida que el autor exista (<code>IUserRepository</code>).<br>
+      - Impide comentar tareas canceladas.<br>
+      - Método: <code>addComment(task: Task, authorId: UserId, text: string): Comment</code>
+    </td>
+  </tr>
+<tr>
+    <td>TaskEditionService</td>
+    <td>Gestionar la edición y eliminación de tareas según permisos y reglas de estado.</td>
+    <td>
+      - Verifica permisos mediante <code>TaskPermissionService</code>.<br>
+      - Impide editar tareas completadas.<br>
+      - Métodos:<br>
+      <code>editTask(task: Task, updates: Partial<Task>, userId: UserId): void</code><br>
+      <code>deleteTask(task: Task, userId: UserId): void</code>
+    </td>
+  </tr>
+</table>
+
+
+
+
+##### 4.2.5.2. Interface Layer
+
+##### 4.2.5.3. Application Layer
+
+##### 4.2.5.4. Infrastructure Layer
+
+##### 4.2.5.5. Bounded Context Software Architecture Component Level Diagrams
+
+##### 4.2.5.6. Bounded Context Software Architecture Code Level Diagrams
+
+###### 4.2.5.6.1. Bounded Context Domain Layer Class Diagrams
+
+###### 4.2.5.6.2. Bounded Context Database Design Diagram
 
 ## Capítulo V: Solution UI/UX Design
 
