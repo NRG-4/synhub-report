@@ -4740,9 +4740,110 @@ CommentController:
 
 ##### 4.2.5.3. Application Layer
 
+La **Application Layer** gestiona los flujos de trabajo relacionados con las tareas, como su creación, asignación, edición y eliminación. Utiliza **Command Handlers** para ejecutar acciones y **Event Handlers** para reaccionar a eventos, como cambios en el estado de las tareas o la adición de comentarios, asegurando que las reglas de negocio se cumplan correctamente.
 
+Justificación:
+Esta capa es crucial porque centraliza la lógica de negocio, garantizando que las tareas se manejen de manera consistente y escalable. Además, separa la lógica de negocio de la interacción directa con la base de datos, facilitando la integración de nuevas funcionalidades sin complicar la estructura del sistema.
 
+### **Command Handlers**
 
+<table>
+  <tr>
+    <th>Capability</th>
+    <th>Command Handler</th>
+    <th>Descripción</th>
+  </tr>
+  <tr>
+    <td>Crear tarea individual o grupal</td>
+    <td>createTask</td>
+    <td>Este comando maneja la creación de tareas individuales o grupales, validando la información de entrada, como título, descripción, responsables y fecha de vencimiento. Asegura que las tareas sean correctamente formadas según las reglas de negocio.</td>
+  </tr>
+  <tr>
+    <td>Asignar responsable(s) y fechas de entrega</td>
+    <td>assignTask</td>
+    <td>Este comando se encarga de asignar responsables a las tareas, y establece las fechas de entrega. Se asegura de que al menos un responsable esté asignado y valida que la tarea tenga una fecha de vencimiento válida.</td>
+  </tr>
+  <tr>
+    <td>Añadir descripción, etiquetas, subtareas</td>
+    <td>addDescription, addTags, addSubtask</td>
+    <td>Estos comandos permiten agregar una descripción detallada a la tarea, asociar etiquetas relevantes y crear subtareas dentro de la tarea principal. Los subtareas estarán validadas para que se vinculen adecuadamente.</td>
+  </tr>
+  <tr>
+    <td>Visualizar tareas pendientes, en progreso y completadas</td>
+    <td>getTasksByStatus</td>
+    <td>Este comando permite filtrar y mostrar tareas basadas en su estado: pendiente, en progreso o completada. El comando se asegura de que los resultados estén correctamente ordenados según los criterios establecidos.</td>
+  </tr>
+  <tr>
+    <td>Editar o eliminar tareas existentes</td>
+    <td>editTask, deleteTask</td>
+    <td>Estos comandos permiten la edición o eliminación de tareas existentes. Se validan las acciones basadas en el rol del usuario (por ejemplo, el creador o coordinador) y en el estado de la tarea.</td>
+  </tr>
+  <tr>
+    <td>Marcar tarea como completada</td>
+    <td>markTaskAsCompleted</td>
+    <td>Este comando permite marcar una tarea como completada. Verifica que la tarea no esté ya en estado de completada y actualiza su estado de acuerdo a la transición correspondiente.</td>
+  </tr>
+  <tr>
+    <td>Filtrar y ordenar tareas por estado, prioridad, usuario</td>
+    <td>filterTasks</td>
+    <td>Este comando filtra y ordena las tareas según diferentes criterios como el estado, la prioridad y los responsables. Permite obtener un conjunto de tareas que cumplen con las condiciones especificadas.</td>
+  </tr>
+  <tr>
+    <td>Registrar avances o comentarios sobre una tarea</td>
+    <td>addCommentToTask</td>
+    <td>Este comando maneja la adición de comentarios sobre tareas, permitiendo a los usuarios registrar avances, notas o cualquier otra información relevante para el seguimiento de la tarea.</td>
+  </tr>
+</table>
+
+### **Event Handlers**
+
+<table>
+  <tr>
+    <th>Capability</th>
+    <th>Event Handler</th>
+    <th>Descripción</th>
+  </tr>
+  <tr>
+    <td>Crear tarea individual o grupal</td>
+    <td>taskCreated</td>
+    <td>Este manejador de eventos se activa cuando una tarea es creada, notificando a los responsables y generando cualquier acción adicional, como la integración con otros sistemas.</td>
+  </tr>
+  <tr>
+    <td>Asignar responsable(s) y fechas de entrega</td>
+    <td>taskAssigned</td>
+    <td>Este manejador de eventos se activa cuando se asignan responsables a una tarea. Puede generar notificaciones a los usuarios involucrados y actualizar otros sistemas, como calendarios.</td>
+  </tr>
+  <tr>
+    <td>Añadir descripción, etiquetas, subtareas</td>
+    <td>taskUpdated</td>
+    <td>Este manejador se activa cuando una tarea es actualizada, ya sea con una nueva descripción, etiquetas o subtareas. Puede generar notificaciones sobre los cambios realizados.</td>
+  </tr>
+  <tr>
+    <td>Visualizar tareas pendientes, en progreso y completadas</td>
+    <td>taskStatusChanged</td>
+    <td>Este evento se dispara cuando el estado de una tarea cambia, lo que podría afectar a la vista de tareas pendientes, en progreso o completadas. Se puede utilizar para actualizar la visualización de la lista de tareas.</td>
+  </tr>
+  <tr>
+    <td>Editar o eliminar tareas existentes</td>
+    <td>taskEdited, taskDeleted</td>
+    <td>Estos manejadores se activan cuando una tarea es editada o eliminada. Pueden generar notificaciones y actualizar las vistas o registros en otros sistemas relacionados.</td>
+  </tr>
+  <tr>
+    <td>Marcar tarea como completada</td>
+    <td>taskCompleted</td>
+    <td>Este manejador se activa cuando una tarea es marcada como completada. Puede desencadenar acciones como la actualización del progreso o la notificación a los usuarios.</td>
+  </tr>
+  <tr>
+    <td>Filtrar y ordenar tareas por estado, prioridad, usuario</td>
+    <td>tasksFiltered</td>
+    <td>Este evento se activa cuando se realiza una consulta de tareas filtradas por diferentes criterios. Se puede utilizar para notificar a los usuarios sobre los resultados de la búsqueda.</td>
+  </tr>
+  <tr>
+    <td>Registrar avances o comentarios sobre una tarea</td>
+    <td>commentAddedToTask</td>
+    <td>Este manejador se activa cuando se agrega un comentario a una tarea. Puede generar notificaciones y registrar el comentario para futuras referencias.</td>
+  </tr>
+</table>
 
 
 ##### 4.2.5.4. Infrastructure Layer
