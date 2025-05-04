@@ -4395,7 +4395,6 @@ Agregado raíz que gestiona la creación, asignación y progreso de una tarea, g
 
 Entity: **`Task`**
 
-
 <table border="0">
   <tr>
     <th>Atributo</th>
@@ -4439,9 +4438,7 @@ Entity: **`Task`**
   </tr>
 </table>
 
-
 Entity: **`Subtask`**
-
 
 <table border="0">
   <tr>
@@ -4466,9 +4463,7 @@ Entity: **`Subtask`**
   </tr>
 </table>
 
-
 Entity: **`Comment`**
-
 
 <table border="0">
   <tr>
@@ -4498,11 +4493,9 @@ Entity: **`Comment`**
   </tr>
 </table>
 
-
 ### **Value Objects**
 
 Value Object: **`TaskStatus`**
-
 
 <table border="0">
   <tr>
@@ -4517,9 +4510,7 @@ Value Object: **`TaskStatus`**
   </tr>
 </table>
 
-
 Value Object: **`DueDate`**
-
 
 <table border="0">
   <tr>
@@ -4538,8 +4529,6 @@ Value Object: **`DueDate`**
     <td>Fecha límite establecida para completar la tarea</td>
   </tr>
 </table>
-
-
 
 ### **Factories**
 
@@ -4573,9 +4562,7 @@ Value Object: **`DueDate`**
   </tr>
 </table>
 
-
 ### **Domain Services**
-
 
 <table border="0">
   <tr>
@@ -4626,14 +4613,140 @@ Value Object: **`DueDate`**
   </tr>
 </table>
 
-
-
-
 ##### 4.2.5.2. Interface Layer
+
+La **Interface Layer** actúa como el puente entre los usuarios (o sistemas externos) y tu aplicación. Su propósito principal es **recibir solicitudes** (HTTP, eventos, etc.), **validar formatos básicos** y **transformarlas** en comandos entendibles por el dominio, sin contener lógica de negocio. Además, se encarga de **devolver respuestas estandarizadas** (JSON, errores HTTP) y gestionar la seguridad (autenticación/autorización).
+
+Esta capa **protege el dominio** de detalles técnicos (protocolos, formatos de API) y centraliza la comunicación externa. Por ejemplo, un mismo caso de uso (como crear una tarea) puede ser invocado desde una API REST, un evento o una CLI, pero la Interface Layer adapta cada entrada a un formato común para el dominio.
+
+### **Controllers**
+
+TaskController:
+
+<table border="0">
+  <tr>
+    <th>Nombre</th>
+    <th>Metodo</th>
+    <th>Ruta</th>
+    <th>Descripción</th>
+  </tr>
+  <tr>
+    <td>createTask</td>
+    <td>POST</td>
+    <td>/tasks</td>
+    <td>Crea una nueva tarea en el sistema.</td>
+  </tr>
+  <tr>
+    <td>getTasks</td>
+    <td>GET</td>
+    <td>/tasks</td>
+    <td>Obtiene una lista de todas las tareas.</td>
+  </tr>
+  <tr>
+    <td>getTask</td>
+    <td>GET</td>
+    <td>/tasks/{taskId}</td>
+    <td>Obtiene los detalles de una tarea específica.</td>
+  </tr>
+  <tr>
+    <td>updateTask</td>
+    <td>PUT</td>
+    <td>/tasks/{taskId}</td>
+    <td>Actualiza la información de una tarea existente.</td>
+  </tr>
+  <tr>
+    <td>deleteTask</td>
+    <td>DELETE</td>
+    <td>/tasks/{taskId}</td>
+    <td>Elimina una tarea del sistema.</td>
+  </tr>
+</table>
+
+SubtaskController:
+
+<table border="0">
+  <tr>
+    <th>Nombre</th>
+    <th>Metodo</th>
+    <th>Ruta</th>
+    <th>Descripción</th>
+  </tr>
+  <tr>
+    <td>createSubtask</td>
+    <td>POST</td>
+    <td>/tasks/{taskId}/subtasks</td>
+    <td>Crea una nueva subtarea asociada a una tarea existente.</td>
+  </tr>
+  <tr>
+    <td>getSubtasks</td>
+    <td>GET</td>
+    <td>/tasks/{taskId}/subtasks</td>
+    <td>Obtiene todas las subtareas asociadas a una tarea.</td>
+  </tr>
+  <tr>
+    <td>getSubtask</td>
+    <td>GET</td>
+    <td>/tasks/{taskId}/subtasks/{subtaskId}</td>
+    <td>Obtiene los detalles de una subtarea específica.</td>
+  </tr>
+  <tr>
+    <td>updateSubtask</td>
+    <td>PUT</td>
+    <td>/tasks/{taskId}/subtasks/{subtaskId}</td>
+    <td>Actualiza una subtarea existente.</td>
+  </tr>
+  <tr>
+    <td>deleteSubtask</td>
+    <td>DELETE</td>
+    <td>/tasks/{taskId}/subtasks/{subtaskId}</td>
+    <td>Elimina una subtarea asociada a una tarea.</td>
+  </tr>
+</table>
+
+CommentController:
+
+<table border="0">
+  <tr>
+    <th>Nombre</th>
+    <th>Metodo</th>
+    <th>Ruta</th>
+    <th>Descripción</th>
+  </tr>
+  <tr>
+    <td>createComment</td>
+    <td>POST</td>
+    <td>/tasks/{taskId}/comments</td>
+    <td>Crea un nuevo comentario en una tarea.</td>
+  </tr>
+  <tr>
+    <td>getComments</td>
+    <td>GET</td>
+    <td>/tasks/{taskId}/comments</td>
+    <td>Obtiene todos los comentarios de una tarea específica.</td>
+  </tr>
+  <tr>
+    <td>getComment</td>
+    <td>GET</td>
+    <td>/tasks/{taskId}/comments/{commentId}</td>
+    <td>Obtiene un comentario específico de una tarea.</td>
+  </tr>
+  <tr>
+    <td>deleteComment</td>
+    <td>DELETE</td>
+    <td>/tasks/{taskId}/comments/{commentId}</td>
+    <td>Elimina un comentario de una tarea.</td>
+  </tr>
+</table>
 
 ##### 4.2.5.3. Application Layer
 
+
+
+
+
+
 ##### 4.2.5.4. Infrastructure Layer
+
 
 ##### 4.2.5.5. Bounded Context Software Architecture Component Level Diagrams
 
