@@ -4238,7 +4238,7 @@ Descripción: Controlador que maneja los endpoints relacionados con los comentar
 | CommentQueryService | Servicio para obtener los comentarios de una solicitud. |
 | CommentResourceAssembler | Ensamblador de los comentarios como recurso. |
 
-**Controlador: FilesController**
+**Controlador: FileController**
 Descripción: Controlador que maneja los endpoints relacionados con los archivos de una solicitud.
 
 | Método   | Ruta               | Descripción                            |
@@ -4250,9 +4250,9 @@ Descripción: Controlador que maneja los endpoints relacionados con los archivos
 
 | Dependencias | Descripción |
 |-|-|
-| AttachmentCommandService | Servicio para adjuntar un archivo dentro de una solicitud. |
-| AttachmentQueryService | Servicio para obtener el archivo de una solicitud. |
-| AttachmentResourceAssembler | Ensamblador del archivo como recurso. |
+| FileCommandService | Servicio para adjuntar un archivo dentro de una solicitud. |
+| FileQueryService | Servicio para obtener el archivo de una solicitud. |
+| FileResourceAssembler | Ensamblador del archivo como recurso. |
 
 ##### 4.2.4.3. Application Layer
 En el application layer se listan las operaciones que son separadas del dominio principal, pero que de todas maneras son importantes para el funcionamiento y cumplimiento de las necesidades del usuario.
@@ -4272,14 +4272,69 @@ Descripción: Implementa el servicio RequestQueryService que maneja la recuperac
 
 | Método | Descripción |
 |-|-|
-| handle(getRequestById command) | Maneja la consulta de una solicitud por ID, devolviendo un Optional<Request> que contiene la solicitud o vacío si fuera el caso. |
-| handle(get command) | Maneja la consulta de una solicitud por ID, devolviendo un Optional<Request> que contiene la solicitud o vacío si fuera el caso. |
+| handle(getRequestByIdQuery query) | Maneja la consulta de una solicitud por ID, devolviendo un Optional<Request> que contiene la solicitud o vacío si fuera el caso. |
+| handle(getAllRequestsQuery query) | Maneja la consulta para recuperar todas las solicitudes, devolviendo una lista de solicitudes. |
 
-**Servicio: Comment**
+**Servicio: CommentCommandServiceImpl**
+Descripción: Implementa el servicio CommentCommandService que maneja la creación de comentarios para las solicitudes de la aplicación.
 
-**Servicio: Request**
+| Método | Descripción |
+|-|-|
+| handle(createCommentCommand command) | Maneja la creación de un comentario que esté relacionado con una solicitud. |
+| handle(deleteCommentCommand command) | Elimina el comentario seleccionado. |
+
+**Servicio: CommentQueryServiceImpl**
+Descripción: Implementa el servicio CommentQueryService que maneja la recuperación de comentarios asociados a una solicitud.
+
+| Método | Descripción |
+|-|-|
+| handle(getCommentByIdQuery query) | Maneja la consulta de un comentario específico por ID, devolviendo un Optional<Comment> que contiene el comentario o vacío si fuera el caso. |
+| handle(getRequestComments query) | Maneja la consulta de una lista de comentarios asociados con la ID de una solicitud, devolviendo una lista que contiene lso comentarios o vacío si fuera el caso. |
+
+**Servicio: FileCommandServiceImpl**
+Descripción: Implementa el servicio FileCommandService que maneja la subida de archivos para las solicitudes de la aplicación.
+
+| Método | Descripción |
+|-|-|
+| handle(uploadFileCommand command) | Maneja la subida de un archivo que esté relacionado con una solicitud. |
+| handle(removeFileCommand command) | Elimina el archivo subido a la solicitud. |
+
+**Servicio: FileQueryServiceImpl**
+Descripción: Implementa el servicio FileCommandService que maneja la recuperación de archivos asociados a una solicitud.
+
+| Método | Descripción |
+|-|-|
+| handle(getFileByRequestIdQuery query) | Maneja la consulta de un archivo específico por ID, devolviendo un Optional<File> que contiene el archivo o vacío si fuera el caso. |
 
 ##### 4.2.4.4. Infrastructure Layer
+En el infrastructure layer se maneja la persistencia de datos mediante repositorios, los cuales interactúan con la base de datos para realizar operaciones CRUD sobre las solicitudes, comentarios y archivos.
+
+**Justificación:**
+Sirve como la conexión entre la aplicación y el acceso a datos del dominio, siendo fácilmente adaptable siempre y cuando la lógica de negocio sobre la base de datos no cambie. También permite un mapeo más sencillo con respecto a la base de datos.
+
+**Repositorio: RequestRepository**<br>
+Descripción: Repositorio que maneja la persistencia de la entidad Request en la base de datos mediante JPA.
+
+| Método | Descripción |
+|-|-|
+| findAll() | Recupera todas las solicitudes de la base de datos. |
+| findById(Long id) | Recupera la solicitud por su ID, devolviendo un Optional<Request> que contiene la solicitud o vacío si fuera el caso. |
+
+**Repositorio: CommentRepository**<br>
+Descripción: Repositorio que maneja la persistencia de la entidad Comment en la base de datos mediante JPA.
+
+| Método | Descripción |
+|-|-|
+| findAll() | Recupera todos los comentarios de la base de datos. |
+| findById(Long id) | Recupera el comentario por su ID, devolviendo un Optional<Comment> que contiene el comentario o vacío si fuera el caso. |
+| findByRequestId(Long id) | Recupera los comentarios por el ID de una solicitud, devolviendo una lista que contiene los comentarios o vacío si fuera el caso. |
+
+**Repositorio: FileRepository**<br>
+Descripción: Repositorio que maneja la persistencia de la entidad File en la base de datos mediante JPA.
+
+| Método | Descripción |
+|-|-|
+| findByRequestId(Long id) | Recupera el archivo por el ID de una solicitud, devolviendo un Optional<File> que contiene el archivo o vacío si fuera el caso. |
 
 ##### 4.2.4.5. Bounded Context Software Architecture Component Level Diagrams
 
