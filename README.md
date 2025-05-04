@@ -4238,7 +4238,7 @@ Descripción: Controlador que maneja los endpoints relacionados con los comentar
 | CommentQueryService | Servicio para obtener los comentarios de una solicitud. |
 | CommentResourceAssembler | Ensamblador de los comentarios como recurso. |
 
-**Controlador: FileController**
+**Controlador: FileController**<br>
 Descripción: Controlador que maneja los endpoints relacionados con los archivos de una solicitud.
 
 | Método   | Ruta               | Descripción                            |
@@ -4260,14 +4260,14 @@ En el application layer se listan las operaciones que son separadas del dominio 
 **Justificación:**
 La capa actúa como intermediario entre la capa de dominio y la capa de interfaz, enforzando las reglas de negocio con respecto al uso de servicios y facilitando la reutilización de ésta.
 
-**Servicio: RequestCommandServiceImpl**
+**Servicio: RequestCommandServiceImpl**<br>
 Descripción: Implementa el servicio RequestCommandService que maneja la creación de productos en la aplicación.
 
 | Método | Descripción |
 |-|-|
 | handle(CreateRequestCommand command) | Maneja la creación de una solicitud, utilizando la información obtenida desde la aplicación y almacenándolo en la base de datos. |
 
-**Servicio: RequestQueryServiceImpl**
+**Servicio: RequestQueryServiceImpl**<br>
 Descripción: Implementa el servicio RequestQueryService que maneja la recuperación de solicitudes de la aplicación.
 
 | Método | Descripción |
@@ -4275,7 +4275,7 @@ Descripción: Implementa el servicio RequestQueryService que maneja la recuperac
 | handle(getRequestByIdQuery query) | Maneja la consulta de una solicitud por ID, devolviendo un Optional<Request> que contiene la solicitud o vacío si fuera el caso. |
 | handle(getAllRequestsQuery query) | Maneja la consulta para recuperar todas las solicitudes, devolviendo una lista de solicitudes. |
 
-**Servicio: CommentCommandServiceImpl**
+**Servicio: CommentCommandServiceImpl**<br>
 Descripción: Implementa el servicio CommentCommandService que maneja la creación de comentarios para las solicitudes de la aplicación.
 
 | Método | Descripción |
@@ -4283,7 +4283,7 @@ Descripción: Implementa el servicio CommentCommandService que maneja la creaci�
 | handle(createCommentCommand command) | Maneja la creación de un comentario que esté relacionado con una solicitud. |
 | handle(deleteCommentCommand command) | Elimina el comentario seleccionado. |
 
-**Servicio: CommentQueryServiceImpl**
+**Servicio: CommentQueryServiceImpl**<br>
 Descripción: Implementa el servicio CommentQueryService que maneja la recuperación de comentarios asociados a una solicitud.
 
 | Método | Descripción |
@@ -4291,7 +4291,7 @@ Descripción: Implementa el servicio CommentQueryService que maneja la recuperac
 | handle(getCommentByIdQuery query) | Maneja la consulta de un comentario específico por ID, devolviendo un Optional<Comment> que contiene el comentario o vacío si fuera el caso. |
 | handle(getRequestComments query) | Maneja la consulta de una lista de comentarios asociados con la ID de una solicitud, devolviendo una lista que contiene lso comentarios o vacío si fuera el caso. |
 
-**Servicio: FileCommandServiceImpl**
+**Servicio: FileCommandServiceImpl**<br>
 Descripción: Implementa el servicio FileCommandService que maneja la subida de archivos para las solicitudes de la aplicación.
 
 | Método | Descripción |
@@ -4299,7 +4299,7 @@ Descripción: Implementa el servicio FileCommandService que maneja la subida de 
 | handle(uploadFileCommand command) | Maneja la subida de un archivo que esté relacionado con una solicitud. |
 | handle(removeFileCommand command) | Elimina el archivo subido a la solicitud. |
 
-**Servicio: FileQueryServiceImpl**
+**Servicio: FileQueryServiceImpl**<br>
 Descripción: Implementa el servicio FileCommandService que maneja la recuperación de archivos asociados a una solicitud.
 
 | Método | Descripción |
