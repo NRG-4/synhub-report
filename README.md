@@ -4571,44 +4571,42 @@ Value Object: **`DueDate`**
     <th>Reglas Aplicadas y Métodos</th>
   </tr>
   <tr>
-    <td>TaskAssignmentService</td>
-    <td>Gestionar la asignación/reasignación de responsables.</td>
+    <td>TaskManagementService</td>
+    <td>Gestionar la creación, edición y eliminación de tareas principales.</td>
     <td>
       <strong>Reglas:</strong><br>
-      - Solo coordinadores o creadores pueden reasignar.<br>
-      - Usuario asignado debe existir (valida con IUserRepository).<br>
-      <strong>Método:</strong><br>reassignTask(task: Task, newAssignee: UserId, requester: UserId): void
+      - Solo los usuarios con permisos adecuados pueden crear o eliminar tareas.<br>
+      - Las tareas no pueden eliminarse si están completadas.<br>
+      <strong>Métodos:</strong><br>
+      <code>createTask(title: string, description: string, assignee: UserId, creator: UserId): Task</code><br>
+      <code>editTask(task: Task, updates: Partial<Task>, userId: UserId): void</code><br>
+      <code>deleteTask(task: Task, userId: UserId): void</code>
     </td>
   </tr>
   <tr>
-    <td>TaskProgressService</td>
-    <td>Controlar cambios de estado (ej.: marcar como "completada").</td>
+    <td>SubtaskManagementService</td>
+    <td>Gestionar la creación, edición y eliminación de subtareas asociadas a tareas.</td>
     <td>
       <strong>Reglas:</strong><br>
-      - Tareas COMPLETED no pueden modificarse.<br>
-      - Transiciones válidas: PENDING → IN_PROGRESO → COMPLETED.<br>
-      <strong>Método:</strong><br>
-      updateStatus(task: Task, newStatus: TaskStatus): void
+      - Solo usuarios asignados a la tarea principal pueden agregar o editar subtareas.<br>
+      - Las subtareas deben estar asociadas a una tarea válida.<br>
+      <strong>Métodos:</strong><br>
+      <code>createSubtask(taskId: TaskId, title: string, assignee: UserId): Subtask</code><br>
+      <code>editSubtask(subtask: Subtask, updates: Partial<Subtask>, userId: UserId): void</code><br>
+      <code>deleteSubtask(subtask: Subtask, userId: UserId): void</code>
     </td>
   </tr>
-<tr>
-    <td>TaskCommentService</td>
-    <td>Gestionar la adición de comentarios a tareas por parte de los usuarios autorizados.</td>
+  <tr>
+    <td>CommentManagementService</td>
+    <td>Gestionar la adición, edición y eliminación de comentarios en tareas y subtareas.</td>
     <td>
-      - Valida que el autor exista (<code>IUserRepository</code>).<br>
-      - Impide comentar tareas canceladas.<br>
-      - Método: <code>addComment(task: Task, authorId: UserId, text: string): Comment</code>
-    </td>
-  </tr>
-<tr>
-    <td>TaskEditionService</td>
-    <td>Gestionar la edición y eliminación de tareas según permisos y reglas de estado.</td>
-    <td>
-      - Verifica permisos mediante <code>TaskPermissionService</code>.<br>
-      - Impide editar tareas completadas.<br>
-      - Métodos:<br>
-      <code>editTask(task: Task, updates: Partial<Task>, userId: UserId): void</code><br>
-      <code>deleteTask(task: Task, userId: UserId): void</code>
+      <strong>Reglas:</strong><br>
+      - El autor debe existir (valida con <code>IUserRepository</code>).<br>
+      - Los comentarios no pueden agregarse a tareas o subtareas canceladas.<br>
+      <strong>Métodos:</strong><br>
+      <code>addComment(taskId: TaskId, authorId: UserId, text: string): Comment</code><br>
+      <code>editComment(comment: Comment, updates: Partial<Comment>, userId: UserId): void</code><br>
+      <code>deleteComment(comment: Comment, userId: UserId): void</code>
     </td>
   </tr>
 </table>
@@ -4845,7 +4843,6 @@ Esta capa es crucial porque centraliza la lógica de negocio, garantizando que l
   </tr>
 </table>
 
-
 ##### 4.2.5.4. Infrastructure Layer
 
 La Infrastructure Layer de este contexto se encarga de implementar las dependencias externas necesarias para el funcionamiento del sistema, como el acceso a la base de datos PostgreSQL y la integración con servicios externos como Google Calendar. Aquí se desarrollan las clases concretas que cumplen con los contratos definidos en el Domain Layer.
@@ -4856,7 +4853,6 @@ Esta capa permite mantener una arquitectura desacoplada, separando la lógica de
 ### **Repositories**
 
 **TaskRepository:**
-
 
 <table>
   <tr>
@@ -4896,9 +4892,7 @@ Esta capa permite mantener una arquitectura desacoplada, separando la lógica de
 </tr>
 </table>
 
-
 **SubtaskRepository:**
-
 
 <table>
   <tr>
@@ -4928,9 +4922,7 @@ Esta capa permite mantener una arquitectura desacoplada, separando la lógica de
 </tr>
 </table>
 
-
 **CommentRepository:**
-
 
 <table>
   <tr>
@@ -4959,7 +4951,6 @@ Esta capa permite mantener una arquitectura desacoplada, separando la lógica de
   <td>Comment</td>
 </tr>
 </table>
-
 
 ##### 4.2.5.5. Bounded Context Software Architecture Component Level Diagrams
 
