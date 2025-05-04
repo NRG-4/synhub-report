@@ -4954,6 +4954,9 @@ Esta capa permite mantener una arquitectura desacoplada, separando la lógica de
 
 ##### 4.2.5.5. Bounded Context Software Architecture Component Level Diagrams
 
+<img src="./images/chapter-4/taskManagement-componentDiagram.png" alt="Chamilo" width="800"/>
+
+
 ##### 4.2.5.6. Bounded Context Software Architecture Code Level Diagrams
 
 ###### 4.2.5.6.1. Bounded Context Domain Layer Class Diagrams
