@@ -4402,39 +4402,44 @@ Entity: **`Task`**
     <th>Descripción</th>
   </tr>
   <tr>
-    <td>taskId</td>
+    <td><b>taskId</b></td>
     <td>UUID</td>
     <td>Identificador único de la tarea</td>
   </tr>
   <tr>
-    <td>title</td>
+    <td><b>title</b></td>
     <td>String</td>
     <td>Título de la tarea</td>
   </tr>
   <tr>
-    <td>description</td>
+    <td><b>description</b></td>
     <td>String</td>
     <td>Descripción detallada de la tarea</td>
   </tr>
   <tr>
-    <td>status</td>
+    <td><b>status</b></td>
     <td>TaskStatus (VO)</td>
     <td>Estado actual de la tarea (pendiente, en progreso, completada, cancelada)</td>
   </tr>
   <tr>
-    <td>dueDate</td>
+    <td><b>dueDate</b></td>
     <td>DueDate (VO)</td>
     <td>Fecha límite para completar la tarea</td>
   </tr>
   <tr>
-    <td>assignees</td>
-    <td>Set(UserId) </td>
+    <td><b>assignees</b></td>
+    <td>Set<UserId></td>
     <td>Conjunto de usuarios asignados a la tarea</td>
   </tr>
   <tr>
-    <td>tags</td>
-    <td>Set(Tag)</td>
-    <td>Conjunto de etiquetas asociadas a la tarea</td>
+    <td><b>comments</b></td>
+    <td>List Comment</td>
+    <td>Lista de comentarios realizados sobre la tarea</td>
+  </tr>
+  <tr>
+    <td><b>subtasks</b></td>
+    <td>List Subtask</td>
+    <td>Lista de subtareas relacionadas a la tarea principal</td>
   </tr>
 </table>
 
@@ -4954,12 +4959,19 @@ Esta capa permite mantener una arquitectura desacoplada, separando la lógica de
 
 ##### 4.2.5.5. Bounded Context Software Architecture Component Level Diagrams
 
+Este diagrama representa la arquitectura a nivel de componentes del Bounded Context de **Gestión de Tareas**, modelado utilizando la herramienta Structurizr y el enfoque C4. Se muestra cómo los distintos elementos del sistema colaboran para manejar funcionalidades relacionadas a tareas, subtareas y comentarios dentro de una aplicación distribuida.
+
 <img src="./images/chapter-4/taskManagement-componentDiagram.png" alt="Chamilo" width="800"/>
 
 
 ##### 4.2.5.6. Bounded Context Software Architecture Code Level Diagrams
 
 ###### 4.2.5.6.1. Bounded Context Domain Layer Class Diagrams
+
+El diagrama muestra la estructura central del Domain Layer para "Gestión de Tareas", organizado alrededor del **TaskAggregate** que controla todas las operaciones principales (creación de tareas, subtareas y comentarios). Las entidades **Task**, **Subtask** y **Comment** encapsulan datos y comportamientos específicos, mientras los **Value Objects** (TaskStatus, DueDate) garantizan validaciones. Las **Factories** se encargan de crear instancias válidas, y los **Domain Services** (TaskManagementService, SubtaskManagementService, CommentManagementService) orquestan operaciones complejas, aplicando reglas de negocio como permisos y validaciones de estado. Todo el diseño sigue principios DDD para mantener alta cohesión y bajo acoplamiento.
+
+<img src="./images/chapter-4/Domain-Layer-Class-Diagrams.png" alt="Chamilo" width="800"/>
+
 
 ###### 4.2.5.6.2. Bounded Context Database Design Diagram
 
