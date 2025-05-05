@@ -4482,11 +4482,6 @@ Entity: **`Comment`**
     <td>Identificador único del comentario</td>
   </tr>
   <tr>
-    <td>authorId</td>
-    <td>UserId</td>
-    <td>Usuario que escribió el comentario</td>
-  </tr>
-  <tr>
     <td>text</td>
     <td>String</td>
     <td>Contenido textual del comentario</td>
@@ -4974,6 +4969,11 @@ El diagrama muestra la estructura central del Domain Layer para "Gestión de Tar
 
 
 ###### 4.2.5.6.2. Bounded Context Database Design Diagram
+
+El **Database Diagram** para el Bounded Context de "Gestión de Tareas" modela la persistencia de los agregados y entidades del dominio en una estructura relacional, garantizando consistencia con las reglas de negocio. Incluye las tablas **`tasks`** (tareas principales), **`users_tasks`** (relación muchos-a-muchos con usuarios asignados), **`subtasks`** (subtareas vinculadas) y **`comments`** (comentarios), con restricciones como claves foráneas en cascada, validación de fechas (`final_date >= initial_date`), y ENUMs para estados (`PENDING`, `COMPLETED`, etc.). El diseño refleja fielmente el dominio, asegurando que operaciones como la creación de subtareas o comentarios siempre dependan de una tarea válida (agregado raíz), mientras optimiza consultas mediante índices estratégicos.
+
+<img src="./images/chapter-4/task_management_database_design_diagram.png" alt="Chamilo" width="800"/>
+
 
 ## Capítulo V: Solution UI/UX Design
 
