@@ -3404,53 +3404,14 @@ El diagrama de despliegue representa un sistema donde una aplicación móvil se 
   </tbody>
 </table>
 
-<hr>
-
-<h3>Service: <code>FirebasePushAdapter</code></h3>
-<p><strong>Descripción:</strong> Adaptador que utiliza Firebase para enviar notificaciones push a dispositivos móviles o navegadores web.</p>
-
-<table>
-  <thead>
-    <tr><th>Método</th><th>Tipo de retorno</th><th>Visibilidad</th><th>Descripción</th></tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>sendPush(notification: Notification)</td>
-      <td>void</td>
-      <td>Public</td>
-      <td>Envía una notificación push utilizando Firebase Cloud Messaging (FCM).</td>
-    </tr>
-  </tbody>
-</table>
-
-<hr>
-
-<h3>Service: <code>EmailJSAdapter</code></h3>
-<p><strong>Descripción:</strong> Adaptador que utiliza la API de EmailJS para enviar notificaciones por correo electrónico.</p>
-
-<table>
-  <thead>
-    <tr><th>Método</th><th>Tipo de retorno</th><th>Visibilidad</th><th>Descripción</th></tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>sendEmail(notification: Notification)</td>
-      <td>void</td>
-      <td>Public</td>
-      <td>Envía una notificación por correo electrónico al destinatario indicado.</td>
-    </tr>
-  </tbody>
-</table>
-
 ##### 4.2.2.5. Bounded Context Software Architecture Component Level Diagrams
 
 <p>Este diagrama de componentes representa un sistema monolítico que gestiona notificaciones dentro de la plataforma SynHub. Una <strong>Single-Page Application (SPA)</strong>, implementada con Angular, interactúa con una <strong>Web API Application</strong> desarrollada en Spring Boot mediante llamadas HTTP (REST).</p>
 
 <p>La SPA realiza peticiones al <code>NotificationController</code> para consultar, marcar como leídas o generar nuevas notificaciones. Este controlador delega la lógica correspondiente a dos servicios principales: <code>NotificationQueryService</code> para recuperar notificaciones y <code>NotificationCommandService</code> para enviarlas o actualizar su estado.</p>
 
-<p>Ambos servicios se comunican con los repositorios correspondientes (<code>NotificationRepository</code> y <code>UserPreferencesRepository</code>) para acceder a los datos persistidos y las preferencias del usuario. Además, <code>NotificationCommandService</code> utiliza adaptadores externos como <code>FirebasePushAdapter</code> y <code>EmailJSAdapter</code> para el envío efectivo de notificaciones mediante canales push o correo electrónico. Los repositorios emplean JPA para realizar operaciones de lectura y escritura en una base de datos MySQL.</p>
-
-<img src="images/chapter-4/structurizr2.png" alt="Bounded Context Software Architecture Component Level Diagrams"/>
+<p>Ambos servicios se comunican con los repositorios correspondientes (<code>NotificationRepository</code> y <code>UserPreferencesRepository</code>) para acceder a los datos persistidos y las preferencias del usuario. Los repositorios emplean JPA para realizar operaciones de lectura y escritura en una base de datos MySQL.</p>
+<img src="images/chapter-4/structurizr3.png" alt="Bounded Context Software Architecture Component Level Diagrams"/>
 
 ##### 4.2.2.6. Bounded Context Software Architecture Code Level Diagrams
 
@@ -3467,7 +3428,6 @@ El diagrama de despliegue representa un sistema donde una aplicación móvil se 
 <p>El servicio de dominio <code>NotificationService</code> encapsula la lógica de negocio central para validar las notificaciones. Este servicio incluye el método <code>validateType()</code>, que valida si el tipo de notificación es permitido.</p>
 
 <p>Las relaciones entre las clases incluyen una asociación entre <code>Notification</code> y <code>User</code> (una notificación tiene un único destinatario), y una dependencia del servicio <code>NotificationService</code> hacia el agregado <code>Notification</code>.</p>
-
 <img src="images/chapter-4/UML2.png" alt="Bounded Context Domain Layer Class Diagrams" />
 
 #### 4.2.3. Bounded Context: Gestión de grupos
