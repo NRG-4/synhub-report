@@ -2880,6 +2880,37 @@ Los wireframes de Synhub representan la estructura y disposición de las pantall
 <img src="images/chapter-5/wireframe-6.png" alt="Wireframe 1" width="600"/>
 
 ##### 5.1.4.2. Mobile Applications Wireflow Diagrams
+Los wireflow diagrams de Synhub representan la secuencia de interacciones y pantallas que los usuarios experimentarán al navegar por la aplicación.
+
+**Creación de grupo:** este wireflow corresponde a cuando un lider de equipo buscar crear un nuevo grupo.
+
+<img src="images/chapter-5/wireflow-1.png" alt="Wireflow 1" width="600"/>
+
+**Invitación de integrante:** este wireflow corresponde a cuando un lider de equipo busca invitar a un nuevo integrante al grupo.
+
+<img src="images/chapter-5/wireflow-2-1.png" alt="Wireflow 2" width="600"/>
+
+<img src="images/chapter-5/wireflow-2-2.png" alt="Wireflow 2" width="600"/>
+
+**Asignación de tarea:** este wireflow corresponde a cuando un lider de equipo busca asignar una nueva tarea a un integrante del grupo.
+
+<img src="images/chapter-5/wireflow-3.png" alt="Wireflow 3" width="600"/>
+
+**Edición de tarea:** este wireflow corresponde a cuando un lider de equipo busca editar una tarea ya existente.
+
+<img src="images/chapter-5/wireflow-4.png" alt="Wireflow 4" width="600"/>
+
+**Eliminación de tarea:** este wireflow corresponde a cuando un lider de equipo busca eliminar una tarea ya existente.
+
+<img src="images/chapter-5/wireflow-5.png" alt="Wireflow 5" width="600"/>
+
+**Ver la información de una tarea:** este wireflow corresponde a cuando un lider de equipo busca ver la información de una tarea ya existente.
+
+<img src="images/chapter-5/wireflow-6.png" alt="Wireflow 6" width="600"/>
+
+**Revisar una solicitud o validación:** este wireflow corresponde a cuando un lider de equipo busca revisar una solicitud o validación ya existente.
+
+<img src="images/chapter-5/wireflow-7.png" alt="Wireflow 7" width="600"/>
 
 ##### 5.1.4.3. Mobile Applications Mock-ups
 
