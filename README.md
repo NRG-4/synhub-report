@@ -2733,11 +2733,13 @@ El diagrama de despliegue representa un sistema donde una aplicación móvil se 
 Product Design es el proceso de imaginar, planificar y crear un producto que resuelva un problema o satisfaga una necesidad específica de los usuarios. Involucra entender profundamente a los usuarios, definir requisitos funcionales y de experiencia, diseñar interfaces intuitivas, y validar soluciones mediante iteraciones constantes.
 
 #### 5.1.1. Style Guidelines
+
 El objetivo de estas directrices es asegurar que todas las interfaces de usuario (UI) de SynHub sigan un enfoque coherente y accesible, promoviendo una experiencia visual clara y agradable. Esto incluye el uso de elementos visuales consistentes, como colores, tipografías y gráficos, tanto para la landing page como para la aplicación móvil.
 
 Al seguir estas directrices, SynHub busca garantizar una interfaz intuitiva que sea fácil de navegar para todos los usuarios, creando una atmósfera de confianza y accesibilidad. Se hace énfasis en diseñar una aplicación moderna, accesible y centrada en el usuario, en la que cada detalle visual contribuya a hacer más fluida la experiencia del usuario, mientras refleja los valores de eficiencia y colaboración que la plataforma promueve.
 
 ##### 5.1.1.1. General Style Guidelines
+
 **Colores:**
 
 Para SynHub, una plataforma orientada a la gestión colaborativa de tareas, horarios y responsabilidades, es importante elegir una paleta de colores que refuerce la accesibilidad, claridad y profesionalismo, mientras refleja el enfoque organizado y eficiente de la aplicación.
@@ -2756,6 +2758,7 @@ Lato es una tipografía con base en sans-serif, lo que significa que tienen un e
 
 La simplicidad y claridad son principios esenciales para crear aplicaciones funcionales que faciliten la interacción del usuario. Al centrarse en estos principios, SynHub podrá proporcionar una experiencia eficiente, accesible y agradable, ayudando a los usuarios a concentrarse en lo que realmente importa: la organización y gestión colaborativa de tareas.
 Se buscará cumpli con los siguientes objetivos:
+
 - **Interfaz Minimalista:** Utilizar un diseño limpio y sin distracciones. Solo se deben mostrar los elementos más esenciales, como botones, menús y texto que guíen al usuario hacia la acción principal.
 - **Uso de Espacios Blancos:** Un espacio adecuado entre los elementos de la interfaz ayuda a que la pantalla no se vea sobrecargada.
 - **Simplificación de los Flujos de Usuarios:** Los procesos y flujos dentro de la aplicación deben ser lo más directos posibles.
@@ -2771,8 +2774,8 @@ Es un aspecto fundamental en el diseño de experiencias digitales, ya que define
 
 En esta sección, el equipo detalla cómo se aplicarán los sistemas de organización de la información en la aplicación, con el objetivo de garantizar que los usuarios encuentren rápidamente lo que necesitan y naveguen de manera eficiente. La organización visual del contenido se estructurará de la siguiente manera:
 
-- Jerárquica (Visual Hierarchy): Este enfoque se utilizará para destacar los elementos más importantes de la aplicación, como botones y acciones clave, mediante el uso de diferentes tamaños, colores y posiciones. 
-- Organización Secuencial (Step-by-Step): Este sistema será aplicado en procesos que requieran una secuencia lógica. Cada paso se presentará de forma clara y fácil de seguir, reduciendo la carga cognitiva del usuario. 
+- Jerárquica (Visual Hierarchy): Este enfoque se utilizará para destacar los elementos más importantes de la aplicación, como botones y acciones clave, mediante el uso de diferentes tamaños, colores y posiciones.
+- Organización Secuencial (Step-by-Step): Este sistema será aplicado en procesos que requieran una secuencia lógica. Cada paso se presentará de forma clara y fácil de seguir, reduciendo la carga cognitiva del usuario.
 - Organización Matricial: En secciones donde se necesite comparar información o ver opciones interrelacionadas, se usará este enfoque, permitiendo al usuario comparar fácilmente los datos disponibles y tomar decisiones informadas.
 
 Este enfoque en la organización de la información se alinea con los objetivos de diseño de la aplicación, que buscan una interfaz minimalista, clara y fácil de usar, donde los elementos esenciales sean visibles, los flujos de usuarios sean simplificados y la jerarquía visual sea clara.
@@ -2781,28 +2784,31 @@ Este enfoque en la organización de la información se alinea con los objetivos 
 
 El sistema de etiquetado se enfoca en definir cómo se presentarán los datos y opciones dentro de la aplicación, utilizando un lenguaje claro, simple y directo. El objetivo es que las etiquetas sean inmediatamente comprensibles para los usuarios, minimizando la carga cognitiva y evitando confusión o ambigüedad. La propuesta designada para synhub es la siguiente:
 
+
 | Sección                      | Etiqueta Propuesta |
-|------------------------------|--------------------|
+| ----------------------------- | ------------------ |
 | Asignación de Tareas         | "Tareas"           |
 | Gestión de Horarios          | "Calendario"       |
-| Estadísticas de Cumplimiento | "Estadísticas"     |
-| Recordatorios                | "Recordatorios"    |
-| Perfil de Usuario            | "Mi Perfil"        |
-| Configuración                | "Configuración"    |
-| Grupos                       | "Mis Grupos"       |
-| Actividad Reciente           | "Actividad"        |
+| Estadísticas de Cumplimiento | "Estadísticas"    |
+| Recordatorios                 | "Recordatorios"    |
+| Perfil de Usuario             | "Mi Perfil"        |
+| Configuración                | "Configuración"   |
+| Grupos                        | "Mis Grupos"       |
+| Actividad Reciente            | "Actividad"        |
 
 ##### 5.1.2.3. SEO Tags and Meta Tags
 
 Esta sección define cómo se implementarán las etiquetas de optimización para motores de búsqueda en el sitio web y cómo se optimizará la presencia de SynHub en tiendas de aplicaciones móviles. El objetivo es mejorar la visibilidad de SynHub, atraer tráfico orgánico, y asegurar que tanto usuarios como motores de búsqueda entiendan de inmediato el propósito de la plataforma.
 
 **Para Landing Page Web:**
+
 - Title: SynHub - Organiza tu hogar y equipos de manera fácil
 - Meta Description: Plataforma colaborativa para gestionar tareas, horarios y responsabilidades en hogares, oficinas y comunidades. Organiza tu vida diaria de forma sencilla y eficiente con SynHub.
 - Meta Keywords: organización de tareas, gestión familiar, calendario colaborativo, app de tareas, productividad en grupo
 - Meta Author: NRG4 - SynHub Team
 
 **Para Mobile App (App Store / Play Store):**
+
 - App Title: SynHub: Organización de Tareas y Calendarios
 - App Keywords: tareas, calendario, hogar, productividad, recordatorios, familia, equipo, organización
 - App Subtitle: Planifica tu día, organiza tu hogar y tu equipo fácilmente.
@@ -2827,10 +2833,12 @@ Estas decisiones están diseñadas para evitar que los usuarios se sientan abrum
 **Solicitudes (líderes de grupo):** En la sección de solicitudes se visualizará una lista de todas las solicitudes realizadas por los integrantes del grupo, al hacer click sobre ellas se mostrará la descripción de la solicitud y el estado de la misma. Esta funcionalidad permitirá a los líderes tener un acceso rápido a la información relevante sobre las solicitudes de sus integrantes. Además, podrá filtrar las solicitudes por el tipo de solicitud (reprogramación, validación o incumplimiento).
 
 ##### 5.1.2.5. Navigation Systems
+
 La estructura de navegación y las opciones disponibles en nuestro producto digital están diseñadas para proporcionar una experiencia de usuario intuitiva y eficiente. A continuación se muestra un resumen de las secciones y elementos clave:
 
 **Landing Page**
 Barra de navegación con secciones:
+
 - About Us
 - Mision & Vision
 - Features
@@ -2838,6 +2846,7 @@ Barra de navegación con secciones:
 
 **Mobile App**
 Mediante el uso de un menú lateral, los usuarios podrán acceder a las siguientes secciones:
+
 - Tareas
 - Calendario
 - Estadísticas
@@ -2855,6 +2864,20 @@ Mediante el uso de un menú lateral, los usuarios podrán acceder a las siguient
 #### 5.1.4. Mobile Applications UX/UI Design
 
 ##### 5.1.4.1. Mobile Applications Wireframes
+
+Los wireframes de Synhub representan la estructura y disposición de las pantallas clave, mostrando la ubicación de los elementos de la interfaz de usuario y la navegación. Estos esquemas visuales proporcionan una guía clara para el diseño final, asegurando que la experiencia del usuario sea intuitiva y eficiente.
+
+<img src="images/chapter-5/wireframe-1.png" alt="Wireframe 1" width="600"/>
+
+<img src="images/chapter-5/wireframe-2.png" alt="Wireframe 1" width="600"/>
+
+<img src="images/chapter-5/wireframe-3.png" alt="Wireframe 1" width="600"/>
+
+<img src="images/chapter-5/wireframe-4.png" alt="Wireframe 1" width="600"/>
+
+<img src="images/chapter-5/wireframe-5.png" alt="Wireframe 1" width="600"/>
+
+<img src="images/chapter-5/wireframe-6.png" alt="Wireframe 1" width="600"/>
 
 ##### 5.1.4.2. Mobile Applications Wireflow Diagrams
 
