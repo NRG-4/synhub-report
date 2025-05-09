@@ -2772,8 +2772,6 @@ El diagrama de despliegue representa un sistema donde una aplicación móvil se 
   </thead>
   <tbody>
     <tr><td>generateFromLogs()</td><td>void</td><td>Public</td><td>Genera el reporte a partir de logs.</td></tr>
-    <tr><td>exportToCSV()</td><td>String</td><td>Public</td><td>Exporta el reporte en formato CSV.</td></tr>
-    <tr><td>exportToPDF()</td><td>byte[]</td><td>Public</td><td>Exporta el reporte como archivo PDF.</td></tr>
   </tbody>
 </table>
 
@@ -2843,18 +2841,6 @@ El diagrama de despliegue representa un sistema donde una aplicación móvil se 
       <td>Report</td>
       <td>Public</td>
       <td>Genera un nuevo reporte para el usuario en base a su actividad reciente.</td>
-    </tr>
-    <tr>
-      <td>exportReportToPDF(reportId: Long)</td>
-      <td>byte[]</td>
-      <td>Public</td>
-      <td>Exporta un reporte en formato PDF.</td>
-    </tr>
-    <tr>
-      <td>exportReportToCSV(reportId: Long)</td>
-      <td>String</td>
-      <td>Public</td>
-      <td>Exporta un reporte en formato CSV.</td>
     </tr>
   </tbody>
 </table>
@@ -2947,18 +2933,6 @@ El diagrama de despliegue representa un sistema donde una aplicación móvil se 
       <td>Public</td>
       <td>Genera un reporte basado en las actividades recientes del usuario.</td>
     </tr>
-    <tr>
-      <td>exportToCSV(reportId: Long)</td>
-      <td>String</td>
-      <td>Public</td>
-      <td>Exporta un reporte en formato CSV.</td>
-    </tr>
-    <tr>
-      <td>exportToPDF(reportId: Long)</td>
-      <td>byte[]</td>
-      <td>Public</td>
-      <td>Exporta un reporte como archivo PDF.</td>
-    </tr>
   </tbody>
 </table>
 
@@ -3040,40 +3014,15 @@ El diagrama de despliegue representa un sistema donde una aplicación móvil se 
   </tbody>
 </table>
 
-<hr>
-
-<h3>Service: <code>ExportService</code></h3>
-<p><strong>Descripción:</strong> Servicio externo que permite convertir reportes en formatos PDF y CSV para su descarga.</p>
-
-<table>
-  <thead>
-    <tr><th>Método</th><th>Tipo de retorno</th><th>Visibilidad</th><th>Descripción</th></tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>generatePDF(report: Report)</td>
-      <td>byte[]</td>
-      <td>Public</td>
-      <td>Convierte un reporte en un archivo PDF.</td>
-    </tr>
-    <tr>
-      <td>generateCSV(report: Report)</td>
-      <td>String</td>
-      <td>Public</td>
-      <td>Convierte un reporte en texto CSV.</td>
-    </tr>
-  </tbody>
-</table>
-
 ##### 4.2.1.5. Bounded Context Software Architecture Component Level Diagrams
 
 <p>Este diagrama de componentes representa un sistema monolítico que gestiona datos analíticos y reportes dentro de la plataforma SynHub. Una <strong>Single-Page Application (SPA)</strong>, implementada con Angular, interactúa con una <strong>Web API Application</strong> desarrollada en Spring Boot mediante llamadas HTTP (REST).</p>
 
 <p>La SPA realiza peticiones al <code>ReportController</code> para generar, visualizar o exportar reportes. Este controlador delega la lógica correspondiente en dos componentes principales: el <code>ReportQueryService</code> para operaciones de lectura y recuperación de datos analíticos, y el <code>ReportCommandService</code> para la generación y exportación de reportes.</p>
 
-<p>Ambos servicios se comunican con sus respectivos repositorios (<code>ActivityLogRepository</code> y <code>ReportRepository</code>) que abstraen el acceso a la base de datos. Para la exportación de reportes, se emplea un servicio adicional (<code>ExportService</code>) que convierte los datos en formatos PDF y CSV. Los repositorios utilizan JPA para realizar operaciones de lectura y escritura en una base de datos relacional (MySQL).</p>
+<p>Ambos servicios se comunican con sus respectivos repositorios (<code>ActivityLogRepository</code> y <code>ReportRepository</code>) que abstraen el acceso a la base de datos. Los repositorios utilizan JPA para realizar operaciones de lectura y escritura en una base de datos relacional (MySQL).</p>
 
-<img src="images/chapter-4/structurizr1.png" alt="Bounded Context Software Architecture Component Level Diagrams"/>
+<img src="images/chapter-4/structurizr4.png" alt="Bounded Context Software Architecture Component Level Diagrams"/>
 
 ##### 4.2.1.6. Bounded Context Software Architecture Code Level Diagrams
 
