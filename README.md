@@ -2928,6 +2928,48 @@ Usaremos buenas prácticas en cuanto al código de manera que sea coherente y so
   - Lazy loading (imágenes, componentes).
 
 #### 6.1.4. Software Deployment Configuration
+En esta sección se detallan las consideraciones y pasos necesarios para el despliegue de los productos de Synhub.
+
+**Landing Page**
+
+**Consideraciones antes del despliegue:**
+
+**Requerimientos para realizar del despliegue:**
+
+**Pasos realizados para desplegar nuestra Landing Page:**
+
+**Mobile Application**
+**Consideraciones antes del despliegue:**
+- Se necesita tener el API desplegado en un servidor al que se pueda acceder de manera externa.
+
+**Requerimientos para realizar del despliegue:**
+- Repositorio de desarrollo del API en github
+- Dispositivo móvil Android en el que se pueda instalar la aplicación
+
+**Pasos realizados para desplegar nuestra Mobile Application:**
+1. Activar el modo desarrollador en el dispositivo móvil.
+2. Activar la depuración por USB en el dispositivo móvil.
+3. Conectar el dispositivo móvil a la computadora.
+4. Abrir Android Studio y seleccionar el proyecto de la aplicación.
+5. Seleccionar el dispositivo móvil en la lista de dispositivos disponibles.
+6. Hacer clic en el botón de "Run" (Ejecutar) en Android Studio.
+7. Esperar a que la aplicación se compile y se instale en el dispositivo móvil.
+8. Abrir la aplicación en el dispositivo móvil y verificar que funcione correctamente.
+
+**Backend**
+**Consideraciones antes del despliegue:**
+- Se necesita tener la base de datos desplegada en un servidor al que se pueda acceder de manera externa.
+
+**Requerimientos para realizar del despliegue:**
+- Repositorio de desarrollo del backend en github
+- Repositorio de github con estado de visualización público
+
+**Pasos realizados para desplegar nuestra API:**
+1. Extraer el pipeline de la base de datos de Neontech y cargarla al código del API.
+2. Crear un archivo Dockerfile para el despliegue del API.
+3. Crear un proyecto en Render de tipo Web Service.
+4. Importar el repositorio del API al proyecto de Render.
+5. Desplegar el API en Render.
 
 ### 6.2. Landing Page & Mobile Application Implementation
 
