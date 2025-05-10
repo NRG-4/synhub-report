@@ -2939,6 +2939,7 @@ En esta sección se detallan las consideraciones y pasos necesarios para el desp
 **Pasos realizados para desplegar nuestra Landing Page:**
 
 **Mobile Application**
+
 **Consideraciones antes del despliegue:**
 - Se necesita tener el API desplegado en un servidor al que se pueda acceder de manera externa.
 
@@ -2957,6 +2958,7 @@ En esta sección se detallan las consideraciones y pasos necesarios para el desp
 8. Abrir la aplicación en el dispositivo móvil y verificar que funcione correctamente.
 
 **Backend**
+
 **Consideraciones antes del despliegue:**
 - Se necesita tener la base de datos desplegada en un servidor al que se pueda acceder de manera externa.
 
