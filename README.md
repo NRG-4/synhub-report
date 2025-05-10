@@ -2914,6 +2914,22 @@ Los wireflow diagrams de Synhub representan la secuencia de interacciones y pant
 
 ##### 5.1.4.3. Mobile Applications Mock-ups
 
+En esta sección se presentan y explican los Mock-ups de la aplicación. Se evidencia la aplicación de los principios y elementos de diseño, el diseño inclusivo, la arquitectura de información y el Design System establecido en el desarrollo de los wireframes. Cada mock-up ilustra cómo se implementan estos conceptos en la interfaz de usuario.
+
+<img src="images/chapter-5/mockup-1.png" alt="Mockup 1" width="600"/>
+
+<img src="images/chapter-5/mockup-2.png" alt="Mockup 2" width="600"/>
+
+<img src="images/chapter-5/mockup-3.png" alt="Mockup 3" width="600"/>
+
+<img src="images/chapter-5/mockup-4.png" alt="Mockup 4" width="600"/>
+
+<img src="images/chapter-5/mockup-5.png" alt="Mockup 5" width="600"/>
+
+<img src="images/chapter-5/mockup-6.png" alt="Mockup 6" width="600"/>
+
+<img src="images/chapter-5/mockup-7.png" alt="Mockup 7" width="600"/>
+
 ##### 5.1.4.4. Mobile Applications User Flow Diagrams
 
 ##### 5.1.4.5. Mobile Applications Prototyping
