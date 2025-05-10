@@ -2932,6 +2932,55 @@ En esta sección se presentan y explican los Mock-ups de la aplicación. Se evid
 
 ##### 5.1.4.4. Mobile Applications User Flow Diagrams
 
+**Creación de grupo:** este userflow corresponde a cuando un lider de equipo buscar crear un nuevo grupo.
+Task flow: 🟥 Happy Path, 🟨 Error Path, 🟦 User Goal
+
+<img src="images/chapter-5/userflow-t1.png" alt="Userflow Table 1" width="600"/>
+
+<img src="images/chapter-5/userflow-1.png" alt="Userflow 1" width="600"/>
+
+**Invitación de integrante:** este userflow corresponde a cuando un lider de equipo busca invitar a un nuevo integrante al grupo.
+Task flow: 🟥 Happy Path, 🟨 Error Path, 🟦 User Goal
+
+<img src="images/chapter-5/userflow-t2.png" alt="Userflow Table 2" width="600"/>
+
+<img src="images/chapter-5/userflow-2.png" alt="Userflow 2" width="600"/>
+
+**Asignación de tarea:** este userflow corresponde a cuando un lider de equipo busca asignar una nueva tarea a un integrante del grupo.
+Task flow: 🟥 Happy Path, 🟨 Error Path, 🟦 User Goal
+
+<img src="images/chapter-5/userflow-t3.png" alt="Userflow Table 3" width="600"/>
+
+<img src="images/chapter-5/userflow-3.png" alt="Userflow 3" width="600"/>
+
+**Edición de tarea:** este userflow corresponde a cuando un lider de equipo busca editar una tarea ya existente.
+Task flow: 🟥 Happy Path, 🟨 Error Path, 🟦 User Goal
+
+<img src="images/chapter-5/userflow-t4.png" alt="Userflow Table 4" width="600"/>
+
+<img src="images/chapter-5/userflow-4.png" alt="Userflow 4" width="600"/>
+
+**Eliminación de tarea:** este userflow corresponde a cuando un lider de equipo busca eliminar una tarea ya existente.
+Task flow: 🟥 Happy Path, 🟨 Error Path, 🟦 User Goal
+
+<img src="images/chapter-5/userflow-t5.png" alt="Userflow Table 5" width="600"/>
+
+<img src="images/chapter-5/userflow-5.png" alt="Userflow 5" width="600"/>
+
+**Ver la información de una tarea:** este userflow corresponde a cuando un lider de equipo busca ver la información de una tarea ya existente.
+Task flow: 🟥 Happy Path, 🟨 Error Path, 🟦 User Goal
+
+<img src="images/chapter-5/userflow-t6.png" alt="Userflow Table 6" width="600"/>
+
+<img src="images/chapter-5/userflow-6.png" alt="Userflow 6" width="600"/>
+
+**Revisar una solicitud o validación:** este userflow corresponde a cuando un lider de equipo busca revisar una solicitud o validación ya existente.
+Task flow: 🟥 Happy Path, 🟨 Error Path, 🟦 User Goal
+
+<img src="images/chapter-5/userflow-t7.png" alt="Userflow Table 7" width="600"/>
+
+<img src="images/chapter-5/userflow-7.png" alt="Userflow 7" width="600"/>
+
 ##### 5.1.4.5. Mobile Applications Prototyping
 
 ## Capítulo VI: Product Implementation, Validation & Deployment
