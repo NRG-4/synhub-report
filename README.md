@@ -2831,6 +2831,43 @@ Para la documentación del software utilizamos Markdown, y para el trabajo colab
 | Github      | Para gestionar la documentación del proyecto                     | https://github.com/NRG-4/report |                 
 
 #### 6.1.2. Source Code Management
+Para la gestión del código fuente, utilizamos los siguientes repositorios:
+
+| Producto           | Repositorio       | Enlace                                     |
+|--------------------|-------------------|--------------------------------------------|
+| Mobile Application | synhub-mobile-app | https://github.com/NRG-4/synhub-mobile-app |
+| Backend            | synhub-backend    | https://github.com/NRG-4/synhub-backend    |
+| Landing Page       | synhub-landing    | https://github.com/NRG-4/synhub-landing    |
+
+**Flujo de trabajo GitFlow**
+
+Usaremos el flujo de trabajo planteado por Vincent Driessen en "A successful Git branching model" con los siguientes parámetros:
+
+- Una rama de producción.
+- Una rama de pruebas.
+- Una rama en la que se solucionen los bugs rapidamente y vuelvan a producción.
+- Ramas de features a implementar.
+- Cada cambio en producción debe establecerse como una nueva versión.
+- Para este proyecto en concreto consideramos que los cambios en la rama de producción y de pruebas deben tener autorización de un compa­ñero de equipo.
+
+Teniendo en cuenta la información anterior nos inclinamos por este tipo de organización en los branches:
+
+- **Main branch:** Esta rama esta destinada a la producción de la aplicación, cada cambio deberá tener autorización de un compañero de equipo para evitar cambios sin verificar.
+- **Hotfix branch:** En esta rama se incluirán todas las versiones que poseen errores identificados y que con cada arreglo de este se despliegue otra vez a Main Branch además de implementarla en lo que será Develop Branch.
+- **Develop branch:** Esta rama está destinada a las constantes implementaciones en caliente de los features,
+- **Features branch:** Cada feature poseerá su respectiva rama, una vez que se encuentre correctamente implementada será fusionada con Develop branch.
+
+Con cada deployment de la aplicación debe establecerse como una nueva versión. Nomenclatura de numeración de las versiones:
+
+- **Major changes:** Cuando el código o versión nueva del proyecto a implementar presenta cambios significativos con la versión anterior, estos cambios llegan a ser incompatibles con la versión anterior. Esto se evidenciará en el numero de la versión ej: versión 1.0.0 -> versión 2.0.0.
+- **Minor changes:** Cuando el código o versión nueva del proyecto a implementar presenta cambios con respecto a alguna característica, ya sea añadir o modificar, de la versión anterior; estos cambios no llegan a ser incompatibles con la versión anterior. Esto se evidenciará en el numero de la versión ej: versión 1.1.0 -> versión 1.2.0.
+- **Patch:** Cuando se solucionan bugs menores. Esto se evidenciará en el numero de la versión ej: versión 1.1.3 -> versión 1.1.4.
+
+Sufijos asignados a las versiones:
+
+- **alpha:** versión no estable con características básicas o no funcionales, ejemplo : versión 1.0.0 -alpha.
+- **beta:** versión no apta para la publicación, aún así ya presenta características funcionales en el estado base, ejemplo versión 1.0.0 –beta.
+- **rc:** versión apta para la publicación y uso de los usuarios, es candidata para publicar, ejemplo versión 1.0.0 -rc.
 
 #### 6.1.3. Source Code Style Guide & Conventions
 
