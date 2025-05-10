@@ -2769,6 +2769,8 @@ El diagrama de despliegue representa un sistema donde una aplicación móvil se 
 
 ### 6.1. Software Configuration Management
 
+En este ítem se definirán todas las reglas y procesos que hemos seguido en el proyecto al momento de crear y desplegar Synhub. El objetivo de estas reglas y procesos es garantizar la integridad y consistencia del software, desde el inicio hasta el despliegue y mantenimiento.
+
 #### 6.1.1. Software Development Environment Configuration
 
 #### 6.1.2. Source Code Management
