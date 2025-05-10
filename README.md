@@ -2870,6 +2870,62 @@ Sufijos asignados a las versiones:
 - **rc:** versión apta para la publicación y uso de los usuarios, es candidata para publicar, ejemplo versión 1.0.0 -rc.
 
 #### 6.1.3. Source Code Style Guide & Conventions
+Usaremos buenas prácticas en cuanto al código de manera que sea coherente y sostenible.
+
+**Android (Kotlin/Java)**
+
+- **Nomenclatura:**
+  - Clases: PascalCase.
+  - Funciones y variables: camelCase.
+  - Constantes: UPPER_SNAKE_CASE.
+- **Estructura:**
+  -  Separar lógica de UI (ViewModel, UseCase).
+
+**Jetpack Compose**
+- **Componenetes:**
+  - Nombres de funciones PascalCase (ej: ButtonSubmit()).
+  - Estado (remember, mutableStateOf) manejado en ViewModel.
+- **Recomposición:**
+  - Evitar cálculos pesados dentro de @Composable.
+  - Usar Modifier para estilos reutilizables.
+
+**Spring Boot**
+- **Estructura:**
+  - Paquetes por capa (controller, service, repository, model).
+  - Interfaces para servicios (UserService → UserServiceImpl).
+- **Convenciones:**
+  - Clases en PascalCase.
+  - Métodos en camelCase (getUserById()).
+
+**Next.js**
+- **Rutas:**
+  - Usar snake_case o kebab-case en nombres de archivos (/pages/user/profile.js).
+  - API routes en /pages/api/.
+- **Estilos:**
+  - CSS Modules (styles.module.css).
+  - Evitar estilos globales innecesarios.
+
+**Shadcn/ui**
+- **Componentes:**
+  - Extender estilos base, no sobrescribir CSS nativo.
+  - Usar clsx o tailwind-merge para combinar clases.
+- **Theming:**
+  - Variables CSS en :root para personalización.
+  - Evitar estilos inline.
+
+**Tailwind CSS**
+- **Clases:**
+  - Ordenar clases: Layout > Flex/Grid > Spacing > Typography > Colors > Effects.
+  - Evitar @apply en CSS (usar clases directamente en HTML).
+- **Responsive:**
+  - Usar prefixes (md:, lg:).
+
+**General:**
+- **Código:**
+  - Comentarios en inglés.
+  - Commits semánticos (feat:, fix:, docs:).
+- **Performance:**
+  - Lazy loading (imágenes, componentes).
 
 #### 6.1.4. Software Deployment Configuration
 
