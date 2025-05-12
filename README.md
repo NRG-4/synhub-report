@@ -531,8 +531,8 @@ SynHub nace como una plataforma digital diseñada para cubrir esta brecha: una s
 
 **Hypothesis Stamenent 17:**
 
-- Creemos que la aplicación se integrará con otras plataformas de calendario y comunicación.
-- Sabremos que estamos en lo correcto cuando veamos que la integración funciona sin problemas y los usuarios pueden sincronizar sus calendarios y comunicaciones de manera efectiva.
+- Creemos que la aplicación se integrará con otras plataformas de comunicación.
+- Sabremos que estamos en lo correcto cuando veamos que la integración funciona sin problemas y los usuarios pueden comunicarse de manera efectiva.
 
 **Hypothesis Stamenent 18:**
 
@@ -556,7 +556,7 @@ SynHub nace como una plataforma digital diseñada para cubrir esta brecha: una s
 
 **Hypothesis Stamenent 22:**
 
-- Creemos que los usuarios interactuarán con la aplicación con mayor facilidad si implementamos un calendario compartido del equipo, recordatorios automáticos y asignación de tareas.
+- Creemos que los usuarios interactuarán con la aplicación con mayor facilidad si implementamos recordatorios automáticos, organización por prioridades y asignación clara de tareas.
 - Sabremos que estamos en lo correcto cuando veamos comentarios positivos sobre la facilidad de uso y la efectividad de estas características en la organización de tareas.
 
 **Hypothesis Stamenent 23:**
