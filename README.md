@@ -343,11 +343,11 @@ Gracias a funcionalidades como la personalización de tareas, historial de cumpl
 
 - ¿Cuál es el problema?
 
-adica en la falta de herramientas digitales integrales y adaptables que permitan a los equipos organizarse de manera efectiva. Actualmente, muchas dinámicas grupales enfrentan desafíos como la distribución desigual de tareas, la escasa visibilidad del progreso, la comunicación desorganizada y la descoordinación entre miembros, lo que impacta negativamente en la productividad, genera tensiones internas y reduce el bienestar colectivo.
+El problema radica en la baja adopción de aplicaciones móviles diseñadas para la organización colaborativa. A pesar de la disponibilidad de diversas herramientas digitales, muchas personas y grupos siguen recurriendo a métodos improvisados o poco eficientes para coordinar actividades, lo que genera distribución desigual de tareas, falta de seguimiento, comunicación fragmentada y pérdida de productividad.
 
 - ¿Cuál es la relación con la persona en cuestión?
 
-La relación es facilitar a los miembros de equipos o grupos una herramienta diseñada específicamente para mejorar la organización, la distribución de tareas y la comunicación dentro de su grupo.
+La relación es ofrecer a los miembros de equipos o grupos una herramienta móvil accesible y centrada en sus necesidades reales, que facilite una organización más clara, una distribución de tareas efectiva y una comunicación más fluida, promoviendo así su uso y adopción en el día a día.
 
 **When**
 
@@ -357,13 +357,13 @@ El problema surge cuando los equipos y grupos deben coordinar actividades, repar
 
 - ¿Cuándo utiliza el cliente el producto?
 
-El cliente utiliza SynHub cuando necesita organizar, coordinar o participar en actividades grupales de manera eficiente, ya sea al inicio de un proyecto, durante la planificación de tareas, en la preparación de reuniones o en el seguimiento de responsabilidades.
+El cliente utiliza SynHub cuando necesita organizar, coordinar o participar en actividades grupales de manera eficiente, ya sea al inicio de un proyecto, durante la planificación de tareas o en el seguimiento de responsabilidades.
 
 **Where**
 
 - ¿Dónde está el cliente cuando usa el producto?
 
-El cliente utiliza SynHub desde cualquier lugar con acceso a Internet, ya sea en su hogar, en la oficina, en una sala de reuniones, en el aula o incluso mientras se traslada.
+El cliente utiliza SynHub desde cualquier lugar con acceso a Internet, ya sea en su hogar, en la oficina, en el aula o incluso mientras se traslada.
 
 - ¿Dónde surge el problema?
 
@@ -373,12 +373,12 @@ El problema surge dentro de los propios entornos donde se desarrollan actividade
 
 - ¿Quienes se ven involucrados en el problema?
 
-Se ven involucrados tanto los organizadores o coordinadores de equipos (como líderes de proyecto, docentes, jefes de área o representantes comunitarios) como los integrantes de los grupos (estudiantes, colaboradores, voluntarios o participantes) que enfrentan dificultades para organizarse, distribuir responsabilidades y comunicarse eficazmente.
+Se ven involucrados tanto los organizadores o coordinadores de equipos (como líderes de proyecto, docentes, jefes de área o representantes comunitarios) miembros de equipos de trabajo (como estudiantes, colaboradores, voluntarios o participantes) que enfrentan dificultades para organizarse, distribuir responsabilidades y comunicarse eficazmente.
 **Why**
 
 - ¿Cuáles son las causas del problema?
 
-Las causas del problema radican en la ausencia de herramientas centralizadas, flexibles y específicas para la gestión colaborativa de equipos con diferentes estructuras y necesidades. Muchas soluciones existentes no permiten una asignación clara de responsabilidades, ni contemplan la diversidad de roles, horarios o dinámicas de los grupos.
+Las causas del problema radican en la falta de adopción de aplicaciones móviles para la organización de equipos. Esto se debe, en gran parte, a la resistencia al cambio, la baja percepción de valor inmediato y la falta de hábitos digitales consolidados en ciertos grupos. Aunque existen herramientas disponibles, muchas personas prefieren métodos tradicionales como chats informales, hojas de cálculo o notas físicas, ya que perciben las apps como innecesarias, complicadas o poco integradas a su rutina diaria. Además, la escasa promoción interna o el desconocimiento de las funcionalidades clave también limitan su uso efectivo.
 
 **How**
 
@@ -4045,6 +4045,7 @@ El enfoque de este contexto es permitir que las solicitudes y las validaciones s
 **Entidad: Request**<br>
 Descripción: Representa la solicitud a realizar, junto a su estado.
 
+
 | Atributos        | Tipo                 | Descripción                                             |
 | ---------------- | -------------------- | -------------------------------------------------------- |
 | id               | Long                 | Identificador único.                                    |
@@ -4055,15 +4056,17 @@ Descripción: Representa la solicitud a realizar, junto a su estado.
 | validationReason | String               | La razón de la decisión tomada por el líder.          |
 | evidenceList     | List<FileAttachment> | La lista de archivos que funcionan como evidencia.       |
 
-| Métodos   | Tipo    | Descripción                                                                |
-| ---------- | ------- | --------------------------------------------------------------------------- |
-| create     | void    | Crea una nueva solicitud.                                                   |
-| approve    | void    | Aprueba la solicitud.                                                       |
-| reject     | void    | Rechaza la solicitud.                                                       |
-| attachFile | void    | Adjunta un archivo subido desde el dispositivo, y lo asocia a la solicitud. |
+
+| Métodos   | Tipo | Descripción                                                                |
+| ---------- | ---- | --------------------------------------------------------------------------- |
+| create     | void | Crea una nueva solicitud.                                                   |
+| approve    | void | Aprueba la solicitud.                                                       |
+| reject     | void | Rechaza la solicitud.                                                       |
+| attachFile | void | Adjunta un archivo subido desde el dispositivo, y lo asocia a la solicitud. |
 
 **Entidad: FileAttachment**<br>
 Descripción: Representa el archivo que sirve como evidencia.
+
 
 | Atributos   | Tipo     | Descripción                              |
 | ----------- | -------- | ----------------------------------------- |
@@ -4074,6 +4077,7 @@ Descripción: Representa el archivo que sirve como evidencia.
 | storagePath | String   | Ruta de almacenamiento o URL del archivo. |
 | uploadedBy  | Long     | La ID del usuario que subió el archivo.  |
 | uploadedAt  | DateTime | Fecha en que se subió el archivo.        |
+
 
 | Métodos     | Tipo    | Descripción                                                          |
 | ------------ | ------- | --------------------------------------------------------------------- |
@@ -4101,6 +4105,7 @@ Descripción: Controlador que maneja los endpoints relacionados con las solicitu
 | updateStatus           | `PATCH /requests/{id}/status`   | Cambiar el estado (solo si está permitido)                      |
 | setValidation          | `PATCH /requests/{id}/validate` | Aprobar o rechazar un request (por un líder)                    |
 
+
 | Dependencias             | Descripción                                 |
 | ------------------------ | -------------------------------------------- |
 | RequestCommandService    | Servicio para crear o modificar solicitudes. |
@@ -4110,12 +4115,14 @@ Descripción: Controlador que maneja los endpoints relacionados con las solicitu
 **Controlador: CommentController**<br>
 Descripción: Controlador que maneja los endpoints relacionados con los comentarios de una solicitud.
 
+
 | Método       | Ruta                           | Descripción                        |
 | ------------- | ------------------------------ | ----------------------------------- |
 | addComment    | `POST /requests/{id}/comments` | Agregar un comentario a un request. |
 | listComments  | `GET /requests/{id}/comments`  | Listar comentarios asociados.       |
 | editComment   | `PATCH /comments/{commentId}`  | Editar un comentario.               |
 | deleteComment | `DELETE /comments/{commentId}` | Eliminar un comentario.             |
+
 
 | Dependencias             | Descripción                                             |
 | ------------------------ | -------------------------------------------------------- |
@@ -4126,12 +4133,14 @@ Descripción: Controlador que maneja los endpoints relacionados con los comentar
 **Controlador: FileController**<br>
 Descripción: Controlador que maneja los endpoints relacionados con los archivos de una solicitud.
 
+
 | Método     | Ruta                        | Descripción                            |
 | ----------- | --------------------------- | --------------------------------------- |
 | addFile     | `POST /requests/{id}/files` | Subir archivo a un request.             |
 | listFiles   | `GET /requests/{id}/files`  | Listar archivos asociados a un request. |
 | getFileById | `GET /files/{fileId}`       | Descargar un archivo específico.       |
 | removeFile  | `DELETE /files/{fileId}`    | Eliminar el archivo correspondiente.    |
+
 
 | Dependencias          | Descripción                                               |
 | --------------------- | ---------------------------------------------------------- |
@@ -4149,12 +4158,14 @@ La capa actúa como intermediario entre la capa de dominio y la capa de interfaz
 **Servicio: RequestCommandServiceImpl**<br>
 Descripción: Implementa el servicio RequestCommandService que maneja la creación de productos en la aplicación.
 
+
 | Método                              | Descripción                                                                                                                         |
 | ------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------ |
 | handle(CreateRequestCommand command) | Maneja la creación de una solicitud, utilizando la información obtenida desde la aplicación y almacenándolo en la base de datos. |
 
 **Servicio: RequestQueryServiceImpl**<br>
 Descripción: Implementa el servicio RequestQueryService que maneja la recuperación de solicitudes de la aplicación.
+
 
 | Método                           | Descripción                                                                                                                      |
 | --------------------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
@@ -4164,6 +4175,7 @@ Descripción: Implementa el servicio RequestQueryService que maneja la recuperac
 **Servicio: FileCommandServiceImpl**<br>
 Descripción: Implementa el servicio FileCommandService que maneja la subida de archivos para las solicitudes de la aplicación.
 
+
 | Método                           | Descripción                                                            |
 | --------------------------------- | ----------------------------------------------------------------------- |
 | handle(uploadFileCommand command) | Maneja la subida de un archivo que esté relacionado con una solicitud. |
@@ -4171,6 +4183,7 @@ Descripción: Implementa el servicio FileCommandService que maneja la subida de 
 
 **Servicio: FileQueryServiceImpl**<br>
 Descripción: Implementa el servicio FileCommandService que maneja la recuperación de archivos asociados a una solicitud.
+
 
 | Método                               | Descripción                                                                                                                          |
 | ------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
@@ -4186,6 +4199,7 @@ Sirve como la conexión entre la aplicación y el acceso a datos del dominio, si
 **Repositorio: RequestRepository**<br>
 Descripción: Repositorio que maneja la persistencia de la entidad Request en la base de datos mediante JPA.
 
+
 | Método           | Descripción                                                                                                           |
 | ----------------- | ---------------------------------------------------------------------------------------------------------------------- |
 | findAll()         | Recupera todas las solicitudes de la base de datos.                                                                    |
@@ -4193,6 +4207,7 @@ Descripción: Repositorio que maneja la persistencia de la entidad Request en la
 
 **Repositorio: FileRepository**<br>
 Descripción: Repositorio que maneja la persistencia de la entidad File en la base de datos mediante JPA.
+
 
 | Método                  | Descripción                                                                                                                     |
 | ------------------------ | -------------------------------------------------------------------------------------------------------------------------------- |
