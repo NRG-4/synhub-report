@@ -412,7 +412,7 @@ SynHub nace como una plataforma digital diseñada para cubrir esta brecha: una s
 - ¿Dónde encaja nuestro producto en su trabajo o vida?: Nuestro producto encaja en actividades grupales donde el usuario es partícipe junto a otros miembros, facilitando la gestión de tareas y responsabilidades dentro del equipo.
 - ¿Qué problemas resuelve nuestro producto?: Nuestro producto resuelve problemas de desorganización y falta de comunicación dentro del equipo.
 - ¿Cuándo y cómo se usa nuestro producto?: Nuestro producto se usa cuando hay necesidad de organización en actividades grupales, especialmente en momentos de planificación, seguimiento de tareas y coordinación entre miembros del equipo.
-- ¿Qué características son importantes?: Las características importantes incluyen la asignación de tareas, la visualización de horarios del equipo, conocer la disponibilidad de los miembros y la posibilidad de personalizar roles y permisos.
+- ¿Qué características son importantes?: Las características importantes incluyen la asignación de tareas, el seguimiento del avance del equipo, la visualizacion de horarios del equipo, la comunicación estructurada y la posibilidad de adaptar la herramienta a diferentes dinámicas de grupo.
 - ¿Cómo debe verse y comportarse nuestro producto?: Nuestro producto debe tener una interfaz intuitiva y amigable, que permita a los usuarios navegar fácilmente entre las distintas funcionalidades.
 
 **Business Assumptions (Suposiciones de Negocio)**
@@ -430,7 +430,7 @@ SynHub nace como una plataforma digital diseñada para cubrir esta brecha: una s
 **Technical Assumptions (Suposiciones Técnicas)**
 
 - Tecnología utilizada: Podemos utilizar tecnologías móviles actuales para desarrollar la aplicación.
-- Integraciones: La aplicación se integrará con otras plataformas de calendario y comunicación.
+- Integraciones: La aplicación se integrará con plataformas de comunicación utilizadas por los usuarios.
 - Escalabilidad: La aplicación podrá escalar para soportar un número creciente de usuarios y datos.
 
 **Market Assumptions (Suposiciones de Mercado)**
@@ -441,7 +441,7 @@ SynHub nace como una plataforma digital diseñada para cubrir esta brecha: una s
 
 **Design Assumptions (Suposiciones de Diseño)**
 
-- Interacción del usuario: Los usuarios interactuarán con la aplicación con mayor facilidad si implementamos un calendario compartido del equipo, recordatorios automáticos y asignación de tareas.
+- Interacción del usuario: Los usuarios interactuarán con la aplicación con mayor facilidad si implementamos funciones de asignación de tareas claras, visualización del avance y recordatorios automáticos.
 - Experiencia del usuario: Los usuarios valorarán una experiencia de organización simple, flexible, colaborativa y motivadora.
 - Colores y la tipografía: Los usuarios prefieren una paleta de colores pastel y una tipografía moderna y legible.
 - Preferencias visuales: Los usuarios consideran atractivo un diseño simple con íconos intuitivos.
