@@ -814,11 +814,11 @@ Monday.com proporciona una interfaz visual para planificar, rastrear y colaborar
 
 **2. Estrategia de Enfoque en Nichos Desatendidos**
 
-**Objetivo:** Atacar segmentos específicos como equipos académicos, voluntarios, universitarios, comunidades o grupos familiares avanzados.
+**Objetivo:** Atacar segmentos específicos como equipos académicos, voluntarios, universitarios o comunidades.
 
 **Tácticas:**
 
-* Crear plantillas y funciones específicas para grupos no empresariales (ej: calendario de clases, tareas compartidas, roles para miembros del hogar, etc.).
+* Crear plantillas y funciones específicas para grupos no empresariales.
 * FamilyWall cubre familias, pero SynHub puede expandirse hacia **"equipos híbridos": familia + trabajo + estudio**.
 
 **3. Estrategia de Humanización y Cercanía de Marca**
