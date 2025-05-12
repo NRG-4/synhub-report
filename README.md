@@ -224,19 +224,19 @@ EAC - Student Outcome 7.
     <tr>
       <td>1. Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de software.</td>
       <td>
-        Casas Sanchez Gabriel Alexander-TB1: Desarrollo de secciones clave como Startup Profile, Problem Statement, Business Canvas, Segmentos Objetivos y Solution Profile. Participó activamente en el modelado estratégico mediante Event Storming, desarrollando Candidate Context Discovery, Domain Message Flows Modeling, Bounded Context Canvases y Context Mapping.<br>  Alejo Cardenas Jose Antonio-TB1: Encargado del Análisis Competitivo y la definición de Estrategias y Tácticas frente a Competidores. Elaboró artefactos de investigación y diseño como la User Task Matrix, el As-is Scenario Mapping y Ubiquitous Language. Participó en la proyección del producto con To-Be Scenario Mapping, Impact Mapping, Software Architecture, User Stories y el Diseño de Entrevistas.<br> Astonitas Díaz Juan Diego-TB1: Responsable de la redacción de los Antecedentes y Problemática. Contribuyó con la definición de User Stories, la elaboración y registro de Entrevistas, así como el diseño de la Base de Datos (Database Design).<br> Pasquale Barrenechea Gianluca Santino-TB1: Desarrolló herramientas clave de diseño centradas en el usuario como User Personas, User Journey Mapping y Empathy Mapping. También participó en la definición de User Stories, el armado del Product Backlog y la realización de Entrevistas.<br> Pacheco Astiguetta Sebastian-TB1: Encargado del análisis de Assumptions y la formulación de Hypothesis Statements. Además, colaboró en la definición de User Stories y en la ejecución de Entrevistas.<br>
+        TB1:<br>Casas Sanchez Gabriel Alexander-TB1: Desarrollo de secciones clave como Startup Profile, Problem Statement, Business Canvas, Segmentos Objetivos y Solution Profile. Participó activamente en el modelado estratégico mediante Event Storming, desarrollando Candidate Context Discovery, Domain Message Flows Modeling, Bounded Context Canvases y Context Mapping.<br>  Alejo Cardenas Jose Antonio-TB1: Encargado del Análisis Competitivo y la definición de Estrategias y Tácticas frente a Competidores. Elaboró artefactos de investigación y diseño como la User Task Matrix, el As-is Scenario Mapping y Ubiquitous Language. Participó en la proyección del producto con To-Be Scenario Mapping, Impact Mapping, Software Architecture, User Stories y el Diseño de Entrevistas.<br> Astonitas Díaz Juan Diego-TB1: Responsable de la redacción de los Antecedentes y Problemática. Contribuyó con la definición de User Stories, la elaboración y registro de Entrevistas, así como el diseño de la Base de Datos (Database Design).<br> Pasquale Barrenechea Gianluca Santino-TB1: Desarrolló herramientas clave de diseño centradas en el usuario como User Personas, User Journey Mapping y Empathy Mapping. También participó en la definición de User Stories, el armado del Product Backlog y la realización de Entrevistas.<br> Pacheco Astiguetta Sebastian-TB1: Encargado del análisis de Assumptions y la formulación de Hypothesis Statements. Además, colaboró en la definición de User Stories y en la ejecución de Entrevistas.<br>TP1:<br><br>
       </td>
       <td>
-        Durante el desarrollo del trabajo final, cada integrante del equipo actualizó y fortaleció sus conocimientos en metodologías ágiles, diseño centrado en el usuario, modelado estratégico y arquitectura de software. A través de la aplicación práctica de herramientas como Lean UX Canvas, Event Storming, Context Mapping y desarrollo de User Stories, logramos conectar la teoría con la ejecución de un proyecto real. Esta experiencia no solo nos permitió comprender mejor los conceptos aprendidos en clase, sino también integrarlos en la solución propuesta, elevando así nuestra preparación profesional y nuestra capacidad de enfrentar retos en el desarrollo de soluciones de software.
+        Durante el desarrollo del TB1, cada integrante del equipo actualizó y fortaleció sus conocimientos en metodologías ágiles, diseño centrado en el usuario, modelado estratégico y arquitectura de software. A través de la aplicación práctica de herramientas como Lean UX Canvas, Event Storming, Context Mapping y desarrollo de User Stories, logramos conectar la teoría con la ejecución de un proyecto real. Esta experiencia no solo nos permitió comprender mejor los conceptos aprendidos en clase, sino también integrarlos en la solución propuesta, elevando así nuestra preparación profesional y nuestra capacidad de enfrentar retos en el desarrollo de soluciones de software. Durante el TP1 ...
       </td>
     </tr>
     <tr>
       <td>2. Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de software.</td>
       <td>
-        Casas Sanchez Gabriel Alexander-TB1: Desarrollo de secciones clave como Startup Profile, Problem Statement, Business Canvas, Segmentos Objetivos y Solution Profile. Participó activamente en el modelado estratégico mediante Event Storming, desarrollando Candidate Context Discovery, Domain Message Flows Modeling, Bounded Context Canvases y Context Mapping.<br>  Alejo Cardenas Jose Antonio-TB1: Encargado del Análisis Competitivo y la definición de Estrategias y Tácticas frente a Competidores. Elaboró artefactos de investigación y diseño como la User Task Matrix, el As-is Scenario Mapping y Ubiquitous Language. Participó en la proyección del producto con To-Be Scenario Mapping, Impact Mapping, Software Architecture, User Stories y el Diseño de Entrevistas.<br> Astonitas Díaz Juan Diego-TB1: Responsable de la redacción de los Antecedentes y Problemática. Contribuyó con la definición de User Stories, la elaboración y registro de Entrevistas, así como el diseño de la Base de Datos (Database Design).<br> Pasquale Barrenechea Gianluca Santino-TB1: Desarrolló herramientas clave de diseño centradas en el usuario como User Personas, User Journey Mapping y Empathy Mapping. También participó en la definición de User Stories, el armado del Product Backlog y la realización de Entrevistas.<br> Pacheco Astiguetta Sebastian-TB1: Encargado del análisis de Assumptions y la formulación de Hypothesis Statements. Además, colaboró en la definición de User Stories y en la ejecución de Entrevistas.<br>
+        TB1:<br>Casas Sanchez Gabriel Alexander-TB1: Desarrollo de secciones clave como Startup Profile, Problem Statement, Business Canvas, Segmentos Objetivos y Solution Profile. Participó activamente en el modelado estratégico mediante Event Storming, desarrollando Candidate Context Discovery, Domain Message Flows Modeling, Bounded Context Canvases y Context Mapping.<br>  Alejo Cardenas Jose Antonio-TB1: Encargado del Análisis Competitivo y la definición de Estrategias y Tácticas frente a Competidores. Elaboró artefactos de investigación y diseño como la User Task Matrix, el As-is Scenario Mapping y Ubiquitous Language. Participó en la proyección del producto con To-Be Scenario Mapping, Impact Mapping, Software Architecture, User Stories y el Diseño de Entrevistas.<br> Astonitas Díaz Juan Diego-TB1: Responsable de la redacción de los Antecedentes y Problemática. Contribuyó con la definición de User Stories, la elaboración y registro de Entrevistas, así como el diseño de la Base de Datos (Database Design).<br> Pasquale Barrenechea Gianluca Santino-TB1: Desarrolló herramientas clave de diseño centradas en el usuario como User Personas, User Journey Mapping y Empathy Mapping. También participó en la definición de User Stories, el armado del Product Backlog y la realización de Entrevistas.<br> Pacheco Astiguetta Sebastian-TB1: Encargado del análisis de Assumptions y la formulación de Hypothesis Statements. Además, colaboró en la definición de User Stories y en la ejecución de Entrevistas.<br>TP1:<br><br>
       </td>
       <td>
-        El trabajo realizado evidenció la importancia del aprendizaje constante en el ámbito profesional. A lo largo del proyecto, nos enfrentamos a desafíos que requerían investigar nuevas herramientas, adoptar enfoques colaborativos y profundizar en técnicas no vistas previamente. Este proceso nos mostró que el conocimiento adquirido no es estático, sino que debe complementarse con una actitud activa hacia la mejora continua. Reconocemos que en un entorno tecnológico en constante evolución, solo mediante el aprendizaje permanente se puede ofrecer soluciones de calidad, adaptarse a las necesidades del usuario y desenvolverse de manera efectiva en el desarrollo profesional y de proyectos.
+        El trabajo del TB1 realizado evidenció la importancia del aprendizaje constante en el ámbito profesional. A lo largo del proyecto, nos enfrentamos a desafíos que requerían investigar nuevas herramientas, adoptar enfoques colaborativos y profundizar en técnicas no vistas previamente. Este proceso nos mostró que el conocimiento adquirido no es estático, sino que debe complementarse con una actitud activa hacia la mejora continua. Reconocemos que en un entorno tecnológico en constante evolución, solo mediante el aprendizaje permanente se puede ofrecer soluciones de calidad, adaptarse a las necesidades del usuario y desenvolverse de manera efectiva en el desarrollo profesional y de proyectos. Durante el TP1 ...
       </td>
     </tr>
   </tbody>
@@ -283,8 +283,6 @@ Postular a programas de talento junior o trainee en desarrollo fullstack dentro 
 
 Objetivo 2:
 Finalizar un curso especializado en testing automatizado con Jest o Cypress antes de cumplir un año de egresado, con el fin de asegurar la calidad del software en proyectos reales.
-
-#z
 
 #### 1.1.2. Perfiles de integrantes del equipo
 
@@ -334,10 +332,10 @@ Finalizar un curso especializado en testing automatizado con Jest o Cypress ante
 
 La plataforma SynHub ofrece un entorno digital intuitivo y multifuncional que permite a los equipos gestionar sus actividades de forma colaborativa y eficiente:
 
-- Desde el rol organizador o administrador: asignar tareas, crear calendarios grupales, definir horarios compartidos, establecer roles con diferentes niveles de acceso, hacer seguimiento del cumplimiento de responsabilidades y coordinar reuniones o encuentros virtuales.
-- Desde el rol de integrante del equipo: consultar su calendario personal y grupal, recibir notificaciones y recordatorios, proponer ajustes en tareas u horarios, visualizar responsabilidades asignadas y conocer la disponibilidad de otros miembros.
+- Desde el rol organizador o administrador:crear grupos,asignar miembros a los grupos, asignar tareas, hacer seguimiento del cumplimiento de responsabilidades y facilitar la organización interna del equipo.
+- Desde el rol de integrante del equipo: consultar responsabilidades asignadas, recibir notificaciones y recordatorios, y proponer ajustes en tareas según el avance del grupo, visualizar responsabilidades asignadas y conocer la disponibilidad de otros miembros.
 
-Gracias a funcionalidades como la personalización de tareas, historial de cumplimiento, objetos o recursos compartidos, roles configurables, y una interfaz clara para visualizar la carga y horarios del equipo, la plataforma impulsa la organización eficiente, la corresponsabilidad y una comunicación más fluida dentro de cualquier tipo de grupo.
+Gracias a funcionalidades como la personalización de tareas, historial de cumplimiento, objetos o recursos compartidos, y una interfaz clara para visualizar la carga del equipo, la plataforma impulsa la organización eficiente, la corresponsabilidad y una comunicación más fluida dentro de cualquier tipo de grupo.
 
 #### 1.2.1. Antecedentes y problemática
 
@@ -4802,7 +4800,6 @@ Este diagrama representa la arquitectura a nivel de componentes del Bounded Cont
 
 <img src="./images/chapter-4/taskManagement-componentDiagram.png" alt="Chamilo" width="800"/>
 
-
 ##### 4.2.5.6. Bounded Context Software Architecture Code Level Diagrams
 
 ###### 4.2.5.6.1. Bounded Context Domain Layer Class Diagrams
@@ -4811,13 +4808,11 @@ El diagrama muestra la estructura central del Domain Layer para "Gestión de Tar
 
 <img src="./images/chapter-4/Domain-Layer-Class-Diagrams.png" alt="Chamilo" width="800"/>
 
-
 ###### 4.2.5.6.2. Bounded Context Database Design Diagram
 
 El **Database Diagram** para el Bounded Context de "Gestión de Tareas" modela la persistencia de los agregados y entidades del dominio en una estructura relacional, garantizando consistencia con las reglas de negocio. Incluye las tablas **`tasks`** (tareas principales), **`users_tasks`** (relación muchos-a-muchos con usuarios asignados), **`subtasks`** (subtareas vinculadas) y **`comments`** (comentarios), con restricciones como claves foráneas en cascada, validación de fechas (`final_date >= initial_date`), y ENUMs para estados (`PENDING`, `COMPLETED`, etc.). El diseño refleja fielmente el dominio, asegurando que operaciones como la creación de subtareas o comentarios siempre dependan de una tarea válida (agregado raíz), mientras optimiza consultas mediante índices estratégicos.
 
 <img src="./images/chapter-4/task_management_database_design_diagram.png" alt="Chamilo" width="800"/>
-
 
 ## Capítulo V: Solution UI/UX Design
 
