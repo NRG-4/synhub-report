@@ -594,7 +594,7 @@ Características clave:
   - Género: Ambos
   - Contexto: Trabajo en equipo (laboral, educativo, comunitario o institucional)
   - Ocupación: Líderes de proyectos, jefes de equipo, coordinadores, docentes, voluntarios, emprendedores
-  - Uso de tecnología: Usuarios activos de plataformas colaborativas, calendarios digitales, herramientas de gestión (como Trello, Google Calendar, Slack, etc.)
+  - **Uso de tecnología:** Usuarios activos de plataformas colaborativas y herramientas de gestión de tareas (como Trello, Notion, Slack, etc.)
   - Necesidades: Distribuir responsabilidades, establecer fechas límite, tener visibilidad del progreso del equipo, mejorar la coordinación y reducir fricciones en la organización diaria.
 
 **Segmento Objetivo #2: Miembros del Equipo o Grupo**
