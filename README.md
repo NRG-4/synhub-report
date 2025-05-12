@@ -4038,15 +4038,14 @@ El diagrama de despliegue representa un sistema donde una aplicación móvil se 
 
 ##### 4.2.4.1. Domain Layer
 
-En el Domain Layer correspondiente al contexto de Solicitudes y Validaciones, la capa presenta como agregado principal a **Request**, el encargado de presentar una solicitud para la aprobación de ciertas acciones que un miembro desea realizar dentro del grupo. También se reconocen otros agregados como **Validation** y **Comment**.
-Las solicitudes son generadas por los usuarios miembro, y éstas pasan por un proceso de validación donde el líder del grupo evalúa las solicitudes. Para tomar una decisión de manera eficiente, ambos lados pueden comentar en la solicitud, y éste queda registrado.
+En el Domain Layer correspondiente al contexto de Solicitudes y Validaciones, la capa presenta como agregado principal a **Request**, el encargado de presentar una solicitud para la aprobación de ciertas acciones que un miembro desea realizar dentro del grupo. También se reconocen otro agregado como **Validation**.
+Las solicitudes son generadas por los usuarios miembro, y éstas pasan por un proceso de validación donde el líder del grupo evalúa las solicitudes.
 
 **Justificación:**
-El enfoque de este contexto es permitir que las solicitudes y las validaciones sean ambos eficientes y comunicativas, siguiendo las reglas de negocio establecidas. Los métodos establecidos proporcionan el acceso a los atributos asociados a la solicitud, de esta manera utilizando y asignando los datos de manera que no haya peligro de corrupción o pérdida de datos.
+El enfoque de este contexto es permitir que las solicitudes y las validaciones sean eficientes, siguiendo las reglas de negocio establecidas. Los métodos establecidos proporcionan el acceso a los atributos asociados a la solicitud, de esta manera utilizando y asignando los datos de manera que no haya peligro de corrupción o pérdida de datos.
 
 **Entidad: Request**<br>
-Descripción: Representa la solicitud a realizar, junto a su estado y sus comentarios.
-
+Descripción: Representa la solicitud a realizar, junto a su estado.
 
 | Atributos        | Tipo                 | Descripción                                             |
 | ---------------- | -------------------- | -------------------------------------------------------- |
@@ -4055,42 +4054,18 @@ Descripción: Representa la solicitud a realizar, junto a su estado y sus coment
 | type             | RequestType          | El tipo de la solicitud (reglas varían según el tipo). |
 | status           | RequestStatus        | El estado de aprobación.                                |
 | submittedBy      | Long                 | La ID del usuario que publicó la solicitud.             |
-| validatedBy      | Long                 | La ID del usuario líder que verifica la solicitud.      |
 | validationReason | String               | La razón de la decisión tomada por el líder.          |
 | evidenceList     | List<FileAttachment> | La lista de archivos que funcionan como evidencia.       |
-| commentList      | List<Comment>        | La lista de comentarios asociados a la solicitud.        |
-
 
 | Métodos   | Tipo    | Descripción                                                                |
 | ---------- | ------- | --------------------------------------------------------------------------- |
 | create     | void    | Crea una nueva solicitud.                                                   |
-| addComment | Comment | Crea un comentario para la solicitud.                                       |
 | approve    | void    | Aprueba la solicitud.                                                       |
 | reject     | void    | Rechaza la solicitud.                                                       |
 | attachFile | void    | Adjunta un archivo subido desde el dispositivo, y lo asocia a la solicitud. |
-| isLeader   | boolean | Verifica si el usuario que valida es líder.                                |
-
-**Entidad: Comment**<br>
-Descripción: Representa los comentarios destinados a una solicitud.
-
-
-| Atributos | Tipo   | Descripción                    |
-| --------- | ------ | ------------------------------- |
-| id        | Long   | Identificador único.           |
-| requestId | Long   | La ID de la solicitud asociada. |
-| authorId  | Long   | La ID del autor del comentario. |
-| content   | String | El contenido del comentario.    |
-
-
-| Métodos   | Tipo    | Descripción                                             |
-| ---------- | ------- | -------------------------------------------------------- |
-| create     | void    | Crea el comentario bajo la solicitud.                    |
-| edit       | void    | Edita el comentario seleccionado.                        |
-| isEditable | boolean | Verifica si el comentario a editar pertenece al usuario. |
 
 **Entidad: FileAttachment**<br>
 Descripción: Representa el archivo que sirve como evidencia.
-
 
 | Atributos   | Tipo     | Descripción                              |
 | ----------- | -------- | ----------------------------------------- |
@@ -4102,7 +4077,6 @@ Descripción: Representa el archivo que sirve como evidencia.
 | uploadedBy  | Long     | La ID del usuario que subió el archivo.  |
 | uploadedAt  | DateTime | Fecha en que se subió el archivo.        |
 
-
 | Métodos     | Tipo    | Descripción                                                          |
 | ------------ | ------- | --------------------------------------------------------------------- |
 | create       | void    | Crea el archivo en el sistema.                                        |
@@ -4111,7 +4085,7 @@ Descripción: Representa el archivo que sirve como evidencia.
 
 ##### 4.2.4.2. Interface Layer
 
-En el interface layer corresponde la conexión entre los usuarios y los servicios proporcionados para la solicitud y validación. Los controladores son los encargados de realizar la creación, validación y manejo de comentarios de las solicitudes, entre otras acciones pertenecientes al contexto.
+En el interface layer corresponde la conexión entre los usuarios y los servicios proporcionados para la solicitud y validación. Los controladores son los encargados de realizar la creación y validación de las solicitudes, entre otras acciones pertenecientes al contexto.
 
 **Justificación:**
 La capa funciona como una conexión entre los usuarios a la aplicación mediante el uso de APIs; es decir, exponer los endpoints para que el sistema interactúe con los servicios. Los servicios de comandos y de consultas son dependencias, los cuales actúan bajo controladores que siguen la lógica del negocio.
@@ -4129,7 +4103,6 @@ Descripción: Controlador que maneja los endpoints relacionados con las solicitu
 | updateStatus           | `PATCH /requests/{id}/status`   | Cambiar el estado (solo si está permitido)                      |
 | setValidation          | `PATCH /requests/{id}/validate` | Aprobar o rechazar un request (por un líder)                    |
 
-
 | Dependencias             | Descripción                                 |
 | ------------------------ | -------------------------------------------- |
 | RequestCommandService    | Servicio para crear o modificar solicitudes. |
@@ -4139,14 +4112,12 @@ Descripción: Controlador que maneja los endpoints relacionados con las solicitu
 **Controlador: CommentController**<br>
 Descripción: Controlador que maneja los endpoints relacionados con los comentarios de una solicitud.
 
-
 | Método       | Ruta                           | Descripción                        |
 | ------------- | ------------------------------ | ----------------------------------- |
 | addComment    | `POST /requests/{id}/comments` | Agregar un comentario a un request. |
 | listComments  | `GET /requests/{id}/comments`  | Listar comentarios asociados.       |
 | editComment   | `PATCH /comments/{commentId}`  | Editar un comentario.               |
 | deleteComment | `DELETE /comments/{commentId}` | Eliminar un comentario.             |
-
 
 | Dependencias             | Descripción                                             |
 | ------------------------ | -------------------------------------------------------- |
@@ -4157,14 +4128,12 @@ Descripción: Controlador que maneja los endpoints relacionados con los comentar
 **Controlador: FileController**<br>
 Descripción: Controlador que maneja los endpoints relacionados con los archivos de una solicitud.
 
-
 | Método     | Ruta                        | Descripción                            |
 | ----------- | --------------------------- | --------------------------------------- |
 | addFile     | `POST /requests/{id}/files` | Subir archivo a un request.             |
 | listFiles   | `GET /requests/{id}/files`  | Listar archivos asociados a un request. |
 | getFileById | `GET /files/{fileId}`       | Descargar un archivo específico.       |
 | removeFile  | `DELETE /files/{fileId}`    | Eliminar el archivo correspondiente.    |
-
 
 | Dependencias          | Descripción                                               |
 | --------------------- | ---------------------------------------------------------- |
@@ -4182,7 +4151,6 @@ La capa actúa como intermediario entre la capa de dominio y la capa de interfaz
 **Servicio: RequestCommandServiceImpl**<br>
 Descripción: Implementa el servicio RequestCommandService que maneja la creación de productos en la aplicación.
 
-
 | Método                              | Descripción                                                                                                                         |
 | ------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------ |
 | handle(CreateRequestCommand command) | Maneja la creación de una solicitud, utilizando la información obtenida desde la aplicación y almacenándolo en la base de datos. |
@@ -4190,33 +4158,13 @@ Descripción: Implementa el servicio RequestCommandService que maneja la creaci�
 **Servicio: RequestQueryServiceImpl**<br>
 Descripción: Implementa el servicio RequestQueryService que maneja la recuperación de solicitudes de la aplicación.
 
-
 | Método                           | Descripción                                                                                                                      |
 | --------------------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
 | handle(getRequestByIdQuery query) | Maneja la consulta de una solicitud por ID, devolviendo un Optional<Request> que contiene la solicitud o vacío si fuera el caso. |
 | handle(getAllRequestsQuery query) | Maneja la consulta para recuperar todas las solicitudes, devolviendo una lista de solicitudes.                                    |
 
-**Servicio: CommentCommandServiceImpl**<br>
-Descripción: Implementa el servicio CommentCommandService que maneja la creación de comentarios para las solicitudes de la aplicación.
-
-
-| Método                              | Descripción                                                                  |
-| ------------------------------------ | ----------------------------------------------------------------------------- |
-| handle(createCommentCommand command) | Maneja la creación de un comentario que esté relacionado con una solicitud. |
-| handle(deleteCommentCommand command) | Elimina el comentario seleccionado.                                           |
-
-**Servicio: CommentQueryServiceImpl**<br>
-Descripción: Implementa el servicio CommentQueryService que maneja la recuperación de comentarios asociados a una solicitud.
-
-
-| Método                           | Descripción                                                                                                                                                       |
-| --------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| handle(getCommentByIdQuery query) | Maneja la consulta de un comentario específico por ID, devolviendo un Optional<Comment> que contiene el comentario o vacío si fuera el caso.                     |
-| handle(getRequestComments query)  | Maneja la consulta de una lista de comentarios asociados con la ID de una solicitud, devolviendo una lista que contiene lso comentarios o vacío si fuera el caso. |
-
 **Servicio: FileCommandServiceImpl**<br>
 Descripción: Implementa el servicio FileCommandService que maneja la subida de archivos para las solicitudes de la aplicación.
-
 
 | Método                           | Descripción                                                            |
 | --------------------------------- | ----------------------------------------------------------------------- |
@@ -4225,7 +4173,6 @@ Descripción: Implementa el servicio FileCommandService que maneja la subida de 
 
 **Servicio: FileQueryServiceImpl**<br>
 Descripción: Implementa el servicio FileCommandService que maneja la recuperación de archivos asociados a una solicitud.
-
 
 | Método                               | Descripción                                                                                                                          |
 | ------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
@@ -4241,25 +4188,13 @@ Sirve como la conexión entre la aplicación y el acceso a datos del dominio, si
 **Repositorio: RequestRepository**<br>
 Descripción: Repositorio que maneja la persistencia de la entidad Request en la base de datos mediante JPA.
 
-
 | Método           | Descripción                                                                                                           |
 | ----------------- | ---------------------------------------------------------------------------------------------------------------------- |
 | findAll()         | Recupera todas las solicitudes de la base de datos.                                                                    |
 | findById(Long id) | Recupera la solicitud por su ID, devolviendo un Optional<Request> que contiene la solicitud o vacío si fuera el caso. |
 
-**Repositorio: CommentRepository**<br>
-Descripción: Repositorio que maneja la persistencia de la entidad Comment en la base de datos mediante JPA.
-
-
-| Método                  | Descripción                                                                                                                       |
-| ------------------------ | ---------------------------------------------------------------------------------------------------------------------------------- |
-| findAll()                | Recupera todos los comentarios de la base de datos.                                                                                |
-| findById(Long id)        | Recupera el comentario por su ID, devolviendo un Optional<Comment> que contiene el comentario o vacío si fuera el caso.           |
-| findByRequestId(Long id) | Recupera los comentarios por el ID de una solicitud, devolviendo una lista que contiene los comentarios o vacío si fuera el caso. |
-
 **Repositorio: FileRepository**<br>
 Descripción: Repositorio que maneja la persistencia de la entidad File en la base de datos mediante JPA.
-
 
 | Método                  | Descripción                                                                                                                     |
 | ------------------------ | -------------------------------------------------------------------------------------------------------------------------------- |
@@ -4267,7 +4202,7 @@ Descripción: Repositorio que maneja la persistencia de la entidad File en la ba
 
 ##### 4.2.4.5. Bounded Context Software Architecture Component Level Diagrams
 
-El diagrama muestra una arquitectura de componente destinado a las solicitudes para cambios grupales y validación. Para cada entidad (request, comment y file), se destina un controlador encargado de realizar todas las operaciones relacionadas mediante servicios de comando o de consulta. Estos servicios finalmente acceden al repositorio, que recupera los datos necesarios de la base de datos PostgreSQL.
+El diagrama muestra una arquitectura de componente destinado a las solicitudes para cambios grupales y validación. Para cada entidad (request y file), se destina un controlador encargado de realizar todas las operaciones relacionadas mediante servicios de comando o de consulta. Estos servicios finalmente acceden al repositorio, que recupera los datos necesarios de la base de datos PostgreSQL.
 
 ![Request And Validation component diagram](images/chapter-4/request-validation-dsl.png)
 
@@ -4275,7 +4210,7 @@ El diagrama muestra una arquitectura de componente destinado a las solicitudes p
 
 ###### 4.2.4.6.1. Bounded Context Domain Layer Class Diagrams
 
-El diagrama muestra las entidades o agregados Request, Comment y FileAttachment, y su relación. Request tiene dos enumeraciones, siendo estas el tipo de solicitud y el estado de la solicitud. Todas las entidades tienen los servicios de comando y de consulta, por ejemplo "RequestCommandService" y "RequestQueryService".
+El diagrama muestra las entidades o agregados Request y FileAttachment, y su relación. Request tiene dos enumeraciones, siendo estas el tipo de solicitud y el estado de la solicitud. Todas las entidades tienen los servicios de comando y de consulta, por ejemplo "RequestCommandService" y "RequestQueryService".
 
 ![Request And Validation Class Diagram](images/chapter-4/ClassDiagram_Request-Validation.png)
 
