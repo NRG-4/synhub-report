@@ -398,11 +398,11 @@ El lean UX process es un enfoque iterativo centrado en el usuario para el diseñ
 
 ##### 1.2.2.1. Lean UX Problem Statements
 
-En el entorno actual, tanto en contextos familiares como laborales y comunitarios, los grupos enfrentan grandes desafíos para coordinar tareas, organizar horarios y mantener una comunicación fluida y estructurada entre sus miembros. Aunque existen herramientas digitales como aplicaciones de mensajería, calendarios o tableros de tareas, muchas de estas soluciones son fragmentadas, poco integradas o carecen de una lógica colaborativa adaptada al trabajo en equipo cotidiano.
+En el entorno actual, tanto en contextos familiares como laborales y comunitarios, los grupos enfrentan grandes desafíos para coordinar tareas y mantener una comunicación fluida y estructurada entre sus miembros. Aunque existen herramientas digitales como aplicaciones de mensajería o tableros de tareas, muchas de estas soluciones son fragmentadas, poco integradas o carecen de una lógica colaborativa adaptada al trabajo en equipo cotidiano.
 
 Esta falta de soluciones centralizadas y personalizables genera desorganización, distribución desigual de responsabilidades, olvidos, retrasos y fricciones entre los integrantes de un grupo. Ya sea en un entorno familiar, una oficina, un equipo de voluntariado o un pequeño negocio, la necesidad de una herramienta unificada que facilite la colaboración, la planificación y el seguimiento de actividades es cada vez más evidente.
 
-SynHub nace como una plataforma digital diseñada para cubrir esta brecha: una solución integral para la gestión de grupos que permite distribuir tareas, visualizar horarios compartidos, establecer roles con distintos niveles de permisos, recibir recordatorios y mejorar la eficiencia del trabajo en conjunto.
+SynHub nace como una plataforma digital diseñada para cubrir esta brecha: una solución integral para la gestión de grupos que permite distribuir tareas, visualizar reportes, recibir recordatorios y mejorar la eficiencia del trabajo en conjunto.
 
 ##### 1.2.2.2. Lean UX Assumptions
 
