@@ -688,7 +688,7 @@ Monday.com proporciona una interfaz visual para planificar, rastrear y colaborar
 * **Tablas visuales** personalizables para tareas, flujos y procesos.
 * **Elementos configurables**: estado, texto, números, etiquetas.
 * **Automatizaciones fáciles** (si sucede X, entonces haz Y).
-* **Vistas como cronograma, Kanban y workload** (sin vista de calendario).
+* **Vistas como cronograma, Kanban y workload** .
 * **Colaboración por columnas** con comentarios y archivos.
 * **Integraciones** con Gmail, Google Drive, etc.
 * **Búsqueda y filtros** potentes.
@@ -1270,7 +1270,7 @@ En esta sección, se presenta el mapa de empatía, que nos ayudará a comprender
 
 ### 2.4. Ubiquitous Language
 
-<table cellpadding="8" cellspacing="0">
+<table cellpadding="12" cellspacing="0">
   <tr>
     <th colspan="3">📘 Ubiquitous Language</th>
   </tr>
@@ -1295,24 +1295,14 @@ En esta sección, se presenta el mapa de empatía, que nos ayudará a comprender
     <td>Obligación asumida por un miembro del grupo respecto a una o varias tareas asignadas.</td>
   </tr>
   <tr>
-    <td>Task History</td>
-    <td>Historial de tareas</td>
-    <td>Registro cronológico de tareas realizadas, canceladas o pendientes.</td>
-  </tr>
-  <tr>
-    <td>Shared Calendar</td>
-    <td>Calendario compartido</td>
-    <td>Herramienta visual que muestra los eventos, plazos y tareas de todos los miembros.</td>
-  </tr>
-  <tr>
     <td>Workload View</td>
     <td>Visualización de carga</td>
     <td>Representación gráfica del volumen de tareas por miembro, útil para balancear el trabajo.</td>
   </tr>
   <tr>
-    <td>Reward System</td>
-    <td>Sistema de recompensas</td>
-    <td>Mecanismo para motivar el cumplimiento de tareas mediante premios o reconocimientos.</td>
+    <td>Comment</td>
+    <td>Comentario</td>
+    <td>Observación o feedback escrito sobre una tarea por un miembro.</td>
   </tr>
   <tr>
     <td>Notification</td>
@@ -1320,14 +1310,9 @@ En esta sección, se presenta el mapa de empatía, que nos ayudará a comprender
     <td>Aviso que informa a los usuarios sobre actualizaciones, nuevas tareas o recordatorios.</td>
   </tr>
   <tr>
-    <td>Role</td>
-    <td>Rol</td>
-    <td>Función asignada dentro del grupo (como líder, miembro, colaborador).</td>
-  </tr>
-  <tr>
-    <td>Subtask</td>
-    <td>Subtarea</td>
-    <td>Tarea secundaria dentro de una tarea principal que ayuda a dividir el trabajo.</td>
+    <td>Time Estimate</td>
+    <td>Estimacion de tiempo</td>
+    <td>Tiempo previsto para completar una tarea (ej: 2 horas).</td>
   </tr>
   <tr>
     <td>Task Status</td>
@@ -1338,6 +1323,36 @@ En esta sección, se presenta el mapa de empatía, que nos ayudará a comprender
     <td>Member</td>
     <td>Miembro</td>
     <td>Usuario que forma parte de un grupo dentro de la aplicación SynHub.</td>
+  </tr>
+  <tr>
+    <td>Task</td>
+    <td>Tarea</td>
+    <td>Acción específica asignada a un miembro del grupo para ser completada en un periodo.</td>
+  </tr>
+  <tr>
+    <td>Notification</td>
+    <td>Notificación</td>
+    <td>Aviso que informa a los usuarios sobre actualizaciones, nuevas tareas o recordatorios.</td>
+  </tr>
+  <tr>
+    <td><strong>Request</strong></td>
+    <td><strong>Solicitud</strong></td>
+    <td>Petición formal de un usuario para acceder a un grupo, recurso o acción específica dentro de SynHub.</td>
+  </tr>
+  <tr>
+    <td><strong>Groups</strong></td>
+    <td><strong>Grupos</strong></td>
+    <td>Estructuras organizativas que agrupan miembros, tareas y recursos bajo un objetivo común (ej: "Equipo de Desarrollo").</td>
+  </tr>
+  <tr>
+    <td><strong>Applications and Validations</strong></td>
+    <td><strong>Solicitudes y Validaciones</strong></td>
+    <td>Proceso donde los usuarios envían solicitudes (ej: unirse a un grupo) y un administrador las aprueba/rechaza.</td>
+  </tr>
+  <tr>
+    <td><strong>Analytical and Reports</strong></td>
+    <td><strong>Análisis e Informes</strong></td>
+    <td>Herramientas que generan métricas visuales (gráficos, tablas) sobre productividad, carga de trabajo o progreso del grupo.</td>
   </tr>
 </table>
 
