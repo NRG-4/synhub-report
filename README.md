@@ -581,7 +581,7 @@ SynHub nace como una plataforma digital diseñada para cubrir esta brecha: una s
 
 ##### 1.2.2.4. Lean UX Canvas
 
-<img src="images/chapter-1/lean-ux-canvas.jpg" alt="Lean UX Canvas" />
+<img src="images/chapter-1/lean-ux-canvas.jpeg" alt="Lean UX Canvas" />
 
 ### 1.3. Segmentos Objetivo
 
