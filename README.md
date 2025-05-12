@@ -594,7 +594,7 @@ Características clave:
   - Género: Ambos
   - Contexto: Trabajo en equipo (laboral, educativo, comunitario o institucional)
   - Ocupación: Líderes de proyectos, jefes de equipo, coordinadores, docentes, voluntarios, emprendedores
-  - **Uso de tecnología:** Usuarios activos de plataformas colaborativas y herramientas de gestión de tareas (como Trello, Notion, Slack, etc.)
+  - Uso de tecnología: Usuarios activos de plataformas colaborativas y herramientas de gestión de tareas (como Trello, Notion, Slack, etc.)
   - Necesidades: Distribuir responsabilidades, establecer fechas límite, tener visibilidad del progreso del equipo, mejorar la coordinación y reducir fricciones en la organización diaria.
 
 **Segmento Objetivo #2: Miembros del Equipo o Grupo**
@@ -613,25 +613,27 @@ Características clave:
 
 ### 2.1. Competidores
 
-En esta sección, se presenta un análisis de los principales competidores de nuestra startup, centrado en aquellos que operan con modelos de negocio digitales similares o que, aunque no sean idénticos, ofrecen productos o servicios que se superponen parcialmente con los de SynHome. Evaluamos tanto competidores directos, que se encuentran en el mismo segmento de mercado, como competidores indirectos, que abordan áreas relacionadas como el uso de calendarios, horarios, sistemas de recompensas,etc .
+En esta sección, se presenta un análisis de los principales competidores de nuestra startup, centrado en aquellos que operan con modelos de negocio digitales similares o que, aunque no sean idénticos, ofrecen productos o servicios que se superponen parcialmente con los de SynHome. Evaluamos tanto competidores directos, que se encuentran en el mismo segmento de mercado, como competidores indirectos, que abordan áreas relacionadas con la organización de tareas, la planificación de actividades y la gestión colaborativa de equipos.
 
 **1. Asana**
 
 <img src="./images/chapter-2/asana.jpg" alt="Asana" width="200"/>
 
+**
+
 **Descripción:**
 
-Asana es una herramienta de gestión de proyectos que permite a los equipos organizar tareas, asignar responsabilidades y seguir el progreso de los proyectos.**Ofrece múltiples vistas, como listas, tableros Kanban y calendarios, facilitando la personalización según las necesidades del equipo.
+Asana es una herramienta de gestión de proyectos que permite a los equipos organizar tareas, asignar responsabilidades y seguir el progreso de los proyectos. Ofrece múltiples vistas, como listas y tableros Kanban, facilitando la personalización según las necesidades del equipo.
 
 **Características principales:**
 
-* **Proyectos y tareas** organizados en listas, tableros Kanban, calendarios y cronogramas.
+* **Proyectos y tareas** organizados en listas y tableros Kanban.
 * **Subtareas y dependencias** para definir pasos y secuencias de trabajo.
 * **Colaboración**: asignación de tareas, comentarios, archivos adjuntos.
 * **Notificaciones y recordatorios** por correo y en app.
 * **Informes y seguimiento** de progreso (gráficas, porcentaje completado).
 * **Integraciones** con Slack, Google Drive, Microsoft Teams, etc.
-* **App móvil** intuitiva, con acceso a tareas, calendario y colaboración.
+* **App móvil** intuitiva, con acceso a tareas y colaboración.
 
 ---
 
@@ -645,9 +647,8 @@ FamilyWall es una plataforma familiar digital que integra varias funciones en un
 
 **Principales características:**
 
-* **Calendario familiar compartido** y sincronización con Google/Outlook.
-* **Ubicación en tiempo real** (ideal para saber dónde están los hijos).
 * **Listas de tareas y compras** colaborativas.
+* **Ubicación en tiempo real** (ideal para saber dónde están los hijos).
 * **Mensajería privada o grupal**.
 * **Galería multimedia compartida** (fotos y videos familiares).
 
@@ -659,15 +660,14 @@ FamilyWall es una plataforma familiar digital que integra varias funciones en un
 
 **Descripción:**
 
-ClickUp es una plataforma todo-en-uno que ofrece funciones de gestión de tareas, documentos, objetivos y más.**Es conocida por su alta personalización y adaptabilidad a diferentes flujos de trabajo.
+ClickUp es una plataforma todo-en-uno que ofrece funciones de gestión de tareas, documentos, objetivos y más. Es conocida por su alta personalización y adaptabilidad a diferentes flujos de trabajo.
 
 **Características principales:**
 
 * **Jerarquía flexible**: espacios, carpetas, listas, tareas y subtareas.
-* **Vistas múltiples**: lista, tablero, calendario, Gantt, cronología, workload.
-* **Seguimiento de tiempo** incluido (sin integraciones externas).
+* **Vistas múltiples**: lista, tablero, cronología, workload
+* **Seguimiento de tiempo** incluido .
 * **Docs internos**, notas y wikis colaborativos.
-* **Gestión de metas y OKRs** (objectives and key results).
 * **Automatizaciones personalizadas**.
 * **Comentarios con menciones**, edición colaborativa.
 * **Plantillas reutilizables** para tareas o proyectos.
@@ -681,16 +681,16 @@ ClickUp es una plataforma todo-en-uno que ofrece funciones de gestión de tareas
 
 **Descripción:**
 
-Monday.com proporciona una interfaz visual para planificar, rastrear y colaborar en proyectos.**Ofrece integraciones con diversas herramientas y es apreciada por su facilidad de uso y escalabilidad.
+Monday.com proporciona una interfaz visual para planificar, rastrear y colaborar en proyectos. Ofrece integraciones con diversas herramientas y es apreciada por su facilidad de uso y escalabilidad.
 
 **Características principales:**
 
-* **Tablas visuales** personalizables para tareas, flujos, y procesos.
-* **Elementos configurables**: estado, fecha, texto, números, personas, etiquetas.
+* **Tablas visuales** personalizables para tareas, flujos y procesos.
+* **Elementos configurables**: estado, texto, números, etiquetas.
 * **Automatizaciones fáciles** (si sucede X, entonces haz Y).
-* **Vistas de calendario, cronograma, Kanban y workload**.
+* **Vistas como cronograma, Kanban y workload** (sin vista de calendario).
 * **Colaboración por columnas** con comentarios y archivos.
-* **Integraciones** con Gmail, Outlook, Zoom, Google Drive, etc.
+* **Integraciones** con Gmail, Google Drive, etc.
 * **Búsqueda y filtros** potentes.
 * **App móvil** clara, amigable y funcional.
 
@@ -705,94 +705,97 @@ Monday.com proporciona una interfaz visual para planificar, rastrear y colaborar
     <td colspan="4"> Pregunta </td>
   </tr>
   <tr>
-    <td colspan="4"> Deberiamos llevar a cabo este analisis para conocer el entorno, la competencia, tomar decisiones de desarrollo  y construir nuestra propuesta de valor.  </td>
+    <td colspan="4"> Deberíamos llevar a cabo este análisis para conocer el entorno, la competencia, tomar decisiones de desarrollo y construir nuestra propuesta de valor. </td>
   </tr>
   <tr>
     <td colspan="2"> Productos </td>
-    <td style="text-align: center;">  <div>SynHub</div>  <img src="./images/chapter-2/synhub.png" alt="SynHub" width="200"/> </td>
-    <td style="text-align: center;"> <div>Asana</div>  <img src="./images/chapter-2/asana.jpg" alt="Asana" width="200"/> </td>
-    <td style="text-align: center;"> <div>FamilyWall</div>  <img src="./images/chapter-2/FamilyWall.png" alt="Picniic" width="200"/> </td>
-    <td style="text-align: center;"> <div>ClickUp</div>  <img src="./images/chapter-2/clickup.jpg" alt="clickup" width="200"/> </td>
+    <td style="text-align: center;"> <div>SynHub</div> <img src="./images/chapter-2/synhub.png" alt="SynHub" width="200"/> </td>
+    <td style="text-align: center;"> <div>Asana</div> <img src="./images/chapter-2/asana.jpg" alt="Asana" width="200"/> </td>
+    <td style="text-align: center;"> <div>FamilyWall</div> <img src="./images/chapter-2/FamilyWall.png" alt="Picniic" width="200"/> </td>
+    <td style="text-align: center;"> <div>ClickUp</div> <img src="./images/chapter-2/clickup.jpg" alt="clickup" width="200"/> </td>
   </tr>
   <tr>
     <td rowspan="2">Perfil</td>
     <td>Overview</td>
-    <td> SynHub es una plataforma digital colaborativa diseñada para facilitar la organización y gestión de actividades de grupos o equipos de trabajo de cualquier tipo: laborales, académicos, sociales. </td>
-    <td> Plataforma de gestión de proyectos y tareas diseñada para ayudar a los equipos a organizar, rastrear y gestionar su trabajo. Ofrece diversas vistas como listas, tableros Kanban y calendarios para facilitar la planificación y el seguimiento de proyectos.</td>
-    <td> FamilyWall plataforma de gestión familiar diseñada para ayudar a las familias a organizar su vida diaria. Ofrece funciones para coordinar calendarios, tareas, mensajes, fotos y más. </td>
-    <td> ClickUp es una plataforma todo-en-uno que ofrece herramientas para la gestión de tareas, documentos, objetivos y más, con un alto grado de personalización para adaptarse a diferentes flujos de trabajo. </td>
+    <td>SynHub es una plataforma digital colaborativa diseñada para facilitar la organización y gestión de actividades de grupos o equipos de trabajo de cualquier tipo: laborales, académicos, sociales.</td>
+    <td>Plataforma de gestión de proyectos y tareas diseñada para ayudar a los equipos a organizar, rastrear y gestionar su trabajo. Ofrece diversas vistas como listas y tableros Kanban para facilitar la planificación y el seguimiento de proyectos.</td>
+    <td>FamilyWall es una plataforma de gestión familiar diseñada para ayudar a las familias a organizar su vida diaria. Ofrece funciones para coordinar tareas, mensajes, fotos y más.</td>
+    <td>ClickUp es una plataforma todo-en-uno que ofrece herramientas para la gestión de tareas, documentos, objetivos y más, con un alto grado de personalización para adaptarse a diferentes flujos de trabajo.</td>
   </tr>
   <tr>
     <td>Ventaja competitiva ¿Qué valor ofrece a los clientes? </td>
-    <td> Potencia la corresponsabilidad con funciones como seguimiento de cumplimiento, historial de tareas y visualización de carga de trabajo. </td>
-    <td> Asana destaca por su interfaz intuitiva y facilidad de uso, permitiendo a los equipos adaptarse rápidamente a la plataforma. Su capacidad para integrarse con numerosas herramientas de terceros amplía su funcionalidad y la hace versátil para diferentes tipos de equipos. </td>
-    <td> Ayuda a mejorar la comunicación familiar mediante el chat y las actualizaciones compartidas. </td>
-    <td> Su capacidad de personalización y la amplia variedad de funciones integradas en una sola plataforma la hacen atractiva para equipos que buscan consolidar múltiples herramientas en una. </td>
+    <td>Potencia la corresponsabilidad con funciones como seguimiento de cumplimiento, validacion de tareas y visualización de reportes con graficas.</td>
+    <td>Asana destaca por su interfaz intuitiva y facilidad de uso, permitiendo a los equipos adaptarse rápidamente a la plataforma. Su capacidad para integrarse con numerosas herramientas de terceros amplía su funcionalidad y la hace versátil para diferentes tipos de equipos.</td>
+    <td>Ayuda a mejorar la comunicación familiar mediante el chat y las actualizaciones compartidas.</td>
+    <td>Su capacidad de personalización y la amplia variedad de funciones integradas en una sola plataforma la hacen atractiva para equipos que buscan consolidar múltiples herramientas en una.</td>
   </tr>
   <tr>
     <td rowspan="2">Perfil de Marketing</td>
-    <td> Mercado Objetivo </td>
-    <td> Grupos académicos o universitarios (estudiantes, equipos de proyecto, docentes), familias que buscan distribuir y asignar tareas del hogar y equipos que buscan una herramienta flexible, económica y con curva de aprendizaje baja. </td>
-    <td> Empresas de todos los tamaños que buscan una solución eficiente para la gestión de proyectos y tareas, desde startups hasta grandes corporaciones. </td>
-    <td> Familias que buscan una plataforma unificada para coordinar actividades y compartir momentos. </td>
-    <td> Equipos y empresas de diversos tamaños que buscan una solución integral para la gestión de proyectos y tareas, especialmente aquellos que requieren alta personalización. </td>
+    <td>Mercado Objetivo</td>
+    <td>Grupos académicos o universitarios (estudiantes, equipos de proyecto, docentes) y equipos que buscan una herramienta flexible, económica y con curva de aprendizaje baja.</td>
+    <td>Empresas de todos los tamaños que buscan una solución eficiente para la gestión de proyectos y tareas, desde startups hasta grandes corporaciones.</td>
+    <td>Familias que buscan una plataforma unificada para coordinar actividades y compartir momentos.</td>
+    <td>Equipos y empresas de diversos tamaños que buscan una solución integral para la gestión de proyectos y tareas, especialmente aquellos que requieren alta personalización.</td>
   </tr>
   <tr>
-    <td> Estrategias de Marketing </td>
-    <td> Pruebas gratuitas y versiones premium: Ofrecer una versión gratuita básica y luego incentivar la migración a la versión premium con funciones avanzadas. </td>
-    <td> Asana utiliza contenido educativo, como guías y webinars, para atraer y educar a su audiencia. Además, ofrece una versión gratuita con funcionalidades básicas para captar usuarios que luego pueden optar por planes premium. </td>
-    <td> Ofrecen pruebas gratuitas para fomentar la adopción. </td>
-    <td> ClickUp se centra en destacar su versatilidad y capacidad todo-en-uno. Utiliza contenido educativo, testimonios de clientes y comparativas con otras herramientas para demostrar su valor. </td>
-  </tr>
-<td rowspan="3">Perfil de Producto</td>
-    <td> Productos & Servicios </td>
-    <td> Gestión de tareas familiares(responsabilidades a cada miembro del hogar), horario y calendario compartido (visible para todos los miembros), sistema de recompensas (motivación para los miembros más jóvenes de la familia). </td>
-    <td> Gestión de tareas y proyectos, Vistas personalizadas: lista, tablero, calendario, Integraciones con herramientas como Slack, Google Drive y Microsoft Teams, Informes y seguimiento del progreso. </td>
-    <td> Calendario compartido, listas de compras y tareas, mensajería privada, compartición de fotosy planificación de eventos familiares. </td>
-    <td> Gestión de tareas y proyectos con múltiples vistas, Documentos y wikis colaborativos, Seguimiento del tiempo integrado y Automatizaciones personalizadas. </td>
+    <td>Estrategias de Marketing</td>
+    <td>Pruebas gratuitas y versiones premium: Ofrecer una versión gratuita básica y luego incentivar la migración a la versión premium con funciones avanzadas.</td>
+    <td>Asana utiliza contenido educativo, como guías y webinars, para atraer y educar a su audiencia. Además, ofrece una versión gratuita con funcionalidades básicas para captar usuarios que luego pueden optar por planes premium.</td>
+    <td>Ofrecen pruebas gratuitas para fomentar la adopción.</td>
+    <td>ClickUp se centra en destacar su versatilidad y capacidad todo-en-uno. Utiliza contenido educativo, testimonios de clientes y comparativas con otras herramientas para demostrar su valor.</td>
   </tr>
   <tr>
-    <td> Precios & Costos</td>
-    <td> Plan Gratuito y Plan Premium – $6.99/usuario/mes </td>
-    <td> Gratis: Funciones básicas para equipos pequeños y Premium: Mensual $13.49 y Anual $10.99 c/m . </td>
-    <td> Premium por $4.99/mes o $29.99/año con características avanzadas. </td>
-    <td> Gratis: Funciones básicas para equipos pequeños y Unlimited: Mensual $9 y Anual $10.99 c/m . </td>
+    <td rowspan="3">Perfil de Producto</td>
+    <td>Productos & Servicios</td>
+    <td>Gestión de tareas familiares (responsabilidades a cada miembro del hogar) y sistema de tareas compartidas.</td>
+    <td>Gestión de tareas y proyectos, vistas personalizadas: lista, tablero, integraciones con herramientas como Slack, Google Drive y Microsoft Teams, informes y seguimiento del progreso.</td>
+    <td>Listas de compras y tareas, mensajería privada, compartición de fotos.</td>
+    <td>Gestión de tareas y proyectos con múltiples vistas, documentos y wikis colaborativos, seguimiento del tiempo integrado y automatizaciones personalizadas.</td>
   </tr>
   <tr>
-    <td> Canales de distribución </td>
-    <td> App móvil (Android / iOS) </td>
-    <td> Disponible en plataforma web y aplicaciones móviles para iOS y Android. </td>
-    <td> App Store y Google Play Store. </td>
-    <td> Disponible en plataforma web y aplicaciones móviles para iOS y Android. </td>
+    <td>Precios & Costos</td>
+    <td>Plan Gratuito y Plan Premium – $6.99/usuario/mes</td>
+    <td>Gratis: Funciones básicas para equipos pequeños y Premium: Mensual $13.49 y Anual $10.99 c/m.</td>
+    <td>Premium por $4.99/mes o $29.99/año con características avanzadas.</td>
+    <td>Gratis: Funciones básicas para equipos pequeños y Unlimited: Mensual $9 y Anual $10.99 c/m.</td>
   </tr>
-<td rowspan="5">Análisis SWOT</td>
-<tr>
-    <td> Fortalezas </td>
-    <td> Versatilidad para distintos tipos de equipos y contextos. </td>
-    <td> Interfaz intuitiva y fácil de usar. </td>
-    <td> Funciones completas para gestionar la familia en un solo lugar. </td>
-    <td> Alta personalización y flexibilidad en flujos de trabajo. </td>
+  <tr>
+    <td>Canales de distribución</td>
+    <td>App móvil (Android / iOS)</td>
+    <td>Disponible en plataforma web y aplicaciones móviles para iOS y Android.</td>
+    <td>App Store y Google Play Store.</td>
+    <td>Disponible en plataforma web y aplicaciones móviles para iOS y Android.</td>
   </tr>
-<tr>
-    <td> Debilidades</td>
-    <td> Marca nueva: carece de reconocimiento y reputación. </td>
-    <td> Limitaciones en la personalización de flujos de trabajo complejos. </td>
-    <td> La versión gratuita tiene restricciones significativas. </td>
-    <td> Curva de aprendizaje pronunciada debido a la cantidad de funciones. </td>
+  <tr>
+    <td rowspan="5">Análisis SWOT</td>
   </tr>
-<tr>
-    <td> Oportunidades</td>
-    <td> Penetrar en mercados que no están siendo bien servidos por soluciones complejas. </td>
-    <td> Expansión en mercados internacionales emergentes. </td>
-    <td> Expansión en la gestión de actividades educativas. </td>
-    <td> Expansión en sectores específicos que requieren soluciones personalizadas. </td>
+  <tr>
+    <td>Fortalezas</td>
+    <td>Versatilidad para distintos tipos de equipos y contextos.</td>
+    <td>Interfaz intuitiva y fácil de usar.</td>
+    <td>Funciones completas para gestionar la familia en un solo lugar.</td>
+    <td>Alta personalización y flexibilidad en flujos de trabajo.</td>
   </tr>
-<tr>
-    <td> Amenazas</td>
-    <td> Grandes plataformas podrían lanzar versiones más económicas para captar a este nicho. </td>
-    <td> Competencia creciente en el sector de herramientas de gestión de proyectos. </td>
-    <td> La falta de integraciones con otras plataformas populares como Google Calendar. </td>
-    <td> Competencia con herramientas especializadas que pueden ofrecer soluciones más simples. </td>
+  <tr>
+    <td>Debilidades</td>
+    <td>Marca nueva: carece de reconocimiento y reputación.</td>
+    <td>Limitaciones en la personalización de flujos de trabajo complejos.</td>
+    <td>La versión gratuita tiene restricciones significativas.</td>
+    <td>Curva de aprendizaje pronunciada debido a la cantidad de funciones.</td>
+  </tr>
+  <tr>
+    <td>Oportunidades</td>
+    <td>Penetrar en mercados que no están siendo bien servidos por soluciones complejas.</td>
+    <td>Expansión en mercados internacionales emergentes.</td>
+    <td>Expansión en la gestión de actividades educativas.</td>
+    <td>Expansión en sectores específicos que requieren soluciones personalizadas.</td>
+  </tr>
+  <tr>
+    <td>Amenazas</td>
+    <td>Grandes plataformas podrían lanzar versiones más económicas para captar a este nicho.</td>
+    <td>Competencia creciente en el sector de herramientas de gestión de proyectos.</td>
+    <td>La falta de integraciones con otras plataformas populares.</td>
+    <td>Competencia con herramientas especializadas que pueden ofrecer soluciones más simples.</td>
   </tr>
 </table>
 
