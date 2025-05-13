@@ -3691,8 +3691,6 @@ Este enfoque sigue *Domain-Driven Design* para alinear el código con el lenguaj
 Este enfoque sigue *Domain-Driven Design* para alinear el código con el lenguaje del negocio y encapsular reglas. Por ejemplo:
 
 * La entidad `Task` valida que haya al menos 1 responsable, evitando estados inválidos.
-* El *Value Object* `DueDate` garantiza fechas futuras, centralizando la validación.
-* Los *Aggregates* protegen invariantes: una `Subtask` no puede existir sin una `Task` padre.
 
 ### **Aggregate: `TaskAggregate`**
 
@@ -3710,8 +3708,8 @@ Entity: **`Task`**
     <th>Descripción</th>
   </tr>
   <tr>
-    <td><b>taskId</b></td>
-    <td>UUID</td>
+    <td><b>id</b></td>
+    <td>Int</td>
     <td>Identificador único de la tarea</td>
   </tr>
   <tr>
@@ -3730,49 +3728,29 @@ Entity: **`Task`**
     <td>Estado actual de la tarea (pendiente, en progreso, completada, cancelada)</td>
   </tr>
   <tr>
-    <td><b>dueDate</b></td>
-    <td>DueDate (VO)</td>
-    <td>Fecha límite para completar la tarea</td>
+    <td>startDate</td>
+    <td>Date</td>
+    <td>Fecha inical establecida para completar la tarea</td>
+  </tr>
+<tr>
+    <td>finalDate</td>
+    <td>Date</td>
+    <td>Fecha límite establecida para completar la tarea</td>
   </tr>
   <tr>
-    <td><b>assignees</b></td>
-    <td>Set<UserId></td>
-    <td>Conjunto de usuarios asignados a la tarea</td>
+    <td><b>memberId</b></td>
+    <td>Int</td>
+    <td>Usuario asignado a la tarea</td>
   </tr>
-  <tr>
-    <td><b>comments</b></td>
-    <td>List Comment</td>
-    <td>Lista de comentarios realizados sobre la tarea</td>
+<tr>
+    <td>timePass</td>
+    <td>Date</td>
+    <td>Tiempo en el que se expone a validacion</td>
   </tr>
-  <tr>
-    <td><b>subtasks</b></td>
-    <td>List Subtask</td>
-    <td>Lista de subtareas relacionadas a la tarea principal</td>
-  </tr>
-</table>
-
-Entity: **`Subtask`**
-
-<table border="0">
-  <tr>
-    <th>Atributo</th>
-    <th>Tipo</th>
-    <th>Descripción</th>
-  </tr>
-  <tr>
-    <td>subtaskId</td>
-    <td>UUID</td>
-    <td>Identificador único de la subtarea</td>
-  </tr>
-  <tr>
-    <td>description</td>
-    <td>String</td>
-    <td>Descripción de la subtarea</td>
-  </tr>
-  <tr>
-    <td>completed</td>
-    <td>Boolean</td>
-    <td>Indica si la subtarea ha sido completada</td>
+<tr>
+    <td>createdAt</td>
+    <td>Date</td>
+    <td>Fecha en que se creó el comentario</td>
   </tr>
 </table>
 
@@ -3785,19 +3763,24 @@ Entity: **`Comment`**
     <th>Descripción</th>
   </tr>
   <tr>
-    <td>commentId</td>
-    <td>UUID</td>
+    <td>id</td>
+    <td>Int</td>
     <td>Identificador único del comentario</td>
   </tr>
   <tr>
-    <td>text</td>
+    <td>content</td>
     <td>String</td>
     <td>Contenido textual del comentario</td>
   </tr>
-  <tr>
-    <td>createdAt</td>
-    <td>Date</td>
-    <td>Fecha en que se creó el comentario</td>
+<tr>
+    <td>membersId</td>
+    <td>Int</td>
+    <td>Identificador foraneo del miembro</td>
+  </tr>
+<tr>
+    <td>taskId</td>
+    <td>Int</td>
+    <td>Identificador foraneo de la tarea</td>
   </tr>
 </table>
 
@@ -3814,27 +3797,7 @@ Value Object: **`TaskStatus`**
   <tr>
     <td>status</td>
     <td>Enum</td>
-    <td>Estado de la tarea. Valores posibles: PENDING, IN_PROGRESS, COMPLETED, CANCELLED</td>
-  </tr>
-</table>
-
-Value Object: **`DueDate`**
-
-<table border="0">
-  <tr>
-    <th>Atributo</th>
-    <th>Tipo</th>
-    <th>Descripción</th>
-  </tr>
-  <tr>
-    <td>initialDate</td>
-    <td>Date</td>
-    <td>Fecha inical establecida para completar la tarea</td>
-  </tr>
-<tr>
-    <td>finalDate</td>
-    <td>Date</td>
-    <td>Fecha límite establecida para completar la tarea</td>
+    <td>Estado de la tarea. Valores posibles: IN PROGRESS, COMPLETED, EXPIRED and CANCELED</td>
   </tr>
 </table>
 
@@ -3851,21 +3814,10 @@ Value Object: **`DueDate`**
     <td>Crear instancias válidas de Task.</td>
     <td>
       <strong>Validaciones:</strong><br>
-      - Título no vacío (3-100 caracteres).<br>
-      - Al menos 1 responsable.<br>
-      - Fecha de vencimiento válida.<br>
-      <strong>Método:</strong><br>
-      create(title: String, assignees: Set<UserId>, dueDate: DueDate): Task
-    </td>
-  </tr>
-  <tr>
-    <td>SubtaskFactory</td>
-    <td>Crear subtareas asociadas a una Task</td>
-    <td>
-      <strong>Validaciones:</strong><br>
-      - Descripción no vacía (máximo 200 caracteres).<br>
-      <strong>Método:</strong><br>
-      create(description: String): Subtask
+      -title no debe estar vacío (mínimo 3 y máximo 100 caracteres).<br>
+-memberId asignado debe ser válido.<br>
+-finalDate debe ser posterior a startDate.<br>
+-status debe ser uno permitido (pendiente, en progreso, completada, cancelada).<br>
     </td>
   </tr>
 </table>
@@ -3883,38 +3835,19 @@ Value Object: **`DueDate`**
     <td>Gestionar la creación, edición y eliminación de tareas principales.</td>
     <td>
       <strong>Reglas:</strong><br>
-      - Solo los usuarios con permisos adecuados pueden crear o eliminar tareas.<br>
-      - Las tareas no pueden eliminarse si están completadas.<br>
-      <strong>Métodos:</strong><br>
-      <code>createTask(title: string, description: string, assignee: UserId, creator: UserId): Task</code><br>
-      <code>editTask(task: Task, updates: Partial<Task>, userId: UserId): void</code><br>
-      <code>deleteTask(task: Task, userId: UserId): void</code>
-    </td>
-  </tr>
-  <tr>
-    <td>SubtaskManagementService</td>
-    <td>Gestionar la creación, edición y eliminación de subtareas asociadas a tareas.</td>
-    <td>
-      <strong>Reglas:</strong><br>
-      - Solo usuarios asignados a la tarea principal pueden agregar o editar subtareas.<br>
-      - Las subtareas deben estar asociadas a una tarea válida.<br>
-      <strong>Métodos:</strong><br>
-      <code>createSubtask(taskId: TaskId, title: string, assignee: UserId): Subtask</code><br>
-      <code>editSubtask(subtask: Subtask, updates: Partial<Subtask>, userId: UserId): void</code><br>
-      <code>deleteSubtask(subtask: Subtask, userId: UserId): void</code>
+      -Solo usuarios con permisos (verificados por un PermissionService) pueden crear, editar o eliminar tareas.<br>
+-No se puede eliminar una tarea si su status es completada.<br>
+-Las tareas solo pueden editarse si no están canceladas o completadas.<br>
     </td>
   </tr>
   <tr>
     <td>CommentManagementService</td>
-    <td>Gestionar la adición, edición y eliminación de comentarios en tareas y subtareas.</td>
+    <td>Gestionar la adición de comentarios en tareas.</td>
     <td>
       <strong>Reglas:</strong><br>
-      - El autor debe existir (valida con <code>IUserRepository</code>).<br>
-      - Los comentarios no pueden agregarse a tareas o subtareas canceladas.<br>
-      <strong>Métodos:</strong><br>
-      <code>addComment(taskId: TaskId, authorId: UserId, text: string): Comment</code><br>
-      <code>editComment(comment: Comment, updates: Partial<Comment>, userId: UserId): void</code><br>
-      <code>deleteComment(comment: Comment, userId: UserId): void</code>
+      -El membersId debe existir en el sistema.<br>
+-No se pueden comentar tareas con status = cancelada.<br>
+-Los comentarios deben estar asociados a una taskId válida.<br>
     </td>
   </tr>
 </table>
@@ -3929,119 +3862,82 @@ Esta capa **protege el dominio** de detalles técnicos (protocolos, formatos de 
 
 TaskController:
 
-<table border="0">
-  <tr>
-    <th>Nombre</th>
-    <th>Metodo</th>
-    <th>Ruta</th>
-    <th>Descripción</th>
-  </tr>
-  <tr>
-    <td>createTask</td>
-    <td>POST</td>
-    <td>/tasks</td>
-    <td>Crea una nueva tarea en el sistema.</td>
-  </tr>
-  <tr>
-    <td>getTasks</td>
-    <td>GET</td>
-    <td>/tasks</td>
-    <td>Obtiene una lista de todas las tareas.</td>
-  </tr>
-  <tr>
-    <td>getTask</td>
-    <td>GET</td>
-    <td>/tasks/{taskId}</td>
-    <td>Obtiene los detalles de una tarea específica.</td>
-  </tr>
-  <tr>
-    <td>updateTask</td>
-    <td>PUT</td>
-    <td>/tasks/{taskId}</td>
-    <td>Actualiza la información de una tarea existente.</td>
-  </tr>
-  <tr>
-    <td>deleteTask</td>
-    <td>DELETE</td>
-    <td>/tasks/{taskId}</td>
-    <td>Elimina una tarea del sistema.</td>
-  </tr>
+<table cellpadding="6" cellspacing="0">
+  <thead>
+    <tr>
+      <th>Nombre</th>
+      <th>Método</th>
+      <th>Ruta</th>
+      <th>Descripción</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>createTask</td>
+      <td>POST</td>
+      <td>/tasks</td>
+      <td>Crea una nueva tarea utilizando el TaskFactory y verifica permisos del usuario.</td>
+    </tr>
+    <tr>
+      <td>getTaskById</td>
+      <td>GET</td>
+      <td>/tasks/:id</td>
+      <td>Obtiene los detalles de una tarea específica por su ID.</td>
+    </tr>
+    <tr>
+      <td>getAllTasks</td>
+      <td>GET</td>
+      <td>/tasks</td>
+      <td>Lista todas las tareas registradas.</td>
+    </tr>
+    <tr>
+      <td>updateTask</td>
+      <td>PUT</td>
+      <td>/tasks/:id</td>
+      <td>Actualiza una tarea específica si no está cancelada ni completada.</td>
+    </tr>
+    <tr>
+      <td>deleteTask</td>
+      <td>DELETE</td>
+      <td>/tasks/:id</td>
+      <td>Elimina una tarea, siempre que su estado no sea "completada".</td>
+    </tr>
+  </tbody>
 </table>
 
-SubtaskController:
-
-<table border="0">
-  <tr>
-    <th>Nombre</th>
-    <th>Metodo</th>
-    <th>Ruta</th>
-    <th>Descripción</th>
-  </tr>
-  <tr>
-    <td>createSubtask</td>
-    <td>POST</td>
-    <td>/tasks/{taskId}/subtasks</td>
-    <td>Crea una nueva subtarea asociada a una tarea existente.</td>
-  </tr>
-  <tr>
-    <td>getSubtasks</td>
-    <td>GET</td>
-    <td>/tasks/{taskId}/subtasks</td>
-    <td>Obtiene todas las subtareas asociadas a una tarea.</td>
-  </tr>
-  <tr>
-    <td>getSubtask</td>
-    <td>GET</td>
-    <td>/tasks/{taskId}/subtasks/{subtaskId}</td>
-    <td>Obtiene los detalles de una subtarea específica.</td>
-  </tr>
-  <tr>
-    <td>updateSubtask</td>
-    <td>PUT</td>
-    <td>/tasks/{taskId}/subtasks/{subtaskId}</td>
-    <td>Actualiza una subtarea existente.</td>
-  </tr>
-  <tr>
-    <td>deleteSubtask</td>
-    <td>DELETE</td>
-    <td>/tasks/{taskId}/subtasks/{subtaskId}</td>
-    <td>Elimina una subtarea asociada a una tarea.</td>
-  </tr>
-</table>
 
 CommentController:
 
-<table border="0">
-  <tr>
-    <th>Nombre</th>
-    <th>Metodo</th>
-    <th>Ruta</th>
-    <th>Descripción</th>
-  </tr>
-  <tr>
-    <td>createComment</td>
-    <td>POST</td>
-    <td>/tasks/{taskId}/comments</td>
-    <td>Crea un nuevo comentario en una tarea.</td>
-  </tr>
-  <tr>
-    <td>getComments</td>
-    <td>GET</td>
-    <td>/tasks/{taskId}/comments</td>
-    <td>Obtiene todos los comentarios de una tarea específica.</td>
-  </tr>
-  <tr>
-    <td>getComment</td>
-    <td>GET</td>
-    <td>/tasks/{taskId}/comments/{commentId}</td>
-    <td>Obtiene un comentario específico de una tarea.</td>
-  </tr>
-  <tr>
-    <td>deleteComment</td>
-    <td>DELETE</td>
-    <td>/tasks/{taskId}/comments/{commentId}</td>
-    <td>Elimina un comentario de una tarea.</td>
-  </tr>
+
+<table  cellpadding="6" cellspacing="0">
+  <thead>
+    <tr>
+      <th>Nombre</th>
+      <th>Método</th>
+      <th>Ruta</th>
+      <th>Descripción</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>addComment</td>
+      <td>POST</td>
+      <td>/comments</td>
+      <td>Agrega un nuevo comentario a una tarea válida (no cancelada), validando membersId y taskId.</td>
+    </tr>
+    <tr>
+      <td>getCommentsByTaskId</td>
+      <td>GET</td>
+      <td>/comments/task/:taskId</td>
+      <td>Obtiene todos los comentarios asociados a una tarea específica.</td>
+    </tr>
+    <tr>
+      <td>deleteComment</td>
+      <td>DELETE</td>
+      <td>/comments/:id</td>
+      <td>Elimina un comentario por su ID.</td>
+    </tr>
+  </tbody>
 </table>
 
 ##### 4.2.5.3. Application Layer
@@ -4053,103 +3949,111 @@ Esta capa es crucial porque centraliza la lógica de negocio, garantizando que l
 
 ### **Command Handlers**
 
-<table>
-  <tr>
-    <th>Capability</th>
-    <th>Command Handler</th>
-    <th>Descripción</th>
-  </tr>
-  <tr>
-    <td>Crear tarea individual o grupal</td>
-    <td>createTask</td>
-    <td>Este comando maneja la creación de tareas individuales o grupales, validando la información de entrada, como título, descripción, responsables y fecha de vencimiento. Asegura que las tareas sean correctamente formadas según las reglas de negocio.</td>
-  </tr>
-  <tr>
-    <td>Asignar responsable(s) y fechas de entrega</td>
-    <td>assignTask</td>
-    <td>Este comando se encarga de asignar responsables a las tareas, y establece las fechas de entrega. Se asegura de que al menos un responsable esté asignado y valida que la tarea tenga una fecha de vencimiento válida.</td>
-  </tr>
-  <tr>
-    <td>Añadir descripción, etiquetas, subtareas</td>
-    <td>addDescription, addTags, addSubtask</td>
-    <td>Estos comandos permiten agregar una descripción detallada a la tarea, asociar etiquetas relevantes y crear subtareas dentro de la tarea principal. Los subtareas estarán validadas para que se vinculen adecuadamente.</td>
-  </tr>
-  <tr>
-    <td>Visualizar tareas pendientes, en progreso y completadas</td>
-    <td>getTasksByStatus</td>
-    <td>Este comando permite filtrar y mostrar tareas basadas en su estado: pendiente, en progreso o completada. El comando se asegura de que los resultados estén correctamente ordenados según los criterios establecidos.</td>
-  </tr>
-  <tr>
-    <td>Editar o eliminar tareas existentes</td>
-    <td>editTask, deleteTask</td>
-    <td>Estos comandos permiten la edición o eliminación de tareas existentes. Se validan las acciones basadas en el rol del usuario (por ejemplo, el creador o coordinador) y en el estado de la tarea.</td>
-  </tr>
-  <tr>
-    <td>Marcar tarea como completada</td>
-    <td>markTaskAsCompleted</td>
-    <td>Este comando permite marcar una tarea como completada. Verifica que la tarea no esté ya en estado de completada y actualiza su estado de acuerdo a la transición correspondiente.</td>
-  </tr>
-  <tr>
-    <td>Filtrar y ordenar tareas por estado, prioridad, usuario</td>
-    <td>filterTasks</td>
-    <td>Este comando filtra y ordena las tareas según diferentes criterios como el estado, la prioridad y los responsables. Permite obtener un conjunto de tareas que cumplen con las condiciones especificadas.</td>
-  </tr>
-  <tr>
-    <td>Registrar avances o comentarios sobre una tarea</td>
-    <td>addCommentToTask</td>
-    <td>Este comando maneja la adición de comentarios sobre tareas, permitiendo a los usuarios registrar avances, notas o cualquier otra información relevante para el seguimiento de la tarea.</td>
-  </tr>
+Task Command Handler:
+
+
+
+<table cellpadding="6" cellspacing="0">
+  <thead>
+    <tr>
+      <th>Capability</th>
+      <th>Command Handler</th>
+      <th>Descripción</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Crear tarea</td>
+      <td>CreateTaskHandler</td>
+      <td>Maneja el comando para crear una nueva tarea, validando los datos de entrada y utilizando el TaskFactory.</td>
+    </tr>
+    <tr>
+      <td>Actualizar tarea</td>
+      <td>UpdateTaskHandler</td>
+      <td>Maneja el comando para actualizar una tarea, validando que no esté cancelada ni completada y que el usuario tenga permisos.</td>
+    </tr>
+    <tr>
+      <td>Eliminar tarea</td>
+      <td>DeleteTaskHandler</td>
+      <td>Maneja el comando para eliminar una tarea, validando que no esté completada.</td>
+    </tr>
+  </tbody>
 </table>
+
+Comment Command Handler:
+
+
+<table  cellpadding="6" cellspacing="0">
+  <thead>
+    <tr>
+      <th>Capability</th>
+      <th>Command Handler</th>
+      <th>Descripción</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Agregar comentario</td>
+      <td>AddCommentHandler</td>
+      <td>Maneja el comando para agregar un comentario a una tarea, validando que el `membersId` y `taskId` sean válidos y que la tarea no esté cancelada.</td>
+    </tr>
+  </tbody>
+</table>
+
 
 ### **Event Handlers**
 
-<table>
-  <tr>
-    <th>Capability</th>
-    <th>Event Handler</th>
-    <th>Descripción</th>
-  </tr>
-  <tr>
-    <td>Crear tarea individual o grupal</td>
-    <td>taskCreated</td>
-    <td>Este manejador de eventos se activa cuando una tarea es creada, notificando a los responsables y generando cualquier acción adicional, como la integración con otros sistemas.</td>
-  </tr>
-  <tr>
-    <td>Asignar responsable(s) y fechas de entrega</td>
-    <td>taskAssigned</td>
-    <td>Este manejador de eventos se activa cuando se asignan responsables a una tarea. Puede generar notificaciones a los usuarios involucrados y actualizar otros sistemas, como calendarios.</td>
-  </tr>
-  <tr>
-    <td>Añadir descripción, etiquetas, subtareas</td>
-    <td>taskUpdated</td>
-    <td>Este manejador se activa cuando una tarea es actualizada, ya sea con una nueva descripción, etiquetas o subtareas. Puede generar notificaciones sobre los cambios realizados.</td>
-  </tr>
-  <tr>
-    <td>Visualizar tareas pendientes, en progreso y completadas</td>
-    <td>taskStatusChanged</td>
-    <td>Este evento se dispara cuando el estado de una tarea cambia, lo que podría afectar a la vista de tareas pendientes, en progreso o completadas. Se puede utilizar para actualizar la visualización de la lista de tareas.</td>
-  </tr>
-  <tr>
-    <td>Editar o eliminar tareas existentes</td>
-    <td>taskEdited, taskDeleted</td>
-    <td>Estos manejadores se activan cuando una tarea es editada o eliminada. Pueden generar notificaciones y actualizar las vistas o registros en otros sistemas relacionados.</td>
-  </tr>
-  <tr>
-    <td>Marcar tarea como completada</td>
-    <td>taskCompleted</td>
-    <td>Este manejador se activa cuando una tarea es marcada como completada. Puede desencadenar acciones como la actualización del progreso o la notificación a los usuarios.</td>
-  </tr>
-  <tr>
-    <td>Filtrar y ordenar tareas por estado, prioridad, usuario</td>
-    <td>tasksFiltered</td>
-    <td>Este evento se activa cuando se realiza una consulta de tareas filtradas por diferentes criterios. Se puede utilizar para notificar a los usuarios sobre los resultados de la búsqueda.</td>
-  </tr>
-  <tr>
-    <td>Registrar avances o comentarios sobre una tarea</td>
-    <td>commentAddedToTask</td>
-    <td>Este manejador se activa cuando se agrega un comentario a una tarea. Puede generar notificaciones y registrar el comentario para futuras referencias.</td>
-  </tr>
+Task Event Handler:
+
+
+<table  cellpadding="6" cellspacing="0">
+  <thead>
+    <tr>
+      <th>Capability</th>
+      <th>Event Handler</th>
+      <th>Descripción</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Tarea creada</td>
+      <td>TaskCreatedEventHandler</td>
+      <td>Maneja el evento de la creación de una nueva tarea, enviando notificaciones o realizando alguna acción asociada.</td>
+    </tr>
+    <tr>
+      <td>Tarea actualizada</td>
+      <td>TaskUpdatedEventHandler</td>
+      <td>Maneja el evento de la actualización de una tarea, realizando las acciones correspondientes como enviar notificaciones.</td>
+    </tr>
+    <tr>
+      <td>Tarea eliminada</td>
+      <td>TaskDeletedEventHandler</td>
+      <td>Maneja el evento de la eliminación de una tarea, actualizando registros o enviando notificaciones.</td>
+    </tr>
+  </tbody>
 </table>
+
+
+Comment Event Handler:
+
+
+<table  cellpadding="6" cellspacing="0">
+  <thead>
+    <tr>
+      <th>Capability</th>
+      <th>Event Handler</th>
+      <th>Descripción</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Comentario agregado</td>
+      <td>CommentAddedEventHandler</td>
+      <td>Maneja el evento de la adición de un comentario a una tarea, activando acciones como enviar notificaciones a los involucrados.</td>
+    </tr>
+  </tbody>
+</table>
+
 
 ##### 4.2.5.4. Infrastructure Layer
 
@@ -4162,102 +4066,74 @@ Esta capa permite mantener una arquitectura desacoplada, separando la lógica de
 
 **TaskRepository:**
 
-<table>
-  <tr>
-    <th>Método</th>
-    <th>Descripción</th>
-    <th>Clases Dependientes</th>
-  </tr>
-  <tr>
-    <td>save(task: Task)</td>
-    <td>Guarda una nueva tarea .</td>
-    <td>Task</td>
-  </tr>
-  <tr>
-    <td>findById(id: TaskId): Task?</td>
-    <td>Busca una tarea por su identificador.</td>
-    <td>TaskId, Task</td>
-  </tr>
-  <tr>
-    <td>delete(id: TaskId)</td>
-    <td>Elimina una tarea específica.</td>
-    <td>TaskId</td>
-  </tr>
-  <tr>
-    <td>findByStatus(status: TaskStatus): List<Task></td>
-    <td>Obtiene tareas según su estado.</td>
-    <td>TaskStatus, Task</td>
-  </tr>
-  <tr>
-    <td>findByAssignee(userId: UserId): List<Task></td>
-    <td>Lista de tareas asignadas a un usuario.</td>
-    <td>UserId, Task</td>
-  </tr>
-<tr>
-  <td>update(task: Task)</td>
-  <td>Actualiza los campos de una tarea existente como título, descripción o responsables.</td>
-  <td>Task</td>
-</tr>
+<table cellpadding="6" cellspacing="0">
+  <thead>
+    <tr>
+      <th>Método</th>
+      <th>Descripción</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>save</td>
+      <td>Guarda una nueva tarea o actualiza una existente en la base de datos.</td>
+    </tr>
+    <tr>
+      <td>findById</td>
+      <td>Busca una tarea por su identificador único (ID).</td>
+    </tr>
+    <tr>
+      <td>findAll</td>
+      <td>Recupera todas las tareas almacenadas.</td>
+    </tr>
+    <tr>
+      <td>deleteById</td>
+      <td>Elimina una tarea de la base de datos utilizando su identificador único (ID).</td>
+    </tr>
+    <tr>
+      <td>update</td>
+      <td>Actualiza los detalles de una tarea existente en la base de datos.</td>
+    </tr>
+    <tr>
+      <td>findByStatus</td>
+      <td>Recupera todas las tareas con un estado específico (pendiente, en progreso, completada, cancelada).</td>
+    </tr>
+  </tbody>
 </table>
 
-**SubtaskRepository:**
 
-<table>
-  <tr>
-    <th>Método</th>
-    <th>Descripción</th>
-    <th>Clases Dependientes</th>
-  </tr>
-  <tr>
-    <td>save(subtask: Subtask)</td>
-    <td>Guarda una subtarea asociada.</td>
-    <td>Subtask</td>
-  </tr>
-  <tr>
-    <td>findByTaskId(taskId: TaskId): List<Subtask></td>
-    <td>Obtiene todas las subtareas de una tarea.</td>
-    <td>TaskId, Subtask</td>
-  </tr>
-  <tr>
-    <td>delete(id: SubtaskId)</td>
-    <td>Elimina una subtarea específica.</td>
-    <td>SubtaskId</td>
-  </tr>
-<tr>
-  <td>update(subtask: Subtask)</td>
-  <td>Modifica los datos de una subtarea específica, como su nombre o estado.</td>
-  <td>Subtask</td>
-</tr>
-</table>
 
 **CommentRepository:**
 
-<table>
-  <tr>
-    <th>Método</th>
-    <th>Descripción</th>
-    <th>Clases Dependientes</th>
-  </tr>
-  <tr>
-    <td>save(comment: Comment)</td>
-    <td>Almacena un nuevo comentario .</td>
-    <td>Comment</td>
-  </tr>
-  <tr>
-    <td>findByTaskId(taskId: TaskId): List<Comment></td>
-    <td>Obtiene los comentarios asociados a una tarea.</td>
-    <td>TaskId, Comment</td>
-  </tr>
-  <tr>
-    <td>delete(id: CommentId)</td>
-    <td>Elimina un comentario por su ID.</td>
-    <td>CommentId</td>
-  </tr>
-<tr>
-  <td>update(comment: Comment)</td>
-  <td>Edita el contenido de un comentario asociado a una tarea.</td>
-  <td>Comment</td>
-</tr>
+<table cellpadding="6" cellspacing="0">
+  <thead>
+    <tr>
+      <th>Método</th>
+      <th>Descripción</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>save</td>
+      <td>Guarda un nuevo comentario en la base de datos.</td>
+    </tr>
+    <tr>
+      <td>findById</td>
+      <td>Busca un comentario por su identificador único (ID).</td>
+    </tr>
+    <tr>
+      <td>findByTaskId</td>
+      <td>Recupera todos los comentarios asociados a una tarea mediante su identificador (taskId).</td>
+    </tr>
+    <tr>
+      <td>deleteById</td>
+      <td>Elimina un comentario de la base de datos utilizando su identificador único (ID).</td>
+    </tr>
+    <tr>
+      <td>update</td>
+      <td>Actualiza los detalles de un comentario existente en la base de datos.</td>
+    </tr>
+  </tbody>
 </table>
 
 ##### 4.2.5.5. Bounded Context Software Architecture Component Level Diagrams
@@ -4270,9 +4146,9 @@ Este diagrama representa la arquitectura a nivel de componentes del Bounded Cont
 
 ###### 4.2.5.6.1. Bounded Context Domain Layer Class Diagrams
 
-El diagrama muestra la estructura central del Domain Layer para "Gestión de Tareas", organizado alrededor del **TaskAggregate** que controla todas las operaciones principales (creación de tareas, subtareas y comentarios). Las entidades **Task**, **Subtask** y **Comment** encapsulan datos y comportamientos específicos, mientras los **Value Objects** (TaskStatus, DueDate) garantizan validaciones. Las **Factories** se encargan de crear instancias válidas, y los **Domain Services** (TaskManagementService, SubtaskManagementService, CommentManagementService) orquestan operaciones complejas, aplicando reglas de negocio como permisos y validaciones de estado. Todo el diseño sigue principios DDD para mantener alta cohesión y bajo acoplamiento.
+Este diagrama de clases muestra un diseño simplificado para un sistema de gestión de tareas y comentarios siguiendo el patrón CQRS (Command Query Responsibility Segregation). El modelo central incluye la entidad `Task` (como Aggregate Root) con su Value Object `TaskStatus`, y la entidad `Comment`. Los servicios se dividen en comandos (`TaskCommandService` para operaciones de escritura como crear/actualizar/eliminar tareas) y consultas (`TaskQueryService` y `CommentQueryService` para operaciones de lectura). Las relaciones muestran cómo los servicios interactúan con las entidades: los de comando las manipulan, mientras que los de consulta solo acceden a los datos, manteniendo una clara separación de responsabilidades.
 
-<img src="./images/chapter-4/Domain-Layer-Class-Diagrams.png" alt="Chamilo" width="800"/>
+<img src="./images/chapter-4/domain-Layer-Class-Diagrams.png" alt="Chamilo" width="800"/>
 
 ###### 4.2.5.6.2. Bounded Context Database Design Diagram
 
