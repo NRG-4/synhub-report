@@ -4140,7 +4140,7 @@ Esta capa permite mantener una arquitectura desacoplada, separando la lógica de
 
 Este diagrama representa la arquitectura a nivel de componentes del Bounded Context de **Gestión de Tareas**, modelado utilizando la herramienta Structurizr y el enfoque C4. Se muestra cómo los distintos elementos del sistema colaboran para manejar funcionalidades relacionadas a tareas, subtareas y comentarios dentro de una aplicación distribuida.
 
-<img src="./images/chapter-4/taskManagement-componentDiagram.png" alt="Chamilo" width="800"/>
+<img src="./images/chapter-4/task_management-componentDiagram.png" alt="Chamilo" width="800"/>
 
 ##### 4.2.5.6. Bounded Context Software Architecture Code Level Diagrams
 
