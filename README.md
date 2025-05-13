@@ -1411,7 +1411,6 @@ En esta sección, se presenta el mapa de empatía, que nos ayudará a comprender
 
 **User Stories:**
 
-
 <table>
   <thead>
     <tr>
@@ -1908,9 +1907,424 @@ En esta sección, se presenta el mapa de empatía, que nos ayudará a comprender
   </td>
   <td>EP-005</td>
     </tr>
-  </tbody>
+<tr>
+      <td>TS-001</td>
+      <td>Obtener un grupo por ID</td>
+      <td>Como developer, quiero obtener un grupo por su ID para verificar que la API devuelve los detalles correctos del grupo.</td>
+      <td>
+        <b>Escenario 1: Grupo válido</b><br>
+        Given que el ID del grupo es válido,<br>
+        When se realiza la solicitud GET con el ID,<br>
+        Then se debe devolver los detalles del grupo correspondiente.<br><br>
+        <b>Escenario 2: Grupo no encontrado</b><br>
+        Given que el ID del grupo no existe,<br>
+        When se realiza la solicitud GET con el ID,<br>
+        Then la respuesta debe ser un error 404 indicando que no se encontró el grupo.
+      </td>
+      <td>EP-001</td>
+    </tr>
+    <tr>
+      <td>TS-002</td>
+      <td>Obtener todos los grupos de un usuario</td>
+      <td>Como developer, quiero obtener todos los grupos a los que pertenece un usuario para confirmar que la API devuelve todos los grupos correctamente.</td>
+      <td>
+        <b>Escenario 1: Usuario con grupos</b><br>
+        Given que el usuario pertenece a varios grupos,<br>
+        When se realiza la solicitud GET para obtener los grupos del usuario,<br>
+        Then se deben devolver todos los grupos a los que pertenece el usuario.<br><br>
+        <b>Escenario 2: Usuario sin grupos</b><br>
+        Given que el usuario no pertenece a ningún grupo,<br>
+        When se realiza la solicitud GET para obtener los grupos del usuario,<br>
+        Then se debe devolver un array vacío.
+      </td>
+      <td>EP-001</td>
+    </tr>
+    <tr>
+      <td>TS-003</td>
+      <td>Registrar un nuevo grupo</td>
+      <td>Como developer, quiero registrar un nuevo grupo para asegurarme de que el grupo se crea correctamente en el sistema.</td>
+      <td>
+        <b>Escenario 1: Creación de grupo exitosa</b><br>
+        Given que tengo los datos válidos para crear un grupo,<br>
+        When envío la solicitud POST para registrar el grupo,<br>
+        Then el grupo debe ser creado y debe devolver el ID del nuevo grupo.<br><br>
+        <b>Escenario 2: Datos incompletos</b><br>
+        Given que los datos para crear el grupo son incompletos,<br>
+        When se envía la solicitud POST con los datos incompletos,<br>
+        Then la respuesta debe ser un error 400 indicando que los datos son inválidos o incompletos.
+      </td>
+      <td>EP-001</td>
+    </tr>
+    <tr>
+      <td>TS-004</td>
+      <td>Agregar un miembro a un grupo</td>
+      <td>Como developer, quiero agregar un miembro a un grupo para asegurarme de que el miembro se asocia correctamente al grupo.</td>
+      <td>
+        <b>Escenario 1: Miembro agregado exitosamente</b><br>
+        Given que el grupo y el miembro existen,<br>
+        When se realiza la solicitud POST para agregar el miembro al grupo,<br>
+        Then el miembro debe ser agregado correctamente al grupo y la respuesta debe ser un código de éxito.<br><br>
+        <b>Escenario 2: Miembro o grupo no existe</b><br>
+        Given que el grupo o el miembro no existen,<br>
+        When se realiza la solicitud POST con IDs inválidos,<br>
+        Then la respuesta debe ser un error 404 indicando que el grupo o miembro no fue encontrado.
+      </td>
+      <td>EP-001</td>
+    </tr>
+    <tr>
+      <td>TS-005</td>
+      <td>Actualizar un grupo</td>
+      <td>Como developer, quiero actualizar los detalles de un grupo para asegurarme de que la modificación se realice correctamente.</td>
+      <td>
+        <b>Escenario 1: Actualización exitosa</b><br>
+        Given que el grupo existe y los datos son válidos,<br>
+        When se realiza la solicitud PUT para actualizar el grupo,<br>
+        Then los detalles del grupo deben ser actualizados correctamente.<br><br>
+        <b>Escenario 2: Datos inválidos</b><br>
+        Given que los datos proporcionados para la actualización son inválidos,<br>
+        When se realiza la solicitud PUT con los datos inválidos,<br>
+        Then la respuesta debe ser un error 400 indicando que los datos son incorrectos.
+      </td>
+      <td>EP-001</td>
+    </tr>
+    <tr>
+      <td>TS-006</td>
+      <td>Eliminar un grupo</td>
+      <td>Como developer, quiero eliminar un grupo para asegurarme de que el grupo se elimina correctamente del sistema.</td>
+      <td>
+        <b>Escenario 1: Eliminación exitosa</b><br>
+        Given que el grupo existe,<br>
+        When se realiza la solicitud DELETE para eliminar el grupo,<br>
+        Then el grupo debe ser eliminado correctamente y no debe estar disponible en futuras solicitudes.<br><br>
+        <b>Escenario 2: Grupo no encontrado</b><br>
+        Given que el grupo no existe,<br>
+        When se realiza la solicitud DELETE con un ID de grupo no válido,<br>
+        Then la respuesta debe ser un error 404 indicando que el grupo no fue encontrado.
+      </td>
+      <td>EP-001</td>
+    </tr>
+<tr>
+      <td>TS-007</td>
+      <td>Obtener todas las tareas por miembro</td>
+      <td>Como developer, quiero obtener todas las tareas asociadas a un miembro para verificar que la API devuelve correctamente las tareas asignadas.</td>
+      <td>
+        <b>Escenario 1: Miembro con tareas</b><br>
+        Given que el miembro tiene tareas asignadas,<br>
+        When se realiza la solicitud GET para obtener las tareas del miembro,<br>
+        Then se deben devolver todas las tareas asociadas al miembro.<br><br>
+        <b>Escenario 2: Miembro sin tareas</b><br>
+        Given que el miembro no tiene tareas asignadas,<br>
+        When se realiza la solicitud GET para obtener las tareas del miembro,<br>
+        Then la respuesta debe ser un array vacío indicando que no hay tareas.
+      </td>
+      <td>EP-002</td>
+    </tr>
+    <tr>
+      <td>TS-008</td>
+      <td>Crear una nueva tarea para un miembro</td>
+      <td>Como developer, quiero crear una nueva tarea para un miembro para asegurarme de que la tarea se asigna correctamente.</td>
+      <td>
+        <b>Escenario 1: Creación de tarea exitosa</b><br>
+        Given que el miembro existe y los datos de la tarea son válidos,<br>
+        When se realiza la solicitud POST para crear la tarea,<br>
+        Then la tarea debe ser creada y asignada correctamente al miembro.<br><br>
+        <b>Escenario 2: Datos inválidos</b><br>
+        Given que los datos de la tarea son inválidos,<br>
+        When se realiza la solicitud POST con los datos incorrectos,<br>
+        Then la respuesta debe ser un error 400 indicando que los datos son inválidos.
+      </td>
+      <td>EP-002</td>
+    </tr>
+    <tr>
+      <td>TS-009</td>
+      <td>Obtener todos los miembros</td>
+      <td>Como developer, quiero obtener todos los miembros para verificar que la API devuelve la lista completa de miembros registrados.</td>
+      <td>
+        <b>Escenario 1: Miembros registrados</b><br>
+        Given que hay miembros registrados en el sistema,<br>
+        When se realiza la solicitud GET para obtener todos los miembros,<br>
+        Then se deben devolver todos los miembros registrados.<br><br>
+        <b>Escenario 2: No hay miembros</b><br>
+        Given que no hay miembros registrados,<br>
+        When se realiza la solicitud GET para obtener todos los miembros,<br>
+        Then la respuesta debe ser un array vacío indicando que no hay miembros.
+      </td>
+      <td>EP-002</td>
+    </tr>
+    <tr>
+      <td>TS-010</td>
+      <td>Crear un nuevo miembro</td>
+      <td>Como developer, quiero crear un nuevo miembro para asegurarme de que el miembro se registra correctamente en el sistema.</td>
+      <td>
+        <b>Escenario 1: Miembro creado exitosamente</b><br>
+        Given que los datos del miembro son válidos,<br>
+        When se realiza la solicitud POST para crear el miembro,<br>
+        Then el miembro debe ser creado correctamente y la respuesta debe devolver el ID del miembro creado.<br><br>
+        <b>Escenario 2: Datos incompletos</b><br>
+        Given que los datos del miembro son incompletos,<br>
+        When se realiza la solicitud POST con los datos incompletos,<br>
+        Then la respuesta debe ser un error 400 indicando que los datos son incompletos.
+      </td>
+      <td>EP-002</td>
+    </tr>
+    <tr>
+      <td>TS-011</td>
+      <td>Obtener un miembro por ID</td>
+      <td>Como developer, quiero obtener los detalles de un miembro por su ID para verificar que la API devuelve correctamente la información del miembro.</td>
+      <td>
+        <b>Escenario 1: Miembro existente</b><br>
+        Given que el ID del miembro es válido,<br>
+        When se realiza la solicitud GET para obtener los detalles del miembro,<br>
+        Then se debe devolver la información correcta del miembro.<br><br>
+        <b>Escenario 2: Miembro no encontrado</b><br>
+        Given que el ID del miembro no existe,<br>
+        When se realiza la solicitud GET con un ID no válido,<br>
+        Then la respuesta debe ser un error 404 indicando que el miembro no fue encontrado.
+      </td>
+      <td>EP-002</td>
+    </tr>
+    <tr>
+      <td>TS-012</td>
+      <td>Obtener tarea por ID</td>
+      <td>Como developer, quiero obtener los detalles de una tarea por su ID para verificar que la API devuelve la información correcta de la tarea.</td>
+      <td>
+        <b>Escenario 1: Tarea encontrada</b><br>
+        Given que el ID de la tarea es válido,<br>
+        When se realiza la solicitud GET para obtener la tarea por ID,<br>
+        Then se debe devolver la información correcta de la tarea.<br><br>
+        <b>Escenario 2: Tarea no encontrada</b><br>
+        Given que el ID de la tarea no existe,<br>
+        When se realiza la solicitud GET con un ID no válido,<br>
+        Then la respuesta debe ser un error 404 indicando que la tarea no fue encontrada.
+      </td>
+      <td>EP-002</td>
+    </tr>
+    <tr>
+      <td>TS-013</td>
+      <td>Actualizar tarea</td>
+      <td>Como developer, quiero actualizar una tarea para asegurarme de que la tarea se modifica correctamente en el sistema.</td>
+      <td>
+        <b>Escenario 1: Actualización exitosa</b><br>
+        Given que la tarea existe y los datos son válidos,<br>
+        When se realiza la solicitud PUT para actualizar la tarea,<br>
+        Then los detalles de la tarea deben ser actualizados correctamente.<br><br>
+        <b>Escenario 2: Datos inválidos</b><br>
+        Given que los datos para actualizar la tarea son inválidos,<br>
+        When se realiza la solicitud PUT con datos incorrectos,<br>
+        Then la respuesta debe ser un error 400 indicando que los datos son inválidos.
+      </td>
+      <td>EP-002</td>
+    </tr>
+    <tr>
+      <td>TS-014</td>
+      <td>Eliminar tarea</td>
+      <td>Como developer, quiero eliminar una tarea para asegurarme de que la tarea se elimina correctamente del sistema.</td>
+      <td>
+        <b>Escenario 1: Eliminación exitosa</b><br>
+        Given que la tarea existe,<br>
+        When se realiza la solicitud DELETE para eliminar la tarea,<br>
+        Then la tarea debe ser eliminada correctamente y no debe estar disponible en futuras solicitudes.<br><br>
+        <b>Escenario 2: Tarea no encontrada</b><br>
+        Given que la tarea no existe,<br>
+        When se realiza la solicitud DELETE con un ID no válido,<br>
+        Then la respuesta debe ser un error 404 indicando que la tarea no fue encontrada.
+      </td>
+      <td>EP-002</td>
+    </tr>
+    <tr>
+      <td>TS-015</td>
+      <td>Actualizar estado de tarea</td>
+      <td>Como developer, quiero actualizar el estado de una tarea para asegurarme de que el estado se modifica correctamente en el sistema.</td>
+      <td>
+        <b>Escenario 1: Actualización de estado exitosa</b><br>
+        Given que la tarea existe y el nuevo estado es válido,<br>
+        When se realiza la solicitud PUT para actualizar el estado de la tarea,<br>
+        Then el estado de la tarea debe ser actualizado correctamente.<br><br>
+        <b>Escenario 2: Estado inválido</b><br>
+        Given que el estado proporcionado es inválido,<br>
+        When se realiza la solicitud PUT con un estado no válido,<br>
+        Then la respuesta debe ser un error 400 indicando que el estado es inválido.
+      </td>
+      <td>EP-002</td>
+    </tr>
+    <tr>
+      <td>TS-016</td>
+      <td>Obtener todas las tareas</td>
+      <td>Como developer, quiero obtener todas las tareas para verificar que la API devuelve todas las tareas correctamente.</td>
+      <td>
+        <b>Escenario 1: Tareas disponibles</b><br>
+        Given que hay tareas registradas en el sistema,<br>
+        When se realiza la solicitud GET para obtener todas las tareas,<br>
+        Then se deben devolver todas las tareas registradas.<br><br>
+        <b>Escenario 2: No hay tareas</b><br>
+        Given que no hay tareas registradas,<br>
+        When se realiza la solicitud GET para obtener todas las tareas,<br>
+        Then la respuesta debe ser un array vacío indicando que no hay tareas.
+      </td>
+      <td>EP-002</td>
+    </tr>
+    <tr>
+      <td>TS-017</td>
+      <td>Obtener tareas por estado</td>
+      <td>Como developer, quiero obtener todas las tareas filtradas por estado para verificar que la API devuelve correctamente las tareas según su estado.</td>
+      <td>
+        <b>Escenario 1: Tareas con estado específico</b><br>
+        Given que hay tareas con el estado solicitado,<br>
+        When se realiza la solicitud GET para obtener las tareas por estado,<br>
+        Then se deben devolver las tareas que tengan ese estado.<br><br>
+        <b>Escenario 2: No hay tareas con ese estado</b><br>
+        Given que no hay tareas con el estado solicitado,<br>
+        When se realiza la solicitud GET para obtener las tareas por estado,<br>
+        Then la respuesta debe ser un array vacío indicando que no hay tareas con ese estado.
+      </td>
+      <td>EP-002</td>
+    </tr>
+<tr>
+      <td>TS-018</td>
+      <td>Enviar notificación</td>
+      <td>Como developer, quiero enviar una notificación para asegurarme de que la notificación se envía correctamente al usuario.</td>
+      <td>
+        <b>Escenario 1: Envío exitoso de notificación</b><br>
+        Given que los datos de la notificación son válidos,<br>
+        When se realiza la solicitud POST para enviar la notificación,<br>
+        Then la notificación debe ser enviada correctamente y debe devolver una confirmación de éxito.<br><br>
+        <b>Escenario 2: Datos inválidos</b><br>
+        Given que los datos de la notificación son incompletos o inválidos,<br>
+        When se realiza la solicitud POST con los datos incorrectos,<br>
+        Then la respuesta debe ser un error 400 indicando que los datos son inválidos.
+      </td>
+      <td>EP-003</td>
+    </tr>
+    <tr>
+      <td>TS-019</td>
+      <td>Marcar notificación como leída</td>
+      <td>Como developer, quiero marcar una notificación como leída para asegurarme de que el estado de la notificación se actualiza correctamente.</td>
+      <td>
+        <b>Escenario 1: Marca como leída exitosa</b><br>
+        Given que la notificación existe y no ha sido leída,<br>
+        When se realiza la solicitud POST para marcar la notificación como leída,<br>
+        Then la notificación debe ser actualizada correctamente y su estado debe ser cambiado a "leída".<br><br>
+        <b>Escenario 2: Notificación ya leída</b><br>
+        Given que la notificación ya está marcada como leída,<br>
+        When se realiza la solicitud POST para marcarla nuevamente como leída,<br>
+        Then la respuesta debe ser un mensaje indicando que la notificación ya ha sido leída.
+      </td>
+      <td>EP-003</td>
+    </tr>
+    <tr>
+      <td>TS-020</td>
+      <td>Obtener notificaciones de usuario</td>
+      <td>Como developer, quiero obtener todas las notificaciones de un usuario para verificar que la API devuelve correctamente las notificaciones asociadas a un usuario.</td>
+      <td>
+        <b>Escenario 1: Usuario con notificaciones</b><br>
+        Given que el usuario tiene notificaciones,<br>
+        When se realiza la solicitud GET para obtener las notificaciones del usuario,<br>
+        Then se deben devolver todas las notificaciones asociadas al usuario.<br><br>
+        <b>Escenario 2: Usuario sin notificaciones</b><br>
+        Given que el usuario no tiene notificaciones,<br>
+        When se realiza la solicitud GET para obtener las notificaciones del usuario,<br>
+        Then la respuesta debe ser un array vacío indicando que no hay notificaciones.
+      </td>
+      <td>EP-003</td>
+    </tr>
+    <tr>
+      <td>TS-021</td>
+      <td>Obtener notificaciones no leídas de usuario</td>
+      <td>Como developer, quiero obtener todas las notificaciones no leídas de un usuario para verificar que la API devuelve correctamente las notificaciones no leídas.</td>
+      <td>
+        <b>Escenario 1: Usuario con notificaciones no leídas</b><br>
+        Given que el usuario tiene notificaciones no leídas,<br>
+        When se realiza la solicitud GET para obtener las notificaciones no leídas del usuario,<br>
+        Then se deben devolver todas las notificaciones no leídas del usuario.<br><br>
+        <b>Escenario 2: Usuario sin notificaciones no leídas</b><br>
+        Given que el usuario no tiene notificaciones no leídas,<br>
+        When se realiza la solicitud GET para obtener las notificaciones no leídas del usuario,<br>
+        Then la respuesta debe ser un array vacío indicando que no hay notificaciones no leídas.
+      </td>
+      <td>EP-003</td>
+    </tr>
+    <tr>
+      <td>TS-022</td>
+      <td>Generar reporte para un usuario</td>
+      <td>Como developer, quiero generar un reporte para un usuario para asegurarme de que la generación del reporte es exitosa y los datos son correctos.</td>
+      <td>
+        <b>Escenario 1: Generación exitosa del reporte</b><br>
+        Given que el usuario tiene los datos necesarios para generar un reporte,<br>
+        When se realiza la solicitud POST para generar el reporte,<br>
+        Then el reporte debe ser generado correctamente y devolver una confirmación con los detalles del reporte.<br><br>
+        <b>Escenario 2: Datos inválidos para generar reporte</b><br>
+        Given que los datos para generar el reporte son inválidos o incompletos,<br>
+        When se realiza la solicitud POST con los datos incorrectos,<br>
+        Then la respuesta debe ser un error 400 indicando que los datos para generar el reporte son inválidos.
+      </td>
+      <td>EP-004</td>
+    </tr>
+    <tr>
+      <td>TS-023</td>
+      <td>Obtener reportes de un usuario</td>
+      <td>Como developer, quiero obtener todos los reportes generados para un usuario para verificar que la API devuelve correctamente los reportes asociados al usuario.</td>
+      <td>
+        <b>Escenario 1: Usuario con reportes</b><br>
+        Given que el usuario tiene reportes generados,<br>
+        When se realiza la solicitud GET para obtener los reportes del usuario,<br>
+        Then se deben devolver todos los reportes asociados al usuario.<br><br>
+        <b>Escenario 2: Usuario sin reportes</b><br>
+        Given que el usuario no tiene reportes generados,<br>
+        When se realiza la solicitud GET para obtener los reportes del usuario,<br>
+        Then la respuesta debe ser un array vacío indicando que no hay reportes.
+      </td>
+      <td>EP-004</td>
+    </tr>
+<tr>
+      <td>TS-024</td>
+      <td>Actualizar estado de solicitud</td>
+      <td>Como developer, quiero actualizar el estado de una solicitud para reflejar correctamente su estado actual.</td>
+      <td>
+        <b>Escenario 1: Actualización exitosa del estado</b><br>
+        Given que la solicitud existe y el estado es válido,<br>
+        When se realiza la solicitud PUT para actualizar el estado de la solicitud,<br>
+        Then el estado de la solicitud debe ser actualizado correctamente y la respuesta debe devolver la confirmación de éxito.<br><br>
+        <b>Escenario 2: Estado inválido</b><br>
+        Given que el estado proporcionado no es válido,<br>
+        When se realiza la solicitud PUT con el estado incorrecto,<br>
+        Then la respuesta debe ser un error 400 indicando que el estado es inválido.
+      </td>
+      <td>EP-005</td>
+    </tr>
+    <tr>
+      <td>TS-025</td>
+      <td>Crear nueva solicitud</td>
+      <td>Como developer, quiero crear una nueva solicitud para asegurarme de que la solicitud se crea correctamente con los datos proporcionados.</td>
+      <td>
+        <b>Escenario 1: Creación exitosa de solicitud</b><br>
+        Given que los datos de la solicitud son válidos,<br>
+        When se realiza la solicitud POST para crear la nueva solicitud,<br>
+        Then la solicitud debe ser creada correctamente y la respuesta debe devolver los detalles de la solicitud recién creada.<br><br>
+        <b>Escenario 2: Datos inválidos</b><br>
+        Given que los datos de la solicitud son incompletos o incorrectos,<br>
+        When se realiza la solicitud POST con los datos incorrectos,<br>
+        Then la respuesta debe ser un error 400 indicando que los datos son inválidos.
+      </td>
+      <td>EP-005</td>
+    </tr>
+    <tr>
+      <td>TS-026</td>
+      <td>Obtener solicitud por ID</td>
+      <td>Como developer, quiero obtener una solicitud por su ID para verificar que la API devuelve la solicitud correcta con los detalles asociados.</td>
+      <td>
+        <b>Escenario 1: Solicitud existente</b><br>
+        Given que la solicitud con el ID proporcionado existe,<br>
+        When se realiza la solicitud GET para obtener los detalles de la solicitud,<br>
+        Then se deben devolver correctamente los detalles de la solicitud asociada al ID proporcionado.<br><br>
+        <b>Escenario 2: Solicitud no encontrada</b><br>
+        Given que la solicitud con el ID proporcionado no existe,<br>
+        When se realiza la solicitud GET para obtener los detalles de la solicitud,<br>
+        Then la respuesta debe ser un error 404 indicando que la solicitud no se encuentra.
+      </td>
+      <td>EP-005</td>
+    </tr>
+<tbody>
 </table>
-
 
 ### 3.3. Impact Mapping
 
@@ -3905,9 +4319,7 @@ TaskController:
   </tbody>
 </table>
 
-
 CommentController:
-
 
 <table  cellpadding="6" cellspacing="0">
   <thead>
@@ -3951,8 +4363,6 @@ Esta capa es crucial porque centraliza la lógica de negocio, garantizando que l
 
 Task Command Handler:
 
-
-
 <table cellpadding="6" cellspacing="0">
   <thead>
     <tr>
@@ -3982,7 +4392,6 @@ Task Command Handler:
 
 Comment Command Handler:
 
-
 <table  cellpadding="6" cellspacing="0">
   <thead>
     <tr>
@@ -4000,11 +4409,9 @@ Comment Command Handler:
   </tbody>
 </table>
 
-
 ### **Event Handlers**
 
 Task Event Handler:
-
 
 <table  cellpadding="6" cellspacing="0">
   <thead>
@@ -4033,9 +4440,7 @@ Task Event Handler:
   </tbody>
 </table>
 
-
 Comment Event Handler:
-
 
 <table  cellpadding="6" cellspacing="0">
   <thead>
@@ -4053,7 +4458,6 @@ Comment Event Handler:
     </tr>
   </tbody>
 </table>
-
 
 ##### 4.2.5.4. Infrastructure Layer
 
@@ -4100,8 +4504,6 @@ Esta capa permite mantener una arquitectura desacoplada, separando la lógica de
     </tr>
   </tbody>
 </table>
-
-
 
 **CommentRepository:**
 
