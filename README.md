@@ -1914,68 +1914,53 @@ En esta sección, se presenta el mapa de empatía, que nos ayudará a comprender
 
 ### 3.3. Impact Mapping
 
-<img src="images/chapter-3/impactMapping.png" alt="ImpactMapping" width="800"/>
+<img src="images/chapter-3/impactmapping.png" alt="ImpactMapping" width="800"/>
 
 ### 3.4. Product Backlog
 
-<body>
-    <table>
-        <thead>
-            <tr>
-                <th>Prioridad</th>
-                <th>Story ID</th>
-                <th>Título</th>
-                <th>Descripción</th>
-                <th>SP</th>
-            </tr>
-        </thead>
-          <tbody>
-            <tr><td>1</td><td>US-001</td><td>Selección de los miembros del grupo</td><td>Como líder de grupo, deseo poder seleccionar los miembros...</td><td>5</td></tr>
-            <tr><td>2</td><td>US-003</td><td>Creación del grupo</td><td>Como líder de grupo, deseo poder definir grupo junto con su objetivo...</td><td>5</td></tr>
-            <tr><td>3</td><td>US-007</td><td>Asignación de tareas a los miembros</td><td>Como líder de grupo, deseo asignar tareas a miembros...</td><td>5</td></tr>
-            <tr><td>4</td><td>US-004</td><td>Página de inicio personalizada con tareas y horarios</td><td>Como miembro del equipo, deseo tener una página de inicio...</td><td>5</td></tr>
-            <tr><td>5</td><td>US-005</td><td>Asignación de niveles de prioridad</td><td>Como líder de grupo, deseo poder asignar tareas con niveles de prioridad...</td><td>3</td></tr>
-            <tr><td>6</td><td>US-006</td><td>Notificaciones automáticas sobre tareas y fechas clave</td><td>Como miembro del equipo, deseo recibir notificaciones automáticas...</td><td>3</td></tr>
-            <tr><td>7</td><td>US-009</td><td>Visualización del tablero de tareas</td><td>Como líder de grupo, deseo tener un tablero visual en tiempo real...</td><td>3</td></tr>
-            <tr><td>8</td><td>US-013</td><td>Dashboard de progreso grupal</td><td>Como líder, deseo ver un panel con el avance de objetivos...</td><td>3</td></tr>
-            <tr><td>9</td><td>US-022</td><td>Visualización de tareas grupales</td><td>Como miembro de un equipo en SynHub, deseo acceder a una vista consolidada...</td><td>3</td></tr>
-            <tr><td>10</td><td>US-002</td><td>Visualización de integrantes y líder</td><td>Como miembro de grupo, deseo poder visualizar los integrantes de mi grupo...</td><td>3</td></tr>
-            <tr><td>11</td><td>US-010</td><td>Edición de tareas</td><td>Como miembro del equipo, deseo poder editar las tareas asignadas...</td><td>3</td></tr>
-            <tr><td>12</td><td>US-011</td><td>Eliminación de tareas</td><td>Como líder de grupo, deseo poder eliminar tareas obsoletas o incorrectas...</td><td>3</td></tr>
-            <tr><td>13</td><td>US-012</td><td>Filtro de tareas por prioridad y fecha</td><td>Como miembro del equipo, deseo filtrar tareas por prioridad o fecha límite...</td><td>3</td></tr>
-            <tr><td>14</td><td>US-014</td><td>Comentarios en tareas</td><td>Como miembro del grupo, deseo poder dejar comentarios en tareas específicas...</td><td>3</td></tr>
-            <tr><td>15</td><td>US-015</td><td>Historial de cambios en tareas</td><td>Como líder, deseo ver el historial de cambios en las tareas...</td><td>3</td></tr>
-            <tr><td>16</td><td>US-016</td><td>Asignación múltiple de tareas</td><td>Como líder de grupo, deseo poder asignar una tarea a varios miembros...</td><td>3</td></tr>
-            <tr><td>17</td><td>US-017</td><td>Buscador de tareas</td><td>Como miembro, deseo buscar tareas por palabra clave...</td><td>3</td></tr>
-            <tr><td>18</td><td>US-018</td><td>Visualización por calendario</td><td>Como miembro, deseo ver las tareas en una vista de calendario...</td><td>3</td></tr>
-            <tr><td>19</td><td>US-019</td><td>Exportar tareas a PDF</td><td>Como miembro, deseo exportar mis tareas a un archivo PDF...</td><td>2</td></tr>
-            <tr><td>20</td><td>US-020</td><td>Integración con Google Calendar</td><td>Como miembro, deseo integrar mis tareas con Google Calendar...</td><td>2</td></tr>
-            <tr><td>21</td><td>US-021</td><td>Recordatorios por correo</td><td>Como miembro, deseo recibir recordatorios por correo...</td><td>2</td></tr>
-            <tr><td>22</td><td>US-023</td><td>Reordenar tareas manualmente</td><td>Como usuario, deseo arrastrar y soltar tareas para reorganizarlas manualmente...</td><td>2</td></tr>
-            <tr><td>23</td><td>US-024</td><td>Colores por estado</td><td>Como usuario, deseo que las tareas cambien de color según su estado...</td><td>2</td></tr>
-            <tr><td>24</td><td>US-025</td><td>Perfil de usuario</td><td>Como usuario, deseo tener un perfil donde pueda cambiar mi foto, nombre y rol...</td><td>2</td></tr>
-            <tr><td>25</td><td>US-026</td><td>Roles de usuario</td><td>Como administrador, deseo poder asignar roles a los usuarios...</td><td>2</td></tr>
-            <tr><td>26</td><td>US-027</td><td>Confirmación de lectura</td><td>Como líder, deseo saber quién ha visto una tarea asignada...</td><td>2</td></tr>
-            <tr><td>27</td><td>US-028</td><td>Reasignar tareas</td><td>Como líder, deseo poder reasignar tareas de un miembro a otro...</td><td>2</td></tr>
-            <tr><td>28</td><td>US-029</td><td>Chat grupal</td><td>Como usuario, deseo tener un chat para comunicarme con mi grupo...</td><td>2</td></tr>
-            <tr><td>29</td><td>US-030</td><td>Reacciones en comentarios</td><td>Como usuario, deseo poder reaccionar a comentarios con emojis...</td><td>2</td></tr>
-            <tr><td>30</td><td>US-031</td><td>Soporte técnico</td><td>Como usuario, deseo contactar al soporte técnico desde la plataforma...</td><td>2</td></tr>
-            <tr><td>31</td><td>US-032</td><td>Indicador de actividad</td><td>Como líder, deseo ver quién está activo en la plataforma...</td><td>2</td></tr>
-            <tr><td>32</td><td>US-033</td><td>Recuperación de contraseña</td><td>Como usuario, deseo poder recuperar mi contraseña si la olvido...</td><td>2</td></tr>
-            <tr><td>33</td><td>US-034</td><td>Confirmación al eliminar tarea</td><td>Como usuario, deseo recibir una alerta de confirmación antes de eliminar una tarea...</td><td>1</td></tr>
-            <tr><td>34</td><td>US-035</td><td>Instrucciones de uso</td><td>Como nuevo usuario, deseo acceder a un tutorial o guía rápida...</td><td>1</td></tr>
-            <tr><td>35</td><td>US-036</td><td>Modo oscuro</td><td>Como usuario, deseo activar un modo oscuro...</td><td>1</td></tr>
-            <tr><td>36</td><td>US-037</td><td>Estadísticas de uso</td><td>Como administrador, deseo ver estadísticas generales del uso de la plataforma...</td><td>1</td></tr>
-            <tr><td>37</td><td>US-038</td><td>Control de versiones</td><td>Como desarrollador, deseo mantener un control de versiones del sistema...</td><td>1</td></tr>
-            <tr><td>38</td><td>US-039</td><td>Soporte móvil</td><td>Como usuario, deseo acceder desde mi celular sin perder funcionalidad...</td><td>1</td></tr>
-            <tr><td>39</td><td>US-040</td><td>Etiquetas personalizadas</td><td>Como usuario, deseo agregar etiquetas personalizadas a mis tareas...</td><td>1</td></tr>
-            <tr><td>40</td><td>US-041</td><td>Integración con herramientas externas</td><td>Como usuario avanzado, deseo integrar la plataforma con otras herramientas...</td><td>1</td></tr>
-            <tr><td>41</td><td>US-008</td><td>Asignación de fechas límite</td><td>Como líder de grupo, deseo establecer fechas límite en las tareas...</td><td>3</td></tr>
-            <tr><td>40</td><td>US-042</td><td>Ajuste de disponibilidad temporal</td><td>Como miembro, deseo poder ajustar mi disponibilidad estimada para un día específico...</td><td>1</td></tr>
-            <tr><td>40</td><td>US-043</td><td>Notificación de ajuste de disponibilidad significativo</td><td>Como líder, deseo recibir notificaciones automáticas cuando un miembro actualiza...</td><td>2</td></tr>
-        </tbody>
-    </table>
-</body>
+<table>
+  <thead>
+    <tr>
+      <th>Prioridad</th>
+      <th>Story ID</th>
+      <th>Título</th>
+      <th>Descripción</th>
+      <th>SP</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>US-001</td><td>Creación de grupo</td><td>Como líder, quiero crear grupos para organizar el trabajo de mi equipo.</td><td>8</td></tr>
+    <tr><td>2</td><td>US-002</td><td>Envío de invitaciones</td><td>Como líder, quiero invitar miembros a mi grupo para conformar el equipo.</td><td>8</td></tr>
+    <tr><td>3</td><td>US-004</td><td>Creación de tareas</td><td>Como líder, quiero crear tareas para asignar trabajo a los miembros.</td><td>5</td></tr>
+    <tr><td>4</td><td>US-005</td><td>Asignación de tareas</td><td>Como líder, quiero asignar tareas a miembros específicos para distribuir el trabajo.</td><td>5</td></tr>
+    <tr><td>5</td><td>US-007</td><td>Actualización de estado</td><td>Como miembro, quiero actualizar el estado de mis tareas para reflejar mi progreso.</td><td>5</td></tr>
+    <tr><td>6</td><td>US-016</td><td>Solicitud de aprobación de tarea</td><td>Como miembro, quiero enviar tareas completadas para validación del líder.</td><td>5</td></tr>
+    <tr><td>7</td><td>US-017</td><td>Validación de tareas</td><td>Como líder, quiero aprobar o rechazar tareas completadas para asegurar calidad.</td><td>5</td></tr>
+    <tr><td>8</td><td>US-012</td><td>Gráfico de distribución de tareas</td><td>Como líder, quiero ver un gráfico pastel con la distribución de tareas por miembro.</td><td>5</td></tr>
+    <tr><td>9</td><td>US-013</td><td>Gráfico de estados de tareas</td><td>Como líder, quiero ver un gráfico de barras con el estado de todas las tareas del grupo.</td><td>5</td></tr>
+    <tr><td>10</td><td>US-003</td><td>Eliminación de grupo</td><td>Como líder, quiero eliminar grupos inactivos para mantener la organización.</td><td>3</td></tr>
+    <tr><td>11</td><td>US-006</td><td>Eliminación de tareas</td><td>Como líder, quiero eliminar tareas incorrectas o duplicadas.</td><td>3</td></tr>
+    <tr><td>12</td><td>US-008</td><td>Reprogramación de tareas</td><td>Como líder, quiero cambiar fechas límite cuando surgen imprevistos.</td><td>3</td></tr>
+    <tr><td>13</td><td>US-018</td><td>Solicitud de extensión de plazo</td><td>Como miembro, quiero pedir más tiempo para una tarea cuando surgen impedimentos.</td><td>3</td></tr>
+    <tr><td>14</td><td>US-009</td><td>Notificaciones in-app</td><td>Como miembro, quiero recibir notificaciones en la plataforma para estar informado.</td><td>3</td></tr>
+    <tr><td>15</td><td>US-010</td><td>Notificaciones por email</td><td>Como miembro, quiero recibir notificaciones por email cuando no esté activo en la plataforma.</td><td>3</td></tr>
+    <tr><td>16</td><td>US-014</td><td>Reporte de reprogramaciones</td><td>Como líder, quiero ver un gráfico de líneas con la cantidad de tareas reprogramadas por semana.</td><td>3</td></tr>
+    <tr><td>17</td><td>US-015</td><td>Reporte de productividad individual</td><td>Como líder, quiero evaluar el desempeño de cada miembro a través de métricas claras.</td><td>3</td></tr>
+    <tr><td>18</td><td>US-019</td><td>Histórico de validaciones</td><td>Como líder, quiero ver el historial de aprobaciones/rechazos para identificar patrones.</td><td>3</td></tr>
+    <tr><td>19</td><td>US-020</td><td>Notificaciones de cambio de estado</td><td>Como miembro, quiero recibir alertas cuando mis solicitudes cambian de estado.</td><td>3</td></tr>
+    <tr><td>20</td><td>US-011</td><td>Preferencias de notificación</td><td>Como miembro, quiero configurar qué notificaciones recibo para gestionar mi atención.</td><td>2</td></tr>
+    <tr><td>21</td><td>US-021</td><td>Visualización de miembros del grupo</td><td>Como líder, quiero ver la lista de miembros de mi grupo para gestionar la colaboración.</td><td>2</td></tr>
+    <tr><td>22</td><td>US-022</td><td>Edición de información del grupo</td><td>Como líder, quiero editar la información de mi grupo para mantenerla actualizada.</td><td>2</td></tr>
+    <tr><td>23</td><td>US-023</td><td>Visualización de tareas asignadas</td><td>Como miembro, quiero ver las tareas que me han sido asignadas para gestionar mi trabajo.</td><td>2</td></tr>
+    <tr><td>24</td><td>US-024</td><td>Comentario en tareas</td><td>Como miembro, quiero comentar en las tareas para comunicarme con el líder sobre el progreso.</td><td>2</td></tr>
+    <tr><td>25</td><td>US-025</td><td>Configuración de preferencias de notificación</td><td>Como usuario, quiero configurar mis preferencias de notificación para recibir solo las alertas relevantes.</td><td>2</td></tr>
+    <tr><td>26</td><td>US-026</td><td>Resumen semanal de actividad</td><td>Como miembro, quiero recibir un resumen semanal de mi actividad para revisar mi desempeño.</td><td>2</td></tr>
+    <tr><td>27</td><td>US-027</td><td>Visualización de carga de trabajo por miembro</td><td>Como líder, quiero ver la carga de trabajo de cada miembro para equilibrar las asignaciones.</td><td>2</td></tr>
+    <tr><td>28</td><td>US-028</td><td>Reporte de cumplimiento de plazos</td><td>Como líder, quiero ver un reporte de cumplimiento de plazos para evaluar la eficiencia del equipo.</td><td>2</td></tr>
+    <tr><td>29</td><td>US-029</td><td>Revisión de comentarios en tareas</td><td>Como líder, quiero revisar los comentarios en las tareas para proporcionar retroalimentación oportuna.</td><td>1</td></tr>
+    <tr><td>30</td><td>US-030</td><td>Confirmación antes de eliminar una tarea</td><td>Como líder, quiero recibir una confirmación antes de eliminar una tarea para evitar borrados accidentales.</td><td>1</td></tr>
+  </tbody>
+</table>
 
 ## Capítulo IV: Solution Software Design
 
