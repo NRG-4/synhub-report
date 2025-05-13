@@ -1555,7 +1555,7 @@ En esta sección, se presenta el mapa de empatía, que nos ayudará a comprender
     <tr>
       <td>US-009</td>
       <td>Notificaciones in-app</td>
-      <td>Como usuario, quiero recibir notificaciones en la plataforma para estar informado.</td>
+      <td>Como miembro, quiero recibir notificaciones en la plataforma para estar informado.</td>
       <td>
         <b>Escenario 1: Nueva notificación</b><br>
         Given que ocurre un evento relevante,<br>
@@ -1571,7 +1571,7 @@ En esta sección, se presenta el mapa de empatía, que nos ayudará a comprender
     <tr>
       <td>US-010</td>
       <td>Notificaciones por email</td>
-      <td>Como usuario, quiero recibir notificaciones por email cuando no esté activo en la plataforma.</td>
+      <td>Como miembro, quiero recibir notificaciones por email cuando no esté activo en la plataforma.</td>
       <td>
         <b>Escenario 1: Email estándar</b><br>
         Given que ocurre un evento importante,<br>
@@ -1587,7 +1587,7 @@ En esta sección, se presenta el mapa de empatía, que nos ayudará a comprender
     <tr>
       <td>US-011</td>
       <td>Preferencias de notificación</td>
-      <td>Como usuario, quiero configurar qué notificaciones recibo para gestionar mi atención.</td>
+      <td>Como miembro, quiero configurar qué notificaciones recibo para gestionar mi atención.</td>
       <td>
         <b>Escenario 1: Desactivar notificaciones</b><br>
         Given que desactivo un tipo de notificación,<br>
@@ -1731,7 +1731,7 @@ En esta sección, se presenta el mapa de empatía, que nos ayudará a comprender
     <tr>
       <td>US-020</td>
       <td>Notificaciones de cambio de estado</td>
-      <td>Como usuario, quiero recibir alertas cuando mis solicitudes cambian de estado.</td>
+      <td>Como miembro, quiero recibir alertas cuando mis solicitudes cambian de estado.</td>
       <td>
         <b>Escenario 1: Aprobación recibida</b><br>
         Given que mi solicitud es aprobada,<br>
@@ -1829,7 +1829,7 @@ En esta sección, se presenta el mapa de empatía, que nos ayudará a comprender
     <tr>
       <td>US-026</td>
       <td>Resumen semanal de actividad</td>
-      <td>Como usuario, quiero recibir un resumen semanal de mi actividad para revisar mi desempeño.</td>
+      <td>Como miembro, quiero recibir un resumen semanal de mi actividad para revisar mi desempeño.</td>
       <td>
         <b>Escenario 1: Generación del resumen</b><br>
         Given que ha transcurrido una semana,<br>
@@ -1914,7 +1914,7 @@ En esta sección, se presenta el mapa de empatía, que nos ayudará a comprender
 
 ### 3.3. Impact Mapping
 
-<img src="images/chapter-3/impactmapping.png" alt="ImpactMapping" width="800"/>
+<img src="images/chapter-3/impactMapping.png" alt="ImpactMapping" width="800"/>
 
 ### 3.4. Product Backlog
 
