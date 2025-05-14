@@ -127,11 +127,11 @@ Para esta primera entrega se desarollaron los cpaítulos del 1 al 4, en la captu
 
 Recapitulando los commits se dividieron de la siguiente manera:
 
-* Alejo Cardenas Jose Antonio (Firtness): 31 commits
-* Astonitas Díaz Juan Diego (NeoRise456): 13 commits
-* Casas Sanchez Gabriel Alexander (Al3xiel): 33 commits
-* Pacheco Astiguetta Sebastian (Pachieeee): 11 commits
-* Pasquale Barrenechea Gianluca Santino (cwassointt): 10 commits
+* Alejo Cardenas Jose Antonio (Firtness): 48 commits
+* Astonitas Díaz Juan Diego (NeoRise456): 8 commits
+* Casas Sanchez Gabriel Alexander (Al3xiel): 27 commits
+* Pacheco Astiguetta Sebastian (Pachieeee): 17 commits
+* Pasquale Barrenechea Gianluca Santino (cwassointt): 18 commits
 
 ## Contenido
 
