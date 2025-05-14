@@ -71,6 +71,24 @@
       <td>Casas Sanchez Gabriel Alexander, Astonitas Díaz Juan Diego y Alejo Cardenas Jose Antonio</td>
       <td>Revisión completa hasta el capitulo 4, corrección ortográfica y coherencia global del reporte.</td>
     </tr>
+<tr>
+      <td>1.1</td>
+      <td>2025-05-07</td>
+      <td>Casas Sanchez Gabriel Alexander, Alejo Cardenas Jose Antonio</td>
+      <td>General Style Guidelines,Organization Systems,Labelling Systems ,SEO Tags and Meta Tags ,Searching Systems ,Navigation Systems,Landing Page Wireframe ,Landing Page Mock-up ,Mobile Applications Wireframes ,Mobile Applications Wireflow Diagrams ,Mobile Applications Mock-ups ,Mobile Applications User Flow Diagrams y Mobile Applications Prototyping .</td>
+    </tr>
+<tr>
+      <td>1.2</td>
+      <td>2025-05-10</td>
+      <td>Alejo Cardenas Jose Antonio, Astonitas Díaz Juan Diego, Pasquale Barrenechea Gianluca Santino y Pacheco Astiguetta Sebastian</td>
+      <td>Bounded Context: Solicitudes y Validaciones,Bounded Context: Gestión de tareas,Bounded Context: Notificaciones,Bounded context: Analitica y Reportes,Bounded Context: Gestión de grupos.</td>
+    </tr>
+<tr>
+      <td>2.0</td>
+      <td>2025-05-14</td>
+      <td>Casas Sanchez Gabriel Alexander y Alejo Cardenas Jose Antonio</td>
+      <td>Software Development Environment Configuration , Source Code Management ,Source Code Style Guide & Conventions ,Software Deployment Configuration,Sprint Planning 1 ,Sprint Backlog 1,Development Evidence for Sprint Review ,Testing Suite Evidence for Sprint Review ,Execution Evidence for Sprint Review ,Services Documentation Evidence for Sprint Review ,Software Deployment Evidence for Sprint Review ,Team Collaboration Insights during Sprint</td>
+    </tr>
   </tbody>
 </table>
 
@@ -95,6 +113,24 @@ Recapitulando los commits se dividieron de la siguiente manera:
 * Alejo Cardenas Jose Antonio (Firtness): 30 commits
 * Astonitas Díaz Juan Diego (NeoRise456): 13 commits
 * Casas Sanchez Gabriel Alexander (Al3xiel): 31 commits
+* Pacheco Astiguetta Sebastian (Pachieeee): 11 commits
+* Pasquale Barrenechea Gianluca Santino (cwassointt): 10 commits
+
+Entrega TP (14/05/2025):
+
+
+<img src="images/insights/report-insights-2-1.png" alt="Insights Report Collaboration Insights 1" />
+<img src="images/insights/report-insights-2-2.png" alt="Insights Report Collaboration Insights 2" />
+<img src="images/insights/report-insights-2-3.png" alt="Insights Report Collaboration Insights 3" />
+<img src="images/insights/report-insights-2-4.png" alt="Insights Report Collaboration Insights 4" />
+
+Para esta primera entrega se desarollaron los cpaítulos del 1 al 4, en la captura adjuntada se evidencia del trabajo colaborativo de github. Todos los integrantes del grupo trabajaron en el proyecto.
+
+Recapitulando los commits se dividieron de la siguiente manera:
+
+* Alejo Cardenas Jose Antonio (Firtness): 31 commits
+* Astonitas Díaz Juan Diego (NeoRise456): 13 commits
+* Casas Sanchez Gabriel Alexander (Al3xiel): 33 commits
 * Pacheco Astiguetta Sebastian (Pachieeee): 11 commits
 * Pasquale Barrenechea Gianluca Santino (cwassointt): 10 commits
 
@@ -224,19 +260,27 @@ EAC - Student Outcome 7.
     <tr>
       <td>1. Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de software.</td>
       <td>
-        TB1:<br>Casas Sanchez Gabriel Alexander-TB1: Desarrollo de secciones clave como Startup Profile, Problem Statement, Business Canvas, Segmentos Objetivos y Solution Profile. Participó activamente en el modelado estratégico mediante Event Storming, desarrollando Candidate Context Discovery, Domain Message Flows Modeling, Bounded Context Canvases y Context Mapping.<br>  Alejo Cardenas Jose Antonio-TB1: Encargado del Análisis Competitivo y la definición de Estrategias y Tácticas frente a Competidores. Elaboró artefactos de investigación y diseño como la User Task Matrix, el As-is Scenario Mapping y Ubiquitous Language. Participó en la proyección del producto con To-Be Scenario Mapping, Impact Mapping, Software Architecture, User Stories y el Diseño de Entrevistas.<br> Astonitas Díaz Juan Diego-TB1: Responsable de la redacción de los Antecedentes y Problemática. Contribuyó con la definición de User Stories, la elaboración y registro de Entrevistas, así como el diseño de la Base de Datos (Database Design).<br> Pasquale Barrenechea Gianluca Santino-TB1: Desarrolló herramientas clave de diseño centradas en el usuario como User Personas, User Journey Mapping y Empathy Mapping. También participó en la definición de User Stories, el armado del Product Backlog y la realización de Entrevistas.<br> Pacheco Astiguetta Sebastian-TB1: Encargado del análisis de Assumptions y la formulación de Hypothesis Statements. Además, colaboró en la definición de User Stories y en la ejecución de Entrevistas.<br>TP1:<br><br>
+        <br> TB1: <br>Casas Sanchez Gabriel Alexander-TB1: Desarrollo de secciones clave como Startup Profile, Problem Statement, Business Canvas, Segmentos Objetivos y Solution Profile. Participó activamente en el modelado estratégico mediante Event Storming, desarrollando Candidate Context Discovery, Domain Message Flows Modeling, Bounded Context Canvases y Context Mapping.<br>  Alejo Cardenas Jose Antonio-TB1: Encargado del Análisis Competitivo y la definición de Estrategias y Tácticas frente a Competidores. Elaboró artefactos de investigación y diseño como la User Task Matrix, el As-is Scenario Mapping y Ubiquitous Language. Participó en la proyección del producto con To-Be Scenario Mapping, Impact Mapping, Software Architecture, User Stories y el Diseño de Entrevistas.<br> Astonitas Díaz Juan Diego-TB1: Responsable de la redacción de los Antecedentes y Problemática. Contribuyó con la definición de User Stories, la elaboración y registro de Entrevistas, así como el diseño de la Base de Datos (Database Design).<br> Pasquale Barrenechea Gianluca Santino-TB1: Desarrolló herramientas clave de diseño centradas en el usuario como User Personas, User Journey Mapping y Empathy Mapping. También participó en la definición de User Stories, el armado del Product Backlog y la realización de Entrevistas.<br> Pacheco Astiguetta Sebastian-TB1: Encargado del análisis de Assumptions y la formulación de Hypothesis Statements. Además, colaboró en la definición de User Stories y en la ejecución de Entrevistas.<br><br> TP: <br> <br>Casas Sanchez Gabriel Alexander-TP:General Style Guidelines,Organization Systems,Labelling Systems ,SEO Tags and Meta Tags ,Searching Systems ,Navigation Systems,Mobile Applications Wireframes ,Mobile Applications Wireflow Diagrams ,Mobile Applications User Flow Diagrams,Software Development Environment Configuration , Source Code Management ,Source Code Style Guide & Conventions ,Software Deployment Configuration
+<br>Pacheco Astiguetta Sebastian-TP: Bounded Context: Solicitudes y Validaciones
+<br>Astonitas Díaz Juan Diego-TP: Bounded Context: Gestión de grupos,Landing Page Wireframe y Landing Page Mock-up 
+<br>Pasquale Barrenechea Gianluca Santino-TP: Bounded context: Analitica y Reportes y Bounded Context: Notificaciones
+<br>Alejo Cardenas Jose Antonio-TP: Bounded Context: Gestión de tareas,Mobile Applications Mock-ups ,Mobile Applications Prototyping,Sprint Planning 1 ,Sprint Backlog 1,Development Evidence for Sprint Review ,Testing Suite Evidence for Sprint Review ,Execution Evidence for Sprint Review ,Services Documentation Evidence for Sprint Review ,Software Deployment Evidence for Sprint Review ,Team Collaboration Insights during Sprint <br>
       </td>
       <td>
-        Durante el desarrollo del TB1, cada integrante del equipo actualizó y fortaleció sus conocimientos en metodologías ágiles, diseño centrado en el usuario, modelado estratégico y arquitectura de software. A través de la aplicación práctica de herramientas como Lean UX Canvas, Event Storming, Context Mapping y desarrollo de User Stories, logramos conectar la teoría con la ejecución de un proyecto real. Esta experiencia no solo nos permitió comprender mejor los conceptos aprendidos en clase, sino también integrarlos en la solución propuesta, elevando así nuestra preparación profesional y nuestra capacidad de enfrentar retos en el desarrollo de soluciones de software. Durante el TP1 ...
+        TB1:Durante el desarrollo del trabajo final, cada integrante del equipo actualizó y fortaleció sus conocimientos en metodologías ágiles, diseño centrado en el usuario, modelado estratégico y arquitectura de software. A través de la aplicación práctica de herramientas como Lean UX Canvas, Event Storming, Context Mapping y desarrollo de User Stories, logramos conectar la teoría con la ejecución de un proyecto real. Esta experiencia no solo nos permitió comprender mejor los conceptos aprendidos en clase, sino también integrarlos en la solución propuesta, elevando así nuestra preparación profesional y nuestra capacidad de enfrentar retos en el desarrollo de soluciones de software.<br>TP:El equipo ha demostrado una actualización efectiva de conceptos clave en diversas áreas del desarrollo de software, abordando tanto aspectos técnicos como de diseño y gestión. Desde la configuración del entorno de desarrollo, el manejo de código fuente y buenas prácticas de estilo, hasta la implementación de sistemas de navegación, etiquetado, SEO y diseño de interfaces móviles, se evidencia un dominio creciente de herramientas y metodologías actuales. Esta amplitud de conocimientos refleja una preparación profesional alineada con los requerimientos del proyecto y las demandas del sector tecnológico.
       </td>
     </tr>
     <tr>
       <td>2. Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de software.</td>
       <td>
-        TB1:<br>Casas Sanchez Gabriel Alexander-TB1: Desarrollo de secciones clave como Startup Profile, Problem Statement, Business Canvas, Segmentos Objetivos y Solution Profile. Participó activamente en el modelado estratégico mediante Event Storming, desarrollando Candidate Context Discovery, Domain Message Flows Modeling, Bounded Context Canvases y Context Mapping.<br>  Alejo Cardenas Jose Antonio-TB1: Encargado del Análisis Competitivo y la definición de Estrategias y Tácticas frente a Competidores. Elaboró artefactos de investigación y diseño como la User Task Matrix, el As-is Scenario Mapping y Ubiquitous Language. Participó en la proyección del producto con To-Be Scenario Mapping, Impact Mapping, Software Architecture, User Stories y el Diseño de Entrevistas.<br> Astonitas Díaz Juan Diego-TB1: Responsable de la redacción de los Antecedentes y Problemática. Contribuyó con la definición de User Stories, la elaboración y registro de Entrevistas, así como el diseño de la Base de Datos (Database Design).<br> Pasquale Barrenechea Gianluca Santino-TB1: Desarrolló herramientas clave de diseño centradas en el usuario como User Personas, User Journey Mapping y Empathy Mapping. También participó en la definición de User Stories, el armado del Product Backlog y la realización de Entrevistas.<br> Pacheco Astiguetta Sebastian-TB1: Encargado del análisis de Assumptions y la formulación de Hypothesis Statements. Además, colaboró en la definición de User Stories y en la ejecución de Entrevistas.<br>TP1:<br><br>
+        <br> TB1: <br>Casas Sanchez Gabriel Alexander-TB1: Desarrollo de secciones clave como Startup Profile, Problem Statement, Business Canvas, Segmentos Objetivos y Solution Profile. Participó activamente en el modelado estratégico mediante Event Storming, desarrollando Candidate Context Discovery, Domain Message Flows Modeling, Bounded Context Canvases y Context Mapping.<br>  Alejo Cardenas Jose Antonio-TB1: Encargado del Análisis Competitivo y la definición de Estrategias y Tácticas frente a Competidores. Elaboró artefactos de investigación y diseño como la User Task Matrix, el As-is Scenario Mapping y Ubiquitous Language. Participó en la proyección del producto con To-Be Scenario Mapping, Impact Mapping, Software Architecture, User Stories y el Diseño de Entrevistas.<br> Astonitas Díaz Juan Diego-TB1: Responsable de la redacción de los Antecedentes y Problemática. Contribuyó con la definición de User Stories, la elaboración y registro de Entrevistas, así como el diseño de la Base de Datos (Database Design).<br> Pasquale Barrenechea Gianluca Santino-TB1: Desarrolló herramientas clave de diseño centradas en el usuario como User Personas, User Journey Mapping y Empathy Mapping. También participó en la definición de User Stories, el armado del Product Backlog y la realización de Entrevistas.<br> Pacheco Astiguetta Sebastian-TB1: Encargado del análisis de Assumptions y la formulación de Hypothesis Statements. Además, colaboró en la definición de User Stories y en la ejecución de Entrevistas.<br><br> TP: <br><br>Casas Sanchez Gabriel Alexander-TP:General Style Guidelines,Organization Systems,Labelling Systems ,SEO Tags and Meta Tags ,Searching Systems ,Navigation Systems,Mobile Applications Wireframes ,Mobile Applications Wireflow Diagrams ,Mobile Applications User Flow Diagrams,Software Development Environment Configuration , Source Code Management ,Source Code Style Guide & Conventions ,Software Deployment Configuration
+<br>Pacheco Astiguetta Sebastian-TP: Bounded Context: Solicitudes y Validaciones
+<br>Astonitas Díaz Juan Diego-TP: Bounded Context: Gestión de grupos,Landing Page Wireframe y Landing Page Mock-up 
+<br>Pasquale Barrenechea Gianluca Santino-TP: Bounded context: Analitica y Reportes y Bounded Context: Notificaciones
+<br>Alejo Cardenas Jose Antonio-TP: Bounded Context: Gestión de tareas,Mobile Applications Mock-ups ,Mobile Applications Prototyping,Sprint Planning 1 ,Sprint Backlog 1,Development Evidence for Sprint Review ,Testing Suite Evidence for Sprint Review ,Execution Evidence for Sprint Review ,Services Documentation Evidence for Sprint Review ,Software Deployment Evidence for Sprint Review ,Team Collaboration Insights during Sprint <br>
       </td>
       <td>
-        El trabajo del TB1 realizado evidenció la importancia del aprendizaje constante en el ámbito profesional. A lo largo del proyecto, nos enfrentamos a desafíos que requerían investigar nuevas herramientas, adoptar enfoques colaborativos y profundizar en técnicas no vistas previamente. Este proceso nos mostró que el conocimiento adquirido no es estático, sino que debe complementarse con una actitud activa hacia la mejora continua. Reconocemos que en un entorno tecnológico en constante evolución, solo mediante el aprendizaje permanente se puede ofrecer soluciones de calidad, adaptarse a las necesidades del usuario y desenvolverse de manera efectiva en el desarrollo profesional y de proyectos. Durante el TP1 ...
+        TB1:El trabajo realizado evidenció la importancia del aprendizaje constante en el ámbito profesional. A lo largo del proyecto, nos enfrentamos a desafíos que requerían investigar nuevas herramientas, adoptar enfoques colaborativos y profundizar en técnicas no vistas previamente. Este proceso nos mostró que el conocimiento adquirido no es estático, sino que debe complementarse con una actitud activa hacia la mejora continua. Reconocemos que en un entorno tecnológico en constante evolución, solo mediante el aprendizaje permanente se puede ofrecer soluciones de calidad, adaptarse a las necesidades del usuario y desenvolverse de manera efectiva en el desarrollo profesional y de proyectos.<br>TP:Cada integrante ha asumido tareas que implican el uso de tecnologías y enfoques actualizados, lo cual demuestra una actitud activa hacia el aprendizaje continuo. La ejecución de entregables como wireflows, prototipos móviles, planificación ágil, documentación de servicios y evidencias de pruebas revela una disposición a explorar y aplicar nuevos conocimientos. Esta mentalidad de mejora constante y autoformación es esencial para afrontar los retos cambiantes del desarrollo de software y garantizar la evolución profesional a largo plazo.
       </td>
     </tr>
   </tbody>
