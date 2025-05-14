@@ -2343,36 +2343,62 @@ En esta sección, se presenta el mapa de empatía, que nos ayudará a comprender
     </tr>
   </thead>
   <tbody>
-    <tr><td>1</td><td>US-001</td><td>Creación de grupo</td><td>Como líder, quiero crear grupos para organizar el trabajo de mi equipo.</td><td>8</td></tr>
-    <tr><td>2</td><td>US-002</td><td>Envío de invitaciones</td><td>Como líder, quiero invitar miembros a mi grupo para conformar el equipo.</td><td>8</td></tr>
-    <tr><td>3</td><td>US-004</td><td>Creación de tareas</td><td>Como líder, quiero crear tareas para asignar trabajo a los miembros.</td><td>5</td></tr>
-    <tr><td>4</td><td>US-005</td><td>Asignación de tareas</td><td>Como líder, quiero asignar tareas a miembros específicos para distribuir el trabajo.</td><td>5</td></tr>
-    <tr><td>5</td><td>US-007</td><td>Actualización de estado</td><td>Como miembro, quiero actualizar el estado de mis tareas para reflejar mi progreso.</td><td>5</td></tr>
-    <tr><td>6</td><td>US-016</td><td>Solicitud de aprobación de tarea</td><td>Como miembro, quiero enviar tareas completadas para validación del líder.</td><td>5</td></tr>
-    <tr><td>7</td><td>US-017</td><td>Validación de tareas</td><td>Como líder, quiero aprobar o rechazar tareas completadas para asegurar calidad.</td><td>5</td></tr>
-    <tr><td>8</td><td>US-012</td><td>Gráfico de distribución de tareas</td><td>Como líder, quiero ver un gráfico pastel con la distribución de tareas por miembro.</td><td>5</td></tr>
-    <tr><td>9</td><td>US-013</td><td>Gráfico de estados de tareas</td><td>Como líder, quiero ver un gráfico de barras con el estado de todas las tareas del grupo.</td><td>5</td></tr>
-    <tr><td>10</td><td>US-003</td><td>Eliminación de grupo</td><td>Como líder, quiero eliminar grupos inactivos para mantener la organización.</td><td>3</td></tr>
-    <tr><td>11</td><td>US-006</td><td>Eliminación de tareas</td><td>Como líder, quiero eliminar tareas incorrectas o duplicadas.</td><td>3</td></tr>
-    <tr><td>12</td><td>US-008</td><td>Reprogramación de tareas</td><td>Como líder, quiero cambiar fechas límite cuando surgen imprevistos.</td><td>3</td></tr>
-    <tr><td>13</td><td>US-018</td><td>Solicitud de extensión de plazo</td><td>Como miembro, quiero pedir más tiempo para una tarea cuando surgen impedimentos.</td><td>3</td></tr>
-    <tr><td>14</td><td>US-009</td><td>Notificaciones in-app</td><td>Como miembro, quiero recibir notificaciones en la plataforma para estar informado.</td><td>3</td></tr>
-    <tr><td>15</td><td>US-010</td><td>Notificaciones por email</td><td>Como miembro, quiero recibir notificaciones por email cuando no esté activo en la plataforma.</td><td>3</td></tr>
-    <tr><td>16</td><td>US-014</td><td>Reporte de reprogramaciones</td><td>Como líder, quiero ver un gráfico de líneas con la cantidad de tareas reprogramadas por semana.</td><td>3</td></tr>
-    <tr><td>17</td><td>US-015</td><td>Reporte de productividad individual</td><td>Como líder, quiero evaluar el desempeño de cada miembro a través de métricas claras.</td><td>3</td></tr>
-    <tr><td>18</td><td>US-019</td><td>Histórico de validaciones</td><td>Como líder, quiero ver el historial de aprobaciones/rechazos para identificar patrones.</td><td>3</td></tr>
-    <tr><td>19</td><td>US-020</td><td>Notificaciones de cambio de estado</td><td>Como miembro, quiero recibir alertas cuando mis solicitudes cambian de estado.</td><td>3</td></tr>
-    <tr><td>20</td><td>US-011</td><td>Preferencias de notificación</td><td>Como miembro, quiero configurar qué notificaciones recibo para gestionar mi atención.</td><td>2</td></tr>
-    <tr><td>21</td><td>US-021</td><td>Visualización de miembros del grupo</td><td>Como líder, quiero ver la lista de miembros de mi grupo para gestionar la colaboración.</td><td>2</td></tr>
-    <tr><td>22</td><td>US-022</td><td>Edición de información del grupo</td><td>Como líder, quiero editar la información de mi grupo para mantenerla actualizada.</td><td>2</td></tr>
-    <tr><td>23</td><td>US-023</td><td>Visualización de tareas asignadas</td><td>Como miembro, quiero ver las tareas que me han sido asignadas para gestionar mi trabajo.</td><td>2</td></tr>
-    <tr><td>24</td><td>US-024</td><td>Comentario en tareas</td><td>Como miembro, quiero comentar en las tareas para comunicarme con el líder sobre el progreso.</td><td>2</td></tr>
-    <tr><td>25</td><td>US-025</td><td>Configuración de preferencias de notificación</td><td>Como usuario, quiero configurar mis preferencias de notificación para recibir solo las alertas relevantes.</td><td>2</td></tr>
-    <tr><td>26</td><td>US-026</td><td>Resumen semanal de actividad</td><td>Como miembro, quiero recibir un resumen semanal de mi actividad para revisar mi desempeño.</td><td>2</td></tr>
-    <tr><td>27</td><td>US-027</td><td>Visualización de carga de trabajo por miembro</td><td>Como líder, quiero ver la carga de trabajo de cada miembro para equilibrar las asignaciones.</td><td>2</td></tr>
-    <tr><td>28</td><td>US-028</td><td>Reporte de cumplimiento de plazos</td><td>Como líder, quiero ver un reporte de cumplimiento de plazos para evaluar la eficiencia del equipo.</td><td>2</td></tr>
-    <tr><td>29</td><td>US-029</td><td>Revisión de comentarios en tareas</td><td>Como líder, quiero revisar los comentarios en las tareas para proporcionar retroalimentación oportuna.</td><td>1</td></tr>
-    <tr><td>30</td><td>US-030</td><td>Confirmación antes de eliminar una tarea</td><td>Como líder, quiero recibir una confirmación antes de eliminar una tarea para evitar borrados accidentales.</td><td>1</td></tr>
+    <tr><td>1</td><td>US-001</td><td>Creación de grupo</td><td>Como líder, quiero crear grupos para organizar el trabajo de mi equipo.</td><td>5</td></tr>
+    <tr><td>1</td><td>US-002</td><td>Envío de invitaciones</td><td>Como líder, quiero invitar miembros a mi grupo para conformar el equipo.</td><td>5</td></tr>
+    <tr><td>1</td><td>US-004</td><td>Creación de tareas</td><td>Como líder, quiero crear tareas para asignar trabajo a los miembros.</td><td>5</td></tr>
+    <tr><td>1</td><td>US-005</td><td>Asignación de tareas</td><td>Como líder, quiero asignar tareas a miembros específicos para distribuir el trabajo.</td><td>5</td></tr>
+    <tr><td>1</td><td>US-007</td><td>Actualización de estado</td><td>Como miembro, quiero actualizar el estado de mis tareas para reflejar mi progreso.</td><td>3</td></tr>
+    <tr><td>1</td><td>TS-003</td><td>Registrar un nuevo grupo</td><td>Como developer, quiero registrar un nuevo grupo para asegurarme de que el grupo se crea correctamente en el sistema.</td><td>5</td></tr>
+    <tr><td>1</td><td>TS-004</td><td>Agregar un miembro a un grupo</td><td>Como developer, quiero agregar un miembro a un grupo para asegurarme de que el miembro se asocia correctamente al grupo.</td><td>5</td></tr>
+    <tr><td>1</td><td>TS-008</td><td>Crear una nueva tarea para un miembro</td><td>Como developer, quiero crear una nueva tarea para un miembro para asegurarme de que la tarea se asigna correctamente.</td><td>5</td></tr>
+    <tr><td>1</td><td>TS-010</td><td>Crear un nuevo miembro</td><td>Como developer, quiero crear un nuevo miembro para asegurarme de que el miembro se registra correctamente en el sistema.</td><td>5</td></tr>
+    <tr><td>1</td><td>TS-013</td><td>Actualizar tarea</td><td>Como developer, quiero actualizar una tarea para asegurarme de que la tarea se modifica correctamente en el sistema.</td><td>5</td></tr>
+    <tr><td>1</td><td>TS-025</td><td>Crear nueva solicitud</td><td>Como developer, quiero crear una nueva solicitud para asegurarme de que la solicitud se crea correctamente con los datos proporcionados.</td><td>5</td></tr>
+    <tr><td>2</td><td>US-016</td><td>Solicitud de aprobación de tarea</td><td>Como miembro, quiero enviar tareas completadas para validación del líder.</td><td>3</td></tr>
+    <tr><td>2</td><td>US-017</td><td>Validación de tareas</td><td>Como líder, quiero aprobar o rechazar tareas completadas para asegurar calidad.</td><td>3</td></tr>
+    <tr><td>2</td><td>US-021</td><td>Visualización de miembros del grupo</td><td>Como líder, quiero ver la lista de miembros de mi grupo para gestionar la colaboración.</td><td>3</td></tr>
+    <tr><td>2</td><td>US-023</td><td>Visualización de tareas asignadas</td><td>Como miembro, quiero ver las tareas que me han sido asignadas para gestionar mi trabajo.</td><td>3</td></tr>
+    <tr><td>2</td><td>TS-001</td><td>Obtener un grupo por ID</td><td>Como developer, quiero obtener un grupo por su ID para verificar que la API devuelve los detalles correctos del grupo.</td><td>3</td></tr>
+    <tr><td>2</td><td>TS-002</td><td>Obtener todos los grupos de un usuario</td><td>Como developer, quiero obtener todos los grupos a los que pertenece un usuario para confirmar que la API devuelve todos los grupos correctamente.</td><td>3</td></tr>
+    <tr><td>2</td><td>TS-005</td><td>Actualizar un grupo</td><td>Como developer, quiero actualizar los detalles de un grupo para asegurarme de que la modificación se realice correctamente.</td><td>3</td></tr>
+    <tr><td>2</td><td>TS-006</td><td>Eliminar un grupo</td><td>Como developer, quiero eliminar un grupo para asegurarme de que el grupo se elimina correctamente del sistema.</td><td>3</td></tr>
+    <tr><td>2</td><td>TS-007</td><td>Obtener todas las tareas por miembro</td><td>Como developer, quiero obtener todas las tareas asociadas a un miembro para verificar que la API devuelve correctamente las tareas asignadas.</td><td>3</td></tr>
+    <tr><td>2</td><td>TS-009</td><td>Obtener todos los miembros</td><td>Como developer, quiero obtener todos los miembros para verificar que la API devuelve la lista completa de miembros registrados.</td><td>2</td></tr>
+    <tr><td>2</td><td>TS-011</td><td>Obtener un miembro por ID</td><td>Como developer, quiero obtener los detalles de un miembro por su ID para verificar que la API devuelve correctamente la información del miembro.</td><td>2</td></tr>
+    <tr><td>2</td><td>TS-012</td><td>Obtener tarea por ID</td><td>Como developer, quiero obtener los detalles de una tarea por su ID para verificar que la API devuelve la información correcta de la tarea.</td><td>3</td></tr>
+    <tr><td>2</td><td>TS-014</td><td>Eliminar tarea</td><td>Como developer, quiero eliminar una tarea para asegurarme de que la tarea se elimina correctamente del sistema.</td><td>2</td></tr>
+    <tr><td>2</td><td>TS-015</td><td>Actualizar estado de tarea</td><td>Como developer, quiero actualizar el estado de una tarea para asegurarme de que el estado se modifica correctamente en el sistema.</td><td>3</td></tr>
+    <tr><td>2</td><td>TS-016</td><td>Obtener todas las tareas</td><td>Como developer, quiero obtener todas las tareas para verificar que la API devuelve todas las tareas correctamente.</td><td>2</td></tr>
+    <tr><td>2</td><td>TS-024</td><td>Actualizar estado de solicitud</td><td>Como developer, quiero actualizar el estado de una solicitud para reflejar correctamente su estado actual.</td><td>3</td></tr>
+    <tr><td>2</td><td>TS-026</td><td>Obtener solicitud por ID</td><td>Como developer, quiero obtener una solicitud por su ID para verificar que la API devuelve la solicitud correcta con los detalles asociados.</td><td>2</td></tr>
+    <tr><td>3</td><td>US-003</td><td>Eliminación de grupo</td><td>Como líder, quiero eliminar grupos inactivos para mantener la organización.</td><td>2</td></tr>
+    <tr><td>3</td><td>US-006</td><td>Eliminación de tareas</td><td>Como líder, quiero eliminar tareas incorrectas o duplicadas.</td><td>2</td></tr>
+    <tr><td>3</td><td>US-008</td><td>Reprogramación de tareas</td><td>Como líder, quiero cambiar fechas límite cuando surgen imprevistos.</td><td>2</td></tr>
+    <tr><td>3</td><td>US-009</td><td>Notificaciones in-app</td><td>Como miembro, quiero recibir notificaciones en la plataforma para estar informado.</td><td>3</td></tr>
+    <tr><td>3</td><td>US-012</td><td>Gráfico de distribución de tareas</td><td>Como líder, quiero ver un gráfico pastel con la distribución de tareas por miembro.</td><td>3</td></tr>
+    <tr><td>3</td><td>US-013</td><td>Gráfico de estados de tareas</td><td>Como líder, quiero ver un gráfico de barras con el estado de todas las tareas del grupo.</td><td>3</td></tr>
+    <tr><td>3</td><td>US-018</td><td>Solicitud de extensión de plazo</td><td>Como miembro, quiero pedir más tiempo para una tarea cuando surgen impedimentos.</td><td>2</td></tr>
+    <tr><td>3</td><td>US-022</td><td>Edición de información del grupo</td><td>Como líder, quiero editar la información de mi grupo para mantenerla actualizada.</td><td>2</td></tr>
+    <tr><td>3</td><td>US-024</td><td>Comentario en tareas</td><td>Como miembro, quiero comentar en las tareas para comunicarme con el líder sobre el progreso.</td><td>2</td></tr>
+    <tr><td>3</td><td>TS-017</td><td>Obtener tareas por estado</td><td>Como developer, quiero obtener todas las tareas filtradas por estado para verificar que la API devuelve correctamente las tareas según su estado.</td><td>2</td></tr>
+    <tr><td>3</td><td>TS-018</td><td>Enviar notificación</td><td>Como developer, quiero enviar una notificación para asegurarme de que la notificación se envía correctamente al usuario.</td><td>3</td></tr>
+    <tr><td>3</td><td>TS-019</td><td>Marcar notificación como leída</td><td>Como developer, quiero marcar una notificación como leída para asegurarme de que el estado de la notificación se actualiza correctamente.</td><td>2</td></tr>
+    <tr><td>3</td><td>TS-020</td><td>Obtener notificaciones de usuario</td><td>Como developer, quiero obtener todas las notificaciones de un usuario para verificar que la API devuelve correctamente las notificaciones asociadas a un usuario.</td><td>2</td></tr>
+    <tr><td>3</td><td>TS-022</td><td>Generar reporte para un usuario</td><td>Como developer, quiero generar un reporte para un usuario para asegurarme de que la generación del reporte es exitosa y los datos son correctos.</td><td>5</td></tr>
+    <tr><td>4</td><td>US-010</td><td>Notificaciones por email</td><td>Como miembro, quiero recibir notificaciones por email cuando no esté activo en la plataforma.</td><td>2</td></tr>
+    <tr><td>4</td><td>US-011</td><td>Preferencias de notificación</td><td>Como miembro, quiero configurar qué notificaciones recibo para gestionar mi atención.</td><td>1</td></tr>
+    <tr><td>4</td><td>US-014</td><td>Reporte de reprogramaciones</td><td>Como líder, quiero ver un gráfico de líneas con la cantidad de tareas reprogramadas por semana.</td><td>2</td></tr>
+    <tr><td>4</td><td>US-015</td><td>Reporte de productividad individual</td><td>Como líder, quiero evaluar el desempeño de cada miembro a través de métricas claras.</td><td>2</td></tr>
+    <tr><td>4</td><td>US-019</td><td>Histórico de validaciones</td><td>Como líder, quiero ver el historial de aprobaciones/rechazos para identificar patrones.</td><td>2</td></tr>
+    <tr><td>4</td><td>US-020</td><td>Notificaciones de cambio de estado</td><td>Como miembro, quiero recibir alertas cuando mis solicitudes cambian de estado.</td><td>2</td></tr>
+    <tr><td>4</td><td>US-025</td><td>Configuración de preferencias de notificación</td><td>Como usuario, quiero configurar mis preferencias de notificación para recibir solo las alertas relevantes.</td><td>1</td></tr>
+    <tr><td>4</td><td>US-026</td><td>Resumen semanal de actividad</td><td>Como miembro, quiero recibir un resumen semanal de mi actividad para revisar mi desempeño.</td><td>1</td></tr>
+    <tr><td>4</td><td>US-027</td><td>Visualización de carga de trabajo por miembro</td><td>Como líder, quiero ver la carga de trabajo de cada miembro para equilibrar las asignaciones.</td><td>1</td></tr>
+    <tr><td>4</td><td>US-028</td><td>Reporte de cumplimiento de plazos</td><td>Como líder, quiero ver un reporte de cumplimiento de plazos para evaluar la eficiencia del equipo.</td><td>1</td></tr>
+    <tr><td>4</td><td>US-029</td><td>Revisión de comentarios en tareas</td><td>Como líder, quiero revisar los comentarios en las tareas para proporcionar retroalimentación oportuna.</td><td>1</td></tr>
+    <tr><td>4</td><td>US-030</td><td>Confirmación antes de eliminar una tarea</td><td>Como líder, quiero recibir una confirmación antes de eliminar una tarea para evitar borrados accidentales.</td><td>1</td></tr>
+    <tr><td>4</td><td>TS-021</td><td>Obtener notificaciones no leídas de usuario</td><td>Como developer, quiero obtener todas las notificaciones no leídas de un usuario para verificar que la API devuelve correctamente las notificaciones no leídas.</td><td>1</td></tr>
+    <tr><td>4</td><td>TS-023</td><td>Obtener reportes de un usuario</td><td>Como developer, quiero obtener todos los reportes generados para un usuario para verificar que la API devuelve correctamente los reportes asociados al usuario.</td><td>1</td></tr>
   </tbody>
 </table>
 
