@@ -3342,9 +3342,275 @@ En esta sección se presentan los commits realizados en el repositorio de landin
 
 **Commits realizados en el repositorio de la Landing Page durante el sprint 1:**
 
+<table >
+  <tr>
+    <th>Repository</th>
+    <th>Branch</th>
+    <th>Commit Id</th>
+    <th>Commit Message</th>
+    <th>Commit Message Body</th>
+    <th>Committed on (Date)</th>
+  </tr>
+  <tr>
+    <td>Landing Page</td>
+    <td>main</td>
+    <td>118fcaf10a77ad214d2692c87a35ae5742d8edd0</td>
+    <td>Update package.json</td>
+    <td></td>
+    <td>2025-05-14</td>
+  </tr>
+  <tr>
+    <td>Landing Page</td>
+    <td>main</td>
+    <td>f9be2319360a8e9abd797e271d4a9cd332cef991</td>
+    <td>fix: downgrade the date fns</td>
+    <td></td>
+    <td>2025-05-14</td>
+  </tr>
+  <tr>
+    <td>Landing Page</td>
+    <td>main</td>
+    <td>d94726dc183633a47c1408614965a50120078710</td>
+    <td>fix: add package.json install script</td>
+    <td></td>
+    <td>2025-05-14</td>
+  </tr>
+  <tr>
+    <td>Landing Page</td>
+    <td>main</td>
+    <td>fc0766300ff6b0820f9c2c4977c584a1c12d5b86</td>
+    <td>Merge pull request #1 from NRG-4/develop</td>
+    <td></td>
+    <td>2025-05-09</td>
+  </tr>
+  <tr>
+    <td>Landing Page</td>
+    <td>develop</td>
+    <td>fc0766300ff6b0820f9c2c4977c584a1c12d5b86</td>
+    <td>feat: add hero img</td>
+    <td></td>
+    <td>2025-05-09</td>
+  </tr>
+  <tr>
+    <td>Landing Page</td>
+    <td>develop</td>
+    <td>8ce265a05a3b0f999ede97e9a534ffa77a8ff541</td>
+    <td>feat: add mision and vision section</td>
+    <td></td>
+    <td>2025-05-09</td>
+  </tr>
+  <tr>
+    <td>Landing Page</td>
+    <td>develop</td>
+    <td>a8bf7b131c8a2529dc0828ed78ddbfafc3d76594</td>
+    <td>feat: add main page structure</td>
+    <td></td>
+    <td>2025-05-09</td>
+  </tr>
+  <tr>
+    <td>Landing Page</td>
+    <td>develop</td>
+    <td>347eeace62b90b5c0fb566a39ef939e2d112a043</td>
+    <td>feat: add features section</td>
+    <td></td>
+    <td>2025-05-09</td>
+  </tr>
+  <tr>
+    <td>Landing Page</td>
+    <td>develop</td>
+    <td>7e90b14e2cfb2b0d6f1c3b37bceadde30e782a04</td>
+    <td>feat: add a CTA</td>
+    <td></td>
+    <td>2025-05-09</td>
+  </tr>
+  <tr>
+    <td>Landing Page</td>
+    <td>develop</td>
+    <td>401594bd56ca8ce500d0560c543db5619c2e754f</td>
+    <td>feat: add hero sextion</td>
+    <td></td>
+    <td>2025-05-09</td>
+  </tr>
+  <tr>
+    <td>Landing Page</td>
+    <td>develop</td>
+    <td>b5703fca7ecee4e9cde0e91be7c56e321d4fd929</td>
+    <td>feat: add team section</td>
+    <td></td>
+    <td>2025-05-09</td>
+  </tr>
+  <tr>
+    <td>Landing Page</td>
+    <td>develop</td>
+    <td>be4713e775db9e68a0ccff63ccdb6bb20a0a3211</td>
+    <td>feat: add main layout</td>
+    <td></td>
+    <td>2025-05-09</td>
+  </tr>
+  <tr>
+    <td>Landing Page</td>
+    <td>develop</td>
+    <td>b83f0df6bbf2e9f355f1d59e7fee853c1b1933b4</td>
+    <td>feat: add footer</td>
+    <td></td>
+    <td>2025-05-09</td>
+  </tr>
+  <tr>
+    <td>Landing Page</td>
+    <td>develop</td>
+    <td>f1de4573d0693328dc99de2b0392a17ef648dec2</td>
+    <td>feat: add header</td>
+    <td></td>
+    <td>2025-05-09</td>
+  </tr>
+  <tr>
+    <td>Landing Page</td>
+    <td>develop</td>
+    <td>23829ee96ae1d1b974b0aecfd3c2ff2cb49871fe</td>
+    <td>feat: add theme switch</td>
+    <td></td>
+    <td>2025-05-09</td>
+  </tr>
+  <tr>
+    <td>Landing Page</td>
+    <td>develop</td>
+    <td>94bb9568fa802601c49d4a87b887e8697f50abda</td>
+    <td>chore: add shadcn components</td>
+    <td></td>
+    <td>2025-05-09</td>
+  </tr>
+  <tr>
+    <td>Landing Page</td>
+    <td>develop</td>
+    <td>1735381c910373325ff8c027517332792e8e191e</td>
+    <td>chore: add team pics</td>
+    <td></td>
+    <td>2025-05-09</td>
+  </tr>
+  <tr>
+    <td>Landing Page</td>
+    <td>develop</td>
+    <td>f3b4f540a9359a16f3cc86e23623e1cd83684a32</td>
+    <td>chore: add react switch</td>
+    <td></td>
+    <td>2025-05-09</td>
+  </tr>
+</table>
+
 **Commits realizados en el repositorio del Frontend durante el sprint 1:**
 
-**Commits realizados en el repositorio del BackEND durante el sprint 1:**
+<table >
+  <tr>
+    <th>Repository</th>
+    <th>Branch</th>
+    <th>Commit Id</th>
+    <th>Commit Message</th>
+    <th>Commit Message Body</th>
+    <th>Committed on (Date)</th>
+  </tr>
+<tr>
+    <th>synhub-mobile-app</th>
+    <th>master</th>
+    <th>84646b987e151215f972384b7875ba04c5e4e9c5</th>
+    <th>chore: setup project.</th>
+    <th></th>
+    <th>May 13 2025</th>
+  </tr>
+</table>
+
+**Commits realizados en el repositorio del Backend durante el sprint 1:**
+
+
+<table>
+  <tr>
+    <th>Repository</th>
+    <th>Branch</th>
+    <th>Commit Id</th>
+    <th>Commit Message</th>
+    <th>Commit Message Body</th>
+    <th>Committed on (Date)</th>
+  </tr>
+  <tr>
+    <td>task-management</td>
+    <td>develop</td>
+    <td>eb8c36026c67f708549a8e999cc7a2e2ecbb6480</td>
+    <td>feat(leader): add member to group endpoint</td>
+    <td></td>
+    <td>May 14, 2025</td>
+  </tr>
+  <tr>
+    <td>task-management</td>
+    <td>develop</td>
+    <td>8953a45c1d417ab48a3c285d8fcc92387b4144f7</td>
+    <td>fix: changed jar name in dockerfile</td>
+    <td></td>
+    <td>May 13, 2025</td>
+  </tr>
+  <tr>
+    <td>task-management</td>
+    <td>develop</td>
+    <td>55e7d0f033f611acd82c842666bbdad9a8ec0b83</td>
+    <td>feat(groups): add command service</td>
+    <td></td>
+    <td>May 13, 2025</td>
+  </tr>
+  <tr>
+    <td>task-management</td>
+    <td>develop</td>
+    <td>7a65718398b6e1b2055d4634ee645424407852a2</td>
+    <td>feat(leader): add get group by leader id endpoint</td>
+    <td></td>
+    <td>May 14, 2025</td>
+  </tr>
+  <tr>
+    <td>task-management</td>
+    <td>develop</td>
+    <td>06d922b76ffc2fec67b95c63e91fe974df7b7dcf</td>
+    <td>feat(leader): add leader controller</td>
+    <td></td>
+    <td>May 14, 2025</td>
+  </tr>
+  <tr>
+    <td>task-management</td>
+    <td>develop</td>
+    <td>5504cf3a3a1ece6f8f28b9dfcb759b5c39fb060f</td>
+    <td>feat(leader): add leader resources and transform</td>
+    <td></td>
+    <td>May 14, 2025</td>
+  </tr>
+  <tr>
+    <td>task-management</td>
+    <td>feat/groups</td>
+    <td>0d90a949386f6d5d3e647267844eaccd7039b86f</td>
+    <td>Merge pull request #3 from NRG-4/feat/groups</td>
+    <td></td>
+    <td>May 13, 2025</td>
+  </tr>
+  <tr>
+    <td>task-management</td>
+    <td>feat/groups</td>
+    <td>ab9a8da2e863c805ef0dda7895c72fb2b8a8f5d6</td>
+    <td>Merge branch 'develop' into feat/groups</td>
+    <td></td>
+    <td>May 13, 2025</td>
+  </tr>
+  <tr>
+    <td>task-management</td>
+    <td>requests</td>
+    <td>d919d31f5b123e528d1dc82c609b5a3fdd3a847f</td>
+    <td>Merge pull request #2 from NRG-4/requests</td>
+    <td></td>
+    <td>May 13, 2025</td>
+  </tr>
+  <tr>
+    <td>task-management</td>
+    <td>develop</td>
+    <td>7d381dab4f926b72cc86a88e66542421e058b4d8</td>
+    <td>fix(controllers): change request status update method name to emphasize on status.</td>
+    <td></td>
+    <td>May 13, 2025</td>
+  </tr>
+</table>
 
 ##### 6.2.1.4. Testing Suite Evidence for Sprint Review
 
