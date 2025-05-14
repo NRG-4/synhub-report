@@ -3773,6 +3773,21 @@ Esta tabla presenta la documentación de los servicios implementados como eviden
 
 ##### 6.2.1.7. Software Deployment Evidence for Sprint Review
 
+**Landing Page**
+Para hacer el deployment de la aplicacion web se utilizó render, una plataforma de deployment que permite hacer el deployment de aplicaciones de forma sencilla y rápida.
+Enlace de la landing page:[https://synhub-landing.onrender.com/](https://synhub-landing.onrender.com/ "https://synhub-landing.onrender.com/")
+
+<img src="images/chapter-6/deploy1.png">
+
+
+**Backend**
+Para hacer el deployment de la aplicacion web se utilizó render, una plataforma de deployment que permite hacer el deployment de aplicaciones de forma sencilla y rápida.
+Enlace del frontend: [https://synhub-backend.onrender.com/swagger-ui/index.html#/](https://synhub-backend.onrender.com/swagger-ui/index.html#/ "https://synhub-backend.onrender.com/swagger-ui/index.html#/")
+
+
+<img src="images/chapter-6/deploy2.png">
+
+
 ##### 6.2.1.8. Team Collaboration Insights during Sprint
 
 Para este sprint se desarrollaron 3 productos siendo estos: landing page, web application y web services. Para la landing page hubo un solo encargado debido a que ya se encontraba en la etapa final de su desarrollo. Para lode más productos todo los integrantes participaron. La distribución de commit fue la siguiente:
@@ -3802,16 +3817,6 @@ Para este sprint se desarrollaron 3 productos siendo estos: landing page, web ap
 - Gianluca Santino Pasquale Barrenechea: 22 commits.
 - Alejo Cardenas Jose Antonio: 17 commits.
 - Pacheco Astiguetta Sebastian: 37 commits.
-
-### 6.3. Validation Interviews
-
-#### 6.3.1. Diseño de entrevistas
-
-#### 6.3.2. Registro de entrevistas
-
-#### 6.3.3. Evaluaciones según heurísticas
-
-### 6.4. Video About-the-Product
 
 ## Conclusiones
 
