@@ -3656,8 +3656,6 @@ En esta sección, presentamos una recopilación visual y detallada de los avance
 <img src="images/chapter-6/api.png" alt="API">
 
 
-
-
 ##### 6.2.1.6. Services Documentation Evidence for Sprint Review
 
 Esta tabla presenta la documentación de los servicios implementados como evidencia para la revisión del sprint. Detalla los endpoints disponibles, sus métodos HTTP, descripciones breves de su funcionalidad y los parámetros requeridos, organizados por categorías como *Groups*, *Members*, *Tasks* y *Member Tasks*.
@@ -4040,16 +4038,15 @@ Esta tabla presenta la documentación de los servicios implementados como eviden
 ##### 6.2.1.7. Software Deployment Evidence for Sprint Review
 
 **Landing Page**
-Para hacer el deployment de la aplicacion web se utilizó render, una plataforma de deployment que permite hacer el deployment de aplicaciones de forma sencilla y rápida.
+Para hacer el deployment de la aplicacion web se utilizó render, una plataforma que permite hacer el deployment de aplicaciones de forma sencilla y rápida.
 Enlace de la landing page:[https://synhub-landing.onrender.com/](https://synhub-landing.onrender.com/ "https://synhub-landing.onrender.com/")
 
 <img src="images/chapter-6/deploy1.png">
 
 
 **Backend**
-Para hacer el deployment de la aplicacion web se utilizó render, una plataforma de deployment que permite hacer el deployment de aplicaciones de forma sencilla y rápida.
+Para hacer el deployment de la aplicacion web se utilizó render, una plataforma que permite hacer el deployment de aplicaciones de forma sencilla y rápida.
 Enlace del frontend: [https://synhub-backend.onrender.com/swagger-ui/index.html#/](https://synhub-backend.onrender.com/swagger-ui/index.html#/ "https://synhub-backend.onrender.com/swagger-ui/index.html#/")
-
 
 <img src="images/chapter-6/deploy2.png">
 
