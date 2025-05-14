@@ -2947,10 +2947,23 @@ En esta sección se detallan las consideraciones y pasos necesarios para el desp
 **Landing Page**
 
 **Consideraciones antes del despliegue:**
+- Es recomendable ejecutar npm run build localmente para asegurarse de que la aplicación web no contenga errores, ya sea por paquetes externos o problemas en la declaración de los componentes.
 
 **Requerimientos para realizar del despliegue:**
+- Repositorio de desarrollo de la landing page en github
+- Repositorio de github con estado de visualización público
+- Tener una cuenta activa en Render.
 
 **Pasos realizados para desplegar nuestra Landing Page:**
+1. Ingresar al sitio web de Render. 
+2. Iniciar sesión en la cuenta de Render. 
+3. Seleccionar la opción "New" y luego "Web Service". 
+4. Conceder acceso a Render para que pueda leer los repositorios de GitHub si es la primera vez. 
+5. Elegir el repositorio correspondiente a la Landing Page. 
+6. Configurar el nombre del servicio y confirmar los ajustes de despliegue (puerto, build command, etc. si es necesario). 
+7. Hacer clic en "Deploy". 
+8. Esperar a que Render complete el proceso de despliegue. 
+9. Acceder a la URL pública generada por Render para verificar que la Landing Page funcione correctamente
 
 **Mobile Application**
 
