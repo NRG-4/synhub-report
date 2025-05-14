@@ -3052,7 +3052,6 @@ En esta sección se detallan las consideraciones y pasos necesarios para el desp
   </tr>
 </table>
 
-
 ##### 6.2.1.2. Sprint Backlog 1
 
 <table>
@@ -3336,12 +3335,62 @@ En esta sección se detallan las consideraciones y pasos necesarios para el desp
   </tr>
 </table>
 
-
 ##### 6.2.1.3. Development Evidence for Sprint Review
+
+
+En esta sección se presentan los commits realizados en el repositorio de landing,backend y frontend durante el sprint 1.
+
+**Commits realizados en el repositorio de la Landing Page durante el sprint 1:**
+
+**Commits realizados en el repositorio del Frontend durante el sprint 1:**
+
+**Commits realizados en el repositorio del BackEND durante el sprint 1:**
 
 ##### 6.2.1.4. Testing Suite Evidence for Sprint Review
 
 ##### 6.2.1.5. Execution Evidence for Sprint Review
+
+En esta sección se presentan las evidencias de la ejecución de la aplicación para el sprint 1.
+En esta sección, presentamos una recopilación visual y detallada de los avances logrados durante el sprint. A través de imágenes y un video demostrativo, podrás apreciar los resultados concretos de nuestro trabajo y comprender mejor cómo hemos dado forma a las funcionalidades del producto.
+
+
+<img src="images/chapter-6/landingPage1.png" alt="API">
+
+
+<img src="images/chapter-6/landingPage2.png" alt="API">
+
+
+
+<img src="images/chapter-6/landingPage3.png" alt="API">
+
+
+<img src="images/chapter-6/landingPage4.png" alt="API">
+
+
+<img src="images/chapter-6/landingPage5.png" alt="API">
+
+
+<img src="images/chapter-6/landingPage6.png" alt="API">
+
+
+<img src="images/chapter-6/landingPage7.png" alt="API">
+
+
+<img src="images/chapter-6/landingPage8.png" alt="API">
+
+
+<img src="images/chapter-6/landingPage9.png" alt="API">
+
+
+<img src="images/chapter-6/landingPage10.png" alt="API">
+
+
+
+
+<img src="images/chapter-6/api.png" alt="API">
+
+
+
 
 ##### 6.2.1.6. Services Documentation Evidence for Sprint Review
 
@@ -3721,7 +3770,6 @@ Esta tabla presenta la documentación de los servicios implementados como eviden
         <td colspan="2"> no </td>
     </tr>
 </table>
-
 
 ##### 6.2.1.7. Software Deployment Evidence for Sprint Review
 
