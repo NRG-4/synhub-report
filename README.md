@@ -4861,13 +4861,243 @@ Para este apartado comenzamos con la **creación de grupos**, donde el líder es
 
 ### 6.1. Software Configuration Management
 
+En este ítem se definirán todas las reglas y procesos que hemos seguido en el proyecto al momento de crear y desplegar Synhub. El objetivo de estas reglas y procesos es garantizar la integridad y consistencia del software, desde el inicio hasta el despliegue y mantenimiento.
+
 #### 6.1.1. Software Development Environment Configuration
+
+**Project Management**
+
+Para la organización del proyecto requerimos de un sistema de de asignación de tareas, palataformas y puntos de reunión y un repositorio dónde trabajaremos en conjunto cada avance del proyecto. A continuación se menciona los nombres de los productos y el propósito de uso en el proyecto:
+
+- Centro de organización de trabajo: Github
+- Planificación de tareas: Trello
+- Reuniones con el equipo: Discord
+- Coordinación grupal: WhatsApp
+
+**Requirements Management**
+
+Utilizamos Trello para designar las tareas y actividades de cada integrante del grupo en caso de revisión o cambios.
+
+
+| Herramienta | Descripción                                                                                        | Enlace             |
+| ----------- | --------------------------------------------------------------------------------------------------- | ------------------ |
+| Trello      | Para designar las tareas y actividades de cada integrante del grupo en caso de revisión o cambios. | https://trello.com |
+
+**Product UX/UI Design**
+
+Para el diseño de los wireframes y mockups, además de la realización del prototipo de la mobile application, utilizamos Figma.
+
+
+| Herramienta | Descripción                                                                                    | Enlace                 |
+| ----------- | ----------------------------------------------------------------------------------------------- | ---------------------- |
+| Figma       | Para el diseño de los wireframe y mockups, además de la realización del prototipo de Web App | https://www.figma.com/ |
+
+**Software Development**
+
+Empleamos Android y Jetpack Compose para la creación de la mobile application, y Spring Boot para la creación de la API REST. Para el desarrollo de la landing page utilizamos NextJS, Shadcn y Tailwind CSS.
+
+
+| Herramienta     | Descripción                                                                   | Enlace                                 |
+| --------------- | ------------------------------------------------------------------------------ | -------------------------------------- |
+| Android         | Lenguaje de programación utilizado para la creación de la mobile application | https://developer.android.com/         |
+| Jetpack Compose | Framework utilizado para la creación de la mobile application                 | https://developer.android.com/compose  |
+| Spring Boot     | Framework utilizado para la creación de la API REST                           | https://spring.io/projects/spring-boot |
+| NextJS          | Framework utilizado para la creación de la landing page                       | https://nextjs.org/                    |
+| Shadcn          | Framework utilizado para la creación de la landing page                       | https://ui.shadcn.com/                 |
+| Tailwind CSS    | Framework utilizado para la creación de la landing page                       | https://tailwindcss.com/               |
+
+**Software Deployment**
+
+Se empleó los siguientes software para desplegar los servicios del proyecto. Base de datos: Neontech, API y Landing Page: Render, Mobile Application: Android Studio.
+
+
+| Herramienta    | Descripción                                                     | Enlace                               |
+| -------------- | ---------------------------------------------------------------- | ------------------------------------ |
+| Neontech       | Base de datos utilizada para el proyecto                         | https://neon.tech/                   |
+| Render         | API y Landing Page utilizada para el proyecto                    | https://render.com/                  |
+| Android Studio | Herramienta utilizada para la creación de la mobile application | https://developer.android.com/studio |
+
+**Software Documentation**
+
+Para la documentación del software utilizamos Markdown, y para el trabajo colaborativo Github.
+
+
+| Herramienta | Descripción                                                      | Enlace                          |
+| ----------- | ----------------------------------------------------------------- | ------------------------------- |
+| Markdown    | Lenguaje de marcado utilizado para la documentación del proyecto | https://www.markdownguide.org/  |
+| Github      | Para gestionar la documentación del proyecto                     | https://github.com/NRG-4/report |
 
 #### 6.1.2. Source Code Management
 
+Para la gestión del código fuente, utilizamos los siguientes repositorios:
+
+
+| Producto           | Repositorio       | Enlace                                     |
+| ------------------ | ----------------- | ------------------------------------------ |
+| Mobile Application | synhub-mobile-app | https://github.com/NRG-4/synhub-mobile-app |
+| Backend            | synhub-backend    | https://github.com/NRG-4/synhub-backend    |
+| Landing Page       | synhub-landing    | https://github.com/NRG-4/synhub-landing    |
+
+**Flujo de trabajo GitFlow**
+
+Usaremos el flujo de trabajo planteado por Vincent Driessen en "A successful Git branching model" con los siguientes parámetros:
+
+- Una rama de producción.
+- Una rama de pruebas.
+- Una rama en la que se solucionen los bugs rapidamente y vuelvan a producción.
+- Ramas de features a implementar.
+- Cada cambio en producción debe establecerse como una nueva versión.
+- Para este proyecto en concreto consideramos que los cambios en la rama de producción y de pruebas deben tener autorización de un compa­ñero de equipo.
+
+Teniendo en cuenta la información anterior nos inclinamos por este tipo de organización en los branches:
+
+- **Main branch:** Esta rama esta destinada a la producción de la aplicación, cada cambio deberá tener autorización de un compañero de equipo para evitar cambios sin verificar.
+- **Hotfix branch:** En esta rama se incluirán todas las versiones que poseen errores identificados y que con cada arreglo de este se despliegue otra vez a Main Branch además de implementarla en lo que será Develop Branch.
+- **Develop branch:** Esta rama está destinada a las constantes implementaciones en caliente de los features,
+- **Features branch:** Cada feature poseerá su respectiva rama, una vez que se encuentre correctamente implementada será fusionada con Develop branch.
+
+Con cada deployment de la aplicación debe establecerse como una nueva versión. Nomenclatura de numeración de las versiones:
+
+- **Major changes:** Cuando el código o versión nueva del proyecto a implementar presenta cambios significativos con la versión anterior, estos cambios llegan a ser incompatibles con la versión anterior. Esto se evidenciará en el numero de la versión ej: versión 1.0.0 -> versión 2.0.0.
+- **Minor changes:** Cuando el código o versión nueva del proyecto a implementar presenta cambios con respecto a alguna característica, ya sea añadir o modificar, de la versión anterior; estos cambios no llegan a ser incompatibles con la versión anterior. Esto se evidenciará en el numero de la versión ej: versión 1.1.0 -> versión 1.2.0.
+- **Patch:** Cuando se solucionan bugs menores. Esto se evidenciará en el numero de la versión ej: versión 1.1.3 -> versión 1.1.4.
+
+Sufijos asignados a las versiones:
+
+- **alpha:** versión no estable con características básicas o no funcionales, ejemplo : versión 1.0.0 -alpha.
+- **beta:** versión no apta para la publicación, aún así ya presenta características funcionales en el estado base, ejemplo versión 1.0.0 –beta.
+- **rc:** versión apta para la publicación y uso de los usuarios, es candidata para publicar, ejemplo versión 1.0.0 -rc.
+
 #### 6.1.3. Source Code Style Guide & Conventions
 
+Usaremos buenas prácticas en cuanto al código de manera que sea coherente y sostenible.
+
+**Android (Kotlin/Java)**
+
+- **Nomenclatura:**
+  - Clases: PascalCase.
+  - Funciones y variables: camelCase.
+  - Constantes: UPPER_SNAKE_CASE.
+- **Estructura:**
+  - Separar lógica de UI (ViewModel, UseCase).
+
+**Jetpack Compose**
+
+- **Componenetes:**
+  - Nombres de funciones PascalCase (ej: ButtonSubmit()).
+  - Estado (remember, mutableStateOf) manejado en ViewModel.
+- **Recomposición:**
+  - Evitar cálculos pesados dentro de @Composable.
+  - Usar Modifier para estilos reutilizables.
+
+**Spring Boot**
+
+- **Estructura:**
+  - Paquetes por capa (controller, service, repository, model).
+  - Interfaces para servicios (UserService → UserServiceImpl).
+- **Convenciones:**
+  - Clases en PascalCase.
+  - Métodos en camelCase (getUserById()).
+
+**Next.js**
+
+- **Rutas:**
+  - Usar snake_case o kebab-case en nombres de archivos (/pages/user/profile.js).
+  - API routes en /pages/api/.
+- **Estilos:**
+  - CSS Modules (styles.module.css).
+  - Evitar estilos globales innecesarios.
+
+**Shadcn/ui**
+
+- **Componentes:**
+  - Extender estilos base, no sobrescribir CSS nativo.
+  - Usar clsx o tailwind-merge para combinar clases.
+- **Theming:**
+  - Variables CSS en :root para personalización.
+  - Evitar estilos inline.
+
+**Tailwind CSS**
+
+- **Clases:**
+  - Ordenar clases: Layout > Flex/Grid > Spacing > Typography > Colors > Effects.
+  - Evitar @apply en CSS (usar clases directamente en HTML).
+- **Responsive:**
+  - Usar prefixes (md:, lg:).
+
+**General:**
+
+- **Código:**
+  - Comentarios en inglés.
+  - Commits semánticos (feat:, fix:, docs:).
+- **Performance:**
+  - Lazy loading (imágenes, componentes).
+
 #### 6.1.4. Software Deployment Configuration
+
+En esta sección se detallan las consideraciones y pasos necesarios para el despliegue de los productos de Synhub.
+
+**Landing Page**
+
+**Consideraciones antes del despliegue:**
+- Es recomendable ejecutar npm run build localmente para asegurarse de que la aplicación web no contenga errores, ya sea por paquetes externos o problemas en la declaración de los componentes.
+
+**Requerimientos para realizar del despliegue:**
+- Repositorio de desarrollo de la landing page en github
+- Repositorio de github con estado de visualización público
+- Tener una cuenta activa en Render.
+
+**Pasos realizados para desplegar nuestra Landing Page:**
+1. Ingresar al sitio web de Render. 
+2. Iniciar sesión en la cuenta de Render. 
+3. Seleccionar la opción "New" y luego "Web Service". 
+4. Conceder acceso a Render para que pueda leer los repositorios de GitHub si es la primera vez. 
+5. Elegir el repositorio correspondiente a la Landing Page. 
+6. Configurar el nombre del servicio y confirmar los ajustes de despliegue (puerto, build command, etc. si es necesario). 
+7. Hacer clic en "Deploy". 
+8. Esperar a que Render complete el proceso de despliegue. 
+9. Acceder a la URL pública generada por Render para verificar que la Landing Page funcione correctamente
+
+**Mobile Application**
+
+**Consideraciones antes del despliegue:**
+
+- Se necesita tener el API desplegado en un servidor al que se pueda acceder de manera externa.
+
+**Requerimientos para realizar del despliegue:**
+
+- Repositorio de desarrollo del API en github
+- Dispositivo móvil Android en el que se pueda instalar la aplicación
+
+**Pasos realizados para desplegar nuestra Mobile Application:**
+
+1. Activar el modo desarrollador en el dispositivo móvil.
+2. Activar la depuración por USB en el dispositivo móvil.
+3. Conectar el dispositivo móvil a la computadora.
+4. Abrir Android Studio y seleccionar el proyecto de la aplicación.
+5. Seleccionar el dispositivo móvil en la lista de dispositivos disponibles.
+6. Hacer clic en el botón de "Run" (Ejecutar) en Android Studio.
+7. Esperar a que la aplicación se compile y se instale en el dispositivo móvil.
+8. Abrir la aplicación en el dispositivo móvil y verificar que funcione correctamente.
+
+**Backend**
+
+**Consideraciones antes del despliegue:**
+
+- Se necesita tener la base de datos desplegada en un servidor al que se pueda acceder de manera externa.
+
+**Requerimientos para realizar del despliegue:**
+
+- Repositorio de desarrollo del backend en github
+- Repositorio de github con estado de visualización público
+
+**Pasos realizados para desplegar nuestra API:**
+
+1. Extraer el pipeline de la base de datos de Neontech y cargarla al código del API.
+2. Crear un archivo Dockerfile para el despliegue del API.
+3. Crear un proyecto en Render de tipo Web Service.
+4. Importar el repositorio del API al proyecto de Render.
+5. Desplegar el API en Render.
 
 ### 6.2. Landing Page & Mobile Application Implementation
 
@@ -4875,29 +5105,1099 @@ Para este apartado comenzamos con la **creación de grupos**, donde el líder es
 
 ##### 6.2.1.1. Sprint Planning 1
 
+<table>
+  <tr>
+    <td colspan="1"><strong>Sprint #</strong></td>
+    <td colspan="1">1</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Sprint Planning Background</strong></td>
+  </tr>
+  <tr>
+    <td colspan="1"><strong>Date</strong></td>
+    <td colspan="1">2025-13-05</td>
+  </tr>
+  <tr>
+    <td colspan="1"><strong>Time</strong></td>
+    <td colspan="1">12:00 PM</td>
+  </tr>
+  <tr>
+    <td colspan="1"><strong>Location</strong></td>
+    <td colspan="1">Discord</td>
+  </tr>
+  <tr>
+    <td colspan="1"><strong>Prepared by</strong></td>
+    <td colspan="1">Alex Casas</td>
+  </tr>
+  <tr>
+    <td colspan="1"><strong>Attendees (to planning meeting)</strong></td>
+    <td colspan="1">Juan Astonitas, Jose Alejo, Gabriel Casas, Gianluca Pasquale, Sebastian Pacheco</td>
+  </tr>
+  <tr>
+    <td colspan="1"><strong>Sprint n – 1 Review Summary</strong></td>
+    <td colspan="1">Se realizó la landing page implementada con next.js, el front del mobile en android y el backend en srping boot JAVA</td>
+  </tr>
+  <tr>
+    <td colspan="1"><strong>Sprint n – 1 Retrospective Summary</strong></td>
+    <td colspan="1">Mejorar la comunicacion de artefacos relacionados a mas de un miembro.</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Sprint Goal & User Stories</strong></td>
+  </tr>
+  <tr>
+    <td colspan="1"><strong>Sprint 1 Goal</strong></td>
+    <td colspan="1">Nuestro enfoque está en consolidar los elementos fundamentales de SynHub mediante la corrección de artefactos anteriores, el diseño de la aplicación, y la entrega de los primeros prototipos funcionales de la landing page, el backend y la aplicación móvil.  Creemos que esto proporcionará claridad, alineamiento técnico y usabilidad inicial para los primeros usuarios, permitiendo que tanto los coordinadores familiares como los miembros del hogar comiencen a interactuar con una primera versión significativa de la plataforma.  Esto se confirmará cuando la landing page esté en línea, la app móvil muestre los primeros flujos de interfaz, el backend proporcione endpoints básicos de la API, y las correcciones a los artefactos previos estén documentadas y validadas por el equipo.</td>
+  </tr>
+  <tr>
+    <td colspan="1"><strong>Sprint 1 Velocity</strong></td>
+    <td colspan="1">Para este sprint nuestro equipo puende aceptar hasta 100 story points</td>
+  </tr>
+  <tr>
+    <td colspan="1"><strong>Sum of Story Points</strong></td>
+    <td colspan="1">La suma de story point atendidos es de 78+ story point.</td>
+  </tr>
+</table>
+
 ##### 6.2.1.2. Sprint Backlog 1
 
+<table>
+  <tr>
+    <td colspan="1"><strong>Sprint #</strong></td>
+    <td colspan="7"><strong>Sprint 1</strong></td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>User Story</strong></td>
+    <td colspan="6"><strong>Work-Item/task</strong></td>
+  </tr>
+  <tr>
+    <td colspan="1"><strong>Id</strong></td>
+    <td colspan="1"><strong>Title</strong></td>
+    <td colspan="1"><strong>Id</strong></td>
+    <td colspan="1"><strong>Title</strong></td>
+    <td colspan="1"><strong>Description</strong></td>
+    <td colspan="1"><strong>Estimation(Hrs)</strong></td>
+    <td colspan="1"><strong>Assigned To</strong></td>
+    <td colspan="1"><strong>Status</strong></td>
+  </tr>
+  <tr>
+    <td colspan="1">TS-001</td>
+    <td colspan="1">Obtener un grupo por ID</td>
+    <td colspan="1">T01</td>
+    <td colspan="1">Crear getGroupById</td>
+    <td colspan="1">Crear endpoint de groups GET /api/v1/group/{id}  .</td>
+    <td colspan="1">1</td>
+    <td colspan="1">Juan Astonitas</td>
+    <td colspan="1">Done</td>
+  </tr>
+  <tr>
+    <td colspan="1">TS-002</td>
+    <td colspan="1">Obtener todos los grupos de un usuario</td>
+    <td colspan="1">T02</td>
+    <td colspan="1">Crear getAllUserGroups</td>
+    <td colspan="1">Crear endpoint de groups GET /api/v1/group/user/{userId}</td>
+    <td colspan="1">0.5</td>
+    <td colspan="1">Juan Astonitas</td>
+    <td colspan="1">Done</td>
+  </tr>
+  <tr>
+    <td colspan="1">TS-003</td>
+    <td colspan="1">Registrar un nuevo grupo</td>
+    <td colspan="1">T03</td>
+    <td colspan="1">Crear registerGroup</td>
+    <td colspan="1">Crear endpoint de groups GET /api/v1/group</td>
+    <td colspan="1">1</td>
+    <td colspan="1">Juan Astonitas</td>
+    <td colspan="1">Done</td>
+  </tr>
+  <tr>
+    <td colspan="1">TS-004</td>
+    <td colspan="1">Agregar un miembro a un grupo</td>
+    <td colspan="1">T04</td>
+    <td colspan="1">Crear addMemberToGroup</td>
+    <td colspan="1">Crear endpoint de groups POST /api/v1/group/{groupId}/member/{userId}</td>
+    <td colspan="1">1</td>
+    <td colspan="1">Juan Astonitas</td>
+    <td colspan="1">Done</td>
+  </tr>
+  <tr>
+    <td colspan="1">TS-005</td>
+    <td colspan="1">Actualizar un grupo</td>
+    <td colspan="1">T05</td>
+    <td colspan="1">Crear updateGroup</td>
+    <td colspan="1">Crear endpoint de groups PUT/api/v1/group/{id}</td>
+    <td colspan="1">2</td>
+    <td colspan="1">Juan Astonitas</td>
+    <td colspan="1">Done</td>
+  </tr>
+  <tr>
+    <td colspan="1">TS-006</td>
+    <td colspan="1">Eliminar un grupo</td>
+    <td colspan="1">T06</td>
+    <td colspan="1">Crear deleteGroup</td>
+    <td colspan="1">Crear endpoint de groups DELETE/api/v1/group/{id}</td>
+    <td colspan="1">1</td>
+    <td colspan="1">Juan Astonitas</td>
+    <td colspan="1">Done</td>
+  </tr>
+  <tr>
+    <td colspan="1">TS-007</td>
+    <td colspan="1">Obtener todas las tareas por miembro</td>
+    <td colspan="1">T07</td>
+    <td colspan="1">Crear getAllTasksByMemberId</td>
+    <td colspan="1">Crear endpoint de Member Tasks GET /api/v1/{memberId}/tasks</td>
+    <td colspan="1">2.5</td>
+    <td colspan="1">Jose Alejo</td>
+    <td colspan="1">To-do</td>
+  </tr>
+  <tr>
+    <td colspan="1">TS-008</td>
+    <td colspan="1">Crear una nueva tarea para un miembro</td>
+    <td colspan="1">T08</td>
+    <td colspan="1">Crear createNewTask</td>
+    <td colspan="1">Crear endpoint de Member Tasks POST/api/v1/{memberId}/tasks</td>
+    <td colspan="1">2</td>
+    <td colspan="1">Jose Alejo</td>
+    <td colspan="1">Done</td>
+  </tr>
+<tr>
+    <td colspan="1">TS-009</td>
+    <td colspan="1">Obtener todos los miembros</td>
+    <td colspan="1">T09</td>
+    <td colspan="1">Crear getAllMembers</td>
+    <td colspan="1">Crear endpoint de Member GET /api/v1/members</td>
+    <td colspan="1">1</td>
+    <td colspan="1">Jose Alejo</td>
+    <td colspan="1">Done</td>
+  </tr>
+<tr>
+    <td colspan="1">TS-010</td>
+    <td colspan="1">Crear un nuevo miembro</td>
+    <td colspan="1">T010</td>
+    <td colspan="1">Crear createNewMember</td>
+    <td colspan="1">Crear endpoint de Member POST/api/v1/members</td>
+    <td colspan="1">1</td>
+    <td colspan="1">Jose Alejo</td>
+    <td colspan="1">Done</td>
+  </tr>
+<tr>
+    <td colspan="1">TS-011</td>
+    <td colspan="1">Obtener un miembro por ID</td>
+    <td colspan="1">T011</td>
+    <td colspan="1">Crear getMemberById</td>
+    <td colspan="1">Crear endpoint de Member GET /api/v1/members/{memberId}</td>
+    <td colspan="1">1.5</td>
+    <td colspan="1">Jose Alejo</td>
+    <td colspan="1">Done</td>
+  </tr>
+<tr>
+    <td colspan="1">TS-012</td>
+    <td colspan="1">Obtener tarea por ID</td>
+    <td colspan="1">T012</td>
+    <td colspan="1">Crear getTaskById</td>
+    <td colspan="1">Crear endpoint de Task GET /api/v1/tasks/{taskId}</td>
+    <td colspan="1">1.5</td>
+    <td colspan="1">Jose Alejo</td>
+    <td colspan="1">Done</td>
+  </tr>
+<tr>
+    <td colspan="1">TS-013</td>
+    <td colspan="1">Actualizar tarea</td>
+    <td colspan="1">T013</td>
+    <td colspan="1">Crear updateTask</td>
+    <td colspan="1">Crear endpoint de Task PUT /api/v1/tasks/{taskId}</td>
+    <td colspan="1">2</td>
+    <td colspan="1">Jose Alejo</td>
+    <td colspan="1">Done</td>
+  </tr>
+<tr>
+    <td colspan="1">TS-014</td>
+    <td colspan="1">Eliminar tarea</td>
+    <td colspan="1">T014</td>
+    <td colspan="1">Crear deleteTaskById</td>
+    <td colspan="1">Crear endpoint de TASK DELETE /api/v1/tasks/{taskId}</td>
+    <td colspan="1">1</td>
+    <td colspan="1">Jose Alejo</td>
+    <td colspan="1">Done</td>
+  </tr>
+<tr>
+    <td colspan="1">TS-015</td>
+    <td colspan="1">Actualizar estado de tarea</td>
+    <td colspan="1">T015</td>
+    <td colspan="1">Crear updateTaskStatus</td>
+    <td colspan="1">Crear endpoint de Task PUT /api/v1/tasks/{taskId}/status/{status}</td>
+    <td colspan="1">1.5</td>
+    <td colspan="1">Jose Alejo</td>
+    <td colspan="1">Done</td>
+  </tr>
+<tr>
+    <td colspan="1">TS-016</td>
+    <td colspan="1">Obtener todas las tareas</td>
+    <td colspan="1">T016</td>
+    <td colspan="1">Crear getAllTasks</td>
+    <td colspan="1">Crear endpoint de Task GET /api/v1/tasks</td>
+    <td colspan="1">0.5</td>
+    <td colspan="1">Jose Alejo</td>
+    <td colspan="1">Done</td>
+  </tr>
+<tr>
+    <td colspan="1">TS-017</td>
+    <td colspan="1">Obtener tareas por estado</td>
+    <td colspan="1">T017</td>
+    <td colspan="1">Crear  getAllTasksByStatus</td>
+    <td colspan="1">Crear endpoint de Task GET /api/v1/tasks/status/{status}</td>
+    <td colspan="1">1.5</td>
+    <td colspan="1">Jose Alejo</td>
+    <td colspan="1">Done</td>
+  </tr>
+<tr>
+    <td colspan="1">TS-018</td>
+    <td colspan="1">Enviar notificación</td>
+    <td colspan="1">T018</td>
+    <td colspan="1">Crear  sendNotification</td>
+    <td colspan="1">Crear endpoint de Notification POST /api/notifications/send </td>
+    <td colspan="1">3.5</td>
+    <td colspan="1">Gianluca Pasquale</td>
+    <td colspan="1">Done</td>
+  </tr>
+<tr>
+    <td colspan="1">TS-019</td>
+    <td colspan="1">Marcar notificación como leída</td>
+    <td colspan="1">T019</td>
+    <td colspan="1">Crear markAsRead</td>
+    <td colspan="1">Crear endpoint de Notifications POST /api/notifications/mark-as-read/{notificationId}</td>
+    <td colspan="1">0.5</td>
+    <td colspan="1">Gianluca Pasquale</td>
+    <td colspan="1">Done</td>
+  </tr>
+<tr>
+    <td colspan="1">TS-020</td>
+    <td colspan="1">Obtener notificaciones de usuario</td>
+    <td colspan="1">T020</td>
+    <td colspan="1">Crear getUserNotifications</td>
+    <td colspan="1">Crear endpoint de Notifications GET /api/notifications/user/{userId} </td>
+    <td colspan="1">0.5</td>
+    <td colspan="1">Gianluca Pasquale</td>
+    <td colspan="1">Done</td>
+  </tr>
+<tr>
+    <td colspan="1">TS-021</td>
+    <td colspan="1">Obtener notificaciones no leídas de usuario</td>
+    <td colspan="1">T021</td>
+    <td colspan="1">Crear getUserUnreadNotifications</td>
+    <td colspan="1">Crear endpoint de Notifications GET /api/notifications/user/{userId}/unread</td>
+    <td colspan="1">2.5</td>
+    <td colspan="1">Gianluca Pasquale</td>
+    <td colspan="1">Done</td>
+  </tr>
+<tr>
+    <td colspan="1">TS-022</td>
+    <td colspan="1">Generar reporte para un usuario</td>
+    <td colspan="1">T022</td>
+    <td colspan="1">Crear  generateReport</td>
+    <td colspan="1">Crear endpoint de Analytics POST /api/reports/generate/{userId}</td>
+    <td colspan="1">1.5</td>
+    <td colspan="1">Gianluca Pasquale</td>
+    <td colspan="1">Done</td>
+  </tr>
+<tr>
+    <td colspan="1">TS-023</td>
+    <td colspan="1">Obtener reportes de un usuario</td>
+    <td colspan="1">T023</td>
+    <td colspan="1">Crear getUserReports</td>
+    <td colspan="1">Crear endpoint de Analytics GET /api/reports/user/{userId}</td>
+    <td colspan="1">1.5</td>
+    <td colspan="1">Gianluca Pasquale</td>
+    <td colspan="1">Done</td>
+  </tr>
+<tr>
+    <td colspan="1">TS-024</td>
+    <td colspan="1">Actualizar estado de solicitud</td>
+    <td colspan="1">T024</td>
+    <td colspan="1">Crear updateRequestStatus</td>
+    <td colspan="1">Crear endpoint de Request PUT /api/v1/request/{requestId}/status  </td>
+    <td colspan="1">3</td>
+    <td colspan="1">Sebastian Pacheco</td>
+    <td colspan="1">Done</td>
+  </tr>
+<tr>
+    <td colspan="1">TS-025</td>
+    <td colspan="1">Crear nueva solicitud</td>
+    <td colspan="1">T025</td>
+    <td colspan="1">Crear createRequest</td>
+    <td colspan="1">Crear endpoint de Request POST /api/v1/request</td>
+    <td colspan="1">1</td>
+    <td colspan="1">Sebastian Pacheco</td>
+    <td colspan="1">Done</td>
+  </tr>
+<tr>
+    <td colspan="1">TS-026</td>
+    <td colspan="1">Obtener solicitud por ID</td>
+    <td colspan="1">T026</td>
+    <td colspan="1">Crear getRequestById</td>
+    <td colspan="1">Crear endpoint de Request GET /api/v1/request/{requestId} </td>
+    <td colspan="1">2</td>
+    <td colspan="1">Sebastian Pacheco</td>
+    <td colspan="1">Done</td>
+  </tr>
+</table>
+
 ##### 6.2.1.3. Development Evidence for Sprint Review
+
+
+En esta sección se presentan los commits realizados en el repositorio de landing,backend y frontend durante el sprint 1.
+
+**Commits realizados en el repositorio de la Landing Page durante el sprint 1:**
+
+<table >
+  <tr>
+    <th>Repository</th>
+    <th>Branch</th>
+    <th>Commit Id</th>
+    <th>Commit Message</th>
+    <th>Commit Message Body</th>
+    <th>Committed on (Date)</th>
+  </tr>
+  <tr>
+    <td>Landing Page</td>
+    <td>main</td>
+    <td>118fcaf10a77ad214d2692c87a35ae5742d8edd0</td>
+    <td>Update package.json</td>
+    <td></td>
+    <td>2025-05-14</td>
+  </tr>
+  <tr>
+    <td>Landing Page</td>
+    <td>main</td>
+    <td>f9be2319360a8e9abd797e271d4a9cd332cef991</td>
+    <td>fix: downgrade the date fns</td>
+    <td></td>
+    <td>2025-05-14</td>
+  </tr>
+  <tr>
+    <td>Landing Page</td>
+    <td>main</td>
+    <td>d94726dc183633a47c1408614965a50120078710</td>
+    <td>fix: add package.json install script</td>
+    <td></td>
+    <td>2025-05-14</td>
+  </tr>
+  <tr>
+    <td>Landing Page</td>
+    <td>main</td>
+    <td>fc0766300ff6b0820f9c2c4977c584a1c12d5b86</td>
+    <td>Merge pull request #1 from NRG-4/develop</td>
+    <td></td>
+    <td>2025-05-09</td>
+  </tr>
+  <tr>
+    <td>Landing Page</td>
+    <td>develop</td>
+    <td>fc0766300ff6b0820f9c2c4977c584a1c12d5b86</td>
+    <td>feat: add hero img</td>
+    <td></td>
+    <td>2025-05-09</td>
+  </tr>
+  <tr>
+    <td>Landing Page</td>
+    <td>develop</td>
+    <td>8ce265a05a3b0f999ede97e9a534ffa77a8ff541</td>
+    <td>feat: add mision and vision section</td>
+    <td></td>
+    <td>2025-05-09</td>
+  </tr>
+  <tr>
+    <td>Landing Page</td>
+    <td>develop</td>
+    <td>a8bf7b131c8a2529dc0828ed78ddbfafc3d76594</td>
+    <td>feat: add main page structure</td>
+    <td></td>
+    <td>2025-05-09</td>
+  </tr>
+  <tr>
+    <td>Landing Page</td>
+    <td>develop</td>
+    <td>347eeace62b90b5c0fb566a39ef939e2d112a043</td>
+    <td>feat: add features section</td>
+    <td></td>
+    <td>2025-05-09</td>
+  </tr>
+  <tr>
+    <td>Landing Page</td>
+    <td>develop</td>
+    <td>7e90b14e2cfb2b0d6f1c3b37bceadde30e782a04</td>
+    <td>feat: add a CTA</td>
+    <td></td>
+    <td>2025-05-09</td>
+  </tr>
+  <tr>
+    <td>Landing Page</td>
+    <td>develop</td>
+    <td>401594bd56ca8ce500d0560c543db5619c2e754f</td>
+    <td>feat: add hero sextion</td>
+    <td></td>
+    <td>2025-05-09</td>
+  </tr>
+  <tr>
+    <td>Landing Page</td>
+    <td>develop</td>
+    <td>b5703fca7ecee4e9cde0e91be7c56e321d4fd929</td>
+    <td>feat: add team section</td>
+    <td></td>
+    <td>2025-05-09</td>
+  </tr>
+  <tr>
+    <td>Landing Page</td>
+    <td>develop</td>
+    <td>be4713e775db9e68a0ccff63ccdb6bb20a0a3211</td>
+    <td>feat: add main layout</td>
+    <td></td>
+    <td>2025-05-09</td>
+  </tr>
+  <tr>
+    <td>Landing Page</td>
+    <td>develop</td>
+    <td>b83f0df6bbf2e9f355f1d59e7fee853c1b1933b4</td>
+    <td>feat: add footer</td>
+    <td></td>
+    <td>2025-05-09</td>
+  </tr>
+  <tr>
+    <td>Landing Page</td>
+    <td>develop</td>
+    <td>f1de4573d0693328dc99de2b0392a17ef648dec2</td>
+    <td>feat: add header</td>
+    <td></td>
+    <td>2025-05-09</td>
+  </tr>
+  <tr>
+    <td>Landing Page</td>
+    <td>develop</td>
+    <td>23829ee96ae1d1b974b0aecfd3c2ff2cb49871fe</td>
+    <td>feat: add theme switch</td>
+    <td></td>
+    <td>2025-05-09</td>
+  </tr>
+  <tr>
+    <td>Landing Page</td>
+    <td>develop</td>
+    <td>94bb9568fa802601c49d4a87b887e8697f50abda</td>
+    <td>chore: add shadcn components</td>
+    <td></td>
+    <td>2025-05-09</td>
+  </tr>
+  <tr>
+    <td>Landing Page</td>
+    <td>develop</td>
+    <td>1735381c910373325ff8c027517332792e8e191e</td>
+    <td>chore: add team pics</td>
+    <td></td>
+    <td>2025-05-09</td>
+  </tr>
+  <tr>
+    <td>Landing Page</td>
+    <td>develop</td>
+    <td>f3b4f540a9359a16f3cc86e23623e1cd83684a32</td>
+    <td>chore: add react switch</td>
+    <td></td>
+    <td>2025-05-09</td>
+  </tr>
+</table>
+
+**Commits realizados en el repositorio del Frontend durante el sprint 1:**
+
+<table >
+  <tr>
+    <th>Repository</th>
+    <th>Branch</th>
+    <th>Commit Id</th>
+    <th>Commit Message</th>
+    <th>Commit Message Body</th>
+    <th>Committed on (Date)</th>
+  </tr>
+<tr>
+    <th>synhub-mobile-app</th>
+    <th>master</th>
+    <th>84646b987e151215f972384b7875ba04c5e4e9c5</th>
+    <th>chore: setup project.</th>
+    <th></th>
+    <th>May 13 2025</th>
+  </tr>
+</table>
+
+**Commits realizados en el repositorio del Backend durante el sprint 1:**
+
+
+<table>
+  <tr>
+    <th>Repository</th>
+    <th>Branch</th>
+    <th>Commit Id</th>
+    <th>Commit Message</th>
+    <th>Commit Message Body</th>
+    <th>Committed on (Date)</th>
+  </tr>
+  <tr>
+    <td>task-management</td>
+    <td>develop</td>
+    <td>eb8c36026c67f708549a8e999cc7a2e2ecbb6480</td>
+    <td>feat(leader): add member to group endpoint</td>
+    <td></td>
+    <td>May 14, 2025</td>
+  </tr>
+  <tr>
+    <td>task-management</td>
+    <td>develop</td>
+    <td>8953a45c1d417ab48a3c285d8fcc92387b4144f7</td>
+    <td>fix: changed jar name in dockerfile</td>
+    <td></td>
+    <td>May 13, 2025</td>
+  </tr>
+  <tr>
+    <td>task-management</td>
+    <td>develop</td>
+    <td>55e7d0f033f611acd82c842666bbdad9a8ec0b83</td>
+    <td>feat(groups): add command service</td>
+    <td></td>
+    <td>May 13, 2025</td>
+  </tr>
+  <tr>
+    <td>task-management</td>
+    <td>develop</td>
+    <td>7a65718398b6e1b2055d4634ee645424407852a2</td>
+    <td>feat(leader): add get group by leader id endpoint</td>
+    <td></td>
+    <td>May 14, 2025</td>
+  </tr>
+  <tr>
+    <td>task-management</td>
+    <td>develop</td>
+    <td>06d922b76ffc2fec67b95c63e91fe974df7b7dcf</td>
+    <td>feat(leader): add leader controller</td>
+    <td></td>
+    <td>May 14, 2025</td>
+  </tr>
+  <tr>
+    <td>task-management</td>
+    <td>develop</td>
+    <td>5504cf3a3a1ece6f8f28b9dfcb759b5c39fb060f</td>
+    <td>feat(leader): add leader resources and transform</td>
+    <td></td>
+    <td>May 14, 2025</td>
+  </tr>
+  <tr>
+    <td>task-management</td>
+    <td>feat/groups</td>
+    <td>0d90a949386f6d5d3e647267844eaccd7039b86f</td>
+    <td>Merge pull request #3 from NRG-4/feat/groups</td>
+    <td></td>
+    <td>May 13, 2025</td>
+  </tr>
+  <tr>
+    <td>task-management</td>
+    <td>feat/groups</td>
+    <td>ab9a8da2e863c805ef0dda7895c72fb2b8a8f5d6</td>
+    <td>Merge branch 'develop' into feat/groups</td>
+    <td></td>
+    <td>May 13, 2025</td>
+  </tr>
+  <tr>
+    <td>task-management</td>
+    <td>requests</td>
+    <td>d919d31f5b123e528d1dc82c609b5a3fdd3a847f</td>
+    <td>Merge pull request #2 from NRG-4/requests</td>
+    <td></td>
+    <td>May 13, 2025</td>
+  </tr>
+  <tr>
+    <td>task-management</td>
+    <td>develop</td>
+    <td>7d381dab4f926b72cc86a88e66542421e058b4d8</td>
+    <td>fix(controllers): change request status update method name to emphasize on status.</td>
+    <td></td>
+    <td>May 13, 2025</td>
+  </tr>
+</table>
 
 ##### 6.2.1.4. Testing Suite Evidence for Sprint Review
 
 ##### 6.2.1.5. Execution Evidence for Sprint Review
 
+En esta sección se presentan las evidencias de la ejecución de la aplicación para el sprint 1.
+En esta sección, presentamos una recopilación visual y detallada de los avances logrados durante el sprint. A través de imágenes y un video demostrativo, podrás apreciar los resultados concretos de nuestro trabajo y comprender mejor cómo hemos dado forma a las funcionalidades del producto.
+
+
+<img src="images/chapter-6/landingPage1.png" alt="API">
+
+
+<img src="images/chapter-6/landingPage2.png" alt="API">
+
+
+
+<img src="images/chapter-6/landingPage3.png" alt="API">
+
+
+<img src="images/chapter-6/landingPage4.png" alt="API">
+
+
+<img src="images/chapter-6/landingPage5.png" alt="API">
+
+
+<img src="images/chapter-6/landingPage6.png" alt="API">
+
+
+<img src="images/chapter-6/landingPage7.png" alt="API">
+
+
+<img src="images/chapter-6/landingPage8.png" alt="API">
+
+
+<img src="images/chapter-6/landingPage9.png" alt="API">
+
+
+<img src="images/chapter-6/landingPage10.png" alt="API">
+
+
+
+
+<img src="images/chapter-6/api.png" alt="API">
+
+
 ##### 6.2.1.6. Services Documentation Evidence for Sprint Review
+
+Esta tabla presenta la documentación de los servicios implementados como evidencia para la revisión del sprint. Detalla los endpoints disponibles, sus métodos HTTP, descripciones breves de su funcionalidad y los parámetros requeridos, organizados por categorías como *Groups*, *Members*, *Tasks* y *Member Tasks*.
+
+<table>
+    <tr>
+        <th colspan="1"> Tag </th>
+        <th colspan="1"> Verbo http</th>
+        <th colspan="1"> Endpoint </th>
+        <th colspan="1"> Summary </th>
+        <th colspan="1"> Description </th>
+        <th colspan="1"> OperationId </th>
+    </tr>
+    <tr>
+        <td colspan="1"> Groups </td>
+        <td colspan="1"> GET </td>
+        <td colspan="1"> /api/v1/group/{id} </td>
+        <td colspan="1"> Get group by id </td>
+        <td colspan="1"> Retrieve detailed information about a specific group by its ID </td>
+        <td colspan="1"> getGroupById </td>
+    </tr>
+    <tr>
+        <td colspan="1"> Parameters </td>
+        <td colspan="2"> id </td>
+        <td colspan="1"> Request body </td>
+        <td colspan="2"> no </td>
+    </tr>
+    <tr>
+        <td colspan="1"> Groups </td>
+        <td colspan="1"> GET </td>
+        <td colspan="1"> /api/v1/group/user/{userId} </td>
+        <td colspan="1"> Get all user groups </td>
+        <td colspan="1"> Retrieve all groups associated with a specific user </td>
+        <td colspan="1"> getAllUserGroups </td>
+    </tr>
+    <tr>
+        <td colspan="1"> Parameters </td>
+        <td colspan="2"> userId </td>
+        <td colspan="1"> Request body </td>
+        <td colspan="2"> no </td>
+    </tr>
+    <tr>
+        <td colspan="1"> Groups </td>
+        <td colspan="1"> POST </td>
+        <td colspan="1"> /api/v1/group </td>
+        <td colspan="1"> Register new group </td>
+        <td colspan="1"> Create a new group in the system </td>
+        <td colspan="1"> registerGroup </td>
+    </tr>
+    <tr>
+        <td colspan="1"> Parameters </td>
+        <td colspan="2"> no </td>
+        <td colspan="1"> Request body </td>
+        <td colspan="2"> si </td>
+    </tr>
+    <tr>
+        <td colspan="1"> Groups </td>
+        <td colspan="1"> POST </td>
+        <td colspan="1"> /api/v1/group/{groupId}/member/{userId} </td>
+        <td colspan="1"> Add member to group </td>
+        <td colspan="1"> Associate a user as a member of a specific group </td>
+        <td colspan="1"> AddMemberToGroup </td>
+    </tr>
+    <tr>
+        <td colspan="1"> Parameters </td>
+        <td colspan="2"> groupId, userId </td>
+        <td colspan="1"> Request body </td>
+        <td colspan="2"> no </td>
+    </tr>
+    <tr>
+        <td colspan="1"> Groups </td>
+        <td colspan="1"> PUT </td>
+        <td colspan="1"> /api/v1/group/{id} </td>
+        <td colspan="1"> Update group </td>
+        <td colspan="1"> Modify information of an existing group </td>
+        <td colspan="1"> updateGroup </td>
+    </tr>
+    <tr>
+        <td colspan="1"> Parameters </td>
+        <td colspan="2"> id </td>
+        <td colspan="1"> Request body </td>
+        <td colspan="2"> si </td>
+    </tr>
+    <tr>
+        <td colspan="1"> Groups </td>
+        <td colspan="1"> DELETE </td>
+        <td colspan="1"> /api/v1/group/{id} </td>
+        <td colspan="1"> Delete group </td>
+        <td colspan="1"> Remove a group from the system </td>
+        <td colspan="1"> deleteGroup </td>
+    </tr>
+    <tr>
+        <td colspan="1"> Parameters </td>
+        <td colspan="2"> id </td>
+        <td colspan="1"> Request body </td>
+        <td colspan="2"> no </td>
+    </tr>
+    <tr>
+        <td colspan="1"> Member Tasks </td>
+        <td colspan="1"> GET </td>
+        <td colspan="1"> /api/v1/{memberId}/tasks </td>
+        <td colspan="1"> Get all tasks by member id </td>
+        <td colspan="1"> Retrieve all tasks assigned to a specific member </td>
+        <td colspan="1"> getAllTasksByMemberId </td>
+    </tr>
+    <tr>
+        <td colspan="1"> Parameters </td>
+        <td colspan="2"> memberId </td>
+        <td colspan="1"> Request body </td>
+        <td colspan="2"> no </td>
+    </tr>
+    <tr>
+        <td colspan="1"> Member Tasks </td>
+        <td colspan="1"> POST </td>
+        <td colspan="1"> /api/v1/{memberId}/tasks </td>
+        <td colspan="1"> Create new task </td>
+        <td colspan="1"> Assign a new task to a specific member </td>
+        <td colspan="1"> createNewTask </td>
+    </tr>
+    <tr>
+        <td colspan="1"> Parameters </td>
+        <td colspan="2"> memberId </td>
+        <td colspan="1"> Request body </td>
+        <td colspan="2"> si </td>
+    </tr>
+    <tr>
+        <td colspan="1"> Members </td>
+        <td colspan="1"> GET </td>
+        <td colspan="1"> /api/v1/members </td>
+        <td colspan="1"> Get all members </td>
+        <td colspan="1"> Retrieve all members registered in the system </td>
+        <td colspan="1"> getAllMembers </td>
+    </tr>
+    <tr>
+        <td colspan="1"> Parameters </td>
+        <td colspan="2"> no </td>
+        <td colspan="1"> Request body </td>
+        <td colspan="2"> no </td>
+    </tr>
+    <tr>
+        <td colspan="1"> Members </td>
+        <td colspan="1"> POST </td>
+        <td colspan="1"> /api/v1/members </td>
+        <td colspan="1"> Create new member </td>
+        <td colspan="1"> Register a new member in the system </td>
+        <td colspan="1"> createNewMember </td>
+    </tr>
+    <tr>
+        <td colspan="1"> Parameters </td>
+        <td colspan="2"> no </td>
+        <td colspan="1"> Request body </td>
+        <td colspan="2"> si </td>
+    </tr>
+    <tr>
+        <td colspan="1"> Members </td>
+        <td colspan="1"> GET </td>
+        <td colspan="1"> /api/v1/members/{memberId} </td>
+        <td colspan="1"> Get member by id </td>
+        <td colspan="1"> Retrieve detailed information about a specific member </td>
+        <td colspan="1"> getMemberById </td>
+    </tr>
+    <tr>
+        <td colspan="1"> Parameters </td>
+        <td colspan="2"> memberId </td>
+        <td colspan="1"> Request body </td>
+        <td colspan="2"> no </td>
+    </tr>
+    <tr>
+        <td colspan="1"> Tasks </td>
+        <td colspan="1"> GET </td>
+        <td colspan="1"> /api/v1/tasks/{taskId} </td>
+        <td colspan="1"> Get task by id </td>
+        <td colspan="1"> Retrieve detailed information about a specific task </td>
+        <td colspan="1"> getTaskById </td>
+    </tr>
+    <tr>
+        <td colspan="1"> Parameters </td>
+        <td colspan="2"> taskId </td>
+        <td colspan="1"> Request body </td>
+        <td colspan="2"> no </td>
+    </tr>
+    <tr>
+        <td colspan="1"> Tasks </td>
+        <td colspan="1"> PUT </td>
+        <td colspan="1"> /api/v1/tasks/{taskId} </td>
+        <td colspan="1"> Update task </td>
+        <td colspan="1"> Modify information of an existing task </td>
+        <td colspan="1"> updateTask </td>
+    </tr>
+    <tr>
+        <td colspan="1"> Parameters </td>
+        <td colspan="2"> taskId </td>
+        <td colspan="1"> Request body </td>
+        <td colspan="2"> si </td>
+    </tr>
+    <tr>
+        <td colspan="1"> Tasks </td>
+        <td colspan="1"> DELETE </td>
+        <td colspan="1"> /api/v1/tasks/{taskId} </td>
+        <td colspan="1"> Delete task by id </td>
+        <td colspan="1"> Remove a task from the system </td>
+        <td colspan="1"> deleteTaskById </td>
+    </tr>
+    <tr>
+        <td colspan="1"> Parameters </td>
+        <td colspan="2"> taskId </td>
+        <td colspan="1"> Request body </td>
+        <td colspan="2"> no </td>
+    </tr>
+    <tr>
+        <td colspan="1"> Tasks </td>
+        <td colspan="1"> PUT </td>
+        <td colspan="1"> /api/v1/tasks/{taskId}/status/{status} </td>
+        <td colspan="1"> Update task status </td>
+        <td colspan="1"> Change the status of an existing task </td>
+        <td colspan="1"> updateTaskStatus </td>
+    </tr>
+    <tr>
+        <td colspan="1"> Parameters </td>
+        <td colspan="2"> taskId, status </td>
+        <td colspan="1"> Request body </td>
+        <td colspan="2"> no </td>
+    </tr>
+    <tr>
+        <td colspan="1"> Tasks </td>
+        <td colspan="1"> GET </td>
+        <td colspan="1"> /api/v1/tasks </td>
+        <td colspan="1"> Get all tasks </td>
+        <td colspan="1"> Retrieve all tasks in the system </td>
+        <td colspan="1"> getAllTasks </td>
+    </tr>
+    <tr>
+        <td colspan="1"> Parameters </td>
+        <td colspan="2"> no </td>
+        <td colspan="1"> Request body </td>
+        <td colspan="2"> no </td>
+    </tr>
+    <tr>
+        <td colspan="1"> Tasks </td>
+        <td colspan="1"> GET </td>
+        <td colspan="1"> /api/v1/tasks/status/{status} </td>
+        <td colspan="1"> Get all tasks by status </td>
+        <td colspan="1"> Retrieve all tasks filtered by a specific status </td>
+        <td colspan="1"> getAllTasksByStatus </td>
+    </tr>
+    <tr>
+        <td colspan="1"> Parameters </td>
+        <td colspan="2"> status </td>
+        <td colspan="1"> Request body </td>
+        <td colspan="2"> no </td>
+    </tr>
+    <tr>
+        <td colspan="1"> Notifications </td>
+        <td colspan="1"> POST </td>
+        <td colspan="1"> /api/notifications/send </td>
+        <td colspan="1"> Send notification </td>
+        <td colspan="1"> Create and send a new notification to a user </td>
+        <td colspan="1"> sendNotification </td>
+    </tr>
+    <tr>
+        <td colspan="1"> Parameters </td>
+        <td colspan="2"> no </td>
+        <td colspan="1"> Request body </td>
+        <td colspan="2"> si </td>
+    </tr>
+    <tr>
+        <td colspan="1"> Notifications </td>
+        <td colspan="1"> POST </td>
+        <td colspan="1"> /api/notifications/mark-as-read/{notificationId} </td>
+        <td colspan="1"> Mark notification as read </td>
+        <td colspan="1"> Update the read status of a specific notification </td>
+        <td colspan="1"> markAsRead </td>
+    </tr>
+    <tr>
+        <td colspan="1"> Parameters </td>
+        <td colspan="2"> notificationId </td>
+        <td colspan="1"> Request body </td>
+        <td colspan="2"> no </td>
+    </tr>
+    <tr>
+        <td colspan="1"> Notifications </td>
+        <td colspan="1"> GET </td>
+        <td colspan="1"> /api/notifications/user/{userId} </td>
+        <td colspan="1"> Get user notifications </td>
+        <td colspan="1"> Retrieve all notifications for a specific user </td>
+        <td colspan="1"> getUserNotifications </td>
+    </tr>
+    <tr>
+        <td colspan="1"> Parameters </td>
+        <td colspan="2"> userId </td>
+        <td colspan="1"> Request body </td>
+        <td colspan="2"> no </td>
+    </tr>
+    <tr>
+        <td colspan="1"> Notifications </td>
+        <td colspan="1"> GET </td>
+        <td colspan="1"> /api/notifications/user/{userId}/unread </td>
+        <td colspan="1"> Get user unread notifications </td>
+        <td colspan="1"> Retrieve all unread notifications for a specific user </td>
+        <td colspan="1"> getUserUnreadNotifications </td>
+    </tr>
+    <tr>
+        <td colspan="1"> Parameters </td>
+        <td colspan="2"> userId </td>
+        <td colspan="1"> Request body </td>
+        <td colspan="2"> no </td>
+    </tr>
+    <tr>
+        <td colspan="1"> Analytics </td>
+        <td colspan="1"> POST </td>
+        <td colspan="1"> /api/reports/generate/{userId} </td>
+        <td colspan="1"> Generate report </td>
+        <td colspan="1"> Create a new analytics report for a specific user </td>
+        <td colspan="1"> generateReport </td>
+    </tr>
+    <tr>
+        <td colspan="1"> Parameters </td>
+        <td colspan="2"> userId </td>
+        <td colspan="1"> Request body </td>
+        <td colspan="2"> si </td>
+    </tr>
+    <tr>
+        <td colspan="1"> Analytics </td>
+        <td colspan="1"> GET </td>
+        <td colspan="1"> /api/reports/user/{userId} </td>
+        <td colspan="1"> Get user reports </td>
+        <td colspan="1"> Retrieve all generated reports for a specific user </td>
+        <td colspan="1"> getUserReports </td>
+    </tr>
+    <tr>
+        <td colspan="1"> Parameters </td>
+        <td colspan="2"> userId </td>
+        <td colspan="1"> Request body </td>
+        <td colspan="2"> no </td>
+    </tr>
+    <tr>
+        <td colspan="1"> Requests </td>
+        <td colspan="1"> PUT </td>
+        <td colspan="1"> /api/v1/request/{requestId}/status </td>
+        <td colspan="1"> Update request status </td>
+        <td colspan="1"> Change the status of an existing request </td>
+        <td colspan="1"> updateRequestStatus </td>
+    </tr>
+    <tr>
+        <td colspan="1"> Parameters </td>
+        <td colspan="2"> requestId </td>
+        <td colspan="1"> Request body </td>
+        <td colspan="2"> si </td>
+    </tr>
+    <tr>
+        <td colspan="1"> Requests </td>
+        <td colspan="1"> POST </td>
+        <td colspan="1"> /api/v1/request </td>
+        <td colspan="1"> Create request </td>
+        <td colspan="1"> Create a new request in the system </td>
+        <td colspan="1"> createRequest </td>
+    </tr>
+    <tr>
+        <td colspan="1"> Parameters </td>
+        <td colspan="2"> no </td>
+        <td colspan="1"> Request body </td>
+        <td colspan="2"> si </td>
+    </tr>
+    <tr>
+        <td colspan="1"> Requests </td>
+        <td colspan="1"> GET </td>
+        <td colspan="1"> /api/v1/request/{requestId} </td>
+        <td colspan="1"> Get request by id </td>
+        <td colspan="1"> Retrieve detailed information about a specific request </td>
+        <td colspan="1"> getRequestById </td>
+    </tr>
+    <tr>
+        <td colspan="1"> Parameters </td>
+        <td colspan="2"> requestId </td>
+        <td colspan="1"> Request body </td>
+        <td colspan="2"> no </td>
+    </tr>
+</table>
 
 ##### 6.2.1.7. Software Deployment Evidence for Sprint Review
 
+**Landing Page**
+Para hacer el deployment de la aplicacion web se utilizó render, una plataforma que permite hacer el deployment de aplicaciones de forma sencilla y rápida.
+Enlace de la landing page:[https://synhub-landing.onrender.com/](https://synhub-landing.onrender.com/ "https://synhub-landing.onrender.com/")
+
+<img src="images/chapter-6/deploy1.png">
+
+
+**Backend**
+Para hacer el deployment de la aplicacion web se utilizó render, una plataforma que permite hacer el deployment de aplicaciones de forma sencilla y rápida.
+Enlace del frontend: [https://synhub-backend.onrender.com/swagger-ui/index.html#/](https://synhub-backend.onrender.com/swagger-ui/index.html#/ "https://synhub-backend.onrender.com/swagger-ui/index.html#/")
+
+<img src="images/chapter-6/deploy2.png">
+
+
 ##### 6.2.1.8. Team Collaboration Insights during Sprint
 
-### 6.3. Validation Interviews
+Para este sprint se desarrollaron 3 productos siendo estos: landing page, web application y web services. Para la landing page hubo un solo encargado debido a que ya se encontraba en la etapa final de su desarrollo. Para lode más productos todo los integrantes participaron. La distribución de commit fue la siguiente:
 
-#### 6.3.1. Diseño de entrevistas
+**Landing Page**
 
-#### 6.3.2. Registro de entrevistas
+<img src="images/insights/sprint-1/sprint-1-lp-insights-1.png">
+<img src="images/insights/sprint-1/sprint-1-lp-insights-2.png">
 
-#### 6.3.3. Evaluaciones según heurísticas
+**Distribución de commits de commits:**
 
-### 6.4. Video About-the-Product
+- Juan Diego Astonitas Díaz: 17 commits.
+
+**Mobile App**
+
+<img src="images/insights/sprint-1/sprint-1-ma-insights-1.png">
+<img src="images/insights/sprint-1/sprint-1-ma-insights-2.png">
+<img src="images/insights/sprint-1/sprint-1-ma-insights-3.png">
+<img src="images/insights/sprint-1/sprint-1-ma-insights-4.png">
+
+**Distribución de commits de commits:**
+
+- Juan Diego Astonitas Díaz: 5 commits.
+- Gabriel Alexander Casas Sanchez: 9 commits.
+- Gianluca Santino Pasquale Barrenechea: 2 commits.
+- Alejo Cardenas Jose Antonio: 6 commits.
+- Pacheco Astiguetta Sebastian: 3 commits.
+
+**Backend**
+
+<img src="images/insights/sprint-1/sprint-1-bk-insights-1.png">
+<img src="images/insights/sprint-1/sprint-1-bk-insights-2.png">
+<img src="images/insights/sprint-1/sprint-1-bk-insights-3.png">
+
+**Distribución de commits de commits:**
+
+- Juan Diego Astonitas Díaz: 22 commits.
+- Gabriel Alexander Casas Sanchez: 31 commits.
+- Gianluca Santino Pasquale Barrenechea: 60 commits.
+- Alejo Cardenas Jose Antonio: 7 commits.
+- Pacheco Astiguetta Sebastian: 39 commits.
 
 ## Conclusiones
 
