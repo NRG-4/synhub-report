@@ -328,24 +328,6 @@ Postular a programas de talento junior o trainee en desarrollo fullstack dentro 
 Objetivo 2:
 Finalizar un curso especializado en testing automatizado con Jest o Cypress antes de cumplir un año de egresado, con el fin de asegurar la calidad del software en proyectos reales.
 
-## Capitulo I: Presentación
-
-### 1.1. Startup Profile
-
-#### 1.1.1. Descripción de la Startup
-
-Nuestra empresa NRG4 nace con la visión de ofrecer soluciones digitales que mejoren la organización y la colaboración en los entornos donde convivimos y trabajamos. En esta ocasión, presentamos SynHub, una plataforma pensada para resolver uno de los retos más comunes y menos atendidos en grupos modernos: la coordinación eficiente de tareas, horarios y responsabilidades compartidas.
-
-Entendemos que en un mundo donde el tiempo es limitado y las actividades se superponen constantemente, contar con herramientas que faciliten la gestión grupal es indispensable. Ya sea en el hogar, en equipos de trabajo, grupos de estudio, organizaciones comunitarias o cualquier espacio colaborativo, SynHome permite mantener el orden, promover la participación equitativa y fortalecer la comunicación entre los miembros del grupo. Desde NRG4 buscamos justamente eso: transformar la forma en que las personas se organizan en conjunto.
-
-**Misión:**
-
-Nuestra misión como empresa es facilitar la gestión diaria de grupos a través de una plataforma que promueve la corresponsabilidad, la organización eficiente y la comunicación clara entre sus integrantes. Queremos empoderar tanto a quienes lideran estos espacios como a cada miembro del equipo, brindándoles una herramienta intuitiva y efectiva para coordinarse mejor y alcanzar objetivos comunes.
-
-**Visión:**
-
-Desde NRG4, aspiramos a consolidarnos como referentes en tecnología para la organización colaborativa, siendo reconocidos por desarrollar soluciones que impacten positivamente la vida diaria de las personas. Con SynHub, buscamos posicionarnos como la plataforma líder en gestión de tareas y coordinación grupal en el Perú y Latinoamérica, facilitando entornos más ordenados, productivos y armoniosos en hogares, oficinas, comunidades y más.
-
 #### 1.1.2. Perfiles de integrantes del equipo
 
 <table>
@@ -394,10 +376,10 @@ Desde NRG4, aspiramos a consolidarnos como referentes en tecnología para la org
 
 La plataforma SynHub ofrece un entorno digital intuitivo y multifuncional que permite a los equipos gestionar sus actividades de forma colaborativa y eficiente:
 
-- Desde el rol organizador o administrador: asignar tareas, crear calendarios grupales, definir horarios compartidos, establecer roles con diferentes niveles de acceso, hacer seguimiento del cumplimiento de responsabilidades y coordinar reuniones o encuentros virtuales.
-- Desde el rol de integrante del equipo: consultar su calendario personal y grupal, recibir notificaciones y recordatorios, proponer ajustes en tareas u horarios, visualizar responsabilidades asignadas y conocer la disponibilidad de otros miembros.
+- Desde el rol organizador o administrador:crear grupos,asignar miembros a los grupos, asignar tareas, hacer seguimiento del cumplimiento de responsabilidades y facilitar la organización interna del equipo.
+- Desde el rol de integrante del equipo: consultar responsabilidades asignadas, recibir notificaciones y recordatorios, y proponer ajustes en tareas según el avance del grupo, visualizar responsabilidades asignadas y conocer la disponibilidad de otros miembros.
 
-Gracias a funcionalidades como la personalización de tareas, historial de cumplimiento, objetos o recursos compartidos, roles configurables, y una interfaz clara para visualizar la carga y horarios del equipo, la plataforma impulsa la organización eficiente, la corresponsabilidad y una comunicación más fluida dentro de cualquier tipo de grupo.
+Gracias a funcionalidades como la personalización de tareas, historial de cumplimiento, objetos o recursos compartidos, y una interfaz clara para visualizar la carga del equipo, la plataforma impulsa la organización eficiente, la corresponsabilidad y una comunicación más fluida dentro de cualquier tipo de grupo.
 
 #### 1.2.1. Antecedentes y problemática
 
@@ -405,11 +387,11 @@ Gracias a funcionalidades como la personalización de tareas, historial de cumpl
 
 - ¿Cuál es el problema?
 
-adica en la falta de herramientas digitales integrales y adaptables que permitan a los equipos organizarse de manera efectiva. Actualmente, muchas dinámicas grupales enfrentan desafíos como la distribución desigual de tareas, la escasa visibilidad del progreso, la comunicación desorganizada y la descoordinación entre miembros, lo que impacta negativamente en la productividad, genera tensiones internas y reduce el bienestar colectivo.
+El problema radica en la baja adopción de aplicaciones móviles diseñadas para la organización colaborativa. A pesar de la disponibilidad de diversas herramientas digitales, muchas personas y grupos siguen recurriendo a métodos improvisados o poco eficientes para coordinar actividades, lo que genera distribución desigual de tareas, falta de seguimiento, comunicación fragmentada y pérdida de productividad.
 
 - ¿Cuál es la relación con la persona en cuestión?
 
-La relación es facilitar a los miembros de equipos o grupos una herramienta diseñada específicamente para mejorar la organización, la distribución de tareas y la comunicación dentro de su grupo.
+La relación es ofrecer a los miembros de equipos o grupos una herramienta móvil accesible y centrada en sus necesidades reales, que facilite una organización más clara, una distribución de tareas efectiva y una comunicación más fluida, promoviendo así su uso y adopción en el día a día.
 
 **When**
 
@@ -419,13 +401,13 @@ El problema surge cuando los equipos y grupos deben coordinar actividades, repar
 
 - ¿Cuándo utiliza el cliente el producto?
 
-El cliente utiliza SynHub cuando necesita organizar, coordinar o participar en actividades grupales de manera eficiente, ya sea al inicio de un proyecto, durante la planificación de tareas, en la preparación de reuniones o en el seguimiento de responsabilidades.
+El cliente utiliza SynHub cuando necesita organizar, coordinar o participar en actividades grupales de manera eficiente, ya sea al inicio de un proyecto, durante la planificación de tareas o en el seguimiento de responsabilidades.
 
 **Where**
 
 - ¿Dónde está el cliente cuando usa el producto?
 
-El cliente utiliza SynHub desde cualquier lugar con acceso a Internet, ya sea en su hogar, en la oficina, en una sala de reuniones, en el aula o incluso mientras se traslada.
+El cliente utiliza SynHub desde cualquier lugar con acceso a Internet, ya sea en su hogar, en la oficina, en el aula o incluso mientras se traslada.
 
 - ¿Dónde surge el problema?
 
@@ -435,12 +417,12 @@ El problema surge dentro de los propios entornos donde se desarrollan actividade
 
 - ¿Quienes se ven involucrados en el problema?
 
-Se ven involucrados tanto los organizadores o coordinadores de equipos (como líderes de proyecto, docentes, jefes de área o representantes comunitarios) como los integrantes de los grupos (estudiantes, colaboradores, voluntarios o participantes) que enfrentan dificultades para organizarse, distribuir responsabilidades y comunicarse eficazmente.
+Se ven involucrados tanto los organizadores o coordinadores de equipos (como líderes de proyecto, docentes, jefes de área o representantes comunitarios) miembros de equipos de trabajo (como estudiantes, colaboradores, voluntarios o participantes) que enfrentan dificultades para organizarse, distribuir responsabilidades y comunicarse eficazmente.
 **Why**
 
 - ¿Cuáles son las causas del problema?
 
-Las causas del problema radican en la ausencia de herramientas centralizadas, flexibles y específicas para la gestión colaborativa de equipos con diferentes estructuras y necesidades. Muchas soluciones existentes no permiten una asignación clara de responsabilidades, ni contemplan la diversidad de roles, horarios o dinámicas de los grupos.
+Las causas del problema radican en la falta de adopción de aplicaciones móviles para la organización de equipos. Esto se debe, en gran parte, a la resistencia al cambio, la baja percepción de valor inmediato y la falta de hábitos digitales consolidados en ciertos grupos. Aunque existen herramientas disponibles, muchas personas prefieren métodos tradicionales como chats informales, hojas de cálculo o notas físicas, ya que perciben las apps como innecesarias, complicadas o poco integradas a su rutina diaria. Además, la escasa promoción interna o el desconocimiento de las funcionalidades clave también limitan su uso efectivo.
 
 **How**
 
@@ -460,11 +442,11 @@ El lean UX process es un enfoque iterativo centrado en el usuario para el diseñ
 
 ##### 1.2.2.1. Lean UX Problem Statements
 
-En el entorno actual, tanto en contextos familiares como laborales y comunitarios, los grupos enfrentan grandes desafíos para coordinar tareas, organizar horarios y mantener una comunicación fluida y estructurada entre sus miembros. Aunque existen herramientas digitales como aplicaciones de mensajería, calendarios o tableros de tareas, muchas de estas soluciones son fragmentadas, poco integradas o carecen de una lógica colaborativa adaptada al trabajo en equipo cotidiano.
+En el entorno actual, tanto en contextos familiares como laborales y comunitarios, los grupos enfrentan grandes desafíos para coordinar tareas y mantener una comunicación fluida y estructurada entre sus miembros. Aunque existen herramientas digitales como aplicaciones de mensajería o tableros de tareas, muchas de estas soluciones son fragmentadas, poco integradas o carecen de una lógica colaborativa adaptada al trabajo en equipo cotidiano.
 
 Esta falta de soluciones centralizadas y personalizables genera desorganización, distribución desigual de responsabilidades, olvidos, retrasos y fricciones entre los integrantes de un grupo. Ya sea en un entorno familiar, una oficina, un equipo de voluntariado o un pequeño negocio, la necesidad de una herramienta unificada que facilite la colaboración, la planificación y el seguimiento de actividades es cada vez más evidente.
 
-SynHub nace como una plataforma digital diseñada para cubrir esta brecha: una solución integral para la gestión de grupos que permite distribuir tareas, visualizar horarios compartidos, establecer roles con distintos niveles de permisos, recibir recordatorios y mejorar la eficiencia del trabajo en conjunto.
+SynHub nace como una plataforma digital diseñada para cubrir esta brecha: una solución integral para la gestión de grupos que permite distribuir tareas, visualizar reportes, recibir recordatorios y mejorar la eficiencia del trabajo en conjunto.
 
 ##### 1.2.2.2. Lean UX Assumptions
 
@@ -474,7 +456,7 @@ SynHub nace como una plataforma digital diseñada para cubrir esta brecha: una s
 - ¿Dónde encaja nuestro producto en su trabajo o vida?: Nuestro producto encaja en actividades grupales donde el usuario es partícipe junto a otros miembros, facilitando la gestión de tareas y responsabilidades dentro del equipo.
 - ¿Qué problemas resuelve nuestro producto?: Nuestro producto resuelve problemas de desorganización y falta de comunicación dentro del equipo.
 - ¿Cuándo y cómo se usa nuestro producto?: Nuestro producto se usa cuando hay necesidad de organización en actividades grupales, especialmente en momentos de planificación, seguimiento de tareas y coordinación entre miembros del equipo.
-- ¿Qué características son importantes?: Las características importantes incluyen la asignación de tareas, la visualización de horarios del equipo, conocer la disponibilidad de los miembros y la posibilidad de personalizar roles y permisos.
+- ¿Qué características son importantes?: Las características importantes incluyen la asignación de tareas, el seguimiento del avance del equipo, la visualizacion de horarios del equipo, la comunicación estructurada y la posibilidad de adaptar la herramienta a diferentes dinámicas de grupo.
 - ¿Cómo debe verse y comportarse nuestro producto?: Nuestro producto debe tener una interfaz intuitiva y amigable, que permita a los usuarios navegar fácilmente entre las distintas funcionalidades.
 
 **Business Assumptions (Suposiciones de Negocio)**
@@ -492,7 +474,7 @@ SynHub nace como una plataforma digital diseñada para cubrir esta brecha: una s
 **Technical Assumptions (Suposiciones Técnicas)**
 
 - Tecnología utilizada: Podemos utilizar tecnologías móviles actuales para desarrollar la aplicación.
-- Integraciones: La aplicación se integrará con otras plataformas de calendario y comunicación.
+- Integraciones: La aplicación se integrará con plataformas de comunicación utilizadas por los usuarios.
 - Escalabilidad: La aplicación podrá escalar para soportar un número creciente de usuarios y datos.
 
 **Market Assumptions (Suposiciones de Mercado)**
@@ -503,7 +485,7 @@ SynHub nace como una plataforma digital diseñada para cubrir esta brecha: una s
 
 **Design Assumptions (Suposiciones de Diseño)**
 
-- Interacción del usuario: Los usuarios interactuarán con la aplicación con mayor facilidad si implementamos un calendario compartido del equipo, recordatorios automáticos y asignación de tareas.
+- Interacción del usuario: Los usuarios interactuarán con la aplicación con mayor facilidad si implementamos funciones de asignación de tareas claras, visualización del avance y recordatorios automáticos.
 - Experiencia del usuario: Los usuarios valorarán una experiencia de organización simple, flexible, colaborativa y motivadora.
 - Colores y la tipografía: Los usuarios prefieren una paleta de colores pastel y una tipografía moderna y legible.
 - Preferencias visuales: Los usuarios consideran atractivo un diseño simple con íconos intuitivos.
@@ -593,8 +575,8 @@ SynHub nace como una plataforma digital diseñada para cubrir esta brecha: una s
 
 **Hypothesis Stamenent 17:**
 
-- Creemos que la aplicación se integrará con otras plataformas de calendario y comunicación.
-- Sabremos que estamos en lo correcto cuando veamos que la integración funciona sin problemas y los usuarios pueden sincronizar sus calendarios y comunicaciones de manera efectiva.
+- Creemos que la aplicación se integrará con otras plataformas de comunicación.
+- Sabremos que estamos en lo correcto cuando veamos que la integración funciona sin problemas y los usuarios pueden comunicarse de manera efectiva.
 
 **Hypothesis Stamenent 18:**
 
@@ -618,7 +600,7 @@ SynHub nace como una plataforma digital diseñada para cubrir esta brecha: una s
 
 **Hypothesis Stamenent 22:**
 
-- Creemos que los usuarios interactuarán con la aplicación con mayor facilidad si implementamos un calendario compartido del equipo, recordatorios automáticos y asignación de tareas.
+- Creemos que los usuarios interactuarán con la aplicación con mayor facilidad si implementamos recordatorios automáticos, organización por prioridades y asignación clara de tareas.
 - Sabremos que estamos en lo correcto cuando veamos comentarios positivos sobre la facilidad de uso y la efectividad de estas características en la organización de tareas.
 
 **Hypothesis Stamenent 23:**
@@ -643,7 +625,7 @@ SynHub nace como una plataforma digital diseñada para cubrir esta brecha: una s
 
 ##### 1.2.2.4. Lean UX Canvas
 
-<img src="images/chapter-1/lean-ux-canvas.jpg" alt="Lean UX Canvas" />
+<img src="images/chapter-1/lean-ux-canvas.jpeg" alt="Lean UX Canvas" />
 
 ### 1.3. Segmentos Objetivo
 
@@ -653,11 +635,11 @@ Este grupo incluye a personas que asumen la responsabilidad de organizar y gesti
 Características clave:
 
 - Edad: 25 a 60 años
-- Género: Ambos
-- Contexto: Trabajo en equipo (laboral, educativo, comunitario o institucional)
-- Ocupación: Líderes de proyectos, jefes de equipo, coordinadores, docentes, voluntarios, emprendedores
-- Uso de tecnología: Usuarios activos de plataformas colaborativas, calendarios digitales, herramientas de gestión (como Trello, Google Calendar, Slack, etc.)
-- Necesidades: Distribuir responsabilidades, establecer fechas límite, tener visibilidad del progreso del equipo, mejorar la coordinación y reducir fricciones en la organización diaria.
+  - Género: Ambos
+  - Contexto: Trabajo en equipo (laboral, educativo, comunitario o institucional)
+  - Ocupación: Líderes de proyectos, jefes de equipo, coordinadores, docentes, voluntarios, emprendedores
+  - Uso de tecnología: Usuarios activos de plataformas colaborativas y herramientas de gestión de tareas (como Trello, Notion, Slack, etc.)
+  - Necesidades: Distribuir responsabilidades, establecer fechas límite, tener visibilidad del progreso del equipo, mejorar la coordinación y reducir fricciones en la organización diaria.
 
 **Segmento Objetivo #2: Miembros del Equipo o Grupo**
 
@@ -665,35 +647,37 @@ Corresponde a las personas que forman parte activa de un grupo con tareas y role
 Características clave:
 
 - Edad: 13 a 60 años
-- Género: Ambos
-- Contexto: Participación activa en un grupo organizado (laboral, educativo, social, comunitario, voluntariado, etc.)
-- Ocupación: Colaboradores, estudiantes, asistentes, voluntarios, trabajadores, participantes de redes de apoyo
-- Uso de tecnología: Habitualmente usan apps móviles, redes sociales, herramientas de trabajo remoto o colaboración básica
-- Necesidades: Consultar tareas, recibir recordatorios, gestionar su tiempo dentro del equipo, proponer cambios o ajustes, y mantenerse alineados con los objetivos grupales.
+  - Género: Ambos
+  - Contexto: Participación activa en un grupo organizado (laboral, educativo, social, comunitario, voluntariado, etc.)
+  - Ocupación: Colaboradores, estudiantes, asistentes, voluntarios, trabajadores, participantes de redes de apoyo
+  - Uso de tecnología: Habitualmente usan apps móviles, redes sociales, herramientas de trabajo remoto o colaboración básica
+  - Necesidades: Consultar tareas, recibir recordatorios, gestionar su tiempo dentro del equipo, proponer cambios o ajustes, y mantenerse alineados con los objetivos grupales.
 
 ## Capítulo II: Requirements Elicitation & Analysis
 
 ### 2.1. Competidores
 
-En esta sección, se presenta un análisis de los principales competidores de nuestra startup, centrado en aquellos que operan con modelos de negocio digitales similares o que, aunque no sean idénticos, ofrecen productos o servicios que se superponen parcialmente con los de SynHome. Evaluamos tanto competidores directos, que se encuentran en el mismo segmento de mercado, como competidores indirectos, que abordan áreas relacionadas como el uso de calendarios, horarios, sistemas de recompensas,etc .
+En esta sección, se presenta un análisis de los principales competidores de nuestra startup, centrado en aquellos que operan con modelos de negocio digitales similares o que, aunque no sean idénticos, ofrecen productos o servicios que se superponen parcialmente con los de SynHome. Evaluamos tanto competidores directos, que se encuentran en el mismo segmento de mercado, como competidores indirectos, que abordan áreas relacionadas con la organización de tareas, la planificación de actividades y la gestión colaborativa de equipos.
 
 **1. Asana**
 
 <img src="./images/chapter-2/asana.jpg" alt="Asana" width="200"/>
 
+**
+
 **Descripción:**
 
-Asana es una herramienta de gestión de proyectos que permite a los equipos organizar tareas, asignar responsabilidades y seguir el progreso de los proyectos.**Ofrece múltiples vistas, como listas, tableros Kanban y calendarios, facilitando la personalización según las necesidades del equipo.
+Asana es una herramienta de gestión de proyectos que permite a los equipos organizar tareas, asignar responsabilidades y seguir el progreso de los proyectos. Ofrece múltiples vistas, como listas y tableros Kanban, facilitando la personalización según las necesidades del equipo.
 
 **Características principales:**
 
-* **Proyectos y tareas** organizados en listas, tableros Kanban, calendarios y cronogramas.
+* **Proyectos y tareas** organizados en listas y tableros Kanban.
 * **Subtareas y dependencias** para definir pasos y secuencias de trabajo.
 * **Colaboración**: asignación de tareas, comentarios, archivos adjuntos.
 * **Notificaciones y recordatorios** por correo y en app.
 * **Informes y seguimiento** de progreso (gráficas, porcentaje completado).
 * **Integraciones** con Slack, Google Drive, Microsoft Teams, etc.
-* **App móvil** intuitiva, con acceso a tareas, calendario y colaboración.
+* **App móvil** intuitiva, con acceso a tareas y colaboración.
 
 ---
 
@@ -707,9 +691,8 @@ FamilyWall es una plataforma familiar digital que integra varias funciones en un
 
 **Principales características:**
 
-* **Calendario familiar compartido** y sincronización con Google/Outlook.
-* **Ubicación en tiempo real** (ideal para saber dónde están los hijos).
 * **Listas de tareas y compras** colaborativas.
+* **Ubicación en tiempo real** (ideal para saber dónde están los hijos).
 * **Mensajería privada o grupal**.
 * **Galería multimedia compartida** (fotos y videos familiares).
 
@@ -721,15 +704,14 @@ FamilyWall es una plataforma familiar digital que integra varias funciones en un
 
 **Descripción:**
 
-ClickUp es una plataforma todo-en-uno que ofrece funciones de gestión de tareas, documentos, objetivos y más.**Es conocida por su alta personalización y adaptabilidad a diferentes flujos de trabajo.
+ClickUp es una plataforma todo-en-uno que ofrece funciones de gestión de tareas, documentos, objetivos y más. Es conocida por su alta personalización y adaptabilidad a diferentes flujos de trabajo.
 
 **Características principales:**
 
 * **Jerarquía flexible**: espacios, carpetas, listas, tareas y subtareas.
-* **Vistas múltiples**: lista, tablero, calendario, Gantt, cronología, workload.
-* **Seguimiento de tiempo** incluido (sin integraciones externas).
+* **Vistas múltiples**: lista, tablero, cronología, workload
+* **Seguimiento de tiempo** incluido .
 * **Docs internos**, notas y wikis colaborativos.
-* **Gestión de metas y OKRs** (objectives and key results).
 * **Automatizaciones personalizadas**.
 * **Comentarios con menciones**, edición colaborativa.
 * **Plantillas reutilizables** para tareas o proyectos.
@@ -743,16 +725,16 @@ ClickUp es una plataforma todo-en-uno que ofrece funciones de gestión de tareas
 
 **Descripción:**
 
-Monday.com proporciona una interfaz visual para planificar, rastrear y colaborar en proyectos.**Ofrece integraciones con diversas herramientas y es apreciada por su facilidad de uso y escalabilidad.
+Monday.com proporciona una interfaz visual para planificar, rastrear y colaborar en proyectos. Ofrece integraciones con diversas herramientas y es apreciada por su facilidad de uso y escalabilidad.
 
 **Características principales:**
 
-* **Tablas visuales** personalizables para tareas, flujos, y procesos.
-* **Elementos configurables**: estado, fecha, texto, números, personas, etiquetas.
+* **Tablas visuales** personalizables para tareas, flujos y procesos.
+* **Elementos configurables**: estado, texto, números, etiquetas.
 * **Automatizaciones fáciles** (si sucede X, entonces haz Y).
-* **Vistas de calendario, cronograma, Kanban y workload**.
+* **Vistas como cronograma, Kanban y workload** .
 * **Colaboración por columnas** con comentarios y archivos.
-* **Integraciones** con Gmail, Outlook, Zoom, Google Drive, etc.
+* **Integraciones** con Gmail, Google Drive, etc.
 * **Búsqueda y filtros** potentes.
 * **App móvil** clara, amigable y funcional.
 
@@ -767,94 +749,97 @@ Monday.com proporciona una interfaz visual para planificar, rastrear y colaborar
     <td colspan="4"> Pregunta </td>
   </tr>
   <tr>
-    <td colspan="4"> Deberiamos llevar a cabo este analisis para conocer el entorno, la competencia, tomar decisiones de desarrollo  y construir nuestra propuesta de valor.  </td>
+    <td colspan="4"> Deberíamos llevar a cabo este análisis para conocer el entorno, la competencia, tomar decisiones de desarrollo y construir nuestra propuesta de valor. </td>
   </tr>
   <tr>
     <td colspan="2"> Productos </td>
-    <td style="text-align: center;">  <div>SynHub</div>  <img src="./images/chapter-2/synhub.png" alt="SynHub" width="200"/> </td>
-    <td style="text-align: center;"> <div>Asana</div>  <img src="./images/chapter-2/asana.jpg" alt="Asana" width="200"/> </td>
-    <td style="text-align: center;"> <div>FamilyWall</div>  <img src="./images/chapter-2/FamilyWall.png" alt="Picniic" width="200"/> </td>
-    <td style="text-align: center;"> <div>ClickUp</div>  <img src="./images/chapter-2/clickup.jpg" alt="clickup" width="200"/> </td>
+    <td style="text-align: center;"> <div>SynHub</div> <img src="./images/chapter-2/synhub.png" alt="SynHub" width="200"/> </td>
+    <td style="text-align: center;"> <div>Asana</div> <img src="./images/chapter-2/asana.jpg" alt="Asana" width="200"/> </td>
+    <td style="text-align: center;"> <div>FamilyWall</div> <img src="./images/chapter-2/FamilyWall.png" alt="Picniic" width="200"/> </td>
+    <td style="text-align: center;"> <div>ClickUp</div> <img src="./images/chapter-2/clickup.jpg" alt="clickup" width="200"/> </td>
   </tr>
   <tr>
     <td rowspan="2">Perfil</td>
     <td>Overview</td>
-    <td> SynHub es una plataforma digital colaborativa diseñada para facilitar la organización y gestión de actividades de grupos o equipos de trabajo de cualquier tipo: laborales, académicos, sociales. </td>
-    <td> Plataforma de gestión de proyectos y tareas diseñada para ayudar a los equipos a organizar, rastrear y gestionar su trabajo. Ofrece diversas vistas como listas, tableros Kanban y calendarios para facilitar la planificación y el seguimiento de proyectos.</td>
-    <td> FamilyWall plataforma de gestión familiar diseñada para ayudar a las familias a organizar su vida diaria. Ofrece funciones para coordinar calendarios, tareas, mensajes, fotos y más. </td>
-    <td> ClickUp es una plataforma todo-en-uno que ofrece herramientas para la gestión de tareas, documentos, objetivos y más, con un alto grado de personalización para adaptarse a diferentes flujos de trabajo. </td>
+    <td>SynHub es una plataforma digital colaborativa diseñada para facilitar la organización y gestión de actividades de grupos o equipos de trabajo de cualquier tipo: laborales, académicos, sociales.</td>
+    <td>Plataforma de gestión de proyectos y tareas diseñada para ayudar a los equipos a organizar, rastrear y gestionar su trabajo. Ofrece diversas vistas como listas y tableros Kanban para facilitar la planificación y el seguimiento de proyectos.</td>
+    <td>FamilyWall es una plataforma de gestión familiar diseñada para ayudar a las familias a organizar su vida diaria. Ofrece funciones para coordinar tareas, mensajes, fotos y más.</td>
+    <td>ClickUp es una plataforma todo-en-uno que ofrece herramientas para la gestión de tareas, documentos, objetivos y más, con un alto grado de personalización para adaptarse a diferentes flujos de trabajo.</td>
   </tr>
   <tr>
     <td>Ventaja competitiva ¿Qué valor ofrece a los clientes? </td>
-    <td> Potencia la corresponsabilidad con funciones como seguimiento de cumplimiento, historial de tareas y visualización de carga de trabajo. </td>
-    <td> Asana destaca por su interfaz intuitiva y facilidad de uso, permitiendo a los equipos adaptarse rápidamente a la plataforma. Su capacidad para integrarse con numerosas herramientas de terceros amplía su funcionalidad y la hace versátil para diferentes tipos de equipos. </td>
-    <td> Ayuda a mejorar la comunicación familiar mediante el chat y las actualizaciones compartidas. </td>
-    <td> Su capacidad de personalización y la amplia variedad de funciones integradas en una sola plataforma la hacen atractiva para equipos que buscan consolidar múltiples herramientas en una. </td>
+    <td>Potencia la corresponsabilidad con funciones como seguimiento de cumplimiento, validacion de tareas y visualización de reportes con graficas.</td>
+    <td>Asana destaca por su interfaz intuitiva y facilidad de uso, permitiendo a los equipos adaptarse rápidamente a la plataforma. Su capacidad para integrarse con numerosas herramientas de terceros amplía su funcionalidad y la hace versátil para diferentes tipos de equipos.</td>
+    <td>Ayuda a mejorar la comunicación familiar mediante el chat y las actualizaciones compartidas.</td>
+    <td>Su capacidad de personalización y la amplia variedad de funciones integradas en una sola plataforma la hacen atractiva para equipos que buscan consolidar múltiples herramientas en una.</td>
   </tr>
   <tr>
     <td rowspan="2">Perfil de Marketing</td>
-    <td> Mercado Objetivo </td>
-    <td> Grupos académicos o universitarios (estudiantes, equipos de proyecto, docentes), familias que buscan distribuir y asignar tareas del hogar y equipos que buscan una herramienta flexible, económica y con curva de aprendizaje baja. </td>
-    <td> Empresas de todos los tamaños que buscan una solución eficiente para la gestión de proyectos y tareas, desde startups hasta grandes corporaciones. </td>
-    <td> Familias que buscan una plataforma unificada para coordinar actividades y compartir momentos. </td>
-    <td> Equipos y empresas de diversos tamaños que buscan una solución integral para la gestión de proyectos y tareas, especialmente aquellos que requieren alta personalización. </td>
+    <td>Mercado Objetivo</td>
+    <td>Grupos académicos o universitarios (estudiantes, equipos de proyecto, docentes) y equipos que buscan una herramienta flexible, económica y con curva de aprendizaje baja.</td>
+    <td>Empresas de todos los tamaños que buscan una solución eficiente para la gestión de proyectos y tareas, desde startups hasta grandes corporaciones.</td>
+    <td>Familias que buscan una plataforma unificada para coordinar actividades y compartir momentos.</td>
+    <td>Equipos y empresas de diversos tamaños que buscan una solución integral para la gestión de proyectos y tareas, especialmente aquellos que requieren alta personalización.</td>
   </tr>
   <tr>
-    <td> Estrategias de Marketing </td>
-    <td> Pruebas gratuitas y versiones premium: Ofrecer una versión gratuita básica y luego incentivar la migración a la versión premium con funciones avanzadas. </td>
-    <td> Asana utiliza contenido educativo, como guías y webinars, para atraer y educar a su audiencia. Además, ofrece una versión gratuita con funcionalidades básicas para captar usuarios que luego pueden optar por planes premium. </td>
-    <td> Ofrecen pruebas gratuitas para fomentar la adopción. </td>
-    <td> ClickUp se centra en destacar su versatilidad y capacidad todo-en-uno. Utiliza contenido educativo, testimonios de clientes y comparativas con otras herramientas para demostrar su valor. </td>
-  </tr>
-<td rowspan="3">Perfil de Producto</td>
-    <td> Productos & Servicios </td>
-    <td> Gestión de tareas familiares(responsabilidades a cada miembro del hogar), horario y calendario compartido (visible para todos los miembros), sistema de recompensas (motivación para los miembros más jóvenes de la familia). </td>
-    <td> Gestión de tareas y proyectos, Vistas personalizadas: lista, tablero, calendario, Integraciones con herramientas como Slack, Google Drive y Microsoft Teams, Informes y seguimiento del progreso. </td>
-    <td> Calendario compartido, listas de compras y tareas, mensajería privada, compartición de fotosy planificación de eventos familiares. </td>
-    <td> Gestión de tareas y proyectos con múltiples vistas, Documentos y wikis colaborativos, Seguimiento del tiempo integrado y Automatizaciones personalizadas. </td>
+    <td>Estrategias de Marketing</td>
+    <td>Pruebas gratuitas y versiones premium: Ofrecer una versión gratuita básica y luego incentivar la migración a la versión premium con funciones avanzadas.</td>
+    <td>Asana utiliza contenido educativo, como guías y webinars, para atraer y educar a su audiencia. Además, ofrece una versión gratuita con funcionalidades básicas para captar usuarios que luego pueden optar por planes premium.</td>
+    <td>Ofrecen pruebas gratuitas para fomentar la adopción.</td>
+    <td>ClickUp se centra en destacar su versatilidad y capacidad todo-en-uno. Utiliza contenido educativo, testimonios de clientes y comparativas con otras herramientas para demostrar su valor.</td>
   </tr>
   <tr>
-    <td> Precios & Costos</td>
-    <td> Plan Gratuito y Plan Premium – $6.99/usuario/mes </td>
-    <td> Gratis: Funciones básicas para equipos pequeños y Premium: Mensual $13.49 y Anual $10.99 c/m . </td>
-    <td> Premium por $4.99/mes o $29.99/año con características avanzadas. </td>
-    <td> Gratis: Funciones básicas para equipos pequeños y Unlimited: Mensual $9 y Anual $10.99 c/m . </td>
+    <td rowspan="3">Perfil de Producto</td>
+    <td>Productos & Servicios</td>
+    <td>Gestión de tareas familiares (responsabilidades a cada miembro del hogar) y sistema de tareas compartidas.</td>
+    <td>Gestión de tareas y proyectos, vistas personalizadas: lista, tablero, integraciones con herramientas como Slack, Google Drive y Microsoft Teams, informes y seguimiento del progreso.</td>
+    <td>Listas de compras y tareas, mensajería privada, compartición de fotos.</td>
+    <td>Gestión de tareas y proyectos con múltiples vistas, documentos y wikis colaborativos, seguimiento del tiempo integrado y automatizaciones personalizadas.</td>
   </tr>
   <tr>
-    <td> Canales de distribución </td>
-    <td> App móvil (Android / iOS) </td>
-    <td> Disponible en plataforma web y aplicaciones móviles para iOS y Android. </td>
-    <td> App Store y Google Play Store. </td>
-    <td> Disponible en plataforma web y aplicaciones móviles para iOS y Android. </td>
+    <td>Precios & Costos</td>
+    <td>Plan Gratuito y Plan Premium – $6.99/usuario/mes</td>
+    <td>Gratis: Funciones básicas para equipos pequeños y Premium: Mensual $13.49 y Anual $10.99 c/m.</td>
+    <td>Premium por $4.99/mes o $29.99/año con características avanzadas.</td>
+    <td>Gratis: Funciones básicas para equipos pequeños y Unlimited: Mensual $9 y Anual $10.99 c/m.</td>
   </tr>
-<td rowspan="5">Análisis SWOT</td>
-<tr>
-    <td> Fortalezas </td>
-    <td> Versatilidad para distintos tipos de equipos y contextos. </td>
-    <td> Interfaz intuitiva y fácil de usar. </td>
-    <td> Funciones completas para gestionar la familia en un solo lugar. </td>
-    <td> Alta personalización y flexibilidad en flujos de trabajo. </td>
+  <tr>
+    <td>Canales de distribución</td>
+    <td>App móvil (Android / iOS)</td>
+    <td>Disponible en plataforma web y aplicaciones móviles para iOS y Android.</td>
+    <td>App Store y Google Play Store.</td>
+    <td>Disponible en plataforma web y aplicaciones móviles para iOS y Android.</td>
   </tr>
-<tr>
-    <td> Debilidades</td>
-    <td> Marca nueva: carece de reconocimiento y reputación. </td>
-    <td> Limitaciones en la personalización de flujos de trabajo complejos. </td>
-    <td> La versión gratuita tiene restricciones significativas. </td>
-    <td> Curva de aprendizaje pronunciada debido a la cantidad de funciones. </td>
+  <tr>
+    <td rowspan="5">Análisis SWOT</td>
   </tr>
-<tr>
-    <td> Oportunidades</td>
-    <td> Penetrar en mercados que no están siendo bien servidos por soluciones complejas. </td>
-    <td> Expansión en mercados internacionales emergentes. </td>
-    <td> Expansión en la gestión de actividades educativas. </td>
-    <td> Expansión en sectores específicos que requieren soluciones personalizadas. </td>
+  <tr>
+    <td>Fortalezas</td>
+    <td>Versatilidad para distintos tipos de equipos y contextos.</td>
+    <td>Interfaz intuitiva y fácil de usar.</td>
+    <td>Funciones completas para gestionar la familia en un solo lugar.</td>
+    <td>Alta personalización y flexibilidad en flujos de trabajo.</td>
   </tr>
-<tr>
-    <td> Amenazas</td>
-    <td> Grandes plataformas podrían lanzar versiones más económicas para captar a este nicho. </td>
-    <td> Competencia creciente en el sector de herramientas de gestión de proyectos. </td>
-    <td> La falta de integraciones con otras plataformas populares como Google Calendar. </td>
-    <td> Competencia con herramientas especializadas que pueden ofrecer soluciones más simples. </td>
+  <tr>
+    <td>Debilidades</td>
+    <td>Marca nueva: carece de reconocimiento y reputación.</td>
+    <td>Limitaciones en la personalización de flujos de trabajo complejos.</td>
+    <td>La versión gratuita tiene restricciones significativas.</td>
+    <td>Curva de aprendizaje pronunciada debido a la cantidad de funciones.</td>
+  </tr>
+  <tr>
+    <td>Oportunidades</td>
+    <td>Penetrar en mercados que no están siendo bien servidos por soluciones complejas.</td>
+    <td>Expansión en mercados internacionales emergentes.</td>
+    <td>Expansión en la gestión de actividades educativas.</td>
+    <td>Expansión en sectores específicos que requieren soluciones personalizadas.</td>
+  </tr>
+  <tr>
+    <td>Amenazas</td>
+    <td>Grandes plataformas podrían lanzar versiones más económicas para captar a este nicho.</td>
+    <td>Competencia creciente en el sector de herramientas de gestión de proyectos.</td>
+    <td>La falta de integraciones con otras plataformas populares.</td>
+    <td>Competencia con herramientas especializadas que pueden ofrecer soluciones más simples.</td>
   </tr>
 </table>
 
@@ -873,11 +858,11 @@ Monday.com proporciona una interfaz visual para planificar, rastrear y colaborar
 
 **2. Estrategia de Enfoque en Nichos Desatendidos**
 
-**Objetivo:** Atacar segmentos específicos como equipos académicos, voluntarios, universitarios, comunidades o grupos familiares avanzados.
+**Objetivo:** Atacar segmentos específicos como equipos académicos, voluntarios, universitarios o comunidades.
 
 **Tácticas:**
 
-* Crear plantillas y funciones específicas para grupos no empresariales (ej: calendario de clases, tareas compartidas, roles para miembros del hogar, etc.).
+* Crear plantillas y funciones específicas para grupos no empresariales.
 * FamilyWall cubre familias, pero SynHub puede expandirse hacia **"equipos híbridos": familia + trabajo + estudio**.
 
 **3. Estrategia de Humanización y Cercanía de Marca**
@@ -1329,7 +1314,7 @@ En esta sección, se presenta el mapa de empatía, que nos ayudará a comprender
 
 ### 2.4. Ubiquitous Language
 
-<table cellpadding="8" cellspacing="0">
+<table cellpadding="12" cellspacing="0">
   <tr>
     <th colspan="3">📘 Ubiquitous Language</th>
   </tr>
@@ -1354,24 +1339,14 @@ En esta sección, se presenta el mapa de empatía, que nos ayudará a comprender
     <td>Obligación asumida por un miembro del grupo respecto a una o varias tareas asignadas.</td>
   </tr>
   <tr>
-    <td>Task History</td>
-    <td>Historial de tareas</td>
-    <td>Registro cronológico de tareas realizadas, canceladas o pendientes.</td>
-  </tr>
-  <tr>
-    <td>Shared Calendar</td>
-    <td>Calendario compartido</td>
-    <td>Herramienta visual que muestra los eventos, plazos y tareas de todos los miembros.</td>
-  </tr>
-  <tr>
     <td>Workload View</td>
     <td>Visualización de carga</td>
     <td>Representación gráfica del volumen de tareas por miembro, útil para balancear el trabajo.</td>
   </tr>
   <tr>
-    <td>Reward System</td>
-    <td>Sistema de recompensas</td>
-    <td>Mecanismo para motivar el cumplimiento de tareas mediante premios o reconocimientos.</td>
+    <td>Comment</td>
+    <td>Comentario</td>
+    <td>Observación o feedback escrito sobre una tarea por un miembro.</td>
   </tr>
   <tr>
     <td>Notification</td>
@@ -1379,14 +1354,9 @@ En esta sección, se presenta el mapa de empatía, que nos ayudará a comprender
     <td>Aviso que informa a los usuarios sobre actualizaciones, nuevas tareas o recordatorios.</td>
   </tr>
   <tr>
-    <td>Role</td>
-    <td>Rol</td>
-    <td>Función asignada dentro del grupo (como líder, miembro, colaborador).</td>
-  </tr>
-  <tr>
-    <td>Subtask</td>
-    <td>Subtarea</td>
-    <td>Tarea secundaria dentro de una tarea principal que ayuda a dividir el trabajo.</td>
+    <td>Time Estimate</td>
+    <td>Estimacion de tiempo</td>
+    <td>Tiempo previsto para completar una tarea (ej: 2 horas).</td>
   </tr>
   <tr>
     <td>Task Status</td>
@@ -1397,6 +1367,36 @@ En esta sección, se presenta el mapa de empatía, que nos ayudará a comprender
     <td>Member</td>
     <td>Miembro</td>
     <td>Usuario que forma parte de un grupo dentro de la aplicación SynHub.</td>
+  </tr>
+  <tr>
+    <td>Task</td>
+    <td>Tarea</td>
+    <td>Acción específica asignada a un miembro del grupo para ser completada en un periodo.</td>
+  </tr>
+  <tr>
+    <td>Notification</td>
+    <td>Notificación</td>
+    <td>Aviso que informa a los usuarios sobre actualizaciones, nuevas tareas o recordatorios.</td>
+  </tr>
+  <tr>
+    <td><strong>Request</strong></td>
+    <td><strong>Solicitud</strong></td>
+    <td>Petición formal de un usuario para acceder a un grupo, recurso o acción específica dentro de SynHub.</td>
+  </tr>
+  <tr>
+    <td><strong>Groups</strong></td>
+    <td><strong>Grupos</strong></td>
+    <td>Estructuras organizativas que agrupan miembros, tareas y recursos bajo un objetivo común (ej: "Equipo de Desarrollo").</td>
+  </tr>
+  <tr>
+    <td><strong>Applications and Validations</strong></td>
+    <td><strong>Solicitudes y Validaciones</strong></td>
+    <td>Proceso donde los usuarios envían solicitudes (ej: unirse a un grupo) y un administrador las aprueba/rechaza.</td>
+  </tr>
+  <tr>
+    <td><strong>Analytical and Reports</strong></td>
+    <td><strong>Análisis e Informes</strong></td>
+    <td>Herramientas que generan métricas visuales (gráficos, tablas) sobre productividad, carga de trabajo o progreso del grupo.</td>
   </tr>
 </table>
 
@@ -1416,7 +1416,7 @@ En esta sección, se presenta el mapa de empatía, que nos ayudará a comprender
 
 **Epics:**
 
-<table >
+<table>
   <thead>
     <tr>
       <th>Epic ID</th>
@@ -1427,43 +1427,28 @@ En esta sección, se presenta el mapa de empatía, que nos ayudará a comprender
   <tbody>
     <tr>
       <td>EP-001</td>
-      <td>Gestión de Grupos y Roles</td>
-      <td>Esta épica abarca todas las funcionalidades relacionadas con la creación de grupos, selección de integrantes y visualización de roles. Busca facilitar al líder del grupo la conformación del equipo de trabajo y ofrecer a los miembros claridad sobre su estructura organizacional.</td>
+      <td>Gestión de Grupos</td>
+      <td>Creación, configuración y administración de grupos colaborativos e invitaciones . Cubre todo el ciclo de vida del grupo.</td>
     </tr>
     <tr>
       <td>EP-002</td>
-      <td>Visualización y Organización del Trabajo</td>
-      <td>Esta épica se enfoca en brindar al usuario una vista organizada de sus tareas diarias y del progreso general del equipo. Incluye tableros visuales y páginas personalizadas que ayudan a optimizar el tiempo y a mantener el enfoque en las responsabilidades asignadas.</td>
+      <td>Gestión de Tareas</td>
+      <td>Creación, asignación (con responsables y fechas) y seguimiento de estados (En progreso , completada ,caducada y cancelada).</td>
     </tr>
     <tr>
       <td>EP-003</td>
-      <td>Gestión y Asignación de Tareas</td>
-      <td>Reúne las funcionalidades que permiten al líder asignar tareas, establecer prioridades y realizar seguimiento al estado de estas. También incluye la posibilidad de que los miembros clasifiquen el progreso de sus actividades, promoviendo una gestión más dinámica y ordenada.</td>
+      <td>Notificaciones Inteligentes</td>
+      <td>Sistema centralizado de notificaciones (in-app/email) para eventos críticos, con gestión de preferencias, agrupamiento y recordatorios automáticos.</td>
     </tr>
     <tr>
       <td>EP-004</td>
-      <td>Comunicación y Seguimiento</td>
-      <td>Esta épica contempla las herramientas de comunicación interna entre los miembros y el envío de notificaciones automáticas. Está pensada para mejorar la coordinación, resolver dudas rápidamente y asegurar que todos estén informados sobre cambios importantes o fechas clave.</td>
+      <td>Analítica y Reportes</td>
+      <td>Generación automatizada de dashboards y métricas de productividad (individual/grupal)</td>
     </tr>
     <tr>
       <td>EP-005</td>
-      <td>Personalización y Disponibilidad del Usuario</td>
-      <td>Agrupa funcionalidades que permiten a los miembros adaptar su experiencia según su disponibilidad semanal y sus horarios. Esto ayuda al líder a asignar tareas de forma eficiente y promueve una distribución de carga de trabajo más equilibrada.</td>
-    </tr>
-    <tr>
-      <td>EP-007</td>
-      <td>Análisis y Reportes de Productividad</td>
-      <td>Esta épica permite a líderes y miembros visualizar métricas clave de desempeño grupal e individual, generando reportes automáticos y dashboards interactivos. Su objetivo es optimizar la distribución de tareas y medir el progreso.</td>
-    </tr>
-    <tr>
-      <td>EP-008</td>
-      <td>Gestión de Recursos Compartidos</td>
-      <td>Agrupa las funcionalidades para administrar recursos materiales, documentos y espacios físicos compartidos por el grupo dentro de SynHub, incluyendo reservas, préstamos y seguimiento de disponibilidad.</td>
-    </tr>
-    <tr>
-      <td>EP-009</td>
-      <td>Motivación y Reconocimiento</td>
-      <td>Funcionalidades para fomentar la participación activa, reconocer contribuciones destacadas y mantener altos niveles de engagement dentro de los equipos.</td>
+      <td>Solicitudes y Validaciones</td>
+      <td>Flujo completo para solicitudes de procesamiento de tareas con estados (En progreso , completada ,caducada y cancelada), comentarios y notificaciones asociadas.</td>
     </tr>
   </tbody>
 </table>
@@ -1473,1021 +1458,916 @@ En esta sección, se presenta el mapa de empatía, que nos ayudará a comprender
 <table>
   <thead>
     <tr>
-      <th>User Storie ID</th>
+      <th>User Story ID</th>
       <th>Título</th>
       <th>Descripción</th>
       <th>Criterios de Aceptación</th>
       <th>Relacionado con (Epic ID)</th>
     </tr>
   </thead>
-<tbody>
-<tr>
-<td>US-001</td>
-<td>Seleccion de los miembros del grupo</td>
-<td>Como lider de grupo, deseo poder selecionar los miembros, para conocer al equipo de trabajo y sus habilidades.</td>
-    <td>
-    <b>Escenario 1: Asignación de miembros</b><br>
-    Given que el líder tiene acceso a la funcionalidad de gestión del grupo,<br>
-    When selecciona miembros desde una lista disponible,<br>
-    Then los integrantes seleccionados se asignan al grupo.
-    <br>
-    <b>Escenario 2: Visualización de perfil de miembros</b><br>
-    Given que ya hay miembros asignados al grupo,<br>
-    When el líder revisa el grupo,<br>
-    Then puede visualizar los perfiles y habilidades de cada integrante.
-    <br>
-    <b>Escenario 3: Asignación de miembro ya existente</b><br>
-    Given el líder tiene acceso a la funcionalidad de gestión del grupo,<br>
-    When intenta seleccionar un miembro que ya está asignado,<br>
-    Then la aplicación deberia mostrar un mensaje de error indicando que el miembro ya pertenece al grupo.
-    </td>
-    <td>EP-001</td>
-</tr>
-<tr>
-    <td>US-002</td>
-    <td>Visualizacion de integrantes y lider</td>
-    <td>Como miembro de grupo, deseo poder visualizar los integrantes de mi grupo, para saber quienes son mis compañeros y lider.</td>
-    <td>
-    <b>Escenario 1: Visualizar integrantes del grupo</b><br>
-    Given que el usuario forma parte de un grupo,<br>
-    When accede a la sección de su grupo,<br>
-    Then puede ver una lista de los miembros y del líder del grupo.
-    <br>
-    <b>Escenario 2: Visualizar modificaciones del grupo</b><br>
-    Given que hay cambios en el grupo,<br>
-    When el usuario visualiza la información actualizada,<br>
-    Then esta refleja los cambios de integrantes y liderazgo.
-    <br>
-    <b>Escenario 3: Error al cargar información del grupo</b><br>
-    Given el usuario forma parte de un grupo,<br>
-    When accede a la sección de su grupo<br>
-    And la información de un miembro no carga apropiadamente,<br>
-    Then la aplicación debería mostrar un mensaje informativo indicando que la información no pudo cargar.
-    </td>
-    <td>EP-001</td>
-</tr>
-<tr>
-    <td>US-003</td>
-    <td>Creacion del grupo</td>
-    <td>Como lider de grupo, deseo poder definir grupo junto con su objetivo, para que todos los integrantes conozcan la meta o asunto.</td>
-    <td>
-    <b>Escenario 1: Creación exitosa del grupo</b><br>
-    Given que el líder no tiene aún un grupo creado,<br>
-    When define un nuevo grupo con un nombre y objetivo,<br>
-    Then el grupo queda registrado en el sistema.
-    <br>
-    <b>Escenario 2: Notificación del objetivo</b><br>
-    Given que se ha creado un grupo,<br>
-    When los miembros se asignan,<br>
-    Then estos reciben el objetivo del grupo como referencia común.
-    <br>
-    <b>Escenario 3: Intento de creación de un grupo con el mismo nombre</b><br>
-    Given el líder tiene un grupo con cierto nombre,<br>
-    When intenta definir un nuevo grupo con el mismo nombre que uno de sus grupos,<br>
-    Then la aplicación debería mostrar un mensaje de error indicando que el nombre del grupo ya existe en su lista.
-    </td>
-    <td>EP-001</td>
-</tr>
-<tr>
-    <td>US-004</td>
-    <td>Página de inicio personalizada con tareas y horarios</td>
-    <td>Como miembro del equipo, deseo tener una página de inicio que me muestre las tareas del día, las fechas de vencimiento y horarios disponibles, para que pueda concentrarme en lo que debo hacer y optimizar mi tiempo.</td>
-    <td>
-    <b>Escenario 1: Visualización de tareas del día</b><br>
-    Given que el usuario accede al sistema,<br>
-    When entra a su página de inicio,<br>
-    Then visualiza las tareas programadas para el día y su vencimiento.
-    <br>
-    <b>Escenario 2: Distribución horaria de las tareas</b><br>
-    Given que el usuario tiene tareas en diferentes horarios,<br>
-    When consulta su página principal,<br>
-    Then puede ver cómo están distribuidas a lo largo del día.
-    <br>
-    <b>Escenario 3: Tareas no programadas</b><br>
-    Given el usuario accede al sistema,<br>
-    When no tiene tareas programadas para el día,<br>
-    Then la aplicación debería mostrar un mensaje informativo indicando que no hay tareas pendientes.
-    </td>
-    <td>EP-002</td>
-</tr>
-<tr>
-    <td>US-005</td>
-    <td>Asignacion de niveles de prioridad</td>
-    <td>Como líder de grupo, deseo poder asignar tareas con niveles de prioridad, para que el equipo pueda concentrarse en lo más urgente y asegurarnos de cumplir con los plazos de manera eficiente.</td>
-    <td>
-    <b>Escenario 1: Asignación exitosa de prioridad a la tarea</b><br>
-    Given que el líder asigna una tarea,<br>
-    When define su nivel de prioridad,<br>
-    Then el sistema guarda esa prioridad junto con la tarea.
-    <br>
-    <b>Escenario 2: Visualización de la prioridad</b><br>
-    Given que un miembro consulta sus tareas,<br>
-    When revisa la información de una tarea,<br>
-    Then puede ver el nivel de prioridad asignado.
-    <br>
-    <b>Escenario 3: Omisión de la asignación</b><br>
-    Given que el líder asigna una tarea,<br>
-    When no selecciona un nivel de prioridad de las opciones disponibles<br>
-    And intenta guardar la tarea,<br>
-    Then la aplicación debería mostrar un mensaje de advertencia indicando que la prioridad es obligatoria.
-    </td>
-    <td>EP-003</td>
-</tr>
-<tr>
-    <td>US-006</td>
-    <td>Notificaciones automáticas sobre tareas y fechas clave</td>
-    <td>Como miembro del equipo, deseo recibir notificaciones automáticas sobre las tareas asignadas, fechas de vencimiento y cualquier actualización importante, para asegurarme de estar siempre al tanto de mis responsabilidades y entregar mis tareas dentro del plazo establecido.</td>
-    <td>
-    <b>Escenario 1: Notificación de nueva tarea</b><br>
-    Given que se asigna una nueva tarea,<br>
-    When esta se registra en el sistema,<br>
-    Then el miembro del equipo recibe una notificación automática.
-    <br>
-    <b>Escenario 2: Alerta de vencimiento próximo</b><br>
-    Given que una tarea está próxima a vencer,<br>
-    When falta menos de 24 horas para su vencimiento,<br>
-    Then el usuario recibe una alerta recordatoria.
-    <br>
-    <b>Escenario 3: Fallo en la entrega</b><br>
-    Given que el miembro del equipo tiene una tarea asignada,<br>
-    When el tiempo de la entrega finaliza<br>
-    And no hay alguna actividad entregada o confirmación de que haya cumplido,<br>
-    Then la actividad se marca como no finalizada<br>
-    And la aplicación enviará al miembro una alerta.
-    </td>
-    <td>EP-004</td>
-</tr>
-<tr>
-    <td>US-007</td>
-    <td>Asignacion de tareas a los miembros</td>
-    <td>Como lider de grupo, deseo asignar tareas a miembros, para distribuir los pendientes facilmente dependiente de los roles.</td>
-    <td>
-    <b>Escenario 1: Asignación exitosa de tarea a un miembro</b><br>
-    Given que el líder tiene un grupo formado,<br>
-    When el líder asigna una tarea a un integrante,<br>
-    Then la aplicación vincula la tarea al perfil del miembro seleccionado.
-    <br>
-    <b>Escenario 2: Visualización de detalles de la tarea asignada</b><br>
-    Given que un usuario tiene una tarea asignada,<br>
-    When el usuario accede a su lista de tareas,<br>
-    Then la aplicación mostrará al usuario el detalle de lo que debe hacer.
-    <br>
-    <b>Escenario 3: Intento de asignar una tarea sin seleccionar un miembro</b><br>
-    Given que el líder tiene un grupo formado,<br>
-    When el líder intenta guardar una tarea sin haber seleccionado ningún miembro,<br>
-    Then la aplicación debería avisar al líder que debe seleccionar al menos un miembro para asignar la tarea
-    </td>
-    <td>EP-003</td>
-</tr>
-<tr>
-    <td>US-008</td>
-    <td>Clasificacion de tareas</td>
-    <td>Como miembro del grupo, deseo poder marcas como tareas como completa, en proceso, en revision, por hacer, para mantener a otros integrantes y al lider actualizados.</td>
-    <td>
-    <b>Escenario 1: Actualización del estado de una tarea</b><br>
-    Given que un usuario accede a su lista de tareas,<br>
-    When marca una tarea como "en proceso",<br>
-    Then los demás pueden ver su nuevo estado actualizado.
-    <br>
-    <b>Escenario 2: Marcado de una tarea como completada</b><br>
-    Given que el usuario ha completado una tarea,<br>
-    When el usuario marca la tarea como "completa",<br>
-    Then la aplicación actualiza el estado<br>
-    And permitirá la visualización para el líder.
-    <br>
-    <b>Escenario 3: Intento de marcar una tarea sin confirmación</b><br>
-    Given que un usuario accede a su lista de tareas,<br>
-    When intenta marcar una tarea como completado<br>
-    And no se presenta evidencia o entregable de haber finalizado<br>
-    And el usuario no es el líder,<br>
-    Then la aplicación no permite la actualización de la tarea.
-    </td>
-    <td>EP-003</td>
-</tr>
-<tr>
-    <td>US-009</td>
-    <td>Visualizacion del tablero de tareas</td>
-    <td>Como líder de grupo, deseo tener un tablero visual en tiempo real que me permita ver el progreso de todas las tareas de mi equipo y los tiempos de entrega, para poder identificar rápidamente cualquier retraso.</td>
-    <td>
-    <b>Escenario 1: Visualización en tiempo real del estado de las tareas</b><br>
-    Given que el líder accede a la vista de tablero,<br>
-    When observa las tareas del equipo,<br>
-    Then el sistema muestra el estado y el avance de cada una en tiempo real.
-    <br>
-    <b>Escenario 2: Identificación visual de tareas atrasadas</b><br>
-    Given que hay tareas atrasadas,<br>
-    When el líder revisa el tablero,<br>
-    Then la aplicación muestra un indicador de atraso para identificarlos con facilidad.
-    <br>
-    <b>Escenario 3: Fallo en la carga de datos del tablero</b><br>
-    Given que el líder accede a la vista del tablero de tareas del grupo,<br>
-    When el sistema no puede cargar la información de las tareas,<br>
-    Then la aplicación debería mostar un mensaje de error informativo.
-    </td>
-    <td>EP-002</td>
-</tr>
-<tr>
-    <td>US-010</td>
-    <td>Solicitud de ayuda o comentarios</td>
-    <td>Como miembro del grupo, deseo poder solicitar ayuda o comentarios sobre una tarea específica, para resolver dudas y mejorar la calidad del trabajo entregado.</td>
-    <td>
-    <b>Escenario 1: Envío exitoso de solicitud de ayuda</b><br>
-    Given que el usuario tiene dificultades con una tarea,<br>
-    When el miembro solicita ayuda,<br>
-    Then el sistema permite registrar y enviar esa solicitud al grupo o líder.
-    <br>
-    <b>Escenario 2: Visualización de respuestas y comentarios</b><br>
-    Given que el usuario recibe una respuesta,<br>
-    When consulta el historial de la tarea,<br>
-    Then el sistema muestra los comentarios recibidos para resolver su duda.
-    <br>
-    <b>Escenario 3: Intento de enviar una solicitud de ayuda sin contenido</b><br>
-    Given que el usuario tiene dificultades con una tarea específica,<br>
-    When el miembro intenta enviar una solicitud de ayuda o comentarios sin ingresar ningún texto o descripción de su problema o duda,<br>
-    Then la aplicación no permite el registro de la solicitud<br>
-    And avisa al usuario de la falta de contenido de la solicitud.
-    </td>
-    <td>EP-004</td>
-</tr>
-<tr>
-    <td>US-011</td>
-    <td>Actualizar tareas de los miembros</td>
-    <td>Como lider de grupo, deseo poder actualizar el progreso o dificultad de una tarea, para mantener al encargado de la misma informado sobre su trabajo. </td>
-    <td>
-    <b>Escenario 1: Modificación exitosa del estado o dificultad de la tarea</b><br>
-    Given que el líder revisa el estado de una tarea,<br>
-    When detecta que hay retrasos o complicaciones,<br>
-    Then puede modificar el estado o dificultad de la tarea.
-    <br>
-    <b>Escenario 2: Visualización de la actualización de la tarea por el miembro</b><br>
-    Given que el cambio ha sido realizado,<br>
-    When el miembro accede a la tarea,<br>
-    Then puede ver los nuevos detalles o nivel de dificultad.
-    <br>
-    <b>Escenario 3:Intento de modificar una tarea como miembro de equipo</b><br>
-    Given que el usuario intenta actualizar la información de una tarea,<br>
-    When el usuario intenta modificar una tarea,<br>
-    And el usuario no tiene el rol de líder<br>
-    Then el sistema deberá negar la modificación, avisando que debe ser líder para realizar cambios.
-    </td>
-<td>EP-003</td>
-</tr>
-<tr>
-    <td>US-012</td>
-    <td>Gestión de disponibilidad</td>
-    <td>Como miembro del grupo, deseo poder registrar mis horarios disponibles durante la semana, para que el líder pueda asignarme tareas según mi disponibilidad.</td>
-    <td>
-    <b>Escenario 1: Registro exitoso de la disponibilidad del miembro</b><br>
-    Given que un miembro desea registrar su disponibilidad,<br>
-    When indica los días y horas que puede trabajar,<br>
-    Then el sistema almacena esta información.
-    <br>
-    <b>Escenario 2: Visualización de la disponibilidad al asignar tareas</b><br>
-    Given que el líder asigna tareas,<br>
-    When consulta la disponibilidad de un miembro,<br>
-    Then el sistema muestra el horario de disponibilidad<br>
-    And el líder puede tomar decisiones basadas en esa información.
-    <br>
-    <b>Escenario 3: Intento de registrar horarios no válidos</b><br>
-    Given que un miembro desea registrar su disponibilidad,<br>
-    When el miembro intenta ingresar horarios que no son válidos (horario pasado, por ejemplo)<br>
-    Then el sistema debería mostrar un mensaje de error indicando el formato erróneo.
-    </td>
-    <td>EP-005</td>
-</tr>
-<tr>
-  <td>US-013</td>
-  <td>Dashboard de progreso grupal</td>
-  <td>Como líder, deseo ver un panel con el avance de objetivos, tareas completadas vs pendientes y carga de trabajo por miembro, para tomar decisiones informadas.</td>
-  <td>
-    <b>Escenario 1: Visualización del progreso de tareas por miembro</b><br>
-    Given que el líder accede al dashboard,<br>
-    When selecciona un período específico,<br>
-    Then el sistema muestra gráficos actualizados de tareas completadas y pendientes por cada miembro.
-    <br>
-    <b>Escenario 2: Identificación de miembros con sobrecarga de trabajo</b><br>
-    Given que existe una carga de trabajo desigual,<br>
-    When el líder revisa el mapa de distribución,<br>
-    Then el sistema muestra alertas destacadas en miembros con sobrecarga.
-    <br>
-    <b>Escenario 3: Fallo en la carga de datos del dashboard</b><br>
-    Given que el líder accede al dashboard de progreso del grupo,<br>
-    When el sistema experimenta un error al intentar recuperar los datos necesarios,<br>
-    Then la aplicación debería mostrar un mensaje de error indicando que los datos no cargaron correctamente.
-  </td>
-  <td>EP-007</td>
-</tr>
-<tr>
-  <td>US-014</td>
-  <td>Histórico de cumplimiento de plazos</td>
-  <td>Como miembro, quiero revisar mi historial de tareas completadas a tiempo vs retrasadas, para autoevaluar mi productividad.</td>
-  <td>
-    <b>Escenario 1: Visualización de la línea de tiempo de tareas</b><br>
-    Given que un miembro accede a su perfil,<br>
-    When navega a la sección "Mi rendimiento",<br>
-    Then el sistema muestra una línea de tiempo con todas sus tareas marcadas como "cumplidas" o "retrasadas".
-    <br>
-    <b>Escenario 2: Comparativa de rendimiento mensual con el grupo</b><br>
-    Given que hay variaciones en la productividad,<br>
-    When el miembro filtra por mes,<br>
-    Then el sistema muestra un comparativo gráfico entre sus resultados y el promedio del grupo.
-    <br>
-    <b>Escenario 3: No hay historial de tareas completadas</b><br>
-    Given que un miembro nuevo accede a la sección "Mi rendimiento"
-    And el miembro aún no ha completado ninguna tarea,<br>
-    When navega a la sección "Mi rendimiento",<br>
-    Then el sistema debería mostrar un mensaje indicando que debe realizar alguna tarea antes de acceder a "Mi rendimiento".
-  </td>
-  <td>EP-007</td>
-</tr>
-<tr>
-  <td>US-015</td>
-  <td>Balance de carga de trabajo</td>
-  <td>Como líder, necesito visualizar un mapa de calor con la distribución horaria de tareas por miembro, para equilibrar asignaciones.</td>
-  <td>
-    <b>Escenario 1: Visualización del mapa de calor de carga laboral</b><br>
-    Given que el líder abre la vista de carga laboral,<br>
-    When selecciona un rango de fechas,<br>
-    Then el sistema despliega un mapa de calor con horas asignadas por día/miembro.
-    <br>
-    <b>Escenario 2: Alerta visual de sobrecarga laboral</b><br>
-    Given que un miembro tiene una carga laboral excesiva,<br>
-    When el líder revisa el dashboard,<br>
-    Then el sistema marca la celda correspondiente con una alerta visual.
-    <br>
-    <b>Escenario 3: No hay tareas asignadas en el rango de fechas seleccionado</b><br>
-    Given que el líder abre la vista de carga laboral y selecciona un rango de fechas en el que no hay ninguna tarea asignada a ningún miembro del equipo,<br>
-    When el líder intenta generar el mapa de calor,<br>
-    Then el sistema debería no proceder con la generación del mapa de calor<br>
-    And debería mostrar un mensaje informativo indicando la falta de datos.
-  </td>
-  <td>EP-007</td>
-</tr>
-<tr>
-  <td>US-016</td>
-  <td>Reporte de contribuciones individuales</td>
-  <td>Como miembro, deseo generar un reporte mensual con mis tareas completadas, horas invertidas y reconocimientos recibidos, para mi portafolio personal.</td>
-  <td>
-    <b>Escenario 1: Generación exitosa del reporte mensual</b><br>
-    Given que un miembro quiere exportar su reporte,<br>
-    When hace clic en "Generar reporte mensual",<br>
-    Then la aplicación muestra un PDF con tareas completadas, horas registradas y contribuciones grupales.
-    <br>
-    <b>Escenario 2: Compartir el reporte con el líder</b><br>
-    Given que el reporte está generado,<br>
-    When el miembro selecciona "Compartir con líder",<br>
-    Then el sistema envía una notificación al líder con el archivo adjunto.
-    <br>
-    <b>Escenario 3: Error al generar el reporte</b><br>
-    Given que un miembro quiere exportar su reporte mensual,<br>
-    When hace clic en "Generar reporte mensual"<br>
-    And el sistema no procesa adecuadamente la información,<br>
-    Then el sistema debería mostrar un mensaje de error indicando que debe intentar más tarde.
-  </td>
-  <td>EP-007</td>
-</tr>
-<tr>
-  <td>US-017</td>
-  <td>Predicción de tiempos de entrega</td>
-  <td>Como líder, quiero que el sistema sugiera fechas límite realistas para nuevas tareas, basado en el historial de productividad del equipo.</td>
-  <td>
-    <b>Escenario 1: Sugerencia de fecha límite</b><br>
-    Given que el líder crea una nueva tarea,<br>
-    When ingresa la descripción y complejidad,<br>
-    Then el sistema muestra una fecha sugerida basada en el historial del asignado.
-    <br>
-    <b>Escenario 2 Ajuste manual del plazo:</b><br>
-    Given que la fecha sugerida no es adecuada,<br>
-    When el líder ajusta manualmente el plazo,<br>
-    Then el sistema registra la variación para futuras predicciones.
-    <br>
-    <b>Escenario 3: Historial insuficiente del miembro</b><br>
-    Given el líder crea una tarea<br>
-    And la asigna a un miembro nuevo o con poco historial,<br>
-    When el sistema intenta sugerir una fecha límite,<br>
-    Then el sistema debería indicar que no hay suficiente información histórica disponible para ese miembro<br>
-    And ofrece una fecha límite predeterminada.
-  </td>
-  <td>EP-007</td>
-</tr>
-<tr>
-  <td>US-018</td>
-  <td>Reporte de dependencias críticas</td>
-  <td>Como líder, necesito identificar tareas bloqueadas por dependencias no resueltas, para priorizar recursos.</td>
-  <td>
-    <b>Escenario 1: Visualización de dependencias</b><br>
-    Given que una tarea tiene dependencias pendientes,<br>
-    When el líder accede al reporte de bloqueos,<br>
-    Then el sistema muestra un diagrama de flujo con las relaciones entre tareas.
-    <br>
-    <b>Escenario 2: Alerta de bloqueo persistente</b><br>
-    Given que un bloqueo persiste,<br>
-    When el líder revisa el reporte,<br>
-    Then recibe una alerta urgente con sugerencias de reasignación.
-    <br>
-    <b>Escenario 3: No hay dependencias bloqueando tareas</b><br>
-    Given no existen tareas bloqueadas por dependencias incompletas,<br>
-    When el líder accede al reporte de bloqueos,<br>
-    Then el sistema debería mostrar un mensaje indicando que no hay dependencias críticas o tareas bloqueadas en este momento.
-  </td>
-  <td>EP-007</td>
-</tr>
-<tr>
-  <td>US-019</td>
-  <td>Análisis de tendencias de comunicación</td>
-  <td>Como líder, deseo ver métricas de frecuencia y canales de comunicación usados, para optimizar flujos colaborativos.</td>
-  <td>
-    <b>Escenario 1: Visualización de tendencias de chat</b><br>
-    Given que el líder quiere analizar la comunicación,<br>
-    When selecciona "Tendencias de chat",<br>
-    Then el sistema muestra un gráfico de barras con interacciones por día y hora.
-    <br>
-    <b>Escenario 2: Recomendación sobre canales</b><br>
-    Given que existen canales poco utilizados,<br>
-    When el líder revisa el reporte de canales,<br>
-    Then el sistema recomienda consolidar o eliminar canales inactivos.
-    <br>
-    <b>Escenario 3: No hay datos de comunicación disponibles</b><br>
-    Given no se ha registrado actividad de comunicación en el periodo analizado,<br>
-    When el líder accede a los reportes de tendencias,<br>
-    Then el sistema mostrará un mensaje indicando que no hay datos de comunicación disponibles para el período seleccionado.
-  </td>
-  <td>EP-007</td>
-</tr>
-<tr>
-  <td>US-020</td>
-  <td>Registro de tiempo invertido por tarea</td>
-  <td>Como miembro, quiero registrar y categorizar el tiempo dedicado a cada actividad, para mejorar mi gestión personal.</td>
-  <td>
-    <b>Escenario 1: Registro automático de tiempo</b><br>
-    Given que un miembro inicia una tarea,<br>
-    When activa el temporizador integrado,<br>
-    Then el sistema registra automáticamente el tiempo al marcarla como completada.
-    <br>
-    <b>Escenario 2: Registro manual de tiempo</b><br>
-    Given que el miembro olvidó activar el timer,<br>
-    When edita manualmente la tarea completada,<br>
-    Then puede ingresar las horas invertidas con etiquetas predefinidas.
-    <br>
-    <b>Escenario 3: Intento de registrar tiempo no válido</b><br>
-    Given un miembro edita el tiempo de una tarea,<br>
-    When intenta ingresar un formato de tiempo incorrecto,<br>
-    Then el sistema debería mostrar un error indicando formato inválido.
-  </td>
-  <td>EP-007</td>
-</tr>
-<tr>
-  <td>US-021</td>
-  <td>Reporte de salud del equipo</td>
-  <td>Como líder, necesito un indicador global que mida equilibrio carga-tiempo, clima colaborativo y cumplimiento de metas, para prevenir burnout.</td>
-  <td>
-    <b>Escenario 1: Visualización del indicador de salud</b><br>
-    Given que el líder abre el reporte de salud,<br>
-    When revisa el semáforo (verde/ámbar/rojo),<br>
-    Then puede hacer clic para ver factores detallados como horas extras o conflictos no resueltos.
-    <br>
-    <b>Escenario 2: Recomendaciones por indicador rojo</b><br>
-    Given que el indicador está en rojo,<br>
-    When el líder consulta las recomendaciones,<br>
-    Then el sistema propone acciones específicas como redistribuir tareas o programar días de descanso.
-    <br>
-    <b>Escenario 3: Insuficiencia de datos para el reporte</b><br>
-    Given el equipo es nuevo o no hay suficientes datos registrados,<br>
-    When el líder accede al reporte de salud,<br>
-    Then el sistema debería mostrar un mensaje indicando que no hay suficientes datos.
-  </td>
-  <td>EP-007</td>
-</tr>
+  <tbody>
+    <!-- EP-001: Gestión de Grupos -->
     <tr>
-        <td>US-022</td>
-        <td>
-            Visualización de tareas grupales 
-        </td>
-        <td>
-            Como miembro de un equipo en SynHub, deseo acceder a una vista 
-            consolidada de todas las tareas activas de un grupo específico, incluyendo su estado, 
-            responsables y fechas clave,para que pueda coordinar acciones, identificar cuellos de 
-            botella y garantizar el avance colectivo hacia los objetivos comunes.
-        </td>
-        <td>
-            <b>Escenario 1: Listado detallado de tareas grupales</b><br>
-            Given que el usuario pertenece a un grupo con tareas activas,<br>
-            When accede a la sección del grupo en SynHub,<br>
-            Then el sistema muestra una lista de todas las tareas del grupo, ordenadas por fecha de vencimiento
-            , el nombre de cada tarea, una descripción breve y el responsable asignado
-            y el estado actual de cada tarea (ej: "pendiente", "en progreso", "completado").
-            <br>
-            <b>Escenario 2: Visibilidad de fechas clave y progreso</b><br>
-            Given que el usuario visualiza las tareas del grupo,<br>
-            When revisa la información de una tarea específica,<br>
-            Then el sistema muestra La fecha de vencimiento, el porcentaje de progreso y
-            alertas visuales para tareas con menos de 24 horas restantes.
-            <br>
-            <b>Escenario 3: Sincronización en tiempo real de actualizaciones</b><br>
-            Given que el usuario está en la sección de tareas grupales,<br>
-            When otro miembro modifica el estado, responsable o fecha de una tarea,<br>
-            Then el sistema muestra La fecha de vencimiento, el porcentaje de progreso<br>
-            And los cambios se reflejan automáticamente en la vista del usuario.
-            <br>
-            <b>Escenario 4: Filtrado básico para gestión de prioridades</b><br>
-            Given que el usuario está en la sección de tareas grupales,<br>
-            When selecciona un filtro por estado (ej: "pendiente", "en progreso", "completado"),<br>
-            Then el sistema muestra solo las tareas que cumplen con ese criterio.
-            <br>
-            <b>Escenario 5: Grupo sin tareas activas</b><br>
-            Given el usuario pertenece a un grupo sin tareas activas,<br>
-            When accede a la sección del grupo en SynHub,<br>
-            Then el sistema debería mostrar un mensaje indicando que no hay tareas activas para este grupo.
-        </td>
-        <td>
-            EP-002
-        </td>
-    </tr>
-    <tr>
-        <td>
-            US-023
-        </td>
-        <td>
-            Visualización detallada de una tarea específica
-        </td>
-        <td>
-            Como miembro de un equipo en SynHub, deseo acceder a una vista detallada de una tarea específica 
-            que muestre toda la información relevante, para que pueda comprender su contexto, 
-            verificar su estado actual y colaborar de manera informada con otros miembros del equipo.
-        </td>
-        <td>
-            <b>Escenario 1: Acceso a la información completa de la tarea</b><br>
-            Given que el usuario está en la lista de tareas (individuales o grupales),<br>
-            When selecciona una tarea específica,<br>
-            Then el sistema despliega una vista detallada con Título de la tarea, descripción de la tarea ,
-            Fecha de creación, fecha de vencimiento y prioridad asignada, Estado actual de la tarea, 
-            participantes involucrados y comentarios asociados.
-            <br>
-            <b>Escenario 2: Error al cargar los detalles de la tarea</b><br>
-            Given el usuario está en la lista de tareas (individuales o grupales),<br>
-            When selecciona una tarea específica<br>
-            And el sistema experimenta un error al intentar cargar la información,<br>
-            Then el sistema debería mostrar un mensaje de error indicando que no se pudieron cargar los detalles.
-        </td>
-        <td>
-            EP-002
-        </td>
-    </tr>
-    <tr>
-        <td>
-            US-024
-        </td>
-        <td>
-            Visualización integrada del horario personal
-        </td>
-        <td>
-            Como miembro de un equipo en SynHub, deseo acceder a una vista clara de mi horario personal que 
-            muestre mis tareas programadas, reuniones y bloques de tiempo disponibles, para que pueda gestionar 
-            mi agenda diaria, evitar sobrecargas y equilibrar mis responsabilidades 
-            individuales y grupales.
-        </td>
-        <td>
-            <b>Escenario 1: Visualización cronológica de actividades diarias</b><br>
-            Given que el usuario está en la lista de tareas (individuales o grupales),<br>
-            When accede a la sección "Mi Horario" en SynHub,<br>
-            Then el sistema muestra un calendario horario y tareas ubicadas en sus bloques
-            de tiempo correspondientes.
-            <br>
-            <b>Escenario 2: Superposición de tareas y reuniones</b><br>
-            Given el usuario tiene tareas programadas y reuniones agendadas para el mismo bloque de tiempo,<br>
-            When accede a la sección "Mi Horario" en SynHub,
-            Then el sistema debería mostrar visualmente la superposición de estas actividades de manera clara e informar al usuario que tiene reuniones que colisionan.
-        </td>
-        <td>
-            EP-002
-        </td>
-    </tr>
-    <tr>
-        <td>
-            US-025
-        </td>
-        <td>
-            Visualización de grupos miembros
-        </td>
-        <td>
-            Como miembro de múltiples equipos en SynHub, deseo acceder a una lista organizada de 
-            todos los grupos a los que pertenezco, junto con información clave de cada uno, para que
-            pueda navegar rápidamente entre ellos, mantener un seguimiento de sus actividades y participar 
-            activamente en las responsabilidades colectivas.
-        </td>
-        <td>
-            <b>Escenario 1: Listado completo de grupos miembros</b><br>
-            Given que el usuario está registrado en SynHub y pertenece a uno o más grupos,<br>
-            When accede a la sección "Mis Grupos",<br>
-            Then el sistema muestra una lista de todos los grupos a los que pertenece, con la informacion
-            de cada uno, incluyendo el nombre del grupo , descripción breve del grupo y cantidad de miembros
-            <br>
-            <b>Escenario 2: Usuario sin grupos asignados</b><br>
-            Given que el usuario está registrado en SynHub pero aún no ha sido añadido a ningún grupo,<br>
-            When accede a la sección "Mis Grupos",<br>
-            Then el sistema debería mostrar un mensaje informativo indicando que el usuario no pertenece a ningún grupo<br>
-        </td>
-        <td>
-            EP-002
-        </td>
-    </tr>
-      <tr>
-      <td>US-026</td>
-      <td>Subir documentos compartidos</td>
-      <td>Como miembro, quiero subir documentos al repositorio grupal en SynHub, para centralizar la información clave del equipo.</td>
+      <td>US-001</td>
+      <td>Creación de grupo</td>
+      <td>Como líder, quiero crear grupos para organizar el trabajo de mi equipo.</td>
       <td>
-        <b>Escenario 1: Subida exitosa de documento</b><br>
-        Given que el usuario accede a "Documentos",<br>
-        When el usuario selecciona "Subir"<br>
-        And elege archivos locales<br>
-        And asigna las categorías,<br>
-        Then el sistema almacena los archivos para el usuario.
-        <br>
-        <b>Escenario 2: Búsqueda exitosa de documento subido</b><br>
-        Given que el archivo se subió,<br>
-        When otro miembro busca el archivo,<br>
-        Then el sistema muestra los resultados con metadatos básicos.
-        <br>
-        <b>Escenario 3: Intento de subir un archivo con formato no permitido</b><br>
-        Given el usuario accede a la sección "Documentos"
-        And selecciona "Subir",<br>
-        When el usuario intenta cargar un archivo con un formato que no está permitido por el sistema,<br>
-        Then el sistema debería mostrar un mensaje de error indicando que el formato del archivo no es compatible.
-      </td>
-      <td>EP-008</td>
-    </tr>
-    <tr>
-      <td>US-027</td>
-      <td>Control de versiones documentales</td>
-      <td>Como coordinador, necesito ver historial de versiones cuando se modifican documentos compartidos, para rastrear cambios importantes.</td>
-      <td>
-        <b>Escenario 1: Visualización del historial de versiones</b><br>
-        Given que un documento tiene versiones previas,<br>
-        When el usuario hace clic en "Historial",<br>
-        Then muestra lista con fecha/autor de cada cambio.
-        <br>
-        <b>Escenario 2: Comparación de versiones</b><br>
-        Given que se selecciona versión antigua,<br>
-        When hace clic en "Comparar",<br>
-        Then la aplicación resalta diferencias con versión actual.
-        <br>
-        <b>Escenario 3: Intento de acceder al historial de un documento sin versiones previas</b><br>
-        Given un documento compartido no ha sido modificado desde su creación,<br>
-        When el coordinador hace clic en el botón "Historial" para ver las versiones anteriores,<br>
-        Then el sistema debería mostrar un mensaje indicando que no hay versiones previas disponibles para este documento.
-      </td>
-      <td>EP-008</td>
-    </tr>
-    <tr>
-      <td>US-028</td>
-      <td>Sistema de logros/badges</td>
-      <td>Como miembro, quiero ganar insignias al completar metas grupales, para sentirme reconocido por mis contribuciones.</td>
-      <td>
-        <b>Escenario 1: Obtención de badge por completar tareas</b><br>
-        Given que el usuario completa tareas asignadas,<br>
-        When actualiza perfil,<br>
-        Then recibe un badge correspondiente.
-        <br>
-        <b>Escenario 2: Visualización de badges en el perfil</b><br>
-        Dado que hay badges disponibles, Cuando otros ven mi perfil, Entonces muestran mis logros con descripción.
-        <br>
-        <b>Escenario 3: Error al asignar el badge</b><br>
-        Given que el usuario completa las tareas requeridas para un badge,<br>
-        When el sistema intenta asignar el badge al perfil del usuario sin éxito,<br>
-        Then el sistema registra el error para revisión<br>
-        And avisará al usuario de que más tarde se intentará asignar el badge nuevamente.
-      </td>
-      <td>EP-009</td>
-    </tr>
-    <tr>
-      <td>US-029</td>
-      <td>Tablero de reconocimiento grupal</td>
-      <td>Como líder, deseo destacar públicamente contribuciones excepcionales, para motivar al equipo.</td>
-      <td>
-        <b>Escenario 1: Publicación de reconocimiento</b><br>
-        Given que un miembro sobresale,<br>
-        When líder selecciona "Reconocer"<br>
-        And selecciona el miembro sobresaliente<br>
-        Then el sistema muestra su logro en el tablero público.
-        <br>
-        <b>Escenario 2: Visualización de reconocimientos</b><br>
-        Given que hay reconocimientos,<br>
-        When el equipo accede al tablero,<br>
-        Then el sistema muestra los últimos reconocimientos con fotos.
-        <br>
-        <b>Escenario 3: Intento de reconocer sin seleccionar un miembro</b><br>
-        Given el líder desea destacar una contribución,<br>
-        When el líder no selecciona a ningún miembro del equipo para otorgar el reconocimiento<br>
-        And selecciona la opción "Reconocer",<br>
-        Then el sistema debería mostrar un mensaje de error indicando que debe seleccionar al menos un miembro.
-      </td>
-      <td>EP-009</td>
-    </tr>
-    <tr>
-      <td>US-030</td>
-      <td>Búsqueda inteligente en contenido grupal</td>
-      <td>Como usuario, quiero buscar simultáneamente en tareas, documentos y conversaciones, para encontrar información rápidamente.</td>
-      <td>
-        <b>Escenario 1: Búsqueda con resultados categorizados</b><br>
-        Given que el usuario escribe en la barra de búsqueda,<br>
-        When el usuario presiona Enter,<br>
-        Then el sistema muestra resultados categorizados (tareas/docs/chats).
-        <br>
-        <b>Escenario 2: Refinamiento de la búsqueda con filtros</b><br>
-        Given que hay múltiples resultados,<br>
-        When el usuario aplica filtros,<br>
-        Then el sistema refina búsqueda por fecha/tipo/autor.
-        <br>
-        <b>Escenario 3: Búsqueda sin resultados</b><br>
-        Given el usuario escribe un término en la barra de búsqueda,<br>
-        When presiona Enter<br>
-        And no se encuentran coincidencias para ese término en ninguna de las secciones de tareas, documentos o conversaciones del grupo,<br>
-        Then el sistema debería mostrar un mensaje indicando que no se encontraron resultados para la búsqueda realizada.
-      </td>
-      <td>EP-002</td>
-    </tr>
-    <tr>
-      <td>US-031</td>
-      <td>Plantillas de grupos recurrentes</td>
-      <td>Como administrador, necesito crear plantillas de grupos con tareas/roles predefinidos, para acelerar la creación de proyectos similares.</td>
-      <td>
-        <b>Escenario 1: Creación de plantilla de grupo</b><br>
-        Given que el líder crea una plantilla,<br>
-        When se define la estructura base,<br>
-        Then el sistema lo guarda como modelo reusable.
-        <br>
-        <b>Escenario 2: Uso de plantilla al crear un grupo</b><br>
-        Given que existe una plantilla en el sistema,<br>
-        When el líder crea un nuevo grupo,<br>
-        Then el sistema ofrece opción de iniciar desde plantilla.
-        <br>
-        <b>Escenario 3: Intento de crear plantilla sin nombre</b><br>
-        Given el líder intenta crear una nueva plantilla de grupo,<br>
-        When define la estructura base pero intenta guardar la plantilla sin asignarle un nombre,<br>
-        Then el sistema debería mostrar un mensaje de error indicando que el nombre de la plantilla es obligatorio.
+        <b>Escenario 1: Creación básica</b><br>
+        Given que soy líder,<br>
+        When completo nombre y descripción,<br>
+        Then el grupo se crea conmigo como único miembro.<br>
+        <b>Escenario 2: Imagen de grupo</b><br>
+        Given que subo una imagen,<br>
+        When guardo los cambios,<br>
+        Then aparece como identificación visual del grupo.
       </td>
       <td>EP-001</td>
     </tr>
     <tr>
-      <td>US-032</td>
-      <td>Modo "Focus" para tareas individuales</td>
-      <td>Como miembro, deseo activar un modo sin distracciones al trabajar en tareas complejas, para mejorar mi concentración.</td>
+      <td>US-002</td>
+      <td>Envío de invitaciones</td>
+      <td>Como líder, quiero invitar miembros a mi grupo para conformar el equipo.</td>
       <td>
-        <b>Escenario 1: Activación del Modo Focus</b><br>
-        Given que el usuario abre una tarea,<br>
-        When activa "Modo Focus",<br>
-        Then oculta elementos de UI no esenciales.
-        <br>
-        <b>Escenario 2: Posponer notificaciones en Modo Focus</b><br>
-        Given que el modo Focus está activo,<br>
-        When el usuario recibe una notificación,<br>
-        Then el sistema pospondrá la notificación hasta que el usuario desactive el modo Focus.
-        <br>
-        <b>Escenario 3: Error al activar el Modo Focus</b><br>
-        Given el usuario abre una tarea y desea activar el "Modo Focus",<br>
-        When el usuario intenta activar el "Modo Focus"
-        And ocurre un error en el sistema que impide su activación,
-        Then la aplicación debería mostrar un mensaje de error indicando que no se pudo activar el "Modo Focus".
+        <b>Escenario 1: Invitación válida</b><br>
+        Given que selecciono usuarios,<br>
+        When envío invitaciones,<br>
+        Then los usuarios reciben notificación por email.<br>
+        <b>Escenario 2: Invitación a miembro existente</b><br>
+        Given que el usuario ya está en el grupo,<br>
+        When intento invitarlo,<br>
+        Then el sistema muestra error "Usuario ya pertenece al grupo".
+      </td>
+      <td>EP-001</td>
+    </tr>
+    <tr>
+      <td>US-003</td>
+      <td>Eliminación de grupo</td>
+      <td>Como líder, quiero eliminar grupos inactivos para mantener la organización.</td>
+      <td>
+        <b>Escenario 1: Confirmación requerida</b><br>
+        Given que selecciono eliminar grupo,<br>
+        When confirmo la acción,<br>
+        Then todos los datos asociados se archivan.<br>
+        <b>Escenario 2: Grupo con tareas activas</b><br>
+        Given que hay tareas pendientes,<br>
+        When intento eliminar,<br>
+        Then el sistema pide reasignar tareas primero.
+      </td>
+      <td>EP-001</td>
+    </tr>
+    <tr>
+      <td>US-004</td>
+      <td>Creación de tareas</td>
+      <td>Como líder, quiero crear tareas para asignar trabajo a los miembros.</td>
+      <td>
+        <b>Escenario 1: Tarea básica</b><br>
+        Given que completo título y descripción,<br>
+        When guardo la tarea,<br>
+        Then aparece en el listado con estado "En progreso".<br>
+        <b>Escenario 2: Tarea sin responsable</b><br>
+        Given que creo tarea sin asignar,<br>
+        When intento guardar,<br>
+        Then el sistema muestra error "Se requiere responsable".
       </td>
       <td>EP-002</td>
     </tr>
     <tr>
-      <td>US-033</td>
-      <td>Solicitud de aprobación para recursos</td>
-      <td>Como miembro, quiero solicitar uso de recursos restringidos que requieren aprobación del líder, para cumplir con políticas de control.</td>
+      <td>US-005</td>
+      <td>Asignación de tareas</td>
+      <td>Como líder, quiero asignar tareas a miembros específicos para distribuir el trabajo.</td>
       <td>
-        <b>Escenario 1: Formulario de solicitud de recurso</b><br>
-        Given que el usuario selecciona un recurso restringido,<br>
-        When hace clic en "Solicitar",<br>
-        Then la aplicación debería pedir al usuario completar un formulario con justificación y fecha requerida.
-        <br>
-        <b>Escenario 2: Aprobación de solicitud y notificación</b><br>
-        Given que se envía la solicitud al líder,<br>
-        When el líder la aprueba,<br>
-        Then el sistema actualiza el estado<br>
-        And notifica al solicitante.
-        <br>
-        <b>Escenario 3: Negación de solicitud y notificación</b><br>
-        Given que se envía la solicitud al líder,<br>
-        When el líder lo deniega,<br>
-        Then el sistema actualiza el estado<br>
-        And notifica al solicitante.
+        <b>Escenario 1: Asignación individual</b><br>
+        Given que selecciono un miembro,<br>
+        When asigno la tarea,<br>
+        Then recibe notificación y aparece en su listado.<br>
+        <b>Escenario 2: Reasignación</b><br>
+        Given que la tarea está asignada,<br>
+        When cambio el responsable,<br>
+        Then ambos miembros reciben notificación.
       </td>
-      <td>EP-008</td>
+      <td>EP-002</td>
     </tr>
     <tr>
-      <td>US-034</td>
-      <td>Alertas de vencimiento de préstamos</td>
-      <td>Como sistema, debo notificar cuando un recurso prestado está por vencer o se pasa de fecha, para prevenir conflictos de disponibilidad.</td>
+      <td>US-006</td>
+      <td>Eliminación de tareas</td>
+      <td>Como líder, quiero eliminar tareas incorrectas o duplicadas.</td>
       <td>
-        <b>Escenario 1: Recordatorio de devolución próxima</b><br>
-        Given que un préstamo está activo,<br>
-        When se acerca la fecha de devolución,<br>
-        Then el sistema envía un recordatorio al usuario.
-        <br>
-        <b>Escenario 2: Notificación por devolución tardía</b><br>
-        Given que el préstamo venció,<br>
-        When no se registra devolución,<br>
-        Then el sistema notifica al administrador y al siguiente en la lista de espera.
+        <b>Escenario 1: Eliminación estándar</b><br>
+        Given que selecciono una tarea,<br>
+        When la elimino,<br>
+        Then desaparece del listado principal.<br>
+        <b>Escenario 2: Tarea completada</b><br>
+        Given que la tarea está marcada como completada,<br>
+        When intento eliminarla,<br>
+        Then el sistema requiere confirmación adicional.
       </td>
-      <td>EP-008</td>
+      <td>EP-002</td>
     </tr>
     <tr>
-      <td>US-035</td>
-      <td>Visualización de recursos asignados a tareas</td>
-      <td>Como miembro, deseo ver qué recursos están vinculados a una tarea específica, para prepararme adecuadamente antes de comenzar.</td>
+      <td>US-007</td>
+      <td>Actualización de estado</td>
+      <td>Como miembro, quiero actualizar el estado de mis tareas para reflejar mi progreso.</td>
       <td>
-        <b>Escenario 1: Ver lista de recursos de la tarea</b><br>
-        Given que el usuario abre una tarea,<br>
-        When revisa la sección "Recursos",<br>
-        Then el sistema muestra una lista de ítems necesarios con su estado actual (disponible/reservado).
-        <br>
-        <b>Escenario 2: Sugerencia de recursos alternativos</b><br>
-        Given que falta un recurso,<br>
-        When hace clic en "Solicitar",<br>
-        Then el sistema sugiere alternativas disponibles similares.
+        <b>Escenario 1: Marcar como completada</b><br>
+        Given que finalizo una tarea,<br>
+        When cambio el estado,<br>
+        Then el líder recibe notificación.<br>
+        <b>Escenario 2: Cancelación</b><br>
+        Given que una tarea ya no es necesaria,<br>
+        When la marco como cancelada,<br>
+        Then se registra con motivo opcional.
       </td>
-      <td>EP-008</td>
+      <td>EP-002</td>
     </tr>
     <tr>
-      <td>US-036</td>
-      <td>Sistema de logros y badges</td>
-      <td>Como miembro, quiero ganar insignias al completar metas grupales, para sentirme reconocido por mis contribuciones.</td>
+      <td>US-008</td>
+      <td>Reprogramación de tareas</td>
+      <td>Como líder, quiero cambiar fechas límite cuando surgen imprevistos.</td>
       <td>
-        <b>Escenario 1: Asignación de badge al completar tareas</b><br>
-        Given que el usuario completa tareas asignadas,<br>
-        When actualiza su perfil,<br>
-        Then el sistema registra al usuario elo badge correspondiente.
-        <br>
-        <b>Escenario 2: Visualización de badges en perfiles de usuario</b><br>
-        Given que hay badges disponibles,<br>
-        When otros ven mi perfil,<br>
-        Then el sistema muestra mis logros con descripción.
-        <br>
-        <b>Escenario 3: Revocación de badge</b><br>
-        Given un usuario ha obtenido un badge,<br>
-        When el usuario ya no cumple con los criterios originales o el líder revoca el badge manualmente<br>
-        Then el sistema debería revocar el badge del perfil del usuario.
+        <b>Escenario 1: Cambio de fecha</b><br>
+        Given que selecciono una tarea,<br>
+        When modifico la fecha límite,<br>
+        Then el responsable recibe notificación.<br>
+        <b>Escenario 2: Histórico de cambios</b><br>
+        Given que reprogramo una tarea,<br>
+        When consulto su historial,<br>
+        Then muestra fechas anteriores y justificación.
       </td>
-      <td>EP-009</td>
+      <td>EP-002</td>
     </tr>
     <tr>
-      <td>US-037</td>
-      <td>Tablero de reconocimiento grupal</td>
-      <td>Como líder, deseo destacar públicamente contribuciones excepcionales, para motivar al equipo.</td>
+      <td>US-009</td>
+      <td>Notificaciones in-app</td>
+      <td>Como miembro, quiero recibir notificaciones en la plataforma para estar informado.</td>
       <td>
-        <b>Escenario 1: Publicación de un reconocimiento</b><br>
-        Given que un miembro sobresale,<br>
-        When el líder selecciona "Reconocer",<br>
-        Then el sistema expone su logro en el tablero público.
-        <br>
-        <b>Escenario 2: Visualización de reconocimientos en el tablero</b><br>
-        Given que hay reconocimientos,<br>
-        When el equipo accede al tablero,<br>
-        Then el sistema muestra los últimos reconocimientos con fotos.
-        <br>
-        <b>Escenario 3: Intento de publicar un reconocimiento sin descripción</b><br>
-        Given el líder selecciona a un miembro para reconocer su contribución,<br>
-        When el líder intenta publicar el reconocimiento sin ingresar una descripción,<br>
-        Then el sistema debería mostrar un mensaje de error indicando que la descripción del reconocimiento es obligatoria.
+        <b>Escenario 1: Nueva notificación</b><br>
+        Given que ocurre un evento relevante,<br>
+        When el sistema genera notificación,<br>
+        Then aparece un badge en el icono de campana.<br>
+        <b>Escenario 2: Visualización</b><br>
+        Given que hay notificaciones no leídas,<br>
+        When hago clic en el icono,<br>
+        Then se muestran ordenadas por fecha.
       </td>
-      <td>EP-009</td>
+      <td>EP-003</td>
     </tr>
     <tr>
-      <td>US-038</td>
-      <td>Rutas de aprendizaje grupales</td>
-      <td>Como líder, deseo asignar rutas de capacitación al equipo con recursos y metas de progreso, para desarrollar habilidades.</td>
+      <td>US-010</td>
+      <td>Notificaciones por email</td>
+      <td>Como miembro, quiero recibir notificaciones por email cuando no esté activo en la plataforma.</td>
       <td>
-        <b>Escenario 1: Visualización del progreso de la ruta</b><br>
-        Given que el líder crea una ruta,<br>
-        When agrega módulos,<br>
-        Then el sistema muestra a los miembros el progreso como porcentaje completado en la consulta.
-        <br>
-        <b>Escenario 2: Aprobación de evidencia de módulo completado</b><br>
-        Given que el usuario completa un módulo,<br>
-        When sube evidencia,<br>
-        Then el sistema notificará al líder sobre la aprobación o petición de revisiones.
-        <br>
-        <b>Escenario 3: Intento de acceder a una ruta no asignada</b><br>
-        Given el líder ha creado rutas de aprendizaje en el sistema,<br>
-        When un miembro intenta acceder a una ruta de aprendizaje que no le ha sido asignada por el líder,<br>
-        Then el sistema debería impedir el acceso a esa ruta<br>
-        And notificará al usuario de la falta de permisos.
+        <b>Escenario 1: Email estándar</b><br>
+        Given que ocurre un evento importante,<br>
+        When no he iniciado sesión en 24h,<br>
+        Then recibo resumen por email.<br>
+        <b>Escenario 2: Desactivación</b><br>
+        Given que configuro "No enviar emails",<br>
+        When ocurre un evento,<br>
+        Then solo recibo notificación in-app.
       </td>
-      <td>EP-009</td>
+      <td>EP-003</td>
     </tr>
     <tr>
-      <td>US-039</td>
-      <td>Checklist de preparación para recursos</td>
-      <td>Como administrador, deseo crear checklists personalizados para cada recurso, para que los usuarios vengan preparados.</td>
+      <td>US-011</td>
+      <td>Preferencias de notificación</td>
+      <td>Como miembro, quiero configurar qué notificaciones recibo para gestionar mi atención.</td>
       <td>
-        <b>Escenario 1: Adición de checklist a un recurso</b><br>
-        Given que el administrador edita un recurso,<br>
-        When agrega un checklist,<br>
-        Then el sistema muestra al usuario el checklist editado durante el proceso de reserva.
-        <br>
-        <b>Escenario 2: Obligatoriedad del checklist durante la reserva</b><br>
-        Given que hay un checklist,<br>
-        When el usuario hace una reserva,<br>
-        Then el sistema debe pedir al usuario marcar cada ítem como "entendido" antes de confirmar.
-        <br>
-        <b>Escenario 3: Intento de reservar sin completar el checklist</b><br>
-        Given un recurso tiene un checklist de preparación obligatorio,<br>
-        When un usuario intenta completar la reserva del recurso sin haber marcado todos los ítems del checklist como entendidos,<br>
-        Then el sistema impide la confirmación de la reserva indicando que debe marcar todos los elementos del checklist antes de poder reservar el recurso.
+        <b>Escenario 1: Desactivar notificaciones</b><br>
+        Given que desactivo un tipo de notificación,<br>
+        When ocurre ese evento,<br>
+        Then no recibo alerta.<br>
+        <b>Escenario 2: Configuración granular</b><br>
+        Given que ajusto preferencias por grupo,<br>
+        When ocurre evento en ese grupo,<br>
+        Then se aplican mis configuraciones.
       </td>
-      <td>EP-008</td>
+      <td>EP-003</td>
     </tr>
     <tr>
-      <td>US-040</td>
-      <td>Fotos/documentos asociados a recursos</td>
-      <td>Como administrador, quiero subir fotos/documentos técnicos de recursos complejos, para que los usuarios sepan exactamente qué esperar.</td>
+      <td>US-012</td>
+      <td>Gráfico de distribución de tareas</td>
+      <td>Como líder, quiero ver un gráfico pastel con la distribución de tareas por miembro para balancear cargas.</td>
       <td>
-        <b>Escenario 1: Carga de imágenes y documentos a un recurso</b><br>
-        Given que el administrador desea agregar un recurso,<br>
-        When sube imágenes/documentos,<br>
-        Then el sistema los muestra en la ficha técnica del recurso.
-        <br>
-        <b>Escenario 2: Descarga de documentos técnicos por el usuario</b><br>
-        Given que el usuario consulta un recurso,<br>
-        When expande "Detalles",<br>
-        Then el sistema permite descargar manuales o especificaciones técnicas.
-        <br>
-        <b>Escenario 3: Intento de subir un tipo de archivo no permitido</b><br>
-        Given el administrador desea agregar un recurso,<br>
-        When intenta subir un archivo con un tipo de formato no permitido por el sistema,<br>
-        Then el sistema debería mostrar un mensaje de error indicando que el tipo de archivo no es compatible
+        <b>Escenario 1: Visualización básica</b><br>
+        Given que accedo al dashboard,<br>
+        When selecciono "Distribución",<br>
+        Then muestra porcentajes por miembro.<br>
+        <b>Escenario 2: Filtro por periodo</b><br>
+        Given que elijo un rango de fechas,<br>
+        When aplico el filtro,<br>
+        Then el gráfico se actualiza.
       </td>
-      <td>EP-008</td>
+      <td>EP-004</td>
     </tr>
     <tr>
-      <td>US-041</td>
-      <td>Previsualización de archivos adjuntos</td>
-      <td>Como usuario, deseo ver miniaturas/previews de archivos adjuntos a tareas sin descargarlos, para ahorrar tiempo.</td>
+      <td>US-013</td>
+      <td>Gráfico de estados de tareas</td>
+      <td>Como líder, quiero ver un gráfico de barras con el estado de todas las tareas del grupo.</td>
       <td>
-        <b>Escenario 1: Previsualización al pasar el cursor</b><br>
-        Given que la tarea tiene un archivo adjunto,<br>
-        When pasa el cursor encima,<br>
-        Then el sistema muestra un preview con contenido relevante.
-        <br>
-        <b>Escenario 2: Expansión de previsualización de imágenes</b><br>
-        Given que la tarea tiene una imagen adjunta,<br>
-        When el usuario hace clic en thumbnail,<br>
-        Then el sistema expande la vista previa en lightbox.
-        <br>
-        <b>Escenario 3: Error con la previsualización</b><br>
-        Given que la tarea tiene un archivo adjunto,<br>
-        When pasa el cursor encima<br>
-        And la previsualización falla,<br>
-        Then el sistema debe mostrar un mensaje que indique que la vista previa no está disponible.
+        <b>Escenario 1: Datos actualizados</b><br>
+        Given que hay tareas en diferentes estados,<br>
+        When visualizo el reporte,<br>
+        Then muestra cantidades por estado.<br>
+        <b>Escenario 2: Exportación</b><br>
+        Given que el gráfico está cargado,<br>
+        When hago clic en "Exportar",<br>
+        Then descarga imagen PNG.
       </td>
-      <td>EP-008</td>
+      <td>EP-004</td>
     </tr>
     <tr>
-        <td>US-042</td>
-        <td>Ajuste de Disponibilidad Temporal</td>
-        <td>Como miembro, deseo poder ajustar mi disponibilidad estimada para un día específico, para que el líder considere mi tiempo al asignar tareas.</td>
-        <td>
-            <b>Escenario 1: Ajuste de disponibilidad en un día</b><br>
-            Given que un miembro desea modificar su disponibilidad para un día específico,<br>
-            When el miembro selecciona el nuevo horario de disponibilidad para un día específico<br>
-            And ingresa el motivo de modificación,<br>
-            Then el sistema sobreescribe la disponibilidad para la fecha y horario especificado.
-            <br>
-            <b>Escenario 2: Eliminación de la modificación de disponibilidad</b><br>
-            Given que un miembro modificó su disponibilidad anteriormente para un día específico<br>
-            And desea eliminar la modificación<br>
-            When el miembro visualiza su horario<br>
-            And selecciona el cambio realizado sobre ese día<br>
-            And confirma su eliminación<br>
-            Then el sistema elimina el cambio realizado del horario.
-        </td>
-        <td>EP-005</td>
+      <td>US-014</td>
+      <td>Reporte de reprogramaciones</td>
+      <td>Como líder, quiero ver un gráfico de líneas con la cantidad de tareas reprogramadas por semana.</td>
+      <td>
+        <b>Escenario 1: Tendencia temporal</b><br>
+        Given que selecciono último trimestre,<br>
+        When genero el reporte,<br>
+        Then muestra línea con picos por semana.<br>
+        <b>Escenario 2: Detalle por motivo</b><br>
+        Given que hay reprogramaciones,<br>
+        When paso el cursor sobre un punto,<br>
+        Then muestra motivos frecuentes.
+      </td>
+      <td>EP-004</td>
     </tr>
     <tr>
-        <td>US-042</td>
-        <td>Notificación de ajuste de disponibilidad significativo</td>
-        <td>Como líder, deseo recibir notificaciones automáticas cuando un miembro actualiza significativamente su disponibilidad</td>
-        <td>
-            <b>Escenario 1: Notificación de cambio significativo</b><br>
-            Given un miembro actualiza su disponibilidad,<br>
-            When la disponibilidad recibe un cambio mayor a cinco horas por defecto,<br>
-            Then el sistema notifica al líder sobre el cambio del usuario.
-            <br>
-            <b>Escenario 2: Configuración de la notificación</b><br>
-            Given el líder desea cambiar el límite del cambio de disponibilidad para la notificación,<br>
-            When el líder ingresa el nuevo límite,<br>
-            Then el sistema actualiza el límite para las notificaciones.
-            <br>
-            <b>Escenario 3: Valores del límite no permitidos</b><br>
-            Given el líder desea cambiar el límite del cambio de disponibilidad para la notificación,<br>
-            When el líder ingresa el nuevo límite<br>
-            And el límite supera lo establecido en el sistema,<br>
-            Then el sistema muestra un mensaje de error indicando que el límite establecido no está permitido.
-        </td>
-        <td>EP-005</td>
+      <td>US-015</td>
+      <td>Reporte de productividad individual</td>
+      <td>Como líder, quiero evaluar el desempeño de cada miembro a través de métricas claras.</td>
+      <td>
+        <b>Escenario 1: Datos básicos</b><br>
+        Given que selecciono un miembro,<br>
+        When genero su reporte,<br>
+        Then muestra: tareas completadas/tiempo promedio.<br>
+        <b>Escenario 2: Comparativa</b><br>
+        Given que veo dos reportes,<br>
+        When los comparo,<br>
+        Then resalta diferencias significativas.
+      </td>
+      <td>EP-004</td>
     </tr>
-  </tbody>
+    <tr>
+      <td>US-016</td>
+      <td>Solicitud de aprobación de tarea</td>
+      <td>Como miembro, quiero enviar tareas completadas para validación del líder.</td>
+      <td>
+        <b>Escenario 1: Envío estándar</b><br>
+        Given que marco tarea como completada,<br>
+        When envío a validación,<br>
+        Then cambia a estado "En revisión".<br>
+        <b>Escenario 2: Documentación adjunta</b><br>
+        Given que agrego evidencia,<br>
+        When envío la solicitud,<br>
+        Then el líder ve los archivos asociados.
+      </td>
+      <td>EP-005</td>
+    </tr>
+    <tr>
+      <td>US-017</td>
+      <td>Validación de tareas</td>
+      <td>Como líder, quiero aprobar o rechazar tareas completadas para asegurar calidad.</td>
+      <td>
+        <b>Escenario 1: Aprobación</b><br>
+        Given que la tarea cumple estándares,<br>
+        When la apruebo,<br>
+        Then se marca como definitivamente completada.<br>
+        <b>Escenario 2: Rechazo con comentarios</b><br>
+        Given que encuentro deficiencias,<br>
+        When rechazo con feedback,<br>
+        Then la tarea vuelve a "En progreso".
+      </td>
+      <td>EP-005</td>
+    </tr>
+    <tr>
+      <td>US-018</td>
+      <td>Solicitud de extensión de plazo</td>
+      <td>Como miembro, quiero pedir más tiempo para una tarea cuando surgen impedimentos.</td>
+      <td>
+        <b>Escenario 1: Solicitud básica</b><br>
+        Given que selecciono una tarea,<br>
+        When pido extensión con motivo,<br>
+        Then el líder recibe notificación.<br>
+        <b>Escenario 2: Aprobación</b><br>
+        Given que el líder acepta,<br>
+        When actualiza la fecha,<br>
+        Then el sistema registra el cambio.
+      </td>
+      <td>EP-005</td>
+    </tr>
+    <tr>
+      <td>US-019</td>
+      <td>Histórico de validaciones</td>
+      <td>Como líder, quiero ver el historial de aprobaciones/rechazos para identificar patrones.</td>
+      <td>
+        <b>Escenario 1: Filtro por miembro</b><br>
+        Given que selecciono un colaborador,<br>
+        When consulto su historial,<br>
+        Then muestra tasa de aprobación.<br>
+        <b>Escenario 2: Detalle por tarea</b><br>
+        Given que veo una entrada,<br>
+        When hago clic,<br>
+        Then muestra comentarios del validador.
+      </td>
+      <td>EP-005</td>
+    </tr>
+    <tr>
+      <td>US-020</td>
+      <td>Notificaciones de cambio de estado</td>
+      <td>Como miembro, quiero recibir alertas cuando mis solicitudes cambian de estado.</td>
+      <td>
+        <b>Escenario 1: Aprobación recibida</b><br>
+        Given que mi solicitud es aprobada,<br>
+        When el líder toma acción,<br>
+        Then recibo notificación con detalles.<br>
+        <b>Escenario 2: Rechazo</b><br>
+        Given que mi solicitud es rechazada,<br>
+        When hay comentarios,<br>
+        Then los incluye en la notificación.
+      </td>
+      <td>EP-005</td>
+    </tr>
+<tr>
+      <td>US-021</td>
+      <td>Visualización de miembros del grupo</td>
+      <td>Como líder, quiero ver la lista de miembros de mi grupo para gestionar la colaboración.</td>
+      <td>
+        <b>Escenario 1: Lista de miembros</b><br>
+        Given que accedo a la sección de miembros,<br>
+        When visualizo la lista,<br>
+        Then se muestran los nombres y roles de cada miembro.<br>
+        <b>Escenario 2: Detalles del miembro</b><br>
+        Given que selecciono un miembro,<br>
+        When hago clic en su nombre,<br>
+        Then se muestran sus tareas asignadas y estado actual.
+      </td>
+      <td>EP-001</td>
+    </tr>
+    <tr>
+      <td>US-022</td>
+      <td>Edición de información del grupo</td>
+      <td>Como líder, quiero editar la información de mi grupo para mantenerla actualizada.</td>
+      <td>
+        <b>Escenario 1: Actualización de nombre</b><br>
+        Given que accedo a la configuración del grupo,<br>
+        When modifico el nombre y guardo los cambios,<br>
+        Then el nuevo nombre se refleja en todas las vistas.<br>
+        <b>Escenario 2: Cambio de descripción</b><br>
+        Given que edito la descripción del grupo,<br>
+        When guardo los cambios,<br>
+        Then la nueva descripción se muestra en la página principal del grupo.
+      </td>
+      <td>EP-001</td>
+    </tr>
+    <!-- EP-002: Gestión de Tareas -->
+    <tr>
+      <td>US-023</td>
+      <td>Visualización de tareas asignadas</td>
+      <td>Como miembro, quiero ver las tareas que me han sido asignadas para gestionar mi trabajo.</td>
+      <td>
+        <b>Escenario 1: Lista de tareas</b><br>
+        Given que accedo a mi panel de tareas,<br>
+        When visualizo la lista,<br>
+        Then se muestran todas las tareas asignadas con su estado actual.<br>
+        <b>Escenario 2: Detalle de tarea</b><br>
+        Given que selecciono una tarea,<br>
+        When hago clic en ella,<br>
+        Then se muestran los detalles completos de la tarea.
+      </td>
+      <td>EP-002</td>
+    </tr>
+    <tr>
+      <td>US-024</td>
+      <td>Comentario en tareas</td>
+      <td>Como miembro, quiero comentar en las tareas para comunicarme con el líder sobre el progreso.</td>
+      <td>
+        <b>Escenario 1: Añadir comentario</b><br>
+        Given que accedo a una tarea asignada,<br>
+        When escribo un comentario y lo envío,<br>
+        Then el comentario aparece en el hilo de la tarea.<br>
+        <b>Escenario 2: Notificación al líder</b><br>
+        Given que envío un comentario,<br>
+        When el líder accede a la tarea,<br>
+        Then ve el nuevo comentario destacado.
+      </td>
+      <td>EP-002</td>
+    </tr>
+    <!-- EP-003: Notificaciones Inteligentes -->
+    <tr>
+      <td>US-025</td>
+      <td>Configuración de preferencias de notificación</td>
+      <td>Como usuario, quiero configurar mis preferencias de notificación para recibir solo las alertas relevantes.</td>
+      <td>
+        <b>Escenario 1: Selección de tipos de notificación</b><br>
+        Given que accedo a la configuración de notificaciones,<br>
+        When selecciono los tipos de eventos que deseo recibir,<br>
+        Then solo recibo notificaciones de esos eventos.<br>
+        <b>Escenario 2: Desactivación de notificaciones</b><br>
+        Given que desactivo todas las notificaciones,<br>
+        When ocurre un evento,<br>
+        Then no recibo ninguna alerta.
+      </td>
+      <td>EP-003</td>
+    </tr>
+    <tr>
+      <td>US-026</td>
+      <td>Resumen semanal de actividad</td>
+      <td>Como miembro, quiero recibir un resumen semanal de mi actividad para revisar mi desempeño.</td>
+      <td>
+        <b>Escenario 1: Generación del resumen</b><br>
+        Given que ha transcurrido una semana,<br>
+        When se genera el resumen,<br>
+        Then recibo un informe con mis tareas completadas y pendientes.<br>
+        <b>Escenario 2: Acceso al resumen</b><br>
+        Given que recibo el resumen,<br>
+        When accedo al enlace proporcionado,<br>
+        Then puedo ver el detalle completo en la plataforma.
+      </td>
+      <td>EP-003</td>
+    </tr>
+    <!-- EP-004: Analítica y Reportes -->
+    <tr>
+      <td>US-027</td>
+      <td>Visualización de carga de trabajo por miembro</td>
+      <td>Como líder, quiero ver la carga de trabajo de cada miembro para equilibrar las asignaciones.</td>
+      <td>
+        <b>Escenario 1: Gráfico de barras</b><br>
+        Given que accedo al panel de analítica,<br>
+        When selecciono "Carga de trabajo",<br>
+        Then se muestra un gráfico de barras con el número de tareas por miembro.<br>
+        <b>Escenario 2: Identificación de sobrecarga</b><br>
+        Given que un miembro tiene más tareas que otros,<br>
+        When visualizo el gráfico,<br>
+        Then se resalta su barra en un color diferente.
+      </td>
+      <td>EP-004</td>
+    </tr>
+    <tr>
+      <td>US-028</td>
+      <td>Reporte de cumplimiento de plazos</td>
+      <td>Como líder, quiero ver un reporte de cumplimiento de plazos para evaluar la eficiencia del equipo.</td>
+      <td>
+        <b>Escenario 1: Generación del reporte</b><br>
+        Given que accedo a la sección de reportes,<br>
+        When selecciono "Cumplimiento de plazos",<br>
+        Then se muestra un informe con el porcentaje de tareas completadas a tiempo.<br>
+        <b>Escenario 2: Filtro por periodo</b><br>
+        Given que elijo un rango de fechas,<br>
+        When aplico el filtro,<br>
+        Then el reporte se actualiza con los datos correspondientes.
+      </td>
+      <td>EP-004</td>
+    </tr>
+    <!-- EP-005: Solicitudes y Validaciones -->
+    <tr>
+      <td>US-029</td>
+      <td>Revisión de comentarios en tareas</td>
+      <td>Como líder, quiero revisar los comentarios en las tareas para proporcionar retroalimentación oportuna.</td>
+      <td>
+        <b>Escenario 1: Acceso a comentarios</b><br>
+        Given que accedo a una tarea,<br>
+        When visualizo la sección de comentarios,<br>
+        Then puedo leer todos los mensajes dejados por los miembros.<br>
+        <b>Escenario 2: Responder a comentarios</b><br>
+        Given que leo un comentario,<br>
+        When escribo una respuesta y la envío,<br>
+        Then el miembro recibe una notificación de mi respuesta.
+      </td>
+      <td>EP-005</td>
+    </tr>
+    <tr>
+      <td>US-030</td>
+  <td>Confirmación antes de eliminar una tarea</td>
+  <td>Como líder, quiero recibir una confirmación antes de eliminar una tarea para evitar borrados accidentales.</td>
+  <td>
+    <b>Escenario 1: Confirmación requerida</b><br>
+    Given que selecciono eliminar una tarea,<br>
+    When hago clic en el icono de eliminar,<br>
+    Then se muestra un mensaje de confirmación antes de proceder.<br>
+    <b>Escenario 2: Cancelación de eliminación</b><br>
+    Given que aparece el mensaje de confirmación,<br>
+    When elijo "Cancelar",<br>
+    Then la tarea no se elimina y permanece en la lista.
+  </td>
+  <td>EP-005</td>
+    </tr>
+<tr>
+      <td>TS-001</td>
+      <td>Obtener un grupo por ID</td>
+      <td>Como developer, quiero obtener un grupo por su ID para verificar que la API devuelve los detalles correctos del grupo.</td>
+      <td>
+        <b>Escenario 1: Grupo válido</b><br>
+        Given que el ID del grupo es válido,<br>
+        When se realiza la solicitud GET con el ID,<br>
+        Then se debe devolver los detalles del grupo correspondiente.<br><br>
+        <b>Escenario 2: Grupo no encontrado</b><br>
+        Given que el ID del grupo no existe,<br>
+        When se realiza la solicitud GET con el ID,<br>
+        Then la respuesta debe ser un error 404 indicando que no se encontró el grupo.
+      </td>
+      <td>EP-001</td>
+    </tr>
+    <tr>
+      <td>TS-002</td>
+      <td>Obtener todos los grupos de un usuario</td>
+      <td>Como developer, quiero obtener todos los grupos a los que pertenece un usuario para confirmar que la API devuelve todos los grupos correctamente.</td>
+      <td>
+        <b>Escenario 1: Usuario con grupos</b><br>
+        Given que el usuario pertenece a varios grupos,<br>
+        When se realiza la solicitud GET para obtener los grupos del usuario,<br>
+        Then se deben devolver todos los grupos a los que pertenece el usuario.<br><br>
+        <b>Escenario 2: Usuario sin grupos</b><br>
+        Given que el usuario no pertenece a ningún grupo,<br>
+        When se realiza la solicitud GET para obtener los grupos del usuario,<br>
+        Then se debe devolver un array vacío.
+      </td>
+      <td>EP-001</td>
+    </tr>
+    <tr>
+      <td>TS-003</td>
+      <td>Registrar un nuevo grupo</td>
+      <td>Como developer, quiero registrar un nuevo grupo para asegurarme de que el grupo se crea correctamente en el sistema.</td>
+      <td>
+        <b>Escenario 1: Creación de grupo exitosa</b><br>
+        Given que tengo los datos válidos para crear un grupo,<br>
+        When envío la solicitud POST para registrar el grupo,<br>
+        Then el grupo debe ser creado y debe devolver el ID del nuevo grupo.<br><br>
+        <b>Escenario 2: Datos incompletos</b><br>
+        Given que los datos para crear el grupo son incompletos,<br>
+        When se envía la solicitud POST con los datos incompletos,<br>
+        Then la respuesta debe ser un error 400 indicando que los datos son inválidos o incompletos.
+      </td>
+      <td>EP-001</td>
+    </tr>
+    <tr>
+      <td>TS-004</td>
+      <td>Agregar un miembro a un grupo</td>
+      <td>Como developer, quiero agregar un miembro a un grupo para asegurarme de que el miembro se asocia correctamente al grupo.</td>
+      <td>
+        <b>Escenario 1: Miembro agregado exitosamente</b><br>
+        Given que el grupo y el miembro existen,<br>
+        When se realiza la solicitud POST para agregar el miembro al grupo,<br>
+        Then el miembro debe ser agregado correctamente al grupo y la respuesta debe ser un código de éxito.<br><br>
+        <b>Escenario 2: Miembro o grupo no existe</b><br>
+        Given que el grupo o el miembro no existen,<br>
+        When se realiza la solicitud POST con IDs inválidos,<br>
+        Then la respuesta debe ser un error 404 indicando que el grupo o miembro no fue encontrado.
+      </td>
+      <td>EP-001</td>
+    </tr>
+    <tr>
+      <td>TS-005</td>
+      <td>Actualizar un grupo</td>
+      <td>Como developer, quiero actualizar los detalles de un grupo para asegurarme de que la modificación se realice correctamente.</td>
+      <td>
+        <b>Escenario 1: Actualización exitosa</b><br>
+        Given que el grupo existe y los datos son válidos,<br>
+        When se realiza la solicitud PUT para actualizar el grupo,<br>
+        Then los detalles del grupo deben ser actualizados correctamente.<br><br>
+        <b>Escenario 2: Datos inválidos</b><br>
+        Given que los datos proporcionados para la actualización son inválidos,<br>
+        When se realiza la solicitud PUT con los datos inválidos,<br>
+        Then la respuesta debe ser un error 400 indicando que los datos son incorrectos.
+      </td>
+      <td>EP-001</td>
+    </tr>
+    <tr>
+      <td>TS-006</td>
+      <td>Eliminar un grupo</td>
+      <td>Como developer, quiero eliminar un grupo para asegurarme de que el grupo se elimina correctamente del sistema.</td>
+      <td>
+        <b>Escenario 1: Eliminación exitosa</b><br>
+        Given que el grupo existe,<br>
+        When se realiza la solicitud DELETE para eliminar el grupo,<br>
+        Then el grupo debe ser eliminado correctamente y no debe estar disponible en futuras solicitudes.<br><br>
+        <b>Escenario 2: Grupo no encontrado</b><br>
+        Given que el grupo no existe,<br>
+        When se realiza la solicitud DELETE con un ID de grupo no válido,<br>
+        Then la respuesta debe ser un error 404 indicando que el grupo no fue encontrado.
+      </td>
+      <td>EP-001</td>
+    </tr>
+<tr>
+      <td>TS-007</td>
+      <td>Obtener todas las tareas por miembro</td>
+      <td>Como developer, quiero obtener todas las tareas asociadas a un miembro para verificar que la API devuelve correctamente las tareas asignadas.</td>
+      <td>
+        <b>Escenario 1: Miembro con tareas</b><br>
+        Given que el miembro tiene tareas asignadas,<br>
+        When se realiza la solicitud GET para obtener las tareas del miembro,<br>
+        Then se deben devolver todas las tareas asociadas al miembro.<br><br>
+        <b>Escenario 2: Miembro sin tareas</b><br>
+        Given que el miembro no tiene tareas asignadas,<br>
+        When se realiza la solicitud GET para obtener las tareas del miembro,<br>
+        Then la respuesta debe ser un array vacío indicando que no hay tareas.
+      </td>
+      <td>EP-002</td>
+    </tr>
+    <tr>
+      <td>TS-008</td>
+      <td>Crear una nueva tarea para un miembro</td>
+      <td>Como developer, quiero crear una nueva tarea para un miembro para asegurarme de que la tarea se asigna correctamente.</td>
+      <td>
+        <b>Escenario 1: Creación de tarea exitosa</b><br>
+        Given que el miembro existe y los datos de la tarea son válidos,<br>
+        When se realiza la solicitud POST para crear la tarea,<br>
+        Then la tarea debe ser creada y asignada correctamente al miembro.<br><br>
+        <b>Escenario 2: Datos inválidos</b><br>
+        Given que los datos de la tarea son inválidos,<br>
+        When se realiza la solicitud POST con los datos incorrectos,<br>
+        Then la respuesta debe ser un error 400 indicando que los datos son inválidos.
+      </td>
+      <td>EP-002</td>
+    </tr>
+    <tr>
+      <td>TS-009</td>
+      <td>Obtener todos los miembros</td>
+      <td>Como developer, quiero obtener todos los miembros para verificar que la API devuelve la lista completa de miembros registrados.</td>
+      <td>
+        <b>Escenario 1: Miembros registrados</b><br>
+        Given que hay miembros registrados en el sistema,<br>
+        When se realiza la solicitud GET para obtener todos los miembros,<br>
+        Then se deben devolver todos los miembros registrados.<br><br>
+        <b>Escenario 2: No hay miembros</b><br>
+        Given que no hay miembros registrados,<br>
+        When se realiza la solicitud GET para obtener todos los miembros,<br>
+        Then la respuesta debe ser un array vacío indicando que no hay miembros.
+      </td>
+      <td>EP-002</td>
+    </tr>
+    <tr>
+      <td>TS-010</td>
+      <td>Crear un nuevo miembro</td>
+      <td>Como developer, quiero crear un nuevo miembro para asegurarme de que el miembro se registra correctamente en el sistema.</td>
+      <td>
+        <b>Escenario 1: Miembro creado exitosamente</b><br>
+        Given que los datos del miembro son válidos,<br>
+        When se realiza la solicitud POST para crear el miembro,<br>
+        Then el miembro debe ser creado correctamente y la respuesta debe devolver el ID del miembro creado.<br><br>
+        <b>Escenario 2: Datos incompletos</b><br>
+        Given que los datos del miembro son incompletos,<br>
+        When se realiza la solicitud POST con los datos incompletos,<br>
+        Then la respuesta debe ser un error 400 indicando que los datos son incompletos.
+      </td>
+      <td>EP-002</td>
+    </tr>
+    <tr>
+      <td>TS-011</td>
+      <td>Obtener un miembro por ID</td>
+      <td>Como developer, quiero obtener los detalles de un miembro por su ID para verificar que la API devuelve correctamente la información del miembro.</td>
+      <td>
+        <b>Escenario 1: Miembro existente</b><br>
+        Given que el ID del miembro es válido,<br>
+        When se realiza la solicitud GET para obtener los detalles del miembro,<br>
+        Then se debe devolver la información correcta del miembro.<br><br>
+        <b>Escenario 2: Miembro no encontrado</b><br>
+        Given que el ID del miembro no existe,<br>
+        When se realiza la solicitud GET con un ID no válido,<br>
+        Then la respuesta debe ser un error 404 indicando que el miembro no fue encontrado.
+      </td>
+      <td>EP-002</td>
+    </tr>
+    <tr>
+      <td>TS-012</td>
+      <td>Obtener tarea por ID</td>
+      <td>Como developer, quiero obtener los detalles de una tarea por su ID para verificar que la API devuelve la información correcta de la tarea.</td>
+      <td>
+        <b>Escenario 1: Tarea encontrada</b><br>
+        Given que el ID de la tarea es válido,<br>
+        When se realiza la solicitud GET para obtener la tarea por ID,<br>
+        Then se debe devolver la información correcta de la tarea.<br><br>
+        <b>Escenario 2: Tarea no encontrada</b><br>
+        Given que el ID de la tarea no existe,<br>
+        When se realiza la solicitud GET con un ID no válido,<br>
+        Then la respuesta debe ser un error 404 indicando que la tarea no fue encontrada.
+      </td>
+      <td>EP-002</td>
+    </tr>
+    <tr>
+      <td>TS-013</td>
+      <td>Actualizar tarea</td>
+      <td>Como developer, quiero actualizar una tarea para asegurarme de que la tarea se modifica correctamente en el sistema.</td>
+      <td>
+        <b>Escenario 1: Actualización exitosa</b><br>
+        Given que la tarea existe y los datos son válidos,<br>
+        When se realiza la solicitud PUT para actualizar la tarea,<br>
+        Then los detalles de la tarea deben ser actualizados correctamente.<br><br>
+        <b>Escenario 2: Datos inválidos</b><br>
+        Given que los datos para actualizar la tarea son inválidos,<br>
+        When se realiza la solicitud PUT con datos incorrectos,<br>
+        Then la respuesta debe ser un error 400 indicando que los datos son inválidos.
+      </td>
+      <td>EP-002</td>
+    </tr>
+    <tr>
+      <td>TS-014</td>
+      <td>Eliminar tarea</td>
+      <td>Como developer, quiero eliminar una tarea para asegurarme de que la tarea se elimina correctamente del sistema.</td>
+      <td>
+        <b>Escenario 1: Eliminación exitosa</b><br>
+        Given que la tarea existe,<br>
+        When se realiza la solicitud DELETE para eliminar la tarea,<br>
+        Then la tarea debe ser eliminada correctamente y no debe estar disponible en futuras solicitudes.<br><br>
+        <b>Escenario 2: Tarea no encontrada</b><br>
+        Given que la tarea no existe,<br>
+        When se realiza la solicitud DELETE con un ID no válido,<br>
+        Then la respuesta debe ser un error 404 indicando que la tarea no fue encontrada.
+      </td>
+      <td>EP-002</td>
+    </tr>
+    <tr>
+      <td>TS-015</td>
+      <td>Actualizar estado de tarea</td>
+      <td>Como developer, quiero actualizar el estado de una tarea para asegurarme de que el estado se modifica correctamente en el sistema.</td>
+      <td>
+        <b>Escenario 1: Actualización de estado exitosa</b><br>
+        Given que la tarea existe y el nuevo estado es válido,<br>
+        When se realiza la solicitud PUT para actualizar el estado de la tarea,<br>
+        Then el estado de la tarea debe ser actualizado correctamente.<br><br>
+        <b>Escenario 2: Estado inválido</b><br>
+        Given que el estado proporcionado es inválido,<br>
+        When se realiza la solicitud PUT con un estado no válido,<br>
+        Then la respuesta debe ser un error 400 indicando que el estado es inválido.
+      </td>
+      <td>EP-002</td>
+    </tr>
+    <tr>
+      <td>TS-016</td>
+      <td>Obtener todas las tareas</td>
+      <td>Como developer, quiero obtener todas las tareas para verificar que la API devuelve todas las tareas correctamente.</td>
+      <td>
+        <b>Escenario 1: Tareas disponibles</b><br>
+        Given que hay tareas registradas en el sistema,<br>
+        When se realiza la solicitud GET para obtener todas las tareas,<br>
+        Then se deben devolver todas las tareas registradas.<br><br>
+        <b>Escenario 2: No hay tareas</b><br>
+        Given que no hay tareas registradas,<br>
+        When se realiza la solicitud GET para obtener todas las tareas,<br>
+        Then la respuesta debe ser un array vacío indicando que no hay tareas.
+      </td>
+      <td>EP-002</td>
+    </tr>
+    <tr>
+      <td>TS-017</td>
+      <td>Obtener tareas por estado</td>
+      <td>Como developer, quiero obtener todas las tareas filtradas por estado para verificar que la API devuelve correctamente las tareas según su estado.</td>
+      <td>
+        <b>Escenario 1: Tareas con estado específico</b><br>
+        Given que hay tareas con el estado solicitado,<br>
+        When se realiza la solicitud GET para obtener las tareas por estado,<br>
+        Then se deben devolver las tareas que tengan ese estado.<br><br>
+        <b>Escenario 2: No hay tareas con ese estado</b><br>
+        Given que no hay tareas con el estado solicitado,<br>
+        When se realiza la solicitud GET para obtener las tareas por estado,<br>
+        Then la respuesta debe ser un array vacío indicando que no hay tareas con ese estado.
+      </td>
+      <td>EP-002</td>
+    </tr>
+<tr>
+      <td>TS-018</td>
+      <td>Enviar notificación</td>
+      <td>Como developer, quiero enviar una notificación para asegurarme de que la notificación se envía correctamente al usuario.</td>
+      <td>
+        <b>Escenario 1: Envío exitoso de notificación</b><br>
+        Given que los datos de la notificación son válidos,<br>
+        When se realiza la solicitud POST para enviar la notificación,<br>
+        Then la notificación debe ser enviada correctamente y debe devolver una confirmación de éxito.<br><br>
+        <b>Escenario 2: Datos inválidos</b><br>
+        Given que los datos de la notificación son incompletos o inválidos,<br>
+        When se realiza la solicitud POST con los datos incorrectos,<br>
+        Then la respuesta debe ser un error 400 indicando que los datos son inválidos.
+      </td>
+      <td>EP-003</td>
+    </tr>
+    <tr>
+      <td>TS-019</td>
+      <td>Marcar notificación como leída</td>
+      <td>Como developer, quiero marcar una notificación como leída para asegurarme de que el estado de la notificación se actualiza correctamente.</td>
+      <td>
+        <b>Escenario 1: Marca como leída exitosa</b><br>
+        Given que la notificación existe y no ha sido leída,<br>
+        When se realiza la solicitud POST para marcar la notificación como leída,<br>
+        Then la notificación debe ser actualizada correctamente y su estado debe ser cambiado a "leída".<br><br>
+        <b>Escenario 2: Notificación ya leída</b><br>
+        Given que la notificación ya está marcada como leída,<br>
+        When se realiza la solicitud POST para marcarla nuevamente como leída,<br>
+        Then la respuesta debe ser un mensaje indicando que la notificación ya ha sido leída.
+      </td>
+      <td>EP-003</td>
+    </tr>
+    <tr>
+      <td>TS-020</td>
+      <td>Obtener notificaciones de usuario</td>
+      <td>Como developer, quiero obtener todas las notificaciones de un usuario para verificar que la API devuelve correctamente las notificaciones asociadas a un usuario.</td>
+      <td>
+        <b>Escenario 1: Usuario con notificaciones</b><br>
+        Given que el usuario tiene notificaciones,<br>
+        When se realiza la solicitud GET para obtener las notificaciones del usuario,<br>
+        Then se deben devolver todas las notificaciones asociadas al usuario.<br><br>
+        <b>Escenario 2: Usuario sin notificaciones</b><br>
+        Given que el usuario no tiene notificaciones,<br>
+        When se realiza la solicitud GET para obtener las notificaciones del usuario,<br>
+        Then la respuesta debe ser un array vacío indicando que no hay notificaciones.
+      </td>
+      <td>EP-003</td>
+    </tr>
+    <tr>
+      <td>TS-021</td>
+      <td>Obtener notificaciones no leídas de usuario</td>
+      <td>Como developer, quiero obtener todas las notificaciones no leídas de un usuario para verificar que la API devuelve correctamente las notificaciones no leídas.</td>
+      <td>
+        <b>Escenario 1: Usuario con notificaciones no leídas</b><br>
+        Given que el usuario tiene notificaciones no leídas,<br>
+        When se realiza la solicitud GET para obtener las notificaciones no leídas del usuario,<br>
+        Then se deben devolver todas las notificaciones no leídas del usuario.<br><br>
+        <b>Escenario 2: Usuario sin notificaciones no leídas</b><br>
+        Given que el usuario no tiene notificaciones no leídas,<br>
+        When se realiza la solicitud GET para obtener las notificaciones no leídas del usuario,<br>
+        Then la respuesta debe ser un array vacío indicando que no hay notificaciones no leídas.
+      </td>
+      <td>EP-003</td>
+    </tr>
+    <tr>
+      <td>TS-022</td>
+      <td>Generar reporte para un usuario</td>
+      <td>Como developer, quiero generar un reporte para un usuario para asegurarme de que la generación del reporte es exitosa y los datos son correctos.</td>
+      <td>
+        <b>Escenario 1: Generación exitosa del reporte</b><br>
+        Given que el usuario tiene los datos necesarios para generar un reporte,<br>
+        When se realiza la solicitud POST para generar el reporte,<br>
+        Then el reporte debe ser generado correctamente y devolver una confirmación con los detalles del reporte.<br><br>
+        <b>Escenario 2: Datos inválidos para generar reporte</b><br>
+        Given que los datos para generar el reporte son inválidos o incompletos,<br>
+        When se realiza la solicitud POST con los datos incorrectos,<br>
+        Then la respuesta debe ser un error 400 indicando que los datos para generar el reporte son inválidos.
+      </td>
+      <td>EP-004</td>
+    </tr>
+    <tr>
+      <td>TS-023</td>
+      <td>Obtener reportes de un usuario</td>
+      <td>Como developer, quiero obtener todos los reportes generados para un usuario para verificar que la API devuelve correctamente los reportes asociados al usuario.</td>
+      <td>
+        <b>Escenario 1: Usuario con reportes</b><br>
+        Given que el usuario tiene reportes generados,<br>
+        When se realiza la solicitud GET para obtener los reportes del usuario,<br>
+        Then se deben devolver todos los reportes asociados al usuario.<br><br>
+        <b>Escenario 2: Usuario sin reportes</b><br>
+        Given que el usuario no tiene reportes generados,<br>
+        When se realiza la solicitud GET para obtener los reportes del usuario,<br>
+        Then la respuesta debe ser un array vacío indicando que no hay reportes.
+      </td>
+      <td>EP-004</td>
+    </tr>
+<tr>
+      <td>TS-024</td>
+      <td>Actualizar estado de solicitud</td>
+      <td>Como developer, quiero actualizar el estado de una solicitud para reflejar correctamente su estado actual.</td>
+      <td>
+        <b>Escenario 1: Actualización exitosa del estado</b><br>
+        Given que la solicitud existe y el estado es válido,<br>
+        When se realiza la solicitud PUT para actualizar el estado de la solicitud,<br>
+        Then el estado de la solicitud debe ser actualizado correctamente y la respuesta debe devolver la confirmación de éxito.<br><br>
+        <b>Escenario 2: Estado inválido</b><br>
+        Given que el estado proporcionado no es válido,<br>
+        When se realiza la solicitud PUT con el estado incorrecto,<br>
+        Then la respuesta debe ser un error 400 indicando que el estado es inválido.
+      </td>
+      <td>EP-005</td>
+    </tr>
+    <tr>
+      <td>TS-025</td>
+      <td>Crear nueva solicitud</td>
+      <td>Como developer, quiero crear una nueva solicitud para asegurarme de que la solicitud se crea correctamente con los datos proporcionados.</td>
+      <td>
+        <b>Escenario 1: Creación exitosa de solicitud</b><br>
+        Given que los datos de la solicitud son válidos,<br>
+        When se realiza la solicitud POST para crear la nueva solicitud,<br>
+        Then la solicitud debe ser creada correctamente y la respuesta debe devolver los detalles de la solicitud recién creada.<br><br>
+        <b>Escenario 2: Datos inválidos</b><br>
+        Given que los datos de la solicitud son incompletos o incorrectos,<br>
+        When se realiza la solicitud POST con los datos incorrectos,<br>
+        Then la respuesta debe ser un error 400 indicando que los datos son inválidos.
+      </td>
+      <td>EP-005</td>
+    </tr>
+    <tr>
+      <td>TS-026</td>
+      <td>Obtener solicitud por ID</td>
+      <td>Como developer, quiero obtener una solicitud por su ID para verificar que la API devuelve la solicitud correcta con los detalles asociados.</td>
+      <td>
+        <b>Escenario 1: Solicitud existente</b><br>
+        Given que la solicitud con el ID proporcionado existe,<br>
+        When se realiza la solicitud GET para obtener los detalles de la solicitud,<br>
+        Then se deben devolver correctamente los detalles de la solicitud asociada al ID proporcionado.<br><br>
+        <b>Escenario 2: Solicitud no encontrada</b><br>
+        Given que la solicitud con el ID proporcionado no existe,<br>
+        When se realiza la solicitud GET para obtener los detalles de la solicitud,<br>
+        Then la respuesta debe ser un error 404 indicando que la solicitud no se encuentra.
+      </td>
+      <td>EP-005</td>
+    </tr>
+<tbody>
 </table>
 
 ### 3.3. Impact Mapping
@@ -2496,64 +2376,75 @@ En esta sección, se presenta el mapa de empatía, que nos ayudará a comprender
 
 ### 3.4. Product Backlog
 
-<body>
-    <table>
-        <thead>
-            <tr>
-                <th>Prioridad</th>
-                <th>Story ID</th>
-                <th>Título</th>
-                <th>Descripción</th>
-                <th>SP</th>
-            </tr>
-        </thead>
-          <tbody>
-            <tr><td>1</td><td>US-001</td><td>Selección de los miembros del grupo</td><td>Como líder de grupo, deseo poder seleccionar los miembros...</td><td>5</td></tr>
-            <tr><td>2</td><td>US-003</td><td>Creación del grupo</td><td>Como líder de grupo, deseo poder definir grupo junto con su objetivo...</td><td>5</td></tr>
-            <tr><td>3</td><td>US-007</td><td>Asignación de tareas a los miembros</td><td>Como líder de grupo, deseo asignar tareas a miembros...</td><td>5</td></tr>
-            <tr><td>4</td><td>US-004</td><td>Página de inicio personalizada con tareas y horarios</td><td>Como miembro del equipo, deseo tener una página de inicio...</td><td>5</td></tr>
-            <tr><td>5</td><td>US-005</td><td>Asignación de niveles de prioridad</td><td>Como líder de grupo, deseo poder asignar tareas con niveles de prioridad...</td><td>3</td></tr>
-            <tr><td>6</td><td>US-006</td><td>Notificaciones automáticas sobre tareas y fechas clave</td><td>Como miembro del equipo, deseo recibir notificaciones automáticas...</td><td>3</td></tr>
-            <tr><td>7</td><td>US-009</td><td>Visualización del tablero de tareas</td><td>Como líder de grupo, deseo tener un tablero visual en tiempo real...</td><td>3</td></tr>
-            <tr><td>8</td><td>US-013</td><td>Dashboard de progreso grupal</td><td>Como líder, deseo ver un panel con el avance de objetivos...</td><td>3</td></tr>
-            <tr><td>9</td><td>US-022</td><td>Visualización de tareas grupales</td><td>Como miembro de un equipo en SynHub, deseo acceder a una vista consolidada...</td><td>3</td></tr>
-            <tr><td>10</td><td>US-002</td><td>Visualización de integrantes y líder</td><td>Como miembro de grupo, deseo poder visualizar los integrantes de mi grupo...</td><td>3</td></tr>
-            <tr><td>11</td><td>US-010</td><td>Edición de tareas</td><td>Como miembro del equipo, deseo poder editar las tareas asignadas...</td><td>3</td></tr>
-            <tr><td>12</td><td>US-011</td><td>Eliminación de tareas</td><td>Como líder de grupo, deseo poder eliminar tareas obsoletas o incorrectas...</td><td>3</td></tr>
-            <tr><td>13</td><td>US-012</td><td>Filtro de tareas por prioridad y fecha</td><td>Como miembro del equipo, deseo filtrar tareas por prioridad o fecha límite...</td><td>3</td></tr>
-            <tr><td>14</td><td>US-014</td><td>Comentarios en tareas</td><td>Como miembro del grupo, deseo poder dejar comentarios en tareas específicas...</td><td>3</td></tr>
-            <tr><td>15</td><td>US-015</td><td>Historial de cambios en tareas</td><td>Como líder, deseo ver el historial de cambios en las tareas...</td><td>3</td></tr>
-            <tr><td>16</td><td>US-016</td><td>Asignación múltiple de tareas</td><td>Como líder de grupo, deseo poder asignar una tarea a varios miembros...</td><td>3</td></tr>
-            <tr><td>17</td><td>US-017</td><td>Buscador de tareas</td><td>Como miembro, deseo buscar tareas por palabra clave...</td><td>3</td></tr>
-            <tr><td>18</td><td>US-018</td><td>Visualización por calendario</td><td>Como miembro, deseo ver las tareas en una vista de calendario...</td><td>3</td></tr>
-            <tr><td>19</td><td>US-019</td><td>Exportar tareas a PDF</td><td>Como miembro, deseo exportar mis tareas a un archivo PDF...</td><td>2</td></tr>
-            <tr><td>20</td><td>US-020</td><td>Integración con Google Calendar</td><td>Como miembro, deseo integrar mis tareas con Google Calendar...</td><td>2</td></tr>
-            <tr><td>21</td><td>US-021</td><td>Recordatorios por correo</td><td>Como miembro, deseo recibir recordatorios por correo...</td><td>2</td></tr>
-            <tr><td>22</td><td>US-023</td><td>Reordenar tareas manualmente</td><td>Como usuario, deseo arrastrar y soltar tareas para reorganizarlas manualmente...</td><td>2</td></tr>
-            <tr><td>23</td><td>US-024</td><td>Colores por estado</td><td>Como usuario, deseo que las tareas cambien de color según su estado...</td><td>2</td></tr>
-            <tr><td>24</td><td>US-025</td><td>Perfil de usuario</td><td>Como usuario, deseo tener un perfil donde pueda cambiar mi foto, nombre y rol...</td><td>2</td></tr>
-            <tr><td>25</td><td>US-026</td><td>Roles de usuario</td><td>Como administrador, deseo poder asignar roles a los usuarios...</td><td>2</td></tr>
-            <tr><td>26</td><td>US-027</td><td>Confirmación de lectura</td><td>Como líder, deseo saber quién ha visto una tarea asignada...</td><td>2</td></tr>
-            <tr><td>27</td><td>US-028</td><td>Reasignar tareas</td><td>Como líder, deseo poder reasignar tareas de un miembro a otro...</td><td>2</td></tr>
-            <tr><td>28</td><td>US-029</td><td>Chat grupal</td><td>Como usuario, deseo tener un chat para comunicarme con mi grupo...</td><td>2</td></tr>
-            <tr><td>29</td><td>US-030</td><td>Reacciones en comentarios</td><td>Como usuario, deseo poder reaccionar a comentarios con emojis...</td><td>2</td></tr>
-            <tr><td>30</td><td>US-031</td><td>Soporte técnico</td><td>Como usuario, deseo contactar al soporte técnico desde la plataforma...</td><td>2</td></tr>
-            <tr><td>31</td><td>US-032</td><td>Indicador de actividad</td><td>Como líder, deseo ver quién está activo en la plataforma...</td><td>2</td></tr>
-            <tr><td>32</td><td>US-033</td><td>Recuperación de contraseña</td><td>Como usuario, deseo poder recuperar mi contraseña si la olvido...</td><td>2</td></tr>
-            <tr><td>33</td><td>US-034</td><td>Confirmación al eliminar tarea</td><td>Como usuario, deseo recibir una alerta de confirmación antes de eliminar una tarea...</td><td>1</td></tr>
-            <tr><td>34</td><td>US-035</td><td>Instrucciones de uso</td><td>Como nuevo usuario, deseo acceder a un tutorial o guía rápida...</td><td>1</td></tr>
-            <tr><td>35</td><td>US-036</td><td>Modo oscuro</td><td>Como usuario, deseo activar un modo oscuro...</td><td>1</td></tr>
-            <tr><td>36</td><td>US-037</td><td>Estadísticas de uso</td><td>Como administrador, deseo ver estadísticas generales del uso de la plataforma...</td><td>1</td></tr>
-            <tr><td>37</td><td>US-038</td><td>Control de versiones</td><td>Como desarrollador, deseo mantener un control de versiones del sistema...</td><td>1</td></tr>
-            <tr><td>38</td><td>US-039</td><td>Soporte móvil</td><td>Como usuario, deseo acceder desde mi celular sin perder funcionalidad...</td><td>1</td></tr>
-            <tr><td>39</td><td>US-040</td><td>Etiquetas personalizadas</td><td>Como usuario, deseo agregar etiquetas personalizadas a mis tareas...</td><td>1</td></tr>
-            <tr><td>40</td><td>US-041</td><td>Integración con herramientas externas</td><td>Como usuario avanzado, deseo integrar la plataforma con otras herramientas...</td><td>1</td></tr>
-            <tr><td>41</td><td>US-008</td><td>Asignación de fechas límite</td><td>Como líder de grupo, deseo establecer fechas límite en las tareas...</td><td>3</td></tr>
-            <tr><td>40</td><td>US-042</td><td>Ajuste de disponibilidad temporal</td><td>Como miembro, deseo poder ajustar mi disponibilidad estimada para un día específico...</td><td>1</td></tr>
-            <tr><td>40</td><td>US-043</td><td>Notificación de ajuste de disponibilidad significativo</td><td>Como líder, deseo recibir notificaciones automáticas cuando un miembro actualiza...</td><td>2</td></tr>
-        </tbody>
-    </table>
-</body>
+<table>
+  <thead>
+    <tr>
+      <th>Prioridad</th>
+      <th>Story ID</th>
+      <th>Título</th>
+      <th>Descripción</th>
+      <th>SP</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>US-001</td><td>Creación de grupo</td><td>Como líder, quiero crear grupos para organizar el trabajo de mi equipo.</td><td>5</td></tr>
+    <tr><td>1</td><td>US-002</td><td>Envío de invitaciones</td><td>Como líder, quiero invitar miembros a mi grupo para conformar el equipo.</td><td>5</td></tr>
+    <tr><td>1</td><td>US-004</td><td>Creación de tareas</td><td>Como líder, quiero crear tareas para asignar trabajo a los miembros.</td><td>5</td></tr>
+    <tr><td>1</td><td>US-005</td><td>Asignación de tareas</td><td>Como líder, quiero asignar tareas a miembros específicos para distribuir el trabajo.</td><td>5</td></tr>
+    <tr><td>1</td><td>US-007</td><td>Actualización de estado</td><td>Como miembro, quiero actualizar el estado de mis tareas para reflejar mi progreso.</td><td>3</td></tr>
+    <tr><td>1</td><td>TS-003</td><td>Registrar un nuevo grupo</td><td>Como developer, quiero registrar un nuevo grupo para asegurarme de que el grupo se crea correctamente en el sistema.</td><td>5</td></tr>
+    <tr><td>1</td><td>TS-004</td><td>Agregar un miembro a un grupo</td><td>Como developer, quiero agregar un miembro a un grupo para asegurarme de que el miembro se asocia correctamente al grupo.</td><td>5</td></tr>
+    <tr><td>1</td><td>TS-008</td><td>Crear una nueva tarea para un miembro</td><td>Como developer, quiero crear una nueva tarea para un miembro para asegurarme de que la tarea se asigna correctamente.</td><td>5</td></tr>
+    <tr><td>1</td><td>TS-010</td><td>Crear un nuevo miembro</td><td>Como developer, quiero crear un nuevo miembro para asegurarme de que el miembro se registra correctamente en el sistema.</td><td>5</td></tr>
+    <tr><td>1</td><td>TS-013</td><td>Actualizar tarea</td><td>Como developer, quiero actualizar una tarea para asegurarme de que la tarea se modifica correctamente en el sistema.</td><td>5</td></tr>
+    <tr><td>1</td><td>TS-025</td><td>Crear nueva solicitud</td><td>Como developer, quiero crear una nueva solicitud para asegurarme de que la solicitud se crea correctamente con los datos proporcionados.</td><td>5</td></tr>
+    <tr><td>2</td><td>US-016</td><td>Solicitud de aprobación de tarea</td><td>Como miembro, quiero enviar tareas completadas para validación del líder.</td><td>3</td></tr>
+    <tr><td>2</td><td>US-017</td><td>Validación de tareas</td><td>Como líder, quiero aprobar o rechazar tareas completadas para asegurar calidad.</td><td>3</td></tr>
+    <tr><td>2</td><td>US-021</td><td>Visualización de miembros del grupo</td><td>Como líder, quiero ver la lista de miembros de mi grupo para gestionar la colaboración.</td><td>3</td></tr>
+    <tr><td>2</td><td>US-023</td><td>Visualización de tareas asignadas</td><td>Como miembro, quiero ver las tareas que me han sido asignadas para gestionar mi trabajo.</td><td>3</td></tr>
+    <tr><td>2</td><td>TS-001</td><td>Obtener un grupo por ID</td><td>Como developer, quiero obtener un grupo por su ID para verificar que la API devuelve los detalles correctos del grupo.</td><td>3</td></tr>
+    <tr><td>2</td><td>TS-002</td><td>Obtener todos los grupos de un usuario</td><td>Como developer, quiero obtener todos los grupos a los que pertenece un usuario para confirmar que la API devuelve todos los grupos correctamente.</td><td>3</td></tr>
+    <tr><td>2</td><td>TS-005</td><td>Actualizar un grupo</td><td>Como developer, quiero actualizar los detalles de un grupo para asegurarme de que la modificación se realice correctamente.</td><td>3</td></tr>
+    <tr><td>2</td><td>TS-006</td><td>Eliminar un grupo</td><td>Como developer, quiero eliminar un grupo para asegurarme de que el grupo se elimina correctamente del sistema.</td><td>3</td></tr>
+    <tr><td>2</td><td>TS-007</td><td>Obtener todas las tareas por miembro</td><td>Como developer, quiero obtener todas las tareas asociadas a un miembro para verificar que la API devuelve correctamente las tareas asignadas.</td><td>3</td></tr>
+    <tr><td>2</td><td>TS-009</td><td>Obtener todos los miembros</td><td>Como developer, quiero obtener todos los miembros para verificar que la API devuelve la lista completa de miembros registrados.</td><td>2</td></tr>
+    <tr><td>2</td><td>TS-011</td><td>Obtener un miembro por ID</td><td>Como developer, quiero obtener los detalles de un miembro por su ID para verificar que la API devuelve correctamente la información del miembro.</td><td>2</td></tr>
+    <tr><td>2</td><td>TS-012</td><td>Obtener tarea por ID</td><td>Como developer, quiero obtener los detalles de una tarea por su ID para verificar que la API devuelve la información correcta de la tarea.</td><td>3</td></tr>
+    <tr><td>2</td><td>TS-014</td><td>Eliminar tarea</td><td>Como developer, quiero eliminar una tarea para asegurarme de que la tarea se elimina correctamente del sistema.</td><td>2</td></tr>
+    <tr><td>2</td><td>TS-015</td><td>Actualizar estado de tarea</td><td>Como developer, quiero actualizar el estado de una tarea para asegurarme de que el estado se modifica correctamente en el sistema.</td><td>3</td></tr>
+    <tr><td>2</td><td>TS-016</td><td>Obtener todas las tareas</td><td>Como developer, quiero obtener todas las tareas para verificar que la API devuelve todas las tareas correctamente.</td><td>2</td></tr>
+    <tr><td>2</td><td>TS-024</td><td>Actualizar estado de solicitud</td><td>Como developer, quiero actualizar el estado de una solicitud para reflejar correctamente su estado actual.</td><td>3</td></tr>
+    <tr><td>2</td><td>TS-026</td><td>Obtener solicitud por ID</td><td>Como developer, quiero obtener una solicitud por su ID para verificar que la API devuelve la solicitud correcta con los detalles asociados.</td><td>2</td></tr>
+    <tr><td>3</td><td>US-003</td><td>Eliminación de grupo</td><td>Como líder, quiero eliminar grupos inactivos para mantener la organización.</td><td>2</td></tr>
+    <tr><td>3</td><td>US-006</td><td>Eliminación de tareas</td><td>Como líder, quiero eliminar tareas incorrectas o duplicadas.</td><td>2</td></tr>
+    <tr><td>3</td><td>US-008</td><td>Reprogramación de tareas</td><td>Como líder, quiero cambiar fechas límite cuando surgen imprevistos.</td><td>2</td></tr>
+    <tr><td>3</td><td>US-009</td><td>Notificaciones in-app</td><td>Como miembro, quiero recibir notificaciones en la plataforma para estar informado.</td><td>3</td></tr>
+    <tr><td>3</td><td>US-012</td><td>Gráfico de distribución de tareas</td><td>Como líder, quiero ver un gráfico pastel con la distribución de tareas por miembro.</td><td>3</td></tr>
+    <tr><td>3</td><td>US-013</td><td>Gráfico de estados de tareas</td><td>Como líder, quiero ver un gráfico de barras con el estado de todas las tareas del grupo.</td><td>3</td></tr>
+    <tr><td>3</td><td>US-018</td><td>Solicitud de extensión de plazo</td><td>Como miembro, quiero pedir más tiempo para una tarea cuando surgen impedimentos.</td><td>2</td></tr>
+    <tr><td>3</td><td>US-022</td><td>Edición de información del grupo</td><td>Como líder, quiero editar la información de mi grupo para mantenerla actualizada.</td><td>2</td></tr>
+    <tr><td>3</td><td>US-024</td><td>Comentario en tareas</td><td>Como miembro, quiero comentar en las tareas para comunicarme con el líder sobre el progreso.</td><td>2</td></tr>
+    <tr><td>3</td><td>TS-017</td><td>Obtener tareas por estado</td><td>Como developer, quiero obtener todas las tareas filtradas por estado para verificar que la API devuelve correctamente las tareas según su estado.</td><td>2</td></tr>
+    <tr><td>3</td><td>TS-018</td><td>Enviar notificación</td><td>Como developer, quiero enviar una notificación para asegurarme de que la notificación se envía correctamente al usuario.</td><td>3</td></tr>
+    <tr><td>3</td><td>TS-019</td><td>Marcar notificación como leída</td><td>Como developer, quiero marcar una notificación como leída para asegurarme de que el estado de la notificación se actualiza correctamente.</td><td>2</td></tr>
+    <tr><td>3</td><td>TS-020</td><td>Obtener notificaciones de usuario</td><td>Como developer, quiero obtener todas las notificaciones de un usuario para verificar que la API devuelve correctamente las notificaciones asociadas a un usuario.</td><td>2</td></tr>
+    <tr><td>3</td><td>TS-022</td><td>Generar reporte para un usuario</td><td>Como developer, quiero generar un reporte para un usuario para asegurarme de que la generación del reporte es exitosa y los datos son correctos.</td><td>5</td></tr>
+    <tr><td>4</td><td>US-010</td><td>Notificaciones por email</td><td>Como miembro, quiero recibir notificaciones por email cuando no esté activo en la plataforma.</td><td>2</td></tr>
+    <tr><td>4</td><td>US-011</td><td>Preferencias de notificación</td><td>Como miembro, quiero configurar qué notificaciones recibo para gestionar mi atención.</td><td>1</td></tr>
+    <tr><td>4</td><td>US-014</td><td>Reporte de reprogramaciones</td><td>Como líder, quiero ver un gráfico de líneas con la cantidad de tareas reprogramadas por semana.</td><td>2</td></tr>
+    <tr><td>4</td><td>US-015</td><td>Reporte de productividad individual</td><td>Como líder, quiero evaluar el desempeño de cada miembro a través de métricas claras.</td><td>2</td></tr>
+    <tr><td>4</td><td>US-019</td><td>Histórico de validaciones</td><td>Como líder, quiero ver el historial de aprobaciones/rechazos para identificar patrones.</td><td>2</td></tr>
+    <tr><td>4</td><td>US-020</td><td>Notificaciones de cambio de estado</td><td>Como miembro, quiero recibir alertas cuando mis solicitudes cambian de estado.</td><td>2</td></tr>
+    <tr><td>4</td><td>US-025</td><td>Configuración de preferencias de notificación</td><td>Como usuario, quiero configurar mis preferencias de notificación para recibir solo las alertas relevantes.</td><td>1</td></tr>
+    <tr><td>4</td><td>US-026</td><td>Resumen semanal de actividad</td><td>Como miembro, quiero recibir un resumen semanal de mi actividad para revisar mi desempeño.</td><td>1</td></tr>
+    <tr><td>4</td><td>US-027</td><td>Visualización de carga de trabajo por miembro</td><td>Como líder, quiero ver la carga de trabajo de cada miembro para equilibrar las asignaciones.</td><td>1</td></tr>
+    <tr><td>4</td><td>US-028</td><td>Reporte de cumplimiento de plazos</td><td>Como líder, quiero ver un reporte de cumplimiento de plazos para evaluar la eficiencia del equipo.</td><td>1</td></tr>
+    <tr><td>4</td><td>US-029</td><td>Revisión de comentarios en tareas</td><td>Como líder, quiero revisar los comentarios en las tareas para proporcionar retroalimentación oportuna.</td><td>1</td></tr>
+    <tr><td>4</td><td>US-030</td><td>Confirmación antes de eliminar una tarea</td><td>Como líder, quiero recibir una confirmación antes de eliminar una tarea para evitar borrados accidentales.</td><td>1</td></tr>
+    <tr><td>4</td><td>TS-021</td><td>Obtener notificaciones no leídas de usuario</td><td>Como developer, quiero obtener todas las notificaciones no leídas de un usuario para verificar que la API devuelve correctamente las notificaciones no leídas.</td><td>1</td></tr>
+    <tr><td>4</td><td>TS-023</td><td>Obtener reportes de un usuario</td><td>Como developer, quiero obtener todos los reportes generados para un usuario para verificar que la API devuelve correctamente los reportes asociados al usuario.</td><td>1</td></tr>
+  </tbody>
+</table>
 
 ## Capítulo IV: Solution Software Design
 
@@ -2736,89 +2627,2521 @@ La arquitectura del sistema se estructura en tres niveles: el Context Diagram de
 
 El Context Diagram muestra a SynHub (el sistema central) interactuando con sus usuarios principales —el Miembro y el Líder— quienes utilizan la aplicación para gestionar actividades, mientras que SynHub se integra con Google Calendar para sincronizar eventos externos. Este diagrama enfatiza las relaciones externas del sistema, sin detallar componentes internos, destacando cómo los actores clave (usuarios y servicios externos) se conectan con la plataforma principal para intercambiar información.
 
-<img src="images/chapter-4/contextDiagram.png" alt="Context Diagram" width="600"/>
+<img src="images/chapter-4/contextdiagram.png" alt="Context Diagram" width="600"/>
 
 ##### 4.1.3.2. Software Architecture Container Level Diagrams
 
 El Container Diagram describe la arquitectura del sistema, donde los usuarios (Miembro y Líder) interactúan con la Landing Page (web) y la Mobile App, las cuales se conectan a una API REST (backend) que gestiona la lógica de negocio. Esta API se comunica con una base de datos PostgreSQL para almacenar datos y con Google Calendar (mediante su API) para sincronizar eventos. Cada componente (frontend, backend, base de datos y servicio externo) opera en contenedores o entornos independientes, conectados a través de APIs RESTful (HTTPS/JSON) y protocolos como JDBC (PostgreSQL) y OAuth 2.0 (Google).
 
-<img src="images/chapter-4/containerDiagram.png" alt="Container Diagram" width="600"/>
+<img src="images/chapter-4/containerdiagram.png" alt="Container Diagram" width="600"/>
 
 ##### 4.1.3.3. Software Architecture Deployment Diagrams
 
 El diagrama de despliegue representa un sistema donde una aplicación móvil se comunica con una API REST mediante HTTP/HTTPS; esta API gestiona la lógica de negocio, interactúa con una base de datos PostgreSQL para almacenar datos y se integra con Google Calendar a través de su API  para sincronizar eventos. Los componentes clave incluyen: la app (frontend), el servidor de la API (backend), la base de datos (almacenamiento) y el servicio externo de Google , conectados mediante protocolos como RESTful APIs (JSON).
 
-<img src="images/chapter-4/deploymentDiagram.png" alt="Deployment Diagram" width="600"/>
+<img src="images/chapter-4/deploymentdiagram.png" alt="Deployment Diagram" width="600"/>
 
 ### 4.2. Tactical-Level Domain-Driven Design
 
-#### 4.2.1. Bounded Context:
+#### 4.2.1. Bounded Context: Analítica y Reportes
 
 ##### 4.2.1.1. Domain Layer
 
+<p>En el Domain Layer del contexto de <strong>Analítica y Reportes</strong>, los agregados principales son <code>ActivityLog</code>, <code>Report</code> y <code>Metric</code>. Estos representan los componentes clave del sistema de análisis de comportamiento y productividad dentro de grupos colaborativos en la plataforma SynHub.</p>
+
+<p>Los registros de actividad (<code>ActivityLog</code>) permiten capturar eventos relevantes generados por los usuarios durante el uso del sistema (como completar tareas, integrarse a un grupo o modificar horarios). Con base en estos registros, los reportes (<code>Report</code>) se generan para ofrecer métricas de uso, rendimiento y participación. Las métricas (<code>Metric</code>) encapsulan información cuantitativa puntual que puede ser evaluada y comparada a lo largo del tiempo.</p>
+
+<h3>Justificación:</h3>
+<p>Este enfoque permite encapsular de manera clara los datos recolectados y procesados en estructuras especializadas, garantizando una separación de responsabilidades entre la recolección (logs), el análisis (reportes) y la medición (métricas). Así se facilita el seguimiento de indicadores clave y se apoya la toma de decisiones basada en datos.</p>
+
+<hr>
+
+<h3>Aggregate: <code>ActivityLog</code></h3>
+<p><strong>Descripción:</strong> Representa un registro de actividad generado por un usuario en el sistema.</p>
+
+<table>
+  <thead>
+    <tr><th>Atributos</th><th>Tipo de dato</th><th>Visibilidad</th><th>Descripción</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>id</td><td>Long</td><td>Private</td><td>Identificador único del log.</td></tr>
+    <tr><td>userId</td><td>Long</td><td>Private</td><td>ID del usuario que generó la actividad.</td></tr>
+    <tr><td>actionType</td><td>String</td><td>Private</td><td>Tipo de acción realizada (ej. "task_completed", "group_joined").</td></tr>
+    <tr><td>timestamp</td><td>LocalDateTime</td><td>Private</td><td>Fecha y hora de la acción.</td></tr>
+    <tr><td>metadata</td><td>String</td><td>Private</td><td>Información adicional contextual (ej. ID de tarea, grupo, etc).</td></tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr><th>Métodos</th><th>Tipo de retorno</th><th>Visibilidad</th><th>Descripción</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>createLog()</td><td>void</td><td>Public</td><td>Crea un nuevo registro de actividad.</td></tr>
+    <tr><td>getSummary()</td><td>String</td><td>Public</td><td>Devuelve un resumen legible del log.</td></tr>
+  </tbody>
+</table>
+
+<hr>
+
+<h3>Aggregate: <code>Report</code></h3>
+<p><strong>Descripción:</strong> Representa un informe generado a partir de múltiples registros de actividad.</p>
+
+<table>
+  <thead>
+    <tr><th>Atributos</th><th>Tipo de dato</th><th>Visibilidad</th><th>Descripción</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>id</td><td>Long</td><td>Private</td><td>Identificador único del reporte.</td></tr>
+    <tr><td>name</td><td>String</td><td>Private</td><td>Nombre o título del reporte.</td></tr>
+    <tr><td>generatedAt</td><td>LocalDateTime</td><td>Private</td><td>Fecha y hora de generación del reporte.</td></tr>
+    <tr><td>data</td><td>List<Metric></td><td>Private</td><td>Lista de métricas que componen el reporte.</td></tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr><th>Métodos</th><th>Tipo de retorno</th><th>Visibilidad</th><th>Descripción</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>generateFromLogs()</td><td>void</td><td>Public</td><td>Genera el reporte a partir de logs.</td></tr>
+  </tbody>
+</table>
+
+<hr>
+
+<h3>Value Object: <code>Metric</code></h3>
+<p><strong>Descripción:</strong> Representa una métrica cuantitativa específica del comportamiento o rendimiento del usuario/grupo.</p>
+
+<table>
+  <thead>
+    <tr><th>Atributos</th><th>Tipo de dato</th><th>Visibilidad</th><th>Descripción</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>name</td><td>String</td><td>Private</td><td>Nombre de la métrica (ej. "Tareas completadas").</td></tr>
+    <tr><td>value</td><td>Double</td><td>Private</td><td>Valor numérico de la métrica.</td></tr>
+    <tr><td>context</td><td>String</td><td>Private</td><td>Contexto asociado (ej. ID de grupo, período de tiempo).</td></tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr><th>Métodos</th><th>Tipo de retorno</th><th>Visibilidad</th><th>Descripción</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>calculate()</td><td>Double</td><td>Public</td><td>Calcula o actualiza el valor de la métrica.</td></tr>
+    <tr><td>toString()</td><td>String</td><td>Public</td><td>Devuelve la métrica en formato legible.</td></tr>
+  </tbody>
+</table>
+
 ##### 4.2.1.2. Interface Layer
+
+<p>El Interface Layer para el contexto de <strong>Analítica y Reportes</strong> está conformado por el <code>ReportController</code>, que expone las operaciones necesarias para que los usuarios puedan visualizar, generar y exportar reportes a partir de los registros de actividad del sistema. Este controlador representa el punto de entrada para las funcionalidades clave relacionadas a métricas de uso y productividad, tanto a nivel individual como grupal.</p>
+
+<h3>Justificación:</h3>
+<p>El Interface Layer es fundamental para desacoplar la lógica de presentación de la lógica de negocio. Al utilizar un controlador especializado, se mantiene una separación clara entre las solicitudes de la interfaz de usuario (UI) y las operaciones internas de generación de reportes, cálculos de métricas y exportación de datos. Esto permite una mejor escalabilidad del sistema y facilita el mantenimiento futuro de la plataforma.</p>
+
+<hr>
+
+<h3>Controller: <code>ReportController</code></h3>
+<p><strong>Descripción:</strong> Controlador para la gestión de reportes y métricas analíticas dentro de la plataforma SynHub.</p>
+
+<h4>Atributos</h4>
+<table>
+  <thead>
+    <tr><th>Tipo de dato</th><th>Nombre</th><th>Visibilidad</th><th>Descripción</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>ReportQueryService</td><td>reportQueryService</td><td>Private</td><td>Servicio para consultas de reportes existentes.</td></tr>
+    <tr><td>ReportCommandService</td><td>reportCommandService</td><td>Private</td><td>Servicio para generar y exportar nuevos reportes.</td></tr>
+  </tbody>
+</table>
+
+<h4>Métodos</h4>
+<table>
+  <thead>
+    <tr><th>Método</th><th>Tipo de retorno</th><th>Visibilidad</th><th>Descripción</th></tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>getUserReports(userId: Long)</td>
+      <td>List<Report></td>
+      <td>Public</td>
+      <td>Obtiene todos los reportes generados por un usuario.</td>
+    </tr>
+    <tr>
+      <td>generateReport(userId: Long)</td>
+      <td>Report</td>
+      <td>Public</td>
+      <td>Genera un nuevo reporte para el usuario en base a su actividad reciente.</td>
+    </tr>
+  </tbody>
+</table>
 
 ##### 4.2.1.3. Application Layer
 
+<p>En el Application Layer del contexto de <strong>Analítica y Reportes</strong>, se definen los servicios encargados de orquestar la lógica de aplicación relacionada con la generación, recuperación y exportación de reportes, así como con el manejo de eventos relevantes del sistema.</p>
+
+<p>El <code>ReportQueryService</code> maneja la lógica de recuperación de reportes y métricas existentes, mientras que el <code>ReportCommandService</code> gestiona la generación de nuevos reportes a partir de registros de actividad. A su vez, se definen <code>Command Handlers</code> y <code>Event Handlers</code> para ejecutar operaciones específicas basadas en acciones del usuario o eventos del sistema.</p>
+
+<h3>Justificación:</h3>
+<p>Separar los flujos de consultas (queries) y comandos (commands) en servicios especializados permite mantener el sistema modular, coherente y escalable. De esta forma, se asegura que las reglas de negocio para cada operación estén centralizadas y que cualquier modificación futura no afecte otros componentes. Además, esta estructura facilita la incorporación de nuevas funcionalidades analíticas o lógicas de negocio más complejas.</p>
+
+<hr>
+
+<h3>Service: <code>ReportQueryService</code></h3>
+<p><strong>Descripción:</strong> Servicio para consultar reportes y métricas existentes.</p>
+
+<h4>Atributos</h4>
+<table>
+  <thead>
+    <tr><th>Tipo de dato</th><th>Nombre</th><th>Visibilidad</th><th>Descripción</th></tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>ReportRepository</td>
+      <td>reportRepository</td>
+      <td>Private</td>
+      <td>Repositorio que permite acceder a reportes almacenados.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h4>Métodos</h4>
+<table>
+  <thead>
+    <tr><th>Método</th><th>Tipo de retorno</th><th>Visibilidad</th><th>Descripción</th></tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>existsById(reportId: Long)</td>
+      <td>Boolean</td>
+      <td>Public</td>
+      <td>Verifica si un reporte existe por su ID.</td>
+    </tr>
+    <tr>
+      <td>findByUserId(userId: Long)</td>
+      <td>List<Report></td>
+      <td>Public</td>
+      <td>Devuelve los reportes asociados a un usuario.</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr>
+
+<h3>Service: <code>ReportCommandService</code></h3>
+<p><strong>Descripción:</strong> Servicio encargado de generar, construir y exportar reportes desde registros de actividad.</p>
+
+<h4>Atributos</h4>
+<table>
+  <thead>
+    <tr><th>Tipo de dato</th><th>Nombre</th><th>Visibilidad</th><th>Descripción</th></tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>ActivityLogRepository</td>
+      <td>activityLogRepository</td>
+      <td>Private</td>
+      <td>Repositorio de logs de actividad.</td>
+    </tr>
+    <tr>
+      <td>ReportFactory</td>
+      <td>reportFactory</td>
+      <td>Private</td>
+      <td>Fábrica para la creación de nuevos reportes.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h4>Métodos</h4>
+<table>
+  <thead>
+    <tr><th>Método</th><th>Tipo de retorno</th><th>Visibilidad</th><th>Descripción</th></tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>generateReport(userId: Long)</td>
+      <td>Report</td>
+      <td>Public</td>
+      <td>Genera un reporte basado en las actividades recientes del usuario.</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr>
+
+<h3>Command Handlers</h3>
+
+<ul>
+  <li><strong>GenerateReportCommandHandler:</strong> Invocado cuando el usuario solicita la creación de un nuevo reporte. Ejecuta la lógica de <code>ReportCommandService.generateReport()</code>.</li>
+</ul>
+
+<h3>Event Handlers</h3>
+
+<ul>
+  <li><strong>TaskCompletedEventHandler:</strong> Registra un nuevo <code>ActivityLog</code> cuando se completa una tarea.</li>
+  <li><strong>GroupJoinedEventHandler:</strong> Registra actividad cuando un usuario se une a un grupo.</li>
+</ul>
+
 ##### 4.2.1.4. Infrastructure Layer
+
+<p>En el <strong>Infrastructure Layer</strong> del contexto de <strong>Analítica y Reportes</strong>, se encuentran las clases responsables de interactuar con la base de datos y servicios externos necesarios para la persistencia y recuperación de información clave, como los registros de actividad y los reportes generados. Este layer implementa las interfaces definidas en el <em>Domain Layer</em> para los repositorios de <code>ActivityLog</code> y <code>Report</code>.</p>
+
+<h3>Justificación:</h3>
+<p>El uso de repositorios implementados en esta capa permite desacoplar la lógica de negocio de los detalles técnicos de acceso a datos. De este modo, cualquier cambio en la tecnología de almacenamiento o proveedor de servicios externos (por ejemplo, base de datos SQL vs NoSQL, o cambio de servicio de exportación) no afectará la lógica central del sistema. Esto asegura una arquitectura flexible, mantenible y alineada con principios de separación de responsabilidades.</p>
+
+<hr>
+
+<h3>Repository: <code>ActivityLogRepositoryImpl</code></h3>
+<p><strong>Descripción:</strong> Repositorio que implementa la persistencia de registros de actividad de los usuarios.</p>
+
+<table>
+  <thead>
+    <tr><th>Método</th><th>Tipo de retorno</th><th>Visibilidad</th><th>Descripción</th></tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>findByUserId(userId: Long)</td>
+      <td>List<ActivityLog></td>
+      <td>Public</td>
+      <td>Obtiene los registros de actividad de un usuario.</td>
+    </tr>
+    <tr>
+      <td>save(log: ActivityLog)</td>
+      <td>void</td>
+      <td>Public</td>
+      <td>Guarda un nuevo registro de actividad.</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr>
+
+<h3>Repository: <code>ReportRepositoryImpl</code></h3>
+<p><strong>Descripción:</strong> Repositorio que permite almacenar y recuperar reportes generados por los usuarios.</p>
+
+<table>
+  <thead>
+    <tr><th>Método</th><th>Tipo de retorno</th><th>Visibilidad</th><th>Descripción</th></tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>findById(reportId: Long)</td>
+      <td>Report</td>
+      <td>Public</td>
+      <td>Obtiene un reporte por su identificador único.</td>
+    </tr>
+    <tr>
+      <td>findByUserId(userId: Long)</td>
+      <td>List<Report></td>
+      <td>Public</td>
+      <td>Obtiene todos los reportes asociados a un usuario.</td>
+    </tr>
+    <tr>
+      <td>save(report: Report)</td>
+      <td>void</td>
+      <td>Public</td>
+      <td>Guarda un nuevo reporte en la base de datos.</td>
+    </tr>
+  </tbody>
+</table>
 
 ##### 4.2.1.5. Bounded Context Software Architecture Component Level Diagrams
 
+<p>Este diagrama de componentes representa un sistema monolítico que gestiona datos analíticos y reportes dentro de la plataforma SynHub. Una <strong>Single-Page Application (SPA)</strong>, implementada con Angular, interactúa con una <strong>Web API Application</strong> desarrollada en Spring Boot mediante llamadas HTTP (REST).</p>
+
+<p>La SPA realiza peticiones al <code>ReportController</code> para generar, visualizar o exportar reportes. Este controlador delega la lógica correspondiente en dos componentes principales: el <code>ReportQueryService</code> para operaciones de lectura y recuperación de datos analíticos, y el <code>ReportCommandService</code> para la generación y exportación de reportes.</p>
+
+<p>Ambos servicios se comunican con sus respectivos repositorios (<code>ActivityLogRepository</code> y <code>ReportRepository</code>) que abstraen el acceso a la base de datos. Los repositorios utilizan JPA para realizar operaciones de lectura y escritura en una base de datos relacional (MySQL).</p>
+
+<img src="images/chapter-4/structurizr4.png" alt="Bounded Context Software Architecture Component Level Diagrams"/>
+
 ##### 4.2.1.6. Bounded Context Software Architecture Code Level Diagrams
 
-###### 4.2.1.6.1. Bounded Context Domain Layer Class Diagrams
+##### 4.2.1.6.1. Bounded Context Domain Layer Class Diagrams
 
-###### 4.2.1.6.2. Bounded Context Database Design Diagram
+<p>El siguiente diagrama de clases representa el bounded context <strong>Analítica y Reportes</strong> y muestra tres agregados principales: <code>ActivityLog</code>, <code>Report</code> y <code>Metric</code>. Además, se incluye el servicio de dominio <code>ReportFactory</code> y las interfaces de repositorio <code>ActivityLogRepository</code> y <code>ReportRepository</code>.</p>
+
+<p>El agregado <code>ActivityLog</code> tiene atributos como <code>id: Long</code>, <code>userId: Long</code>, <code>actionType: String</code>, <code>timestamp: LocalDateTime</code> y <code>metadata: String</code>, y representa una acción significativa realizada por un usuario dentro del sistema. Estos logs son la fuente principal para la generación de reportes.</p>
+
+<p>El agregado <code>Report</code> está compuesto por una lista de métricas (<code>List<Metric></code>) y atributos como <code>id: Long</code>, <code>name: String</code>, <code>generatedAt: LocalDateTime</code>, y encapsula los datos procesados derivados de los logs. Posee métodos para generar reportes, así como para exportarlos en distintos formatos.</p>
+
+<p>La clase <code>Metric</code> es un objeto de valor que contiene los atributos <code>name: String</code>, <code>value: Double</code> y <code>context: String</code>. Esta clase representa datos cuantificables incluidos en los reportes, como tareas completadas o participación en reuniones.</p>
+
+<p>El servicio de dominio <code>ReportFactory</code> permite construir instancias del agregado <code>Report</code> a partir de un conjunto de <code>ActivityLog</code>, encapsulando la lógica de transformación. Además, se definen las interfaces <code>ActivityLogRepository</code> y <code>ReportRepository</code>, las cuales abstraen el acceso a los datos persistidos en la base de datos.</p>
+
+<p>Las relaciones representadas en el diagrama incluyen composición entre <code>Report</code> y <code>Metric</code> (un reporte contiene muchas métricas), y asociaciones entre los servicios y sus respectivas entidades o interfaces.</p>
+
+<img src="images/chapter-4/UML1.png" alt="Bounded Context Domain Layer Class Diagrams" />
+
+#### 4.2.2. Bounded Context: Notificaciones
+
+##### 4.2.2.1. Domain Layer
+
+<p>En el Domain Layer del contexto de <strong>Notificaciones</strong>, los agregados principales son <code>Notification</code> y <code>User</code>. Estos representan los componentes clave para la gestión de mensajes dentro de la plataforma SynHub, permitiendo alertar, informar o recordar a los usuarios sobre eventos relevantes del sistema.</p>
+
+<p>Las notificaciones (<code>Notification</code>) encapsulan toda la información necesaria para ser entregadas de manera eficiente, incluyendo su tipo, estado de lectura y contenido. Las preferencias del usuario (<code>User</code>) permiten personalizar la forma en que estas son recibidas. La lógica de negocio para el envío y validación de notificaciones se concentra en el servicio de dominio <code>NotificationService</code>.</p>
+
+<h3>Justificación:</h3>
+<p>Este enfoque permite separar claramente la lógica de creación, personalización y entrega de mensajes del resto del sistema, facilitando su reutilización y garantizando una experiencia de usuario consistente. Al utilizar un servicio de dominio, se asegura que las notificaciones se envíen conforme a las reglas definidas por el sistema y las preferencias del usuario.</p>
+
+<hr>
+
+<h3>Aggregate: <code>Notification</code></h3>
+<p><strong>Descripción:</strong> Representa una notificación generada por el sistema para un usuario específico.</p>
+
+<table>
+  <thead>
+    <tr><th>Atributos</th><th>Tipo de dato</th><th>Visibilidad</th><th>Descripción</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>id</td><td>Long</td><td>Private</td><td>Identificador único de la notificación.</td></tr>
+    <tr><td>userId</td><td>Long</td><td>Private</td><td>ID del usuario destinatario.</td></tr>
+    <tr><td>title</td><td>String</td><td>Private</td><td>Título de la notificación.</td></tr>
+    <tr><td>message</td><td>String</td><td>Private</td><td>Contenido principal del mensaje.</td></tr>
+    <tr><td>type</td><td>NotificationType</td><td>Private</td><td>Tipo de notificación (informativa, recordatorio, alerta, etc.).</td></tr>
+    <tr><td>status</td><td>String</td><td>Private</td><td>Estado de la notificación (leída/no leída).</td></tr>
+    <tr><td>timestamp</td><td>LocalDateTime</td><td>Private</td><td>Fecha y hora en la que se creó la notificación.</td></tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr><th>Métodos</th><th>Tipo de retorno</th><th>Visibilidad</th><th>Descripción</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>send()</td><td>void</td><td>Public</td><td>Inicia el envío de la notificación según el canal configurado.</td></tr>
+    <tr><td>markAsRead()</td><td>void</td><td>Public</td><td>Marca la notificación como leída por el usuario.</td></tr>
+    <tr><td>isRead()</td><td>Boolean</td><td>Public</td><td>Verifica si la notificación ya ha sido leída.</td></tr>
+  </tbody>
+</table>
+
+<hr>
+
+<h3>Aggregate: <code>User</code></h3>
+<p><strong>Descripción:</strong> Representa al usuario destinatario de las notificaciones, incluyendo sus preferencias de recepción.</p>
+
+<table>
+  <thead>
+    <tr><th>Atributos</th><th>Tipo de dato</th><th>Visibilidad</th><th>Descripción</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>id</td><td>Long</td><td>Private</td><td>Identificador único del usuario.</td></tr>
+    <tr><td>email</td><td>String</td><td>Private</td><td>Correo electrónico del usuario.</td></tr>
+    <tr><td>preferences</td><td>UserPreferences</td><td>Private</td><td>Preferencias del usuario para recibir notificaciones.</td></tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr><th>Métodos</th><th>Tipo de retorno</th><th>Visibilidad</th><th>Descripción</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>getPreferences()</td><td>UserPreferences</td><td>Public</td><td>Devuelve las preferencias de notificación del usuario.</td></tr>
+    <tr><td>updatePreferences()</td><td>void</td><td>Public</td><td>Actualiza la configuración de notificaciones del usuario.</td></tr>
+  </tbody>
+</table>
+
+<hr>
+
+<h3>Value Object: <code>NotificationType</code></h3>
+<p><strong>Descripción:</strong> Representa el tipo de notificación enviada.</p>
+
+<table>
+  <thead>
+    <tr><th>Nombre</th><th>Descripción</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>INFO</td><td>Notificación informativa general.</td></tr>
+    <tr><td>TASK</td><td>Relacionado con tareas asignadas o completadas.</td></tr>
+    <tr><td>REMINDER</td><td>Recordatorio de eventos o plazos próximos.</td></tr>
+    <tr><td>ALERT</td><td>Mensaje de advertencia o situación importante.</td></tr>
+  </tbody>
+</table>
+
+<hr>
+
+<h3>Domain Service: <code>NotificationService</code></h3>
+<p><strong>Descripción:</strong> Encapsula la lógica de negocio central para validar y enviar notificaciones, así como determinar los canales de entrega según las preferencias del usuario.</p>
+
+<table>
+  <thead>
+    <tr><th>Método</th><th>Tipo de retorno</th><th>Descripción</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>sendNotification(Notification notification)</td><td>void</td><td>Envía una notificación según el tipo y configuración del usuario.</td></tr>
+    <tr><td>validateType(Notification notification)</td><td>Boolean</td><td>Verifica si el tipo de notificación es válido y permitido.</td></tr>
+  </tbody>
+</table>
+
+##### 4.2.2.2. Interface Layer
+
+<p>En el Interface Layer del bounded context <strong>Notificaciones</strong>, se expone la clase <code>NotificationController</code> que proporciona endpoints para listar notificaciones, marcarlas como leídas y crear nuevas. Estos endpoints son utilizados por la interfaz web y otros servicios de la plataforma.</p>
+
+<h3>Justificación:</h3>
+<p>La capa de presentación permite desacoplar la lógica de negocio del acceso a la plataforma, proporcionando una interfaz RESTful clara y segura. Permite integrar fácilmente funcionalidades como notificaciones emergentes, resúmenes diarios o recordatorios.</p>
+
+<h3>Controller: <code>NotificationController</code></h3>
+
+<h4>Atributos</h4>
+<table>
+  <thead>
+    <tr><th>Tipo de dato</th><th>Nombre</th><th>Visibilidad</th><th>Descripción</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>NotificationQueryService</td><td>notificationQueryService</td><td>Private</td><td>Servicio para obtener notificaciones.</td></tr>
+    <tr><td>NotificationCommandService</td><td>notificationCommandService</td><td>Private</td><td>Servicio para enviar o modificar notificaciones.</td></tr>
+  </tbody>
+</table>
+
+<h4>Métodos</h4>
+<table>
+  <thead>
+    <tr><th>Método</th><th>Tipo de retorno</th><th>Visibilidad</th><th>Descripción</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>getUserNotifications(userId)</td><td>List<Notification></td><td>Public</td><td>Retorna las notificaciones del usuario.</td></tr>
+    <tr><td>markAsRead(notificationId)</td><td>void</td><td>Public</td><td>Marca la notificación como leída.</td></tr>
+    <tr><td>sendNotification(request)</td><td>void</td><td>Public</td><td>Envía una nueva notificación a un usuario o grupo.</td></tr>
+  </tbody>
+</table>
+<hr>
+
+##### 4.2.2.3. Application Layer
+
+<p>En el Application Layer del contexto de <strong>Notificaciones</strong>, se definen los servicios encargados de coordinar la lógica de aplicación relacionada con el envío, recuperación y actualización del estado de las notificaciones, así como el manejo de eventos relevantes del sistema (como asignaciones de tareas o incorporaciones a grupos).</p>
+
+<p>El <code>NotificationQueryService</code> permite obtener todas las notificaciones asociadas a un usuario y filtrar por estado, mientras que el <code>NotificationCommandService</code> gestiona el proceso de envío de nuevas notificaciones y el cambio de estado. Asimismo, se emplean <code>Command Handlers</code> y <code>Event Handlers</code> para automatizar acciones de notificación según flujos del sistema.</p>
+
+<h3>Justificación:</h3>
+<p>Separar los servicios por tipo de operación (consultas y comandos) mejora la organización y legibilidad del código, y facilita la extensión del sistema para admitir nuevas reglas o condiciones. Además, utilizar handlers para eventos del dominio permite mantener una arquitectura reactiva, con bajo acoplamiento entre módulos del sistema.</p>
+
+<hr>
+
+<h3>Service: <code>NotificationQueryService</code></h3>
+<p><strong>Descripción:</strong> Servicio para consultar notificaciones existentes de un usuario.</p>
+
+<h4>Atributos</h4>
+<table>
+  <thead>
+    <tr><th>Tipo de dato</th><th>Nombre</th><th>Visibilidad</th><th>Descripción</th></tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>NotificationRepository</td>
+      <td>notificationRepository</td>
+      <td>Private</td>
+      <td>Repositorio que permite acceder a notificaciones almacenadas.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h4>Métodos</h4>
+<table>
+  <thead>
+    <tr><th>Método</th><th>Tipo de retorno</th><th>Visibilidad</th><th>Descripción</th></tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>findByUserId(userId: Long)</td>
+      <td>List<Notification></td>
+      <td>Public</td>
+      <td>Devuelve las notificaciones dirigidas a un usuario.</td>
+    </tr>
+    <tr>
+      <td>findUnreadByUserId(userId: Long)</td>
+      <td>List<Notification></td>
+      <td>Public</td>
+      <td>Devuelve solo las notificaciones no leídas de un usuario.</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr>
+
+<h3>Service: <code>NotificationCommandService</code></h3>
+<p><strong>Descripción:</strong> Servicio encargado de enviar nuevas notificaciones y actualizar su estado.</p>
+
+<h4>Atributos</h4>
+<table>
+  <thead>
+    <tr><th>Tipo de dato</th><th>Nombre</th><th>Visibilidad</th><th>Descripción</th></tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>NotificationRepository</td>
+      <td>notificationRepository</td>
+      <td>Private</td>
+      <td>Repositorio de persistencia de notificaciones.</td>
+    </tr>
+    <tr>
+      <td>NotificationService</td>
+      <td>notificationService</td>
+      <td>Private</td>
+      <td>Servicio de dominio que contiene las reglas de envío y validación.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h4>Métodos</h4>
+<table>
+  <thead>
+    <tr><th>Método</th><th>Tipo de retorno</th><th>Visibilidad</th><th>Descripción</th></tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>send(notification: Notification)</td>
+      <td>void</td>
+      <td>Public</td>
+      <td>Envía una notificación al usuario correspondiente.</td>
+    </tr>
+    <tr>
+      <td>markAsRead(notificationId: Long)</td>
+      <td>void</td>
+      <td>Public</td>
+      <td>Actualiza el estado de una notificación a "leída".</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr>
+
+<h3>Command Handlers</h3>
+
+<ul>
+  <li><strong>SendNotificationCommandHandler:</strong> Ejecuta la lógica de <code>NotificationCommandService.send()</code> al recibir una orden explícita de enviar una notificación.</li>
+  <li><strong>MarkNotificationAsReadCommandHandler:</strong> Marca como leída una notificación específica.</li>
+</ul>
+
+<h3>Event Handlers</h3>
+
+<ul>
+  <li><strong>TaskAssignedEventHandler:</strong> Envía una notificación al usuario asignado cuando se le designa una nueva tarea.</li>
+  <li><strong>GroupJoinedEventHandler:</strong> Notifica al grupo o coordinador cuando un nuevo usuario se une a un equipo.</li>
+</ul>
+
+##### 4.2.2.4. Infrastructure Layer
+
+<p>En el <strong>Infrastructure Layer</strong> del contexto de <strong>Notificaciones</strong>, se encuentran las clases responsables de persistir las notificaciones y consultar las preferencias de los usuarios. Además, esta capa implementa adaptadores para el envío real de notificaciones a través de servicios externos como correos electrónicos o notificaciones push.</p>
+
+<p>Este layer implementa las interfaces definidas en el <em>Domain Layer</em> para los repositorios <code>NotificationRepository</code> y <code>UserPreferencesRepository</code>, y contiene los adaptadores necesarios para integrar el sistema con servicios externos como Firebase o EmailJS.</p>
+
+<h3>Justificación:</h3>
+<p>El uso de repositorios y adaptadores en esta capa permite mantener la lógica del dominio independiente de las tecnologías de mensajería o almacenamiento utilizadas. Esto facilita la evolución del sistema, ya que cualquier cambio en los proveedores externos o motores de persistencia no afecta las reglas de negocio. La infraestructura se vuelve reemplazable, modular y fácil de testear.</p>
+
+<hr>
+
+<h3>Repository: <code>NotificationRepositoryImpl</code></h3>
+<p><strong>Descripción:</strong> Repositorio que implementa el acceso y almacenamiento de notificaciones en la base de datos.</p>
+
+<table>
+  <thead>
+    <tr><th>Método</th><th>Tipo de retorno</th><th>Visibilidad</th><th>Descripción</th></tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>findByUserId(userId: Long)</td>
+      <td>List<Notification></td>
+      <td>Public</td>
+      <td>Obtiene todas las notificaciones asociadas a un usuario.</td>
+    </tr>
+    <tr>
+      <td>findUnreadByUserId(userId: Long)</td>
+      <td>List<Notification></td>
+      <td>Public</td>
+      <td>Devuelve solo las notificaciones no leídas.</td>
+    </tr>
+    <tr>
+      <td>save(notification: Notification)</td>
+      <td>void</td>
+      <td>Public</td>
+      <td>Guarda una nueva notificación en la base de datos.</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr>
+
+<h3>Repository: <code>UserPreferencesRepositoryImpl</code></h3>
+<p><strong>Descripción:</strong> Repositorio que permite acceder a las preferencias de notificación configuradas por el usuario.</p>
+
+<table>
+  <thead>
+    <tr><th>Método</th><th>Tipo de retorno</th><th>Visibilidad</th><th>Descripción</th></tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>findByUserId(userId: Long)</td>
+      <td>UserPreferences</td>
+      <td>Public</td>
+      <td>Obtiene las preferencias de notificación del usuario.</td>
+    </tr>
+    <tr>
+      <td>update(userId: Long, preferences: UserPreferences)</td>
+      <td>void</td>
+      <td>Public</td>
+      <td>Actualiza las preferencias de notificación de un usuario.</td>
+    </tr>
+  </tbody>
+</table>
+
+##### 4.2.2.5. Bounded Context Software Architecture Component Level Diagrams
+
+<p>Este diagrama de componentes representa un sistema monolítico que gestiona notificaciones dentro de la plataforma SynHub. Una <strong>Single-Page Application (SPA)</strong>, implementada con Angular, interactúa con una <strong>Web API Application</strong> desarrollada en Spring Boot mediante llamadas HTTP (REST).</p>
+
+<p>La SPA realiza peticiones al <code>NotificationController</code> para consultar, marcar como leídas o generar nuevas notificaciones. Este controlador delega la lógica correspondiente a dos servicios principales: <code>NotificationQueryService</code> para recuperar notificaciones y <code>NotificationCommandService</code> para enviarlas o actualizar su estado.</p>
+
+<p>Ambos servicios se comunican con los repositorios correspondientes (<code>NotificationRepository</code> y <code>UserPreferencesRepository</code>) para acceder a los datos persistidos y las preferencias del usuario. Los repositorios emplean JPA para realizar operaciones de lectura y escritura en una base de datos MySQL.</p>
+<img src="images/chapter-4/structurizr3.png" alt="Bounded Context Software Architecture Component Level Diagrams"/>
+
+##### 4.2.2.6. Bounded Context Software Architecture Code Level Diagrams
+
+##### 4.2.2.6.1. Bounded Context Domain Layer Class Diagrams
+
+<p>El siguiente diagrama de clases representa el bounded context <strong>Notificaciones</strong> y muestra dos agregados principales: <code>Notification</code> y <code>User</code>. Además, se incluye el servicio de dominio <code>NotificationService</code> y la enumeración <code>NotificationType</code>.</p>
+
+<p>El agregado <code>Notification</code> tiene atributos como <code>id: Long</code>, <code>userId: Long</code>, <code>title: String</code>, <code>message: String</code>, <code>type: NotificationType</code>, <code>status: String</code>, y <code>timestamp: LocalDateTime</code>. Representa una notificación generada por el sistema para un usuario específico. Incluye métodos como <code>send()</code> para iniciar el envío de la notificación, <code>markAsRead()</code> para marcar la notificación como leída, y <code>isRead()</code> para verificar su estado.</p>
+
+<p>El agregado <code>User</code> representa al destinatario de las notificaciones, con atributos como <code>id: Long</code>, <code>email: String</code>. Este agregado permite conocer la dirección de correo del usuario. Los métodos del agregado incluyen <code>getPreferences()</code>, que devuelve las preferencias de notificación del usuario, y <code>updatePreferences()</code>, que actualiza estas preferencias.</p>
+
+<p>La enumeración <code>NotificationType</code> define los posibles tipos de notificación, como <code>INFO</code>, <code>TASK</code>, <code>REMINDER</code>, y <code>ALERT</code>, que se usan para clasificar las notificaciones generadas por el sistema.</p>
+
+<p>El servicio de dominio <code>NotificationService</code> encapsula la lógica de negocio central para validar las notificaciones. Este servicio incluye el método <code>validateType()</code>, que valida si el tipo de notificación es permitido.</p>
+
+<p>Las relaciones entre las clases incluyen una asociación entre <code>Notification</code> y <code>User</code> (una notificación tiene un único destinatario), y una dependencia del servicio <code>NotificationService</code> hacia el agregado <code>Notification</code>.</p>
+<img src="images/chapter-4/UML2.png" alt="Bounded Context Domain Layer Class Diagrams" />
+
+#### 4.2.3. Bounded Context: Gestión de grupos
+
+##### 4.2.3.1. Domain Layer
+
+<hr>
+
+<h3>Aggregate: <code>Group</code></h3>
+<p><strong>Descripción:</strong> Representa un grupo en el sistema, con usuarios miembros y un propietario.</p>
+
+<table>
+  <thead>
+    <tr><th>Atributos</th><th>Tipo de dato</th><th>Visibilidad</th><th>Descripción</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>id</td><td>Long</td><td>Private</td><td>Identificador único del grupo.</td></tr>
+    <tr><td>name</td><td>String</td><td>Private</td><td>Nombre del grupo.</td></tr>
+    <tr><td>imgUrl</td><td>String</td><td>Private</td><td>Url de la imagen del grupo.</td></tr>
+    <tr><td>count</td><td>Short</td><td>Private</td><td>Cantidad de miembros (puede derivarse de memberIds).</td></tr>
+    <tr><td>createdAt</td><td>Timestamp</td><td>Private</td><td>Fecha de creación del grupo.</td></tr>
+    <tr><td>updatedAt</td><td>Timestamp</td><td>Private</td><td>Fecha de última actualización.</td></tr>
+    <tr><td>ownerId</td><td>Long</td><td>Private</td><td>ID del usuario propietario.</td></tr>
+    <tr><td>members</td><td>List<User></td><td>Private</td><td>Lista de usuarios miembros.</td></tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr><th>Métodos</th><th>Tipo de retorno</th><th>Visibilidad</th><th>Descripción</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>getId()</td><td>Long</td><td>Public</td><td>Devuelve el ID del grupo.</td></tr>
+    <tr><td>getName()</td><td>String</td><td>Public</td><td>Devuelve el nombre del grupo.</td></tr>
+    <tr><td>getImgUrl()</td><td>String</td><td>Public</td><td>Devuelve la url de la imagen.</td></tr>
+    <tr><td>getCount()</td><td>Short</td><td>Public</td><td>Devuelve la cantidad de miembros.</td></tr>
+    <tr><td>getCreatedAt()</td><td>Timestamp</td><td>Public</td><td>Devuelve la fecha de creación.</td></tr>
+    <tr><td>getUpdatedAt()</td><td>Timestamp</td><td>Public</td><td>Devuelve la fecha de última actualización.</td></tr>
+    <tr><td>getOwnerId()</td><td>Long</td><td>Public</td><td>Devuelve el ID del propietario.</td></tr>
+    <tr><td>getMembers()</td><td>List<User></td><td>Public</td><td>Devuelve la lista de miembros.</td></tr>
+  </tbody>
+</table>
+
+##### 4.2.3.2. Interface Layer
+
+<hr>
+
+<h3>Controlador: <code>GroupController</code></h3>
+
+<table>
+  <tr>
+    <th>Título</th>
+    <td>GroupController</td>
+  </tr>
+  <tr>
+    <th>Descripción</th>
+    <td>Controlador REST que maneja las operaciones CRUD para grupos y gestión de miembros</td>
+  </tr>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th>Método</th>
+      <th>Ruta</th>
+      <th>Descripción</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>getGroupByID</td>
+      <td>GET /api/v1/group/{id}</td>
+      <td>Obtiene los detalles de un grupo específico por su ID</td>
+    </tr>
+    <tr>
+      <td>getAllUserGroups</td>
+      <td>GET /api/v1/group/user/{userId}</td>
+      <td>Obtiene todos los grupos a los que pertenece un usuario</td>
+    </tr>
+    <tr>
+      <td>registerGroup</td>
+      <td>POST /api/v1/group</td>
+      <td>Crea un nuevo grupo en el sistema</td>
+    </tr>
+    <tr>
+      <td>AddMemberToGroup</td>
+      <td>POST /api/v1/group/{groupId}/member/{userId}</td>
+      <td>Añade un usuario como miembro a un grupo existente</td>
+    </tr>
+    <tr>
+      <td>updateGroup</td>
+      <td>PUT /api/v1/group/{id}</td>
+      <td>Actualiza la información de un grupo existente</td>
+    </tr>
+    <tr>
+      <td>DeleteGroup</td>
+      <td>DELETE /api/v1/group/{id}</td>
+      <td>Elimina un grupo del sistema</td>
+    </tr>
+  </tbody>
+</table>
+
+<h4>Dependencias:</h4>
+
+<table>
+  <thead>
+    <tr>
+      <th>Dependencia</th>
+      <th>Descripción</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>GroupQueryService</td>
+      <td>Servicio para consultas y recuperación de datos de grupos</td>
+    </tr>
+    <tr>
+      <td>GroupCommandService</td>
+      <td>Servicio para ejecutar comandos de modificación sobre grupos</td>
+    </tr>
+    <tr>
+      <td>CreateGroupCommandFromResourceAssembler</td>
+      <td>Convierte recursos REST en comandos de creación de grupos</td>
+    </tr>
+    <tr>
+      <td>UpdateGroupCommandFromResourceAssembler</td>
+      <td>Convierte recursos REST en comandos de actualización de grupos</td>
+    </tr>
+    <tr>
+      <td>DeleteGroupCommandFromResourceAssembler</td>
+      <td>Convierte recursos REST en comandos de eliminación de grupos</td>
+    </tr>
+    <tr>
+      <td>GroupResourceFromEntityAssembler</td>
+      <td>Convierte entidades de grupo en recursos REST para la respuesta</td>
+    </tr>
+  </tbody>
+</table>
+
+##### 4.2.3.3. Application Layer
+
+<hr>
+
+<h3>Clase: <code>GroupQueryServiceImpl</code></h3>
+
+<table>
+  <tr>
+    <th>Título</th>
+    <td>GroupQueryServiceImpl</td>
+  </tr>
+  <tr>
+    <th>Descripción</th>
+    <td>Implementación del servicio de consultas para operaciones de lectura relacionadas con grupos</td>
+  </tr>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th>Método</th>
+      <th>Descripción</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>handle(GetGroupByIdQuery)</td>
+      <td>Obtiene los detalles completos de un grupo por su ID</td>
+    </tr>
+    <tr>
+      <td>handle(GetUserMembershipQuery)</td>
+      <td>Verifica si un usuario pertenece a un grupo específico</td>
+    </tr>
+    <tr>
+      <td>handle(ListGroupMembersQuery)</td>
+      <td>Devuelve todos los miembros activos de un grupo</td>
+    </tr>
+    <tr>
+      <td>handle(CheckGroupInvitationStatusQuery)</td>
+      <td>Verifica el estado de una invitación a un grupo</td>
+    </tr>
+    <tr>
+      <td>handle(GetGroupPermissionsQuery)</td>
+      <td>Obtiene los permisos asociados a un rol específico en el grupo</td>
+    </tr>
+    <tr>
+      <td>handle(ListUserGroupsQuery)</td>
+      <td>Lista todos los grupos a los que pertenece un usuario</td>
+    </tr>
+    <tr>
+      <td>handle(ValidateGroupOwnershipQuery)</td>
+      <td>Verifica si un usuario es coordinador del grupo</td>
+    </tr>
+    <tr>
+      <td>handle(GetGroupConfigurationQuery)</td>
+      <td>Recupera las preferencias/configuración del grupo</td>
+    </tr>
+    <tr>
+      <td>handle(ListPendingInvitationsQuery)</td>
+      <td>Obtiene las invitaciones pendientes de un grupo</td>
+    </tr>
+    <tr>
+      <td>handle(CheckGroupAvailabilityQuery)</td>
+      <td>Valida la disponibilidad del nombre del grupo</td>
+    </tr>
+  </tbody>
+</table>
+
+<h4>Dependencias:</h4>
+
+<table>
+  <thead>
+    <tr>
+      <th>Dependencia</th>
+      <th>Descripción</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>GroupRepository</td>
+      <td>Repositorio para acceso a datos de grupos</td>
+    </tr>
+    <tr>
+      <td>UserExternalService</td>
+      <td>Servicio externo para validación de usuarios</td>
+    </tr>
+    <tr>
+      <td>GetGroupByIdQuery</td>
+      <td>Query para obtener detalles de grupo por ID</td>
+    </tr>
+    <tr>
+      <td>GetUserMembershipQuery</td>
+      <td>Query para verificar membresía de usuario</td>
+    </tr>
+    <tr>
+      <td>ListGroupMembersQuery</td>
+      <td>Query para listar miembros del grupo</td>
+    </tr>
+    <tr>
+      <td>CheckGroupInvitationStatusQuery</td>
+      <td>Query para estado de invitaciones</td>
+    </tr>
+    <tr>
+      <td>GetGroupPermissionsQuery</td>
+      <td>Query para obtener permisos de rol</td>
+    </tr>
+    <tr>
+      <td>ListUserGroupsQuery</td>
+      <td>Query para grupos de un usuario</td>
+    </tr>
+    <tr>
+      <td>ValidateGroupOwnershipQuery</td>
+      <td>Query para validar coordinadores</td>
+    </tr>
+    <tr>
+      <td>GetGroupConfigurationQuery</td>
+      <td>Query para configuración del grupo</td>
+    </tr>
+    <tr>
+      <td>ListPendingInvitationsQuery</td>
+      <td>Query para invitaciones pendientes</td>
+    </tr>
+    <tr>
+      <td>CheckGroupAvailabilityQuery</td>
+      <td>Query para validar nombre de grupo</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr>
+
+<h3>Clase: <code>GroupCommandServiceImpl</code></h3>
+
+<table>
+  <tr>
+    <th>Título</th>
+    <td>GroupCommandServiceImpl</td>
+  </tr>
+  <tr>
+    <th>Descripción</th>
+    <td>Implementación del servicio de comandos para operaciones de escritura relacionadas con grupos</td>
+  </tr>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th>Método</th>
+      <th>Descripción</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>handle(CreateGroupCommand)</td>
+      <td>Crea un nuevo grupo con la configuración inicial</td>
+    </tr>
+    <tr>
+      <td>handle(UpdateGroupCommand)</td>
+      <td>Actualiza la información básica del grupo (nombre, descripción, imagen)</td>
+    </tr>
+    <tr>
+      <td>handle(DeleteGroupCommand)</td>
+      <td>Elimina un grupo existente del sistema</td>
+    </tr>
+    <tr>
+      <td>handle(AddMemberCommand)</td>
+      <td>Añade un nuevo miembro al grupo</td>
+    </tr>
+    <tr>
+      <td>handle(RemoveMemberCommand)</td>
+      <td>Elimina un miembro existente del grupo</td>
+    </tr>
+    <tr>
+      <td>handle(SendInvitationCommand)</td>
+      <td>Envía una invitación a un usuario para unirse al grupo</td>
+    </tr>
+    <tr>
+      <td>handle(UpdateGroupSettingsCommand)</td>
+      <td>Actualiza las preferencias y configuración del grupo</td>
+    </tr>
+    <tr>
+      <td>handle(UpdateMemberRoleCommand)</td>
+      <td>Modifica los permisos/rol de un miembro en el grupo</td>
+    </tr>
+    <tr>
+      <td>handle(ProcessInvitationResponseCommand)</td>
+      <td>Procesa la aceptación/rechazo de una invitación</td>
+    </tr>
+    <tr>
+      <td>handle(TransferOwnershipCommand)</td>
+      <td>Transfiere la propiedad/coordinación del grupo a otro miembro</td>
+    </tr>
+  </tbody>
+</table>
+
+<h4>Dependencias:</h4>
+
+<table>
+  <thead>
+    <tr>
+      <th>Dependencia</th>
+      <th>Descripción</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>GroupRepository</td>
+      <td>Repositorio para acceso a datos de grupos</td>
+    </tr>
+    <tr>
+      <td>UserExternalService</td>
+      <td>Servicio externo para validación de usuarios</td>
+    </tr>
+    <tr>
+      <td>NotificationService</td>
+      <td>Servicio para enviar notificaciones sobre cambios</td>
+    </tr>
+    <tr>
+      <td>CreateGroupCommand</td>
+      <td>Comando para creación de nuevos grupos</td>
+    </tr>
+    <tr>
+      <td>UpdateGroupCommand</td>
+      <td>Comando para actualización de grupos</td>
+    </tr>
+    <tr>
+      <td>DeleteGroupCommand</td>
+      <td>Comando para eliminación de grupos</td>
+    </tr>
+    <tr>
+      <td>AddMemberCommand</td>
+      <td>Comando para añadir miembros</td>
+    </tr>
+    <tr>
+      <td>RemoveMemberCommand</td>
+      <td>Comando para remover miembros</td>
+    </tr>
+    <tr>
+      <td>SendInvitationCommand</td>
+      <td>Comando para enviar invitaciones</td>
+    </tr>
+    <tr>
+      <td>UpdateGroupSettingsCommand</td>
+      <td>Comando para actualizar configuraciones</td>
+    </tr>
+    <tr>
+      <td>UpdateMemberRoleCommand</td>
+      <td>Comando para modificar roles</td>
+    </tr>
+    <tr>
+      <td>ProcessInvitationResponseCommand</td>
+      <td>Comando para procesar respuestas a invitaciones</td>
+    </tr>
+    <tr>
+      <td>TransferOwnershipCommand</td>
+      <td>Comando para transferir propiedad</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr>
+
+<h3>Clase: <code>GroupCommandServiceImpl</code></h3>
+
+<table>
+  <tr>
+    <th>Título</th>
+    <td>GroupCommandServiceImpl</td>
+  </tr>
+  <tr>
+    <th>Descripción</th>
+    <td>Implementación del servicio de comandos para operaciones de escritura relacionadas con grupos</td>
+  </tr>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th>Método</th>
+      <th>Descripción</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>handle(CreateGroupCommand)</td>
+      <td>Crea un nuevo grupo con la configuración inicial</td>
+    </tr>
+    <tr>
+      <td>handle(UpdateGroupCommand)</td>
+      <td>Actualiza la información básica del grupo (nombre, descripción, imagen)</td>
+    </tr>
+    <tr>
+      <td>handle(DeleteGroupCommand)</td>
+      <td>Elimina un grupo existente del sistema</td>
+    </tr>
+    <tr>
+      <td>handle(AddMemberCommand)</td>
+      <td>Añade un nuevo miembro al grupo</td>
+    </tr>
+    <tr>
+      <td>handle(RemoveMemberCommand)</td>
+      <td>Elimina un miembro existente del grupo</td>
+    </tr>
+    <tr>
+      <td>handle(SendInvitationCommand)</td>
+      <td>Envía una invitación a un usuario para unirse al grupo</td>
+    </tr>
+    <tr>
+      <td>handle(UpdateGroupSettingsCommand)</td>
+      <td>Actualiza las preferencias y configuración del grupo</td>
+    </tr>
+    <tr>
+      <td>handle(UpdateMemberRoleCommand)</td>
+      <td>Modifica los permisos/rol de un miembro en el grupo</td>
+    </tr>
+    <tr>
+      <td>handle(ProcessInvitationResponseCommand)</td>
+      <td>Procesa la aceptación/rechazo de una invitación</td>
+    </tr>
+    <tr>
+      <td>handle(TransferOwnershipCommand)</td>
+      <td>Transfiere la propiedad/coordinación del grupo a otro miembro</td>
+    </tr>
+  </tbody>
+</table>
+
+<h4>Dependencias:</h4>
+
+<table>
+  <thead>
+    <tr>
+      <th>Dependencia</th>
+      <th>Descripción</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>GroupRepository</td>
+      <td>Repositorio para acceso a datos de grupos</td>
+    </tr>
+    <tr>
+      <td>UserExternalService</td>
+      <td>Servicio externo para validación de usuarios</td>
+    </tr>
+    <tr>
+      <td>NotificationService</td>
+      <td>Servicio para enviar notificaciones sobre cambios</td>
+    </tr>
+    <tr>
+      <td>CreateGroupCommand</td>
+      <td>Comando para creación de nuevos grupos</td>
+    </tr>
+    <tr>
+      <td>UpdateGroupCommand</td>
+      <td>Comando para actualización de grupos</td>
+    </tr>
+    <tr>
+      <td>DeleteGroupCommand</td>
+      <td>Comando para eliminación de grupos</td>
+    </tr>
+    <tr>
+      <td>AddMemberCommand</td>
+      <td>Comando para añadir miembros</td>
+    </tr>
+    <tr>
+      <td>RemoveMemberCommand</td>
+      <td>Comando para remover miembros</td>
+    </tr>
+    <tr>
+      <td>SendInvitationCommand</td>
+      <td>Comando para enviar invitaciones</td>
+    </tr>
+    <tr>
+      <td>UpdateGroupSettingsCommand</td>
+      <td>Comando para actualizar configuraciones</td>
+    </tr>
+    <tr>
+      <td>UpdateMemberRoleCommand</td>
+      <td>Comando para modificar roles</td>
+    </tr>
+    <tr>
+      <td>ProcessInvitationResponseCommand</td>
+      <td>Comando para procesar respuestas a invitaciones</td>
+    </tr>
+    <tr>
+      <td>TransferOwnershipCommand</td>
+      <td>Comando para transferir propiedad</td>
+    </tr>
+  </tbody>
+</table>
+
+##### 4.2.3.4. Infrastructure Layer
+
+<hr>
+
+<h3>Clase: <code>GroupRepository</code></h3>
+
+<table>
+  <tr>
+    <th>Título</th>
+    <td>GroupRepository</td>
+  </tr>
+  <tr>
+    <th>Descripción</th>
+    <td>Interfaz de persistencia para operaciones CRUD y consultas específicas de grupos</td>
+  </tr>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th>Método</th>
+      <th>Descripción</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>save(GroupEntity)</td>
+      <td>Persiste un nuevo grupo o actualiza uno existente</td>
+    </tr>
+    <tr>
+      <td>deleteById(Long)</td>
+      <td>Elimina un grupo por su ID</td>
+    </tr>
+    <tr>
+      <td>findById(Long)</td>
+      <td>Recupera un grupo completo por su ID</td>
+    </tr>
+    <tr>
+      <td>existsById(Long)</td>
+      <td>Verifica existencia de un grupo</td>
+    </tr>
+    <tr>
+      <td>findByOwnerId(Long, Pageable)</td>
+      <td>Busca grupos por ID de propietario con paginación</td>
+    </tr>
+    <tr>
+      <td>findMembersByGroupId(Long)</td>
+      <td>Obtiene todos los miembros de un grupo</td>
+    </tr>
+    <tr>
+      <td>findInvitationById(Long)</td>
+      <td>Recupera el estado de una invitación específica</td>
+    </tr>
+    <tr>
+      <td>findGroupConfig(Long)</td>
+      <td>Obtiene configuración específica del grupo</td>
+    </tr>
+     <tr>
+      <td>addMember(Long, Long)</td>
+      <td>Añade un usuario a la lista de miembros</td>
+    </tr>
+    <tr>
+      <td>removeMember(Long, Long)</td>
+      <td>Elimina un usuario de los miembros</td>
+    </tr>
+    <tr>
+      <td>saveInvitation(GroupInvitationEntity)</td>
+      <td>Persiste una nueva invitación</td>
+    </tr>
+    <tr>
+      <td>updateGroupVisibility(Long, String)</td>
+      <td>Actualiza visibilidad del grupo</td>
+    </tr>
+    <tr>
+      <td>updateMemberRole(Long, Long, String)</td>
+      <td>Modifica el rol de un miembro</td>
+    </tr>
+     <tr>
+      <td>existsMemberInGroup(Long, Long)</td>
+      <td>Verifica si usuario ya es miembro</td>
+    </tr>
+    <tr>
+      <td>countMembers(Long)</td>
+      <td>Cuenta miembros activos en grupo</td>
+    </tr>
+    <tr>
+      <td>findActiveInvitations(UUID)</td>
+      <td>Obtiene invitaciones pendientes</td>
+    </tr>
+  </tbody>
+</table>
+
+<h4>Dependencias:</h4>
+
+<table>
+  <thead>
+    <tr>
+      <th>Dependencia</th>
+      <th>Propósito</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>User</td>
+      <td> Clase que representa al usuario en el sistema.   </td>
+    </tr>
+    <tr>
+      <td>Grupo </td>
+      <td> Clase que representa a un grupo en el sistema. </td>
+    </tr>
+  </tbody>
+</table>
+
+##### 4.2.3.5. Bounded Context Software Architecture Component Level Diagrams
+
+![GroupComponentDiagram.png](images/chapter-4/GroupComponentDiagram.png)
+
+##### 4.2.3.6. Bounded Context Software Architecture Code Level Diagrams
+
+###### 4.2.3.6.1. Bounded Context Domain Layer Class Diagrams
+
+![group class diagram](images/chapter-4/group-class-diagram.png)
+
+###### 4.2.3.6.2. Bounded Context Database Design Diagram
+
+![Database Schema Groups](images/chapter-4/database-schema-groups.png)
+
+#### 4.2.4. Bounded Context: Solicitudes y Validaciones
+
+##### 4.2.4.1. Domain Layer
+
+En el Domain Layer correspondiente al contexto de Solicitudes y Validaciones, la capa presenta como agregado principal a **Request**, el encargado de presentar una solicitud para la aprobación de ciertas acciones que un miembro desea realizar dentro del grupo. También se reconocen otro agregado como **Validation**.
+Las solicitudes son generadas por los usuarios miembro, y éstas pasan por un proceso de validación donde el líder del grupo evalúa las solicitudes.
+
+**Justificación:**
+El enfoque de este contexto es permitir que las solicitudes y las validaciones sean eficientes, siguiendo las reglas de negocio establecidas. Los métodos establecidos proporcionan el acceso a los atributos asociados a la solicitud, de esta manera utilizando y asignando los datos de manera que no haya peligro de corrupción o pérdida de datos.
+
+**Entidad: Request**<br>
+Descripción: Representa la solicitud a realizar, junto a su estado.
+
+
+| Atributos        | Tipo                 | Descripción                                             |
+| ---------------- | -------------------- | -------------------------------------------------------- |
+| id               | Long                 | Identificador único.                                    |
+| description      | String               | Detalles de la solicitud.                                |
+| type             | RequestType          | El tipo de la solicitud (reglas varían según el tipo). |
+| status           | RequestStatus        | El estado de aprobación.                                |
+| submittedBy      | Long                 | La ID del usuario que publicó la solicitud.             |
+| validationReason | String               | La razón de la decisión tomada por el líder.          |
+| evidenceList     | List<FileAttachment> | La lista de archivos que funcionan como evidencia.       |
+
+
+| Métodos   | Tipo | Descripción                                                                |
+| ---------- | ---- | --------------------------------------------------------------------------- |
+| create     | void | Crea una nueva solicitud.                                                   |
+| approve    | void | Aprueba la solicitud.                                                       |
+| reject     | void | Rechaza la solicitud.                                                       |
+| attachFile | void | Adjunta un archivo subido desde el dispositivo, y lo asocia a la solicitud. |
+
+**Entidad: FileAttachment**<br>
+Descripción: Representa el archivo que sirve como evidencia.
+
+
+| Atributos   | Tipo     | Descripción                              |
+| ----------- | -------- | ----------------------------------------- |
+| id          | Long     | Identificador único.                     |
+| requestId   | Long     | La ID de la solicitud asociada.           |
+| fileName    | String   | Nombre del archivo.                       |
+| fileType    | String   | Tipo de archivo.                          |
+| storagePath | String   | Ruta de almacenamiento o URL del archivo. |
+| uploadedBy  | Long     | La ID del usuario que subió el archivo.  |
+| uploadedAt  | DateTime | Fecha en que se subió el archivo.        |
+
+
+| Métodos     | Tipo    | Descripción                                                          |
+| ------------ | ------- | --------------------------------------------------------------------- |
+| create       | void    | Crea el archivo en el sistema.                                        |
+| isValidType  | boolean | Verifica si el archivo es válido dentro de las reglas de negocio.    |
+| isSizeWithin | boolean | Verifica si el archivo no supera cierta cantidad de peso del archivo. |
+
+##### 4.2.4.2. Interface Layer
+
+En el interface layer corresponde la conexión entre los usuarios y los servicios proporcionados para la solicitud y validación. Los controladores son los encargados de realizar la creación y validación de las solicitudes, entre otras acciones pertenecientes al contexto.
+
+**Justificación:**
+La capa funciona como una conexión entre los usuarios a la aplicación mediante el uso de APIs; es decir, exponer los endpoints para que el sistema interactúe con los servicios. Los servicios de comandos y de consultas son dependencias, los cuales actúan bajo controladores que siguen la lógica del negocio.
+
+**Controlador: RequestController**<br>
+Descripción: Controlador que maneja los endpoints relacionados con las solicitudes.
+
+
+| Método                | Ruta                            | Descripción                                                     |
+| ---------------------- | ------------------------------- | ---------------------------------------------------------------- |
+| createRequest          | `POST /requests`                | Crear una nueva solicitud (request)                              |
+| listRequests           | `GET /requests`                 | Obtener listado de requests (filtrables por estado, tipo, grupo) |
+| getRequestById         | `GET /requests/{id}`            | Obtener detalles de un request específico                       |
+| updateSubmissionAsSent | `PATCH /requests/{id}/submit`   | Marcar request como enviada                                      |
+| updateStatus           | `PATCH /requests/{id}/status`   | Cambiar el estado (solo si está permitido)                      |
+| setValidation          | `PATCH /requests/{id}/validate` | Aprobar o rechazar un request (por un líder)                    |
+
+
+| Dependencias             | Descripción                                 |
+| ------------------------ | -------------------------------------------- |
+| RequestCommandService    | Servicio para crear o modificar solicitudes. |
+| RequestQueryService      | Servicio para obtener las solicitudes.       |
+| RequestResourceAssembler | Ensamblador de las solicitudes como recurso. |
+
+**Controlador: CommentController**<br>
+Descripción: Controlador que maneja los endpoints relacionados con los comentarios de una solicitud.
+
+
+| Método       | Ruta                           | Descripción                        |
+| ------------- | ------------------------------ | ----------------------------------- |
+| addComment    | `POST /requests/{id}/comments` | Agregar un comentario a un request. |
+| listComments  | `GET /requests/{id}/comments`  | Listar comentarios asociados.       |
+| editComment   | `PATCH /comments/{commentId}`  | Editar un comentario.               |
+| deleteComment | `DELETE /comments/{commentId}` | Eliminar un comentario.             |
+
+
+| Dependencias             | Descripción                                             |
+| ------------------------ | -------------------------------------------------------- |
+| CommentCommandService    | Servicio para crear comentarios dentro de una solicitud. |
+| CommentQueryService      | Servicio para obtener los comentarios de una solicitud.  |
+| CommentResourceAssembler | Ensamblador de los comentarios como recurso.             |
+
+**Controlador: FileController**<br>
+Descripción: Controlador que maneja los endpoints relacionados con los archivos de una solicitud.
+
+
+| Método     | Ruta                        | Descripción                            |
+| ----------- | --------------------------- | --------------------------------------- |
+| addFile     | `POST /requests/{id}/files` | Subir archivo a un request.             |
+| listFiles   | `GET /requests/{id}/files`  | Listar archivos asociados a un request. |
+| getFileById | `GET /files/{fileId}`       | Descargar un archivo específico.       |
+| removeFile  | `DELETE /files/{fileId}`    | Eliminar el archivo correspondiente.    |
+
+
+| Dependencias          | Descripción                                               |
+| --------------------- | ---------------------------------------------------------- |
+| FileCommandService    | Servicio para adjuntar un archivo dentro de una solicitud. |
+| FileQueryService      | Servicio para obtener el archivo de una solicitud.         |
+| FileResourceAssembler | Ensamblador del archivo como recurso.                      |
+
+##### 4.2.4.3. Application Layer
+
+En el application layer se listan las operaciones que son separadas del dominio principal, pero que de todas maneras son importantes para el funcionamiento y cumplimiento de las necesidades del usuario.
+
+**Justificación:**
+La capa actúa como intermediario entre la capa de dominio y la capa de interfaz, enforzando las reglas de negocio con respecto al uso de servicios y facilitando la reutilización de ésta.
+
+**Servicio: RequestCommandServiceImpl**<br>
+Descripción: Implementa el servicio RequestCommandService que maneja la creación de productos en la aplicación.
+
+
+| Método                              | Descripción                                                                                                                         |
+| ------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------ |
+| handle(CreateRequestCommand command) | Maneja la creación de una solicitud, utilizando la información obtenida desde la aplicación y almacenándolo en la base de datos. |
+
+**Servicio: RequestQueryServiceImpl**<br>
+Descripción: Implementa el servicio RequestQueryService que maneja la recuperación de solicitudes de la aplicación.
+
+
+| Método                           | Descripción                                                                                                                      |
+| --------------------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
+| handle(getRequestByIdQuery query) | Maneja la consulta de una solicitud por ID, devolviendo un Optional<Request> que contiene la solicitud o vacío si fuera el caso. |
+| handle(getAllRequestsQuery query) | Maneja la consulta para recuperar todas las solicitudes, devolviendo una lista de solicitudes.                                    |
+
+**Servicio: FileCommandServiceImpl**<br>
+Descripción: Implementa el servicio FileCommandService que maneja la subida de archivos para las solicitudes de la aplicación.
+
+
+| Método                           | Descripción                                                            |
+| --------------------------------- | ----------------------------------------------------------------------- |
+| handle(uploadFileCommand command) | Maneja la subida de un archivo que esté relacionado con una solicitud. |
+| handle(removeFileCommand command) | Elimina el archivo subido a la solicitud.                               |
+
+**Servicio: FileQueryServiceImpl**<br>
+Descripción: Implementa el servicio FileCommandService que maneja la recuperación de archivos asociados a una solicitud.
+
+
+| Método                               | Descripción                                                                                                                          |
+| ------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
+| handle(getFileByRequestIdQuery query) | Maneja la consulta de un archivo específico por ID, devolviendo un Optional<File> que contiene el archivo o vacío si fuera el caso. |
+
+##### 4.2.4.4. Infrastructure Layer
+
+En el infrastructure layer se maneja la persistencia de datos mediante repositorios, los cuales interactúan con la base de datos para realizar operaciones CRUD sobre las solicitudes, comentarios y archivos.
+
+**Justificación:**
+Sirve como la conexión entre la aplicación y el acceso a datos del dominio, siendo fácilmente adaptable siempre y cuando la lógica de negocio sobre la base de datos no cambie. También permite un mapeo más sencillo con respecto a la base de datos.
+
+**Repositorio: RequestRepository**<br>
+Descripción: Repositorio que maneja la persistencia de la entidad Request en la base de datos mediante JPA.
+
+
+| Método           | Descripción                                                                                                           |
+| ----------------- | ---------------------------------------------------------------------------------------------------------------------- |
+| findAll()         | Recupera todas las solicitudes de la base de datos.                                                                    |
+| findById(Long id) | Recupera la solicitud por su ID, devolviendo un Optional<Request> que contiene la solicitud o vacío si fuera el caso. |
+
+**Repositorio: FileRepository**<br>
+Descripción: Repositorio que maneja la persistencia de la entidad File en la base de datos mediante JPA.
+
+
+| Método                  | Descripción                                                                                                                     |
+| ------------------------ | -------------------------------------------------------------------------------------------------------------------------------- |
+| findByRequestId(Long id) | Recupera el archivo por el ID de una solicitud, devolviendo un Optional<File> que contiene el archivo o vacío si fuera el caso. |
+
+##### 4.2.4.5. Bounded Context Software Architecture Component Level Diagrams
+
+El diagrama muestra una arquitectura de componente destinado a las solicitudes para cambios grupales y validación. Para cada entidad (request y file), se destina un controlador encargado de realizar todas las operaciones relacionadas mediante servicios de comando o de consulta. Estos servicios finalmente acceden al repositorio, que recupera los datos necesarios de la base de datos PostgreSQL.
+
+![Request And Validation component diagram](images/chapter-4/request-validation-dsl.png)
+
+##### 4.2.4.6. Bounded Context Software Architecture Code Level Diagrams
+
+###### 4.2.4.6.1. Bounded Context Domain Layer Class Diagrams
+
+El diagrama muestra las entidades o agregados Request y FileAttachment, y su relación. Request tiene dos enumeraciones, siendo estas el tipo de solicitud y el estado de la solicitud. Todas las entidades tienen los servicios de comando y de consulta, por ejemplo "RequestCommandService" y "RequestQueryService".
+
+![Request And Validation Class Diagram](images/chapter-4/ClassDiagram_Request-Validation.png)
+
+###### 4.2.4.6.2. Bounded Context Database Design Diagram
+
+4.2.5. Bounded Context: Gestion de tareas
+
+##### 4.2.5.1. Domain Layer
+
+El Domain Layer en Gestión de Tareas modela el núcleo del negocio: creación, asignación y seguimiento de tareas. Usa Entities como `Task` (con identidad única) y Value Objects como `DueDate` (inmutables). Los Aggregates (ej.: `TaskAggregate`) agrupan estas piezas bajo una raíz para garantizar consistencia. Domain Services (ej.: `TaskAssignmentService`) manejan lógica compleja, como validar permisos, mientras las Factories (ej.: `TaskFactory`) crean objetos válidos desde el inicio.**Justificación del Diseño**
+Este enfoque sigue *Domain-Driven Design* para alinear el código con el lenguaje del negocio y encapsular reglas. Por ejemplo:La entidad `Task` valida que haya al menos 1 responsable, evitando estados inválidos.El Value Object `DueDate` garantiza fechas futuras, centralizando la validación.Los Aggregates protegen invariantes: una `Subtask` no puede existir sin una `Task` padre.
+
+**Justificación del Diseño**
+Este enfoque sigue *Domain-Driven Design* para alinear el código con el lenguaje del negocio y encapsular reglas. Por ejemplo:
+
+* La entidad `Task` valida que haya al menos 1 responsable, evitando estados inválidos.
+
+### **Aggregate: `TaskAggregate`**
+
+**Descripción**:
+Agregado raíz que gestiona la creación, asignación y progreso de una tarea, garantizando las reglas de negocio.
+
+### **Entities:**
+
+Entity: **`Task`**
+
+<table border="0">
+  <tr>
+    <th>Atributo</th>
+    <th>Tipo</th>
+    <th>Descripción</th>
+  </tr>
+  <tr>
+    <td><b>id</b></td>
+    <td>Int</td>
+    <td>Identificador único de la tarea</td>
+  </tr>
+  <tr>
+    <td><b>title</b></td>
+    <td>String</td>
+    <td>Título de la tarea</td>
+  </tr>
+  <tr>
+    <td><b>description</b></td>
+    <td>String</td>
+    <td>Descripción detallada de la tarea</td>
+  </tr>
+  <tr>
+    <td><b>status</b></td>
+    <td>TaskStatus (VO)</td>
+    <td>Estado actual de la tarea (pendiente, en progreso, completada, cancelada)</td>
+  </tr>
+  <tr>
+    <td>startDate</td>
+    <td>Date</td>
+    <td>Fecha inical establecida para completar la tarea</td>
+  </tr>
+<tr>
+    <td>finalDate</td>
+    <td>Date</td>
+    <td>Fecha límite establecida para completar la tarea</td>
+  </tr>
+  <tr>
+    <td><b>memberId</b></td>
+    <td>Int</td>
+    <td>Usuario asignado a la tarea</td>
+  </tr>
+<tr>
+    <td>timePass</td>
+    <td>Date</td>
+    <td>Tiempo en el que se expone a validacion</td>
+  </tr>
+<tr>
+    <td>createdAt</td>
+    <td>Date</td>
+    <td>Fecha en que se creó el comentario</td>
+  </tr>
+</table>
+
+Entity: **`Comment`**
+
+<table border="0">
+  <tr>
+    <th>Atributo</th>
+    <th>Tipo</th>
+    <th>Descripción</th>
+  </tr>
+  <tr>
+    <td>id</td>
+    <td>Int</td>
+    <td>Identificador único del comentario</td>
+  </tr>
+  <tr>
+    <td>content</td>
+    <td>String</td>
+    <td>Contenido textual del comentario</td>
+  </tr>
+<tr>
+    <td>membersId</td>
+    <td>Int</td>
+    <td>Identificador foraneo del miembro</td>
+  </tr>
+<tr>
+    <td>taskId</td>
+    <td>Int</td>
+    <td>Identificador foraneo de la tarea</td>
+  </tr>
+</table>
+
+### **Value Objects**
+
+Value Object: **`TaskStatus`**
+
+<table border="0">
+  <tr>
+    <th>Atributo</th>
+    <th>Tipo</th>
+    <th>Descripción</th>
+  </tr>
+  <tr>
+    <td>status</td>
+    <td>Enum</td>
+    <td>Estado de la tarea. Valores posibles: IN PROGRESS, COMPLETED, EXPIRED and CANCELED</td>
+  </tr>
+</table>
+
+### **Factories**
+
+<table border="0">
+  <tr>
+    <th>Nombre</th>
+    <th>Propósito</th>
+    <th>Validaciones y Métodos</th>
+  </tr>
+  <tr>
+    <td>TaskFactory</td>
+    <td>Crear instancias válidas de Task.</td>
+    <td>
+      <strong>Validaciones:</strong><br>
+      -title no debe estar vacío (mínimo 3 y máximo 100 caracteres).<br>
+-memberId asignado debe ser válido.<br>
+-finalDate debe ser posterior a startDate.<br>
+-status debe ser uno permitido (pendiente, en progreso, completada, cancelada).<br>
+    </td>
+  </tr>
+</table>
+
+### **Domain Services**
+
+<table border="0">
+  <tr>
+    <th>Nombre</th>
+    <th>Responsabilidad</th>
+    <th>Reglas Aplicadas y Métodos</th>
+  </tr>
+  <tr>
+    <td>TaskManagementService</td>
+    <td>Gestionar la creación, edición y eliminación de tareas principales.</td>
+    <td>
+      <strong>Reglas:</strong><br>
+      -Solo usuarios con permisos (verificados por un PermissionService) pueden crear, editar o eliminar tareas.<br>
+-No se puede eliminar una tarea si su status es completada.<br>
+-Las tareas solo pueden editarse si no están canceladas o completadas.<br>
+    </td>
+  </tr>
+  <tr>
+    <td>CommentManagementService</td>
+    <td>Gestionar la adición de comentarios en tareas.</td>
+    <td>
+      <strong>Reglas:</strong><br>
+      -El membersId debe existir en el sistema.<br>
+-No se pueden comentar tareas con status = cancelada.<br>
+-Los comentarios deben estar asociados a una taskId válida.<br>
+    </td>
+  </tr>
+</table>
+
+##### 4.2.5.2. Interface Layer
+
+La **Interface Layer** actúa como el puente entre los usuarios (o sistemas externos) y tu aplicación. Su propósito principal es **recibir solicitudes** (HTTP, eventos, etc.), **validar formatos básicos** y **transformarlas** en comandos entendibles por el dominio, sin contener lógica de negocio. Además, se encarga de **devolver respuestas estandarizadas** (JSON, errores HTTP) y gestionar la seguridad (autenticación/autorización).
+
+Esta capa **protege el dominio** de detalles técnicos (protocolos, formatos de API) y centraliza la comunicación externa. Por ejemplo, un mismo caso de uso (como crear una tarea) puede ser invocado desde una API REST, un evento o una CLI, pero la Interface Layer adapta cada entrada a un formato común para el dominio.
+
+### **Controllers**
+
+TaskController:
+
+<table cellpadding="6" cellspacing="0">
+  <thead>
+    <tr>
+      <th>Nombre</th>
+      <th>Método</th>
+      <th>Ruta</th>
+      <th>Descripción</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>createTask</td>
+      <td>POST</td>
+      <td>/tasks</td>
+      <td>Crea una nueva tarea utilizando el TaskFactory y verifica permisos del usuario.</td>
+    </tr>
+    <tr>
+      <td>getTaskById</td>
+      <td>GET</td>
+      <td>/tasks/:id</td>
+      <td>Obtiene los detalles de una tarea específica por su ID.</td>
+    </tr>
+    <tr>
+      <td>getAllTasks</td>
+      <td>GET</td>
+      <td>/tasks</td>
+      <td>Lista todas las tareas registradas.</td>
+    </tr>
+    <tr>
+      <td>updateTask</td>
+      <td>PUT</td>
+      <td>/tasks/:id</td>
+      <td>Actualiza una tarea específica si no está cancelada ni completada.</td>
+    </tr>
+    <tr>
+      <td>deleteTask</td>
+      <td>DELETE</td>
+      <td>/tasks/:id</td>
+      <td>Elimina una tarea, siempre que su estado no sea "completada".</td>
+    </tr>
+  </tbody>
+</table>
+
+CommentController:
+
+<table  cellpadding="6" cellspacing="0">
+  <thead>
+    <tr>
+      <th>Nombre</th>
+      <th>Método</th>
+      <th>Ruta</th>
+      <th>Descripción</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>addComment</td>
+      <td>POST</td>
+      <td>/comments</td>
+      <td>Agrega un nuevo comentario a una tarea válida (no cancelada), validando membersId y taskId.</td>
+    </tr>
+    <tr>
+      <td>getCommentsByTaskId</td>
+      <td>GET</td>
+      <td>/comments/task/:taskId</td>
+      <td>Obtiene todos los comentarios asociados a una tarea específica.</td>
+    </tr>
+    <tr>
+      <td>deleteComment</td>
+      <td>DELETE</td>
+      <td>/comments/:id</td>
+      <td>Elimina un comentario por su ID.</td>
+    </tr>
+  </tbody>
+</table>
+
+##### 4.2.5.3. Application Layer
+
+La **Application Layer** gestiona los flujos de trabajo relacionados con las tareas, como su creación, asignación, edición y eliminación. Utiliza **Command Handlers** para ejecutar acciones y **Event Handlers** para reaccionar a eventos, como cambios en el estado de las tareas o la adición de comentarios, asegurando que las reglas de negocio se cumplan correctamente.
+
+Justificación:
+Esta capa es crucial porque centraliza la lógica de negocio, garantizando que las tareas se manejen de manera consistente y escalable. Además, separa la lógica de negocio de la interacción directa con la base de datos, facilitando la integración de nuevas funcionalidades sin complicar la estructura del sistema.
+
+### **Command Handlers**
+
+Task Command Handler:
+
+<table cellpadding="6" cellspacing="0">
+  <thead>
+    <tr>
+      <th>Capability</th>
+      <th>Command Handler</th>
+      <th>Descripción</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Crear tarea</td>
+      <td>CreateTaskHandler</td>
+      <td>Maneja el comando para crear una nueva tarea, validando los datos de entrada y utilizando el TaskFactory.</td>
+    </tr>
+    <tr>
+      <td>Actualizar tarea</td>
+      <td>UpdateTaskHandler</td>
+      <td>Maneja el comando para actualizar una tarea, validando que no esté cancelada ni completada y que el usuario tenga permisos.</td>
+    </tr>
+    <tr>
+      <td>Eliminar tarea</td>
+      <td>DeleteTaskHandler</td>
+      <td>Maneja el comando para eliminar una tarea, validando que no esté completada.</td>
+    </tr>
+  </tbody>
+</table>
+
+Comment Command Handler:
+
+<table  cellpadding="6" cellspacing="0">
+  <thead>
+    <tr>
+      <th>Capability</th>
+      <th>Command Handler</th>
+      <th>Descripción</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Agregar comentario</td>
+      <td>AddCommentHandler</td>
+      <td>Maneja el comando para agregar un comentario a una tarea, validando que el `membersId` y `taskId` sean válidos y que la tarea no esté cancelada.</td>
+    </tr>
+  </tbody>
+</table>
+
+### **Event Handlers**
+
+Task Event Handler:
+
+<table  cellpadding="6" cellspacing="0">
+  <thead>
+    <tr>
+      <th>Capability</th>
+      <th>Event Handler</th>
+      <th>Descripción</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Tarea creada</td>
+      <td>TaskCreatedEventHandler</td>
+      <td>Maneja el evento de la creación de una nueva tarea, enviando notificaciones o realizando alguna acción asociada.</td>
+    </tr>
+    <tr>
+      <td>Tarea actualizada</td>
+      <td>TaskUpdatedEventHandler</td>
+      <td>Maneja el evento de la actualización de una tarea, realizando las acciones correspondientes como enviar notificaciones.</td>
+    </tr>
+    <tr>
+      <td>Tarea eliminada</td>
+      <td>TaskDeletedEventHandler</td>
+      <td>Maneja el evento de la eliminación de una tarea, actualizando registros o enviando notificaciones.</td>
+    </tr>
+  </tbody>
+</table>
+
+Comment Event Handler:
+
+<table  cellpadding="6" cellspacing="0">
+  <thead>
+    <tr>
+      <th>Capability</th>
+      <th>Event Handler</th>
+      <th>Descripción</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Comentario agregado</td>
+      <td>CommentAddedEventHandler</td>
+      <td>Maneja el evento de la adición de un comentario a una tarea, activando acciones como enviar notificaciones a los involucrados.</td>
+    </tr>
+  </tbody>
+</table>
+
+##### 4.2.5.4. Infrastructure Layer
+
+La Infrastructure Layer de este contexto se encarga de implementar las dependencias externas necesarias para el funcionamiento del sistema, como el acceso a la base de datos PostgreSQL y la integración con servicios externos como Google Calendar. Aquí se desarrollan las clases concretas que cumplen con los contratos definidos en el Domain Layer.
+
+**Justificación:**
+Esta capa permite mantener una arquitectura desacoplada, separando la lógica de dominio de los detalles técnicos. Gracias a ella, se facilita el mantenimiento, la escalabilidad y la posibilidad de reemplazar tecnologías sin afectar el núcleo del negocio.
+
+### **Repositories**
+
+**TaskRepository:**
+
+<table cellpadding="6" cellspacing="0">
+  <thead>
+    <tr>
+      <th>Método</th>
+      <th>Descripción</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>save</td>
+      <td>Guarda una nueva tarea o actualiza una existente en la base de datos.</td>
+    </tr>
+    <tr>
+      <td>findById</td>
+      <td>Busca una tarea por su identificador único (ID).</td>
+    </tr>
+    <tr>
+      <td>findAll</td>
+      <td>Recupera todas las tareas almacenadas.</td>
+    </tr>
+    <tr>
+      <td>deleteById</td>
+      <td>Elimina una tarea de la base de datos utilizando su identificador único (ID).</td>
+    </tr>
+    <tr>
+      <td>update</td>
+      <td>Actualiza los detalles de una tarea existente en la base de datos.</td>
+    </tr>
+    <tr>
+      <td>findByStatus</td>
+      <td>Recupera todas las tareas con un estado específico (pendiente, en progreso, completada, cancelada).</td>
+    </tr>
+  </tbody>
+</table>
+
+**CommentRepository:**
+
+<table cellpadding="6" cellspacing="0">
+  <thead>
+    <tr>
+      <th>Método</th>
+      <th>Descripción</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>save</td>
+      <td>Guarda un nuevo comentario en la base de datos.</td>
+    </tr>
+    <tr>
+      <td>findById</td>
+      <td>Busca un comentario por su identificador único (ID).</td>
+    </tr>
+    <tr>
+      <td>findByTaskId</td>
+      <td>Recupera todos los comentarios asociados a una tarea mediante su identificador (taskId).</td>
+    </tr>
+    <tr>
+      <td>deleteById</td>
+      <td>Elimina un comentario de la base de datos utilizando su identificador único (ID).</td>
+    </tr>
+    <tr>
+      <td>update</td>
+      <td>Actualiza los detalles de un comentario existente en la base de datos.</td>
+    </tr>
+  </tbody>
+</table>
+
+##### 4.2.5.5. Bounded Context Software Architecture Component Level Diagrams
+
+Este diagrama representa la arquitectura a nivel de componentes del Bounded Context de **Gestión de Tareas**, modelado utilizando la herramienta Structurizr y el enfoque C4. Se muestra cómo los distintos elementos del sistema colaboran para manejar funcionalidades relacionadas a tareas, subtareas y comentarios dentro de una aplicación distribuida.
+
+<img src="./images/chapter-4/task_management-componentDiagram.png" alt="Chamilo" width="800"/>
+
+##### 4.2.5.6. Bounded Context Software Architecture Code Level Diagrams
+
+###### 4.2.5.6.1. Bounded Context Domain Layer Class Diagrams
+
+Este diagrama de clases muestra un diseño simplificado para un sistema de gestión de tareas y comentarios siguiendo el patrón CQRS (Command Query Responsibility Segregation). El modelo central incluye la entidad `Task` (como Aggregate Root) con su Value Object `TaskStatus`, y la entidad `Comment`. Los servicios se dividen en comandos (`TaskCommandService` para operaciones de escritura como crear/actualizar/eliminar tareas) y consultas (`TaskQueryService` y `CommentQueryService` para operaciones de lectura). Las relaciones muestran cómo los servicios interactúan con las entidades: los de comando las manipulan, mientras que los de consulta solo acceden a los datos, manteniendo una clara separación de responsabilidades.
+
+<img src="./images/chapter-4/domain-Layer-Class-Diagrams.png" alt="Chamilo" width="800"/>
+
+###### 4.2.5.6.2. Bounded Context Database Design Diagram
+
+El **Database Diagram** para el Bounded Context de "Gestión de Tareas" modela la persistencia de los agregados y entidades del dominio en una estructura relacional, garantizando consistencia con las reglas de negocio. Incluye las tablas **`tasks`** (tareas principales), **`users_tasks`** (relación muchos-a-muchos con usuarios asignados), **`subtasks`** (subtareas vinculadas) y **`comments`** (comentarios), con restricciones como claves foráneas en cascada, validación de fechas (`final_date >= initial_date`), y ENUMs para estados (`PENDING`, `COMPLETED`, etc.). El diseño refleja fielmente el dominio, asegurando que operaciones como la creación de subtareas o comentarios siempre dependan de una tarea válida (agregado raíz), mientras optimiza consultas mediante índices estratégicos.
+
+<img src="./images/chapter-4/task_management_database_designDiagram.png" alt="Chamilo" width="800"/>
 
 ## Capítulo V: Solution UI/UX Design
 
 ### 5.1. Product Design
 
+Product Design es el proceso de imaginar, planificar y crear un producto que resuelva un problema o satisfaga una necesidad específica de los usuarios. Involucra entender profundamente a los usuarios, definir requisitos funcionales y de experiencia, diseñar interfaces intuitivas, y validar soluciones mediante iteraciones constantes.
+
 #### 5.1.1. Style Guidelines
+
+El objetivo de estas directrices es asegurar que todas las interfaces de usuario (UI) de SynHub sigan un enfoque coherente y accesible, promoviendo una experiencia visual clara y agradable. Esto incluye el uso de elementos visuales consistentes, como colores, tipografías y gráficos, tanto para la landing page como para la aplicación móvil.
+
+Al seguir estas directrices, SynHub busca garantizar una interfaz intuitiva que sea fácil de navegar para todos los usuarios, creando una atmósfera de confianza y accesibilidad. Se hace énfasis en diseñar una aplicación moderna, accesible y centrada en el usuario, en la que cada detalle visual contribuya a hacer más fluida la experiencia del usuario, mientras refleja los valores de eficiencia y colaboración que la plataforma promueve.
 
 ##### 5.1.1.1. General Style Guidelines
 
+**Colores:**
+
+Para SynHub, una plataforma orientada a la gestión colaborativa de tareas, horarios y responsabilidades, es importante elegir una paleta de colores que refuerce la accesibilidad, claridad y profesionalismo, mientras refleja el enfoque organizado y eficiente de la aplicación.
+
+Los colores principales busca establecer una apariencia de confiabilidad y simplicidad. Mientras que los colores secundarios serán utilizados para los fondos de las vistas, estados de validación y el color de la tipografía.
+
+<img src="images/chapter-5/colors.png" alt="Colores" width="600"/>
+
+**Tipografía**
+
+Lato es una tipografía con base en sans-serif, lo que significa que tienen un enfoque limpio y sin adornos, ideal para entornos digitales y modernos, donde la facilidad de lectura y la atracción visual son fundamentales. Además, sus líneas geométricas y proporciones balanceadas refuerzan la identidad visual de una empresa que se especializa en servicios de belleza de alta calidad, ofreciendo una experiencia visual coherente y atractiva.
+
+<img src="images/chapter-5/typography.png" alt="Tipografía" width="600"/>
+
+**Simplicidad y Claridad**
+
+La simplicidad y claridad son principios esenciales para crear aplicaciones funcionales que faciliten la interacción del usuario. Al centrarse en estos principios, SynHub podrá proporcionar una experiencia eficiente, accesible y agradable, ayudando a los usuarios a concentrarse en lo que realmente importa: la organización y gestión colaborativa de tareas.
+Se buscará cumpli con los siguientes objetivos:
+
+- **Interfaz Minimalista:** Utilizar un diseño limpio y sin distracciones. Solo se deben mostrar los elementos más esenciales, como botones, menús y texto que guíen al usuario hacia la acción principal.
+- **Uso de Espacios Blancos:** Un espacio adecuado entre los elementos de la interfaz ayuda a que la pantalla no se vea sobrecargada.
+- **Simplificación de los Flujos de Usuarios:** Los procesos y flujos dentro de la aplicación deben ser lo más directos posibles.
+- **Jerarquía Visual:** Es importante destacar los elementos más importantes de la pantalla usando diferentes tamaños, colores y posiciones.
+- **Iconos y Símbolos Intuitivos:** Los iconos deben ser fáciles de reconocer y comprender sin necesidad de texto adicional.
+- **Lenguaje Claro y Directo:** Los textos deben ser fáciles de entender. Usar un lenguaje simple y accesible.
+
 #### 5.1.2. Information Architecture
+
+Es un aspecto fundamental en el diseño de experiencias digitales, ya que define cómo se organizará y presentará la información en las plataformas web y móvil. En esta sección, el equipo establece las decisiones clave que guiarán la estructura de los productos, asegurando que los usuarios y visitantes puedan navegar de manera intuitiva y encontrar la información o funcionalidad que necesitan de manera rápida y eficiente.
 
 ##### 5.1.2.1. Organization Systems
 
+En esta sección, el equipo detalla cómo se aplicarán los sistemas de organización de la información en la aplicación, con el objetivo de garantizar que los usuarios encuentren rápidamente lo que necesitan y naveguen de manera eficiente. La organización visual del contenido se estructurará de la siguiente manera:
+
+- Jerárquica (Visual Hierarchy): Este enfoque se utilizará para destacar los elementos más importantes de la aplicación, como botones y acciones clave, mediante el uso de diferentes tamaños, colores y posiciones.
+- Organización Secuencial (Step-by-Step): Este sistema será aplicado en procesos que requieran una secuencia lógica. Cada paso se presentará de forma clara y fácil de seguir, reduciendo la carga cognitiva del usuario.
+- Organización Matricial: En secciones donde se necesite comparar información o ver opciones interrelacionadas, se usará este enfoque, permitiendo al usuario comparar fácilmente los datos disponibles y tomar decisiones informadas.
+
+Este enfoque en la organización de la información se alinea con los objetivos de diseño de la aplicación, que buscan una interfaz minimalista, clara y fácil de usar, donde los elementos esenciales sean visibles, los flujos de usuarios sean simplificados y la jerarquía visual sea clara.
+
 ##### 5.1.2.2. Labeling Systems
+
+El sistema de etiquetado se enfoca en definir cómo se presentarán los datos y opciones dentro de la aplicación, utilizando un lenguaje claro, simple y directo. El objetivo es que las etiquetas sean inmediatamente comprensibles para los usuarios, minimizando la carga cognitiva y evitando confusión o ambigüedad. La propuesta designada para synhub es la siguiente:
+
+
+| Sección                      | Etiqueta Propuesta |
+| ----------------------------- | ------------------ |
+| Asignación de Tareas         | "Tareas"           |
+| Gestión de Horarios          | "Calendario"       |
+| Estadísticas de Cumplimiento | "Estadísticas"    |
+| Recordatorios                 | "Recordatorios"    |
+| Perfil de Usuario             | "Mi Perfil"        |
+| Configuración                | "Configuración"   |
+| Grupos                        | "Mis Grupos"       |
+| Actividad Reciente            | "Actividad"        |
 
 ##### 5.1.2.3. SEO Tags and Meta Tags
 
+Esta sección define cómo se implementarán las etiquetas de optimización para motores de búsqueda en el sitio web y cómo se optimizará la presencia de SynHub en tiendas de aplicaciones móviles. El objetivo es mejorar la visibilidad de SynHub, atraer tráfico orgánico, y asegurar que tanto usuarios como motores de búsqueda entiendan de inmediato el propósito de la plataforma.
+
+**Para Landing Page Web:**
+
+- Title: SynHub - Organiza tu hogar y equipos de manera fácil
+- Meta Description: Plataforma colaborativa para gestionar tareas, horarios y responsabilidades en hogares, oficinas y comunidades. Organiza tu vida diaria de forma sencilla y eficiente con SynHub.
+- Meta Keywords: organización de tareas, gestión familiar, calendario colaborativo, app de tareas, productividad en grupo
+- Meta Author: NRG4 - SynHub Team
+
+**Para Mobile App (App Store / Play Store):**
+
+- App Title: SynHub: Organización de Tareas y Calendarios
+- App Keywords: tareas, calendario, hogar, productividad, recordatorios, familia, equipo, organización
+- App Subtitle: Planifica tu día, organiza tu hogar y tu equipo fácilmente.
+- App Description: SynHub te ayuda a gestionar tareas, compartir calendarios, asignar responsabilidades y mantener a todos organizados, ya sea en casa o en el trabajo. ¡Simplifica tu vida diaria con una plataforma intuitiva y accesible!
+
 ##### 5.1.2.4. Searching Systems
 
+Estas decisiones están diseñadas para evitar que los usuarios se sientan abrumados por grandes volúmenes de información, facilitando una navegación eficiente y una búsqueda precisa. A continuación, se detallan las opciones de búsqueda y los filtros disponibles, así como la presentación de los datos después de la búsqueda.
+
+**Barra de secciones:** Dentro de la landing page, se implementará una barra de búsqueda que permitirá a los usuarios buscar información específica dentro de las secciones disponibles. Esta barra estará ubicada en la parte superior de la página y será fácilmente accesible.
+
+**Menú desplegable:** En la aplicación móvil, se incluirá un menú desplegable que permitirá a los usuarios filtrar la información según diferentes categorías. Este menú estará disponible en la parte superior izquierda de la pantalla.
+
+**Descripción de tareas:** En la sección de tareas al dar click a alguna tarea, se abrirá una ventana emergente que mostrará la descripción de la tarea seleccionada. Esta ventana incluirá información adicional como el estado de la tarea, la fecha de vencimiento y los miembros asignados.
+
+**Tareas de usuario:** En la sección de grupos al hacer click sobre un integrante del grupo se podrán visualizar todas las tareas asignadas a ese usuario. Esta funcionalidad permitirá a los líderes y miembros del grupo ver rápidamente las responsabilidades de cada integrante.
+
+**Tareas:** En el módulo de tareas se visualizará una lista de todas las tareas asignadas al integrante que se encuentre en esa sección, al hacer click sobre ellas se mostrará la descripción de la tarea, el estado de la misma y la fecha de vencimiento. Esta funcionalidad permitirá a los usuarios tener un acceso rápido a la información relevante sobre sus tareas.
+
+**Solicitudes (integrantes de grupo):** En la sección de solicitudes se visualizará una lista de todas las solicitudes realizadas por el usuario, al hacer click sobre ellas se mostrará la descripción de la solicitud y el estado de la misma. Esta funcionalidad permitirá a los usuarios tener un acceso rápido a la información relevante sobre sus solicitudes.
+
+**Solicitudes (líderes de grupo):** En la sección de solicitudes se visualizará una lista de todas las solicitudes realizadas por los integrantes del grupo, al hacer click sobre ellas se mostrará la descripción de la solicitud y el estado de la misma. Esta funcionalidad permitirá a los líderes tener un acceso rápido a la información relevante sobre las solicitudes de sus integrantes. Además, podrá filtrar las solicitudes por el tipo de solicitud (reprogramación, validación o incumplimiento).
+
 ##### 5.1.2.5. Navigation Systems
+
+La estructura de navegación y las opciones disponibles en nuestro producto digital están diseñadas para proporcionar una experiencia de usuario intuitiva y eficiente. A continuación se muestra un resumen de las secciones y elementos clave:
+
+**Landing Page**
+Barra de navegación con secciones:
+
+- About Us
+- Mision & Vision
+- Features
+- Nrg5 Team
+
+**Mobile App**
+Mediante el uso de un menú lateral, los usuarios podrán acceder a las siguientes secciones:
+
+- Tareas
+- Calendario
+- Estadísticas
+- Recordatorios
+- Mi Perfil
+- Configuración
+- Mis Grupos
 
 #### 5.1.3. Landing Page UI Design
 
 ##### 5.1.3.1. Landing Page Wireframe
 
+Los wireframes de la landing page de Synhub definen la estructura clave y la distribución de elementos, garantizando una presentación clara y atractiva para el usuario. Estos esquemas visuales aseguran que la información esencial se comunique de manera eficiente, optimizando la experiencia desde el primer contacto.
+
+<img src="images/chapter-5/landing-wireframe.png" alt="Wireframe Landing" width="600"/>
+
 ##### 5.1.3.2. Landing Page Mock-up
+
+En esta sección se muestran los mock-ups de la landing page de Synhub, donde se aplican los principios de diseño, la arquitectura de información y el Design System para crear una experiencia visual coherente y efectiva. Cada diseño refleja la identidad de la marca y optimiza la conversión desde el primer impacto visual.
+
+<img src="images/chapter-5/landing-mockup.png" alt="Mockup Landing" width="600"/>
 
 #### 5.1.4. Mobile Applications UX/UI Design
 
 ##### 5.1.4.1. Mobile Applications Wireframes
 
+Los wireframes de Synhub representan la estructura y disposición de las pantallas clave, mostrando la ubicación de los elementos de la interfaz de usuario y la navegación. Estos esquemas visuales proporcionan una guía clara para el diseño final, asegurando que la experiencia del usuario sea intuitiva y eficiente.
+
+<img src="images/chapter-5/wireframe-1.png" alt="Wireframe 1" width="600"/>
+
+<img src="images/chapter-5/wireframe-2.png" alt="Wireframe 1" width="600"/>
+
+<img src="images/chapter-5/wireframe-3.png" alt="Wireframe 1" width="600"/>
+
+<img src="images/chapter-5/wireframe-4.png" alt="Wireframe 1" width="600"/>
+
+<img src="images/chapter-5/wireframe-5.png" alt="Wireframe 1" width="600"/>
+
+<img src="images/chapter-5/wireframe-6.png" alt="Wireframe 1" width="600"/>
+
 ##### 5.1.4.2. Mobile Applications Wireflow Diagrams
+
+Los wireflow diagrams de Synhub representan la secuencia de interacciones y pantallas que los usuarios experimentarán al navegar por la aplicación.
+
+**Creación de grupo:** este wireflow corresponde a cuando un lider de equipo buscar crear un nuevo grupo.
+
+<img src="images/chapter-5/wireflow-1.png" alt="Wireflow 1" width="600"/>
+
+**Invitación de integrante:** este wireflow corresponde a cuando un lider de equipo busca invitar a un nuevo integrante al grupo.
+
+<img src="images/chapter-5/wireflow-2-1.png" alt="Wireflow 2" width="600"/>
+
+<img src="images/chapter-5/wireflow-2-2.png" alt="Wireflow 2" width="600"/>
+
+**Asignación de tarea:** este wireflow corresponde a cuando un lider de equipo busca asignar una nueva tarea a un integrante del grupo.
+
+<img src="images/chapter-5/wireflow-3.png" alt="Wireflow 3" width="600"/>
+
+**Edición de tarea:** este wireflow corresponde a cuando un lider de equipo busca editar una tarea ya existente.
+
+<img src="images/chapter-5/wireflow-4.png" alt="Wireflow 4" width="600"/>
+
+**Eliminación de tarea:** este wireflow corresponde a cuando un lider de equipo busca eliminar una tarea ya existente.
+
+<img src="images/chapter-5/wireflow-5.png" alt="Wireflow 5" width="600"/>
+
+**Ver la información de una tarea:** este wireflow corresponde a cuando un lider de equipo busca ver la información de una tarea ya existente.
+
+<img src="images/chapter-5/wireflow-6.png" alt="Wireflow 6" width="600"/>
+
+**Revisar una solicitud o validación:** este wireflow corresponde a cuando un lider de equipo busca revisar una solicitud o validación ya existente.
+
+<img src="images/chapter-5/wireflow-7.png" alt="Wireflow 7" width="600"/>
 
 ##### 5.1.4.3. Mobile Applications Mock-ups
 
+En esta sección se presentan y explican los Mock-ups de la aplicación. Se evidencia la aplicación de los principios y elementos de diseño, el diseño inclusivo, la arquitectura de información y el Design System establecido en el desarrollo de los wireframes. Cada mock-up ilustra cómo se implementan estos conceptos en la interfaz de usuario.
+
+<img src="images/chapter-5/mockup-1.png" alt="Mockup 1" width="600"/>
+
+<img src="images/chapter-5/mockup-2.png" alt="Mockup 2" width="600"/>
+
+<img src="images/chapter-5/mockup-3.png" alt="Mockup 3" width="600"/>
+
+<img src="images/chapter-5/mockup-4.png" alt="Mockup 4" width="600"/>
+
+<img src="images/chapter-5/mockup-5.png" alt="Mockup 5" width="600"/>
+
+<img src="images/chapter-5/mockup-6.png" alt="Mockup 6" width="600"/>
+
+<img src="images/chapter-5/mockup-7.png" alt="Mockup 7" width="600"/>
+
 ##### 5.1.4.4. Mobile Applications User Flow Diagrams
 
+**Creación de grupo:** este userflow corresponde a cuando un lider de equipo buscar crear un nuevo grupo.
+Task flow: 🟥 Happy Path, 🟨 Error Path, 🟦 User Goal
+
+<img src="images/chapter-5/userflow-t1.png" alt="Userflow Table 1" width="600"/>
+
+<img src="images/chapter-5/userflow-1.png" alt="Userflow 1" width="600"/>
+
+**Invitación de integrante:** este userflow corresponde a cuando un lider de equipo busca invitar a un nuevo integrante al grupo.
+Task flow: 🟥 Happy Path, 🟨 Error Path, 🟦 User Goal
+
+<img src="images/chapter-5/userflow-t2.png" alt="Userflow Table 2" width="600"/>
+
+<img src="images/chapter-5/userflow-2.png" alt="Userflow 2" width="600"/>
+
+**Asignación de tarea:** este userflow corresponde a cuando un lider de equipo busca asignar una nueva tarea a un integrante del grupo.
+Task flow: 🟥 Happy Path, 🟨 Error Path, 🟦 User Goal
+
+<img src="images/chapter-5/userflow-t3.png" alt="Userflow Table 3" width="600"/>
+
+<img src="images/chapter-5/userflow-3.png" alt="Userflow 3" width="600"/>
+
+**Edición de tarea:** este userflow corresponde a cuando un lider de equipo busca editar una tarea ya existente.
+Task flow: 🟥 Happy Path, 🟨 Error Path, 🟦 User Goal
+
+<img src="images/chapter-5/userflow-t4.png" alt="Userflow Table 4" width="600"/>
+
+<img src="images/chapter-5/userflow-4.png" alt="Userflow 4" width="600"/>
+
+**Eliminación de tarea:** este userflow corresponde a cuando un lider de equipo busca eliminar una tarea ya existente.
+Task flow: 🟥 Happy Path, 🟨 Error Path, 🟦 User Goal
+
+<img src="images/chapter-5/userflow-t5.png" alt="Userflow Table 5" width="600"/>
+
+<img src="images/chapter-5/userflow-5.png" alt="Userflow 5" width="600"/>
+
+**Ver la información de una tarea:** este userflow corresponde a cuando un lider de equipo busca ver la información de una tarea ya existente.
+Task flow: 🟥 Happy Path, 🟨 Error Path, 🟦 User Goal
+
+<img src="images/chapter-5/userflow-t6.png" alt="Userflow Table 6" width="600"/>
+
+<img src="images/chapter-5/userflow-6.png" alt="Userflow 6" width="600"/>
+
+**Revisar una solicitud o validación:** este userflow corresponde a cuando un lider de equipo busca revisar una solicitud o validación ya existente.
+Task flow: 🟥 Happy Path, 🟨 Error Path, 🟦 User Goal
+
+<img src="images/chapter-5/userflow-t7.png" alt="Userflow Table 7" width="600"/>
+
+<img src="images/chapter-5/userflow-7.png" alt="Userflow 7" width="600"/>
+
 ##### 5.1.4.5. Mobile Applications Prototyping
+
+Para este apartado comenzamos con la **creación de grupos**, donde el líder establece un nuevo espacio de trabajo, seguido de la **invitación de integrantes** para conformar el equipo. Una vez formado el grupo, el líder puede **asignar tareas** específicas a cada miembro, con la capacidad de **editar** los detalles de estas tareas si es necesario o **eliminarlas** cuando ya no sean relevantes. Además, el líder puede **consultar la información detallada** de cualquier tarea para hacer seguimiento, y **revisar solicitudes o validaciones** presentadas por los miembros del equipo, lo que le permite aprobar, rechazar o dar retroalimentación sobre el trabajo realizado. Estos flujos cubren el ciclo completo de gestión, desde la organización del equipo hasta la supervisión y validación de las actividades asignadas.
+
+<img src="images/chapter-5/mobileApplicationsPrototyping.png" alt="Mobile Applications Prototyping" width="1000"/>
+
+
+[SharePoint Folder Link](https://upcedupe-my.sharepoint.com/:f:/g/personal/u202122484_upc_edu_pe/EqNVpYJc7IJEg7W91so2GWIB6L7tjj3XJM06ohLW-ME1AA?e=J9pt8a)
 
 ## Capítulo VI: Product Implementation, Validation & Deployment
 
 ### 6.1. Software Configuration Management
 
+En este ítem se definirán todas las reglas y procesos que hemos seguido en el proyecto al momento de crear y desplegar Synhub. El objetivo de estas reglas y procesos es garantizar la integridad y consistencia del software, desde el inicio hasta el despliegue y mantenimiento.
+
 #### 6.1.1. Software Development Environment Configuration
+
+**Project Management**
+
+Para la organización del proyecto requerimos de un sistema de de asignación de tareas, palataformas y puntos de reunión y un repositorio dónde trabajaremos en conjunto cada avance del proyecto. A continuación se menciona los nombres de los productos y el propósito de uso en el proyecto:
+
+- Centro de organización de trabajo: Github
+- Planificación de tareas: Trello
+- Reuniones con el equipo: Discord
+- Coordinación grupal: WhatsApp
+
+**Requirements Management**
+
+Utilizamos Trello para designar las tareas y actividades de cada integrante del grupo en caso de revisión o cambios.
+
+
+| Herramienta | Descripción                                                                                        | Enlace             |
+| ----------- | --------------------------------------------------------------------------------------------------- | ------------------ |
+| Trello      | Para designar las tareas y actividades de cada integrante del grupo en caso de revisión o cambios. | https://trello.com |
+
+**Product UX/UI Design**
+
+Para el diseño de los wireframes y mockups, además de la realización del prototipo de la mobile application, utilizamos Figma.
+
+
+| Herramienta | Descripción                                                                                    | Enlace                 |
+| ----------- | ----------------------------------------------------------------------------------------------- | ---------------------- |
+| Figma       | Para el diseño de los wireframe y mockups, además de la realización del prototipo de Web App | https://www.figma.com/ |
+
+**Software Development**
+
+Empleamos Android y Jetpack Compose para la creación de la mobile application, y Spring Boot para la creación de la API REST. Para el desarrollo de la landing page utilizamos NextJS, Shadcn y Tailwind CSS.
+
+
+| Herramienta     | Descripción                                                                   | Enlace                                 |
+| --------------- | ------------------------------------------------------------------------------ | -------------------------------------- |
+| Android         | Lenguaje de programación utilizado para la creación de la mobile application | https://developer.android.com/         |
+| Jetpack Compose | Framework utilizado para la creación de la mobile application                 | https://developer.android.com/compose  |
+| Spring Boot     | Framework utilizado para la creación de la API REST                           | https://spring.io/projects/spring-boot |
+| NextJS          | Framework utilizado para la creación de la landing page                       | https://nextjs.org/                    |
+| Shadcn          | Framework utilizado para la creación de la landing page                       | https://ui.shadcn.com/                 |
+| Tailwind CSS    | Framework utilizado para la creación de la landing page                       | https://tailwindcss.com/               |
+
+**Software Deployment**
+
+Se empleó los siguientes software para desplegar los servicios del proyecto. Base de datos: Neontech, API y Landing Page: Render, Mobile Application: Android Studio.
+
+
+| Herramienta    | Descripción                                                     | Enlace                               |
+| -------------- | ---------------------------------------------------------------- | ------------------------------------ |
+| Neontech       | Base de datos utilizada para el proyecto                         | https://neon.tech/                   |
+| Render         | API y Landing Page utilizada para el proyecto                    | https://render.com/                  |
+| Android Studio | Herramienta utilizada para la creación de la mobile application | https://developer.android.com/studio |
+
+**Software Documentation**
+
+Para la documentación del software utilizamos Markdown, y para el trabajo colaborativo Github.
+
+
+| Herramienta | Descripción                                                      | Enlace                          |
+| ----------- | ----------------------------------------------------------------- | ------------------------------- |
+| Markdown    | Lenguaje de marcado utilizado para la documentación del proyecto | https://www.markdownguide.org/  |
+| Github      | Para gestionar la documentación del proyecto                     | https://github.com/NRG-4/report |
 
 #### 6.1.2. Source Code Management
 
+Para la gestión del código fuente, utilizamos los siguientes repositorios:
+
+
+| Producto           | Repositorio       | Enlace                                     |
+| ------------------ | ----------------- | ------------------------------------------ |
+| Mobile Application | synhub-mobile-app | https://github.com/NRG-4/synhub-mobile-app |
+| Backend            | synhub-backend    | https://github.com/NRG-4/synhub-backend    |
+| Landing Page       | synhub-landing    | https://github.com/NRG-4/synhub-landing    |
+
+**Flujo de trabajo GitFlow**
+
+Usaremos el flujo de trabajo planteado por Vincent Driessen en "A successful Git branching model" con los siguientes parámetros:
+
+- Una rama de producción.
+- Una rama de pruebas.
+- Una rama en la que se solucionen los bugs rapidamente y vuelvan a producción.
+- Ramas de features a implementar.
+- Cada cambio en producción debe establecerse como una nueva versión.
+- Para este proyecto en concreto consideramos que los cambios en la rama de producción y de pruebas deben tener autorización de un compa­ñero de equipo.
+
+Teniendo en cuenta la información anterior nos inclinamos por este tipo de organización en los branches:
+
+- **Main branch:** Esta rama esta destinada a la producción de la aplicación, cada cambio deberá tener autorización de un compañero de equipo para evitar cambios sin verificar.
+- **Hotfix branch:** En esta rama se incluirán todas las versiones que poseen errores identificados y que con cada arreglo de este se despliegue otra vez a Main Branch además de implementarla en lo que será Develop Branch.
+- **Develop branch:** Esta rama está destinada a las constantes implementaciones en caliente de los features,
+- **Features branch:** Cada feature poseerá su respectiva rama, una vez que se encuentre correctamente implementada será fusionada con Develop branch.
+
+Con cada deployment de la aplicación debe establecerse como una nueva versión. Nomenclatura de numeración de las versiones:
+
+- **Major changes:** Cuando el código o versión nueva del proyecto a implementar presenta cambios significativos con la versión anterior, estos cambios llegan a ser incompatibles con la versión anterior. Esto se evidenciará en el numero de la versión ej: versión 1.0.0 -> versión 2.0.0.
+- **Minor changes:** Cuando el código o versión nueva del proyecto a implementar presenta cambios con respecto a alguna característica, ya sea añadir o modificar, de la versión anterior; estos cambios no llegan a ser incompatibles con la versión anterior. Esto se evidenciará en el numero de la versión ej: versión 1.1.0 -> versión 1.2.0.
+- **Patch:** Cuando se solucionan bugs menores. Esto se evidenciará en el numero de la versión ej: versión 1.1.3 -> versión 1.1.4.
+
+Sufijos asignados a las versiones:
+
+- **alpha:** versión no estable con características básicas o no funcionales, ejemplo : versión 1.0.0 -alpha.
+- **beta:** versión no apta para la publicación, aún así ya presenta características funcionales en el estado base, ejemplo versión 1.0.0 –beta.
+- **rc:** versión apta para la publicación y uso de los usuarios, es candidata para publicar, ejemplo versión 1.0.0 -rc.
+
 #### 6.1.3. Source Code Style Guide & Conventions
 
+Usaremos buenas prácticas en cuanto al código de manera que sea coherente y sostenible.
+
+**Android (Kotlin/Java)**
+
+- **Nomenclatura:**
+  - Clases: PascalCase.
+  - Funciones y variables: camelCase.
+  - Constantes: UPPER_SNAKE_CASE.
+- **Estructura:**
+  - Separar lógica de UI (ViewModel, UseCase).
+
+**Jetpack Compose**
+
+- **Componenetes:**
+  - Nombres de funciones PascalCase (ej: ButtonSubmit()).
+  - Estado (remember, mutableStateOf) manejado en ViewModel.
+- **Recomposición:**
+  - Evitar cálculos pesados dentro de @Composable.
+  - Usar Modifier para estilos reutilizables.
+
+**Spring Boot**
+
+- **Estructura:**
+  - Paquetes por capa (controller, service, repository, model).
+  - Interfaces para servicios (UserService → UserServiceImpl).
+- **Convenciones:**
+  - Clases en PascalCase.
+  - Métodos en camelCase (getUserById()).
+
+**Next.js**
+
+- **Rutas:**
+  - Usar snake_case o kebab-case en nombres de archivos (/pages/user/profile.js).
+  - API routes en /pages/api/.
+- **Estilos:**
+  - CSS Modules (styles.module.css).
+  - Evitar estilos globales innecesarios.
+
+**Shadcn/ui**
+
+- **Componentes:**
+  - Extender estilos base, no sobrescribir CSS nativo.
+  - Usar clsx o tailwind-merge para combinar clases.
+- **Theming:**
+  - Variables CSS en :root para personalización.
+  - Evitar estilos inline.
+
+**Tailwind CSS**
+
+- **Clases:**
+  - Ordenar clases: Layout > Flex/Grid > Spacing > Typography > Colors > Effects.
+  - Evitar @apply en CSS (usar clases directamente en HTML).
+- **Responsive:**
+  - Usar prefixes (md:, lg:).
+
+**General:**
+
+- **Código:**
+  - Comentarios en inglés.
+  - Commits semánticos (feat:, fix:, docs:).
+- **Performance:**
+  - Lazy loading (imágenes, componentes).
+
 #### 6.1.4. Software Deployment Configuration
+
+En esta sección se detallan las consideraciones y pasos necesarios para el despliegue de los productos de Synhub.
+
+**Landing Page**
+
+**Consideraciones antes del despliegue:**
+- Es recomendable ejecutar npm run build localmente para asegurarse de que la aplicación web no contenga errores, ya sea por paquetes externos o problemas en la declaración de los componentes.
+
+**Requerimientos para realizar del despliegue:**
+- Repositorio de desarrollo de la landing page en github
+- Repositorio de github con estado de visualización público
+- Tener una cuenta activa en Render.
+
+**Pasos realizados para desplegar nuestra Landing Page:**
+1. Ingresar al sitio web de Render. 
+2. Iniciar sesión en la cuenta de Render. 
+3. Seleccionar la opción "New" y luego "Web Service". 
+4. Conceder acceso a Render para que pueda leer los repositorios de GitHub si es la primera vez. 
+5. Elegir el repositorio correspondiente a la Landing Page. 
+6. Configurar el nombre del servicio y confirmar los ajustes de despliegue (puerto, build command, etc. si es necesario). 
+7. Hacer clic en "Deploy". 
+8. Esperar a que Render complete el proceso de despliegue. 
+9. Acceder a la URL pública generada por Render para verificar que la Landing Page funcione correctamente
+
+**Mobile Application**
+
+**Consideraciones antes del despliegue:**
+
+- Se necesita tener el API desplegado en un servidor al que se pueda acceder de manera externa.
+
+**Requerimientos para realizar del despliegue:**
+
+- Repositorio de desarrollo del API en github
+- Dispositivo móvil Android en el que se pueda instalar la aplicación
+
+**Pasos realizados para desplegar nuestra Mobile Application:**
+
+1. Activar el modo desarrollador en el dispositivo móvil.
+2. Activar la depuración por USB en el dispositivo móvil.
+3. Conectar el dispositivo móvil a la computadora.
+4. Abrir Android Studio y seleccionar el proyecto de la aplicación.
+5. Seleccionar el dispositivo móvil en la lista de dispositivos disponibles.
+6. Hacer clic en el botón de "Run" (Ejecutar) en Android Studio.
+7. Esperar a que la aplicación se compile y se instale en el dispositivo móvil.
+8. Abrir la aplicación en el dispositivo móvil y verificar que funcione correctamente.
+
+**Backend**
+
+**Consideraciones antes del despliegue:**
+
+- Se necesita tener la base de datos desplegada en un servidor al que se pueda acceder de manera externa.
+
+**Requerimientos para realizar del despliegue:**
+
+- Repositorio de desarrollo del backend en github
+- Repositorio de github con estado de visualización público
+
+**Pasos realizados para desplegar nuestra API:**
+
+1. Extraer el pipeline de la base de datos de Neontech y cargarla al código del API.
+2. Crear un archivo Dockerfile para el despliegue del API.
+3. Crear un proyecto en Render de tipo Web Service.
+4. Importar el repositorio del API al proyecto de Render.
+5. Desplegar el API en Render.
 
 ### 6.2. Landing Page & Mobile Application Implementation
 
@@ -2826,29 +5149,1099 @@ El diagrama de despliegue representa un sistema donde una aplicación móvil se 
 
 ##### 6.2.1.1. Sprint Planning 1
 
+<table>
+  <tr>
+    <td colspan="1"><strong>Sprint #</strong></td>
+    <td colspan="1">1</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Sprint Planning Background</strong></td>
+  </tr>
+  <tr>
+    <td colspan="1"><strong>Date</strong></td>
+    <td colspan="1">2025-13-05</td>
+  </tr>
+  <tr>
+    <td colspan="1"><strong>Time</strong></td>
+    <td colspan="1">12:00 PM</td>
+  </tr>
+  <tr>
+    <td colspan="1"><strong>Location</strong></td>
+    <td colspan="1">Discord</td>
+  </tr>
+  <tr>
+    <td colspan="1"><strong>Prepared by</strong></td>
+    <td colspan="1">Alex Casas</td>
+  </tr>
+  <tr>
+    <td colspan="1"><strong>Attendees (to planning meeting)</strong></td>
+    <td colspan="1">Juan Astonitas, Jose Alejo, Gabriel Casas, Gianluca Pasquale, Sebastian Pacheco</td>
+  </tr>
+  <tr>
+    <td colspan="1"><strong>Sprint n – 1 Review Summary</strong></td>
+    <td colspan="1">Se realizó la landing page implementada con next.js, el front del mobile en android y el backend en srping boot JAVA</td>
+  </tr>
+  <tr>
+    <td colspan="1"><strong>Sprint n – 1 Retrospective Summary</strong></td>
+    <td colspan="1">Mejorar la comunicacion de artefacos relacionados a mas de un miembro.</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Sprint Goal & User Stories</strong></td>
+  </tr>
+  <tr>
+    <td colspan="1"><strong>Sprint 1 Goal</strong></td>
+    <td colspan="1">Nuestro enfoque está en consolidar los elementos fundamentales de SynHub mediante la corrección de artefactos anteriores, el diseño de la aplicación, y la entrega de los primeros prototipos funcionales de la landing page, el backend y la aplicación móvil.  Creemos que esto proporcionará claridad, alineamiento técnico y usabilidad inicial para los primeros usuarios, permitiendo que tanto los coordinadores familiares como los miembros del hogar comiencen a interactuar con una primera versión significativa de la plataforma.  Esto se confirmará cuando la landing page esté en línea, la app móvil muestre los primeros flujos de interfaz, el backend proporcione endpoints básicos de la API, y las correcciones a los artefactos previos estén documentadas y validadas por el equipo.</td>
+  </tr>
+  <tr>
+    <td colspan="1"><strong>Sprint 1 Velocity</strong></td>
+    <td colspan="1">Para este sprint nuestro equipo puende aceptar hasta 100 story points</td>
+  </tr>
+  <tr>
+    <td colspan="1"><strong>Sum of Story Points</strong></td>
+    <td colspan="1">La suma de story point atendidos es de 78+ story point.</td>
+  </tr>
+</table>
+
 ##### 6.2.1.2. Sprint Backlog 1
 
+<table>
+  <tr>
+    <td colspan="1"><strong>Sprint #</strong></td>
+    <td colspan="7"><strong>Sprint 1</strong></td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>User Story</strong></td>
+    <td colspan="6"><strong>Work-Item/task</strong></td>
+  </tr>
+  <tr>
+    <td colspan="1"><strong>Id</strong></td>
+    <td colspan="1"><strong>Title</strong></td>
+    <td colspan="1"><strong>Id</strong></td>
+    <td colspan="1"><strong>Title</strong></td>
+    <td colspan="1"><strong>Description</strong></td>
+    <td colspan="1"><strong>Estimation(Hrs)</strong></td>
+    <td colspan="1"><strong>Assigned To</strong></td>
+    <td colspan="1"><strong>Status</strong></td>
+  </tr>
+  <tr>
+    <td colspan="1">TS-001</td>
+    <td colspan="1">Obtener un grupo por ID</td>
+    <td colspan="1">T01</td>
+    <td colspan="1">Crear getGroupById</td>
+    <td colspan="1">Crear endpoint de groups GET /api/v1/group/{id}  .</td>
+    <td colspan="1">1</td>
+    <td colspan="1">Juan Astonitas</td>
+    <td colspan="1">Done</td>
+  </tr>
+  <tr>
+    <td colspan="1">TS-002</td>
+    <td colspan="1">Obtener todos los grupos de un usuario</td>
+    <td colspan="1">T02</td>
+    <td colspan="1">Crear getAllUserGroups</td>
+    <td colspan="1">Crear endpoint de groups GET /api/v1/group/user/{userId}</td>
+    <td colspan="1">0.5</td>
+    <td colspan="1">Juan Astonitas</td>
+    <td colspan="1">Done</td>
+  </tr>
+  <tr>
+    <td colspan="1">TS-003</td>
+    <td colspan="1">Registrar un nuevo grupo</td>
+    <td colspan="1">T03</td>
+    <td colspan="1">Crear registerGroup</td>
+    <td colspan="1">Crear endpoint de groups GET /api/v1/group</td>
+    <td colspan="1">1</td>
+    <td colspan="1">Juan Astonitas</td>
+    <td colspan="1">Done</td>
+  </tr>
+  <tr>
+    <td colspan="1">TS-004</td>
+    <td colspan="1">Agregar un miembro a un grupo</td>
+    <td colspan="1">T04</td>
+    <td colspan="1">Crear addMemberToGroup</td>
+    <td colspan="1">Crear endpoint de groups POST /api/v1/group/{groupId}/member/{userId}</td>
+    <td colspan="1">1</td>
+    <td colspan="1">Juan Astonitas</td>
+    <td colspan="1">Done</td>
+  </tr>
+  <tr>
+    <td colspan="1">TS-005</td>
+    <td colspan="1">Actualizar un grupo</td>
+    <td colspan="1">T05</td>
+    <td colspan="1">Crear updateGroup</td>
+    <td colspan="1">Crear endpoint de groups PUT/api/v1/group/{id}</td>
+    <td colspan="1">2</td>
+    <td colspan="1">Juan Astonitas</td>
+    <td colspan="1">Done</td>
+  </tr>
+  <tr>
+    <td colspan="1">TS-006</td>
+    <td colspan="1">Eliminar un grupo</td>
+    <td colspan="1">T06</td>
+    <td colspan="1">Crear deleteGroup</td>
+    <td colspan="1">Crear endpoint de groups DELETE/api/v1/group/{id}</td>
+    <td colspan="1">1</td>
+    <td colspan="1">Juan Astonitas</td>
+    <td colspan="1">Done</td>
+  </tr>
+  <tr>
+    <td colspan="1">TS-007</td>
+    <td colspan="1">Obtener todas las tareas por miembro</td>
+    <td colspan="1">T07</td>
+    <td colspan="1">Crear getAllTasksByMemberId</td>
+    <td colspan="1">Crear endpoint de Member Tasks GET /api/v1/{memberId}/tasks</td>
+    <td colspan="1">2.5</td>
+    <td colspan="1">Jose Alejo</td>
+    <td colspan="1">To-do</td>
+  </tr>
+  <tr>
+    <td colspan="1">TS-008</td>
+    <td colspan="1">Crear una nueva tarea para un miembro</td>
+    <td colspan="1">T08</td>
+    <td colspan="1">Crear createNewTask</td>
+    <td colspan="1">Crear endpoint de Member Tasks POST/api/v1/{memberId}/tasks</td>
+    <td colspan="1">2</td>
+    <td colspan="1">Jose Alejo</td>
+    <td colspan="1">Done</td>
+  </tr>
+<tr>
+    <td colspan="1">TS-009</td>
+    <td colspan="1">Obtener todos los miembros</td>
+    <td colspan="1">T09</td>
+    <td colspan="1">Crear getAllMembers</td>
+    <td colspan="1">Crear endpoint de Member GET /api/v1/members</td>
+    <td colspan="1">1</td>
+    <td colspan="1">Jose Alejo</td>
+    <td colspan="1">Done</td>
+  </tr>
+<tr>
+    <td colspan="1">TS-010</td>
+    <td colspan="1">Crear un nuevo miembro</td>
+    <td colspan="1">T010</td>
+    <td colspan="1">Crear createNewMember</td>
+    <td colspan="1">Crear endpoint de Member POST/api/v1/members</td>
+    <td colspan="1">1</td>
+    <td colspan="1">Jose Alejo</td>
+    <td colspan="1">Done</td>
+  </tr>
+<tr>
+    <td colspan="1">TS-011</td>
+    <td colspan="1">Obtener un miembro por ID</td>
+    <td colspan="1">T011</td>
+    <td colspan="1">Crear getMemberById</td>
+    <td colspan="1">Crear endpoint de Member GET /api/v1/members/{memberId}</td>
+    <td colspan="1">1.5</td>
+    <td colspan="1">Jose Alejo</td>
+    <td colspan="1">Done</td>
+  </tr>
+<tr>
+    <td colspan="1">TS-012</td>
+    <td colspan="1">Obtener tarea por ID</td>
+    <td colspan="1">T012</td>
+    <td colspan="1">Crear getTaskById</td>
+    <td colspan="1">Crear endpoint de Task GET /api/v1/tasks/{taskId}</td>
+    <td colspan="1">1.5</td>
+    <td colspan="1">Jose Alejo</td>
+    <td colspan="1">Done</td>
+  </tr>
+<tr>
+    <td colspan="1">TS-013</td>
+    <td colspan="1">Actualizar tarea</td>
+    <td colspan="1">T013</td>
+    <td colspan="1">Crear updateTask</td>
+    <td colspan="1">Crear endpoint de Task PUT /api/v1/tasks/{taskId}</td>
+    <td colspan="1">2</td>
+    <td colspan="1">Jose Alejo</td>
+    <td colspan="1">Done</td>
+  </tr>
+<tr>
+    <td colspan="1">TS-014</td>
+    <td colspan="1">Eliminar tarea</td>
+    <td colspan="1">T014</td>
+    <td colspan="1">Crear deleteTaskById</td>
+    <td colspan="1">Crear endpoint de TASK DELETE /api/v1/tasks/{taskId}</td>
+    <td colspan="1">1</td>
+    <td colspan="1">Jose Alejo</td>
+    <td colspan="1">Done</td>
+  </tr>
+<tr>
+    <td colspan="1">TS-015</td>
+    <td colspan="1">Actualizar estado de tarea</td>
+    <td colspan="1">T015</td>
+    <td colspan="1">Crear updateTaskStatus</td>
+    <td colspan="1">Crear endpoint de Task PUT /api/v1/tasks/{taskId}/status/{status}</td>
+    <td colspan="1">1.5</td>
+    <td colspan="1">Jose Alejo</td>
+    <td colspan="1">Done</td>
+  </tr>
+<tr>
+    <td colspan="1">TS-016</td>
+    <td colspan="1">Obtener todas las tareas</td>
+    <td colspan="1">T016</td>
+    <td colspan="1">Crear getAllTasks</td>
+    <td colspan="1">Crear endpoint de Task GET /api/v1/tasks</td>
+    <td colspan="1">0.5</td>
+    <td colspan="1">Jose Alejo</td>
+    <td colspan="1">Done</td>
+  </tr>
+<tr>
+    <td colspan="1">TS-017</td>
+    <td colspan="1">Obtener tareas por estado</td>
+    <td colspan="1">T017</td>
+    <td colspan="1">Crear  getAllTasksByStatus</td>
+    <td colspan="1">Crear endpoint de Task GET /api/v1/tasks/status/{status}</td>
+    <td colspan="1">1.5</td>
+    <td colspan="1">Jose Alejo</td>
+    <td colspan="1">Done</td>
+  </tr>
+<tr>
+    <td colspan="1">TS-018</td>
+    <td colspan="1">Enviar notificación</td>
+    <td colspan="1">T018</td>
+    <td colspan="1">Crear  sendNotification</td>
+    <td colspan="1">Crear endpoint de Notification POST /api/notifications/send </td>
+    <td colspan="1">3.5</td>
+    <td colspan="1">Gianluca Pasquale</td>
+    <td colspan="1">Done</td>
+  </tr>
+<tr>
+    <td colspan="1">TS-019</td>
+    <td colspan="1">Marcar notificación como leída</td>
+    <td colspan="1">T019</td>
+    <td colspan="1">Crear markAsRead</td>
+    <td colspan="1">Crear endpoint de Notifications POST /api/notifications/mark-as-read/{notificationId}</td>
+    <td colspan="1">0.5</td>
+    <td colspan="1">Gianluca Pasquale</td>
+    <td colspan="1">Done</td>
+  </tr>
+<tr>
+    <td colspan="1">TS-020</td>
+    <td colspan="1">Obtener notificaciones de usuario</td>
+    <td colspan="1">T020</td>
+    <td colspan="1">Crear getUserNotifications</td>
+    <td colspan="1">Crear endpoint de Notifications GET /api/notifications/user/{userId} </td>
+    <td colspan="1">0.5</td>
+    <td colspan="1">Gianluca Pasquale</td>
+    <td colspan="1">Done</td>
+  </tr>
+<tr>
+    <td colspan="1">TS-021</td>
+    <td colspan="1">Obtener notificaciones no leídas de usuario</td>
+    <td colspan="1">T021</td>
+    <td colspan="1">Crear getUserUnreadNotifications</td>
+    <td colspan="1">Crear endpoint de Notifications GET /api/notifications/user/{userId}/unread</td>
+    <td colspan="1">2.5</td>
+    <td colspan="1">Gianluca Pasquale</td>
+    <td colspan="1">Done</td>
+  </tr>
+<tr>
+    <td colspan="1">TS-022</td>
+    <td colspan="1">Generar reporte para un usuario</td>
+    <td colspan="1">T022</td>
+    <td colspan="1">Crear  generateReport</td>
+    <td colspan="1">Crear endpoint de Analytics POST /api/reports/generate/{userId}</td>
+    <td colspan="1">1.5</td>
+    <td colspan="1">Gianluca Pasquale</td>
+    <td colspan="1">Done</td>
+  </tr>
+<tr>
+    <td colspan="1">TS-023</td>
+    <td colspan="1">Obtener reportes de un usuario</td>
+    <td colspan="1">T023</td>
+    <td colspan="1">Crear getUserReports</td>
+    <td colspan="1">Crear endpoint de Analytics GET /api/reports/user/{userId}</td>
+    <td colspan="1">1.5</td>
+    <td colspan="1">Gianluca Pasquale</td>
+    <td colspan="1">Done</td>
+  </tr>
+<tr>
+    <td colspan="1">TS-024</td>
+    <td colspan="1">Actualizar estado de solicitud</td>
+    <td colspan="1">T024</td>
+    <td colspan="1">Crear updateRequestStatus</td>
+    <td colspan="1">Crear endpoint de Request PUT /api/v1/request/{requestId}/status  </td>
+    <td colspan="1">3</td>
+    <td colspan="1">Sebastian Pacheco</td>
+    <td colspan="1">Done</td>
+  </tr>
+<tr>
+    <td colspan="1">TS-025</td>
+    <td colspan="1">Crear nueva solicitud</td>
+    <td colspan="1">T025</td>
+    <td colspan="1">Crear createRequest</td>
+    <td colspan="1">Crear endpoint de Request POST /api/v1/request</td>
+    <td colspan="1">1</td>
+    <td colspan="1">Sebastian Pacheco</td>
+    <td colspan="1">Done</td>
+  </tr>
+<tr>
+    <td colspan="1">TS-026</td>
+    <td colspan="1">Obtener solicitud por ID</td>
+    <td colspan="1">T026</td>
+    <td colspan="1">Crear getRequestById</td>
+    <td colspan="1">Crear endpoint de Request GET /api/v1/request/{requestId} </td>
+    <td colspan="1">2</td>
+    <td colspan="1">Sebastian Pacheco</td>
+    <td colspan="1">Done</td>
+  </tr>
+</table>
+
 ##### 6.2.1.3. Development Evidence for Sprint Review
+
+
+En esta sección se presentan los commits realizados en el repositorio de landing,backend y frontend durante el sprint 1.
+
+**Commits realizados en el repositorio de la Landing Page durante el sprint 1:**
+
+<table >
+  <tr>
+    <th>Repository</th>
+    <th>Branch</th>
+    <th>Commit Id</th>
+    <th>Commit Message</th>
+    <th>Commit Message Body</th>
+    <th>Committed on (Date)</th>
+  </tr>
+  <tr>
+    <td>Landing Page</td>
+    <td>main</td>
+    <td>118fcaf10a77ad214d2692c87a35ae5742d8edd0</td>
+    <td>Update package.json</td>
+    <td></td>
+    <td>2025-05-14</td>
+  </tr>
+  <tr>
+    <td>Landing Page</td>
+    <td>main</td>
+    <td>f9be2319360a8e9abd797e271d4a9cd332cef991</td>
+    <td>fix: downgrade the date fns</td>
+    <td></td>
+    <td>2025-05-14</td>
+  </tr>
+  <tr>
+    <td>Landing Page</td>
+    <td>main</td>
+    <td>d94726dc183633a47c1408614965a50120078710</td>
+    <td>fix: add package.json install script</td>
+    <td></td>
+    <td>2025-05-14</td>
+  </tr>
+  <tr>
+    <td>Landing Page</td>
+    <td>main</td>
+    <td>fc0766300ff6b0820f9c2c4977c584a1c12d5b86</td>
+    <td>Merge pull request #1 from NRG-4/develop</td>
+    <td></td>
+    <td>2025-05-09</td>
+  </tr>
+  <tr>
+    <td>Landing Page</td>
+    <td>develop</td>
+    <td>fc0766300ff6b0820f9c2c4977c584a1c12d5b86</td>
+    <td>feat: add hero img</td>
+    <td></td>
+    <td>2025-05-09</td>
+  </tr>
+  <tr>
+    <td>Landing Page</td>
+    <td>develop</td>
+    <td>8ce265a05a3b0f999ede97e9a534ffa77a8ff541</td>
+    <td>feat: add mision and vision section</td>
+    <td></td>
+    <td>2025-05-09</td>
+  </tr>
+  <tr>
+    <td>Landing Page</td>
+    <td>develop</td>
+    <td>a8bf7b131c8a2529dc0828ed78ddbfafc3d76594</td>
+    <td>feat: add main page structure</td>
+    <td></td>
+    <td>2025-05-09</td>
+  </tr>
+  <tr>
+    <td>Landing Page</td>
+    <td>develop</td>
+    <td>347eeace62b90b5c0fb566a39ef939e2d112a043</td>
+    <td>feat: add features section</td>
+    <td></td>
+    <td>2025-05-09</td>
+  </tr>
+  <tr>
+    <td>Landing Page</td>
+    <td>develop</td>
+    <td>7e90b14e2cfb2b0d6f1c3b37bceadde30e782a04</td>
+    <td>feat: add a CTA</td>
+    <td></td>
+    <td>2025-05-09</td>
+  </tr>
+  <tr>
+    <td>Landing Page</td>
+    <td>develop</td>
+    <td>401594bd56ca8ce500d0560c543db5619c2e754f</td>
+    <td>feat: add hero sextion</td>
+    <td></td>
+    <td>2025-05-09</td>
+  </tr>
+  <tr>
+    <td>Landing Page</td>
+    <td>develop</td>
+    <td>b5703fca7ecee4e9cde0e91be7c56e321d4fd929</td>
+    <td>feat: add team section</td>
+    <td></td>
+    <td>2025-05-09</td>
+  </tr>
+  <tr>
+    <td>Landing Page</td>
+    <td>develop</td>
+    <td>be4713e775db9e68a0ccff63ccdb6bb20a0a3211</td>
+    <td>feat: add main layout</td>
+    <td></td>
+    <td>2025-05-09</td>
+  </tr>
+  <tr>
+    <td>Landing Page</td>
+    <td>develop</td>
+    <td>b83f0df6bbf2e9f355f1d59e7fee853c1b1933b4</td>
+    <td>feat: add footer</td>
+    <td></td>
+    <td>2025-05-09</td>
+  </tr>
+  <tr>
+    <td>Landing Page</td>
+    <td>develop</td>
+    <td>f1de4573d0693328dc99de2b0392a17ef648dec2</td>
+    <td>feat: add header</td>
+    <td></td>
+    <td>2025-05-09</td>
+  </tr>
+  <tr>
+    <td>Landing Page</td>
+    <td>develop</td>
+    <td>23829ee96ae1d1b974b0aecfd3c2ff2cb49871fe</td>
+    <td>feat: add theme switch</td>
+    <td></td>
+    <td>2025-05-09</td>
+  </tr>
+  <tr>
+    <td>Landing Page</td>
+    <td>develop</td>
+    <td>94bb9568fa802601c49d4a87b887e8697f50abda</td>
+    <td>chore: add shadcn components</td>
+    <td></td>
+    <td>2025-05-09</td>
+  </tr>
+  <tr>
+    <td>Landing Page</td>
+    <td>develop</td>
+    <td>1735381c910373325ff8c027517332792e8e191e</td>
+    <td>chore: add team pics</td>
+    <td></td>
+    <td>2025-05-09</td>
+  </tr>
+  <tr>
+    <td>Landing Page</td>
+    <td>develop</td>
+    <td>f3b4f540a9359a16f3cc86e23623e1cd83684a32</td>
+    <td>chore: add react switch</td>
+    <td></td>
+    <td>2025-05-09</td>
+  </tr>
+</table>
+
+**Commits realizados en el repositorio del Frontend durante el sprint 1:**
+
+<table >
+  <tr>
+    <th>Repository</th>
+    <th>Branch</th>
+    <th>Commit Id</th>
+    <th>Commit Message</th>
+    <th>Commit Message Body</th>
+    <th>Committed on (Date)</th>
+  </tr>
+<tr>
+    <th>synhub-mobile-app</th>
+    <th>master</th>
+    <th>84646b987e151215f972384b7875ba04c5e4e9c5</th>
+    <th>chore: setup project.</th>
+    <th></th>
+    <th>May 13 2025</th>
+  </tr>
+</table>
+
+**Commits realizados en el repositorio del Backend durante el sprint 1:**
+
+
+<table>
+  <tr>
+    <th>Repository</th>
+    <th>Branch</th>
+    <th>Commit Id</th>
+    <th>Commit Message</th>
+    <th>Commit Message Body</th>
+    <th>Committed on (Date)</th>
+  </tr>
+  <tr>
+    <td>task-management</td>
+    <td>develop</td>
+    <td>eb8c36026c67f708549a8e999cc7a2e2ecbb6480</td>
+    <td>feat(leader): add member to group endpoint</td>
+    <td></td>
+    <td>May 14, 2025</td>
+  </tr>
+  <tr>
+    <td>task-management</td>
+    <td>develop</td>
+    <td>8953a45c1d417ab48a3c285d8fcc92387b4144f7</td>
+    <td>fix: changed jar name in dockerfile</td>
+    <td></td>
+    <td>May 13, 2025</td>
+  </tr>
+  <tr>
+    <td>task-management</td>
+    <td>develop</td>
+    <td>55e7d0f033f611acd82c842666bbdad9a8ec0b83</td>
+    <td>feat(groups): add command service</td>
+    <td></td>
+    <td>May 13, 2025</td>
+  </tr>
+  <tr>
+    <td>task-management</td>
+    <td>develop</td>
+    <td>7a65718398b6e1b2055d4634ee645424407852a2</td>
+    <td>feat(leader): add get group by leader id endpoint</td>
+    <td></td>
+    <td>May 14, 2025</td>
+  </tr>
+  <tr>
+    <td>task-management</td>
+    <td>develop</td>
+    <td>06d922b76ffc2fec67b95c63e91fe974df7b7dcf</td>
+    <td>feat(leader): add leader controller</td>
+    <td></td>
+    <td>May 14, 2025</td>
+  </tr>
+  <tr>
+    <td>task-management</td>
+    <td>develop</td>
+    <td>5504cf3a3a1ece6f8f28b9dfcb759b5c39fb060f</td>
+    <td>feat(leader): add leader resources and transform</td>
+    <td></td>
+    <td>May 14, 2025</td>
+  </tr>
+  <tr>
+    <td>task-management</td>
+    <td>feat/groups</td>
+    <td>0d90a949386f6d5d3e647267844eaccd7039b86f</td>
+    <td>Merge pull request #3 from NRG-4/feat/groups</td>
+    <td></td>
+    <td>May 13, 2025</td>
+  </tr>
+  <tr>
+    <td>task-management</td>
+    <td>feat/groups</td>
+    <td>ab9a8da2e863c805ef0dda7895c72fb2b8a8f5d6</td>
+    <td>Merge branch 'develop' into feat/groups</td>
+    <td></td>
+    <td>May 13, 2025</td>
+  </tr>
+  <tr>
+    <td>task-management</td>
+    <td>requests</td>
+    <td>d919d31f5b123e528d1dc82c609b5a3fdd3a847f</td>
+    <td>Merge pull request #2 from NRG-4/requests</td>
+    <td></td>
+    <td>May 13, 2025</td>
+  </tr>
+  <tr>
+    <td>task-management</td>
+    <td>develop</td>
+    <td>7d381dab4f926b72cc86a88e66542421e058b4d8</td>
+    <td>fix(controllers): change request status update method name to emphasize on status.</td>
+    <td></td>
+    <td>May 13, 2025</td>
+  </tr>
+</table>
 
 ##### 6.2.1.4. Testing Suite Evidence for Sprint Review
 
 ##### 6.2.1.5. Execution Evidence for Sprint Review
 
+En esta sección se presentan las evidencias de la ejecución de la aplicación para el sprint 1.
+En esta sección, presentamos una recopilación visual y detallada de los avances logrados durante el sprint. A través de imágenes y un video demostrativo, podrás apreciar los resultados concretos de nuestro trabajo y comprender mejor cómo hemos dado forma a las funcionalidades del producto.
+
+
+<img src="images/chapter-6/landingPage1.png" alt="API">
+
+
+<img src="images/chapter-6/landingPage2.png" alt="API">
+
+
+
+<img src="images/chapter-6/landingPage3.png" alt="API">
+
+
+<img src="images/chapter-6/landingPage4.png" alt="API">
+
+
+<img src="images/chapter-6/landingPage5.png" alt="API">
+
+
+<img src="images/chapter-6/landingPage6.png" alt="API">
+
+
+<img src="images/chapter-6/landingPage7.png" alt="API">
+
+
+<img src="images/chapter-6/landingPage8.png" alt="API">
+
+
+<img src="images/chapter-6/landingPage9.png" alt="API">
+
+
+<img src="images/chapter-6/landingPage10.png" alt="API">
+
+
+
+
+<img src="images/chapter-6/api.png" alt="API">
+
+
 ##### 6.2.1.6. Services Documentation Evidence for Sprint Review
+
+Esta tabla presenta la documentación de los servicios implementados como evidencia para la revisión del sprint. Detalla los endpoints disponibles, sus métodos HTTP, descripciones breves de su funcionalidad y los parámetros requeridos, organizados por categorías como *Groups*, *Members*, *Tasks* y *Member Tasks*.
+
+<table>
+    <tr>
+        <th colspan="1"> Tag </th>
+        <th colspan="1"> Verbo http</th>
+        <th colspan="1"> Endpoint </th>
+        <th colspan="1"> Summary </th>
+        <th colspan="1"> Description </th>
+        <th colspan="1"> OperationId </th>
+    </tr>
+    <tr>
+        <td colspan="1"> Groups </td>
+        <td colspan="1"> GET </td>
+        <td colspan="1"> /api/v1/group/{id} </td>
+        <td colspan="1"> Get group by id </td>
+        <td colspan="1"> Retrieve detailed information about a specific group by its ID </td>
+        <td colspan="1"> getGroupById </td>
+    </tr>
+    <tr>
+        <td colspan="1"> Parameters </td>
+        <td colspan="2"> id </td>
+        <td colspan="1"> Request body </td>
+        <td colspan="2"> no </td>
+    </tr>
+    <tr>
+        <td colspan="1"> Groups </td>
+        <td colspan="1"> GET </td>
+        <td colspan="1"> /api/v1/group/user/{userId} </td>
+        <td colspan="1"> Get all user groups </td>
+        <td colspan="1"> Retrieve all groups associated with a specific user </td>
+        <td colspan="1"> getAllUserGroups </td>
+    </tr>
+    <tr>
+        <td colspan="1"> Parameters </td>
+        <td colspan="2"> userId </td>
+        <td colspan="1"> Request body </td>
+        <td colspan="2"> no </td>
+    </tr>
+    <tr>
+        <td colspan="1"> Groups </td>
+        <td colspan="1"> POST </td>
+        <td colspan="1"> /api/v1/group </td>
+        <td colspan="1"> Register new group </td>
+        <td colspan="1"> Create a new group in the system </td>
+        <td colspan="1"> registerGroup </td>
+    </tr>
+    <tr>
+        <td colspan="1"> Parameters </td>
+        <td colspan="2"> no </td>
+        <td colspan="1"> Request body </td>
+        <td colspan="2"> si </td>
+    </tr>
+    <tr>
+        <td colspan="1"> Groups </td>
+        <td colspan="1"> POST </td>
+        <td colspan="1"> /api/v1/group/{groupId}/member/{userId} </td>
+        <td colspan="1"> Add member to group </td>
+        <td colspan="1"> Associate a user as a member of a specific group </td>
+        <td colspan="1"> AddMemberToGroup </td>
+    </tr>
+    <tr>
+        <td colspan="1"> Parameters </td>
+        <td colspan="2"> groupId, userId </td>
+        <td colspan="1"> Request body </td>
+        <td colspan="2"> no </td>
+    </tr>
+    <tr>
+        <td colspan="1"> Groups </td>
+        <td colspan="1"> PUT </td>
+        <td colspan="1"> /api/v1/group/{id} </td>
+        <td colspan="1"> Update group </td>
+        <td colspan="1"> Modify information of an existing group </td>
+        <td colspan="1"> updateGroup </td>
+    </tr>
+    <tr>
+        <td colspan="1"> Parameters </td>
+        <td colspan="2"> id </td>
+        <td colspan="1"> Request body </td>
+        <td colspan="2"> si </td>
+    </tr>
+    <tr>
+        <td colspan="1"> Groups </td>
+        <td colspan="1"> DELETE </td>
+        <td colspan="1"> /api/v1/group/{id} </td>
+        <td colspan="1"> Delete group </td>
+        <td colspan="1"> Remove a group from the system </td>
+        <td colspan="1"> deleteGroup </td>
+    </tr>
+    <tr>
+        <td colspan="1"> Parameters </td>
+        <td colspan="2"> id </td>
+        <td colspan="1"> Request body </td>
+        <td colspan="2"> no </td>
+    </tr>
+    <tr>
+        <td colspan="1"> Member Tasks </td>
+        <td colspan="1"> GET </td>
+        <td colspan="1"> /api/v1/{memberId}/tasks </td>
+        <td colspan="1"> Get all tasks by member id </td>
+        <td colspan="1"> Retrieve all tasks assigned to a specific member </td>
+        <td colspan="1"> getAllTasksByMemberId </td>
+    </tr>
+    <tr>
+        <td colspan="1"> Parameters </td>
+        <td colspan="2"> memberId </td>
+        <td colspan="1"> Request body </td>
+        <td colspan="2"> no </td>
+    </tr>
+    <tr>
+        <td colspan="1"> Member Tasks </td>
+        <td colspan="1"> POST </td>
+        <td colspan="1"> /api/v1/{memberId}/tasks </td>
+        <td colspan="1"> Create new task </td>
+        <td colspan="1"> Assign a new task to a specific member </td>
+        <td colspan="1"> createNewTask </td>
+    </tr>
+    <tr>
+        <td colspan="1"> Parameters </td>
+        <td colspan="2"> memberId </td>
+        <td colspan="1"> Request body </td>
+        <td colspan="2"> si </td>
+    </tr>
+    <tr>
+        <td colspan="1"> Members </td>
+        <td colspan="1"> GET </td>
+        <td colspan="1"> /api/v1/members </td>
+        <td colspan="1"> Get all members </td>
+        <td colspan="1"> Retrieve all members registered in the system </td>
+        <td colspan="1"> getAllMembers </td>
+    </tr>
+    <tr>
+        <td colspan="1"> Parameters </td>
+        <td colspan="2"> no </td>
+        <td colspan="1"> Request body </td>
+        <td colspan="2"> no </td>
+    </tr>
+    <tr>
+        <td colspan="1"> Members </td>
+        <td colspan="1"> POST </td>
+        <td colspan="1"> /api/v1/members </td>
+        <td colspan="1"> Create new member </td>
+        <td colspan="1"> Register a new member in the system </td>
+        <td colspan="1"> createNewMember </td>
+    </tr>
+    <tr>
+        <td colspan="1"> Parameters </td>
+        <td colspan="2"> no </td>
+        <td colspan="1"> Request body </td>
+        <td colspan="2"> si </td>
+    </tr>
+    <tr>
+        <td colspan="1"> Members </td>
+        <td colspan="1"> GET </td>
+        <td colspan="1"> /api/v1/members/{memberId} </td>
+        <td colspan="1"> Get member by id </td>
+        <td colspan="1"> Retrieve detailed information about a specific member </td>
+        <td colspan="1"> getMemberById </td>
+    </tr>
+    <tr>
+        <td colspan="1"> Parameters </td>
+        <td colspan="2"> memberId </td>
+        <td colspan="1"> Request body </td>
+        <td colspan="2"> no </td>
+    </tr>
+    <tr>
+        <td colspan="1"> Tasks </td>
+        <td colspan="1"> GET </td>
+        <td colspan="1"> /api/v1/tasks/{taskId} </td>
+        <td colspan="1"> Get task by id </td>
+        <td colspan="1"> Retrieve detailed information about a specific task </td>
+        <td colspan="1"> getTaskById </td>
+    </tr>
+    <tr>
+        <td colspan="1"> Parameters </td>
+        <td colspan="2"> taskId </td>
+        <td colspan="1"> Request body </td>
+        <td colspan="2"> no </td>
+    </tr>
+    <tr>
+        <td colspan="1"> Tasks </td>
+        <td colspan="1"> PUT </td>
+        <td colspan="1"> /api/v1/tasks/{taskId} </td>
+        <td colspan="1"> Update task </td>
+        <td colspan="1"> Modify information of an existing task </td>
+        <td colspan="1"> updateTask </td>
+    </tr>
+    <tr>
+        <td colspan="1"> Parameters </td>
+        <td colspan="2"> taskId </td>
+        <td colspan="1"> Request body </td>
+        <td colspan="2"> si </td>
+    </tr>
+    <tr>
+        <td colspan="1"> Tasks </td>
+        <td colspan="1"> DELETE </td>
+        <td colspan="1"> /api/v1/tasks/{taskId} </td>
+        <td colspan="1"> Delete task by id </td>
+        <td colspan="1"> Remove a task from the system </td>
+        <td colspan="1"> deleteTaskById </td>
+    </tr>
+    <tr>
+        <td colspan="1"> Parameters </td>
+        <td colspan="2"> taskId </td>
+        <td colspan="1"> Request body </td>
+        <td colspan="2"> no </td>
+    </tr>
+    <tr>
+        <td colspan="1"> Tasks </td>
+        <td colspan="1"> PUT </td>
+        <td colspan="1"> /api/v1/tasks/{taskId}/status/{status} </td>
+        <td colspan="1"> Update task status </td>
+        <td colspan="1"> Change the status of an existing task </td>
+        <td colspan="1"> updateTaskStatus </td>
+    </tr>
+    <tr>
+        <td colspan="1"> Parameters </td>
+        <td colspan="2"> taskId, status </td>
+        <td colspan="1"> Request body </td>
+        <td colspan="2"> no </td>
+    </tr>
+    <tr>
+        <td colspan="1"> Tasks </td>
+        <td colspan="1"> GET </td>
+        <td colspan="1"> /api/v1/tasks </td>
+        <td colspan="1"> Get all tasks </td>
+        <td colspan="1"> Retrieve all tasks in the system </td>
+        <td colspan="1"> getAllTasks </td>
+    </tr>
+    <tr>
+        <td colspan="1"> Parameters </td>
+        <td colspan="2"> no </td>
+        <td colspan="1"> Request body </td>
+        <td colspan="2"> no </td>
+    </tr>
+    <tr>
+        <td colspan="1"> Tasks </td>
+        <td colspan="1"> GET </td>
+        <td colspan="1"> /api/v1/tasks/status/{status} </td>
+        <td colspan="1"> Get all tasks by status </td>
+        <td colspan="1"> Retrieve all tasks filtered by a specific status </td>
+        <td colspan="1"> getAllTasksByStatus </td>
+    </tr>
+    <tr>
+        <td colspan="1"> Parameters </td>
+        <td colspan="2"> status </td>
+        <td colspan="1"> Request body </td>
+        <td colspan="2"> no </td>
+    </tr>
+    <tr>
+        <td colspan="1"> Notifications </td>
+        <td colspan="1"> POST </td>
+        <td colspan="1"> /api/notifications/send </td>
+        <td colspan="1"> Send notification </td>
+        <td colspan="1"> Create and send a new notification to a user </td>
+        <td colspan="1"> sendNotification </td>
+    </tr>
+    <tr>
+        <td colspan="1"> Parameters </td>
+        <td colspan="2"> no </td>
+        <td colspan="1"> Request body </td>
+        <td colspan="2"> si </td>
+    </tr>
+    <tr>
+        <td colspan="1"> Notifications </td>
+        <td colspan="1"> POST </td>
+        <td colspan="1"> /api/notifications/mark-as-read/{notificationId} </td>
+        <td colspan="1"> Mark notification as read </td>
+        <td colspan="1"> Update the read status of a specific notification </td>
+        <td colspan="1"> markAsRead </td>
+    </tr>
+    <tr>
+        <td colspan="1"> Parameters </td>
+        <td colspan="2"> notificationId </td>
+        <td colspan="1"> Request body </td>
+        <td colspan="2"> no </td>
+    </tr>
+    <tr>
+        <td colspan="1"> Notifications </td>
+        <td colspan="1"> GET </td>
+        <td colspan="1"> /api/notifications/user/{userId} </td>
+        <td colspan="1"> Get user notifications </td>
+        <td colspan="1"> Retrieve all notifications for a specific user </td>
+        <td colspan="1"> getUserNotifications </td>
+    </tr>
+    <tr>
+        <td colspan="1"> Parameters </td>
+        <td colspan="2"> userId </td>
+        <td colspan="1"> Request body </td>
+        <td colspan="2"> no </td>
+    </tr>
+    <tr>
+        <td colspan="1"> Notifications </td>
+        <td colspan="1"> GET </td>
+        <td colspan="1"> /api/notifications/user/{userId}/unread </td>
+        <td colspan="1"> Get user unread notifications </td>
+        <td colspan="1"> Retrieve all unread notifications for a specific user </td>
+        <td colspan="1"> getUserUnreadNotifications </td>
+    </tr>
+    <tr>
+        <td colspan="1"> Parameters </td>
+        <td colspan="2"> userId </td>
+        <td colspan="1"> Request body </td>
+        <td colspan="2"> no </td>
+    </tr>
+    <tr>
+        <td colspan="1"> Analytics </td>
+        <td colspan="1"> POST </td>
+        <td colspan="1"> /api/reports/generate/{userId} </td>
+        <td colspan="1"> Generate report </td>
+        <td colspan="1"> Create a new analytics report for a specific user </td>
+        <td colspan="1"> generateReport </td>
+    </tr>
+    <tr>
+        <td colspan="1"> Parameters </td>
+        <td colspan="2"> userId </td>
+        <td colspan="1"> Request body </td>
+        <td colspan="2"> si </td>
+    </tr>
+    <tr>
+        <td colspan="1"> Analytics </td>
+        <td colspan="1"> GET </td>
+        <td colspan="1"> /api/reports/user/{userId} </td>
+        <td colspan="1"> Get user reports </td>
+        <td colspan="1"> Retrieve all generated reports for a specific user </td>
+        <td colspan="1"> getUserReports </td>
+    </tr>
+    <tr>
+        <td colspan="1"> Parameters </td>
+        <td colspan="2"> userId </td>
+        <td colspan="1"> Request body </td>
+        <td colspan="2"> no </td>
+    </tr>
+    <tr>
+        <td colspan="1"> Requests </td>
+        <td colspan="1"> PUT </td>
+        <td colspan="1"> /api/v1/request/{requestId}/status </td>
+        <td colspan="1"> Update request status </td>
+        <td colspan="1"> Change the status of an existing request </td>
+        <td colspan="1"> updateRequestStatus </td>
+    </tr>
+    <tr>
+        <td colspan="1"> Parameters </td>
+        <td colspan="2"> requestId </td>
+        <td colspan="1"> Request body </td>
+        <td colspan="2"> si </td>
+    </tr>
+    <tr>
+        <td colspan="1"> Requests </td>
+        <td colspan="1"> POST </td>
+        <td colspan="1"> /api/v1/request </td>
+        <td colspan="1"> Create request </td>
+        <td colspan="1"> Create a new request in the system </td>
+        <td colspan="1"> createRequest </td>
+    </tr>
+    <tr>
+        <td colspan="1"> Parameters </td>
+        <td colspan="2"> no </td>
+        <td colspan="1"> Request body </td>
+        <td colspan="2"> si </td>
+    </tr>
+    <tr>
+        <td colspan="1"> Requests </td>
+        <td colspan="1"> GET </td>
+        <td colspan="1"> /api/v1/request/{requestId} </td>
+        <td colspan="1"> Get request by id </td>
+        <td colspan="1"> Retrieve detailed information about a specific request </td>
+        <td colspan="1"> getRequestById </td>
+    </tr>
+    <tr>
+        <td colspan="1"> Parameters </td>
+        <td colspan="2"> requestId </td>
+        <td colspan="1"> Request body </td>
+        <td colspan="2"> no </td>
+    </tr>
+</table>
 
 ##### 6.2.1.7. Software Deployment Evidence for Sprint Review
 
+**Landing Page**
+Para hacer el deployment de la aplicacion web se utilizó render, una plataforma que permite hacer el deployment de aplicaciones de forma sencilla y rápida.
+Enlace de la landing page:[https://synhub-landing.onrender.com/](https://synhub-landing.onrender.com/ "https://synhub-landing.onrender.com/")
+
+<img src="images/chapter-6/deploy1.png">
+
+
+**Backend**
+Para hacer el deployment de la aplicacion web se utilizó render, una plataforma que permite hacer el deployment de aplicaciones de forma sencilla y rápida.
+Enlace del frontend: [https://synhub-backend.onrender.com/swagger-ui/index.html#/](https://synhub-backend.onrender.com/swagger-ui/index.html#/ "https://synhub-backend.onrender.com/swagger-ui/index.html#/")
+
+<img src="images/chapter-6/deploy2.png">
+
+
 ##### 6.2.1.8. Team Collaboration Insights during Sprint
 
-### 6.3. Validation Interviews
+Para este sprint se desarrollaron 3 productos siendo estos: landing page, web application y web services. Para la landing page hubo un solo encargado debido a que ya se encontraba en la etapa final de su desarrollo. Para lode más productos todo los integrantes participaron. La distribución de commit fue la siguiente:
 
-#### 6.3.1. Diseño de entrevistas
+**Landing Page**
 
-#### 6.3.2. Registro de entrevistas
+<img src="images/insights/sprint-1/sprint-1-lp-insights-1.png">
+<img src="images/insights/sprint-1/sprint-1-lp-insights-2.png">
 
-#### 6.3.3. Evaluaciones según heurísticas
+**Distribución de commits de commits:**
 
-### 6.4. Video About-the-Product
+- Juan Diego Astonitas Díaz: 17 commits.
+
+**Mobile App**
+
+<img src="images/insights/sprint-1/sprint-1-ma-insights-1.png">
+<img src="images/insights/sprint-1/sprint-1-ma-insights-2.png">
+<img src="images/insights/sprint-1/sprint-1-ma-insights-3.png">
+<img src="images/insights/sprint-1/sprint-1-ma-insights-4.png">
+
+**Distribución de commits de commits:**
+
+- Juan Diego Astonitas Díaz: 5 commits.
+- Gabriel Alexander Casas Sanchez: 9 commits.
+- Gianluca Santino Pasquale Barrenechea: 2 commits.
+- Alejo Cardenas Jose Antonio: 6 commits.
+- Pacheco Astiguetta Sebastian: 3 commits.
+
+**Backend**
+
+<img src="images/insights/sprint-1/sprint-1-bk-insights-1.png">
+<img src="images/insights/sprint-1/sprint-1-bk-insights-2.png">
+<img src="images/insights/sprint-1/sprint-1-bk-insights-3.png">
+
+**Distribución de commits de commits:**
+
+- Juan Diego Astonitas Díaz: 22 commits.
+- Gabriel Alexander Casas Sanchez: 31 commits.
+- Gianluca Santino Pasquale Barrenechea: 60 commits.
+- Alejo Cardenas Jose Antonio: 7 commits.
+- Pacheco Astiguetta Sebastian: 39 commits.
 
 ## Conclusiones
 
