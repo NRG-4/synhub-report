@@ -4588,39 +4588,274 @@ El **Database Diagram** para el Bounded Context de "Gestión de Tareas" modela l
 
 ### 5.1. Product Design
 
+Product Design es el proceso de imaginar, planificar y crear un producto que resuelva un problema o satisfaga una necesidad específica de los usuarios. Involucra entender profundamente a los usuarios, definir requisitos funcionales y de experiencia, diseñar interfaces intuitivas, y validar soluciones mediante iteraciones constantes.
+
 #### 5.1.1. Style Guidelines
+
+El objetivo de estas directrices es asegurar que todas las interfaces de usuario (UI) de SynHub sigan un enfoque coherente y accesible, promoviendo una experiencia visual clara y agradable. Esto incluye el uso de elementos visuales consistentes, como colores, tipografías y gráficos, tanto para la landing page como para la aplicación móvil.
+
+Al seguir estas directrices, SynHub busca garantizar una interfaz intuitiva que sea fácil de navegar para todos los usuarios, creando una atmósfera de confianza y accesibilidad. Se hace énfasis en diseñar una aplicación moderna, accesible y centrada en el usuario, en la que cada detalle visual contribuya a hacer más fluida la experiencia del usuario, mientras refleja los valores de eficiencia y colaboración que la plataforma promueve.
 
 ##### 5.1.1.1. General Style Guidelines
 
+**Colores:**
+
+Para SynHub, una plataforma orientada a la gestión colaborativa de tareas, horarios y responsabilidades, es importante elegir una paleta de colores que refuerce la accesibilidad, claridad y profesionalismo, mientras refleja el enfoque organizado y eficiente de la aplicación.
+
+Los colores principales busca establecer una apariencia de confiabilidad y simplicidad. Mientras que los colores secundarios serán utilizados para los fondos de las vistas, estados de validación y el color de la tipografía.
+
+<img src="images/chapter-5/colors.png" alt="Colores" width="600"/>
+
+**Tipografía**
+
+Lato es una tipografía con base en sans-serif, lo que significa que tienen un enfoque limpio y sin adornos, ideal para entornos digitales y modernos, donde la facilidad de lectura y la atracción visual son fundamentales. Además, sus líneas geométricas y proporciones balanceadas refuerzan la identidad visual de una empresa que se especializa en servicios de belleza de alta calidad, ofreciendo una experiencia visual coherente y atractiva.
+
+<img src="images/chapter-5/typography.png" alt="Tipografía" width="600"/>
+
+**Simplicidad y Claridad**
+
+La simplicidad y claridad son principios esenciales para crear aplicaciones funcionales que faciliten la interacción del usuario. Al centrarse en estos principios, SynHub podrá proporcionar una experiencia eficiente, accesible y agradable, ayudando a los usuarios a concentrarse en lo que realmente importa: la organización y gestión colaborativa de tareas.
+Se buscará cumpli con los siguientes objetivos:
+
+- **Interfaz Minimalista:** Utilizar un diseño limpio y sin distracciones. Solo se deben mostrar los elementos más esenciales, como botones, menús y texto que guíen al usuario hacia la acción principal.
+- **Uso de Espacios Blancos:** Un espacio adecuado entre los elementos de la interfaz ayuda a que la pantalla no se vea sobrecargada.
+- **Simplificación de los Flujos de Usuarios:** Los procesos y flujos dentro de la aplicación deben ser lo más directos posibles.
+- **Jerarquía Visual:** Es importante destacar los elementos más importantes de la pantalla usando diferentes tamaños, colores y posiciones.
+- **Iconos y Símbolos Intuitivos:** Los iconos deben ser fáciles de reconocer y comprender sin necesidad de texto adicional.
+- **Lenguaje Claro y Directo:** Los textos deben ser fáciles de entender. Usar un lenguaje simple y accesible.
+
 #### 5.1.2. Information Architecture
+
+Es un aspecto fundamental en el diseño de experiencias digitales, ya que define cómo se organizará y presentará la información en las plataformas web y móvil. En esta sección, el equipo establece las decisiones clave que guiarán la estructura de los productos, asegurando que los usuarios y visitantes puedan navegar de manera intuitiva y encontrar la información o funcionalidad que necesitan de manera rápida y eficiente.
 
 ##### 5.1.2.1. Organization Systems
 
+En esta sección, el equipo detalla cómo se aplicarán los sistemas de organización de la información en la aplicación, con el objetivo de garantizar que los usuarios encuentren rápidamente lo que necesitan y naveguen de manera eficiente. La organización visual del contenido se estructurará de la siguiente manera:
+
+- Jerárquica (Visual Hierarchy): Este enfoque se utilizará para destacar los elementos más importantes de la aplicación, como botones y acciones clave, mediante el uso de diferentes tamaños, colores y posiciones.
+- Organización Secuencial (Step-by-Step): Este sistema será aplicado en procesos que requieran una secuencia lógica. Cada paso se presentará de forma clara y fácil de seguir, reduciendo la carga cognitiva del usuario.
+- Organización Matricial: En secciones donde se necesite comparar información o ver opciones interrelacionadas, se usará este enfoque, permitiendo al usuario comparar fácilmente los datos disponibles y tomar decisiones informadas.
+
+Este enfoque en la organización de la información se alinea con los objetivos de diseño de la aplicación, que buscan una interfaz minimalista, clara y fácil de usar, donde los elementos esenciales sean visibles, los flujos de usuarios sean simplificados y la jerarquía visual sea clara.
+
 ##### 5.1.2.2. Labeling Systems
+
+El sistema de etiquetado se enfoca en definir cómo se presentarán los datos y opciones dentro de la aplicación, utilizando un lenguaje claro, simple y directo. El objetivo es que las etiquetas sean inmediatamente comprensibles para los usuarios, minimizando la carga cognitiva y evitando confusión o ambigüedad. La propuesta designada para synhub es la siguiente:
+
+
+| Sección                      | Etiqueta Propuesta |
+| ----------------------------- | ------------------ |
+| Asignación de Tareas         | "Tareas"           |
+| Gestión de Horarios          | "Calendario"       |
+| Estadísticas de Cumplimiento | "Estadísticas"    |
+| Recordatorios                 | "Recordatorios"    |
+| Perfil de Usuario             | "Mi Perfil"        |
+| Configuración                | "Configuración"   |
+| Grupos                        | "Mis Grupos"       |
+| Actividad Reciente            | "Actividad"        |
 
 ##### 5.1.2.3. SEO Tags and Meta Tags
 
+Esta sección define cómo se implementarán las etiquetas de optimización para motores de búsqueda en el sitio web y cómo se optimizará la presencia de SynHub en tiendas de aplicaciones móviles. El objetivo es mejorar la visibilidad de SynHub, atraer tráfico orgánico, y asegurar que tanto usuarios como motores de búsqueda entiendan de inmediato el propósito de la plataforma.
+
+**Para Landing Page Web:**
+
+- Title: SynHub - Organiza tu hogar y equipos de manera fácil
+- Meta Description: Plataforma colaborativa para gestionar tareas, horarios y responsabilidades en hogares, oficinas y comunidades. Organiza tu vida diaria de forma sencilla y eficiente con SynHub.
+- Meta Keywords: organización de tareas, gestión familiar, calendario colaborativo, app de tareas, productividad en grupo
+- Meta Author: NRG4 - SynHub Team
+
+**Para Mobile App (App Store / Play Store):**
+
+- App Title: SynHub: Organización de Tareas y Calendarios
+- App Keywords: tareas, calendario, hogar, productividad, recordatorios, familia, equipo, organización
+- App Subtitle: Planifica tu día, organiza tu hogar y tu equipo fácilmente.
+- App Description: SynHub te ayuda a gestionar tareas, compartir calendarios, asignar responsabilidades y mantener a todos organizados, ya sea en casa o en el trabajo. ¡Simplifica tu vida diaria con una plataforma intuitiva y accesible!
+
 ##### 5.1.2.4. Searching Systems
 
+Estas decisiones están diseñadas para evitar que los usuarios se sientan abrumados por grandes volúmenes de información, facilitando una navegación eficiente y una búsqueda precisa. A continuación, se detallan las opciones de búsqueda y los filtros disponibles, así como la presentación de los datos después de la búsqueda.
+
+**Barra de secciones:** Dentro de la landing page, se implementará una barra de búsqueda que permitirá a los usuarios buscar información específica dentro de las secciones disponibles. Esta barra estará ubicada en la parte superior de la página y será fácilmente accesible.
+
+**Menú desplegable:** En la aplicación móvil, se incluirá un menú desplegable que permitirá a los usuarios filtrar la información según diferentes categorías. Este menú estará disponible en la parte superior izquierda de la pantalla.
+
+**Descripción de tareas:** En la sección de tareas al dar click a alguna tarea, se abrirá una ventana emergente que mostrará la descripción de la tarea seleccionada. Esta ventana incluirá información adicional como el estado de la tarea, la fecha de vencimiento y los miembros asignados.
+
+**Tareas de usuario:** En la sección de grupos al hacer click sobre un integrante del grupo se podrán visualizar todas las tareas asignadas a ese usuario. Esta funcionalidad permitirá a los líderes y miembros del grupo ver rápidamente las responsabilidades de cada integrante.
+
+**Tareas:** En el módulo de tareas se visualizará una lista de todas las tareas asignadas al integrante que se encuentre en esa sección, al hacer click sobre ellas se mostrará la descripción de la tarea, el estado de la misma y la fecha de vencimiento. Esta funcionalidad permitirá a los usuarios tener un acceso rápido a la información relevante sobre sus tareas.
+
+**Solicitudes (integrantes de grupo):** En la sección de solicitudes se visualizará una lista de todas las solicitudes realizadas por el usuario, al hacer click sobre ellas se mostrará la descripción de la solicitud y el estado de la misma. Esta funcionalidad permitirá a los usuarios tener un acceso rápido a la información relevante sobre sus solicitudes.
+
+**Solicitudes (líderes de grupo):** En la sección de solicitudes se visualizará una lista de todas las solicitudes realizadas por los integrantes del grupo, al hacer click sobre ellas se mostrará la descripción de la solicitud y el estado de la misma. Esta funcionalidad permitirá a los líderes tener un acceso rápido a la información relevante sobre las solicitudes de sus integrantes. Además, podrá filtrar las solicitudes por el tipo de solicitud (reprogramación, validación o incumplimiento).
+
 ##### 5.1.2.5. Navigation Systems
+
+La estructura de navegación y las opciones disponibles en nuestro producto digital están diseñadas para proporcionar una experiencia de usuario intuitiva y eficiente. A continuación se muestra un resumen de las secciones y elementos clave:
+
+**Landing Page**
+Barra de navegación con secciones:
+
+- About Us
+- Mision & Vision
+- Features
+- Nrg5 Team
+
+**Mobile App**
+Mediante el uso de un menú lateral, los usuarios podrán acceder a las siguientes secciones:
+
+- Tareas
+- Calendario
+- Estadísticas
+- Recordatorios
+- Mi Perfil
+- Configuración
+- Mis Grupos
 
 #### 5.1.3. Landing Page UI Design
 
 ##### 5.1.3.1. Landing Page Wireframe
 
+Los wireframes de la landing page de Synhub definen la estructura clave y la distribución de elementos, garantizando una presentación clara y atractiva para el usuario. Estos esquemas visuales aseguran que la información esencial se comunique de manera eficiente, optimizando la experiencia desde el primer contacto.
+
+<img src="images/chapter-5/landing-wireframe.png" alt="Wireframe Landing" width="600"/>
+
 ##### 5.1.3.2. Landing Page Mock-up
+
+En esta sección se muestran los mock-ups de la landing page de Synhub, donde se aplican los principios de diseño, la arquitectura de información y el Design System para crear una experiencia visual coherente y efectiva. Cada diseño refleja la identidad de la marca y optimiza la conversión desde el primer impacto visual.
+
+<img src="images/chapter-5/landing-mockup.png" alt="Mockup Landing" width="600"/>
 
 #### 5.1.4. Mobile Applications UX/UI Design
 
 ##### 5.1.4.1. Mobile Applications Wireframes
 
+Los wireframes de Synhub representan la estructura y disposición de las pantallas clave, mostrando la ubicación de los elementos de la interfaz de usuario y la navegación. Estos esquemas visuales proporcionan una guía clara para el diseño final, asegurando que la experiencia del usuario sea intuitiva y eficiente.
+
+<img src="images/chapter-5/wireframe-1.png" alt="Wireframe 1" width="600"/>
+
+<img src="images/chapter-5/wireframe-2.png" alt="Wireframe 1" width="600"/>
+
+<img src="images/chapter-5/wireframe-3.png" alt="Wireframe 1" width="600"/>
+
+<img src="images/chapter-5/wireframe-4.png" alt="Wireframe 1" width="600"/>
+
+<img src="images/chapter-5/wireframe-5.png" alt="Wireframe 1" width="600"/>
+
+<img src="images/chapter-5/wireframe-6.png" alt="Wireframe 1" width="600"/>
+
 ##### 5.1.4.2. Mobile Applications Wireflow Diagrams
+
+Los wireflow diagrams de Synhub representan la secuencia de interacciones y pantallas que los usuarios experimentarán al navegar por la aplicación.
+
+**Creación de grupo:** este wireflow corresponde a cuando un lider de equipo buscar crear un nuevo grupo.
+
+<img src="images/chapter-5/wireflow-1.png" alt="Wireflow 1" width="600"/>
+
+**Invitación de integrante:** este wireflow corresponde a cuando un lider de equipo busca invitar a un nuevo integrante al grupo.
+
+<img src="images/chapter-5/wireflow-2-1.png" alt="Wireflow 2" width="600"/>
+
+<img src="images/chapter-5/wireflow-2-2.png" alt="Wireflow 2" width="600"/>
+
+**Asignación de tarea:** este wireflow corresponde a cuando un lider de equipo busca asignar una nueva tarea a un integrante del grupo.
+
+<img src="images/chapter-5/wireflow-3.png" alt="Wireflow 3" width="600"/>
+
+**Edición de tarea:** este wireflow corresponde a cuando un lider de equipo busca editar una tarea ya existente.
+
+<img src="images/chapter-5/wireflow-4.png" alt="Wireflow 4" width="600"/>
+
+**Eliminación de tarea:** este wireflow corresponde a cuando un lider de equipo busca eliminar una tarea ya existente.
+
+<img src="images/chapter-5/wireflow-5.png" alt="Wireflow 5" width="600"/>
+
+**Ver la información de una tarea:** este wireflow corresponde a cuando un lider de equipo busca ver la información de una tarea ya existente.
+
+<img src="images/chapter-5/wireflow-6.png" alt="Wireflow 6" width="600"/>
+
+**Revisar una solicitud o validación:** este wireflow corresponde a cuando un lider de equipo busca revisar una solicitud o validación ya existente.
+
+<img src="images/chapter-5/wireflow-7.png" alt="Wireflow 7" width="600"/>
 
 ##### 5.1.4.3. Mobile Applications Mock-ups
 
+En esta sección se presentan y explican los Mock-ups de la aplicación. Se evidencia la aplicación de los principios y elementos de diseño, el diseño inclusivo, la arquitectura de información y el Design System establecido en el desarrollo de los wireframes. Cada mock-up ilustra cómo se implementan estos conceptos en la interfaz de usuario.
+
+<img src="images/chapter-5/mockup-1.png" alt="Mockup 1" width="600"/>
+
+<img src="images/chapter-5/mockup-2.png" alt="Mockup 2" width="600"/>
+
+<img src="images/chapter-5/mockup-3.png" alt="Mockup 3" width="600"/>
+
+<img src="images/chapter-5/mockup-4.png" alt="Mockup 4" width="600"/>
+
+<img src="images/chapter-5/mockup-5.png" alt="Mockup 5" width="600"/>
+
+<img src="images/chapter-5/mockup-6.png" alt="Mockup 6" width="600"/>
+
+<img src="images/chapter-5/mockup-7.png" alt="Mockup 7" width="600"/>
+
 ##### 5.1.4.4. Mobile Applications User Flow Diagrams
 
+**Creación de grupo:** este userflow corresponde a cuando un lider de equipo buscar crear un nuevo grupo.
+Task flow: 🟥 Happy Path, 🟨 Error Path, 🟦 User Goal
+
+<img src="images/chapter-5/userflow-t1.png" alt="Userflow Table 1" width="600"/>
+
+<img src="images/chapter-5/userflow-1.png" alt="Userflow 1" width="600"/>
+
+**Invitación de integrante:** este userflow corresponde a cuando un lider de equipo busca invitar a un nuevo integrante al grupo.
+Task flow: 🟥 Happy Path, 🟨 Error Path, 🟦 User Goal
+
+<img src="images/chapter-5/userflow-t2.png" alt="Userflow Table 2" width="600"/>
+
+<img src="images/chapter-5/userflow-2.png" alt="Userflow 2" width="600"/>
+
+**Asignación de tarea:** este userflow corresponde a cuando un lider de equipo busca asignar una nueva tarea a un integrante del grupo.
+Task flow: 🟥 Happy Path, 🟨 Error Path, 🟦 User Goal
+
+<img src="images/chapter-5/userflow-t3.png" alt="Userflow Table 3" width="600"/>
+
+<img src="images/chapter-5/userflow-3.png" alt="Userflow 3" width="600"/>
+
+**Edición de tarea:** este userflow corresponde a cuando un lider de equipo busca editar una tarea ya existente.
+Task flow: 🟥 Happy Path, 🟨 Error Path, 🟦 User Goal
+
+<img src="images/chapter-5/userflow-t4.png" alt="Userflow Table 4" width="600"/>
+
+<img src="images/chapter-5/userflow-4.png" alt="Userflow 4" width="600"/>
+
+**Eliminación de tarea:** este userflow corresponde a cuando un lider de equipo busca eliminar una tarea ya existente.
+Task flow: 🟥 Happy Path, 🟨 Error Path, 🟦 User Goal
+
+<img src="images/chapter-5/userflow-t5.png" alt="Userflow Table 5" width="600"/>
+
+<img src="images/chapter-5/userflow-5.png" alt="Userflow 5" width="600"/>
+
+**Ver la información de una tarea:** este userflow corresponde a cuando un lider de equipo busca ver la información de una tarea ya existente.
+Task flow: 🟥 Happy Path, 🟨 Error Path, 🟦 User Goal
+
+<img src="images/chapter-5/userflow-t6.png" alt="Userflow Table 6" width="600"/>
+
+<img src="images/chapter-5/userflow-6.png" alt="Userflow 6" width="600"/>
+
+**Revisar una solicitud o validación:** este userflow corresponde a cuando un lider de equipo busca revisar una solicitud o validación ya existente.
+Task flow: 🟥 Happy Path, 🟨 Error Path, 🟦 User Goal
+
+<img src="images/chapter-5/userflow-t7.png" alt="Userflow Table 7" width="600"/>
+
+<img src="images/chapter-5/userflow-7.png" alt="Userflow 7" width="600"/>
+
 ##### 5.1.4.5. Mobile Applications Prototyping
+
+Para este apartado comenzamos con la **creación de grupos**, donde el líder establece un nuevo espacio de trabajo, seguido de la **invitación de integrantes** para conformar el equipo. Una vez formado el grupo, el líder puede **asignar tareas** específicas a cada miembro, con la capacidad de **editar** los detalles de estas tareas si es necesario o **eliminarlas** cuando ya no sean relevantes. Además, el líder puede **consultar la información detallada** de cualquier tarea para hacer seguimiento, y **revisar solicitudes o validaciones** presentadas por los miembros del equipo, lo que le permite aprobar, rechazar o dar retroalimentación sobre el trabajo realizado. Estos flujos cubren el ciclo completo de gestión, desde la organización del equipo hasta la supervisión y validación de las actividades asignadas.
+
+<img src="images/chapter-5/mobileApplicationsPrototyping.png" alt="Mobile Applications Prototyping" width="1000"/>
+
+
+[SharePoint Folder Link](https://upcedupe-my.sharepoint.com/:f:/g/personal/u202122484_upc_edu_pe/EqNVpYJc7IJEg7W91so2GWIB6L7tjj3XJM06ohLW-ME1AA?e=J9pt8a)
 
 ## Capítulo VI: Product Implementation, Validation & Deployment
 
