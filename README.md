@@ -118,7 +118,6 @@ Recapitulando los commits se dividieron de la siguiente manera:
 
 Entrega TP (14/05/2025):
 
-
 <img src="images/insights/report-insights-2-1.png" alt="Insights Report Collaboration Insights 1" />
 <img src="images/insights/report-insights-2-2.png" alt="Insights Report Collaboration Insights 2" />
 <img src="images/insights/report-insights-2-3.png" alt="Insights Report Collaboration Insights 3" />
@@ -4898,7 +4897,6 @@ Para este apartado comenzamos con la **creación de grupos**, donde el líder es
 
 <img src="images/chapter-5/mobileApplicationsPrototyping.png" alt="Mobile Applications Prototyping" width="1000"/>
 
-
 [SharePoint Folder Link](https://upcedupe-my.sharepoint.com/:f:/g/personal/u202122484_upc_edu_pe/EqNVpYJc7IJEg7W91so2GWIB6L7tjj3XJM06ohLW-ME1AA?e=J9pt8a)
 
 ## Capítulo VI: Product Implementation, Validation & Deployment
@@ -5084,22 +5082,25 @@ En esta sección se detallan las consideraciones y pasos necesarios para el desp
 **Landing Page**
 
 **Consideraciones antes del despliegue:**
+
 - Es recomendable ejecutar npm run build localmente para asegurarse de que la aplicación web no contenga errores, ya sea por paquetes externos o problemas en la declaración de los componentes.
 
 **Requerimientos para realizar del despliegue:**
+
 - Repositorio de desarrollo de la landing page en github
 - Repositorio de github con estado de visualización público
 - Tener una cuenta activa en Render.
 
 **Pasos realizados para desplegar nuestra Landing Page:**
-1. Ingresar al sitio web de Render. 
-2. Iniciar sesión en la cuenta de Render. 
-3. Seleccionar la opción "New" y luego "Web Service". 
-4. Conceder acceso a Render para que pueda leer los repositorios de GitHub si es la primera vez. 
-5. Elegir el repositorio correspondiente a la Landing Page. 
-6. Configurar el nombre del servicio y confirmar los ajustes de despliegue (puerto, build command, etc. si es necesario). 
-7. Hacer clic en "Deploy". 
-8. Esperar a que Render complete el proceso de despliegue. 
+
+1. Ingresar al sitio web de Render.
+2. Iniciar sesión en la cuenta de Render.
+3. Seleccionar la opción "New" y luego "Web Service".
+4. Conceder acceso a Render para que pueda leer los repositorios de GitHub si es la primera vez.
+5. Elegir el repositorio correspondiente a la Landing Page.
+6. Configurar el nombre del servicio y confirmar los ajustes de despliegue (puerto, build command, etc. si es necesario).
+7. Hacer clic en "Deploy".
+8. Esperar a que Render complete el proceso de despliegue.
 9. Acceder a la URL pública generada por Render para verificar que la Landing Page funcione correctamente
 
 **Mobile Application**
@@ -5487,7 +5488,6 @@ En esta sección se detallan las consideraciones y pasos necesarios para el desp
 
 ##### 6.2.1.3. Development Evidence for Sprint Review
 
-
 En esta sección se presentan los commits realizados en el repositorio de landing,backend y frontend durante el sprint 1.
 
 **Commits realizados en el repositorio de la Landing Page durante el sprint 1:**
@@ -5670,7 +5670,6 @@ En esta sección se presentan los commits realizados en el repositorio de landin
 
 **Commits realizados en el repositorio del Backend durante el sprint 1:**
 
-
 <table>
   <tr>
     <th>Repository</th>
@@ -5769,42 +5768,27 @@ En esta sección se presentan los commits realizados en el repositorio de landin
 En esta sección se presentan las evidencias de la ejecución de la aplicación para el sprint 1.
 En esta sección, presentamos una recopilación visual y detallada de los avances logrados durante el sprint. A través de imágenes y un video demostrativo, podrás apreciar los resultados concretos de nuestro trabajo y comprender mejor cómo hemos dado forma a las funcionalidades del producto.
 
-
 <img src="images/chapter-6/landingPage1.png" alt="API">
-
 
 <img src="images/chapter-6/landingPage2.png" alt="API">
 
-
-
 <img src="images/chapter-6/landingPage3.png" alt="API">
-
 
 <img src="images/chapter-6/landingPage4.png" alt="API">
 
-
 <img src="images/chapter-6/landingPage5.png" alt="API">
-
 
 <img src="images/chapter-6/landingPage6.png" alt="API">
 
-
 <img src="images/chapter-6/landingPage7.png" alt="API">
-
 
 <img src="images/chapter-6/landingPage8.png" alt="API">
 
-
 <img src="images/chapter-6/landingPage9.png" alt="API">
-
 
 <img src="images/chapter-6/landingPage10.png" alt="API">
 
-
-
-
 <img src="images/chapter-6/api.png" alt="API">
-
 
 ##### 6.2.1.6. Services Documentation Evidence for Sprint Review
 
@@ -6193,13 +6177,11 @@ Enlace de la landing page:[https://synhub-landing.onrender.com/](https://synhub-
 
 <img src="images/chapter-6/deploy1.png">
 
-
 **Backend**
 Para hacer el deployment de la aplicacion web se utilizó render, una plataforma que permite hacer el deployment de aplicaciones de forma sencilla y rápida.
 Enlace del frontend: [https://synhub-backend.onrender.com/swagger-ui/index.html#/](https://synhub-backend.onrender.com/swagger-ui/index.html#/ "https://synhub-backend.onrender.com/swagger-ui/index.html#/")
 
 <img src="images/chapter-6/deploy2.png">
-
 
 ##### 6.2.1.8. Team Collaboration Insights during Sprint
 
@@ -6245,8 +6227,24 @@ Para este sprint se desarrollaron 3 productos siendo estos: landing page, web ap
 
 ## Conclusiones
 
+TB1:Durante el desarrollo del TB1, el equipo demostró una sólida capacidad para integrar teoría y práctica mediante metodologías ágiles, modelado estratégico y diseño centrado en el usuario. La construcción de artefactos como Lean UX Canvas, Event Storming, Mapping y User Stories evidenció una comprensión profunda de los procesos de análisis, diseño e investigación, fortaleciendo así las competencias profesionales necesarias para abordar proyectos reales de software. Además, este proceso promovió una mentalidad de aprendizaje continuo, clave en un entorno tecnológico dinámico y en constante cambio.
+
+TP: En el TP, los integrantes del equipo consolidaron y ampliaron sus conocimientos técnicos aplicando buenas prácticas en desarrollo de software, diseño de interfaces móviles, gestión del código fuente, y despliegue. La implementación de bounded contexts, wireframes, prototipos y configuraciones específicas refleja un dominio cada vez más avanzado y profesional. Esta etapa práctica confirmó la necesidad de mantenerse actualizados mediante el aprendizaje autónomo, reafirmando el valor de la autoformación en la adaptación a nuevas herramientas, lenguajes y tendencias del sector tecnológico.
+
 ## Bibliografía
 
-- Khan, M. (2024, 4 septiembre). *State of Teams Report 2021 - Work Life by Atlassian*. Work Life By Atlassian. [https://www.atlassian.com/blog/state-of-teams](https://www.atlassian.com/blog/state-of-teams)
+Khan, M. (2024, 4 septiembre). *State of Teams Report 2021 - Work Life by Atlassian*. Work Life By Atlassian. [https://www.atlassian.com/blog/state-of-teams](https://www.atlassian.com/blog/state-of-teams)
+
+Interaction Design Foundation. (n.d.). Lean UX. [https://www.interaction-design.org/literature/topics/lean-ux](https://www.interaction-design.org/literature/topics/lean-ux)
+
+Brandolini, A. (2013). Introducing EventStorming. [https://leanpub.com/introducing_eventstorming](https://leanpub.com/introducing_eventstorming)
+
+Evans, E. (2004). Domain-driven design: Tackling complexity in the heart of software. Addison-Wesley Professional. [https://www.informit.com/store/domain-driven-design-tackling-complexity-in-the-heart-9780321125217](https://www.informit.com/store/domain-driven-design-tackling-complexity-in-the-heart-9780321125217)
+
+ISO. (2019). Software and systems engineering — Software life cycle processes (ISO/IEC/IEEE 12207:2017). [https://www.iso.org/standard/63712.html](https://www.iso.org/standard/63712.html)
+
+Nielsen Norman Group. (n.d.). User Journey Mapping. [https://www.nngroup.com/articles/journey-mapping-101/](https://www.nngroup.com/articles/journey-mapping-101/)
+
+Sommerville, I. (2016). Software Engineering (10th ed.). Pearson Education. [https://www.pearson.com/en-us/subject-catalog/p/software-engineering/P200000005158/9780133943030](https://www.pearson.com/en-us/subject-catalog/p/software-engineering/P200000005158/9780133943030)
 
 ## Anexos
