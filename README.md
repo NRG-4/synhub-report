@@ -3730,36 +3730,30 @@ Esta tabla presenta la documentación de los servicios implementados como eviden
 Para este sprint se desarrollaron 3 productos siendo estos: landing page, web application y web services. Para la landing page hubo un solo encargado debido a que ya se encontraba en la etapa final de su desarrollo. Para lode más productos todo los integrantes participaron. La distribución de commit fue la siguiente:
 
 **Landing Page**
-<img src="resources/sprint-4/landing-1.png">
-<img src="resources/sprint-4/landing-2.png">
 
 **Distribución de commits de commits:**
 
 - Juan Diego Astonitas Díaz: 20 commits.
 
 **Frontend**
-<img src="resources/sprint-4/front-1.png">
-<img src="resources/sprint-4/front-2.png">
 
 **Distribución de commits de commits:**
 
 - Juan Diego Astonitas Díaz: 40 commits.
 - Gabriel Alexander Casas Sanchez: 35 commits.
-- Gianluca Santino Pasquale Barrenechea: 78 commits.
+- Gianluca Santino Pasquale Barrenechea: 25 commits.
 - Alejo Cardenas Jose Antonio: 50 commits.
 - Pacheco Astiguetta Sebastian: 22 commits.
 
 **Backend**
-<img src="resources/sprint-4/back-1.png">
-<img src="resources/sprint-4/back-2.png">
 
 **Distribución de commits de commits:**
 
-- Juan Diego Astonitas Díaz:  commits.
-- Gabriel Alexander Casas Sanchez: 1 commits.
-- Gianluca Santino Pasquale Barrenechea:  commits.
-- Alejo Cardenas Jose Antonio:  commits.
-- Pacheco Astiguetta Sebastian:  commits.
+- Juan Diego Astonitas Díaz: 17 commits.
+- Gabriel Alexander Casas Sanchez: 35 commits.
+- Gianluca Santino Pasquale Barrenechea: 22 commits.
+- Alejo Cardenas Jose Antonio: 17 commits.
+- Pacheco Astiguetta Sebastian: 37 commits.
 
 ### 6.3. Validation Interviews
 
