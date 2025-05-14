@@ -2859,7 +2859,15 @@ Mediante el uso de un menú lateral, los usuarios podrán acceder a las siguient
 
 ##### 5.1.3.1. Landing Page Wireframe
 
+Los wireframes de la landing page de Synhub definen la estructura clave y la distribución de elementos, garantizando una presentación clara y atractiva para el usuario. Estos esquemas visuales aseguran que la información esencial se comunique de manera eficiente, optimizando la experiencia desde el primer contacto.
+
+<img src="images/chapter-5/landing-wireframe.png" alt="Wireframe Landing" width="600"/>
+
 ##### 5.1.3.2. Landing Page Mock-up
+
+En esta sección se muestran los mock-ups de la landing page de Synhub, donde se aplican los principios de diseño, la arquitectura de información y el Design System para crear una experiencia visual coherente y efectiva. Cada diseño refleja la identidad de la marca y optimiza la conversión desde el primer impacto visual.
+
+<img src="images/chapter-5/landing-mockup.png" alt="Mockup Landing" width="600"/>
 
 #### 5.1.4. Mobile Applications UX/UI Design
 
