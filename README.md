@@ -2880,6 +2880,7 @@ Los wireframes de Synhub representan la estructura y disposición de las pantall
 <img src="images/chapter-5/wireframe-6.png" alt="Wireframe 1" width="600"/>
 
 ##### 5.1.4.2. Mobile Applications Wireflow Diagrams
+
 Los wireflow diagrams de Synhub representan la secuencia de interacciones y pantallas que los usuarios experimentarán al navegar por la aplicación.
 
 **Creación de grupo:** este wireflow corresponde a cuando un lider de equipo buscar crear un nuevo grupo.
@@ -2982,6 +2983,13 @@ Task flow: 🟥 Happy Path, 🟨 Error Path, 🟦 User Goal
 <img src="images/chapter-5/userflow-7.png" alt="Userflow 7" width="600"/>
 
 ##### 5.1.4.5. Mobile Applications Prototyping
+
+Para este apartado comenzamos con la **creación de grupos**, donde el líder establece un nuevo espacio de trabajo, seguido de la **invitación de integrantes** para conformar el equipo. Una vez formado el grupo, el líder puede **asignar tareas** específicas a cada miembro, con la capacidad de **editar** los detalles de estas tareas si es necesario o **eliminarlas** cuando ya no sean relevantes. Además, el líder puede **consultar la información detallada** de cualquier tarea para hacer seguimiento, y **revisar solicitudes o validaciones** presentadas por los miembros del equipo, lo que le permite aprobar, rechazar o dar retroalimentación sobre el trabajo realizado. Estos flujos cubren el ciclo completo de gestión, desde la organización del equipo hasta la supervisión y validación de las actividades asignadas.
+
+<img src="images/chapter-5/mobileApplicationsPrototyping.png" alt="Mobile Applications Prototyping" width="1000"/>
+
+
+[SharePoint Folder Link](https://upcedupe-my.sharepoint.com/:f:/g/personal/u202122484_upc_edu_pe/EqNVpYJc7IJEg7W91so2GWIB6L7tjj3XJM06ohLW-ME1AA?e=J9pt8a)
 
 ## Capítulo VI: Product Implementation, Validation & Deployment
 
