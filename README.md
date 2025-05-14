@@ -3022,7 +3022,7 @@ En esta sección se detallan las consideraciones y pasos necesarios para el desp
   </tr>
   <tr>
     <td colspan="1"><strong>Prepared by</strong></td>
-    <td colspan="1">Jose Alejo</td>
+    <td colspan="1">Alex Casas</td>
   </tr>
   <tr>
     <td colspan="1"><strong>Attendees (to planning meeting)</strong></td>
@@ -3030,7 +3030,7 @@ En esta sección se detallan las consideraciones y pasos necesarios para el desp
   </tr>
   <tr>
     <td colspan="1"><strong>Sprint n – 1 Review Summary</strong></td>
-    <td colspan="1">Se realizó la landing page implementada con angular, a raiz de los mockups y wireframes del diseño del landing page</td>
+    <td colspan="1">Se realizó la landing page implementada con next.js, el front del mobile en android y el backend en srping boot JAVA</td>
   </tr>
   <tr>
     <td colspan="1"><strong>Sprint n – 1 Retrospective Summary</strong></td>
