@@ -4057,29 +4057,41 @@ Para este sprint se desarrollaron 3 productos siendo estos: landing page, web ap
 
 **Landing Page**
 
-**Distribución de commits de commits:**
-
-- Juan Diego Astonitas Díaz: 20 commits.
-
-**Frontend**
-
-**Distribución de commits de commits:**
-
-- Juan Diego Astonitas Díaz: 40 commits.
-- Gabriel Alexander Casas Sanchez: 35 commits.
-- Gianluca Santino Pasquale Barrenechea: 25 commits.
-- Alejo Cardenas Jose Antonio: 50 commits.
-- Pacheco Astiguetta Sebastian: 22 commits.
-
-**Backend**
+<img src="images/insights/sprint-1/sprint-1-lp-insights-1.png">
+<img src="images/insights/sprint-1/sprint-1-lp-insights-2.png">
 
 **Distribución de commits de commits:**
 
 - Juan Diego Astonitas Díaz: 17 commits.
-- Gabriel Alexander Casas Sanchez: 35 commits.
-- Gianluca Santino Pasquale Barrenechea: 22 commits.
-- Alejo Cardenas Jose Antonio: 17 commits.
-- Pacheco Astiguetta Sebastian: 37 commits.
+
+**Mobile App**
+
+<img src="images/insights/sprint-1/sprint-1-ma-insights-1.png">
+<img src="images/insights/sprint-1/sprint-1-ma-insights-2.png">
+<img src="images/insights/sprint-1/sprint-1-ma-insights-3.png">
+<img src="images/insights/sprint-1/sprint-1-ma-insights-4.png">
+
+**Distribución de commits de commits:**
+
+- Juan Diego Astonitas Díaz: 5 commits.
+- Gabriel Alexander Casas Sanchez: 9 commits.
+- Gianluca Santino Pasquale Barrenechea: 2 commits.
+- Alejo Cardenas Jose Antonio: 6 commits.
+- Pacheco Astiguetta Sebastian: 3 commits.
+
+**Backend**
+
+<img src="images/insights/sprint-1/sprint-1-bk-insights-1.png">
+<img src="images/insights/sprint-1/sprint-1-bk-insights-2.png">
+<img src="images/insights/sprint-1/sprint-1-bk-insights-3.png">
+
+**Distribución de commits de commits:**
+
+- Juan Diego Astonitas Díaz: 22 commits.
+- Gabriel Alexander Casas Sanchez: 31 commits.
+- Gianluca Santino Pasquale Barrenechea: 60 commits.
+- Alejo Cardenas Jose Antonio: 7 commits.
+- Pacheco Astiguetta Sebastian: 39 commits.
 
 ## Conclusiones
 
