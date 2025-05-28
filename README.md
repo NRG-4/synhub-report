@@ -1454,6 +1454,8 @@ En esta sección, se presenta el mapa de empatía, que nos ayudará a comprender
 
 **User Stories:**
 
+
+
 <table>
   <thead>
     <tr>
@@ -2366,7 +2368,161 @@ En esta sección, se presenta el mapa de empatía, que nos ayudará a comprender
       </td>
       <td>EP-005</td>
     </tr>
-<tbody>
+    <tr>
+        <td>TS-027</td>
+        <td>Gestión de Autenticación</td>
+        <td>Como developer, quiero manejar autenticación segura para garantizar acceso autorizado.</td>
+        <td>
+            <b>Escenario 1: Login exitoso</b><br>
+            Given credenciales válidas<br>
+            When se envía solicitud POST a /login<br>
+            Then devuelve token JWT y rol del usuario (200).<br><br>
+            <b>Escenario 2: Contraseña incorrecta</b><br>
+            Given credenciales inválidas<br>
+            When se envía solicitud POST a /login<br>
+            Then error 401 (No autorizado).<br><br>
+            <b>Escenario 3: Cambio de contraseña exitoso</b><br>
+            Given token válido y nueva contraseña segura<br>
+            When se envía PATCH a /users/password<br>
+            Then confirma actualización (200)..
+        </td>
+        <td>EP-00</td>
+    </tr>
+    <tr>
+        <td>TS-028</td>
+        <td>Gestión de Usuarios</td>
+        <td>Como developer, quiero gestionar usuarios para mantener datos actualizados.</td>
+        <td>
+            <b>Escenario 1: Crear usuario con rol "líder"</b><br>
+            Given datos válidos y rol asignado<br>
+            When POST a /users<br>
+            Then devuelve ID del nuevo líder (201).<br><br>
+            <b>Escenario 2: Crear usuario con rol "miembro"</b><br>
+            Given datos válidos y rol asignado<br>
+            When POST a /users<br>
+            Then devuelve ID del nuevo líder (201).<br><br>
+            <b>Escenario 3: Editar información de un usuario</b><br>
+            Given datos válidos<br>
+            When PATCH a /users{id}<br>
+            Then datos actualizados (200).
+        </td>
+        <td>EP-00</td>
+    </tr>
+    <tr>
+        <td>TS-029</td>
+        <td>Ciclo de Vida de Grupos (Creación, Búsqueda, Actualización)</td>
+        <td>Como developer, quiero endpoints para administrar grupos para organizar equipos.</td>
+        <td>
+            <b>Escenario 1: Crear grupo con código único</b><br>
+            Given datos válidos (nombre, descripción)<br>
+            When POST a /groups<br>
+            Then devuelve código de grupo (201).<br><br>
+            <b>Escenario 2: Buscar grupo por código</b><br>
+            Given código existente<br>
+            When GET a /groups?code={code}<br>
+            Then devuelve detalles del grupo (200).<br><br>
+            <b>Escenario 3: Actualizar información de grupo</b><br>
+            Given datos válidos (nombre, descripción)<br>
+            When PATCH a /groups/{id} <br>
+            Then datos actualizados (200).<br><br>
+            <b>Escenario 4: Obtener información de grupo</b><br>
+            Given el id de un miembro o lider<br>
+            When GET a /leader/{leaderId}/group/ o member/{memberId}/group<br>
+            Then devuelve detalles del grupo (200).
+        </td>
+        <td>EP-00</td>
+    </tr>
+    <tr>
+        <td>TS-030</td>
+        <td>Solicitudes de Unión a Grupos</td>
+        <td>Como sistema, quiero manejar solicitudes de unión para controlar acceso a grupos.</td>
+        <td>
+            <b>Escenario 1: Aceptar solicitud válida</b><br>
+            Given ID de solicitud válida<br>
+            When POST a group/{groupId}/requests/{id}<br>
+            Then el usuario se añade al grupo (200).<br><br>
+            <b>Escenario 2: Enviar una solicitud</b><br>
+            Given un miembro válido<br>
+            When POST a member/{memberId}/requests/{groupId} <br>
+            Then el miembro envió una solicitud (200).<br><br>
+            <b>Escenario 3: Rechazar solicitud</b><br>
+            Given solicitud pendiente<br>
+            When DELETE a group/{groupId}/requests/{id}<br>
+            Then solicitud eliminada (204).<br><br>
+            <b>Escenario 4: Cancelar solicitud</b><br>
+            Given solicitud pendiente<br>
+            When DELETE a member/{memberId}/requests/{id}<br>
+            Then solicitud eliminada (204).<br><br>
+            <b>Escenario 5: Obtener todas las solicitudes</b><br>
+            Given un grupo válido<br>
+            When GET group/{groupId}/requests/<br>
+            Then devuelve detalles de todas las solicitudes (200).<br>
+        </td>
+        <td>EP-00</td>
+    </tr>
+    <tr>
+        <td>TS-031</td>
+        <td>Flujo de Tareas (Consulta, Comentarios, Métricas)</td>
+        <td>Como developer, quiero los endpoints que controlen el fujo de actividad de las tareas.</td>
+        <td>
+            <b>Escenario 1: Filtrar tareas por status</b><br>
+            Given grupo con tareas activas<br>
+            When GET a /tasks?status="status", donde status es el status a buscar<br>
+            Then devuelve una lista filtrada (200).<br><br>
+            <b>Escenario 2: Agregar comentario a tarea</b><br>
+            Given tarea existente<br>
+            When POST a /tasks/{id}/comments<br>
+            Then el comentario se guarda (201) y emite una solicitud.<br><br>
+            <b>Escenario 3: Mostrar tareas de integrante </b><br>
+            Given un integrante válido<br>
+            When GET a group/{groupId}/members/{memberId}/Tasks<br>
+            Then devuelve una lista filtrada (200).
+        </td>
+        <td>EP-00</td>
+    </tr>
+    <tr>
+        <td>TS-032</td>
+        <td>Validaciones Automáticas/Manuales</td>
+        <td>Como developer, quiero endpoint que gestionen las validaciones para asegurar calidad de tareas.</td>
+        <td>
+            <b>Escenario 1: Validación automática (tarea vencida)</b><br>
+            Given tarea con fecha límite pasada<br>
+            When el sistema envía validación automática<br>
+            Then el estado cambia a "Vencido" (200).<br><br>
+            <b>Escenario 2: Denegar solicitud</b><br>
+            Given una solicitud activa en el sistema<br>
+            When PATCH a group/{groupId}/requests/{requestId}/{status}<br>
+            And DELETE a group/{groupId}/requests/{requestId}
+            Then la solicitud se borra del sistema y se notifica el rechazo.<br><br>
+            <b>Escenario 3: Aceptar una solicitud</b><br>
+            Given una solicitud activa en el sistema<br>
+            When PATCH a group/{groupId}/requests/{requestId}/{status}<br>
+            And DELETE a group/{groupId}/requests/{requestId}<br>
+            And PATCH a task/{taskId}<br>
+            Then se emite una modificación a la tarea y se notifica el cambio.<br><br>
+            <b>Escenario 4: Acción sobre tarea vencida</b><br>
+            Given una tarea vencida<br>
+            When PATCH a task/{taskId}<br>
+            And DELETE a group/{groupId}/requests/{requestId}<br>
+            Then .<br><br>
+            <b>Escenario 5: Acción sobre tarea completada</b><br>
+            Given una tarea marcada como completada<br>
+            When PATCH a task/{taskId}<br>
+            And DELETE a group/{groupId}/requests/{requestId}<br>
+            Then se notifica al usuario que su tarea fue completada y el status de la tarea cmabia.<br><br>
+            <b>Escenario 6: Acción sobre tarea completada (rechazo)</b><br>
+            Given una tarea marcada como completada<br>
+            When PATCH a task/{taskId}<br>
+            And DELETE a group/{groupId}/requests/{requestId}<br>
+            Then se notifica al usuario que debe realizar correciones y se la aplica nuevo tiempo.<br><br>
+            <b>Escenario 7: Acción sobre tarea vencida</b><br>
+            Given una tarea vencida<br>
+            When PATCH a task/{taskId}<br>
+            And DELETE a group/{groupId}/requests/{requestId}<br>
+            Then se le notifica al usuario que se le ha reasignado la tarea.<br><br>
+        </td>
+        <td>EP-00</td>
+    </tr>
 </table>
 
 ### 3.3. Impact Mapping
