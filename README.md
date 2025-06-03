@@ -127,11 +127,11 @@ Para esta primera entrega se desarollaron los cpaítulos del 1 al 4, en la captu
 
 Recapitulando los commits se dividieron de la siguiente manera:
 
-* Alejo Cardenas Jose Antonio (Firtness): 48 commits
-* Astonitas Díaz Juan Diego (NeoRise456): 8 commits
-* Casas Sanchez Gabriel Alexander (Al3xiel): 27 commits
-* Pacheco Astiguetta Sebastian (Pachieeee): 17 commits
-* Pasquale Barrenechea Gianluca Santino (cwassointt): 18 commits
+* Alejo Cardenas Jose Antonio (Firtness): 31 commits
+* Astonitas Díaz Juan Diego (NeoRise456): 13 commits
+* Casas Sanchez Gabriel Alexander (Al3xiel): 33 commits
+* Pacheco Astiguetta Sebastian (Pachieeee): 11 commits
+* Pasquale Barrenechea Gianluca Santino (cwassointt): 10 commits
 
 ## Contenido
 
@@ -1427,12 +1427,12 @@ En esta sección, se presenta el mapa de empatía, que nos ayudará a comprender
     <tr>
       <td>EP-001</td>
       <td>Gestión de Grupos</td>
-      <td>Creación, configuración y administración de grupos colaborativos e invitaciones. Cubre todo el ciclo de vida del grupo.</td>
+      <td>Creación, configuración y administración de grupos colaborativos e invitaciones . Cubre todo el ciclo de vida del grupo.</td>
     </tr>
     <tr>
       <td>EP-002</td>
       <td>Gestión de Tareas</td>
-      <td>Creación, asignación (con responsables y fechas) y seguimiento de estados (En progreso, completada, caducada y cancelada).</td>
+      <td>Creación, asignación (con responsables y fechas) y seguimiento de estados (En progreso , completada ,caducada y cancelada).</td>
     </tr>
     <tr>
       <td>EP-003</td>
@@ -1442,17 +1442,12 @@ En esta sección, se presenta el mapa de empatía, que nos ayudará a comprender
     <tr>
       <td>EP-004</td>
       <td>Analítica y Reportes</td>
-      <td>Generación automatizada de dashboards y métricas de productividad (individual/grupal).</td>
+      <td>Generación automatizada de dashboards y métricas de productividad (individual/grupal)</td>
     </tr>
     <tr>
       <td>EP-005</td>
       <td>Solicitudes y Validaciones</td>
-      <td>Flujo completo para solicitudes de procesamiento de tareas con estados (En progreso, completada, caducada y cancelada), comentarios y notificaciones asociadas.</td>
-    </tr>
-    <tr>
-      <td>EP-006</td>
-      <td>Gestión de Usuarios</td>
-      <td>Registro, inicio de sesión, edición de perfil y gestión de credenciales. Incluye autenticación y recuperación de acceso.</td>
+      <td>Flujo completo para solicitudes de procesamiento de tareas con estados (En progreso , completada ,caducada y cancelada), comentarios y notificaciones asociadas.</td>
     </tr>
   </tbody>
 </table>
@@ -2371,278 +2366,8 @@ En esta sección, se presenta el mapa de empatía, que nos ayudará a comprender
       </td>
       <td>EP-005</td>
     </tr>
-    <tr>
-    <td>TS-027</td>
-    <td>Loguearse en el app móvil</td>
-    <td>Como developer, quiero manejar autenticación segura para garantizar acceso autorizado.</td>
-    <td>
-        <b>Escenario 1: Login exitoso</b><br>
-        Given credenciales válidas<br>
-        When se envía solicitud POST a /login<br>
-        Then devuelve token JWT y rol del usuario (200).<br><br>
-        <b>Escenario 2: Contraseña incorrecta</b><br>
-        Given credenciales inválidas<br>
-        When se envía solicitud POST a /login<br>
-        Then error 401 (No autorizado).<br><br>
-    </td>
-    <td>EP-06</td>
-</tr>
-<tr>
-    <td>TS-028</td>
-    <td>Actualizar contraseña</td>
-    <td>Como developer, quiero permitir a los usuarios actualizar su contraseña para mantener la seguridad de su cuenta.</td>
-    <td>
-        <b>Escenario 1: Cambio de contraseña exitoso</b><br>
-        Given token válido y nueva contraseña segura<br>
-        When se envía PATCH a /users/password<br>
-        Then confirma actualización (200).<br><br>
-        <b>Escenario 2: Contraseña inválida (no cumple requisitos)</b><br>
-        Given token inválido<br>
-        When se envía PATCH a /users/password<br>
-        Then devuelve error 400 con mensaje de validación.<br><br>
-    </td>
-    <td>EP-06</td>
-</tr>
-<tr>
-    <td>TS-029</td>
-    <td>Crear usuarios</td>
-    <td>Como developer, quiero crear usuarios con distintos roles para asignar permisos específicos.</td>
-    <td>
-        <b>Escenario 1: Crear usuario con rol "líder"</b><br>
-        Given datos válidos y rol asignado<br>
-        When POST a /users<br>
-        Then devuelve ID del nuevo líder (201).<br><br>
-        <b>Escenario 2: Crear usuario con rol "miembro"</b><br>
-        Given datos válidos y rol asignado<br>
-        When POST a /users<br>
-        Then devuelve ID del nuevo miembro (201).<br><br>
-    </td>
-    <td>EP-06</td>
-</tr>
-<tr>
-    <td>TS-030</td>
-    <td>Editar usuario</td>
-    <td>Como developer, quiero actualizar información de usuario para mantener los datos al día.</td>
-    <td>
-        <b>Escenario 1: Editar información de un usuario</b><br>
-        Given datos válidos<br>
-        When PATCH a /users/{id}<br>
-        Then datos actualizados (200).<br><br>
-        <b>Escenario 2: Usuario no encontrado</b><br>
-        Given ID de usuario inexistente<br>
-        When PATCH a /users/{id}<br>
-        Then devuelve error 404 indicando que el usuario no existe.<br><br>
-    </td>
-    <td>EP-06</td>
-</tr>
-<tr>
-    <td>TS-031</td>
-    <td>Crear grupo</td>
-    <td>Como developer, quiero permitir la creación de grupos para organizar equipos de trabajo.</td>
-    <td>
-        <b>Escenario 1: Crear grupo con datos válidos</b><br>
-        Given nombre y descripción válidos<br>
-        When POST a /groups<br>
-        Then devuelve código de grupo (201).<br><br>
-        <b>Escenario 2: Crear grupo con datos faltantes</b><br>
-        Given solicitud sin nombre<br>
-        When POST a /groups<br>
-        Then devuelve error 400 indicando campos requeridos faltantes.<br><br>
-    </td>
-    <td>EP-01</td>
-</tr>
-<tr>
-    <td>TS-032</td>
-    <td>Buscar grupo</td>
-    <td>Como developer, quiero buscar grupos por código para obtener sus detalles.</td>
-    <td>
-        <b>Escenario 1: Buscar grupo con código existente</b><br>
-        Given código válido<br>
-        When GET a /groups?code={code}<br>
-        Then devuelve detalles del grupo (200).<br><br>
-        <b>Escenario 2: Buscar grupo con código inexistente</b><br>
-        Given código inválido<br>
-        When GET a /groups?code={code}<br>
-        Then devuelve error 404 indicando grupo no encontrado.<br><br>
-    </td>
-    <td>EP-01</td>
-</tr>
-<tr>
-    <td>TS-033</td>
-    <td>Actualizar grupo</td>
-    <td>Como developer, quiero actualizar información de grupos existentes para mantenerla actualizada.</td>
-    <td>
-        <b>Escenario 1: Actualizar datos válidos</b><br>
-        Given nombre y descripción válidos<br>
-        When PATCH a /groups/{id}<br>
-        Then datos actualizados correctamente (200).<br><br>
-        <b>Escenario 2: Grupo no encontrado</b><br>
-        Given ID de grupo inválido<br>
-        When PATCH a /groups/{id}<br>
-        Then devuelve error 404 indicando grupo no encontrado.<br><br>
-    </td>
-    <td>EP-01</td>
-</tr>
-<tr>
-    <td>TS-034</td>
-    <td>Obtener grupo de miembro o líder</td>
-    <td>Como developer, quiero obtener el grupo al que pertenece un miembro o líder para mostrar la información relacionada.</td>
-    <td>
-        <b>Escenario 1: Obtener grupo de líder</b><br>
-        Given ID válido de líder<br>
-        When GET a /leader/{leaderId}/group<br>
-        Then devuelve detalles del grupo (200).<br><br>
-        <b>Escenario 2: Obtener grupo de miembro</b><br>
-        Given ID válido de miembro<br>
-        When GET a /member/{memberId}/group<br>
-        Then devuelve detalles del grupo (200).<br><br>
-    </td>
-    <td>EP-01</td>
-</tr>
-<tr>
-    <td>TS-035</td>
-    <td>Enviar solicitud de unión a grupo</td>
-    <td>Como sistema, quiero permitir que un miembro envíe una solicitud para unirse a un grupo.</td>
-    <td>
-        <b>Escenario 1: Enviar solicitud válida</b><br>
-        Given un miembro válido<br>
-        When POST a /member/{memberId}/requests/{groupId}<br>
-        Then el miembro envió una solicitud (200).<br><br>
-        <b>Escenario 2: Solicitud duplicada</b><br>
-        Given una solicitud ya existente<br>
-        When POST a /member/{memberId}/requests/{groupId}<br>
-        Then devuelve error 409 indicando solicitud duplicada.<br><br>
-    </td>
-    <td>EP-01</td>
-</tr>
-<tr>
-    <td>TS-036</td>
-    <td>Aceptar solicitud de unión</td>
-    <td>Como sistema, quiero aceptar una solicitud de unión para añadir el usuario al grupo.</td>
-    <td>
-        <b>Escenario 1: Aceptar solicitud existente</b><br>
-        Given ID de solicitud válida<br>
-        When POST a /group/{groupId}/requests/{id}<br>
-        Then el usuario se añade al grupo (200).<br><br>
-        <b>Escenario 2: Solicitud inexistente</b><br>
-        Given ID de solicitud inválida<br>
-        When POST a /group/{groupId}/requests/{id}<br>
-        Then devuelve error 404.<br><br>
-    </td>
-    <td>EP-01</td>
-</tr>
-<tr>
-    <td>TS-037</td>
-    <td>Eliminar solicitud</td>
-    <td>Como sistema, quiero permitir rechazar o cancelar solicitudes de unión a grupos.</td>
-    <td>
-        <b>Escenario 1: Rechazar solicitud</b><br>
-        Given solicitud pendiente<br>
-        When DELETE a /group/{groupId}/requests/{id}<br>
-        Then solicitud eliminada (204).<br><br>
-        <b>Escenario 2: Cancelar solicitud</b><br>
-        Given solicitud pendiente<br>
-        When DELETE a /member/{memberId}/requests/{id}<br>
-        Then solicitud eliminada (204).<br><br>
-    </td>
-    <td>EP-01</td>
-</tr>
-<tr>
-    <td>TS-038</td>
-    <td>Obtener solicitudes de grupo</td>
-    <td>Como sistema, quiero listar todas las solicitudes de unión enviadas a un grupo.</td>
-    <td>
-        <b>Escenario 1: Solicitudes disponibles</b><br>
-        Given un grupo válido<br>
-        When GET a /group/{groupId}/requests<br>
-        Then devuelve detalles de todas las solicitudes (200).<br><br>
-        <b>Escenario 2: Sin solicitudes</b><br>
-        Given grupo sin solicitudes<br>
-        When GET a /group/{groupId}/requests<br>
-        Then devuelve lista vacía (200).<br><br>
-    </td>
-    <td>EP-01</td>
-</tr>
-<tr>
-    <td>TS-039</td>
-    <td>Filtrar tareas por estado</td>
-    <td>Como developer, quiero obtener tareas filtradas por estado para visualizar su progreso.</td>
-    <td>
-        <b>Escenario 1: Tareas activas</b><br>
-        Given grupo con tareas activas<br>
-        When GET a /tasks?status="status", donde status es el status a buscar<br>
-        Then devuelve lista de tareas activas (200).<br><br>
-        <b>Escenario 2: Estado no válido</b><br>
-        Given parámetro de estado inválido<br>
-        When GET a /tasks?status=invalido<br>
-        Then devuelve error 400.<br><br>
-    </td>
-    <td>EP-02</td>
-</tr>
-<tr>
-    <td>TS-040</td>
-    <td>Agregar comentario a tarea</td>
-    <td>Como developer, quiero permitir agregar comentarios a tareas para facilitar la colaboración.</td>
-    <td>
-        <b>Escenario 1: Comentario exitoso</b><br>
-        Given tarea existente<br>
-        When POST a /tasks/{id}/comments<br>
-        Then el comentario se guarda (201).<br><br>
-        <b>Escenario 2: Tarea no encontrada</b><br>
-        Given ID de tarea inexistente<br>
-        When POST a /tasks/{id}/comments<br>
-        Then devuelve error 404.<br><br>
-    </td>
-    <td>EP-02</td>
-</tr>
-<tr>
-    <td>TS-041</td>
-    <td>Consultar tareas de un integrante</td>
-    <td>Como developer, quiero consultar las tareas asignadas a un integrante específico del grupo.</td>
-    <td>
-        <b>Escenario 1: Consultar tareas asignadas</b><br>
-        Given integrante con tareas<br>
-        When GET a /group/{groupId}/members/{memberId}/tasks<br>
-        Then devuelve lista de tareas (200).<br><br>
-        <b>Escenario 2: Sin tareas asignadas</b><br>
-        Given integrante sin tareas<br>
-        When GET a /group/{groupId}/members/{memberId}/tasks<br>
-        Then devuelve lista vacía (200).<br><br>
-    </td>
-    <td>EP-02</td>
-</tr>
-<tr>
-    <td>TS-042</td>
-    <td>Aceptar validación de tarea completada</td>
-    <td>Como developer, quiero aceptar manualmente tareas completadas para confirmar su cierre.</td>
-    <td>
-        <b>Escenario 1: Validar tarea completada</b><br>
-        Given tarea marcada como completada<br>
-        When PATCH a /task/{taskId}<br>
-        Then cambia el estado a “Validada” (200).<br><br>
-        <b>Escenario 2: Tarea ya validada</b><br>
-        Given tarea ya validada<br>
-        When PATCH a /task/{taskId}<br>
-        Then devuelve error 409.<br><br>
-    </td>
-    <td>EP-02</td>
-</tr>
-<tr>
-    <td>TS-043</td>
-    <td>Validación automática de tarea vencida</td>
-    <td>Como developer, quiero que el sistema valide automáticamente las tareas vencidas para actualizar su estado y asegurar calidad.</td>
-    <td>
-        <b>Escenario 1: Validación de tarea vencida</b><br>
-        Given tarea con fecha límite pasada<br>
-        When el sistema ejecuta validación automática<br>
-        Then el estado cambia a "Vencido" (200).<br><br>
-        <b>Escenario 2: Validación sin tareas vencidas</b><br>
-        Given no existen tareas con fecha límite pasada<br>
-        When el sistema ejecuta validación automática<br>
-        Then no se realiza ningún cambio y devuelve estado 204.<br><br>
-    </td>
-    <td>EP-02</td>
-</tr>
+</tbody>
+</table>
 
 ### 3.3. Impact Mapping
 
