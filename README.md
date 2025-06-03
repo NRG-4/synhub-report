@@ -1449,6 +1449,11 @@ En esta sección, se presenta el mapa de empatía, que nos ayudará a comprender
       <td>Solicitudes y Validaciones</td>
       <td>Flujo completo para solicitudes de procesamiento de tareas con estados (En progreso , completada ,caducada y cancelada), comentarios y notificaciones asociadas.</td>
     </tr>
+    <tr>
+      <td>EP-006</td>
+      <td>Gestión de Usuarios</td>
+      <td>Registro, inicio de sesión, edición de perfil y gestión de credenciales. Incluye autenticación y recuperación de acceso.</td>
+    </tr>
   </tbody>
 </table>
 
@@ -2380,7 +2385,7 @@ En esta sección, se presenta el mapa de empatía, que nos ayudará a comprender
         When se envía solicitud POST a /login<br>
         Then error 401 (No autorizado).<br><br>
     </td>
-    <td>EP-06</td>
+    <td>EP-006</td>
 </tr>
 <tr>
     <td>TS-028</td>
@@ -2396,7 +2401,7 @@ En esta sección, se presenta el mapa de empatía, que nos ayudará a comprender
         When se envía PATCH a /users/password<br>
         Then devuelve error 400 con mensaje de validación.<br><br>
     </td>
-    <td>EP-06</td>
+    <td>EP-006</td>
 </tr>
 <tr>
     <td>TS-029</td>
@@ -2412,7 +2417,7 @@ En esta sección, se presenta el mapa de empatía, que nos ayudará a comprender
         When POST a /users<br>
         Then devuelve ID del nuevo miembro (201).<br><br>
     </td>
-    <td>EP-06</td>
+    <td>EP-006</td>
 </tr>
 <tr>
     <td>TS-030</td>
@@ -2428,7 +2433,7 @@ En esta sección, se presenta el mapa de empatía, que nos ayudará a comprender
         When PATCH a /users/{id}<br>
         Then devuelve error 404 indicando que el usuario no existe.<br><br>
     </td>
-    <td>EP-06</td>
+    <td>EP-006</td>
 </tr>
 <tr>
     <td>TS-031</td>
@@ -2444,7 +2449,7 @@ En esta sección, se presenta el mapa de empatía, que nos ayudará a comprender
         When POST a /groups<br>
         Then devuelve error 400 indicando campos requeridos faltantes.<br><br>
     </td>
-    <td>EP-01</td>
+    <td>EP-001</td>
 </tr>
 <tr>
     <td>TS-032</td>
@@ -2460,7 +2465,7 @@ En esta sección, se presenta el mapa de empatía, que nos ayudará a comprender
         When GET a /groups?code={code}<br>
         Then devuelve error 404 indicando grupo no encontrado.<br><br>
     </td>
-    <td>EP-01</td>
+    <td>EP-001</td>
 </tr>
 <tr>
     <td>TS-033</td>
@@ -2476,7 +2481,7 @@ En esta sección, se presenta el mapa de empatía, que nos ayudará a comprender
         When PATCH a /groups/{id}<br>
         Then devuelve error 404 indicando grupo no encontrado.<br><br>
     </td>
-    <td>EP-01</td>
+    <td>EP-001</td>
 </tr>
 <tr>
     <td>TS-034</td>
@@ -2492,7 +2497,7 @@ En esta sección, se presenta el mapa de empatía, que nos ayudará a comprender
         When GET a /member/{memberId}/group<br>
         Then devuelve detalles del grupo (200).<br><br>
     </td>
-    <td>EP-01</td>
+    <td>EP-001</td>
 </tr>
 <tr>
     <td>TS-035</td>
@@ -2508,7 +2513,7 @@ En esta sección, se presenta el mapa de empatía, que nos ayudará a comprender
         When POST a /member/{memberId}/requests/{groupId}<br>
         Then devuelve error 409 indicando solicitud duplicada.<br><br>
     </td>
-    <td>EP-01</td>
+    <td>EP-001</td>
 </tr>
 <tr>
     <td>TS-036</td>
@@ -2524,7 +2529,7 @@ En esta sección, se presenta el mapa de empatía, que nos ayudará a comprender
         When POST a /group/{groupId}/requests/{id}<br>
         Then devuelve error 404.<br><br>
     </td>
-    <td>EP-01</td>
+    <td>EP-001</td>
 </tr>
 <tr>
     <td>TS-037</td>
@@ -2540,7 +2545,7 @@ En esta sección, se presenta el mapa de empatía, que nos ayudará a comprender
         When DELETE a /member/{memberId}/requests/{id}<br>
         Then solicitud eliminada (204).<br><br>
     </td>
-    <td>EP-01</td>
+    <td>EP-001</td>
 </tr>
 <tr>
     <td>TS-038</td>
@@ -2556,7 +2561,7 @@ En esta sección, se presenta el mapa de empatía, que nos ayudará a comprender
         When GET a /group/{groupId}/requests<br>
         Then devuelve lista vacía (200).<br><br>
     </td>
-    <td>EP-01</td>
+    <td>EP-001</td>
 </tr>
 <tr>
     <td>TS-039</td>
@@ -2572,7 +2577,7 @@ En esta sección, se presenta el mapa de empatía, que nos ayudará a comprender
         When GET a /tasks?status=invalido<br>
         Then devuelve error 400.<br><br>
     </td>
-    <td>EP-02</td>
+    <td>EP-002</td>
 </tr>
 <tr>
     <td>TS-040</td>
@@ -2588,7 +2593,7 @@ En esta sección, se presenta el mapa de empatía, que nos ayudará a comprender
         When POST a /tasks/{id}/comments<br>
         Then devuelve error 404.<br><br>
     </td>
-    <td>EP-02</td>
+    <td>EP-002</td>
 </tr>
 <tr>
     <td>TS-041</td>
@@ -2604,7 +2609,7 @@ En esta sección, se presenta el mapa de empatía, que nos ayudará a comprender
         When GET a /group/{groupId}/members/{memberId}/tasks<br>
         Then devuelve lista vacía (200).<br><br>
     </td>
-    <td>EP-02</td>
+    <td>EP-002</td>
 </tr>
 <tr>
     <td>TS-042</td>
@@ -2620,7 +2625,7 @@ En esta sección, se presenta el mapa de empatía, que nos ayudará a comprender
         When PATCH a /task/{taskId}<br>
         Then devuelve error 409.<br><br>
     </td>
-    <td>EP-02</td>
+    <td>EP-002</td>
 </tr>
 <tr>
     <td>TS-043</td>
@@ -2636,7 +2641,7 @@ En esta sección, se presenta el mapa de empatía, que nos ayudará a comprender
         When el sistema ejecuta validación automática<br>
         Then no se realiza ningún cambio y devuelve estado 204.<br><br>
     </td>
-    <td>EP-02</td>
+    <td>EP-002</td>
 </tr>
 <tr>
     <td>TS-044</td>
@@ -2652,7 +2657,7 @@ En esta sección, se presenta el mapa de empatía, que nos ayudará a comprender
         When se realiza PATCH a /group/{groupId}/requests/{requestId}/rejected<br>
         Then la solicitud cambia su estado a "Rechazada" (200).<br><br>
     </td>
-    <td>EP-02</td>
+    <td>EP-002</td>
 </tr>
 <tr>
     <td>TS-045</td>
@@ -2668,7 +2673,7 @@ En esta sección, se presenta el mapa de empatía, que nos ayudará a comprender
         When se realiza DELETE a /group/{groupId}/requests/{requestId}<br>
         Then la solicitud se elimina y se notifica al usuario (200).<br><br>
     </td>
-    <td>EP-05</td>
+    <td>EP-005</td>
 </tr>
 <tr>
     <td>TS-046</td>
@@ -2684,7 +2689,7 @@ En esta sección, se presenta el mapa de empatía, que nos ayudará a comprender
         When se realiza PATCH a /group/{groupId}/requests/{requestId}/accepted<br>
         Then devuelve error 409 (conflicto).<br><br>
     </td>
-    <td>EP-05</td>
+    <td>EP-005</td>
 </tr>
 <tr>
     <td>TS-047</td>
@@ -2700,7 +2705,7 @@ En esta sección, se presenta el mapa de empatía, que nos ayudará a comprender
         When se realiza DELETE a /group/{groupId}/requests/{requestId}<br>
         Then devuelve error 404 (no encontrado).<br><br>
     </td>
-    <td>EP-05</td>
+    <td>EP-005</td>
 </tr>
 <tr>
     <td>TS-048</td>
@@ -2716,7 +2721,7 @@ En esta sección, se presenta el mapa de empatía, que nos ayudará a comprender
         When se realiza PATCH a /task/{taskId}<br>
         Then devuelve error 404 (no encontrada).<br><br>
     </td>
-    <td>EP-02</td>
+    <td>EP-002</td>
 </tr>
 <tr>
     <td>TS-049</td>
@@ -2732,7 +2737,7 @@ En esta sección, se presenta el mapa de empatía, que nos ayudará a comprender
         When se realiza PATCH a /task/{taskId}<br>
         Then devuelve error 404 (no encontrada).<br><br>
     </td>
-    <td>EP-02</td>
+    <td>EP-002</td>
 </tr>
 <tr>
     <td>TS-050</td>
@@ -2748,7 +2753,7 @@ En esta sección, se presenta el mapa de empatía, que nos ayudará a comprender
         When se realiza DELETE a /group/{groupId}/requests/{requestId}<br>
         Then devuelve error 404 (no encontrada).<br><br>
     </td>
-    <td>EP-05</td>
+    <td>EP-005</td>
 </tr>
 <tr>
     <td>TS-051</td>
@@ -2764,7 +2769,7 @@ En esta sección, se presenta el mapa de empatía, que nos ayudará a comprender
         When se realiza PATCH a /task/{taskId}<br>
         Then devuelve error 404 (no encontrada).<br><br>
     </td>
-    <td>EP-02</td>
+    <td>EP-002</td>
 </tr>
 <tr>
     <td>TS-052</td>
@@ -2780,7 +2785,7 @@ En esta sección, se presenta el mapa de empatía, que nos ayudará a comprender
         When se realiza DELETE a /group/{groupId}/requests/{requestId}<br>
         Then devuelve error 404 (no encontrada).<br><br>
     </td>
-    <td>EP-05</td>
+    <td>EP-005</td>
 </tr>
 <tr>
     <td>TS-053</td>
@@ -2796,7 +2801,7 @@ En esta sección, se presenta el mapa de empatía, que nos ayudará a comprender
         When se realiza PATCH a /task/{taskId}<br>
         Then devuelve error 404 (no encontrada).<br><br>
     </td>
-    <td>EP-02</td>
+    <td>EP-002</td>
 </tr>
 <tr>
     <td>TS-054</td>
@@ -2812,7 +2817,7 @@ En esta sección, se presenta el mapa de empatía, que nos ayudará a comprender
         When se realiza DELETE a /group/{groupId}/requests/{requestId}<br>
         Then devuelve error 404 (no encontrada).<br><br>
     </td>
-    <td>EP-05</td>
+    <td>EP-005</td>
 </tr>
 </tbody>
 </table>
