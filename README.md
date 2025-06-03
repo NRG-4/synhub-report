@@ -2590,21 +2590,7 @@ En esta sección, se presenta el mapa de empatía, que nos ayudará a comprender
     </td>
     <td>EP-02</td>
 </tr>
-</tbody>
-</table>
-
-<table>
-  <thead>
-    <tr>
-      <th>User Story ID</th>
-      <th>Título</th>
-      <th>Descripción</th>
-      <th>Criterios de Aceptación</th>
-      <th>Relacionado con (Epic ID)</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
+<tr>
     <td>TS-041</td>
     <td>Consultar tareas de un integrante</td>
     <td>Como developer, quiero consultar las tareas asignadas a un integrante específico del grupo.</td>
@@ -2652,6 +2638,184 @@ En esta sección, se presenta el mapa de empatía, que nos ayudará a comprender
     </td>
     <td>EP-02</td>
 </tr>
+<tr>
+    <td>TS-044</td>
+    <td>Cambio de estado de solicitud manual</td>
+    <td>Como developer, quiero cambiar el estado de una solicitud para aceptarla o rechazarla mediante un endpoint PATCH.</td>
+    <td>
+        <b>Escenario 1: Aceptar solicitud activa</b><br>
+        Given una solicitud activa en el sistema<br>
+        When se realiza PATCH a /group/{groupId}/requests/{requestId}/accepted<br>
+        Then la solicitud cambia su estado a "Aceptada" (200).<br><br>
+        <b>Escenario 2: Rechazar solicitud activa</b><br>
+        Given una solicitud activa en el sistema<br>
+        When se realiza PATCH a /group/{groupId}/requests/{requestId}/rejected<br>
+        Then la solicitud cambia su estado a "Rechazada" (200).<br><br>
+    </td>
+    <td>EP-02</td>
+</tr>
+<tr>
+    <td>TS-045</td>
+    <td>Eliminación de solicitud del sistema</td>
+    <td>Como developer, quiero eliminar solicitudes procesadas para limpiar el sistema y notificar al usuario.</td>
+    <td>
+        <b>Escenario 1: Eliminar solicitud aceptada</b><br>
+        Given una solicitud aceptada y procesada<br>
+        When se realiza DELETE a /group/{groupId}/requests/{requestId}<br>
+        Then la solicitud se elimina y se notifica al usuario (200).<br><br>
+        <b>Escenario 2: Eliminar solicitud rechazada</b><br>
+        Given una solicitud rechazada<br>
+        When se realiza DELETE a /group/{groupId}/requests/{requestId}<br>
+        Then la solicitud se elimina y se notifica al usuario (200).<br><br>
+    </td>
+    <td>EP-05</td>
+</tr>
+<tr>
+    <td>TS-046</td>
+    <td>Aceptar una solicitud</td>
+    <td>Como developer, quiero aceptar una solicitud activa para cambiar su estado y continuar con el proceso.</td>
+    <td>
+        <b>Escenario 1: Solicitud activa aceptada</b><br>
+        Given una solicitud activa en el sistema<br>
+        When se realiza PATCH a /group/{groupId}/requests/{requestId}/{status}<br>
+        Then la solicitud cambia a estado "{status}" (200).<br><br>
+        <b>Escenario 2: Solicitud ya aceptada</b><br>
+        Given una solicitud con estado "Aceptada"<br>
+        When se realiza PATCH a /group/{groupId}/requests/{requestId}/accepted<br>
+        Then devuelve error 409 (conflicto).<br><br>
+    </td>
+    <td>EP-05</td>
+</tr>
+<tr>
+    <td>TS-047</td>
+    <td>Eliminar solicitud tras aceptación</td>
+    <td>Como developer, quiero eliminar una solicitud después de que haya sido aceptada para mantener el sistema limpio.</td>
+    <td>
+        <b>Escenario 1: Solicitud eliminada correctamente</b><br>
+        Given una solicitud aceptada en el sistema<br>
+        When se realiza DELETE a /group/{groupId}/requests/{requestId}<br>
+        Then la solicitud se elimina y se notifica la eliminación (200).<br><br>
+        <b>Escenario 2: Solicitud no encontrada</b><br>
+        Given una solicitud inexistente o ya eliminada<br>
+        When se realiza DELETE a /group/{groupId}/requests/{requestId}<br>
+        Then devuelve error 404 (no encontrado).<br><br>
+    </td>
+    <td>EP-05</td>
+</tr>
+<tr>
+    <td>TS-048</td>
+    <td>Modificar tarea tras aceptación de solicitud</td>
+    <td>Como developer, quiero actualizar una tarea luego de aceptar una solicitud para reflejar los cambios realizados.</td>
+    <td>
+        <b>Escenario 1: Tarea actualizada correctamente</b><br>
+        Given una tarea asociada a una solicitud aceptada<br>
+        When se realiza PATCH a /task/{taskId}<br>
+        Then la tarea se modifica y se notifica el cambio al usuario (200).<br><br>
+        <b>Escenario 2: Tarea no encontrada</b><br>
+        Given una tarea inexistente<br>
+        When se realiza PATCH a /task/{taskId}<br>
+        Then devuelve error 404 (no encontrada).<br><br>
+    </td>
+    <td>EP-02</td>
+</tr>
+<tr>
+    <td>TS-049</td>
+    <td>Actualizar tarea completada</td>
+    <td>Como developer, quiero actualizar el estado de una tarea marcada como completada para reflejar su cierre.</td>
+    <td>
+        <b>Escenario 1: Tarea completada actualizada correctamente</b><br>
+        Given una tarea marcada como completada<br>
+        When se realiza PATCH a /task/{taskId}<br>
+        Then el estado de la tarea cambia a "Completada" (200).<br><br>
+        <b>Escenario 2: Tarea completada no encontrada</b><br>
+        Given una tarea completada inexistente<br>
+        When se realiza PATCH a /task/{taskId}<br>
+        Then devuelve error 404 (no encontrada).<br><br>
+    </td>
+    <td>EP-02</td>
+</tr>
+<tr>
+    <td>TS-050</td>
+    <td>Eliminar solicitud tras tarea completada</td>
+    <td>Como developer, quiero eliminar la solicitud asociada tras la actualización de tarea completada para mantener la base limpia.</td>
+    <td>
+        <b>Escenario 1: Solicitud eliminada tras tarea completada</b><br>
+        Given una solicitud activa relacionada a tarea completada<br>
+        When se realiza DELETE a /group/{groupId}/requests/{requestId}<br>
+        Then la solicitud se elimina y se notifica la eliminación (200).<br><br>
+        <b>Escenario 2: Solicitud no encontrada para eliminar</b><br>
+        Given una solicitud inexistente o ya eliminada<br>
+        When se realiza DELETE a /group/{groupId}/requests/{requestId}<br>
+        Then devuelve error 404 (no encontrada).<br><br>
+    </td>
+    <td>EP-05</td>
+</tr>
+<tr>
+    <td>TS-051</td>
+    <td>Actualizar tarea completada con rechazo</td>
+    <td>Como developer, quiero actualizar una tarea completada cuando es rechazada para que el usuario realice correcciones.</td>
+    <td>
+        <b>Escenario 1: Tarea completada rechazada y actualizada</b><br>
+        Given una tarea marcada como completada<br>
+        When se realiza PATCH a /task/{taskId}<br>
+        Then el estado cambia a "Rechazada" y se aplica nuevo tiempo para correcciones (200).<br><br>
+        <b>Escenario 2: Tarea completada no encontrada para rechazo</b><br>
+        Given una tarea completada inexistente<br>
+        When se realiza PATCH a /task/{taskId}<br>
+        Then devuelve error 404 (no encontrada).<br><br>
+    </td>
+    <td>EP-02</td>
+</tr>
+<tr>
+    <td>TS-052</td>
+    <td>Eliminar solicitud tras rechazo de tarea completada</td>
+    <td>Como developer, quiero eliminar la solicitud asociada tras el rechazo de una tarea completada para mantener el sistema actualizado.</td>
+    <td>
+        <b>Escenario 1: Solicitud eliminada correctamente tras rechazo</b><br>
+        Given una solicitud activa relacionada a tarea completada rechazada<br>
+        When se realiza DELETE a /group/{groupId}/requests/{requestId}<br>
+        Then la solicitud se elimina y se notifica la eliminación (200).<br><br>
+        <b>Escenario 2: Solicitud no encontrada para eliminar</b><br>
+        Given una solicitud inexistente o ya eliminada<br>
+        When se realiza DELETE a /group/{groupId}/requests/{requestId}<br>
+        Then devuelve error 404 (no encontrada).<br><br>
+    </td>
+    <td>EP-05</td>
+</tr>
+<tr>
+    <td>TS-053</td>
+    <td>Actualizar tarea vencida</td>
+    <td>Como developer, quiero actualizar el estado de una tarea vencida para gestionar su reasignación.</td>
+    <td>
+        <b>Escenario 1: Tarea vencida actualizada correctamente</b><br>
+        Given una tarea vencida<br>
+        When se realiza PATCH a /task/{taskId}<br>
+        Then el estado de la tarea cambia a "Reasignada" (200).<br><br>
+        <b>Escenario 2: Tarea vencida no encontrada</b><br>
+        Given una tarea vencida inexistente<br>
+        When se realiza PATCH a /task/{taskId}<br>
+        Then devuelve error 404 (no encontrada).<br><br>
+    </td>
+    <td>EP-02</td>
+</tr>
+<tr>
+    <td>TS-054</td>
+    <td>Eliminar solicitud tras tarea vencida</td>
+    <td>Como developer, quiero eliminar la solicitud relacionada a una tarea vencida para mantener el sistema actualizado.</td>
+    <td>
+        <b>Escenario 1: Solicitud eliminada correctamente</b><br>
+        Given una solicitud activa relacionada a tarea vencida<br>
+        When se realiza DELETE a /group/{groupId}/requests/{requestId}<br>
+        Then la solicitud se elimina y se notifica la eliminación (200).<br><br>
+        <b>Escenario 2: Solicitud no encontrada</b><br>
+        Given una solicitud inexistente o ya eliminada<br>
+        When se realiza DELETE a /group/{groupId}/requests/{requestId}<br>
+        Then devuelve error 404 (no encontrada).<br><br>
+    </td>
+    <td>EP-05</td>
+</tr>
+</tbody>
+</table>
 
 ### 3.3. Impact Mapping
 
