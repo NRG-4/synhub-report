@@ -2845,6 +2845,9 @@ En esta sección, se presenta el mapa de empatía, que nos ayudará a comprender
     <tr><td>1</td><td>TS-010</td><td>Crear un nuevo miembro</td><td>Como developer, quiero crear un nuevo miembro para asegurarme de que el miembro se registra correctamente en el sistema.</td><td>5</td></tr>
     <tr><td>1</td><td>TS-013</td><td>Actualizar tarea</td><td>Como developer, quiero actualizar una tarea para asegurarme de que la tarea se modifica correctamente en el sistema.</td><td>5</td></tr>
     <tr><td>1</td><td>TS-025</td><td>Crear nueva solicitud</td><td>Como developer, quiero crear una nueva solicitud para asegurarme de que la solicitud se crea correctamente con los datos proporcionados.</td><td>5</td></tr>
+    <tr><td>1</td><td>TS-027</td><td>Loguearse en el app móvil</td><td>Como developer, quiero manejar autenticación segura para garantizar acceso autorizado.</td><td>5</td></tr>
+    <tr><td>1</td><td>TS-028</td><td>Actualizar contraseña</td><td>Como developer, quiero permitir a los usuarios actualizar su contraseña para mantener la seguridad de su cuenta.</td><td>2</td></tr>
+    <tr><td>1</td><td>TS-046</td><td>Aceptar una solicitud</td><td>Como developer, quiero aceptar una solicitud activa para cambiar su estado y continuar con el proceso.</td><td>3</td></tr>
     <tr><td>2</td><td>US-016</td><td>Solicitud de aprobación de tarea</td><td>Como miembro, quiero enviar tareas completadas para validación del líder.</td><td>3</td></tr>
     <tr><td>2</td><td>US-017</td><td>Validación de tareas</td><td>Como líder, quiero aprobar o rechazar tareas completadas para asegurar calidad.</td><td>3</td></tr>
     <tr><td>2</td><td>US-021</td><td>Visualización de miembros del grupo</td><td>Como líder, quiero ver la lista de miembros de mi grupo para gestionar la colaboración.</td><td>3</td></tr>
@@ -2862,6 +2865,14 @@ En esta sección, se presenta el mapa de empatía, que nos ayudará a comprender
     <tr><td>2</td><td>TS-016</td><td>Obtener todas las tareas</td><td>Como developer, quiero obtener todas las tareas para verificar que la API devuelve todas las tareas correctamente.</td><td>2</td></tr>
     <tr><td>2</td><td>TS-024</td><td>Actualizar estado de solicitud</td><td>Como developer, quiero actualizar el estado de una solicitud para reflejar correctamente su estado actual.</td><td>3</td></tr>
     <tr><td>2</td><td>TS-026</td><td>Obtener solicitud por ID</td><td>Como developer, quiero obtener una solicitud por su ID para verificar que la API devuelve la solicitud correcta con los detalles asociados.</td><td>2</td></tr>
+    <tr><td>2</td><td>TS-029</td><td>Crear usuarios</td><td>Como developer, quiero crear usuarios con distintos roles para asignar permisos específicos.</td><td>2</td></tr>
+    <tr><td>2</td><td>TS-030</td><td>Editar usuario</td><td>Como developer, quiero actualizar información de usuario para mantener los datos al día.</td><td>1</td></tr>
+    <tr><td>2</td><td>TS-039</td><td>Filtrar tareas por estado</td><td>Como developer, quiero obtener tareas filtradas por estado para visualizar su progreso.</td><td>3</td></tr>
+    <tr><td>2</td><td>TS-040</td><td>Agregar comentario a tarea</td><td>Como developer, quiero permitir agregar comentarios a tareas para facilitar la colaboración.</td><td>3</td></tr>
+    <tr><td>2</td><td>TS-041</td><td>Consultar tareas de un integrante</td><td>Como developer, quiero consultar las tareas asignadas a un integrante específico del grupo.</td><td>2</td></tr>
+    <tr><td>2</td><td>TS-042</td><td>Aceptar validación de tarea completada</td><td>Como developer, quiero aceptar manualmente tareas completadas para confirmar su cierre.</td><td>3</td></tr>
+    <tr><td>2</td><td>TS-043</td><td>Validación automática de tarea vencida</td><td>Como developer, quiero que el sistema valide automáticamente las tareas vencidas para actualizar su estado y asegurar calidad.</td><td>3</td></tr>
+    <tr><td>2</td><td>TS-044</td><td>Cambio de estado de solicitud manual</td><td>Como developer, quiero cambiar el estado de una solicitud para aceptarla o rechazarla mediante un endpoint PATCH.</td><td>2</td></tr>
     <tr><td>3</td><td>US-003</td><td>Eliminación de grupo</td><td>Como líder, quiero eliminar grupos inactivos para mantener la organización.</td><td>2</td></tr>
     <tr><td>3</td><td>US-006</td><td>Eliminación de tareas</td><td>Como líder, quiero eliminar tareas incorrectas o duplicadas.</td><td>2</td></tr>
     <tr><td>3</td><td>US-008</td><td>Reprogramación de tareas</td><td>Como líder, quiero cambiar fechas límite cuando surgen imprevistos.</td><td>2</td></tr>
@@ -2876,6 +2887,18 @@ En esta sección, se presenta el mapa de empatía, que nos ayudará a comprender
     <tr><td>3</td><td>TS-019</td><td>Marcar notificación como leída</td><td>Como developer, quiero marcar una notificación como leída para asegurarme de que el estado de la notificación se actualiza correctamente.</td><td>2</td></tr>
     <tr><td>3</td><td>TS-020</td><td>Obtener notificaciones de usuario</td><td>Como developer, quiero obtener todas las notificaciones de un usuario para verificar que la API devuelve correctamente las notificaciones asociadas a un usuario.</td><td>2</td></tr>
     <tr><td>3</td><td>TS-022</td><td>Generar reporte para un usuario</td><td>Como developer, quiero generar un reporte para un usuario para asegurarme de que la generación del reporte es exitosa y los datos son correctos.</td><td>5</td></tr>
+    <tr><td>3</td><td>TS-031</td><td>Crear grupo</td><td>Como developer, quiero permitir la creación de grupos para organizar equipos de trabajo.</td><td>2</td></tr>
+    <tr><td>3</td><td>TS-032</td><td>Buscar grupo</td><td>Como developer, quiero buscar grupos por código para obtener sus detalles.</td><td>2</td></tr>
+    <tr><td>3</td><td>TS-033</td><td>Actualizar grupo</td><td>Como developer, quiero actualizar información de grupos existentes para mantenerla actualizada.</td><td>3</td></tr>
+    <tr><td>3</td><td>TS-034</td><td>Obtener grupo de miembro o líder</td><td>Como developer, quiero obtener el grupo al que pertenece un miembro o líder para mostrar la información relacionada.</td><td>3</td></tr>
+    <tr><td>3</td><td>TS-035</td><td>Enviar solicitud de unión a grupo</td><td>Como sistema, quiero permitir que un miembro envíe una solicitud para unirse a un grupo.</td><td>3</td></tr>
+    <tr><td>3</td><td>TS-036</td><td>Aceptar solicitud de unión</td><td>Como sistema, quiero aceptar una solicitud de unión para añadir el usuario al grupo.</td><td>3</td></tr>
+    <tr><td>3</td><td>TS-037</td><td>Eliminar solicitud</td><td>Como sistema, quiero permitir rechazar o cancelar solicitudes de unión a grupos.</td><td>2</td></tr>
+    <tr><td>3</td><td>TS-038</td><td>Obtener solicitudes de grupo</td><td>Como sistema, quiero listar todas las solicitudes de unión enviadas a un grupo.</td><td>2</td></tr>
+    <tr><td>3</td><td>TS-048</td><td>Modificar tarea tras aceptación de solicitud</td><td>Como developer, quiero actualizar una tarea luego de aceptar una solicitud para reflejar los cambios realizados.</td><td>2</td></tr>
+    <tr><td>3</td><td>TS-049</td><td>Actualizar tarea completada</td><td>Como developer, quiero actualizar el estado de una tarea marcada como completada para reflejar su cierre.</td><td>3</td></tr>
+    <tr><td>3</td><td>TS-051</td><td>Actualizar tarea completada con rechazo</td><td>Como developer, quiero actualizar una tarea completada cuando es rechazada para que el usuario realice correcciones.</td><td>2</td></tr>
+    <tr><td>3</td><td>TS-053</td><td>Actualizar tarea vencida</td><td>Como developer, quiero actualizar el estado de una tarea vencida para gestionar su reasignación.</td><td>2</td></tr>
     <tr><td>4</td><td>US-010</td><td>Notificaciones por email</td><td>Como miembro, quiero recibir notificaciones por email cuando no esté activo en la plataforma.</td><td>2</td></tr>
     <tr><td>4</td><td>US-011</td><td>Preferencias de notificación</td><td>Como miembro, quiero configurar qué notificaciones recibo para gestionar mi atención.</td><td>1</td></tr>
     <tr><td>4</td><td>US-014</td><td>Reporte de reprogramaciones</td><td>Como líder, quiero ver un gráfico de líneas con la cantidad de tareas reprogramadas por semana.</td><td>2</td></tr>
@@ -2890,6 +2913,11 @@ En esta sección, se presenta el mapa de empatía, que nos ayudará a comprender
     <tr><td>4</td><td>US-030</td><td>Confirmación antes de eliminar una tarea</td><td>Como líder, quiero recibir una confirmación antes de eliminar una tarea para evitar borrados accidentales.</td><td>1</td></tr>
     <tr><td>4</td><td>TS-021</td><td>Obtener notificaciones no leídas de usuario</td><td>Como developer, quiero obtener todas las notificaciones no leídas de un usuario para verificar que la API devuelve correctamente las notificaciones no leídas.</td><td>1</td></tr>
     <tr><td>4</td><td>TS-023</td><td>Obtener reportes de un usuario</td><td>Como developer, quiero obtener todos los reportes generados para un usuario para verificar que la API devuelve correctamente los reportes asociados al usuario.</td><td>1</td></tr>
+    <tr><td>4</td><td>TS-045</td><td>Eliminación de solicitud del sistema</td><td>Como developer, quiero eliminar solicitudes procesadas para limpiar el sistema y notificar al usuario.</td><td>1</td></tr>
+    <tr><td>4</td><td>TS-047</td><td>Eliminar solicitud tras aceptación</td><td>Como developer, quiero eliminar una solicitud después de que haya sido aceptada para mantener el sistema limpio.</td><td>1</td></tr>
+    <tr><td>4</td><td>TS-050</td><td>Eliminar solicitud tras tarea completada</td><td>Como developer, quiero eliminar la solicitud asociada tras la actualización de tarea completada para mantener la base limpia.</td><td>1</td></tr>
+    <tr><td>4</td><td>TS-052</td><td>Eliminar solicitud tras rechazo de tarea completada</td><td>Como developer, quiero eliminar la solicitud asociada tras el rechazo de una tarea completada para mantener el sistema actualizado.</td><td>1</td></tr>
+    <tr><td>4</td><td>TS-054</td><td>Eliminar solicitud tras tarea vencida</td><td>Como developer, quiero eliminar la solicitud relacionada a una tarea vencida para mantener el sistema actualizado.</td><td>1</td></tr>
   </tbody>
 </table>
 
