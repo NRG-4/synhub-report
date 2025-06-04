@@ -4869,6 +4869,12 @@ En esta sección se presentan y explican los Mock-ups de la aplicación. Se evid
 
 <img src="images/chapter-5/mockup-7.png" alt="Mockup 7" width="600"/>
 
+<img src="images/chapter-5/mockup-8.png" alt="Mockup 8" width="600"/>
+
+<img src="images/chapter-5/mockup-9.png" alt="Mockup 9" width="600"/>
+
+<img src="images/chapter-5/mockup-10.png" alt="Mockup 10" width="600"/>
+
 ##### 5.1.4.4. Mobile Applications User Flow Diagrams
 
 **Creación de grupo:** este userflow corresponde a cuando un lider de equipo buscar crear un nuevo grupo.
