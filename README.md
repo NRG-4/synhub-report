@@ -4788,6 +4788,12 @@ Los wireframes de Synhub representan la estructura y disposición de las pantall
 
 <img src="images/chapter-5/wireframe-6.png" alt="Wireframe 1" width="600"/>
 
+<img src="images/chapter-5/wireframe-7.png" alt="Wireframe 7" width="600"/>
+
+<img src="images/chapter-5/wireframe-8.png" alt="Wireframe 8" width="600"/>
+
+<img src="images/chapter-5/wireframe-9.png" alt="Wireframe 9" width="600"/>
+
 ##### 5.1.4.2. Mobile Applications Wireflow Diagrams
 
 Los wireflow diagrams de Synhub representan la secuencia de interacciones y pantallas que los usuarios experimentarán al navegar por la aplicación.
@@ -4821,6 +4827,29 @@ Los wireflow diagrams de Synhub representan la secuencia de interacciones y pant
 **Revisar una solicitud o validación:** este wireflow corresponde a cuando un lider de equipo busca revisar una solicitud o validación ya existente.
 
 <img src="images/chapter-5/wireflow-7.png" alt="Wireflow 7" width="600"/>
+
+**Unirse a un grupo:** Este wireflow corresponde a cuando un miembro busca unirse a un grupo.
+
+<img src="images/chapter-5/wireflow-8.png" alt="Wireflow 8" width="600"/>
+
+
+**Enviar un comentario a una tarea:** Este wireflow corresponde a cuando un miembro busca sus tareas asignadas y envia un comentario a la tarea respectiva.
+
+
+<img src="images/chapter-5/wireflow-9.png" alt="Wireflow 9" width="600"/>
+
+
+**Visualizar solicitud o validacion pendiente:** Este wireflow corresponde a cuando un miembro busca sus solicitudes o validaciones pendientes.
+
+
+<img src="images/chapter-5/wireflow-10.png" alt="Wireflow 10" width="600"/>
+
+
+**Ver metricas de desempeño:** Este wireflow corresponde a cuando un miembro busca visualizar su desempeño mediante una metrica.
+
+
+<img src="images/chapter-5/wireflow-11.png" alt="Wireflow 11" width="600"/>
+
 
 ##### 5.1.4.3. Mobile Applications Mock-ups
 
