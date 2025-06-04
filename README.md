@@ -4926,6 +4926,48 @@ Task flow: 🟥 Happy Path, 🟨 Error Path, 🟦 User Goal
 
 <img src="images/chapter-5/userflow-7.png" alt="Userflow 7" width="600"/>
 
+**Unirse a un grupo:** Este wireflow corresponde a cuando un miembro busca unirse a un grupo.
+Task flow: 🟥 Happy Path, 🟨 Error Path, 🟦 User Goal
+
+
+<img src="images/chapter-5/userflow-t8.png" alt="Userflow t8" width="600"/>
+
+
+<img src="images/chapter-5/userflow-8.png" alt="Userflow t7" width="600"/>
+
+
+**Enviar un comentario a una tarea:** Este wireflow corresponde a cuando un miembro busca sus tareas asignadas y envia un comentario a la tarea respectiva.
+Task flow: 🟥 Happy Path, 🟨 Error Path, 🟦 User Goal
+
+
+<img src="images/chapter-5/userflow-t9.png" alt="Userflow t9" width="600"/>
+
+
+<img src="images/chapter-5/userflow-9.png" alt="Userflow t9" width="600"/>
+
+
+**Visualizar solicitud o validacion pendiente:** Este wireflow corresponde a cuando un miembro busca sus solicitudes o validaciones pendientes.
+Task flow: 🟥 Happy Path, 🟨 Error Path, 🟦 User Goal
+
+
+<img src="images/chapter-5/userflow-t10.png" alt="Userflow t10" width="600"/>
+
+
+<img src="images/chapter-5/userflow-10.png" alt="Userflow 10" width="600"/>
+
+
+**Ver metricas de desempeño:** Este wireflow corresponde a cuando un miembro busca visualizar su desempeño mediante una metrica.
+Task flow: 🟥 Happy Path, 🟨 Error Path, 🟦 User Goal
+
+
+
+<img src="images/chapter-5/userflow-t11.png" alt="Userflow t11" width="600"/>
+
+
+<img src="images/chapter-5/userflow-11.png" alt="Userflow 11" width="600"/>
+
+
+
 ##### 5.1.4.5. Mobile Applications Prototyping
 
 Para este apartado comenzamos con la **creación de grupos**, donde el líder establece un nuevo espacio de trabajo, seguido de la **invitación de integrantes** para conformar el equipo. Una vez formado el grupo, el líder puede **asignar tareas** específicas a cada miembro, con la capacidad de **editar** los detalles de estas tareas si es necesario o **eliminarlas** cuando ya no sean relevantes. Además, el líder puede **consultar la información detallada** de cualquier tarea para hacer seguimiento, y **revisar solicitudes o validaciones** presentadas por los miembros del equipo, lo que le permite aprobar, rechazar o dar retroalimentación sobre el trabajo realizado. Estos flujos cubren el ciclo completo de gestión, desde la organización del equipo hasta la supervisión y validación de las actividades asignadas.
@@ -6283,3 +6325,6 @@ Nielsen Norman Group. (n.d.). User Journey Mapping. [https://www.nngroup.com/art
 Sommerville, I. (2016). Software Engineering (10th ed.). Pearson Education. [https://www.pearson.com/en-us/subject-catalog/p/software-engineering/P200000005158/9780133943030](https://www.pearson.com/en-us/subject-catalog/p/software-engineering/P200000005158/9780133943030)
 
 ## Anexos
+
+**Visualizar solicitud o validacion pendiente:** Este wireflow corresponde a cuando un miembro busca sus solicitudes o validaciones pendientes.
+Task flow: 🟥 Happy Path, 🟨 Error Path, 🟦 User Goal
