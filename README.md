@@ -6225,6 +6225,583 @@ Para este sprint se desarrollaron 3 productos siendo estos: landing page, web ap
 - Alejo Cardenas Jose Antonio: 7 commits.
 - Pacheco Astiguetta Sebastian: 39 commits.
 
+### 6.2.1. Sprint 1
+
+#### 6.2.2.1. Sprint Planning 2.
+
+
+<table>
+  <tr>
+    <td colspan="1"><strong>Sprint #</strong></td>
+    <td colspan="1">2</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Sprint Planning Background</strong></td>
+  </tr>
+  <tr>
+    <td colspan="1"><strong>Date</strong></td>
+    <td colspan="1">2025-09-06</td>
+  </tr>
+  <tr>
+    <td colspan="1"><strong>Time</strong></td>
+    <td colspan="1">15:00 PM</td>
+  </tr>
+  <tr>
+    <td colspan="1"><strong>Location</strong></td>
+    <td colspan="1">Discord</td>
+  </tr>
+  <tr>
+    <td colspan="1"><strong>Prepared by</strong></td>
+    <td colspan="1">Alex Casas</td>
+  </tr>
+  <tr>
+    <td colspan="1"><strong>Attendees (to planning meeting)</strong></td>
+    <td colspan="1">Juan Astonitas, Jose Alejo, Gabriel Casas, Gianluca Pasquale, Sebastian Pacheco</td>
+  </tr>
+  <tr>
+    <td colspan="1"><strong>Sprint n – 1 Review Summary</strong></td>
+    <td colspan="1">Se actualizo la landing page implementada con next.js, el front del mobile en flutter y el backend en spring boot JAVA</td>
+  </tr>
+  <tr>
+    <td colspan="1"><strong>Sprint n – 1 Retrospective Summary</strong></td>
+    <td colspan="1">Distribuir mejor los artefactos asignados a cada miembro deacuerdo a sus capacidades</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Sprint Goal & User Stories</strong></td>
+  </tr>
+  <tr>
+    <td colspan="1"><strong>Sprint 2 Goal</strong></td>
+    <td colspan="1">Nuestro enfoque está en garantizar que SynHub alcance hitos clave para sus distintos usuarios: finalizando la landing page (orientada a nuevos usuarios), avanzando el backend al 70-80% (para desarrolladores) y lanzando la primera versión de la app móvil (para líderes e integrantes de equipo). Creemos que esto permitirá una experiencia integral, donde los nuevos usuarios comprendan el valor de la plataforma, los desarrolladores tengan bases técnicas sólidas, y los equipos internos empiecen a operar con herramientas funcionales. Esto se confirmará cuando: la landing page esté publicada sin errores y con alta conversión, el backend tenga el 80% de sus endpoints críticos probados y documentados, y la app móvil (v1.0) permita gestionar tareas básicas y haya sido validada por líderes piloto.</td>
+  </tr>
+  <tr>
+    <td colspan="1"><strong>Sprint 2 Velocity</strong></td>
+    <td colspan="1">Para este sprint nuestro equipo puende aceptar hasta 100 story points</td>
+  </tr>
+  <tr>
+    <td colspan="1"><strong>Sum of Story Points</strong></td>
+    <td colspan="1">La suma de story point atendidos es de PENDIENTE story point.</td>
+  </tr>
+</table>
+
+
+#### 6.2.2.2. Sprint Backlog 2.
+
+
+<table>
+  <tr>
+    <td colspan="1"><strong>Sprint #</strong></td>
+    <td colspan="7"><strong>Sprint 2</strong></td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>User Story</strong></td>
+    <td colspan="6"><strong>Work-Item/task</strong></td>
+  </tr>
+  <tr>
+    <td colspan="1"><strong>Id</strong></td>
+    <td colspan="1"><strong>Title</strong></td>
+    <td colspan="1"><strong>Id</strong></td>
+    <td colspan="1"><strong>Title</strong></td>
+    <td colspan="1"><strong>Description</strong></td>
+    <td colspan="1"><strong>Estimation(Hrs)</strong></td>
+    <td colspan="1"><strong>Assigned To</strong></td>
+    <td colspan="1"><strong>Status</strong></td>
+  </tr>
+  <tr>
+    <td colspan="1">TS-027</td>
+    <td colspan="1">Loguearse en el app móvil</td>
+    <td colspan="1">T001</td>
+    <td colspan="1">Recibir credenciales, valide usuario y contraseña, y devuelva token JWT y rol del usuario</td>
+    <td colspan="1">Crear endpoint POST /authentication/sign-up  .</td>
+    <td colspan="1">1</td>
+    <td colspan="1">Alex Casas</td>
+    <td colspan="1">Done</td>
+  </tr>
+<tr>
+    <td colspan="1">TS-027</td>
+    <td colspan="1">Loguearse en el app móvil</td>
+    <td colspan="1">T002</td>
+    <td colspan="1">Recibir credenciales, valide usuario y contraseña, y devuelva token JWT y rol del usuario</td>
+    <td colspan="1">Crear endpoint POST /authentication/sign-in  .</td>
+    <td colspan="1">1</td>
+    <td colspan="1">Alex Casas</td>
+    <td colspan="1">Done</td>
+  </tr>
+<tr>
+    <td colspan="1">TS-027</td>
+    <td colspan="1">Loguearse en el app móvil</td>
+    <td colspan="1">T003</td>
+    <td colspan="1">Login </td>
+    <td colspan="1">Valida rol miembro/lider  .</td>
+    <td colspan="1">1</td>
+    <td colspan="1">Alex Casas</td>
+    <td colspan="1">Done</td>
+  </tr>
+  <tr>
+    <td colspan="1">TS-028</td>
+    <td colspan="1">Actualizar contraseña</td>
+    <td colspan="1">T004</td>
+    <td colspan="1">Update</td>
+    <td colspan="1">Cambiar contraseña de usuario</td>
+    <td colspan="1">0.5</td>
+    <td colspan="1">Jose Alejo</td>
+    <td colspan="1">Done</td>
+  </tr>
+  <tr>
+    <td colspan="1">TS-029</td>
+    <td colspan="1">Crear usuarios</td>
+    <td colspan="1">T005</td>
+    <td colspan="1">Creacion de usuario</td>
+    <td colspan="1">Creacion de un usuario con rol dinamico</td>
+    <td colspan="1">1</td>
+    <td colspan="1">Alex Casas</td>
+    <td colspan="1">Done</td>
+  </tr>
+<tr>
+    <td colspan="1">TS-029</td>
+    <td colspan="1">Crear usuarios</td>
+    <td colspan="1">T006</td>
+    <td colspan="1">Devolver un lider por codigo de usuario</td>
+    <td colspan="1">Crear el endpoint GET /leaders/{userId}</td>
+    <td colspan="1">1</td>
+    <td colspan="1">Alex Casas</td>
+    <td colspan="1">Done</td>
+  </tr>
+<tr>
+    <td colspan="1">TS-029</td>
+    <td colspan="1">Crear usuarios</td>
+    <td colspan="1">T007</td>
+    <td colspan="1">Crear un lider</td>
+    <td colspan="1">Crear un lider mediante un POST</td>
+    <td colspan="1">1</td>
+    <td colspan="1">Alex Casas</td>
+    <td colspan="1">Done</td>
+  </tr>
+<tr>
+    <td colspan="1">TS-029</td>
+    <td colspan="1">Crear usuarios</td>
+    <td colspan="1">T008</td>
+    <td colspan="1">Obtener la informacion de un usuario</td>
+    <td colspan="1">Obtener la informacion de un usuario mediante un GET</td>
+    <td colspan="1">1</td>
+    <td colspan="1">Alex Casas</td>
+    <td colspan="1">Done</td>
+  </tr>
+  <tr>
+    <td colspan="1">TS-030</td>
+    <td colspan="1">Editar usuario</td>
+    <td colspan="1">T009</td>
+    <td colspan="1">Editar informacion de un usuario</td>
+    <td colspan="1">Editar informacion de un usuario mediante un PUT</td>
+    <td colspan="1">1</td>
+    <td colspan="1">Jose Alejo</td>
+    <td colspan="1">Done</td>
+  </tr>
+<tr>
+    <td colspan="1">TS-030</td>
+    <td colspan="1">Editar usuario</td>
+    <td colspan="1">T010</td>
+    <td colspan="1">Obtener un usuario</td>
+    <td colspan="1">Crear el endpoint GET /users/{userId} que obtenga el user por userId</td>
+    <td colspan="1">1</td>
+    <td colspan="1">Jose Alejo</td>
+    <td colspan="1">Done</td>
+  </tr>
+  <tr>
+    <td colspan="1">TS-031</td>
+    <td colspan="1">Crear grupo</td>
+    <td colspan="1">T011</td>
+    <td colspan="1">Crear un grupo con nombre y descripcion validos</td>
+    <td colspan="1">Crear endpoint POST leaders/{leaderId}/group</td>
+    <td colspan="1">2</td>
+    <td colspan="1">Alex Casas</td>
+    <td colspan="1">Done</td>
+  </tr>
+  <tr>
+    <td colspan="1">TS-032</td>
+    <td colspan="1">Buscar grupo</td>
+    <td colspan="1">T012</td>
+    <td colspan="1">Buscar un grupo por su codigo</td>
+    <td colspan="1">Crear endpoint GET leaders/{leaderId}/group</td>
+    <td colspan="1">1</td>
+    <td colspan="1">Juan Astonitas</td>
+    <td colspan="1">Done</td>
+  </tr>
+<tr>
+    <td colspan="1">TS-032</td>
+    <td colspan="1">Buscar grupo</td>
+    <td colspan="1">T013</td>
+    <td colspan="1">Obtener todas las tasks del grupo por su id</td>
+    <td colspan="1">Crear el endpoint GET groups/{groupId}/tasks</td>
+    <td colspan="1">1</td>
+    <td colspan="1">Juan Astonitas</td>
+    <td colspan="1">Done</td>
+  </tr>
+<tr>
+    <td colspan="1">TS-032</td>
+    <td colspan="1">Buscar grupo</td>
+    <td colspan="1">T014</td>
+    <td colspan="1">Obtener todos los miembros del grupo por su codigo</td>
+    <td colspan="1">Crear el endpoint GET groups/{groupId}/members</td>
+    <td colspan="1">1</td>
+    <td colspan="1">Juan Astonitas</td>
+    <td colspan="1">Done</td>
+  </tr>
+<tr>
+    <td colspan="1">TS-032</td>
+    <td colspan="1">Buscar grupo</td>
+    <td colspan="1">T015</td>
+    <td colspan="1">Buscar grupo por su codigo</td>
+    <td colspan="1">Crear el endpoint GET groups/search</td>
+    <td colspan="1">1</td>
+    <td colspan="1">Juan Astonitas</td>
+    <td colspan="1">Done</td>
+  </tr>
+  <tr>
+    <td colspan="1">TS-033</td>
+    <td colspan="1">Actualizar grupo</td>
+    <td colspan="1">T016</td>
+    <td colspan="1">Eliminar un grupo</td>
+    <td colspan="1">Crear endpoint DELETE leaders/{leaderId}/group</td>
+    <td colspan="1">2.5</td>
+    <td colspan="1">Alex Casas</td>
+    <td colspan="1">To-do</td>
+  </tr>
+<tr>
+    <td colspan="1">TS-033</td>
+    <td colspan="1">Actualizar grupo</td>
+    <td colspan="1">T017</td>
+    <td colspan="1">Eliminar un miembro de un grupo por codigo de miembro</td>
+    <td colspan="1">Crear endpoint DELETE leaders/{leaderId}/group/members/{memberId}</td>
+    <td colspan="1">2.5</td>
+    <td colspan="1">Alex Casas</td>
+    <td colspan="1">To-do</td>
+  </tr>
+  <tr>
+    <td colspan="1">TS-034</td>
+    <td colspan="1">Obtener grupo de miembro o lider</td>
+    <td colspan="1">T018</td>
+    <td colspan="1">Obtener el grupo por codigo de miembro</td>
+    <td colspan="1">Crear endpoint GET groups/members/{memberId}</td>
+    <td colspan="1">2</td>
+    <td colspan="1">Alex Casas</td>
+    <td colspan="1">Done</td>
+  </tr>
+<tr>
+    <td colspan="1">TS-034</td>
+    <td colspan="1">Obtener grupo de miembro o lider</td>
+    <td colspan="1">T019</td>
+    <td colspan="1">Crear createNewTask</td>
+    <td colspan="1">Crear endpoint groups/members/{leaderId}</td>
+    <td colspan="1">2</td>
+    <td colspan="1">Alex Casas</td>
+    <td colspan="1">Done</td>
+  </tr>
+<tr>
+    <td colspan="1">TS-035</td>
+    <td colspan="1">Enviar solicitud de union a grupo</td>
+    <td colspan="1">T020</td>
+    <td colspan="1">Permitir al miembro solicitar unirse a un grupo</td>
+    <td colspan="1">Crear endpoint POST /invitations</td>
+    <td colspan="1">1</td>
+    <td colspan="1">Alex Casas</td>
+    <td colspan="1">Done</td>
+  </tr>
+<tr>
+    <td colspan="1">TS-036</td>
+    <td colspan="1">Aceptar solicitud de union</td>
+    <td colspan="1">T021</td>
+    <td colspan="1">Permitir aceptar o rechazar una solicitud existente y añadir al usuario al grupo</td>
+    <td colspan="1">Crear endpoint PATCH /leaders/{leaderId}/invitations/{invitationId}</td>
+    <td colspan="1">1</td>
+    <td colspan="1">Juan Astonitas</td>
+    <td colspan="1">Done</td>
+  </tr>
+<tr>
+    <td colspan="1">TS-037</td>
+    <td colspan="1">Eliminar solicitud</td>
+    <td colspan="1">T022</td>
+    <td colspan="1">Cancelar una solicitud pendiente</td>
+    <td colspan="1">Crear endpoint DELETE /invitations/member/{memberId}</td>
+    <td colspan="1">1.5</td>
+    <td colspan="1">Juan Astonitas</td>
+    <td colspan="1">Done</td>
+  </tr>
+<tr>
+    <td colspan="1">TS-038</td>
+    <td colspan="1">Obtener solicitudes de grupo</td>
+    <td colspan="1">T023</td>
+    <td colspan="1">Listar solicitudes enviadas a un grupo</td>
+    <td colspan="1">Crear endpoint de Task GET /api/v1/tasks/{taskId}</td>
+    <td colspan="1">1.5</td>
+    <td colspan="1">Juan Astonitas</td>
+    <td colspan="1">Done</td>
+  </tr>
+<tr>
+    <td colspan="1">TS-038</td>
+    <td colspan="1">Obtener solicitudes de grupo</td>
+    <td colspan="1">T024</td>
+    <td colspan="1">Obtener las solicitudes y/o validaciones de un integrante</td>
+    <td colspan="1">Obtenerlas mediante un endpoint GET</td>
+    <td colspan="1">1.5</td>
+    <td colspan="1">Juan Astonitas</td>
+    <td colspan="1">Done</td>
+  </tr>
+<tr>
+    <td colspan="1">TS-039</td>
+    <td colspan="1">Filtrar tareas por estado</td>
+    <td colspan="1">T025</td>
+    <td colspan="1">Filtrar tareas por el estado deseado</td>
+    <td colspan="1">Crear endpoint GET /tasks/status/{status}</td>
+    <td colspan="1">2</td>
+    <td colspan="1">Jose Alejo</td>
+    <td colspan="1">Done</td>
+  </tr>
+<tr>
+    <td colspan="1">TS-040</td>
+    <td colspan="1">Agregar comentario a tarea</td>
+    <td colspan="1">T026</td>
+    <td colspan="1">Enviar comentario asignado a una tarea</td>
+    <td colspan="1">Enviar comentario asignado a una tarea mediante un POST</td>
+    <td colspan="1">1</td>
+    <td colspan="1">Jose Alejo</td>
+    <td colspan="1">Done</td>
+  </tr>
+<tr>
+    <td colspan="1">TS-040</td>
+    <td colspan="1">Agregar comentario a tarea</td>
+    <td colspan="1">T027</td>
+    <td colspan="1">Obtener una tarea existente</td>
+    <td colspan="1">Crear endpoint GET tasks/{taskId}</td>
+    <td colspan="1">1</td>
+    <td colspan="1">Jose Alejo</td>
+    <td colspan="1">Done</td>
+  </tr>
+<tr>
+    <td colspan="1">TS-040</td>
+    <td colspan="1">Agregar comentario a tarea</td>
+    <td colspan="1">T028</td>
+    <td colspan="1">Actualizar una tarea existente</td>
+    <td colspan="1">Crear endpoint PUT /tasks/{taskId}</td>
+    <td colspan="1">1</td>
+    <td colspan="1">Jose Alejo</td>
+    <td colspan="1">Done</td>
+  </tr>
+<tr>
+    <td colspan="1">TS-040</td>
+    <td colspan="1">Agregar comentario a tarea</td>
+    <td colspan="1">T029</td>
+    <td colspan="1">Eliminar una tarea existente</td>
+    <td colspan="1">Crear endpoint DELETE /tasks/{taskId}</td>
+    <td colspan="1">1</td>
+    <td colspan="1">Jose Alejo</td>
+    <td colspan="1">Done</td>
+  </tr>
+<tr>
+    <td colspan="1">TS-040</td>
+    <td colspan="1">Agregar comentario a tarea</td>
+    <td colspan="1">T030</td>
+    <td colspan="1">Actualizar el status de una tarea existente</td>
+    <td colspan="1">Crear endpoint PUT /tasks/{tasksId}/status/{status}</td>
+    <td colspan="1">1</td>
+    <td colspan="1">Jose Alejo</td>
+    <td colspan="1">Done</td>
+  </tr>
+<tr>
+    <td colspan="1">TS-040</td>
+    <td colspan="1">Agregar comentario a tarea</td>
+    <td colspan="1">T031</td>
+    <td colspan="1">Agregar comentario a una tarea</td>
+    <td colspan="1">Agregar comentario a una tarea mediante el metodo POST</td>
+    <td colspan="1">1</td>
+    <td colspan="1">Jose Alejo</td>
+    <td colspan="1">Done</td>
+  </tr>
+<tr>
+    <td colspan="1">TS-041</td>
+    <td colspan="1">Consultar tareas de un integrante</td>
+    <td colspan="1">T032</td>
+    <td colspan="1">Crear una nueva task</td>
+    <td colspan="1">Crear endpoint POST /members/{memberId}/tasks</td>
+    <td colspan="1">1.5</td>
+    <td colspan="1">Gianluca Pasquale</td>
+    <td colspan="1">Done</td>
+  </tr>
+<tr>
+    <td colspan="1">TS-041</td>
+    <td colspan="1">Consultar tareas de un integrante</td>
+    <td colspan="1">T033</td>
+    <td colspan="1">Obtener los datos para elaborar una metrica</td>
+    <td colspan="1">Obtener los datos deseados mediante un GET</td>
+    <td colspan="1">1.5</td>
+    <td colspan="1">Gianluca Pasquale</td>
+    <td colspan="1">Done</td>
+  </tr>
+<tr>
+    <td colspan="1">TS-041</td>
+    <td colspan="1">Consultar tareas de un integrante</td>
+    <td colspan="1">T034</td>
+    <td colspan="1">Obtener informacion para construir las metricas de un suuario</td>
+    <td colspan="1">Obtener la informacion del usuario mediante un GET</td>
+    <td colspan="1">1.5</td>
+    <td colspan="1">Gianluca Pasquale</td>
+    <td colspan="1">Done</td>
+  </tr>
+<tr>
+    <td colspan="1">TS-042</td>
+    <td colspan="1">Aceptar validacion de tarea completada</td>
+    <td colspan="1">T035</td>
+    <td colspan="1">Aceptar la validacion</td>
+    <td colspan="1">Aceptar la validacion mediante el endpoint PUT</td>
+    <td colspan="1">0.5</td>
+    <td colspan="1">Sebastian Pacheco</td>
+    <td colspan="1">Done</td>
+  </tr>
+<tr>
+    <td colspan="1">TS-043</td>
+    <td colspan="1">Validacion automatica de tarea vencida</td>
+    <td colspan="1">T036</td>
+    <td colspan="1">Enviar solicitudes de validacion</td>
+    <td colspan="1">Enviar solicitudes de validacion de manera automatica y manual</td>
+    <td colspan="1">1.5</td>
+    <td colspan="1">Sebastian Pacheco</td>
+    <td colspan="1">Done</td>
+  </tr>
+<tr>
+    <td colspan="1">TS-044</td>
+    <td colspan="1">Cambio de estado de solicitud manual</td>
+    <td colspan="1">T037</td>
+    <td colspan="1">Enviar solicitudes de validacion</td>
+    <td colspan="1">Enviar solicitudes de validacion de manera automatica y manual</td>
+    <td colspan="1">3.5</td>
+    <td colspan="1">Sebastian Pacheco</td>
+    <td colspan="1">Done</td>
+  </tr>
+<tr>
+    <td colspan="1">TS-045</td>
+    <td colspan="1">Eliminacion de solicitud del sistema</td>
+    <td colspan="1">T038</td>
+    <td colspan="1">Enviar solicitudes de validacion</td>
+    <td colspan="1">Enviar solicitudes de validacion de manera automatica y manual</td>
+    <td colspan="1">0.5</td>
+    <td colspan="1">Sebastian Pacheco</td>
+    <td colspan="1">Done</td>
+  </tr>
+<tr>
+    <td colspan="1">TS-046</td>
+    <td colspan="1">Aceptar una solicitud</td>
+    <td colspan="1">T039</td>
+    <td colspan="1">Enviar solicitudes de validacion</td>
+    <td colspan="1">Enviar solicitudes de validacion de manera automatica y manual </td>
+    <td colspan="1">0.5</td>
+    <td colspan="1">Sebastian Pacheco</td>
+    <td colspan="1">Done</td>
+  </tr>
+<tr>
+    <td colspan="1">TS-047</td>
+    <td colspan="1">Eliminar solicitud tras aceptacion</td>
+    <td colspan="1">T040</td>
+    <td colspan="1">Aceptar la validacion</td>
+    <td colspan="1">Aceptar la validacion mediante el endpoint PUT</td>
+    <td colspan="1">2.5</td>
+    <td colspan="1">Sebastian Pacheco</td>
+    <td colspan="1">Done</td>
+  </tr>
+<tr>
+    <td colspan="1">TS-048</td>
+    <td colspan="1">Modificar tarea tras aceptacion de solicitud</td>
+    <td colspan="1">T041</td>
+    <td colspan="1">Aceptar la validacion</td>
+    <td colspan="1">Aceptar la validacion mediante el endpoint PUT</td>
+    <td colspan="1">1.5</td>
+    <td colspan="1">Sebastian Pacheco</td>
+    <td colspan="1">Done</td>
+  </tr>
+<tr>
+    <td colspan="1">TS-049</td>
+    <td colspan="1">Actualizar tarea completada</td>
+    <td colspan="1">T042</td>
+    <td colspan="1">Aceptar la validacion</td>
+    <td colspan="1">Aceptar la validacion mediante el endpoint PUT</td>
+    <td colspan="1">1.5</td>
+    <td colspan="1">Sebastian Pacheco</td>
+    <td colspan="1">Done</td>
+  </tr>
+<tr>
+    <td colspan="1">TS-050</td>
+    <td colspan="1">Eliminar solicitud tras tarea completada</td>
+    <td colspan="1">T043</td>
+    <td colspan="1">Aceptar la validacion</td>
+    <td colspan="1">Aceptar la validacion mediante el endpoint PUT</td>
+    <td colspan="1">3</td>
+    <td colspan="1">Sebastian Pacheco</td>
+    <td colspan="1">Done</td>
+  </tr>
+<tr>
+    <td colspan="1">TS-051</td>
+    <td colspan="1">Actualizar tarea completada con rechazo</td>
+    <td colspan="1">T044</td>
+    <td colspan="1">Denegar la validacion</td>
+    <td colspan="1">Denegar la validacion mediante el endpoint PUT</td>
+    <td colspan="1">1</td>
+    <td colspan="1">Sebastian Pacheco</td>
+    <td colspan="1">Done</td>
+  </tr>
+<tr>
+    <td colspan="1">TS-052</td>
+    <td colspan="1">Eliminar solicitud tras rechazo de tarea completada</td>
+    <td colspan="1">T045</td>
+    <td colspan="1">Denegar la validacion</td>
+    <td colspan="1">Denegar la validacion mediante el endpoint PUT</td>
+    <td colspan="1">2</td>
+    <td colspan="1">Sebastian Pacheco</td>
+    <td colspan="1">Done</td>
+  </tr>
+<tr>
+    <td colspan="1">TS-053</td>
+    <td colspan="1">Actualizar tarea vencida</td>
+    <td colspan="1">T046</td>
+    <td colspan="1">Denegar la validacion</td>
+    <td colspan="1">Denegar la validacion mediante el endpoint PUT</td>
+    <td colspan="1">2</td>
+    <td colspan="1">Sebastian Pacheco</td>
+    <td colspan="1">Done</td>
+  </tr>
+<tr>
+    <td colspan="1">TS-054</td>
+    <td colspan="1">Eliminar solicitud tras tarea vencida</td>
+    <td colspan="1">T047</td>
+    <td colspan="1">Denegar la validacion</td>
+    <td colspan="1">Denegar la validacion mediante el endpoint PUT</td>
+    <td colspan="1">2</td>
+    <td colspan="1">Sebastian Pacheco</td>
+    <td colspan="1">Done</td>
+  </tr>
+</table>
+
+
+
+#### 6.2.2.3. Development Evidence for Sprint Review.
+
+#### 6.2.2.4. Testing Suite Evidence for Sprint Review.
+
+#### 6.2.2.5. Execution Evidence for Sprint Review.
+
+#### 6.2.2.6. Services Documentation Evidence for Sprint Review.
+
+#### 6.2.2.7. Software Deployment Evidence for Sprint Review.
+
+#### 6.2.2.8. Team Collaboration Insights during Sprint.
+
+### 6.3.  Validation Interviews.
+
+#### 6.3.1. Diseño de Entrevistas.
+
+#### 6.3.2. Registr0o de Entrevistas.
+
+#### 6.3.3. Evaluaciones según heurísticas.
+
+### 6.4.  Video About-the-Product.
+
 ## Conclusiones
 
 TB1:Durante el desarrollo del TB1, el equipo demostró una sólida capacidad para integrar teoría y práctica mediante metodologías ágiles, modelado estratégico y diseño centrado en el usuario. La construcción de artefactos como Lean UX Canvas, Event Storming, Mapping y User Stories evidenció una comprensión profunda de los procesos de análisis, diseño e investigación, fortaleciendo así las competencias profesionales necesarias para abordar proyectos reales de software. Además, este proceso promovió una mentalidad de aprendizaje continuo, clave en un entorno tecnológico dinámico y en constante cambio.
