@@ -6275,11 +6275,11 @@ Para este sprint se desarrollaron 3 productos siendo estos: landing page, web ap
   </tr>
   <tr>
     <td colspan="1"><strong>Sprint 2 Velocity</strong></td>
-    <td colspan="1">Para este sprint nuestro equipo puende aceptar hasta 100 story points</td>
+    <td colspan="1">Para este sprint nuestro equipo puende aceptar hasta 60 story points</td>
   </tr>
   <tr>
     <td colspan="1"><strong>Sum of Story Points</strong></td>
-    <td colspan="1">La suma de story point atendidos es de PENDIENTE story point.</td>
+    <td colspan="1">La suma de story point atendidos es de 57 story point.</td>
   </tr>
 </table>
 
