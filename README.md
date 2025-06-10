@@ -7644,6 +7644,112 @@ En esta sección se presentan los commits realizados en el repositorio de landin
 
 #### 6.2.2.4. Testing Suite Evidence for Sprint Review.
 
+**Testing para endpoint Authentication:**
+
+
+<img src="images/chapter-6/authentication1.png">
+<img src="images/chapter-6/authentication2.png">
+<img src="images/chapter-6/authentication3.png">
+<img src="images/chapter-6/authentication4.png">
+<img src="images/chapter-6/authentication5.png">
+<img src="images/chapter-6/authentication6.png">
+
+
+**Testing para endpoint Invitations:**
+
+
+<img src="images/chapter-6/invitations1.png">
+<img src="images/chapter-6/invitations2.png">
+<img src="images/chapter-6/invitations3.png">
+<img src="images/chapter-6/invitations4.png">
+<img src="images/chapter-6/invitations5.png">
+<img src="images/chapter-6/invitations6.png">
+<img src="images/chapter-6/invitations7.png">
+<img src="images/chapter-6/invitations8.png">
+
+
+**Testing para endpoint Member:**
+
+
+<img src="images/chapter-6/member1.png">
+<img src="images/chapter-6/member2.png">
+<img src="images/chapter-6/member3.png">
+<img src="images/chapter-6/member4.png">
+<img src="images/chapter-6/member5.png">
+<img src="images/chapter-6/member6.png">
+<img src="images/chapter-6/member7.png">
+<img src="images/chapter-6/member8.png">
+
+
+**Testing para endpoint Roles:**
+
+
+<img src="images/chapter-6/roles1.png">
+<img src="images/chapter-6/roles2.png">
+
+
+**Testing para endpoint Groups:**
+
+
+<img src="images/chapter-6/group1.png">
+<img src="images/chapter-6/group2.png">
+<img src="images/chapter-6/group3.png">
+<img src="images/chapter-6/group4.png">
+<img src="images/chapter-6/group5.png">
+<img src="images/chapter-6/group6.png">
+<img src="images/chapter-6/group7.png">
+<img src="images/chapter-6/group8.png">
+<img src="images/chapter-6/group9.png">
+<img src="images/chapter-6/group10.png">
+<img src="images/chapter-6/group11.png">
+<img src="images/chapter-6/group12.png">
+<img src="images/chapter-6/group13.png">
+<img src="images/chapter-6/group14.png">
+<img src="images/chapter-6/group15.png">
+<img src="images/chapter-6/group16.png">
+
+
+**Testing para endpoint Leaders:**
+
+
+<img src="images/chapter-6/leaders1.png">
+<img src="images/chapter-6/leaders2.png">
+
+
+**Testing para endpoint Task:**
+
+
+<img src="images/chapter-6/task1.png">
+<img src="images/chapter-6/task2.png">
+<img src="images/chapter-6/task3.png">
+<img src="images/chapter-6/task4.png">
+<img src="images/chapter-6/task5.png">
+<img src="images/chapter-6/task6.png">
+<img src="images/chapter-6/task7.png">
+<img src="images/chapter-6/task8.png">
+<img src="images/chapter-6/task9.png">
+<img src="images/chapter-6/task10.png">
+
+
+**Testing para endpoint Users:**
+
+
+<img src="images/chapter-6/users1.png">
+<img src="images/chapter-6/users2.png">
+<img src="images/chapter-6/users3.png">
+<img src="images/chapter-6/users4.png">
+
+
+**Testing para endpoint Task Member:**
+
+
+<img src="images/chapter-6/taskMember1.png">
+<img src="images/chapter-6/taskMember2.png">
+<img src="images/chapter-6/taskMember3.png">
+<img src="images/chapter-6/taskMember4.png">
+<img src="images/chapter-6/taskMember5.png">
+<img src="images/chapter-6/taskMember6.png">
+
 
 #### 6.2.2.5. Execution Evidence for Sprint Review.
 
