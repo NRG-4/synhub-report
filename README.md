@@ -7644,6 +7644,7 @@ En esta sección se presentan los commits realizados en el repositorio de landin
 
 #### 6.2.2.4. Testing Suite Evidence for Sprint Review.
 
+
 #### 6.2.2.5. Execution Evidence for Sprint Review.
 
 En esta sección se presentan las evidencias de la ejecución de la aplicación para el sprint 2.
@@ -7686,432 +7687,474 @@ Esta tabla presenta la documentación de los servicios implementados como eviden
 
 <table>
     <tr>
-        <th colspan="1"> Tag </th>
-        <th colspan="1"> Verbo http</th>
-        <th colspan="1"> Endpoint </th>
-        <th colspan="1"> Summary </th>
-        <th colspan="1"> Description </th>
-        <th colspan="1"> OperationId </th>
-    </tr>
-    <tr>
-    <td colspan="1"> Request </td>
-    <td colspan="1"> PUT </td>
-    <td colspan="1"> /api/v1/requests/{requestId}/status </td>
-    <td colspan="1"> Update </td>
-    <td colspan="1"> Update the status of a request </td>
-    <td colspan="1"> requests_requestId_status </td>
+    <th>Tag</th>
+    <th>Verbo http</th>
+    <th>Endpoint</th>
+    <th>Summary</th>
+    <th>Description</th>
+    <th>OperationId</th>
+  </tr>
+  <tr>
+    <td>Request</td>
+    <td>PUT</td>
+    <td>/api/v1/requests/{requestId}/status</td>
+    <td>Update</td>
+    <td>Update the status of a request</td>
+    <td>requests_updateStatus</td>
+  </tr>
+  <tr>
+    <td colspan="1">Parameters</td>
+    <td colspan="2">{requestId}</td>
+    <td colspan="1">Request body</td>
+    <td colspan="2">no</td>
+  </tr>
+  <tr>
+    <td>Request</td>
+    <td>POST</td>
+    <td>/api/v1/requests</td>
+    <td>Create</td>
+    <td>Create a new request</td>
+    <td>requests_create</td>
+  </tr>
+  <tr>
+    <td colspan="1">Parameters</td>
+    <td colspan="2">–</td>
+    <td colspan="1">Request body</td>
+    <td colspan="2">yes</td>
+  </tr>
+  <tr>
+    <td>Request</td>
+    <td>GET</td>
+    <td>/api/v1/requests/{requestId}</td>
+    <td>Retrieve</td>
+    <td>Get request by ID</td>
+    <td>requests_requestId</td>
+  </tr>
+  <tr>
+    <td colspan="1">Parameters</td>
+    <td colspan="2">{requestId}</td>
+    <td colspan="1">Request body</td>
+    <td colspan="2">no</td>
+  </tr>
+  <tr>
+    <td>Authentication</td>
+    <td>POST</td>
+    <td>/api/v1/authentication/sign-up</td>
+    <td>Sign up</td>
+    <td>Register a new user</td>
+    <td>auth_signUp</td>
+  </tr>
+  <tr>
+    <td colspan="1">Parameters</td>
+    <td colspan="2">–</td>
+    <td colspan="1">Request body</td>
+    <td colspan="2">yes</td>
+  </tr>
+  <tr>
+    <td>Authentication</td>
+    <td>POST</td>
+    <td>/api/v1/authentication/sign-in</td>
+    <td>Sign in</td>
+    <td>Authenticate a user</td>
+    <td>auth_signIn</td>
+  </tr>
+  <tr>
+    <td colspan="1">Parameters</td>
+    <td colspan="2">–</td>
+    <td colspan="1">Request body</td>
+    <td colspan="2">yes</td>
+  </tr>
+  <tr>
+    <td>Invitations</td>
+    <td>POST</td>
+    <td>/api/v1/invitations/groups/{groupId}</td>
+    <td>Create</td>
+    <td>Create a new invitation</td>
+    <td>invites_create</td>
+  </tr>
+  <tr>
+    <td colspan="1">Parameters</td>
+    <td colspan="2">{groupId}</td>
+    <td colspan="1">Request body</td>
+    <td colspan="2">yes</td>
+  </tr>
+  <tr>
+    <td>Invitations</td>
+    <td>PATCH</td>
+    <td>/api/v1/group/invitations/{invitationId}</td>
+    <td>Update</td>
+    <td>Accept or decline an invitation</td>
+    <td>invites_patch</td>
+  </tr>
+  <tr>
+    <td colspan="1">Parameters</td>
+    <td colspan="2">{invitationId}</td>
+    <td colspan="1">Request body</td>
+    <td colspan="2">yes</td>
+  </tr>
+  <tr>
+    <td>Invitations</td>
+    <td>GET</td>
+    <td>/api/v1/invitations/group</td>
+    <td>List</td>
+    <td>Get all invitations for a group</td>
+    <td>invites_list</td>
+  </tr>
+  <tr>
+    <td colspan="1">Parameters</td>
+    <td colspan="2">–</td>
+    <td colspan="1">Request body</td>
+    <td colspan="2">no</td>
+  </tr>
+  <tr>
+    <td>Invitations</td>
+    <td>DELETE</td>
+    <td>/api/v1/invitations/member</td>
+    <td>Delete</td>
+    <td>Cancel an invitation</td>
+    <td>invites_delete</td>
+  </tr>
+  <tr>
+    <td colspan="1">Parameters</td>
+    <td colspan="2">–</td>
+    <td colspan="1">Request body</td>
+    <td colspan="2">no</td>
+  </tr>
+<tr>
+  <td>Member</td>
+  <td>GET</td>
+  <td>/api/v1/member/tasks</td>
+  <td>List</td>
+  <td>Get all tasks by authenticated member</td>
+  <td>member_tasks</td>
 </tr>
 <tr>
-    <td colspan="1"> Parameters </td>
-    <td colspan="2"> {requestId} </td>
-    <td colspan="1"> Request body </td>
-    <td colspan="2"> si </td>
+  <td colspan="1">Parameters</td>
+  <td colspan="2">–</td>
+  <td colspan="1">Request body</td>
+  <td colspan="2">no</td>
 </tr>
 <tr>
-    <td colspan="1"> Request </td>
-    <td colspan="1"> POST </td>
-    <td colspan="1"> /api/v1/requests </td>
-    <td colspan="1"> Create </td>
-    <td colspan="1"> Create a new request </td>
-    <td colspan="1"> requests </td>
+  <td>Member</td>
+  <td>GET</td>
+  <td>/api/v1/member/group</td>
+  <td>Get</td>
+  <td>Get group by member authenticated</td>
+  <td>member_group</td>
 </tr>
 <tr>
-    <td colspan="1"> Parameters </td>
-    <td colspan="2"> no </td>
-    <td colspan="1"> Request body </td>
-    <td colspan="2"> si </td>
+  <td colspan="1">Parameters</td>
+  <td colspan="2">–</td>
+  <td colspan="1">Request body</td>
+  <td colspan="2">no</td>
 </tr>
 <tr>
-    <td colspan="1"> Request </td>
-    <td colspan="1"> GET </td>
-    <td colspan="1"> /api/v1/requests/{requestId} </td>
-    <td colspan="1"> Retrieve </td>
-    <td colspan="1"> Retrieve a specific request by its ID </td>
-    <td colspan="1"> requests_requestId </td>
+  <td>Member</td>
+  <td>GET</td>
+  <td>/api/v1/member/details</td>
+  <td>Get</td>
+  <td>Get member details by authentication</td>
+  <td>member_details_auth</td>
 </tr>
 <tr>
-    <td colspan="1"> Parameters </td>
-    <td colspan="2"> {requestId} </td>
-    <td colspan="1"> Request body </td>
-    <td colspan="2"> no </td>
+  <td colspan="1">Parameters</td>
+  <td colspan="2">–</td>
+  <td colspan="1">Request body</td>
+  <td colspan="2">no</td>
 </tr>
 <tr>
-    <td colspan="1"> Authentication </td>
-    <td colspan="1"> POST </td>
-    <td colspan="1"> /api/v1/authentication/sign-up </td>
-    <td colspan="1"> Sign </td>
-    <td colspan="1"> Sign up a new user </td>
-    <td colspan="1"> authentication_sign-up </td>
+  <td>Member</td>
+  <td>GET</td>
+  <td>/api/v1/member/details/{memberId}</td>
+  <td>Get</td>
+  <td>Get member details by member ID</td>
+  <td>member_details_by_id</td>
 </tr>
 <tr>
-    <td colspan="1"> Parameters </td>
-    <td colspan="2"> no </td>
-    <td colspan="1"> Request body </td>
-    <td colspan="2"> si </td>
+  <td colspan="1">Parameters</td>
+  <td colspan="2">{memberId}</td>
+  <td colspan="1">Request body</td>
+  <td colspan="2">no</td>
 </tr>
 <tr>
-    <td colspan="1"> Authentication </td>
-    <td colspan="1"> POST </td>
-    <td colspan="1"> /api/v1/authentication/sign-in </td>
-    <td colspan="1"> Sign </td>
-    <td colspan="1"> Authenticate an existing user </td>
-    <td colspan="1"> authentication_sign-in </td>
+  <td>Roles</td>
+  <td>GET</td>
+  <td>/api/v1/roles</td>
+  <td>List</td>
+  <td>List all roles</td>
+  <td>roles_list</td>
 </tr>
 <tr>
-    <td colspan="1"> Parameters </td>
-    <td colspan="2"> no </td>
-    <td colspan="1"> Request body </td>
-    <td colspan="2"> si </td>
+  <td colspan="1">Parameters</td>
+  <td colspan="2">–</td>
+  <td colspan="1">Request body</td>
+  <td colspan="2">no</td>
 </tr>
 <tr>
-    <td colspan="1"> Invitations </td>
-    <td colspan="1"> POST </td>
-    <td colspan="1"> /api/v1/invitations </td>
-    <td colspan="1"> Create </td>
-    <td colspan="1"> Create a new invitation </td>
-    <td colspan="1"> invitations </td>
+  <td>Groups</td>
+  <td>GET</td>
+  <td>/api/v1/leader/group</td>
+  <td>Get</td>
+  <td>Get a group by ID</td>
+  <td>groups_get_by_id</td>
 </tr>
 <tr>
-    <td colspan="1"> Parameters </td>
-    <td colspan="2"> no </td>
-    <td colspan="1"> Request body </td>
-    <td colspan="2"> si </td>
+  <td colspan="1">Parameters</td>
+  <td colspan="2">–</td>
+  <td colspan="1">Request body</td>
+  <td colspan="2">no</td>
 </tr>
 <tr>
-    <td colspan="1"> Invitations </td>
-    <td colspan="1"> PATCH </td>
-    <td colspan="1"> /api/v1/leaders/{leaderId}/invitations/{invitationId} </td>
-    <td colspan="1"> Accept </td>
-    <td colspan="1"> Accept or decline an invitation </td>
-    <td colspan="1"> leaders_leaderId_invitations_invitationId </td>
+  <td>Groups</td>
+  <td>PUT</td>
+  <td>/api/v1/leader/group</td>
+  <td>Update</td>
+  <td>Update a group</td>
+  <td>groups_update</td>
 </tr>
 <tr>
-    <td colspan="1"> Parameters </td>
-    <td colspan="2"> {leaderId} ,{invitationId} </td>
-    <td colspan="1"> Request body </td>
-    <td colspan="2"> si </td>
+  <td colspan="1">Parameters</td>
+  <td colspan="2">–</td>
+  <td colspan="1">Request body</td>
+  <td colspan="2">yes</td>
 </tr>
 <tr>
-    <td colspan="1"> Invitations </td>
-    <td colspan="1"> GET </td>
-    <td colspan="1"> /api/v1/invitations/groups/{groupId} </td>
-    <td colspan="1"> Get </td>
-    <td colspan="1"> Get all invitations for a group </td>
-    <td colspan="1"> invitations_groups_groupId </td>
+  <td>Groups</td>
+  <td>POST</td>
+  <td>/api/v1/leader/group</td>
+  <td>Create</td>
+  <td>Create a new group</td>
+  <td>groups_create</td>
 </tr>
 <tr>
-    <td colspan="1"> Parameters </td>
-    <td colspan="2"> {groupId} </td>
-    <td colspan="1"> Request body </td>
-    <td colspan="2"> no </td>
+  <td colspan="1">Parameters</td>
+  <td colspan="2">–</td>
+  <td colspan="1">Request body</td>
+  <td colspan="2">yes</td>
 </tr>
 <tr>
-    <td colspan="1"> Invitations </td>
-    <td colspan="1"> DELETE </td>
-    <td colspan="1"> /api/v1/invitations/member/{memberId} </td>
-    <td colspan="1"> Cancel </td>
-    <td colspan="1"> Cancel an invitation </td>
-    <td colspan="1"> invitations_member_memberId </td>
+  <td>Groups</td>
+  <td>DELETE</td>
+  <td>/api/v1/leader/group</td>
+  <td>Delete</td>
+  <td>Delete a group</td>
+  <td>groups_delete</td>
 </tr>
 <tr>
-    <td colspan="1"> Parameters </td>
-    <td colspan="2"> {memberId} </td>
-    <td colspan="1"> Request body </td>
-    <td colspan="2"> no </td>
+  <td colspan="1">Parameters</td>
+  <td colspan="2">–</td>
+  <td colspan="1">Request body</td>
+  <td colspan="2">no</td>
 </tr>
 <tr>
-    <td colspan="1"> Roles </td>
-    <td colspan="1"> GET </td>
-    <td colspan="1"> /ap/v1/roles </td>
-    <td colspan="1"> Retrieve </td>
-    <td colspan="1"> Retrieve all roles </td>
-    <td colspan="1"> roles </td>
+  <td>Groups</td>
+  <td>GET</td>
+  <td>/api/v1/groups/tasks</td>
+  <td>List</td>
+  <td>Get all tasks by group ID</td>
+  <td>groups_tasks_by_id</td>
 </tr>
 <tr>
-    <td colspan="1"> Parameters </td>
-    <td colspan="2"> no </td>
-    <td colspan="1"> Request body </td>
-    <td colspan="2"> no </td>
+  <td colspan="1">Parameters</td>
+  <td colspan="2">–</td>
+  <td colspan="1">Request body</td>
+  <td colspan="2">no</td>
 </tr>
 <tr>
-    <td colspan="1"> Member </td>
-    <td colspan="1"> GET </td>
-    <td colspan="1"> /api/v1/members/{userId} </td>
-    <td colspan="1"> Get </td>
-    <td colspan="1"> Get a member by ID </td>
-    <td colspan="1"> members_userId </td>
+  <td>Groups</td>
+  <td>GET</td>
+  <td>/api/v1/groups/search</td>
+  <td>Search</td>
+  <td>Search for a group by code</td>
+  <td>groups_search</td>
 </tr>
 <tr>
-    <td colspan="1"> Parameters </td>
-    <td colspan="2"> {userId} </td>
-    <td colspan="1"> Request body </td>
-    <td colspan="2"> no </td>
+  <td colspan="1">Parameters</td>
+  <td colspan="2">–</td>
+  <td colspan="1">Request body</td>
+  <td colspan="2">no</td>
 </tr>
 <tr>
-    <td colspan="1"> Groups </td>
-    <td colspan="1"> GET </td>
-    <td colspan="1"> /api/v1/leaders/{leaderId}/group </td>
-    <td colspan="1"> Get a group by ID </td>
-    <td colspan="1"> Retrieve a group associated with a specific leader ID </td>
-    <td colspan="1"> getGroupByLeaderId </td>
+  <td>Groups</td>
+  <td>GET</td>
+  <td>/api/v1/groups/members</td>
+  <td>List</td>
+  <td>Get all group members</td>
+  <td>groups_members</td>
 </tr>
 <tr>
-    <td colspan="1"> Parameters </td>
-    <td colspan="2"> leaderId </td>
-    <td colspan="1"> Request body </td>
-    <td colspan="2"> no </td>
+  <td colspan="1">Parameters</td>
+  <td colspan="2">–</td>
+  <td colspan="1">Request body</td>
+  <td colspan="2">no</td>
 </tr>
 <tr>
-    <td colspan="1"> Groups </td>
-    <td colspan="1"> PUT </td>
-    <td colspan="1"> /api/v1/leaders/{leaderId}/group </td>
-    <td colspan="1"> Update a group </td>
-    <td colspan="1"> Modify the group details for a given leader </td>
-    <td colspan="1"> updateGroupByLeaderId </td>
+  <td>Groups</td>
+  <td>DELETE</td>
+  <td>/api/v1/leader/group/members/{memberId}</td>
+  <td>Delete</td>
+  <td>Remove a member from the group</td>
+  <td>groups_remove_member</td>
 </tr>
 <tr>
-    <td colspan="1"> Parameters </td>
-    <td colspan="2"> leaderId </td>
-    <td colspan="1"> Request body </td>
-    <td colspan="2"> si </td>
+  <td colspan="1">Parameters</td>
+  <td colspan="2">{memberId}</td>
+  <td colspan="1">Request body</td>
+  <td colspan="2">no</td>
 </tr>
 <tr>
-    <td colspan="1"> Groups </td>
-    <td colspan="1"> POST </td>
-    <td colspan="1"> /api/v1/leaders/{leaderId}/group </td>
-    <td colspan="1"> Create a new group </td>
-    <td colspan="1"> Create a group under a specific leader ID </td>
-    <td colspan="1"> createGroupByLeaderId </td>
+  <td>Leaders</td>
+  <td>GET</td>
+  <td>/api/v1/leader/details</td>
+  <td>Get</td>
+  <td>Get leader details by authentication</td>
+  <td>leaders_details</td>
 </tr>
 <tr>
-    <td colspan="1"> Parameters </td>
-    <td colspan="2"> leaderId </td>
-    <td colspan="1"> Request body </td>
-    <td colspan="2"> si </td>
+  <td colspan="1">Parameters</td>
+  <td colspan="2">–</td>
+  <td colspan="1">Request body</td>
+  <td colspan="2">no</td>
 </tr>
 <tr>
-    <td colspan="1"> Groups </td>
-    <td colspan="1"> DELETE </td>
-    <td colspan="1"> /api/v1/leaders/{leaderId}/group </td>
-    <td colspan="1"> Delete a group </td>
-    <td colspan="1"> Delete a group assigned to a specific leader </td>
-    <td colspan="1"> deleteGroupByLeaderId </td>
+  <td>Task</td>
+  <td>GET</td>
+  <td>/api/v1/tasks/{taskId}</td>
+  <td>Get</td>
+  <td>Get a task by id</td>
+  <td>tasks_get_by_id</td>
 </tr>
 <tr>
-    <td colspan="1"> Parameters </td>
-    <td colspan="2"> leaderId </td>
-    <td colspan="1"> Request body </td>
-    <td colspan="2"> no </td>
+  <td colspan="1">Parameters</td>
+  <td colspan="2">{taskId}</td>
+  <td colspan="1">Request body</td>
+  <td colspan="2">no</td>
 </tr>
 <tr>
-    <td colspan="1"> Groups </td>
-    <td colspan="1"> GET </td>
-    <td colspan="1"> /api/v1/groups/{groupId}/tasks </td>
-    <td colspan="1"> Get all tasks by group ID </td>
-    <td colspan="1"> Retrieve all tasks associated with a group </td>
-    <td colspan="1"> getTasksByGroupId </td>
+  <td>Task</td>
+  <td>PUT</td>
+  <td>/api/v1/tasks/{taskId}</td>
+  <td>Update</td>
+  <td>Update task</td>
+  <td>tasks_update</td>
 </tr>
 <tr>
-    <td colspan="1"> Parameters </td>
-    <td colspan="2"> groupId </td>
-    <td colspan="1"> Request body </td>
-    <td colspan="2"> no </td>
+  <td colspan="1">Parameters</td>
+  <td colspan="2">{taskId}</td>
+  <td colspan="1">Request body</td>
+  <td colspan="2">yes</td>
 </tr>
 <tr>
-    <td colspan="1"> Groups </td>
-    <td colspan="1"> GET </td>
-    <td colspan="1"> /api/v1/groups/{groupId}/members </td>
-    <td colspan="1"> Get all group members </td>
-    <td colspan="1"> Retrieve members of a specific group </td>
-    <td colspan="1"> getGroupMembers </td>
+  <td>Task</td>
+  <td>DELETE</td>
+  <td>/api/v1/tasks/{taskId}</td>
+  <td>Delete</td>
+  <td>Delete a task by id</td>
+  <td>tasks_delete</td>
 </tr>
 <tr>
-    <td colspan="1"> Parameters </td>
-    <td colspan="2"> groupId </td>
-    <td colspan="1"> Request body </td>
-    <td colspan="2"> no </td>
+  <td colspan="1">Parameters</td>
+  <td colspan="2">{taskId}</td>
+  <td colspan="1">Request body</td>
+  <td colspan="2">no</td>
 </tr>
 <tr>
-    <td colspan="1"> Groups </td>
-    <td colspan="1"> GET </td>
-    <td colspan="1"> /api/v1/groups/search </td>
-    <td colspan="1"> Search for a group by code </td>
-    <td colspan="1"> Find a group by its unique code </td>
-    <td colspan="1"> searchGroupByCode </td>
+  <td>Task</td>
+  <td>PUT</td>
+  <td>/api/v1/tasks/{taskId}/status/{status}</td>
+  <td>Update</td>
+  <td>Update task status</td>
+  <td>tasks_update_status</td>
 </tr>
 <tr>
-    <td colspan="1"> Parameters </td>
-    <td colspan="2"> no </td>
-    <td colspan="1"> Request body </td>
-    <td colspan="2"> no </td>
+  <td colspan="1">Parameters</td>
+  <td colspan="2">{taskId}, {status}</td>
+  <td colspan="1">Request body</td>
+  <td colspan="2">no</td>
 </tr>
 <tr>
-    <td colspan="1"> Groups </td>
-    <td colspan="1"> GET </td>
-    <td colspan="1"> /api/v1/groups/members/{memberId} </td>
-    <td colspan="1"> Get group by member ID </td>
-    <td colspan="1"> Retrieve the group to which a specific member belongs </td>
-    <td colspan="1"> getGroupByMemberId </td>
+  <td>Task</td>
+  <td>GET</td>
+  <td>/api/v1/tasks/status/{status}</td>
+  <td>List</td>
+  <td>Get all tasks by status</td>
+  <td>tasks_by_status</td>
 </tr>
 <tr>
-    <td colspan="1"> Parameters </td>
-    <td colspan="2"> memberId </td>
-    <td colspan="1"> Request body </td>
-    <td colspan="2"> no </td>
+  <td colspan="1">Parameters</td>
+  <td colspan="2">{status}</td>
+  <td colspan="1">Request body</td>
+  <td colspan="2">no</td>
 </tr>
 <tr>
-    <td colspan="1"> Groups </td>
-    <td colspan="1"> DELETE </td>
-    <td colspan="1"> /api/v1/leaders/{leaderId}/group/members/{memberId} </td>
-    <td colspan="1"> Remove a member from the group </td>
-    <td colspan="1"> Delete the association of a member from a group by leader </td>
-    <td colspan="1"> removeMemberFromGroup </td>
+  <td>Users</td>
+  <td>GET</td>
+  <td>/api/v1/users</td>
+  <td>List</td>
+  <td>List all users</td>
+  <td>users_list</td>
 </tr>
 <tr>
-    <td colspan="1"> Parameters </td>
-    <td colspan="2"> leaderId, memberId </td>
-    <td colspan="1"> Request body </td>
-    <td colspan="2"> no </td>
+  <td colspan="1">Parameters</td>
+  <td colspan="2">–</td>
+  <td colspan="1">Request body</td>
+  <td colspan="2">no</td>
 </tr>
 <tr>
-    <td colspan="1"> Leaders </td>
-    <td colspan="1"> GET </td>
-    <td colspan="1"> /api/v1/leaders/{userId} </td>
-    <td colspan="1"> Get </td>
-    <td colspan="1"> Get a leader by user ID </td>
-    <td colspan="1"> leaders_userId </td>
+  <td>Users</td>
+  <td>GET</td>
+  <td>/api/v1/users/{userId}</td>
+  <td>Get</td>
+  <td>Get user by ID</td>
+  <td>users_by_id</td>
 </tr>
 <tr>
-    <td colspan="1"> Parameters </td>
-    <td colspan="2"> {userId} </td>
-    <td colspan="1"> Request body </td>
-    <td colspan="2"> no </td>
+  <td colspan="1">Parameters</td>
+  <td colspan="2">{userId}</td>
+  <td colspan="1">Request body</td>
+  <td colspan="2">no</td>
 </tr>
 <tr>
-    <td colspan="1"> Task </td>
-    <td colspan="1"> GET </td>
-    <td colspan="1"> /api/v1/tasks/{taskId} </td>
-    <td colspan="1"> Get </td>
-    <td colspan="1"> Get a task by ID </td>
-    <td colspan="1"> tasks_taskId </td>
+  <td>Tasks Member</td>
+  <td>GET</td>
+  <td>/api/v1/members/{memberId}/tasks</td>
+  <td>List</td>
+  <td>Get all tasks by member ID</td>
+  <td>tasks_member_list</td>
 </tr>
 <tr>
-    <td colspan="1"> Parameters </td>
-    <td colspan="2"> {taskId} </td>
-    <td colspan="1"> Request body </td>
-    <td colspan="2"> no </td>
+  <td colspan="1">Parameters</td>
+  <td colspan="2">{memberId}</td>
+  <td colspan="1">Request body</td>
+  <td colspan="2">no</td>
 </tr>
 <tr>
-    <td colspan="1"> Task </td>
-    <td colspan="1"> PUT </td>
-    <td colspan="1"> /api/v1/tasks/{taskId} </td>
-    <td colspan="1"> Update </td>
-    <td colspan="1"> Update a task </td>
-    <td colspan="1"> tasks_taskId </td>
+  <td>Tasks Member</td>
+  <td>POST</td>
+  <td>/api/v1/members/{memberId}/tasks</td>
+  <td>Create</td>
+  <td>Create a new task</td>
+  <td>tasks_member_create</td>
 </tr>
 <tr>
-    <td colspan="1"> Parameters </td>
-    <td colspan="2"> {taskId} </td>
-    <td colspan="1"> Request body </td>
-    <td colspan="2"> si </td>
+  <td colspan="1">Parameters</td>
+  <td colspan="2">{memberId}</td>
+  <td colspan="1">Request body</td>
+  <td colspan="2">yes</td>
 </tr>
 <tr>
-    <td colspan="1"> Task </td>
-    <td colspan="1"> DELETE </td>
-    <td colspan="1"> /api/v1/tasks/{taskId} </td>
-    <td colspan="1"> Delete </td>
-    <td colspan="1"> Delete a task by ID </td>
-    <td colspan="1"> tasks_taskId </td>
+  <td>Tasks Member</td>
+  <td>GET</td>
+  <td>/api/v1/members/{memberId}/tasks/next</td>
+  <td>Get</td>
+  <td>Get the next task by member ID</td>
+  <td>tasks_member_next</td>
 </tr>
 <tr>
-    <td colspan="1"> Parameters </td>
-    <td colspan="2"> {taskId} </td>
-    <td colspan="1"> Request body </td>
-    <td colspan="2"> no </td>
-</tr>
-<tr>
-    <td colspan="1"> Task </td>
-    <td colspan="1"> PUT </td>
-    <td colspan="1"> /api/v1/tasks/{taskId}/status/{status} </td>
-    <td colspan="1"> Update </td>
-    <td colspan="1"> Update task status </td>
-    <td colspan="1"> tasks_taskId_status_status </td>
-</tr>
-<tr>
-    <td colspan="1"> Parameters </td>
-    <td colspan="2"> {taskId} ,{status} </td>
-    <td colspan="1"> Request body </td>
-    <td colspan="2"> no </td>
-</tr>
-<tr>
-    <td colspan="1"> Task </td>
-    <td colspan="1"> GET </td>
-    <td colspan="1"> /api/v1/tasks/status/{status} </td>
-    <td colspan="1"> Get </td>
-    <td colspan="1"> Get all tasks by status </td>
-    <td colspan="1"> tasks_status_status </td>
-</tr>
-<tr>
-    <td colspan="1"> Parameters </td>
-    <td colspan="2"> {status} </td>
-    <td colspan="1"> Request body </td>
-    <td colspan="2"> no </td>
-</tr>
-<tr>
-    <td colspan="1"> Users </td>
-    <td colspan="1"> GET </td>
-    <td colspan="1"> /api/v1/users </td>
-    <td colspan="1"> Retrieve </td>
-    <td colspan="1"> Retrieve all users </td>
-    <td colspan="1"> users </td>
-</tr>
-<tr>
-    <td colspan="1"> Parameters </td>
-    <td colspan="2"> no </td>
-    <td colspan="1"> Request body </td>
-    <td colspan="2"> no </td>
-</tr>
-<tr>
-    <td colspan="1"> Users </td>
-    <td colspan="1"> GET </td>
-    <td colspan="1"> /api/v1/users/{userId} </td>
-    <td colspan="1"> Retrieve </td>
-    <td colspan="1"> Retrieve a specific user by ID </td>
-    <td colspan="1"> users_userId </td>
-</tr>
-<tr>
-    <td colspan="1"> Parameters </td>
-    <td colspan="2"> {userId} </td>
-    <td colspan="1"> Request body </td>
-    <td colspan="2"> no </td>
-</tr>
-<tr>
-    <td colspan="1"> Tasks Member </td>
-    <td colspan="1"> GET </td>
-    <td colspan="1"> /api/v1/members/{memberId}/tasks </td>
-    <td colspan="1"> Get </td>
-    <td colspan="1"> Get all tasks by member ID </td>
-    <td colspan="1"> members_memberId_tasks </td>
-</tr>
-<tr>
-    <td colspan="1"> Parameters </td>
-    <td colspan="2"> {memberId} </td>
-    <td colspan="1"> Request body </td>
-    <td colspan="2"> no </td>
-</tr>
-<tr>
-    <td colspan="1"> Tasks Member </td>
-    <td colspan="1"> POST </td>
-    <td colspan="1"> /api/v1/members/{memberId}/tasks </td>
-    <td colspan="1"> Create </td>
-    <td colspan="1"> Create a new task for the member </td>
-    <td colspan="1"> members_memberId_tasks </td>
-</tr>
-<tr>
-    <td colspan="1"> Parameters </td>
-    <td colspan="2"> {memberId} </td>
-    <td colspan="1"> Request body </td>
-    <td colspan="2"> si </td>
+  <td colspan="1">Parameters</td>
+  <td colspan="2">{memberId}</td>
+  <td colspan="1">Request body</td>
+  <td colspan="2">no</td>
 </tr>
 </table>
 
