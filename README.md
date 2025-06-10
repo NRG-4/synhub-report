@@ -7658,14 +7658,14 @@ En esta sección se presentan los commits realizados en el repositorio de landin
 **Testing para endpoint Invitations:**
 
 
-<img src="images/chapter-6/invitations1.png">
-<img src="images/chapter-6/invitations2.png">
-<img src="images/chapter-6/invitations3.png">
-<img src="images/chapter-6/invitations4.png">
-<img src="images/chapter-6/invitations5.png">
-<img src="images/chapter-6/invitations6.png">
-<img src="images/chapter-6/invitations7.png">
-<img src="images/chapter-6/invitations8.png">
+<img src="images/chapter-6/Invitations1.png">
+<img src="images/chapter-6/Invitations2.png">
+<img src="images/chapter-6/Invitations3.png">
+<img src="images/chapter-6/Invitations4.png">
+<img src="images/chapter-6/Invitations5.png">
+<img src="images/chapter-6/Invitations6.png">
+<img src="images/chapter-6/Invitations7.png">
+<img src="images/chapter-6/Invitations8.png">
 
 
 **Testing para endpoint Member:**
