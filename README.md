@@ -5172,7 +5172,7 @@ En esta sección se detallan las consideraciones y pasos necesarios para el desp
   </tr>
   <tr>
     <td colspan="1"><strong>Prepared by</strong></td>
-    <td colspan="1">Alex Casas</td>
+    <td colspan="1">Gabriel Casas</td>
   </tr>
   <tr>
     <td colspan="1"><strong>Attendees (to planning meeting)</strong></td>
@@ -6251,7 +6251,7 @@ Para este sprint se desarrollaron 3 productos siendo estos: landing page, web ap
   </tr>
   <tr>
     <td colspan="1"><strong>Prepared by</strong></td>
-    <td colspan="1">Alex Casas</td>
+    <td colspan="1">Gabriel Casas</td>
   </tr>
   <tr>
     <td colspan="1"><strong>Attendees (to planning meeting)</strong></td>
@@ -6795,8 +6795,8 @@ En esta sección se presentan los commits realizados en el repositorio de landin
     <th>master</th>
     <th>84646b987e151215f972384b7875ba04c5e4e9c5</th>
     <th>chore: setup project.</th>
-    <th></th>
-    <th>May 13 2025</th>
+    <th>chore: setup project.</th>
+    <th>Jun 13 2025</th>
   </tr>
 </table>
 
@@ -6816,7 +6816,7 @@ En esta sección se presentan los commits realizados en el repositorio de landin
     <th>develop</th>
     <th>91e3b95e9e933b0b6a97c151e6bc8ca6b30a94e0</th>
     <th>feat(icon): added app icon.</th>
-    <th></th>
+    <th>feat(icon): added app icon.</th>
     <th>Jun 3 2025</th>
   </tr>
 <tr>
@@ -6824,7 +6824,7 @@ En esta sección se presentan los commits realizados en el repositorio de landin
     <th>develop</th>
     <th>6c999f2226bae5760db559bbdf4b9086ee7c099e</th>
     <th>feat(tasks): fixed tasks view and added image url support.</th>
-    <th></th>
+    <th>feat(tasks): fixed tasks view and added image url support.</th>
     <th>Jun 4 2025</th>
   </tr>
 <tr>
@@ -6832,7 +6832,7 @@ En esta sección se presentan los commits realizados en el repositorio de landin
     <th>develop</th>
     <th>2497f628169c9ef1136055daddb41a05f5262480</th>
     <th>feat(tasks): added task detail view.</th>
-    <th></th>
+    <th>feat(tasks): added task detail view.</th>
     <th>Jun 4 2025</th>
   </tr>
 <tr>
@@ -6840,7 +6840,7 @@ En esta sección se presentan los commits realizados en el repositorio de landin
     <th>develop</th>
     <th>44906eb04e4b9fbcd6d0f9d88660d310545e4642</th>
     <th>feat(tasks): added button for task creation and enhanced editing screen with improved layout and functionality.</th>
-    <th></th>
+    <th>feat(tasks): added button for task creation and enhanced editing screen with improved layout and functionality.</th>
     <th>Jun 4 2025</th>
   </tr>
 <tr>
@@ -6848,7 +6848,7 @@ En esta sección se presentan los commits realizados en el repositorio de landin
     <th>develop</th>
     <th>b997213903d88884f069211d5dd4eee5bfbaf998</th>
     <th>feat(members): implement members screen with dynamic member list and navigation updates and deleted invite members view.</th>
-    <th></th>
+    <th>feat(members): implement members screen with dynamic member list and navigation updates and deleted invite members view.</th>
     <th>Jun 5 2025</th>
   </tr>
 <tr>
@@ -6856,7 +6856,7 @@ En esta sección se presentan los commits realizados en el repositorio de landin
     <th>develop</th>
     <th>5689f766e2f05d66c8f1c81dad958a9a57289563</th>
     <th>feat(group): add group screen with member list and navigation for invitations.</th>
-    <th></th>
+    <th>feat(group): add group screen with member list and navigation for invitations.</th>
     <th>Jun 5 2025</th>
   </tr>
 <tr>
@@ -6864,7 +6864,7 @@ En esta sección se presentan los commits realizados en el repositorio de landin
     <th>develop</th>
     <th>f0e92c75e6771ee6214176d1c6382fb3f220fcdd</th>
     <th>Merge pull request #8 from NRG-4/feat/tasks</th>
-    <th></th>
+    <th>Merge pull request #8 from NRG-4/feat/tasks</th>
     <th>Jun 5 2025</th>
   </tr>
 <tr>
@@ -6872,7 +6872,7 @@ En esta sección se presentan los commits realizados en el repositorio de landin
     <th>develop</th>
     <th>2b0c3fa414cde773f326a193ffbc6f8f115cbf99</th>
     <th>feat(retrofit): added api connection support.</th>
-    <th></th>
+    <th>feat(retrofit): added api connection support.</th>
     <th>Jun 6 2025</th>
   </tr>
 <tr>
@@ -6880,7 +6880,7 @@ En esta sección se presentan los commits realizados en el repositorio de landin
     <th>develop</th>
     <th>92814aa30fd189d03f9712a8440d4bd5832e2430</th>
     <th>feat(login): implement leader details retrieval and reset login state functionality.</th>
-    <th></th>
+    <th>feat(login): implement leader details retrieval and reset login state functionality.</th>
     <th>Jun 6 2025</th>
   </tr>
 <tr>
@@ -6888,7 +6888,7 @@ En esta sección se presentan los commits realizados en el repositorio de landin
     <th>develop</th>
     <th>9fbbb2a6e7a03fee472a9d3581819aead212869e</th>
     <th>fix: delete miss implemented drawer.</th>
-    <th></th>
+    <th>fix: delete miss implemented drawer.</th>
     <th>Jun 6 2025</th>
   </tr>
 <tr>
@@ -6896,7 +6896,7 @@ En esta sección se presentan los commits realizados en el repositorio de landin
     <th>develop</th>
     <th>1044a8faa4fa2f4b107cd1621abdf2b6a819a12f</th>
     <th>feat(home): implement leader details fetching and update slide menu</th>
-    <th></th>
+    <th>feat(home): implement leader details fetching and update slide menu</th>
     <th>Jun 6 2025</th>
   </tr>
 <tr>
@@ -6904,7 +6904,7 @@ En esta sección se presentan los commits realizados en el repositorio de landin
     <th>develop</th>
     <th>a7f863b8d104c738aae7e36ba4fab56ffbd2c27d</th>
     <th>feat(group): implement group and member fetching with ViewModel integration</th>
-    <th></th>
+    <th>feat(group): implement group and member fetching with ViewModel integration</th>
     <th>Jun 6 2025</th>
   </tr>
 <tr>
@@ -6912,7 +6912,7 @@ En esta sección se presentan los commits realizados en el repositorio de landin
     <th>develop</th>
     <th>4e2a72c92901cfbf49433e46783819981e6d3189</th>
     <th>feat(tasks): add task fetching functionality and integrate with ViewModel</th>
-    <th></th>
+    <th>feat(tasks): add task fetching functionality and integrate with ViewModel</th>
     <th>Jun 7 2025</th>
   </tr>
 <tr>
@@ -6920,7 +6920,7 @@ En esta sección se presentan los commits realizados en el repositorio de landin
     <th>develop</th>
     <th>76ba2c036f4c578efdbb710d12dc41cfd6bec4b9</th>
     <th>feat(tasks): implement task fetching by ID and updated TaskDetail screen.</th>
-    <th></th>
+    <th>feat(tasks): implement task fetching by ID and updated TaskDetail screen.</th>
     <th>Jun 7 2025</th>
   </tr>
 <tr>
@@ -6928,7 +6928,7 @@ En esta sección se presentan los commits realizados en el repositorio de landin
     <th>develop</th>
     <th>735540cd9c51f53c2ec7692b2ca1487d72b2a023</th>
     <th>feat(tasks): integrate task fetching in EditTask screen and update due date display</th>
-    <th></th>
+    <th>feat(tasks): integrate task fetching in EditTask screen and update due date display</th>
     <th>Jun 7 2025</th>
   </tr>
 <tr>
@@ -6936,7 +6936,7 @@ En esta sección se presentan los commits realizados en el repositorio de landin
     <th>develop</th>
     <th>33cea7188585c4dd735ea88138625e21355c8860</th>
     <th>feat(members): implement member fetching and next task integration with ViewModel</th>
-    <th></th>
+    <th>feat(members): implement member fetching and next task integration with ViewModel</th>
     <th>Jun 7 2025</th>
   </tr>
 <tr>
@@ -6944,7 +6944,7 @@ En esta sección se presentan los commits realizados en el repositorio de landin
     <th>develop</th>
     <th>c7f9ea7d79dc8e6a42abf393abcc2bf3bc474174</th>
     <th>feat(member-details): add MemberDetails screen with task fetching and display</th>
-    <th></th>
+    <th>feat(member-details): add MemberDetails screen with task fetching and display</th>
     <th>Jun 7 2025</th>
   </tr>
 <tr>
@@ -6952,7 +6952,7 @@ En esta sección se presentan los commits realizados en el repositorio de landin
     <th>develop</th>
     <th>2be1cb93821d8e5f7176e3e763e74cdab9f368a0</th>
     <th>feat(member-details): add MemberDetails screen with task fetching and display</th>
-    <th></th>
+    <th>feat(member-details): add MemberDetails screen with task fetching and display</th>
     <th>Jun 7 2025</th>
   </tr>
 <tr>
@@ -6960,7 +6960,7 @@ En esta sección se presentan los commits realizados en el repositorio de landin
     <th>develop</th>
     <th>e4626804fcdead49bdf98c8f77c77b0f3b5389ad</th>
     <th>Merge remote-tracking branch 'origin/feat/retrofit' into feat/retrofit</th>
-    <th></th>
+    <th>Merge remote-tracking branch 'origin/feat/retrofit' into feat/retrofit</th>
     <th>Jun 7 2025</th>
   </tr>
 <tr>
@@ -6968,7 +6968,7 @@ En esta sección se presentan los commits realizados en el repositorio de landin
     <th>develop</th>
     <th>51a6932bf0b4684e9402868bf9cc2482337096a4</th>
     <th>Merge pull request #9 from NRG-4/feat/retrofit</th>
-    <th></th>
+    <th>Merge pull request #9 from NRG-4/feat/retrofit</th>
     <th>Jun 7 2025</th>
   </tr>
 <tr>
@@ -6976,7 +6976,7 @@ En esta sección se presentan los commits realizados en el repositorio de landin
     <th>develop</th>
     <th>0a372a124e3fad05a1ec9a053e53405fa6f25109</th>
     <th>feat(invitations): add InvitationResponse data model and web service integration</th>
-    <th></th>
+    <th>feat(invitations): add InvitationResponse data model and web service integration</th>
     <th>Jun 7 2025</th>
   </tr>
 <tr>
@@ -6984,7 +6984,7 @@ En esta sección se presentan los commits realizados en el repositorio de landin
     <th>develop</th>
     <th>7530f3c7896d2b2854d9735529e1258339f0906b</th>
     <th>feat(invitations): implement InvitationViewModel for fetching group invitations</th>
-    <th></th>
+    <th>feat(invitations): implement InvitationViewModel for fetching group invitations</th>
     <th>Jun 7 2025</th>
   </tr>
 <tr>
@@ -6992,7 +6992,7 @@ En esta sección se presentan los commits realizados en el repositorio de landin
     <th>develop</th>
     <th>a48e285420ab91044b3ded473528b8be19931f37</th>
     <th>feat(invitations): create Invitations screen for displaying and managing group invitations</th>
-    <th></th>
+    <th>feat(invitations): create Invitations screen for displaying and managing group invitations</th>
     <th>Jun 7 2025</th>
   </tr>
 <tr>
@@ -7000,7 +7000,7 @@ En esta sección se presentan los commits realizados en el repositorio de landin
     <th>develop</th>
     <th>659b17c621788eda815f3b308d5dfa931aea0d12</th>
     <th>feat(home): enhance HomeScreen to display group members, tasks, and invitations</th>
-    <th></th>
+    <th>feat(home): enhance HomeScreen to display group members, tasks, and invitations</th>
     <th>Jun 8 2025</th>
   </tr>
 <tr>
@@ -7008,7 +7008,7 @@ En esta sección se presentan los commits realizados en el repositorio de landin
     <th>develop</th>
     <th>c9394de82a3364abae0545652d7697c2d5b939a1</th>
     <th>fix: fixed missing padding</th>
-    <th></th>
+    <th>fix: fixed missing padding</th>
     <th>Jun 8 2025</th>
   </tr>
 <tr>
@@ -7016,7 +7016,7 @@ En esta sección se presentan los commits realizados en el repositorio de landin
     <th>develop</th>
     <th>bd10507937120e139502f6f729dabe4a78eb285a</th>
     <th>feat(register): implement user registration and login flow with view models.</th>
-    <th></th>
+    <th>feat(register): implement user registration and login flow with view models.</th>
     <th>Jun 8 2025</th>
   </tr>
 <tr>
@@ -7024,7 +7024,7 @@ En esta sección se presentan los commits realizados en el repositorio de landin
     <th>develop</th>
     <th>f2f02f9a0ab9629e83463223db9b6f54a1346b8c</th>
     <th>Merge pull request #10 from NRG-4/feat/invitations</th>
-    <th></th>
+    <th>Merge pull request #10 from NRG-4/feat/invitations</th>
     <th>Jun 8 2025</th>
   </tr>
 <tr>
@@ -7032,7 +7032,7 @@ En esta sección se presentan los commits realizados en el repositorio de landin
     <th>develop</th>
     <th>b846ffbd4bab9389863a2697e9fea90f708b5242</th>
     <th>feat(navigation): update navigation to Home screen from multiple top bars</th>
-    <th></th>
+    <th>feat(navigation): update navigation to Home screen from multiple top bars</th>
     <th>Jun 8 2025</th>
   </tr>
 <tr>
@@ -7040,7 +7040,7 @@ En esta sección se presentan los commits realizados en el repositorio de landin
     <th>develop</th>
     <th>bc25beac4b4e4f8b165b20405622d132c7ecc473</th>
     <th>feat(group): added api connection support for create group screen.</th>
-    <th></th>
+    <th>feat(group): added api connection support for create group screen.</th>
     <th>Jun 8 2025</th>
   </tr>
 <tr>
@@ -7048,7 +7048,7 @@ En esta sección se presentan los commits realizados en el repositorio de landin
     <th>develop</th>
     <th>4896d55c1ea44f978455673f988205478f2cac17</th>
     <th>feat(invitations): implement invitation processing and update UI on action</th>
-    <th></th>
+    <th>feat(invitations): implement invitation processing and update UI on action</th>
     <th>Jun 8 2025</th>
   </tr>
 <tr>
@@ -7056,7 +7056,7 @@ En esta sección se presentan los commits realizados en el repositorio de landin
     <th>develop</th>
     <th>9f5f5ca9c1c51ca7133fb3bcd55b948db96bf933</th>
     <th>feat(group): implement group member deletion functionality and update UI accordingly</th>
-    <th></th>
+    <th>feat(group): implement group member deletion functionality and update UI accordingly</th>
     <th>Jun 8 2025</th>
   </tr>
 <tr>
@@ -7064,7 +7064,7 @@ En esta sección se presentan los commits realizados en el repositorio de landin
     <th>develop</th>
     <th>61d803336802afcef7a2fe9d5470af7b1c542a90</th>
     <th>feat(tasks): implement task creation with member selection and due date picker</th>
-    <th></th>
+    <th>feat(tasks): implement task creation with member selection and due date picker</th>
     <th>Jun 8 2025</th>
   </tr>
 <tr>
@@ -7072,7 +7072,7 @@ En esta sección se presentan los commits realizados en el repositorio de landin
     <th>develop</th>
     <th>ed336b78f745cc0d7b09ae98849588a8c8e7cb37</th>
     <th>feat(edit-task): enhance task editing with member selection and due date picker</th>
-    <th></th>
+    <th>feat(edit-task): enhance task editing with member selection and due date picker</th>
     <th>Jun 8 2025</th>
   </tr>
 <tr>
@@ -7080,7 +7080,7 @@ En esta sección se presentan los commits realizados en el repositorio de landin
     <th>develop</th>
     <th>b1fb205d8f586e27f662ee92a99638fa2971184d</th>
     <th>feat(tasks): implement task deletion functionality with API integration</th>
-    <th></th>
+    <th>feat(tasks): implement task deletion functionality with API integration</th>
     <th>Jun 9 2025</th>
   </tr>
 <tr>
@@ -7088,7 +7088,7 @@ En esta sección se presentan los commits realizados en el repositorio de landin
     <th>develop</th>
     <th>7dbb74956edd0219f0bb9e6abf37d986d649bc02</th>
     <th>feat(edit-task): implement task update functionality with API integration</th>
-    <th></th>
+    <th>feat(edit-task): implement task update functionality with API integration</th>
     <th>Jun 9 2025</th>
   </tr>
 <tr>
@@ -7096,7 +7096,7 @@ En esta sección se presentan los commits realizados en el repositorio de landin
     <th>develop</th>
     <th>644428a527faa8b0a628ef04722c287995723b29</th>
     <th>feat(auth): add token reset functionality and update navigation in SlideMenu</th>
-    <th></th>
+    <th>feat(auth): add token reset functionality and update navigation in SlideMenu</th>
     <th>Jun 9 2025</th>
   </tr>
 <tr>
@@ -7104,7 +7104,7 @@ En esta sección se presentan los commits realizados en el repositorio de landin
     <th>develop</th>
     <th>413161c5b67d43f53785e9ccce07001d5668ca39</th>
     <th>feat(group): refactor Group and MemberDetails components to use ViewModel directly</th>
-    <th></th>
+    <th>feat(group): refactor Group and MemberDetails components to use ViewModel directly</th>
     <th>Jun 9 2025</th>
   </tr>
 <tr>
@@ -7112,7 +7112,7 @@ En esta sección se presentan los commits realizados en el repositorio de landin
     <th>develop</th>
     <th>f3b5a9e1ce1d8671ab3483d256cde8985db8e95d</th>
     <th>fix(task): added default value for dropdown menu for EditTask screen.</th>
-    <th></th>
+    <th>fix(task): added default value for dropdown menu for EditTask screen.</th>
     <th>Jun 9 2025</th>
   </tr>
 <tr>
@@ -7120,7 +7120,7 @@ En esta sección se presentan los commits realizados en el repositorio de landin
     <th>develop</th>
     <th>6360081db3028e9de25ad54e320f40abd3324e3b</th>
     <th>Merge pull request #11 from NRG-4/feat/retrofit</th>
-    <th></th>
+    <th>Merge pull request #11 from NRG-4/feat/retrofit</th>
     <th>Jun 9 2025</th>
   </tr>
 </table>
@@ -7141,7 +7141,7 @@ En esta sección se presentan los commits realizados en el repositorio de landin
     <th>develop</th>
     <th>014b0c9cb2c67c075528350a6e5b5e478ffa9dfc</th>
     <th>chore(dependencies): added dependencies and configuration for jwt implementation.</th>
-    <th></th>
+    <th>chore(dependencies): added dependencies and configuration for jwt implementation.</th>
     <th>May 28 2025</th>
   </tr>
 <tr>
@@ -7149,7 +7149,7 @@ En esta sección se presentan los commits realizados en el repositorio de landin
     <th>develop</th>
     <th>b085ebf82c72494d64f0040be051b8d6acf268db</th>
     <th>feat(entities): added entities, aggregates and value objects to implement jwt.</th>
-    <th></th>
+    <th>feat(entities): added entities, aggregates and value objects to implement jwt.</th>
     <th>May 28 2025</th>
   </tr>
 <tr>
@@ -7157,7 +7157,7 @@ En esta sección se presentan los commits realizados en el repositorio de landin
     <th>develop</th>
     <th>e23d9721e9afcd2867027fba45d681e71a05fb58</th>
     <th>feat(queries): added queries to work with users and roles.</th>
-    <th></th>
+    <th>feat(queries): added queries to work with users and roles.</th>
     <th>May 28 2025</th>
   </tr>
 <tr>
@@ -7165,7 +7165,7 @@ En esta sección se presentan los commits realizados en el repositorio de landin
     <th>develop</th>
     <th>9942c129c7beee126a9ca97f2a9802ca44858360</th>
     <th>feat(commands): added commands to support jwt.</th>
-    <th></th>
+    <th>feat(commands): added commands to support jwt.</th>
     <th>May 28 2025</th>
   </tr>
 <tr>
@@ -7173,7 +7173,7 @@ En esta sección se presentan los commits realizados en el repositorio de landin
     <th>develop</th>
     <th>e55625df4bb6540a7189a7e1fdb029417e92149f</th>
     <th>feat(services): added services for roles and users.</th>
-    <th></th>
+    <th>feat(services): added services for roles and users.</th>
     <th>May 28 2025</th>
   </tr>
 <tr>
@@ -7181,7 +7181,7 @@ En esta sección se presentan los commits realizados en el repositorio de landin
     <th>develop</th>
     <th>08184d2fb922703a7843e2a00ae6015a102e757f</th>
     <th>feat(repositories): added repositories for roles and users.</th>
-    <th></th>
+    <th>feat(repositories): added repositories for roles and users.</th>
     <th>May 28 2025</th>
   </tr>
 <tr>
@@ -7189,7 +7189,7 @@ En esta sección se presentan los commits realizados en el repositorio de landin
     <th>develop</th>
     <th>d2c0265b77636be6e91ce5231e93e186d81b843c</th>
     <th>feat(services): added hashing and token services.</th>
-    <th></th>
+    <th>feat(services): added hashing and token services.</th>
     <th>May 28 2025</th>
   </tr>
 <tr>
@@ -7197,7 +7197,7 @@ En esta sección se presentan los commits realizados en el repositorio de landin
     <th>develop</th>
     <th>11713a93d38de8e87d749af6ef2906b67275cede</th>
     <th>feat(implementation): added hashing and token services implementation.</th>
-    <th></th>
+    <th>feat(implementation): added hashing and token services implementation.</th>
     <th>May 28 2025</th>
   </tr>
 <tr>
@@ -7205,7 +7205,7 @@ En esta sección se presentan los commits realizados en el repositorio de landin
     <th>develop</th>
     <th>11c8aa2cb7cc4542f1d3f68c27f2316f8ccfa533</th>
     <th>feat(implementation): added role and users' services implementation.</th>
-    <th></th>
+    <th>feat(implementation): added role and users' services implementation.</th>
     <th>May 28 2025</th>
   </tr>
 <tr>
@@ -7213,7 +7213,7 @@ En esta sección se presentan los commits realizados en el repositorio de landin
     <th>develop</th>
     <th>bf67c2b3ea353632acbba7d46621f48c6feec801</th>
     <th>feat(jwt): authorization layer.</th>
-    <th></th>
+    <th>feat(jwt): authorization layer.</th>
     <th>May 28 2025</th>
   </tr>
 <tr>
@@ -7221,7 +7221,7 @@ En esta sección se presentan los commits realizados en el repositorio de landin
     <th>develop</th>
     <th>a006121d463c8a109eaae9d963292d53f4b95141</th>
     <th>feat(jwt): added resources.</th>
-    <th></th>
+    <th>feat(jwt): added resources.</th>
     <th>May 28 2025</th>
   </tr>
 <tr>
@@ -7229,7 +7229,7 @@ En esta sección se presentan los commits realizados en el repositorio de landin
     <th>develop</th>
     <th>4c0c6ea93c194d68745e8b83e275e0dcc0f7ea8f</th>
     <th>feat(jwt): added aseemblers.</th>
-    <th></th>
+    <th>feat(jwt): added aseemblers.</th>
     <th>May 28 2025</th>
   </tr>
 <tr>
@@ -7237,7 +7237,7 @@ En esta sección se presentan los commits realizados en el repositorio de landin
     <th>develop</th>
     <th>b28eb1b047ab0f871e343fe9dae73cf20f277b24</th>
     <th>feat(jwt): added roles event constructor.</th>
-    <th></th>
+    <th>feat(jwt): added roles event constructor.</th>
     <th>May 28 2025</th>
   </tr>
 <tr>
@@ -7245,7 +7245,7 @@ En esta sección se presentan los commits realizados en el repositorio de landin
     <th>develop</th>
     <th>527d28c100bb3c7d312aa95bd23ecc52a8afcefe</th>
     <th>feat(jwt): added controllers.</th>
-    <th></th>
+    <th>feat(jwt): added controllers.</th>
     <th>May 28 2025</th>
   </tr>
 <tr>
@@ -7253,7 +7253,7 @@ En esta sección se presentan los commits realizados en el repositorio de landin
     <th>develop</th>
     <th>9075b5357dd07a586444a92155d60f88ebe59eba</th>
     <th>feat(acl): added iam acl.</th>
-    <th></th>
+    <th>feat(acl): added iam acl.</th>
     <th>May 28 2025</th>
   </tr>
 <tr>
@@ -7261,7 +7261,7 @@ En esta sección se presentan los commits realizados en el repositorio de landin
     <th>develop</th>
     <th>adc5e0a15e3d50614550b92a989be6f6d17b4b2f</th>
     <th>feat(open-api): added open api configuration.</th>
-    <th></th>
+    <th>feat(open-api): added open api configuration.</th>
     <th>May 28 2025</th>
   </tr>
 <tr>
@@ -7269,7 +7269,7 @@ En esta sección se presentan los commits realizados en el repositorio de landin
     <th>develop</th>
     <th>a07ab355732951fc845204a1086ae71be07b9164</th>
     <th>feat(entities): added missing atributes.</th>
-    <th></th>
+    <th>feat(entities): added missing atributes.</th>
     <th>May 28 2025</th>
   </tr>
 <tr>
@@ -7277,7 +7277,7 @@ En esta sección se presentan los commits realizados en el repositorio de landin
     <th>develop</th>
     <th>f1bfe21a7c8f0aabb3f5710f5c76aa57fc71e45c</th>
     <th>fix(entities): fixed attributes for members and leaders.</th>
-    <th></th>
+    <th>fix(entities): fixed attributes for members and leaders.</th>
     <th>May 28 2025</th>
   </tr>
 <tr>
@@ -7285,7 +7285,7 @@ En esta sección se presentan los commits realizados en el repositorio de landin
     <th>develop</th>
     <th>9ee8824d00df20cfab8f52f269a64198890c7199</th>
     <th>fix(acl): added acl for members.</th>
-    <th></th>
+    <th>fix(acl): added acl for members.</th>
     <th>May 28 2025</th>
   </tr>
 <tr>
@@ -7293,7 +7293,7 @@ En esta sección se presentan los commits realizados en el repositorio de landin
     <th>develop</th>
     <th>3777fa526693ffad4b6fe96a858b4143d7b6b23a</th>
     <th>fix(acl): added acl for leaders.</th>
-    <th></th>
+    <th>fix(acl): added acl for leaders.</th>
     <th>May 28 2025</th>
   </tr>
 <tr>
@@ -7301,7 +7301,7 @@ En esta sección se presentan los commits realizados en el repositorio de landin
     <th>develop</th>
     <th>e5c07fd8e7d8123b88325162c1b82e591f0d36cc</th>
     <th>fix: fixed indexation</th>
-    <th></th>
+    <th>fix: fixed indexation</th>
     <th>May 28 2025</th>
   </tr>
 <tr>
@@ -7309,7 +7309,7 @@ En esta sección se presentan los commits realizados en el repositorio de landin
     <th>develop</th>
     <th>3fb8b012166e03d9adfdbff882f30956a1567503</th>
     <th>feat(acl): implemented acl to iam bounded context.</th>
-    <th></th>
+    <th>feat(acl): implemented acl to iam bounded context.</th>
     <th>May 28 2025</th>
   </tr>
 <tr>
@@ -7317,7 +7317,7 @@ En esta sección se presentan los commits realizados en el repositorio de landin
     <th>develop</th>
     <th>b442e9751a0e163db514193280a0dd1fb2be77fc</th>
     <th>fix: added missing annotations.</th>
-    <th></th>
+    <th>fix: added missing annotations.</th>
     <th>May 28 2025</th>
   </tr>
 <tr>
@@ -7325,7 +7325,7 @@ En esta sección se presentan los commits realizados en el repositorio de landin
     <th>develop</th>
     <th>eda94725ccffb77979c439af5aac49bc71dd72da</th>
     <th>feat(iam): added commands to assign roles.</th>
-    <th></th>
+    <th>feat(iam): added commands to assign roles.</th>
     <th>May 28 2025</th>
   </tr>
 <tr>
@@ -7333,7 +7333,7 @@ En esta sección se presentan los commits realizados en el repositorio de landin
     <th>develop</th>
     <th>985cd4abbeef8f037fec5dc56b4bb0eb19e602ae</th>
     <th>feat(iam): added implementation to build roles.</th>
-    <th></th>
+    <th>feat(iam): added implementation to build roles.</th>
     <th>May 28 2025</th>
   </tr>
 <tr>
@@ -7341,7 +7341,7 @@ En esta sección se presentan los commits realizados en el repositorio de landin
     <th>develop</th>
     <th>9dd5cdcef02a2b87dd0e8a7dc47d73e20c6f1a81</th>
     <th>feat(iam): added resources.</th>
-    <th></th>
+    <th>feat(iam): added resources.</th>
     <th>May 28 2025</th>
   </tr>
 <tr>
@@ -7349,7 +7349,7 @@ En esta sección se presentan los commits realizados en el repositorio de landin
     <th>develop</th>
     <th>cd1e03a1d5c0b8422b145054bd4e7398f90f08d7</th>
     <th>feat(iam): added assemblers.</th>
-    <th></th>
+    <th>feat(iam): added assemblers.</th>
     <th>May 28 2025</th>
   </tr>
 <tr>
@@ -7357,7 +7357,7 @@ En esta sección se presentan los commits realizados en el repositorio de landin
     <th>develop</th>
     <th>27dca3fc49591bd4a956675031bf7eb14a84566f</th>
     <th>feat(iam): added controller for assign roles.</th>
-    <th></th>
+    <th>feat(iam): added controller for assign roles.</th>
     <th>May 28 2025</th>
   </tr>
 <tr>
@@ -7365,7 +7365,7 @@ En esta sección se presentan los commits realizados en el repositorio de landin
     <th>develop</th>
     <th>fd00d88c4321a3a1f6da2b70e3301bbabf3767a6</th>
     <th>feat(iam): added controller for assign rolesnew queries.</th>
-    <th></th>
+    <th>feat(iam): added controller for assign rolesnew queries.</th>
     <th>May 30 2025</th>
   </tr>
 <tr>
@@ -7373,7 +7373,7 @@ En esta sección se presentan los commits realizados en el repositorio de landin
     <th>develop</th>
     <th>02e6ed78193ff5cb5be6e145e7b6103a7dbabe27</th>
     <th>feat(iam): added acl implementation.</th>
-    <th></th>
+    <th>feat(iam): added acl implementation.</th>
     <th>May 30 2025</th>
   </tr>
 <tr>
@@ -7381,7 +7381,7 @@ En esta sección se presentan los commits realizados en el repositorio de landin
     <th>develop</th>
     <th>e852a78c80cde5fc2e46ff27fa65ca1ade88d758</th>
     <th>feat(iam): implemented iam acl.</th>
-    <th></th>
+    <th>feat(iam): implemented iam acl.</th>
     <th>May 30 2025</th>
   </tr>
 <tr>
@@ -7389,7 +7389,7 @@ En esta sección se presentan los commits realizados en el repositorio de landin
     <th>develop</th>
     <th>81d67c06d91f34138aefadfd74848ca08db9355d</th>
     <th>feat(iam): implemented iam into task bounded context.</th>
-    <th></th>
+    <th>feat(iam): implemented iam into task bounded context.</th>
     <th>May 30 2025</th>
   </tr>
 <tr>
@@ -7397,7 +7397,7 @@ En esta sección se presentan los commits realizados en el repositorio de landin
     <th>develop</th>
     <th>6c42248d8566008a3a596d5859041c9a6024d70f</th>
     <th>fix(iam): fixed member and leader fetching by userId.</th>
-    <th></th>
+    <th>fix(iam): fixed member and leader fetching by userId.</th>
     <th>May 30 2025</th>
   </tr>
 <tr>
@@ -7405,7 +7405,7 @@ En esta sección se presentan los commits realizados en el repositorio de landin
     <th>develop</th>
     <th>4536b3694d11bdcd78199262c6d65995ff1db2d7</th>
     <th>fix: fixed bounded context name.</th>
-    <th></th>
+    <th>fix: fixed bounded context name.</th>
     <th>May 30 2025</th>
   </tr>
 <tr>
@@ -7413,7 +7413,7 @@ En esta sección se presentan los commits realizados en el repositorio de landin
     <th>develop</th>
     <th>30658a8e6eca2b79e4f5aaa7a1e65778396ab7da</th>
     <th>fix: fixed group endpoint to match iam implementation.</th>
-    <th></th>
+    <th>fix: fixed group endpoint to match iam implementation.</th>
     <th>May 30 2025</th>
   </tr>
 <tr>
@@ -7421,7 +7421,7 @@ En esta sección se presentan los commits realizados en el repositorio de landin
     <th>develop</th>
     <th>2f3c861a85cd568d299edeebf8b2616fb29f1141</th>
     <th>Merge pull request #7 from NRG-4/feat/iam</th>
-    <th></th>
+    <th>Merge pull request #7 from NRG-4/feat/iam</th>
     <th>May 30 2025</th>
   </tr>
 <tr>
@@ -7429,7 +7429,7 @@ En esta sección se presentan los commits realizados en el repositorio de landin
     <th>develop</th>
     <th>f6cb5c7feef26a8d75f77991ff917232512aa3b8</th>
     <th>fix(invitations): added query service implementation.</th>
-    <th></th>
+    <th>fix(invitations): added query service implementation.</th>
     <th>May 31 2025</th>
   </tr>
 <tr>
@@ -7437,7 +7437,7 @@ En esta sección se presentan los commits realizados en el repositorio de landin
     <th>develop</th>
     <th>b5d7d3b0470b43ee21d475dfd94cb2957d092656</th>
     <th>fix(invitations): added repository.</th>
-    <th></th>
+    <th>fix(invitations): added repository.</th>
     <th>May 31 2025</th>
   </tr>
 <tr>
@@ -7445,7 +7445,7 @@ En esta sección se presentan los commits realizados en el repositorio de landin
     <th>develop</th>
     <th>efe60fa476cbd497a49da91572cb49bac03bf422</th>
     <th>fix(invitations): added missing parameters.</th>
-    <th></th>
+    <th>fix(invitations): added missing parameters.</th>
     <th>May 31 2025</th>
   </tr>
 <tr>
@@ -7453,7 +7453,7 @@ En esta sección se presentan los commits realizados en el repositorio de landin
     <th>develop</th>
     <th>2e3e4044c9b606abd3a58dcfd61b70e873fa1446</th>
     <th>feat(invitations): added invitation entity.</th>
-    <th></th>
+    <th>feat(invitations): added invitation entity.</th>
     <th>May 31 2025</th>
   </tr>
 <tr>
@@ -7461,7 +7461,7 @@ En esta sección se presentan los commits realizados en el repositorio de landin
     <th>develop</th>
     <th>a75d5ca6c4540be6bed73d92119a4fc9227b8924</th>
     <th>feat(invitations): added invitations commands and queries interfaces.</th>
-    <th></th>
+    <th>feat(invitations): added invitations commands and queries interfaces.</th>
     <th>May 31 2025</th>
   </tr>
 <tr>
@@ -7469,7 +7469,7 @@ En esta sección se presentan los commits realizados en el repositorio de landin
     <th>develop</th>
     <th>39127654e8fcaceeea9d99c626b483b8aaecb879</th>
     <th>feat(invitations): added invitations commands.</th>
-    <th></th>
+    <th>feat(invitations): added invitations commands.</th>
     <th>May 31 2025</th>
   </tr>
 <tr>
@@ -7477,7 +7477,7 @@ En esta sección se presentan los commits realizados en el repositorio de landin
     <th>develop</th>
     <th>bd4d93ed254933d9508cdb628fa3bb5b1d112eb7</th>
     <th>feat(invitations): added invitations queries.</th>
-    <th></th>
+    <th>feat(invitations): added invitations queries.</th>
     <th>May 31 2025</th>
   </tr>
 <tr>
@@ -7485,7 +7485,7 @@ En esta sección se presentan los commits realizados en el repositorio de landin
     <th>develop</th>
     <th>27ec797fa34d8296238dd48640a29da31d3b76e1</th>
     <th>feat(groups): added find by code endpoint.</th>
-    <th></th>
+    <th>feat(groups): added find by code endpoint.</th>
     <th>May 31 2025</th>
   </tr>
 <tr>
@@ -7493,7 +7493,7 @@ En esta sección se presentan los commits realizados en el repositorio de landin
     <th>develop</th>
     <th>b59f03a413b6e8399730d14ef21f752e7d669cd8</th>
     <th>fix(invitations): added command service implementation.</th>
-    <th></th>
+    <th>fix(invitations): added command service implementation.</th>
     <th>Jun 1 2025</th>
   </tr>
 <tr>
@@ -7501,7 +7501,7 @@ En esta sección se presentan los commits realizados en el repositorio de landin
     <th>develop</th>
     <th>098cb18a5909a139e411f5d85c9f596b3e79bdae</th>
     <th>feat(invitations): added resources.</th>
-    <th></th>
+    <th>feat(invitations): added resources.</th>
     <th>Jun 1 2025</th>
   </tr>
 <tr>
@@ -7509,7 +7509,7 @@ En esta sección se presentan los commits realizados en el repositorio de landin
     <th>develop</th>
     <th>ba263979fb2fde37fd53e3f578a57c01c75d45d3</th>
     <th>feat(invitations): added assemblers.</th>
-    <th></th>
+    <th>feat(invitations): added assemblers.</th>
     <th>Jun 1 2025</th>
   </tr>
 <tr>
@@ -7517,7 +7517,7 @@ En esta sección se presentan los commits realizados en el repositorio de landin
     <th>develop</th>
     <th>cdb8beccd27bb64d236c7ad0774ec39bec6b3ac6</th>
     <th>feat(invitations): added controllers.</th>
-    <th></th>
+    <th>feat(invitations): added controllers.</th>
     <th>Jun 1 2025</th>
   </tr>
 <tr>
@@ -7525,7 +7525,7 @@ En esta sección se presentan los commits realizados en el repositorio de landin
     <th>develop</th>
     <th>3ba97fc27f040670ea4884a0b09ec7e76b5c8f19</th>
     <th>fix(iam): fixed dynamic role designation.</th>
-    <th></th>
+    <th>fix(iam): fixed dynamic role designation.</th>
     <th>Jun 1 2025</th>
   </tr>
 <tr>
@@ -7533,7 +7533,7 @@ En esta sección se presentan los commits realizados en el repositorio de landin
     <th>develop</th>
     <th>9a03bd56f2f5aef656e672bc2ac0053dc2061183</th>
     <th>Merge pull request #8 from NRG-4/feat/invitations</th>
-    <th></th>
+    <th>Merge pull request #8 from NRG-4/feat/invitations</th>
     <th>Jun 1 2025</th>
   </tr>
 <tr>
@@ -7541,7 +7541,7 @@ En esta sección se presentan los commits realizados en el repositorio de landin
     <th>develop</th>
     <th>9ec2ea21776affb9a8f657330a635f07d90df1ac</th>
     <th>feat(groups): added get group by memberId endpoint.</th>
-    <th></th>
+    <th>feat(groups): added get group by memberId endpoint.</th>
     <th>Jun 1 2025</th>
   </tr>
 <tr>
@@ -7549,7 +7549,7 @@ En esta sección se presentan los commits realizados en el repositorio de landin
     <th>develop</th>
     <th>fd32df4de8a5e77bc90b36ee209a0d6620841105</th>
     <th>feat(groups): added remove member from group command.</th>
-    <th></th>
+    <th>feat(groups): added remove member from group command.</th>
     <th>Jun 1 2025</th>
   </tr>
 <tr>
@@ -7557,7 +7557,7 @@ En esta sección se presentan los commits realizados en el repositorio de landin
     <th>develop</th>
     <th>596eb51cf457106a88f1e1b0bb34fa2b7bdb9c32</th>
     <th>feat(groups): added fetch members by groupId.</th>
-    <th></th>
+    <th>feat(groups): added fetch members by groupId.</th>
     <th>Jun 1 2025</th>
   </tr>
 <tr>
@@ -7565,7 +7565,7 @@ En esta sección se presentan los commits realizados en el repositorio de landin
     <th>develop</th>
     <th>f930981c4cbcf5adbde4abbf8806cceb375e22b2</th>
     <th>feat(groups): added fetch members by groupId.</th>
-    <th></th>
+    <th>feat(groups): added fetch members by groupId.</th>
     <th>Jun 1 2025</th>
   </tr>
 <tr>
@@ -7573,7 +7573,7 @@ En esta sección se presentan los commits realizados en el repositorio de landin
     <th>develop</th>
     <th>58569eff220c868569f19056f81fd08b1bd1bcbc</th>
     <th>Merge remote-tracking branch 'origin/feat/invitations' into feat/groups</th>
-    <th></th>
+    <th>Merge remote-tracking branch 'origin/feat/invitations' into feat/groups</th>
     <th>Jun 1 2025</th>
   </tr>
 <tr>
@@ -7581,7 +7581,7 @@ En esta sección se presentan los commits realizados en el repositorio de landin
     <th>develop</th>
     <th>e0e4c063e3dbb261eda522189fe60db2562c16aa</th>
     <th>Merge pull request #9 from NRG-4/feat/groups</th>
-    <th></th>
+    <th>Merge pull request #9 from NRG-4/feat/groups</th>
     <th>Jun 1 2025</th>
   </tr>
 <tr>
@@ -7589,7 +7589,7 @@ En esta sección se presentan los commits realizados en el repositorio de landin
     <th>develop</th>
     <th>a8b124beeac3b9e4f04ffa9ad95f1e0d0fb5fe9e</th>
     <th>fix(tasks): fixed, added group Id and validations to the tasks endpoints.</th>
-    <th></th>
+    <th>fix(tasks): fixed, added group Id and validations to the tasks endpoints.</th>
     <th>Jun 1 2025</th>
   </tr>
 <tr>
@@ -7597,7 +7597,7 @@ En esta sección se presentan los commits realizados en el repositorio de landin
     <th>develop</th>
     <th>b79b7899405b5708315e8024db19d1468e12f3df</th>
     <th>fix(tasks): added get all tasks by group Id.</th>
-    <th></th>
+    <th>fix(tasks): added get all tasks by group Id.</th>
     <th>Jun 1 2025</th>
   </tr>
 <tr>
@@ -7605,7 +7605,7 @@ En esta sección se presentan los commits realizados en el repositorio de landin
     <th>develop</th>
     <th>868d2e6da4fd1d0ee826dd02b0b337d4b21320d8</th>
     <th>chore: changed secret for jwt.</th>
-    <th></th>
+    <th>chore: changed secret for jwt.</th>
     <th>Jun 3 2025</th>
   </tr>
 <tr>
@@ -7613,7 +7613,7 @@ En esta sección se presentan los commits realizados en el repositorio de landin
     <th>develop</th>
     <th>70de621953174e81e7ae28c32c9c2e5c797a664d</th>
     <th>fix: added user-member and user-leader bidirectional relationship fro groups.</th>
-    <th></th>
+    <th>fix: added user-member and user-leader bidirectional relationship fro groups.</th>
     <th>Jun 3 2025</th>
   </tr>
 <tr>
@@ -7621,7 +7621,7 @@ En esta sección se presentan los commits realizados en el repositorio de landin
     <th>develop</th>
     <th>134d0f38d74f4b946c65ae22cd8daa5266832d60</th>
     <th>fix: added user-member and user-leader bidirectional relationship for invitations.</th>
-    <th></th>
+    <th>fix: added user-member and user-leader bidirectional relationship for invitations.</th>
     <th>Jun 4 2025</th>
   </tr>
 <tr>
@@ -7629,7 +7629,7 @@ En esta sección se presentan los commits realizados en el repositorio de landin
     <th>develop</th>
     <th>52e5db445701ede49e911f53c7c2fd2d0bf9d24d</th>
     <th>fix: added user-member and user-leader bidirectional relationship for tasks.</th>
-    <th></th>
+    <th>fix: added user-member and user-leader bidirectional relationship for tasks.</th>
     <th>Jun 4 2025</th>
   </tr>
 <tr>
@@ -7637,7 +7637,7 @@ En esta sección se presentan los commits realizados en el repositorio de landin
     <th>develop</th>
     <th>ae28a7bd2ac6ccaf344f37350146282fa606940b</th>
     <th>Merge pull request #10 from NRG-4/feat/tasks</th>
-    <th></th>
+    <th>Merge pull request #10 from NRG-4/feat/tasks</th>
     <th>Jun 4 2025</th>
   </tr>
 </table>
@@ -7646,7 +7646,6 @@ En esta sección se presentan los commits realizados en el repositorio de landin
 
 **Testing para endpoint Authentication:**
 
-
 <img src="images/chapter-6/authentication1.png">
 <img src="images/chapter-6/authentication2.png">
 <img src="images/chapter-6/authentication3.png">
@@ -7654,9 +7653,7 @@ En esta sección se presentan los commits realizados en el repositorio de landin
 <img src="images/chapter-6/authentication5.png">
 <img src="images/chapter-6/authentication6.png">
 
-
 **Testing para endpoint Invitations:**
-
 
 <img src="images/chapter-6/Invitations1.png">
 <img src="images/chapter-6/Invitations2.png">
@@ -7667,9 +7664,7 @@ En esta sección se presentan los commits realizados en el repositorio de landin
 <img src="images/chapter-6/Invitations7.png">
 <img src="images/chapter-6/Invitations8.png">
 
-
 **Testing para endpoint Member:**
-
 
 <img src="images/chapter-6/member1.png">
 <img src="images/chapter-6/member2.png">
@@ -7680,16 +7675,12 @@ En esta sección se presentan los commits realizados en el repositorio de landin
 <img src="images/chapter-6/member7.png">
 <img src="images/chapter-6/member8.png">
 
-
 **Testing para endpoint Roles:**
-
 
 <img src="images/chapter-6/roles1.png">
 <img src="images/chapter-6/roles2.png">
 
-
 **Testing para endpoint Groups:**
-
 
 <img src="images/chapter-6/group1.png">
 <img src="images/chapter-6/group2.png">
@@ -7708,16 +7699,12 @@ En esta sección se presentan los commits realizados en el repositorio de landin
 <img src="images/chapter-6/group15.png">
 <img src="images/chapter-6/group16.png">
 
-
 **Testing para endpoint Leaders:**
-
 
 <img src="images/chapter-6/leaders1.png">
 <img src="images/chapter-6/leaders2.png">
 
-
 **Testing para endpoint Task:**
-
 
 <img src="images/chapter-6/task1.png">
 <img src="images/chapter-6/task2.png">
@@ -7730,18 +7717,14 @@ En esta sección se presentan los commits realizados en el repositorio de landin
 <img src="images/chapter-6/task9.png">
 <img src="images/chapter-6/task10.png">
 
-
 **Testing para endpoint Users:**
-
 
 <img src="images/chapter-6/users1.png">
 <img src="images/chapter-6/users2.png">
 <img src="images/chapter-6/users3.png">
 <img src="images/chapter-6/users4.png">
 
-
 **Testing para endpoint Task Member:**
-
 
 <img src="images/chapter-6/taskMember1.png">
 <img src="images/chapter-6/taskMember2.png">
@@ -7749,7 +7732,6 @@ En esta sección se presentan los commits realizados en el repositorio de landin
 <img src="images/chapter-6/taskMember4.png">
 <img src="images/chapter-6/taskMember5.png">
 <img src="images/chapter-6/taskMember6.png">
-
 
 #### 6.2.2.5. Execution Evidence for Sprint Review.
 
@@ -7776,20 +7758,15 @@ En esta sección, presentamos una recopilación visual y detallada de los avance
 
 <img src="images/chapter-6/landingPage10.png" alt="API">
 
-
 <img src="images/chapter-6/api1.png" alt="API">
-
 
 <img src="images/chapter-6/api2.png" alt="API">
 
-
 <img src="images/chapter-6/api3.png" alt="API">
-
 
 #### 6.2.2.6. Services Documentation Evidence for Sprint Review.
 
 Esta tabla presenta la documentación de los servicios implementados como evidencia para la revisión del sprint. Detalla los endpoints disponibles, sus métodos HTTP, descripciones breves de su funcionalidad y los parámetros requeridos, organizados por categorías como *Groups*, *Members*, *Tasks* y *Member Tasks*.
-
 
 <table>
     <tr>
@@ -8263,7 +8240,6 @@ Esta tabla presenta la documentación de los servicios implementados como eviden
   <td colspan="2">no</td>
 </tr>
 </table>
-
 
 #### 6.2.2.7. Software Deployment Evidence for Sprint Review.
 
