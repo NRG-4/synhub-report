@@ -7732,7 +7732,7 @@ Proceso mediante el Backend:
 
 En la aplicación Synhub existen tres roles predefinidos almacenados en la base de datos: ROLE_USER, ROLE_LEADER y ROLE_MEMBER. El rol ROLE_USER representa a cualquier usuario registrado que aún no ha sido asignado a un grupo o función específica dentro de la plataforma. El rol ROLE_LEADER corresponde a usuarios que crean y gestionan grupos, teniendo la capacidad de aceptar o rechazar solicitudes de otros usuarios para unirse. Por último, el rol ROLE_MEMBER se asigna a usuarios que han sido aceptados en un grupo y pueden participar en sus actividades y acceder al contenido compartido según los permisos establecidos. Estos roles definen el nivel de acceso y las acciones que cada usuario puede realizar dentro de Synhub.
 
-<img src="images/chapter-6/opcional5.png" width="300">
+<img src="images/chapter-6/opcional5.png">
 
 Proceso mediante el Backend:
 
@@ -7782,7 +7782,8 @@ Proceso mediante el Backend:
 
 Cuando un usuario desea participar en Synhub como líder, primero debe registrarse en la aplicación completando un formulario con sus datos personales como nombre, correo y contraseña. Al enviar la información, el sistema valida los datos, encripta la contraseña por seguridad y guarda al nuevo usuario en la base de datos. Una vez registrado e iniciado sesión, el usuario con rol de líder puede crear y gestionar grupos dentro de la plataforma. Además, tiene la autoridad para revisar, aceptar o rechazar las solicitudes de otros usuarios que desean unirse a sus grupos, administrando así la composición y actividad de cada grupo según las necesidades y reglas establecidas.
 
-<img src="images/chapter-6/opcional28.png" width="300">
+<img src="images/chapter-6/opcional.png" width="300">
+<img src="images/chapter-6/opcional28.png" >
 
 Proceso mediante el Backend:
 
@@ -7825,9 +7826,10 @@ Proceso mediante el Backend:
 **Testing para endpoint Users:**
 
 Cuando un usuario desea utilizar Synhub, primero debe registrarse en la aplicación completando un formulario con sus datos personales, como nombre, correo y contraseña. Al enviar la información, el sistema valida los datos, encripta la contraseña por seguridad y guarda al nuevo usuario en la base de datos. Una vez registrado e iniciado sesión, el usuario puede interactuar con la plataforma según el rol que se le haya asignado, ya sea como usuario general, miembro de un grupo o líder encargado de gestionar grupos y sus solicitudes. Cada rol determina el nivel de acceso y las acciones que el usuario puede realizar dentro de Synhub.
+
 <img src="images/chapter-6/opcional.png" width="300">
 <img src="images/chapter-6/opcional1.png" width="300">
-<img src="images/chapter-6/opcional2.png" width="300">
+<img src="images/chapter-6/opcional2.png" >
 
 Proceso mediante el Backend:
 <img src="images/chapter-6/users1.png">
@@ -7838,6 +7840,7 @@ Proceso mediante el Backend:
 **Testing para endpoint Task Member:**
 
 En Synhub, un usuario con rol de líder puede crear tareas asignadas a los miembros del grupo, facilitando la organización y seguimiento de actividades. Además, es posible obtener la tarea más próxima a vencer para gestionar prioridades y asegurar el cumplimiento a tiempo. También se puede buscar una tarea específica por su ID dentro del conjunto de tareas asignadas a un miembro, permitiendo un acceso rápido y preciso a la información necesaria para el seguimiento y control del progreso.
+
 <img src="images/chapter-6/opcional21.png" width="300">
 <img src="images/chapter-6/opcional49.png" >
 <img src="images/chapter-6/opcional22.png" width="300">
