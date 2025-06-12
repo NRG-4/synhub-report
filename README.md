@@ -7741,6 +7741,26 @@ Proceso mediante el Backend:
 
 **Testing para endpoint Groups:**
 
+En Synhub, un usuario con rol de líder puede crear grupos proporcionando un nombre, una descripción y una URL para la imagen representativa del grupo, estableciendo así un espacio organizado para la colaboración. Además, el líder tiene la autoridad para gestionar la membresía del grupo, incluyendo la capacidad de eliminar miembros cuando sea necesario para mantener la dinámica y seguridad del equipo. También puede eliminar por completo el grupo, lo que elimina todas sus actividades y miembros asociados, permitiendo así un control total sobre la administración y estructura de los grupos dentro de la plataforma.
+
+<img src="images/chapter-6/opcional6.png" width="300">
+<img src="images/chapter-6/opcional50.png" >
+<img src="images/chapter-6/opcional7.png" width="300">
+<img src="images/chapter-6/opcional8.png" width="300">
+<img src="images/chapter-6/opcional9.png" >
+
+Con el grupo ya creado, un miembro asignado podemos realizar las acciones de eliminar miembro y eliminar el grupo.
+
+<img src="images/chapter-6/opcional42.png" width="300">
+<img src="images/chapter-6/opcional43.png" width="300">
+<img src="images/chapter-6/opcional44.png" width="300">
+<img src="images/chapter-6/opcional33.png">
+<img src="images/chapter-6/opcional45.png" width="300">
+<img src="images/chapter-6/opcional46.png">
+<img src="images/chapter-6/opcional47.png" width="300">
+<img src="images/chapter-6/opcional48.png">
+
+Proceso mediante el Backend:
 <img src="images/chapter-6/group1.png">
 <img src="images/chapter-6/group2.png">
 <img src="images/chapter-6/group3.png">
@@ -7757,21 +7777,6 @@ Proceso mediante el Backend:
 <img src="images/chapter-6/group14.png">
 <img src="images/chapter-6/group15.png">
 <img src="images/chapter-6/group16.png">
-<img src="images/chapter-6/opcional6.png" width="300">
-<img src="images/chapter-6/opcional7.png" width="300">
-<img src="images/chapter-6/opcional8.png" width="300">
-<img src="images/chapter-6/opcional9.png" width="300">
-<img src="images/chapter-6/opcional30.png" width="300">
-<img src="images/chapter-6/opcional31.png" width="300">
-<img src="images/chapter-6/opcional32.png" width="300">
-<img src="images/chapter-6/opcional33.png" width="300">
-<img src="images/chapter-6/opcional42.png" width="300">
-<img src="images/chapter-6/opcional43.png" width="300">
-<img src="images/chapter-6/opcional44.png" width="300">
-<img src="images/chapter-6/opcional45.png" width="300">
-<img src="images/chapter-6/opcional46.png" width="300">
-<img src="images/chapter-6/opcional47.png" width="300">
-<img src="images/chapter-6/opcional48.png" width="300">
 
 **Testing para endpoint Leaders:**
 
