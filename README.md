@@ -7695,6 +7695,8 @@ En el segundo caso, el grupo también está vacío, sin ningún miembro registra
 <img src="images/chapter-6/opcional11.png" width="300">
 <img src="images/chapter-6/opcional12.png" width="300">
 <img src="images/chapter-6/opcional13.png" width="300">
+<img src="images/chapter-6/opcional17.png" >
+<img src="images/chapter-6/opcional20.png" >
 
 
 Proceso mediante el Backend:
