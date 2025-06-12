@@ -7670,28 +7670,41 @@ Proceso mediante el Backend:
 
 **Testing para endpoint Invitations:**
 
+En el primer caso, un grupo en Synhub se encuentra sin miembros. Un usuario interesado envía una solicitud para unirse al grupo. El líder del grupo revisa la solicitud y, tras evaluarla, decide aceptarla. Al ser aprobada, el sistema agrega automáticamente al usuario como miembro activo del grupo, convirtiéndose en el primer integrante oficial. A partir de ese momento, el usuario puede participar en las actividades del grupo según los permisos definidos.
+
+<img src="images/chapter-6/opcional10.png" width="300">
+<img src="images/chapter-6/opcional16.png" >
+<img src="images/chapter-6/opcional17.png" >
+<img src="images/chapter-6/opcional11.png" width="300">
+<img src="images/chapter-6/opcional12.png" width="300">
+<img src="images/chapter-6/opcional13.png" width="300">
+<img src="images/chapter-6/opcional14.png" width="300">
+<img src="images/chapter-6/opcional15.png" width="300">
+<img src="images/chapter-6/opcional18.png" >
+<img src="images/chapter-6/opcional19.png" >
+<img src="images/chapter-6/opcional20.png" >
+
+
+
+
+En el segundo caso, el grupo también está vacío, sin ningún miembro registrado. Un usuario envía una solicitud de ingreso, pero al revisarla, el líder del grupo decide rechazarla. Como resultado, la solicitud es descartada y el usuario no es añadido al grupo. El grupo permanece sin miembros, y el usuario no podrá acceder a sus funciones ni contenido a menos que envíe otra solicitud y esta sea aceptada en el futuro.
+
+<img src="images/chapter-6/opcional10.png" width="300">
+<img src="images/chapter-6/opcional16.png" >
+<img src="images/chapter-6/opcional17.png" >
+<img src="images/chapter-6/opcional11.png" width="300">
+<img src="images/chapter-6/opcional12.png" width="300">
+<img src="images/chapter-6/opcional13.png" width="300">
+
+
+Proceso mediante el Backend:
+
 <img src="images/chapter-6/Invitations1.png">
 <img src="images/chapter-6/Invitations2.png">
 <img src="images/chapter-6/Invitations3.png">
 <img src="images/chapter-6/Invitations4.png">
 <img src="images/chapter-6/Invitations5.png">
 <img src="images/chapter-6/Invitations6.png">
-<img src="images/chapter-6/opcional10.png" width="300">
-<img src="images/chapter-6/opcional11.png" width="300">
-<img src="images/chapter-6/opcional12.png" width="300">
-<img src="images/chapter-6/opcional13.png" width="300">
-<img src="images/chapter-6/opcional14.png" width="300">
-<img src="images/chapter-6/opcional15.png" width="300">
-<img src="images/chapter-6/opcional16.png" width="300">
-<img src="images/chapter-6/opcional17.png" width="300">
-<img src="images/chapter-6/opcional18.png" width="300">
-<img src="images/chapter-6/opcional19.png" width="300">
-<img src="images/chapter-6/opcional20.png" width="300">
-<img src="images/chapter-6/opcional34.png" width="300">
-<img src="images/chapter-6/opcional35.png" width="300">
-<img src="images/chapter-6/opcional36.png" width="300">
-<img src="images/chapter-6/opcional37.png" width="300">
-
 
 
 **Testing para endpoint Member:**
