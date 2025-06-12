@@ -7711,6 +7711,11 @@ Proceso mediante el Backend:
 
 **Testing para endpoint Member:**
 
+<img src="images/chapter-6/opcional1.png" width="300">
+<img src="images/chapter-6/opcional2.png" width="300">
+<img src="images/chapter-6/opcional29.png">
+
+Proceso mediante el Backend:
 <img src="images/chapter-6/member1.png">
 <img src="images/chapter-6/member2.png">
 <img src="images/chapter-6/member3.png">
@@ -7719,7 +7724,7 @@ Proceso mediante el Backend:
 <img src="images/chapter-6/member6.png">
 <img src="images/chapter-6/member7.png">
 <img src="images/chapter-6/member8.png">
-<img src="images/chapter-6/opcional29.png" width="300">
+
 
 **Testing para endpoint Roles:**
 
