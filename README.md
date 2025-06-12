@@ -7646,17 +7646,27 @@ En esta sección se presentan los commits realizados en el repositorio de landin
 
 **Testing para endpoint Authentication:**
 
+
+
+Cuando un usuario se registra en la aplicación Sunhub, accede a un formulario donde ingresa datos como nombre, correo y contraseña. Al enviar la información, el sistema valida los datos, encripta la contraseña por seguridad y guarda el nuevo usuario en la base de datos. Opcionalmente, se puede enviar un correo de verificación para confirmar la identidad. Una vez completado este proceso, el usuario queda registrado y puede iniciar sesión.
+
+<img src="images/chapter-6/opcional.png" width="300">
+<img src="images/chapter-6/opcional1.png" width="300">
+<img src="images/chapter-6/opcional2.png" width="300">
+
+Durante el inicio de sesión, el usuario ingresa su correo y contraseña. El backend verifica si el usuario existe y si la contraseña ingresada coincide con la almacenada (previamente encriptada). Si las credenciales son válidas, se genera un token JWT (o similar) que se envía al cliente. Este token permite al usuario acceder a las funcionalidades protegidas de Synhub durante su sesión.
+
+<img src="images/chapter-6/opcional3.png" width="300">
+<img src="images/chapter-6/opcional4.png" width="300">
+
+Proceso mediante el Backend:
+
 <img src="images/chapter-6/authentication1.png">
 <img src="images/chapter-6/authentication2.png">
 <img src="images/chapter-6/authentication3.png">
 <img src="images/chapter-6/authentication4.png">
 <img src="images/chapter-6/authentication5.png">
 <img src="images/chapter-6/authentication6.png">
-<img src="images/chapter-6/opcional.png">
-<img src="images/chapter-6/opcional1.png">
-<img src="images/chapter-6/opcional2.png">
-<img src="images/chapter-6/opcional3.png">
-<img src="images/chapter-6/opcional4.png">
 
 **Testing para endpoint Invitations:**
 
