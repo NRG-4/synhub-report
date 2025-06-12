@@ -7652,6 +7652,11 @@ En esta sección se presentan los commits realizados en el repositorio de landin
 <img src="images/chapter-6/authentication4.png">
 <img src="images/chapter-6/authentication5.png">
 <img src="images/chapter-6/authentication6.png">
+<img src="images/chapter-6/opcional.png">
+<img src="images/chapter-6/opcional1.png">
+<img src="images/chapter-6/opcional2.png">
+<img src="images/chapter-6/opcional3.png">
+<img src="images/chapter-6/opcional4.png">
 
 **Testing para endpoint Invitations:**
 
@@ -7661,8 +7666,23 @@ En esta sección se presentan los commits realizados en el repositorio de landin
 <img src="images/chapter-6/Invitations4.png">
 <img src="images/chapter-6/Invitations5.png">
 <img src="images/chapter-6/Invitations6.png">
-<img src="images/chapter-6/Invitations7.png">
-<img src="images/chapter-6/Invitations8.png">
+<img src="images/chapter-6/opcional10.png">
+<img src="images/chapter-6/opcional11.png">
+<img src="images/chapter-6/opcional12.png">
+<img src="images/chapter-6/opcional13.png">
+<img src="images/chapter-6/opcional14.png">
+<img src="images/chapter-6/opcional15.png">
+<img src="images/chapter-6/opcional16.png">
+<img src="images/chapter-6/opcional17.png">
+<img src="images/chapter-6/opcional18.png">
+<img src="images/chapter-6/opcional19.png">
+<img src="images/chapter-6/opcional20.png">
+<img src="images/chapter-6/opcional34.png">
+<img src="images/chapter-6/opcional35.png">
+<img src="images/chapter-6/opcional36.png">
+<img src="images/chapter-6/opcional37.png">
+
+
 
 **Testing para endpoint Member:**
 
@@ -7674,11 +7694,13 @@ En esta sección se presentan los commits realizados en el repositorio de landin
 <img src="images/chapter-6/member6.png">
 <img src="images/chapter-6/member7.png">
 <img src="images/chapter-6/member8.png">
+<img src="images/chapter-6/opcional29.png">
 
 **Testing para endpoint Roles:**
 
 <img src="images/chapter-6/roles1.png">
 <img src="images/chapter-6/roles2.png">
+<img src="images/chapter-6/opcional5.png">
 
 **Testing para endpoint Groups:**
 
@@ -7698,11 +7720,27 @@ En esta sección se presentan los commits realizados en el repositorio de landin
 <img src="images/chapter-6/group14.png">
 <img src="images/chapter-6/group15.png">
 <img src="images/chapter-6/group16.png">
+<img src="images/chapter-6/opcional6.png">
+<img src="images/chapter-6/opcional7.png">
+<img src="images/chapter-6/opcional8.png">
+<img src="images/chapter-6/opcional9.png">
+<img src="images/chapter-6/opcional30.png">
+<img src="images/chapter-6/opcional31.png">
+<img src="images/chapter-6/opcional32.png">
+<img src="images/chapter-6/opcional33.png">
+<img src="images/chapter-6/opcional42.png">
+<img src="images/chapter-6/opcional43.png">
+<img src="images/chapter-6/opcional44.png">
+<img src="images/chapter-6/opcional45.png">
+<img src="images/chapter-6/opcional46.png">
+<img src="images/chapter-6/opcional47.png">
+<img src="images/chapter-6/opcional48.png">
 
 **Testing para endpoint Leaders:**
 
 <img src="images/chapter-6/leaders1.png">
 <img src="images/chapter-6/leaders2.png">
+<img src="images/chapter-6/opcional28.png">
 
 **Testing para endpoint Task:**
 
@@ -7716,6 +7754,17 @@ En esta sección se presentan los commits realizados en el repositorio de landin
 <img src="images/chapter-6/task8.png">
 <img src="images/chapter-6/task9.png">
 <img src="images/chapter-6/task10.png">
+<img src="images/chapter-6/opcional21.png">
+<img src="images/chapter-6/opcional22.png">
+<img src="images/chapter-6/opcional23.png">
+<img src="images/chapter-6/opcional24.png">
+<img src="images/chapter-6/opcional25.png">
+<img src="images/chapter-6/opcional26.png">
+<img src="images/chapter-6/opcional27.png">
+<img src="images/chapter-6/opcional38.png">
+<img src="images/chapter-6/opcional39.png">
+<img src="images/chapter-6/opcional40.png">
+<img src="images/chapter-6/opcional41.png">
 
 **Testing para endpoint Users:**
 
@@ -7732,6 +7781,11 @@ En esta sección se presentan los commits realizados en el repositorio de landin
 <img src="images/chapter-6/taskMember4.png">
 <img src="images/chapter-6/taskMember5.png">
 <img src="images/chapter-6/taskMember6.png">
+<img src="images/chapter-6/opcional.png">
+<img src="images/chapter-6/opcional1.png">
+<img src="images/chapter-6/opcional2.png">
+<img src="images/chapter-6/opcional3.png">
+<img src="images/chapter-6/opcional4.png">
 
 #### 6.2.2.5. Execution Evidence for Sprint Review.
 
