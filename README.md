@@ -9628,13 +9628,72 @@ Para este sprint se desarrollaron 2 productos siendo estos: web application y we
 * Pacheco Astiguetta Sebastian (Pachieeee): 51 commits
 * Pasquale Barrenechea Gianluca Santino (cwassointt): 74 commits
 
-### 6.3.  Validation Interviews.
+### 6.3. Validation Interviews
 
-#### 6.3.1. Diseño de Entrevistas.
+#### 6.3.1. Diseño de entrevistas
 
-#### 6.3.2. Registr0o de Entrevistas.
+##### Objetivo de la Entrevista
+Validar la usabilidad y efectividad de la landing page y la aplicación para cada uno de los segmentos de usuarios, asegurando que los flujos de usuario (user flows) sean intuitivos y satisfactorios.
+##### Elementos de Validación
+- **Landing Page**: Los usuarios interactuarán con la landing page para evaluar la claridad del mensaje, las llamadas a la acción (CTA), la navegación y el diseño.
+- **Aplicación para líderes**: Se guiará a los usuarios a través de flujos principales, como la creación de grupos, aceptar las solicitudes de unión, creación y edición de tareas, vista de métricas de desarrollo, manejo de solicitudes y validaciones, visualización de miembros junto a la creación e inicio de sesión de usuarios.
+- **Aplicación para miembros**: Se guiará a los usuarios a través de flujos principales, como la unión a grupos, la visualización de sus tareas, las solicitudes o validaciones que tiene pendiente y la visualización de sus estadísticas de desempeño.
+##### User Flows a Validar
+- **Landing Page**:
+  - Sección de Características: Listado de las características que SynHub ofrece con respecto a la aplicación.
+  - Sección About Us y Team: Misión y Visión en SynHub, y el listado del equipo de desarrolladores.
 
-#### 6.3.3. Evaluaciones según heurísticas.
+- **Aplicación Móvil para Líderes**:
+  - Creación de Grupos: Facilidad para registrar un grupo en la aplicación, proporcionando un código generado para la invitación a miembros.
+  - Gestión de Tareas: Visualizar, crear, modificar y eliminar tareas pertenecientes al grupo.
+  - Generación de Reportes: Generar reportes y visualizar la distribución de tareas en el equipo.
+  - Solicitudes y validaciones: Capacidad de gestionar y validar solicitudes respecto a tareas enviadas por los miembros.
+
+- **Aplicación Móvil para Miembros**:
+  - Listado de Tareas: Facilidad para gestionar tareas asignadas.
+  - Visualización de Solicitudes y Validaciones: Visualizar el estado de las solicitudes enviadas.
+  - Desempeño del Miembro: Visualizar el reporte generado a partir del desempeño del miembro.
+
+##### Formato de Registro de la Entrevista
+**Landing Page**
+- ¿Qué fue lo primero que pensaste o sentiste al ver la landing page?
+- ¿Podrías describir con tus propias palabras qué ofrece esta plataforma?
+- ¿Te quedó claro el propósito de la plataforma con solo ver el título o el eslogan principal? ¿Qué mensaje te transmite?
+- ¿Qué botones o enlaces llamaron más tu atención? ¿Te quedó claro qué sucedería al hacer clic en ellos?
+- ¿Te pareció fácil moverte por la página? ¿Encontraste rápidamente la información que te interesaba?
+- ¿Hubo algo que no supiste dónde buscar o que no encontraste?
+- ¿Hay alguna sección que eliminarías o que no te aporta valor?
+- ¿Qué opinas del diseño general (colores, tipografía, imágenes, distribución)? ¿Te parece profesional y atractivo?
+- ¿Cuánto tiempo te tomó entender de qué trata la plataforma? ¿Te sentiste abrumado con la información o fue clara y concisa?
+- ¿Qué mejorarías en la landing page para que sea más clara, atractiva o útil para nuevos usuarios?
+
+**Segmento Líderes**
+- ¿Cómo fue tu experiencia al crear una cuenta e iniciar sesión como líder? ¿Qué tan claro te resultó este proceso?
+- ¿Pudiste crear un grupo sin complicaciones? ¿Hay algo en el proceso que te pareció confuso o innecesario?
+- ¿Cómo fue tu experiencia al revisar y aceptar solicitudes de miembros que querían unirse a tu grupo?
+- ¿La interfaz te facilita diferenciar entre solicitudes pendientes, aceptadas o rechazadas?
+- ¿Qué tan sencillo te resultó crear una tarea y asignarla a un miembro?
+- ¿Pudiste editar una tarea sin dificultad? ¿Hubo algo que te hubiera gustado hacer pero no encontraste cómo?
+- ¿Te fue fácil identificar qué solicitudes o validaciones requerían tu atención? ¿Cómo fue el flujo para gestionarlas?
+- ¿Cómo calificarías la experiencia de visualizar a los miembros de tu grupo? ¿Qué información te resultó útil o faltante?
+- ¿Entendiste fácilmente las métricas que se te presentaron sobre el desempeño del grupo y de los miembros?
+- ¿Qué tan clara te pareció la estructura de la app? ¿Pudiste moverte fácilmente entre las secciones de grupo, tareas, métricas, miembros, etc.?
+- ¿Crees que esta aplicación realmente te facilita liderar y coordinar a tu equipo? ¿Qué funciones destacarías como más útiles?
+
+**Segmento Miembros**
+- ¿Cómo fue tu experiencia al registrarte e iniciar sesión en la aplicación? ¿Hubo algo que te confunde o te tomará más tiempo de lo esperado?
+- ¿Lograste unirte a un grupo sin ayuda? ¿Qué tan claro te resultó el proceso y los pasos necesarios?
+- ¿Pudiste encontrar tus tareas fácilmente? ¿Cómo calificarías la claridad de la información mostrada en cada tarea?
+- ¿Entiendes el significado de los diferentes estados o etiquetas de las tareas (por hacer, en progreso, completado, etc.)? ¿Hay algo que cambiarías para mejorar la comprensión?
+- ¿Te fue claro cuando tenías una solicitud o validación pendiente? ¿Qué tan fácil fue gestionarlas?
+- ¿Cómo fue tu experiencia al ver tus métricas de desempeño? ¿La información que se presenta te resulta útil o motivadora?
+- ¿Qué tan fácil te pareció moverse entre secciones dentro de la app? ¿En algún momento te sentiste perdido?
+- ¿Consideras que los textos, iconos y botones son claros y comprensibles? ¿Cambiarías algo en el diseño para hacerlo más intuitivo?
+- ¿Crees que usarías esta aplicación regularmente como miembro de un grupo? ¿Qué aspectos te animan o desmotivan?
+
+#### 6.3.2. Registro de entrevistas
+
+#### 6.3.3. Evaluaciones según heurísticas
 
 ### 6.4.  Video About-the-Product.
 
