@@ -9650,8 +9650,9 @@ Validar la usabilidad y efectividad de la landing page y la aplicación para cad
   - Solicitudes y validaciones: Capacidad de gestionar y validar solicitudes respecto a tareas enviadas por los miembros.
 
 - **Aplicación Móvil para Miembros**:
+  - Unión y Visualización del Grupo: Facilidad para enviar solicitud e unirse a un grupo y ver sus integrantes.
   - Listado de Tareas: Facilidad para gestionar tareas asignadas.
-  - Visualización de Solicitudes y Validaciones: Visualizar el estado de las solicitudes enviadas.
+  - Visualización de Solicitudes: Visualizar el estado de las solicitudes enviadas.
   - Desempeño del Miembro: Visualizar el reporte generado a partir del desempeño del miembro.
 
 ##### Formato de Registro de la Entrevista
@@ -9692,6 +9693,52 @@ Validar la usabilidad y efectividad de la landing page y la aplicación para cad
 - ¿Crees que usarías esta aplicación regularmente como miembro de un grupo? ¿Qué aspectos te animan o desmotivan?
 
 #### 6.3.2. Registro de entrevistas
+
+A continuación se presentan los detalles clave de las entrevistas realizadas a los líderes.
+
+| **Entrevista 1: Coordinadores o Líderes de Grupo | |
+| - | - |
+| Nombre de Entrevistado | |
+| Edad | |
+| Profesión | |
+| Distrito | |
+| Duración de la Entrevista | |
+| **Análisis de la Entrevista** | |
+| Creación de Grupos | |
+| Gestión de Tareas | |
+| Generación de Reportes | |
+| Solicitudes y Validaciones | |
+| Navegación General | |
+
+A continuación se presentan los detalles clave de las entrevistas realizadas a los miembros.
+
+| **Entrevista 4: Miembros del Equipo o Grupo |                                      |
+|---------------------------------------------|--------------------------------------|
+| Nombre de Entrevistado                      | David Rivas                          |
+| Edad                                        | 21                                   |
+| Profesión                                   | Estudiante de Ingeniería de Software |
+| Distrito                                    | Jesus María                          |
+| Duración de la Entrevista                   | 13:57 |
+| **Análisis de la Entrevista**               |                                      |
+| Unión y Visualización del Grupo | El procedimiento para unirse a un grupo es sencillo y no requiere de demasiados pasos. Inicialmente mostró confusión con respecto al código del grupo en la visualización de detalles del grupo, y sugirió agregar un subtítulo que mencione que es el código del grupo. |
+| Listado de Tareas                           | Las tareas están bien organizadas y son fáciles de comprender, además de contener colores que permiten una fácil deducción del significado. |
+| Visualización de Solicitudes                | La pantalla está ordenada y tiene buen diseño, pero mostró confusión con respecto a la diferencia entre las tareas y las solicitudes en un inicio. |
+| Desempeño del Miembro                       | El desempeño del miembro es útil, y piensa que las variables son adecuadas, pero opina que podría haber algunas variables adicionales para considerar el reporte como completo. |
+| Navegación General                          | La navegación es clara y concisa, indica qué acción deseas realizar y a dónde se está navegando. La disponibilidad de "shortcuts" en la pantalla principal fue una buena idea. |
+
+| **Entrevista 4: Miembros del Equipo o Grupo |                 |
+|---------------------------------------------|-----------------|
+| Nombre de Entrevistado                      | Camila Palacios |
+| Edad                                        | 21              |
+| Profesión                                   | Estudiante de Psicología     |
+| Distrito                                    | Jesus María     |
+| Duración de la Entrevista                   |                 |
+| **Análisis de la Entrevista**               |                 |
+| Unión y Visualización del Grupo | El procedimiento de unión a un grupo no ha sido confuso, y lo ve muy seguro, especialmente sabiendo que puede saber cuándo le han aceptado la invitación o no. |
+| Listado de Tareas                           | Las tareas están detalladas y la manera en la que se presenta es muy agradable, pero no está convencida con los colores usados en la pantalla principal siendo igual al apartado de solicitudes. |
+| Visualización de Solicitudes                | El concepto de las solicitudes es muy buena, ya que los colores e íconos sirven como guía para comprender qué solicitud es. |
+| Desempeño del Miembro                       | Considera el desempeño como una parte importante del manejo de grupos, y los datos propuestos son adecuados para las métricas. |
+| Navegación General                          | La navegación es clara con respecto a los botones, no se perdió en ningún momento y los títulos presentados en cada pantalla la ponía en contexto de qué se trataba. |
 
 #### 6.3.3. Evaluaciones según heurísticas
 
