@@ -8112,6 +8112,758 @@ En esta sección se presentan los commits realizados en el repositorio de landin
     <th>Merge pull request #10 from NRG-4/feat/tasks</th>
     <th>Jun 4 2025</th>
   </tr>
+<tr>
+  <th>synhub-backend</th>
+  <th>develop</th>
+  <th>6ae5d87fb85da321d421a697e7025d8fd649a2b3</th>
+  <th>fix(controllers): remove unnecessary operation from request controller.</th>
+  <th>fix(controllers): remove unnecessary operation from request controller.</th>
+  <th>Jun 4 2025</th>
+</tr>
+<tr>
+  <th>synhub-backend</th>
+  <th>develop</th>
+  <th>c62aae780c6cff77f67070cf50229b8e97ddd353</th>
+  <th>fix(controllers): fix path variable type to match method's parameters.</th>
+  <th>fix(controllers): fix path variable type to match method's parameters.</th>
+  <th>Jun 4 2025</th>
+</tr>
+<tr>
+  <th>synhub-backend</th>
+  <th>develop</th>
+  <th>6006f406fb6cd2baf10ec1e80237890bd2e9d16f</th>
+  <th>fix(controllers): update request mapping value for request controller and fix operations to parse path variables properly.</th>
+  <th>fix(controllers): update request mapping value for request controller and fix operations to parse path variables properly.</th>
+  <th>Jun 4 2025</th>
+</tr>
+<tr>
+  <th>synhub-backend</th>
+  <th>develop</th>
+  <th>69db98b4ca47f35623ff2f644be08376dd00409b</th>
+  <th>feat(metrics): introduce TaskTimePassedResource for completed task time tracking</th>
+  <th>feat(metrics): introduce TaskTimePassedResource for completed task time tracking</th>
+  <th>Jun 5 2025</th>
+</tr>
+<tr>
+  <th>synhub-backend</th>
+  <th>develop</th>
+  <th>4d5ea0f22bbaa431692efcf106abdca09ddb1c9e</th>
+  <th>feat(metrics): add TaskOverviewResource for group task overview data</th>
+  <th>feat(metrics): add TaskOverviewResource for group task overview data</th>
+  <th>Jun 5 2025</th>
+</tr>
+<tr>
+  <th>synhub-backend</th>
+  <th>develop</th>
+  <th>314d179e092ad9760bb677621df173423d361b2e</th>
+  <th>feat(metrics): implement TaskMetricsService for task-related analytics</th>
+  <th>feat(metrics): implement TaskMetricsService for task-related analytics</th>
+  <th>Jun 5 2025</th>
+</tr>
+<tr>
+  <th>synhub-backend</th>
+  <th>develop</th>
+  <th>067229741526642ddc47ce076e14b0c7c191b847</th>
+  <th>feat(metrics): add TaskDistributionResource for task distribution per member</th>
+  <th>feat(metrics): add TaskDistributionResource for task distribution per member</th>
+  <th>Jun 5 2025</th>
+</tr>
+<tr>
+  <th>synhub-backend</th>
+  <th>develop</th>
+  <th>2eae7e35f7b0523e458e24015abf0ed54d46b26d</th>
+  <th>feat(metrics): create RescheduledTasksResource for rescheduled task stats</th>
+  <th>feat(metrics): create RescheduledTasksResource for rescheduled task stats</th>
+  <th>Jun 5 2025</th>
+</tr>
+<tr>
+  <th>synhub-backend</th>
+  <th>develop</th>
+  <th>a189318207717fd1667d513a16bb9ebcd56aff0d</th>
+  <th>feat(metrics): implement MetricsController with task and group metrics endpoints</th>
+  <th>feat(metrics): implement MetricsController with task and group metrics endpoints</th>
+  <th>Jun 5 2025</th>
+</tr>
+<tr>
+  <th>synhub-backend</th>
+  <th>develop</th>
+  <th>d7c3eb458de8c4348c601478967701eebdac97d4</th>
+  <th>feat(metrics): add AvgSolutionTimeResource for leader solution time analytics</th>
+  <th>feat(metrics): add AvgSolutionTimeResource for leader solution time analytics</th>
+  <th>Jun 5 2025</th>
+</tr>
+<tr>
+  <th>synhub-backend</th>
+  <th>develop</th>
+  <th>9d814208080b6b51f1e3283081bf58654cffcaf6</th>
+  <th>feat(metrics): introduce AvgDevTimeResource for member average dev time</th>
+  <th>feat(metrics): introduce AvgDevTimeResource for member average dev time</th>
+  <th>Jun 5 2025</th>
+</tr>
+<tr>
+  <th>synhub-backend</th>
+  <th>develop</th>
+  <th>c244dd7286940d8654c605e925749ef2cece7923</th>
+  <th>feat(metrics): add AvgDevelopmentTimeResource for average development time response</th>
+  <th>feat(metrics): add AvgDevelopmentTimeResource for average development time response</th>
+  <th>Jun 5 2025</th>
+</tr>
+<tr>
+  <th>synhub-backend</th>
+  <th>develop</th>
+  <th>096629a5fa060b4956f9a00e703c7a0931d5fd8b</th>
+  <th>feat(invitation): refactor invitation handling to use authenticated user details and improve group invitation logic.</th>
+  <th>feat(invitation): refactor invitation handling to use authenticated user details and improve group invitation logic.</th>
+  <th>Jun 6 2025</th>
+</tr>
+<tr>
+  <th>synhub-backend</th>
+  <th>develop</th>
+  <th>cd3b4cd65f5f8d1bb1ab0f56ea6f23f26155eda9</th>
+  <th>feat(leader): refactor group management endpoints to use authenticated leader's username</th>
+  <th>feat(leader): refactor group management endpoints to use authenticated leader's username</th>
+  <th>Jun 6 2025</th>
+</tr>
+<tr>
+  <th>synhub-backend</th>
+  <th>develop</th>
+  <th>73d500f0a114be23adb9dbb9c6d5a633589f3012</th>
+  <th>feat(member): add endpoints to retrieve group and tasks for authenticated member</th>
+  <th>feat(member): add endpoints to retrieve group and tasks for authenticated member</th>
+  <th>Jun 6 2025</th>
+</tr>
+<tr>
+  <th>synhub-backend</th>
+  <th>develop</th>
+  <th>50b531d7745076d613127f3aeeba3ef04d180fd3</th>
+  <th>feat(auth): refactor authentication handling to use @AuthenticationPrincipal for user details</th>
+  <th>feat(auth): refactor authentication handling to use @AuthenticationPrincipal for user details</th>
+  <th>Jun 6 2025</th>
+</tr>
+<tr>
+  <th>synhub-backend</th>
+  <th>develop</th>
+  <th>b8414ee8b7418cce2c86e6fb0b01e88d838fb909</th>
+  <th>feat(auth): added tasks fetching by authenticated member.</th>
+  <th>feat(auth): added tasks fetching by authenticated member.</th>
+  <th>Jun 6 2025</th>
+</tr>
+<tr>
+  <th>synhub-backend</th>
+  <th>develop</th>
+  <th>5b938fe1e061517324c96a98368f1524671f09ce</th>
+  <th>feat(auth): integrated token to the validation and data fetch of queries for members.</th>
+  <th>feat(auth): integrated token to the validation and data fetch of queries for members.</th>
+  <th>Jun 6 2025</th>
+</tr>
+<tr>
+  <th>synhub-backend</th>
+  <th>develop</th>
+  <th>c8e8e6223c7e94c1a48e8a41b621e02eb4a9cf2b</th>
+  <th>feat(auth): integrated token to the validation and data fetch of queries for leaders.</th>
+  <th>feat(auth): integrated token to the validation and data fetch of queries for leaders.</th>
+  <th>Jun 6 2025</th>
+</tr>
+<tr>
+  <th>synhub-backend</th>
+  <th>develop</th>
+  <th>b7537c70ab6903bb8b4294e5365a3c1aae27a294</th>
+  <th>feat(member): add endpoint to retrieve member details by ID and include ID in member resources</th>
+  <th>feat(member): add endpoint to retrieve member details by ID and include ID in member resources</th>
+  <th>Jun 7 2025</th>
+</tr>
+<tr>
+  <th>synhub-backend</th>
+  <th>develop</th>
+  <th>f770d920d0c52311b0fb4903b979e82b794faece</th>
+  <th>feat(group): enhance group member and task retrieval by authenticated leader.</th>
+  <th>feat(group): enhance group member and task retrieval by authenticated leader.</th>
+  <th>Jun 7 2025</th>
+</tr>
+<tr>
+  <th>synhub-backend</th>
+  <th>develop</th>
+  <th>32657d11b3952c74632c86b7df60aac3369ab953</th>
+  <th>feat(task): implement command to delete tasks by member ID and update task retrieval method</th>
+  <th>feat(task): implement command to delete tasks by member ID and update task retrieval method</th>
+  <th>Jun 9 2025</th>
+</tr>
+<tr>
+  <th>synhub-backend</th>
+  <th>develop</th>
+  <th>630369d4fd75ecbc63de11bf6a07fd7dd8405757</th>
+  <th>feat(task): implement command to delete tasks by member ID and update task retrieval method</th>
+  <th>feat(task): implement command to delete tasks by member ID and update task retrieval method</th>
+  <th>Jun 9 2025</th>
+</tr>
+<tr>
+  <th>synhub-backend</th>
+  <th>develop</th>
+  <th>d818612c25e2b016fcbbf62586ad5ea64c48f07c</th>
+  <th>fix(invitation): rename memberId to id in InvitationMemberResource and update imgUrl column length in User</th>
+  <th>fix(invitation): rename memberId to id in InvitationMemberResource and update imgUrl column length in User</th>
+  <th>Jun 9 2025</th>
+</tr>
+<tr>
+  <th>synhub-backend</th>
+  <th>develop</th>
+  <th>7bf16b2ee5d4f1b9af3e110ec5ed56cfd14025ba</th>
+  <th>feat(group): integrate ExternalTasksService for task deletion by member ID in LeaderGroupController</th>
+  <th>feat(group): integrate ExternalTasksService for task deletion by member ID in LeaderGroupController</th>
+  <th>Jun 9 2025</th>
+</tr>
+<tr>
+  <th>synhub-backend</th>
+  <th>develop</th>
+  <th>9442770e9d459c343a6d571d9e4ac3ff6572a6cd</th>
+  <th>feat(task): add ExternalTasksService to handle task deletion by member ID</th>
+  <th>feat(task): add ExternalTasksService to handle task deletion by member ID</th>
+  <th>Jun 9 2025</th>
+</tr>
+<tr>
+  <th>synhub-backend</th>
+  <th>develop</th>
+  <th>dd4cb426780e93913f1590e2e19dbff362cfaea0</th>
+  <th>Merge pull request #11 from NRG-4/feat/tasks</th>
+  <th>Merge pull request #11 from NRG-4/feat/tasks</th>
+  <th>Jun 10 2025</th>
+</tr>
+<tr>
+  <th>synhub-backend</th>
+  <th>develop</th>
+  <th>b91ba0d9179ae0bc15b3aedaec59560b9a3e3884</th>
+  <th>feat: implement TaskMetricsService for task-related analytics</th>
+  <th>feat(metrics): implement TaskMetricsService for task-related analytics</th>
+  <th>Jun 12 2025</th>
+</tr>
+<tr>
+  <th>synhub-backend</th>
+  <th>develop</th>
+  <th>409b65c1015b103a133360f0f8425de3a7de8b92</th>
+  <th>feat: implement TaskMetricsServiceImpl for task metrics logic</th>
+  <th>feat(metrics): implement TaskMetricsServiceImpl for task metrics logic</th>
+  <th>Jun 12 2025</th>
+</tr>
+<tr>
+  <th>synhub-backend</th>
+  <th>develop</th>
+  <th>3009bf6eac6c9188c2f5819202be07413efa984f</th>
+  <th>feat: add TaskOverviewResource for group task overview data</th>
+  <th>feat(metrics): add TaskOverviewResource for group task overview data</th>
+  <th>Jun 12 2025</th>
+</tr>
+<tr>
+  <th>synhub-backend</th>
+  <th>develop</th>
+  <th>4776a27ac9b1f06a1c6e2276b79a02355e15ad67</th>
+  <th>chore: remove obsolete GroupMetricsController and GroupQueryController files</th>
+  <th>chore(metrics): remove obsolete GroupMetricsController and GroupQueryController files</th>
+  <th>Jun 12 2025</th>
+</tr>
+<tr>
+  <th>synhub-backend</th>
+  <th>develop</th>
+  <th>efce02d866417269da46f5322392dacdea489b2f</th>
+  <th>feat: define GroupMetrics aggregate for group analytics domain</th>
+  <th>feat(metrics): define GroupMetrics aggregate for group analytics domain</th>
+  <th>Jun 12 2025</th>
+</tr>
+<tr>
+  <th>synhub-backend</th>
+  <th>develop</th>
+  <th>f9e60e6cb479afdaea1c922bd512344192f453a4</th>
+  <th>feat: add AvgSolutionTimeResource for leader solution time analytics</th>
+  <th>feat(metrics): add AvgSolutionTimeResource for leader solution time analytics</th>
+  <th>Jun 12 2025</th>
+</tr>
+<tr>
+  <th>synhub-backend</th>
+  <th>develop</th>
+  <th>6212a8735e2d991e3c9cffffc1a2753a9edd9b41</th>
+  <th>feat: introduce AvgDevTimeResource for member average dev time</th>
+  <th>feat(metrics): introduce AvgDevTimeResource for member average dev time</th>
+  <th>Jun 12 2025</th>
+</tr>
+<tr>
+  <th>synhub-backend</th>
+  <th>develop</th>
+  <th>d8016169667a55269d27f1f81fe0850ac0198030</th>
+  <th>feat: add AvgDevelopmentTimeResource for average development time response</th>
+  <th>feat(metrics): add AvgDevelopmentTimeResource for average development time response</th>
+  <th>Jun 12 2025</th>
+</tr>
+<tr>
+  <th>synhub-backend</th>
+  <th>develop</th>
+  <th>640a5eba6557570d69d59c224dec3b84771a836e</th>
+  <th>feat: add AvgCompletionTimeResource for average task completion analytics</th>
+  <th>feat(metrics): add AvgCompletionTimeResource for average task completion analytics</th>
+  <th>Jun 12 2025</th>
+</tr>
+<tr>
+  <th>synhub-backend</th>
+  <th>develop</th>
+  <th>45592d7f39af4d731ddb2ac0db095970d982a0b7</th>
+  <th>Merge remote-tracking branch 'origin/feat/report' into feat/report</th>
+  <th>Merge remote-tracking branch 'origin/feat/report' into feat/report</th>
+  <th>Jun 12 2025</th>
+</tr>
+<tr>
+  <th>synhub-backend</th>
+  <th>develop</th>
+  <th>0354db01e96657fa580cf5ec6dd1997461b107af</th>
+  <th>fix: add a missing path variable for the request creation operation.</th>
+  <th>fix(controllers): add a missing path variable for the request creation operation.</th>
+  <th>Jun 12 2025</th>
+</tr>
+<tr>
+  <th>synhub-backend</th>
+  <th>develop</th>
+  <th>1b1b473f76781b28710d28e8798d20bfa9e3f9c6</th>
+  <th>fix: change create request resource to adapt to path variable.</th>
+  <th>fix(resources): change create request resource to adapt to path variable.</th>
+  <th>Jun 12 2025</th>
+</tr>
+<tr>
+  <th>synhub-backend</th>
+  <th>develop</th>
+  <th>8a4e3c9fbc8357fb39b16e8d5d5159757d38f625</th>
+  <th>feat: introduce TaskTimePassedResource for completed task time tracking</th>
+  <th>feat(metrics): introduce TaskTimePassedResource for completed task time tracking</th>
+  <th>Jun 12 2025</th>
+</tr>
+<tr>
+  <th>synhub-backend</th>
+  <th>develop</th>
+  <th>a0816b6c3e6eb4939eee16b394803ca176865bab</th>
+  <th>feat: add TaskOverviewResource for group task overview data</th>
+  <th>feat(metrics): add TaskOverviewResource for group task overview data</th>
+  <th>Jun 12 2025</th>
+</tr>
+<tr>
+  <th>synhub-backend</th>
+  <th>develop</th>
+  <th>74f1ba89a4a87b1f37a38a48ca9aedf3293ac440</th>
+  <th>feat: implement TaskMetricsService for task-related analytics</th>
+  <th>feat(metrics): implement TaskMetricsService for task-related analytics</th>
+  <th>Jun 12 2025</th>
+</tr>
+<tr>
+  <th>synhub-backend</th>
+  <th>develop</th>
+  <th>c2bc286796d376ebfe15da528fc279e5cd694246</th>
+  <th>feat: add TaskDistributionResource for task distribution per member</th>
+  <th>feat(metrics): add TaskDistributionResource for task distribution per member</th>
+  <th>Jun 12 2025</th>
+</tr>
+<tr>
+  <th>synhub-backend</th>
+  <th>develop</th>
+  <th>5d992ed2e857089d73bea3a6e995c610d1bf632d</th>
+  <th>feat: create RescheduledTasksResource for rescheduled task stats</th>
+  <th>feat(metrics): create RescheduledTasksResource for rescheduled task stats</th>
+  <th>Jun 12 2025</th>
+</tr>
+<tr>
+  <th>synhub-backend</th>
+  <th>develop</th>
+  <th>4b19babd2521fdc5503929b6ae8dee97bd3ff5b7</th>
+  <th>feat: implement MetricsController with task and group metrics endpoints</th>
+  <th>feat(metrics): implement MetricsController with task and group metrics endpoints</th>
+  <th>Jun 12 2025</th>
+</tr>
+<tr>
+  <th>synhub-backend</th>
+  <th>develop</th>
+  <th>d05bd0b6179ab03ddb97e13bea970949371c2ea4</th>
+  <th>feat: add AvgSolutionTimeResource for leader solution time analytics</th>
+  <th>feat(metrics): add AvgSolutionTimeResource for leader solution time analytics</th>
+  <th>Jun 12 2025</th>
+</tr>
+<tr>
+  <th>synhub-backend</th>
+  <th>develop</th>
+  <th>4fc9cf2e7ead68916ff81235c2cdca9d54c63a50</th>
+  <th>feat: introduce AvgDevTimeResource for member average dev time</th>
+  <th>feat(metrics): introduce AvgDevTimeResource for member average dev time</th>
+  <th>Jun 12 2025</th>
+</tr>
+<tr>
+  <th>synhub-backend</th>
+  <th>develop</th>
+  <th>00069c8c189959377d5e0e2869bc16d33ceb48a6</th>
+  <th>feat: add AvgDevelopmentTimeResource for average development time response</th>
+  <th>feat(metrics): add AvgDevelopmentTimeResource for average development time response</th>
+  <th>Jun 12 2025</th>
+</tr>
+<tr>
+  <th>synhub-backend</th>
+  <th>develop</th>
+  <th>a391b38618c782382526904334a75682316da770</th>
+  <th>feat: add MetricsController for analytics and group metrics endpoints</th>
+  <th>feat(metrics): add MetricsController for analytics and group metrics endpoints</th>
+  <th>Jun 12 2025</th>
+</tr>
+<tr>
+  <th>synhub-backend</th>
+  <th>develop</th>
+  <th>7f8e223478949c2b9429259121834690c39e3e3d</th>
+  <th>feat: add GroupsClient for external group service communication</th>
+  <th>feat(groups): add GroupsClient for external group service communication</th>
+  <th>Jun 12 2025</th>
+</tr>
+<tr>
+  <th>synhub-backend</th>
+  <th>develop</th>
+  <th>65d629f24f171b0079bfcdfecf520275484d3526</th>
+  <th>feat: implement GroupQueryServiceImpl for group queries</th>
+  <th>feat(groups): implement GroupQueryServiceImpl for group queries</th>
+  <th>Jun 12 2025</th>
+</tr>
+<tr>
+  <th>synhub-backend</th>
+  <th>develop</th>
+  <th>2c1bd28b90558732820308c3b84db657f4175e9d</th>
+  <th>feat: define GroupQueryService interface</th>
+  <th>feat(groups): define GroupQueryService interface</th>
+  <th>Jun 12 2025</th>
+</tr>
+<tr>
+  <th>synhub-backend</th>
+  <th>develop</th>
+  <th>1c24f775dacd6a5da899681dffb6565a1500a618</th>
+  <th>feat: add GroupQueryController for group query endpoints</th>
+  <th>feat(groups): add GroupQueryController for group query endpoints</th>
+  <th>Jun 12 2025</th>
+</tr>
+<tr>
+  <th>synhub-backend</th>
+  <th>develop</th>
+  <th>c7e1337a2ccad98c6d77bb0c5c3b48537a456db3</th>
+  <th>feat: implement GroupMetricsService for business logic</th>
+  <th>feat(metrics): implement GroupMetricsService for business logic</th>
+  <th>Jun 12 2025</th>
+</tr>
+<tr>
+  <th>synhub-backend</th>
+  <th>develop</th>
+  <th>366a08ce4a59abecc2c0d164b0ab947c76c044c5</th>
+  <th>feat: create GroupMetricsRepository interface for persistence</th>
+  <th>feat(metrics): create GroupMetricsRepository interface for persistence</th>
+  <th>Jun 12 2025</th>
+</tr>
+<tr>
+  <th>synhub-backend</th>
+  <th>develop</th>
+  <th>5e43662441f05c009a28ace6e1d68b1ee50727fc</th>
+  <th>feat: add GroupMetricsController for group metrics endpoints</th>
+  <th>feat(metrics): add GroupMetricsController for group metrics endpoints</th>
+  <th>Jun 12 2025</th>
+</tr>
+<tr>
+  <th>synhub-backend</th>
+  <th>develop</th>
+  <th>5a70ad4542dc5af8d51837962f7a1c41c6fbed6e</th>
+  <th>feat: introduce GroupMetrics domain model</th>
+  <th>feat(metrics): introduce GroupMetrics domain model</th>
+  <th>Jun 12 2025</th>
+</tr>
+<tr>
+  <th>synhub-backend</th>
+  <th>develop</th>
+  <th>fbc08870e94eb6d082040f25b3154a9727e2a1ee</th>
+  <th>feat: add GetGroupByIdQuery record for group queries</th>
+  <th>feat(groups): add GetGroupByIdQuery record for group queries</th>
+  <th>Jun 12 2025</th>
+</tr>
+<tr>
+  <th>synhub-backend</th>
+  <th>develop</th>
+  <th>ce6732e09457e334b9f129c0adc7b9f96bee3705</th>
+  <th>Merge pull request #12 from NRG-4/feat/request</th>
+  <th>Merge pull request #12 from NRG-4/feat/request</th>
+  <th>Jun 12 2025</th>
+</tr>
+<tr>
+  <th>synhub-backend</th>
+  <th>develop</th>
+  <th>a7f2f3d595d23fcb465657540b010c025d615699</th>
+  <th>feat: rename TaskMetricsService to TaskMetricsQueryService and update method signatures</th>
+  <th>feat(metrics): rename TaskMetricsService to TaskMetricsQueryService and update method signatures</th>
+  <th>Jun 12 2025</th>
+</tr>
+<tr>
+  <th>synhub-backend</th>
+  <th>develop</th>
+  <th>fb4cc4c5e0c7ce3387f62583258ea3fb753a24b6</th>
+  <th>chore: remove obsolete GroupMetricsService and GroupMetricsServiceImpl</th>
+  <th>chore(metrics): remove obsolete GroupMetricsService and GroupMetricsServiceImpl</th>
+  <th>Jun 12 2025</th>
+</tr>
+<tr>
+  <th>synhub-backend</th>
+  <th>develop</th>
+  <th>3f68851dc36179d5f46133031dd24a9b868ea5b8</th>
+  <th>feat: update variable in MetricsController, TaskMetricsService, TaskMetricsServiceImpl, and TaskTimePassedResource</th>
+  <th>feat(metrics): update variable in MetricsController, TaskMetricsService, TaskMetricsServiceImpl, and TaskTimePassedResource</th>
+  <th>Jun 12 2025</th>
+</tr>
+<tr>
+  <th>synhub-backend</th>
+  <th>develop</th>
+  <th>ed86072ae8a006474c111d66102921e8f2424f6b</th>
+  <th>feat: create GetTaskTimePassedQuery for member task duration</th>
+  <th>feat(metrics): create GetTaskTimePassedQuery for member task duration</th>
+  <th>Jun 12 2025</th>
+</tr>
+<tr>
+  <th>synhub-backend</th>
+  <th>develop</th>
+  <th>48399fe6f5d239de53aaa2f91c2e0610a8fc27a4</th>
+  <th>feat: add GetTaskOverviewQuery for group task overview</th>
+  <th>feat(metrics): add GetTaskOverviewQuery for group task overview</th>
+  <th>Jun 12 2025</th>
+</tr>
+<tr>
+  <th>synhub-backend</th>
+  <th>develop</th>
+  <th>455462975082d68614948ade430f82924738d0ba</th>
+  <th>feat: introduce GetTaskDistributionQuery for task assignment stats</th>
+  <th>feat(metrics): introduce GetTaskDistributionQuery for task assignment stats</th>
+  <th>Jun 12 2025</th>
+</tr>
+<tr>
+  <th>synhub-backend</th>
+  <th>develop</th>
+  <th>0027bf223505028293671a879a6b4be1fdd2e5f6</th>
+  <th>feat: implement GetRescheduledTasksQuery for rescheduled tasks metric</th>
+  <th>feat(metrics): implement GetRescheduledTasksQuery for rescheduled tasks metric</th>
+  <th>Jun 12 2025</th>
+</tr>
+<tr>
+  <th>synhub-backend</th>
+  <th>develop</th>
+  <th>d2b641650ce55ebd12555b5eee5960fd617df2ff</th>
+  <th>feat: add GetAvgCompletionTimeQuery for average task completion time</th>
+  <th>feat(metrics): add GetAvgCompletionTimeQuery for average task completion time</th>
+  <th>Jun 12 2025</th>
+</tr>
+<tr>
+  <th>synhub-backend</th>
+  <th>develop</th>
+  <th>b2b43d5d0f324bbfc7d1ab02f75af7cb35263007</th>
+  <th>chore: remove unused resources</th>
+  <th>chore(metrics): remove unused resources</th>
+  <th>Jun 12 2025</th>
+</tr>
+<tr>
+  <th>synhub-backend</th>
+  <th>develop</th>
+  <th>817cd0b33fff8780991d3d34cb93f16379087107</th>
+  <th>refactor: minor naming improvements</th>
+  <th>refactor(metrics): minor naming improvements</th>
+  <th>Jun 12 2025</th>
+</tr>
+<tr>
+  <th>synhub-backend</th>
+  <th>develop</th>
+  <th>e9c36d0601ba336af1556c58e9be83ad69b1a217</th>
+  <th>feat: update TaskMetricsServiceImpl for task metrics logic</th>
+  <th>feat(metrics): update TaskMetricsServiceImpl for task metrics logic</th>
+  <th>Jun 12 2025</th>
+</tr>
+<tr>
+  <th>synhub-backend</th>
+  <th>develop</th>
+  <th>b928262a6bca4dd438800fa92da58ebd5c8e4126</th>
+  <th>feat: update TaskMetricsService interface for task analytics</th>
+  <th>feat(metrics): update TaskMetricsService interface for task analytics</th>
+  <th>Jun 12 2025</th>
+</tr>
+<tr>
+  <th>synhub-backend</th>
+  <th>develop</th>
+  <th>7a392c9647a6b8d7f689a554b38e183d9c2535a9</th>
+  <th>feat: update MetricsController for exposing metrics endpoints</th>
+  <th>feat(metrics): update MetricsController for exposing metrics endpoints</th>
+  <th>Jun 12 2025</th>
+</tr>
+<tr>
+  <th>synhub-backend</th>
+  <th>develop</th>
+  <th>aade996eb8a3bd17913c5195351cf095c05da3f8</th>
+  <th>feat: add MemberTaskInfo record for task-member mapping</th>
+  <th>feat(metrics): add MemberTaskInfo record for task-member mapping</th>
+  <th>Jun 12 2025</th>
+</tr>
+<tr>
+  <th>synhub-backend</th>
+  <th>develop</th>
+  <th>6c57eac32ae689f8ab817af65ed6ca57a9e9f8f0</th>
+  <th>chore: remove unused AvgDevTimeResource and TaskMemberInfo records</th>
+  <th>chore(metrics): remove unused AvgDevTimeResource and TaskMemberInfo records</th>
+  <th>Jun 12 2025</th>
+</tr>
+<tr>
+  <th>synhub-backend</th>
+  <th>develop</th>
+  <th>72da82a1d7c31422f00cde7f37c9d5752a805d35</th>
+  <th>refactor: convert resource classes to records for concise data representation</th>
+  <th>refactor(metrics): convert resource classes to records for concise data representation</th>
+  <th>Jun 12 2025</th>
+</tr>
+<tr>
+  <th>synhub-backend</th>
+  <th>develop</th>
+  <th>59ef40b2c07e482331acd3efec85fa7720a11a74</th>
+  <th>feat: create GroupMetricsRepository for group metrics persistence</th>
+  <th>feat(metrics): create GroupMetricsRepository for group metrics persistence</th>
+  <th>Jun 12 2025</th>
+</tr>
+<tr>
+  <th>synhub-backend</th>
+  <th>develop</th>
+  <th>785515a1d77cad4bbc236083300fed8efbb9b997</th>
+  <th>feat: define GroupMetricsService interface for group analytics</th>
+  <th>feat(metrics): define GroupMetricsService interface for group analytics</th>
+  <th>Jun 12 2025</th>
+</tr>
+<tr>
+  <th>synhub-backend</th>
+  <th>develop</th>
+  <th>33cae5c86ed2723193e39be6a56c4b58c71be39d</th>
+  <th>feat: implement GroupMetricsServiceImpl for group metrics logic</th>
+  <th>feat(metrics): implement GroupMetricsServiceImpl for group metrics logic</th>
+  <th>Jun 12 2025</th>
+</tr>
+<tr>
+  <th>synhub-backend</th>
+  <th>develop</th>
+  <th>9447b1a0b8c2517b5220c77d6b21773fad4d7911</th>
+  <th>feat: implement GroupsClient for external group service integration</th>
+  <th>feat(groups): implement GroupsClient for external group service integration</th>
+  <th>Jun 12 2025</th>
+</tr>
+<tr>
+  <th>synhub-backend</th>
+  <th>develop</th>
+  <th>1e768e23daf581c7d35aa0d4d62266327658d6bc</th>
+  <th>feat: implement MetricsController with task and group metrics endpoints</th>
+  <th>feat(metrics): implement MetricsController with task and group metrics endpoints</th>
+  <th>Jun 12 2025</th>
+</tr>
+<tr>
+  <th>synhub-backend</th>
+  <th>develop</th>
+  <th>74e6c71b280670d511e9cc71c7b2d49e0991a91e</th>
+  <th>feat: create RescheduledTasksResource for rescheduled task stats</th>
+  <th>feat(metrics): create RescheduledTasksResource for rescheduled task stats</th>
+  <th>Jun 12 2025</th>
+</tr>
+<tr>
+  <th>synhub-backend</th>
+  <th>develop</th>
+  <th>32a8cc377e0a6d10bfb54ac8bb3c11e41073f784</th>
+  <th>feat: add TaskDistributionResource for task distribution per member</th>
+  <th>feat(metrics): add TaskDistributionResource for task distribution per member</th>
+  <th>Jun 12 2025</th>
+</tr>
+<tr>
+  <th>synhub-backend</th>
+  <th>develop</th>
+  <th>576744922cffa3b86b55ee8aa6e810f3c7e44852</th>
+  <th>feat: introduce TaskMemberInfo record for task-member mapping</th>
+  <th>feat(metrics): introduce TaskMemberInfo record for task-member mapping</th>
+  <th>Jun 12 2025</th>
+</tr>
+<tr>
+  <th>synhub-backend</th>
+  <th>develop</th>
+  <th>7cb93373212a5e0ea1dbf2f005c78304a5630c2f</th>
+  <th>feat: add delete request by task id operation to the controller</th>
+  <th>feat(controllers): add delete request by task id operation to the controller.</th>
+  <th>Jun 13 2025</th>
+</tr>
+<tr>
+  <th>synhub-backend</th>
+  <th>develop</th>
+  <th>1197ad1d391ddc1ffcaa3fec6b73debc48eb3b78</th>
+  <th>feat: add delete request command operation handling</th>
+  <th>feat(services): add delete request command operation handling.</th>
+  <th>Jun 13 2025</th>
+</tr>
+<tr>
+  <th>synhub-backend</th>
+  <th>develop</th>
+  <th>93fd8e7e2c2ac932bba93fe576b3d560226e04c1</th>
+  <th>feat: add group request controller</th>
+  <th>feat(controllers): add group request controller.</th>
+  <th>Jun 13 2025</th>
+</tr>
+<tr>
+  <th>synhub-backend</th>
+  <th>develop</th>
+  <th>5f7a4b47db98cab78239cc87efc20460dbbe63d5</th>
+  <th>feat: add delete request command</th>
+  <th>feat(commands): add delete request command.</th>
+  <th>Jun 13 2025</th>
+</tr>
+<tr>
+  <th>synhub-backend</th>
+  <th>develop</th>
+  <th>3588bc82258ca13d6527f77ec9d685490de2cccf</th>
+  <th>feat: add rescheduledMemberIds to RescheduledTasksResource and update related methods</th>
+  <th>feat(metrics): add rescheduledMemberIds to RescheduledTasksResource and update related methods</th>
+  <th>Jun 13 2025</th>
+</tr>
+<tr>
+  <th>synhub-backend</th>
+  <th>develop</th>
+  <th>9397892d120468cc45988876b4d4574bb942ca28</th>
+  <th>feat: extract group ID retrieval logic into separate method in MetricsController</th>
+  <th>feat(metrics): refactor MetricsController to extract group ID retrieval logic into a separate method</th>
+  <th>Jun 13 2025</th>
+</tr>
+<tr>
+  <th>synhub-backend</th>
+  <th>develop</th>
+  <th>46b828bf7479e8616bc27da4df38949753b5d235</th>
+  <th>feat: calculate average time passed for member tasks in TaskMetricsQueryServiceImpl</th>
+  <th>feat(metrics): update TaskMetricsQueryServiceImpl to calculate average time passed for member tasks</th>
+  <th>Jun 13 2025</th>
+</tr>
+<tr>
+  <th>synhub-backend</th>
+  <th>develop</th>
+  <th>f625d637351f2fc2211f3189d578eb7994c31605</th>
+  <th>feat: refactor MetricsController to use TaskMetricsQueryService and streamline response</th>
+  <th>feat(metrics): refactor MetricsController to use TaskMetricsQueryService and streamline response handling</th>
+  <th>Jun 13 2025</th>
+</tr>
+<tr>
+  <th>synhub-backend</th>
+  <th>develop</th>
+  <th>0c3a0fa4ac817c81ef753665bd835e5c5333303e</th>
+  <th>feat: add endpoint to retrieve invitation by member</th>
+  <th>feat(invitation): add endpoint to retrieve invitation by member</th>
+  <th>Jun 14 2025</th>
+</tr>
+<tr>
+  <th>synhub-backend</th>
+  <th>develop</th>
+  <th>7a2238f9bbcfa82fce49b5f4292689b9d3145271</th>
+  <th>merge: integrate feature report branch into develop</th>
+  <th>Merge pull request #14 from NRG-4/feat/report</th>
+  <th>Jun 16 2025</th>
+</tr>
+<tr>
+  <th>synhub-backend</th>
+  <th>develop</th>
+  <th>c4bcea49b2564645bdb0d8bdfd83b862bf7d00c1</th>
+  <th>merge: integrate fix for request endpoint into develop</th>
+  <th>Merge pull request #13 from NRG-4/fix/request</th>
+  <th>Jun 16 2025</th>
+</tr>
 </table>
 
 #### 6.2.2.4. Testing Suite Evidence for Sprint Review.
