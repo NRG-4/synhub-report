@@ -9599,6 +9599,35 @@ Durante el desarrollo, se podrá generar un *build personal* de la aplicación e
 
 #### 6.2.2.8. Team Collaboration Insights during Sprint.
 
+Para este sprint se desarrollaron 2 productos siendo estos: web application y web services. Para la landing page hubo un solo encargado debido a q ya se encontraba en la etapa final de su desarrollo. Para lode más productos todo los integrantes participaron. La distribución de commit fue la siguiente:
+
+**Frontend**
+
+<img src="images/chapter-6/teamCollaborationInsightsDuringSprintFrontend1.png">
+<img src="images/chapter-6/teamCollaborationInsightsDuringSprintFrontend2.png">
+
+**Distribucion de commits:**
+
+* Alejo Cardenas Jose Antonio (Firtness): 17 commits
+* Astonitas Díaz Juan Diego (NeoRise456): 11 commits
+* Casas Sanchez Gabriel Alexander (Al3xiel): 24 commits
+* Pacheco Astiguetta Sebastian (Pachieeee): 39 commits
+* Pasquale Barrenechea Gianluca Santino (cwassointt): 41 commits
+
+**Backend**
+
+
+<img src="images/chapter-6/teamCollaborationInsightsDuringSprintBackend1.png">
+<img src="images/chapter-6/teamCollaborationInsightsDuringSprintBackend2.png">
+
+**Distribucion de commits:**
+
+* Alejo Cardenas Jose Antonio (Firtness): 23 commits
+* Astonitas Díaz Juan Diego (NeoRise456): 39 commits
+* Casas Sanchez Gabriel Alexander (Al3xiel): 78 commits
+* Pacheco Astiguetta Sebastian (Pachieeee): 51 commits
+* Pasquale Barrenechea Gianluca Santino (cwassointt): 74 commits
+
 ### 6.3.  Validation Interviews.
 
 #### 6.3.1. Diseño de Entrevistas.
