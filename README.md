@@ -7123,6 +7123,478 @@ En esta sección se presentan los commits realizados en el repositorio de landin
     <th>Merge pull request #11 from NRG-4/feat/retrofit</th>
     <th>Jun 9 2025</th>
   </tr>
+<tr>
+  <th>synhub-mobile-app</th>
+  <th>develop</th>
+  <th>ebc3da31daa16c734f02df080d86df1e266a0809</th>
+  <th>feat(analytics): refactor new files to match project structure.</th>
+  <th>feat(analytics): refactor new files to match project structure.</th>
+  <th>Jun 11 2025</th>
+</tr>
+<tr>
+  <th>synhub-mobile-app</th>
+  <th>develop</th>
+  <th>2feeb4200d83b901dbe941c271f749d65c69928a</th>
+  <th>feat(analytics): refactor new files to match project structure.</th>
+  <th>feat(analytics): refactor new files to match project structure.</th>
+  <th>Jun 11 2025</th>
+</tr>
+<tr>
+  <th>synhub-mobile-app</th>
+  <th>develop</th>
+  <th>b3c35892ec0e7c01ae241a2a943ce0594d4c3e58</th>
+  <th>feat(analytics): refactor files to match project structure.</th>
+  <th>feat(analytics): refactor files to match project structure.</th>
+  <th>Jun 11 2025</th>
+</tr>
+<tr>
+  <th>synhub-mobile-app</th>
+  <th>develop</th>
+  <th>dc5efb0204bda5fa52b50b82760fcc7695d96326</th>
+  <th>feat(analytics): create AnalyticsWebService for network operations in AnalyticsWebService.kt</th>
+  <th>feat(analytics): create AnalyticsWebService for network operations in AnalyticsWebService.kt</th>
+  <th>Jun 11 2025</th>
+</tr>
+<tr>
+  <th>synhub-mobile-app</th>
+  <th>develop</th>
+  <th>2440ad4e21f6e11359d447c3e598c80599fc2be0</th>
+  <th>feat(analytics): add AnalyticsResponse API interface in AnalyticsResponse.kt</th>
+  <th>feat(analytics): add AnalyticsResponse API interface in AnalyticsResponse.kt</th>
+  <th>Jun 11 2025</th>
+</tr>
+<tr>
+  <th>synhub-mobile-app</th>
+  <th>develop</th>
+  <th>17f0b150417d81d8f854f8d4529a1b2712db9cef</th>
+  <th>feat(analytics): implement Analytics&Reports screen logic in Analytics&Reports.kt</th>
+  <th>feat(analytics): implement Analytics&Reports screen logic in Analytics&Reports.kt</th>
+  <th>Jun 11 2025</th>
+</tr>
+<tr>
+  <th>synhub-mobile-app</th>
+  <th>develop</th>
+  <th>0fcaa2351bcfec8530ba168c35e641f3d3e9120d</th>
+  <th>feat(analytics): define analytics data models in AnalyticsModels.kt</th>
+  <th>feat(analytics): define analytics data models in AnalyticsModels.kt</th>
+  <th>Jun 11 2025</th>
+</tr>
+<tr>
+  <th>synhub-mobile-app</th>
+  <th>develop</th>
+  <th>3596affd8e42e37b57069a81cc0eb99841614f47</th>
+  <th>feat(analytics): add AnalyticsApi interface in AnalyticsApi.kt</th>
+  <th>feat(analytics): add AnalyticsApi interface in AnalyticsApi.kt</th>
+  <th>Jun 11 2025</th>
+</tr>
+<tr>
+  <th>synhub-mobile-app</th>
+  <th>develop</th>
+  <th>53da399790dc0e92939889d382e12f51e0f729ba</th>
+  <th>feat(analytics): obsolete AnalyticsDetail.kt with new changes</th>
+  <th>feat(analytics): obsolete AnalyticsDetail.kt with new changes</th>
+  <th>Jun 12 2025</th>
+</tr>
+<tr>
+  <th>synhub-mobile-app</th>
+  <th>develop</th>
+  <th>828bfacff7fb786fc6d1794c8930410f913784dc</th>
+  <th>feat(analytics): implement new core functions in Analytics.kt</th>
+  <th>feat(analytics): implement new core functions in Analytics.kt</th>
+  <th>Jun 12 2025</th>
+</tr>
+<tr>
+  <th>synhub-mobile-app</th>
+  <th>develop</th>
+  <th>6982479d5cac942b9a05aa21503e9c3b284f3e49</th>
+  <th>Merge remote-tracking branch 'origin/feat/analytics' into feat/analytics</th>
+  <th>Merge remote-tracking branch 'origin/feat/analytics' into feat/analytics</th>
+  <th>Jun 12 2025</th>
+</tr>
+<tr>
+  <th>synhub-mobile-app</th>
+  <th>develop</th>
+  <th>6c51ea9298b2e0fd69c0189c837bd588ff7349f2</th>
+  <th>feat(analytics): add function to obtain user token.</th>
+  <th>feat(analytics): add function to obtain user token.</th>
+  <th>Jun 12 2025</th>
+</tr>
+<tr>
+  <th>synhub-mobile-app</th>
+  <th>develop</th>
+  <th>21baffd8e170c7d3d2459b18e5cc2611bba55fab</th>
+  <th>feat(analytics): refactor new files to match project structure.</th>
+  <th>feat(analytics): refactor new files to match project structure.</th>
+  <th>Jun 12 2025</th>
+</tr>
+<tr>
+  <th>synhub-mobile-app</th>
+  <th>develop</th>
+  <th>586b8bbd4b8f8f62a0bbb005a5081694dab84170</th>
+  <th>feat(analytics): refactor new files to match project structure.</th>
+  <th>feat(analytics): refactor new files to match project structure.</th>
+  <th>Jun 12 2025</th>
+</tr>
+<tr>
+  <th>synhub-mobile-app</th>
+  <th>develop</th>
+  <th>80a38ebfd590e82bc8c1ce9f0870382d3f214f0e</th>
+  <th>feat(analytics): refactor files to match project structure.</th>
+  <th>feat(analytics): refactor files to match project structure.</th>
+  <th>Jun 12 2025</th>
+</tr>
+<tr>
+  <th>synhub-mobile-app</th>
+  <th>develop</th>
+  <th>6eb8c7d5b13de16a2597e9f68a6418891509d7ab</th>
+  <th>feat(analytics): create AnalyticsWebService for network operations in AnalyticsWebService.kt</th>
+  <th>feat(analytics): create AnalyticsWebService for network operations in AnalyticsWebService.kt</th>
+  <th>Jun 12 2025</th>
+</tr>
+<tr>
+  <th>synhub-mobile-app</th>
+  <th>develop</th>
+  <th>3ac7352694183e48cf1b4c36974ec4eed2cb506a</th>
+  <th>feat(analytics): add AnalyticsResponse API interface in AnalyticsResponse.kt</th>
+  <th>feat(analytics): add AnalyticsResponse API interface in AnalyticsResponse.kt</th>
+  <th>Jun 12 2025</th>
+</tr>
+<tr>
+  <th>synhub-mobile-app</th>
+  <th>develop</th>
+  <th>52003fc3fa0ee62406983a541856b883992b000d</th>
+  <th>feat(analytics): implement Analytics&Reports screen logic in Analytics&Reports.kt</th>
+  <th>feat(analytics): implement Analytics&Reports screen logic in Analytics&Reports.kt</th>
+  <th>Jun 12 2025</th>
+</tr>
+<tr>
+  <th>synhub-mobile-app</th>
+  <th>develop</th>
+  <th>516743a88c4174f6a5c7ed6713944cd2437526a4</th>
+  <th>feat(analytics): define analytics data models in AnalyticsModels.kt</th>
+  <th>feat(analytics): define analytics data models in AnalyticsModels.kt</th>
+  <th>Jun 12 2025</th>
+</tr>
+<tr>
+  <th>synhub-mobile-app</th>
+  <th>develop</th>
+  <th>581be8e97346a6d2b18b789bc310beb323882bc8</th>
+  <th>feat(analytics): add AnalyticsApi interface in AnalyticsApi.kt</th>
+  <th>feat(analytics): add AnalyticsApi interface in AnalyticsApi.kt</th>
+  <th>Jun 12 2025</th>
+</tr>
+<tr>
+  <th>synhub-mobile-app</th>
+  <th>develop</th>
+  <th>86788aab5d3ebc4ec378ffa691d4719520924d30</th>
+  <th>chore(manifest): update permissions and activities</th>
+  <th>chore(manifest): update permissions and activities</th>
+  <th>Jun 12 2025</th>
+</tr>
+<tr>
+  <th>synhub-mobile-app</th>
+  <th>develop</th>
+  <th>9516a3ade928b728a0cec855dc704934bbef9ab5</th>
+  <th>chore(analytics): remove MockAnalyticsData.kt mock data file</th>
+  <th>chore(analytics): remove MockAnalyticsData.kt mock data file</th>
+  <th>Jun 12 2025</th>
+</tr>
+<tr>
+  <th>synhub-mobile-app</th>
+  <th>develop</th>
+  <th>f53b3ace9aeeb42fd58ca8b5d26a4058fa6fdd43</th>
+  <th>feat(analytics): add Analytics&Reports screen logic in</th>
+  <th>feat(analytics): add Analytics&Reports screen logic in</th>
+  <th>Jun 12 2025</th>
+</tr>
+<tr>
+  <th>synhub-mobile-app</th>
+  <th>develop</th>
+  <th>7d67e3bab8c4d93e6792998298f4c17d2049dc8b</th>
+  <th>feat(analytics): add function to obtain user token.</th>
+  <th>feat(analytics): add function to obtain user token.</th>
+  <th>Jun 12 2025</th>
+</tr>
+<tr>
+  <th>synhub-mobile-app</th>
+  <th>develop</th>
+  <th>26edc993f0067f9cd549a165e35826de9bc58358</th>
+  <th>feat(tasks): increase max height for member, task, and invitation lists in Home.kt</th>
+  <th>feat(tasks): increase max height for member, task, and invitation lists in Home.kt</th>
+  <th>Jun 12 2025</th>
+</tr>
+<tr>
+  <th>synhub-mobile-app</th>
+  <th>develop</th>
+  <th>c2725e9635281921ba76446d2f7e48e69a38a153</th>
+  <th>refactor(analytics): update AnalyticsWebService with new endpoints or method signatures</th>
+  <th>refactor(analytics): update AnalyticsWebService with new endpoints or method signatures</th>
+  <th>Jun 12 2025</th>
+</tr>
+<tr>
+  <th>synhub-mobile-app</th>
+  <th>develop</th>
+  <th>736ab02877c1f5b21cb421f9b9b22526bb3fb075</th>
+  <th>feat(analytics): implement or enhance AnalyticsViewModel for analytics state management</th>
+  <th>feat(analytics): implement or enhance AnalyticsViewModel for analytics state management</th>
+  <th>Jun 12 2025</th>
+</tr>
+<tr>
+  <th>synhub-mobile-app</th>
+  <th>develop</th>
+  <th>2725a15d48a3cce4e65b9093fd9b3b1ac3f10110</th>
+  <th>feat(analytics): add or update AnalyticsResponse DTO in AnalyticsResponse.kt</th>
+  <th>feat(analytics): add or update AnalyticsResponse DTO in AnalyticsResponse.kt</th>
+  <th>Jun 12 2025</th>
+</tr>
+<tr>
+  <th>synhub-mobile-app</th>
+  <th>develop</th>
+  <th>03ba854110d98f50cff938589a39e89a7d01fc65</th>
+  <th>feat(analytics): update Analytics.kt with new UI logic and API integration</th>
+  <th>feat(analytics): update Analytics.kt with new UI logic and API integration</th>
+  <th>Jun 12 2025</th>
+</tr>
+<tr>
+  <th>synhub-mobile-app</th>
+  <th>develop</th>
+  <th>a42c9417adfb18e7635a8dd12a27db5db2ef6c53</th>
+  <th>chore: update AndroidManifest.xml configuration</th>
+  <th>chore: update AndroidManifest.xml configuration</th>
+  <th>Jun 12 2025</th>
+</tr>
+<tr>
+  <th>synhub-mobile-app</th>
+  <th>develop</th>
+  <th>2921ba360f5543ba440eaeb52a37978c05d7d20a</th>
+  <th>feat(analytics): implement AnalyticsViewModel for managing analytics state and API calls</th>
+  <th>feat(analytics): implement AnalyticsViewModel for managing analytics state and API calls</th>
+  <th>Jun 12 2025</th>
+</tr>
+<tr>
+  <th>synhub-mobile-app</th>
+  <th>develop</th>
+  <th>67fe26f8633091503b931dac1da0389793fc250b</th>
+  <th>feat(network): configure Retrofit client in RetrofitClient.kt</th>
+  <th>feat(network): configure Retrofit client in RetrofitClient.kt</th>
+  <th>Jun 12 2025</th>
+</tr>
+<tr>
+  <th>synhub-mobile-app</th>
+  <th>develop</th>
+  <th>6f96f242c2908a99ecb8677cdb689a8b1e270bb2</th>
+  <th>feat(navigation): add navigation logic in Navigator.kt</th>
+  <th>feat(navigation): add navigation logic in Navigator.kt</th>
+  <th>Jun 12 2025</th>
+</tr>
+<tr>
+  <th>synhub-mobile-app</th>
+  <th>develop</th>
+  <th>89e54a89fb16a17ccb36e2e20a2d6f5fb92e07b2</th>
+  <th>refactor(analytics): update API endpoints in AnalyticsWebService.kt</th>
+  <th>refactor(analytics): update API endpoints in AnalyticsWebService.kt</th>
+  <th>Jun 12 2025</th>
+</tr>
+<tr>
+  <th>synhub-mobile-app</th>
+  <th>develop</th>
+  <th>fa208341a639df37c2d173af355d06f2ec831709</th>
+  <th>feat(web-service): add request endpoints to the web service to match current endpoints in the API.</th>
+  <th>feat(web-service): add request endpoints to the web service to match current endpoints in the API.</th>
+  <th>Jun 13 2025</th>
+</tr>
+<tr>
+  <th>synhub-mobile-app</th>
+  <th>develop</th>
+  <th>9cca8b899b1a8450ca1d516b150d4e3e0871415a</th>
+  <th>fix(requests): fix request views to make usage of the API and implement partial functionality.</th>
+  <th>fix(requests): fix request views to make usage of the API and implement partial functionality.</th>
+  <th>Jun 13 2025</th>
+</tr>
+<tr>
+  <th>synhub-mobile-app</th>
+  <th>develop</th>
+  <th>b458e4b8889e810b86be576564ac03dcf5d4e183</th>
+  <th>fix(view-model): fix request view model and to properly include all endpoints related to the bounded context.</th>
+  <th>fix(view-model): fix request view model and to properly include all endpoints related to the bounded context.</th>
+  <th>Jun 13 2025</th>
+</tr>
+<tr>
+  <th>synhub-mobile-app</th>
+  <th>develop</th>
+  <th>67c2c8068391108017380982b2a3928e7bf3360d</th>
+  <th>fix(navigator): fix request navigation paths.</th>
+  <th>fix(navigator): fix request navigation paths.</th>
+  <th>Jun 13 2025</th>
+</tr>
+<tr>
+  <th>synhub-mobile-app</th>
+  <th>develop</th>
+  <th>c7d70aec8af175305158a0e277d8b41cad3d9a82</th>
+  <th>feat(analytics): update getTaskTimePassed endpoint to use memberId instead of taskId.</th>
+  <th>feat(analytics): update getTaskTimePassed endpoint to use memberId instead of taskId.</th>
+  <th>Jun 13 2025</th>
+</tr>
+<tr>
+  <th>synhub-mobile-app</th>
+  <th>develop</th>
+  <th>592f219d0bcf19bae74b6197dc7fad93e4e3cb43</th>
+  <th>feat(analytics): simplify AnalyticsViewModel by removing group and member API calls.</th>
+  <th>feat(analytics): simplify AnalyticsViewModel by removing group and member API calls.</th>
+  <th>Jun 13 2025</th>
+</tr>
+<tr>
+  <th>synhub-mobile-app</th>
+  <th>develop</th>
+  <th>be1b099c1fc2c9b7e7321e7c7ab4a123deb9f882</th>
+  <th>feat(analytics): add rescheduledMemberIds field to AnalyticsResponse DTO.</th>
+  <th>feat(analytics): add rescheduledMemberIds field to AnalyticsResponse DTO.</th>
+  <th>Jun 13 2025</th>
+</tr>
+<tr>
+  <th>synhub-mobile-app</th>
+  <th>develop</th>
+  <th>964c46b83472d2bf6a24c3de633d6aa6537c10a4</th>
+  <th>feat(analytics): enhance Analytics sections with member data and loading states.</th>
+  <th>feat(analytics): enhance Analytics sections with member data and loading states.</th>
+  <th>Jun 13 2025</th>
+</tr>
+<tr>
+  <th>synhub-mobile-app</th>
+  <th>develop</th>
+  <th>d47e815c3ab626f829bcd18eb56b2f36e8346765</th>
+  <th>fix(view-model): add task usage for data fetching and incorporate to screen.</th>
+  <th>fix(view-model): add task usage for data fetching and incorporate to screen.</th>
+  <th>Jun 14 2025</th>
+</tr>
+<tr>
+  <th>synhub-mobile-app</th>
+  <th>develop</th>
+  <th>fc5947c4e239e69a98156139a51ef2ca75ff8306</th>
+  <th>chore(view-model): code cleanup.</th>
+  <th>chore(view-model): code cleanup.</th>
+  <th>Jun 14 2025</th>
+</tr>
+<tr>
+  <th>synhub-mobile-app</th>
+  <th>develop</th>
+  <th>dfb3bbcf65d5886c7b27aea7cc97ba774ffab871</th>
+  <th>fix(requests): add task usage to obtain important data.</th>
+  <th>fix(requests): add task usage to obtain important data.</th>
+  <th>Jun 14 2025</th>
+</tr>
+<tr>
+  <th>synhub-mobile-app</th>
+  <th>develop</th>
+  <th>ed203138a613b0428f6be616c95dedf3bd85edb7</th>
+  <th>fix(requests): fix navigation leading to another screen.</th>
+  <th>fix(requests): fix navigation leading to another screen.</th>
+  <th>Jun 14 2025</th>
+</tr>
+<tr>
+  <th>synhub-mobile-app</th>
+  <th>develop</th>
+  <th>8639605aed4bfc69a742980529997d717632f014</th>
+  <th>fix(navigator): fix admin request screen to redirect to the correct screen.</th>
+  <th>fix(navigator): fix admin request screen to redirect to the correct screen.</th>
+  <th>Jun 14 2025</th>
+</tr>
+<tr>
+  <th>synhub-mobile-app</th>
+  <th>develop</th>
+  <th>89fffa5e2b7ddcf03f91bb35f2f52a05872fcc0b</th>
+  <th>merge: Merge pull request #14 from NRG-4/feat/analytics</th>
+  <th>merge: Merge pull request #14 from NRG-4/feat/analytics</th>
+  <th>Jun 16 2025</th>
+</tr>
+<tr>
+  <th>synhub-mobile-app</th>
+  <th>develop</th>
+  <th>fe65ef9f638ff469c61e63e448ec22ec80d0186b</th>
+  <th>merge: Merge pull request #13 from NRG-4/feat/requests</th>
+  <th>merge: Merge pull request #13 from NRG-4/feat/requests</th>
+  <th>Jun 16 2025</th>
+</tr>
+<tr>
+  <th>synhub-mobile-app</th>
+  <th>develop</th>
+  <th>37c6fc5effb6f4fc130f0bc0e719e7fecc7e9e32</th>
+  <th>fix(requests): fix the conditional to correctly show the button on specific conditions.</th>
+  <th>fix(requests): fix the conditional to correctly show the button on specific conditions.</th>
+  <th>Jun 16 2025</th>
+</tr>
+<tr>
+  <th>synhub-mobile-app</th>
+  <th>develop</th>
+  <th>e426b8fdfe28a4cdb59586f0b6ced873703032ad</th>
+  <th>fix(requests): add functionality to data displayed in the screen and a few tweaks to design.</th>
+  <th>fix(requests): add functionality to data displayed in the screen and a few tweaks to design.</th>
+  <th>Jun 16 2025</th>
+</tr>
+<tr>
+  <th>synhub-mobile-app</th>
+  <th>develop</th>
+  <th>8c60b6be62f6bbd0605a3db55bee0926cc91b7b5</th>
+  <th>merge: Merge pull request #12 from NRG-4/feat/requests</th>
+  <th>merge: Merge pull request #12 from NRG-4/feat/requests</th>
+  <th>Jun 16 2025</th>
+</tr>
+<tr>
+  <th>synhub-mobile-app</th>
+  <th>develop</th>
+  <th>1ebc63f59d8dbe2fb8d160ef63a820201a72ebf4</th>
+  <th>merge: Merge branch 'develop' into feat/requests</th>
+  <th>merge: Merge branch 'develop' into feat/requests</th>
+  <th>Jun 16 2025</th>
+</tr>
+<tr>
+  <th>synhub-mobile-app</th>
+  <th>develop</th>
+  <th>35d370e301517617d9ced1f7054c482aedd050bc</th>
+  <th>fix(requests): add functionality to data displayed in the screen.</th>
+  <th>fix(requests): add functionality to data displayed in the screen.</th>
+  <th>Jun 16 2025</th>
+</tr>
+<tr>
+  <th>synhub-mobile-app</th>
+  <th>develop</th>
+  <th>e9255ab1f8bb86139793f49dd9b6f43c4e3310a0</th>
+  <th>fix(home): update navigation in slide menu.</th>
+  <th>fix(home): update navigation in slide menu.</th>
+  <th>Jun 16 2025</th>
+</tr>
+<tr>
+  <th>synhub-mobile-app</th>
+  <th>develop</th>
+  <th>f5b6a0940896d73c5d3f4db65353cd8b6a1cb529</th>
+  <th>chore(view-model): code cleanup.</th>
+  <th>chore(view-model): code cleanup.</th>
+  <th>Jun 16 2025</th>
+</tr>
+<tr>
+  <th>synhub-mobile-app</th>
+  <th>develop</th>
+  <th>a5871b984523302b55a9e8d228a7a171d0bf0e7c</th>
+  <th>fix(navigator): update the navigator screens related to requests.</th>
+  <th>fix(navigator): update the navigator screens related to requests.</th>
+  <th>Jun 16 2025</th>
+</tr>
+<tr>
+  <th>synhub-mobile-app</th>
+  <th>develop</th>
+  <th>54d20fe2865917385d5f98769c96e783b4643067</th>
+  <th>feat(requests): add a requests screen for the member.</th>
+  <th>feat(requests): add a requests screen for the member.</th>
+  <th>Jun 16 2025</th>
+</tr>
+<tr>
+  <th>synhub-mobile-app</th>
+  <th>develop</th>
+  <th>cdb4a063e97b9d4be34ec9aaba59fb7406bb9706</th>
+  <th>fix(requests): add icons for the status box indicator.</th>
+  <th>fix(requests): add icons for the status box indicator.</th>
+  <th>Jun 16 2025</th>
+</tr>
 </table>
 
 **Commits realizados en el repositorio del Backend durante el sprint 2:**
@@ -7646,7 +8118,6 @@ En esta sección se presentan los commits realizados en el repositorio de landin
 
 **Testing para endpoint Authentication:**
 
-
 Cuando un usuario se registra en la aplicación Synhub, accede a un formulario donde ingresa datos como nombre, correo y contraseña. Al enviar la información, el sistema valida los datos, encripta la contraseña por seguridad y guarda el nuevo usuario en la base de datos. Opcionalmente, se puede enviar un correo de verificación para confirmar la identidad. Una vez completado este proceso, el usuario queda registrado y puede iniciar sesión.
 
 <img src="images/chapter-6/opcional.png" width="300">
@@ -7683,9 +8154,6 @@ En el primer caso, un grupo en Synhub se encuentra sin miembros. Un usuario inte
 <img src="images/chapter-6/opcional19.png" >
 <img src="images/chapter-6/opcional20.png" >
 
-
-
-
 En el segundo caso, el grupo también está vacío, sin ningún miembro registrado. Un usuario envía una solicitud de ingreso, pero al revisarla, el líder del grupo decide rechazarla. Como resultado, la solicitud es descartada y el usuario no es añadido al grupo. El grupo permanece sin miembros, y el usuario no podrá acceder a sus funciones ni contenido a menos que envíe otra solicitud y esta sea aceptada en el futuro.
 
 <img src="images/chapter-6/opcional10.png" width="300">
@@ -7697,7 +8165,6 @@ En el segundo caso, el grupo también está vacío, sin ningún miembro registra
 <img src="images/chapter-6/opcional17.png" >
 <img src="images/chapter-6/opcional20.png" >
 
-
 Proceso mediante el Backend:
 
 <img src="images/chapter-6/Invitations1.png">
@@ -7706,7 +8173,6 @@ Proceso mediante el Backend:
 <img src="images/chapter-6/Invitations4.png">
 <img src="images/chapter-6/Invitations5.png">
 <img src="images/chapter-6/Invitations6.png">
-
 
 **Testing para endpoint Member:**
 
@@ -7726,7 +8192,6 @@ Proceso mediante el Backend:
 <img src="images/chapter-6/member6.png">
 <img src="images/chapter-6/member7.png">
 <img src="images/chapter-6/member8.png">
-
 
 **Testing para endpoint Roles:**
 
@@ -7809,7 +8274,6 @@ En Synhub, un usuario con rol de líder tiene la capacidad de gestionar las tare
 <img src="images/chapter-6/opcional40.png" width="300">
 <img src="images/chapter-6/opcional41.png">
 
-
 Proceso mediante el Backend:
 <img src="images/chapter-6/task1.png">
 <img src="images/chapter-6/task2.png">
@@ -7821,7 +8285,6 @@ Proceso mediante el Backend:
 <img src="images/chapter-6/task8.png">
 <img src="images/chapter-6/task9.png">
 <img src="images/chapter-6/task10.png">
-
 
 **Testing para endpoint Users:**
 
@@ -7854,7 +8317,6 @@ Proceso mediante el Backend:
 <img src="images/chapter-6/taskMember4.png">
 <img src="images/chapter-6/taskMember5.png">
 <img src="images/chapter-6/taskMember6.png">
-
 
 #### 6.2.2.5. Execution Evidence for Sprint Review.
 
