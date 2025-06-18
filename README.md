@@ -2626,19 +2626,19 @@ La arquitectura del sistema se estructura en tres niveles: el Context Diagram de
 
 El Context Diagram muestra a SynHub (el sistema central) interactuando con sus usuarios principales —el Miembro y el Líder— quienes utilizan la aplicación para gestionar actividades, mientras que SynHub se integra con Google Calendar para sincronizar eventos externos. Este diagrama enfatiza las relaciones externas del sistema, sin detallar componentes internos, destacando cómo los actores clave (usuarios y servicios externos) se conectan con la plataforma principal para intercambiar información.
 
-<img src="images/chapter-4/contextdiagram.png" alt="Context Diagram" width="600"/>
+<img src="images/chapter-4/contextDiagram.png" alt="Context Diagram" width="600"/>
 
 ##### 4.1.3.2. Software Architecture Container Level Diagrams
 
 El Container Diagram describe la arquitectura del sistema, donde los usuarios (Miembro y Líder) interactúan con la Landing Page (web) y la Mobile App, las cuales se conectan a una API REST (backend) que gestiona la lógica de negocio. Esta API se comunica con una base de datos PostgreSQL para almacenar datos y con Google Calendar (mediante su API) para sincronizar eventos. Cada componente (frontend, backend, base de datos y servicio externo) opera en contenedores o entornos independientes, conectados a través de APIs RESTful (HTTPS/JSON) y protocolos como JDBC (PostgreSQL) y OAuth 2.0 (Google).
 
-<img src="images/chapter-4/containerdiagram.png" alt="Container Diagram" width="600"/>
+<img src="images/chapter-4/containerDiagram.png" alt="Container Diagram" width="600"/>
 
 ##### 4.1.3.3. Software Architecture Deployment Diagrams
 
 El diagrama de despliegue representa un sistema donde una aplicación móvil se comunica con una API REST mediante HTTP/HTTPS; esta API gestiona la lógica de negocio, interactúa con una base de datos PostgreSQL para almacenar datos y se integra con Google Calendar a través de su API  para sincronizar eventos. Los componentes clave incluyen: la app (frontend), el servidor de la API (backend), la base de datos (almacenamiento) y el servicio externo de Google , conectados mediante protocolos como RESTful APIs (JSON).
 
-<img src="images/chapter-4/deploymentdiagram.png" alt="Deployment Diagram" width="600"/>
+<img src="images/chapter-4/deploymentDiagram.png" alt="Deployment Diagram" width="600"/>
 
 ### 4.2. Tactical-Level Domain-Driven Design
 
@@ -4619,7 +4619,7 @@ Este diagrama representa la arquitectura a nivel de componentes del Bounded Cont
 
 Este diagrama de clases muestra un diseño simplificado para un sistema de gestión de tareas y comentarios siguiendo el patrón CQRS (Command Query Responsibility Segregation). El modelo central incluye la entidad `Task` (como Aggregate Root) con su Value Object `TaskStatus`, y la entidad `Comment`. Los servicios se dividen en comandos (`TaskCommandService` para operaciones de escritura como crear/actualizar/eliminar tareas) y consultas (`TaskQueryService` y `CommentQueryService` para operaciones de lectura). Las relaciones muestran cómo los servicios interactúan con las entidades: los de comando las manipulan, mientras que los de consulta solo acceden a los datos, manteniendo una clara separación de responsabilidades.
 
-<img src="./images/chapter-4/domain-Layer-Class-Diagrams.png" alt="Chamilo" width="800"/>
+<img src="./images/chapter-4/Domain-Layer-Class-Diagrams.png" alt="Chamilo" width="800"/>
 
 ###### 4.2.5.6.2. Bounded Context Database Design Diagram
 
