@@ -184,16 +184,20 @@ Recapitulando los commits se dividieron de la siguiente manera:
 
 Entrega TB2 (19/06/2025):
 
+<img src="images/insights/report-insights-3-1.png" alt="Insights Report Collaboration Insights 4" />
+<img src="images/insights/report-insights-3-2.png" alt="Insights Report Collaboration Insights 4" />
+<img src="images/insights/report-insights-3-3.png" alt="Insights Report Collaboration Insights 4" />
+<img src="images/insights/report-insights-3-4.png" alt="Insights Report Collaboration Insights 4" />
 
 Para esta entrega se desarollo el capitulo 6, en la captura adjuntada se evidencia del trabajo colaborativo de github. Todos los integrantes del grupo trabajaron en el proyecto.
 
 Recapitulando los commits se dividieron de la siguiente manera:
 
-* Alejo Cardenas Jose Antonio (Firtness): X commits
-* Astonitas Díaz Juan Diego (NeoRise456): X commits
-* Casas Sanchez Gabriel Alexander (Al3xiel): X commits
-* Pacheco Astiguetta Sebastian (Pachieeee): X commits
-* Pasquale Barrenechea Gianluca Santino (cwassointt): X commits
+* Alejo Cardenas Jose Antonio (Firtness): 35 commits
+* Astonitas Díaz Juan Diego (NeoRise456): 0 commits
+* Casas Sanchez Gabriel Alexander (Al3xiel): 3 commits
+* Pacheco Astiguetta Sebastian (Pachieeee): 3 commits
+* Pasquale Barrenechea Gianluca Santino (cwassointt): 1 commits
 
 ## Contenido
 
