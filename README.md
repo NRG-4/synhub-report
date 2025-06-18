@@ -127,11 +127,11 @@ Para esta primera entrega se desarollaron los cpaítulos del 1 al 4, en la captu
 
 Recapitulando los commits se dividieron de la siguiente manera:
 
-* Alejo Cardenas Jose Antonio (Firtness): 48 commits
-* Astonitas Díaz Juan Diego (NeoRise456): 8 commits
-* Casas Sanchez Gabriel Alexander (Al3xiel): 27 commits
-* Pacheco Astiguetta Sebastian (Pachieeee): 17 commits
-* Pasquale Barrenechea Gianluca Santino (cwassointt): 18 commits
+* Alejo Cardenas Jose Antonio (Firtness): 31 commits
+* Astonitas Díaz Juan Diego (NeoRise456): 13 commits
+* Casas Sanchez Gabriel Alexander (Al3xiel): 33 commits
+* Pacheco Astiguetta Sebastian (Pachieeee): 11 commits
+* Pasquale Barrenechea Gianluca Santino (cwassointt): 10 commits
 
 ## Contenido
 
@@ -1449,6 +1449,11 @@ En esta sección, se presenta el mapa de empatía, que nos ayudará a comprender
       <td>Solicitudes y Validaciones</td>
       <td>Flujo completo para solicitudes de procesamiento de tareas con estados (En progreso , completada ,caducada y cancelada), comentarios y notificaciones asociadas.</td>
     </tr>
+    <tr>
+      <td>EP-006</td>
+      <td>Gestión de Usuarios</td>
+      <td>Registro, inicio de sesión, edición de perfil y gestión de credenciales. Incluye autenticación y recuperación de acceso.</td>
+    </tr>
   </tbody>
 </table>
 
@@ -2366,7 +2371,455 @@ En esta sección, se presenta el mapa de empatía, que nos ayudará a comprender
       </td>
       <td>EP-005</td>
     </tr>
-<tbody>
+     <tr>
+    <td>TS-027</td>
+    <td>Loguearse en el app móvil</td>
+    <td>Como developer, quiero manejar autenticación segura para garantizar acceso autorizado.</td>
+    <td>
+        <b>Escenario 1: Login exitoso</b><br>
+        Given credenciales válidas<br>
+        When se envía solicitud POST a /login<br>
+        Then devuelve token JWT y rol del usuario (200).<br><br>
+        <b>Escenario 2: Contraseña incorrecta</b><br>
+        Given credenciales inválidas<br>
+        When se envía solicitud POST a /login<br>
+        Then error 401 (No autorizado).<br><br>
+    </td>
+    <td>EP-006</td>
+</tr>
+<tr>
+    <td>TS-028</td>
+    <td>Actualizar contraseña</td>
+    <td>Como developer, quiero permitir a los usuarios actualizar su contraseña para mantener la seguridad de su cuenta.</td>
+    <td>
+        <b>Escenario 1: Cambio de contraseña exitoso</b><br>
+        Given token válido y nueva contraseña segura<br>
+        When se envía PATCH a /users/password<br>
+        Then confirma actualización (200).<br><br>
+        <b>Escenario 2: Contraseña inválida (no cumple requisitos)</b><br>
+        Given token inválido<br>
+        When se envía PATCH a /users/password<br>
+        Then devuelve error 400 con mensaje de validación.<br><br>
+    </td>
+    <td>EP-006</td>
+</tr>
+<tr>
+    <td>TS-029</td>
+    <td>Crear usuarios</td>
+    <td>Como developer, quiero crear usuarios con distintos roles para asignar permisos específicos.</td>
+    <td>
+        <b>Escenario 1: Crear usuario con rol "líder"</b><br>
+        Given datos válidos y rol asignado<br>
+        When POST a /users<br>
+        Then devuelve ID del nuevo líder (201).<br><br>
+        <b>Escenario 2: Crear usuario con rol "miembro"</b><br>
+        Given datos válidos y rol asignado<br>
+        When POST a /users<br>
+        Then devuelve ID del nuevo miembro (201).<br><br>
+    </td>
+    <td>EP-006</td>
+</tr>
+<tr>
+    <td>TS-030</td>
+    <td>Editar usuario</td>
+    <td>Como developer, quiero actualizar información de usuario para mantener los datos al día.</td>
+    <td>
+        <b>Escenario 1: Editar información de un usuario</b><br>
+        Given datos válidos<br>
+        When PATCH a /users/{id}<br>
+        Then datos actualizados (200).<br><br>
+        <b>Escenario 2: Usuario no encontrado</b><br>
+        Given ID de usuario inexistente<br>
+        When PATCH a /users/{id}<br>
+        Then devuelve error 404 indicando que el usuario no existe.<br><br>
+    </td>
+    <td>EP-006</td>
+</tr>
+<tr>
+    <td>TS-031</td>
+    <td>Crear grupo</td>
+    <td>Como developer, quiero permitir la creación de grupos para organizar equipos de trabajo.</td>
+    <td>
+        <b>Escenario 1: Crear grupo con datos válidos</b><br>
+        Given nombre y descripción válidos<br>
+        When POST a /groups<br>
+        Then devuelve código de grupo (201).<br><br>
+        <b>Escenario 2: Crear grupo con datos faltantes</b><br>
+        Given solicitud sin nombre<br>
+        When POST a /groups<br>
+        Then devuelve error 400 indicando campos requeridos faltantes.<br><br>
+    </td>
+    <td>EP-001</td>
+</tr>
+<tr>
+    <td>TS-032</td>
+    <td>Buscar grupo</td>
+    <td>Como developer, quiero buscar grupos por código para obtener sus detalles.</td>
+    <td>
+        <b>Escenario 1: Buscar grupo con código existente</b><br>
+        Given código válido<br>
+        When GET a /groups?code={code}<br>
+        Then devuelve detalles del grupo (200).<br><br>
+        <b>Escenario 2: Buscar grupo con código inexistente</b><br>
+        Given código inválido<br>
+        When GET a /groups?code={code}<br>
+        Then devuelve error 404 indicando grupo no encontrado.<br><br>
+    </td>
+    <td>EP-001</td>
+</tr>
+<tr>
+    <td>TS-033</td>
+    <td>Actualizar grupo</td>
+    <td>Como developer, quiero actualizar información de grupos existentes para mantenerla actualizada.</td>
+    <td>
+        <b>Escenario 1: Actualizar datos válidos</b><br>
+        Given nombre y descripción válidos<br>
+        When PATCH a /groups/{id}<br>
+        Then datos actualizados correctamente (200).<br><br>
+        <b>Escenario 2: Grupo no encontrado</b><br>
+        Given ID de grupo inválido<br>
+        When PATCH a /groups/{id}<br>
+        Then devuelve error 404 indicando grupo no encontrado.<br><br>
+    </td>
+    <td>EP-001</td>
+</tr>
+<tr>
+    <td>TS-034</td>
+    <td>Obtener grupo de miembro o líder</td>
+    <td>Como developer, quiero obtener el grupo al que pertenece un miembro o líder para mostrar la información relacionada.</td>
+    <td>
+        <b>Escenario 1: Obtener grupo de líder</b><br>
+        Given ID válido de líder<br>
+        When GET a /leader/{leaderId}/group<br>
+        Then devuelve detalles del grupo (200).<br><br>
+        <b>Escenario 2: Obtener grupo de miembro</b><br>
+        Given ID válido de miembro<br>
+        When GET a /member/{memberId}/group<br>
+        Then devuelve detalles del grupo (200).<br><br>
+    </td>
+    <td>EP-001</td>
+</tr>
+<tr>
+    <td>TS-035</td>
+    <td>Enviar solicitud de unión a grupo</td>
+    <td>Como sistema, quiero permitir que un miembro envíe una solicitud para unirse a un grupo.</td>
+    <td>
+        <b>Escenario 1: Enviar solicitud válida</b><br>
+        Given un miembro válido<br>
+        When POST a /member/{memberId}/requests/{groupId}<br>
+        Then el miembro envió una solicitud (200).<br><br>
+        <b>Escenario 2: Solicitud duplicada</b><br>
+        Given una solicitud ya existente<br>
+        When POST a /member/{memberId}/requests/{groupId}<br>
+        Then devuelve error 409 indicando solicitud duplicada.<br><br>
+    </td>
+    <td>EP-001</td>
+</tr>
+<tr>
+    <td>TS-036</td>
+    <td>Aceptar solicitud de unión</td>
+    <td>Como sistema, quiero aceptar una solicitud de unión para añadir el usuario al grupo.</td>
+    <td>
+        <b>Escenario 1: Aceptar solicitud existente</b><br>
+        Given ID de solicitud válida<br>
+        When POST a /group/{groupId}/requests/{id}<br>
+        Then el usuario se añade al grupo (200).<br><br>
+        <b>Escenario 2: Solicitud inexistente</b><br>
+        Given ID de solicitud inválida<br>
+        When POST a /group/{groupId}/requests/{id}<br>
+        Then devuelve error 404.<br><br>
+    </td>
+    <td>EP-001</td>
+</tr>
+<tr>
+    <td>TS-037</td>
+    <td>Eliminar solicitud</td>
+    <td>Como sistema, quiero permitir rechazar o cancelar solicitudes de unión a grupos.</td>
+    <td>
+        <b>Escenario 1: Rechazar solicitud</b><br>
+        Given solicitud pendiente<br>
+        When DELETE a /group/{groupId}/requests/{id}<br>
+        Then solicitud eliminada (204).<br><br>
+        <b>Escenario 2: Cancelar solicitud</b><br>
+        Given solicitud pendiente<br>
+        When DELETE a /member/{memberId}/requests/{id}<br>
+        Then solicitud eliminada (204).<br><br>
+    </td>
+    <td>EP-001</td>
+</tr>
+<tr>
+    <td>TS-038</td>
+    <td>Obtener solicitudes de grupo</td>
+    <td>Como sistema, quiero listar todas las solicitudes de unión enviadas a un grupo.</td>
+    <td>
+        <b>Escenario 1: Solicitudes disponibles</b><br>
+        Given un grupo válido<br>
+        When GET a /group/{groupId}/requests<br>
+        Then devuelve detalles de todas las solicitudes (200).<br><br>
+        <b>Escenario 2: Sin solicitudes</b><br>
+        Given grupo sin solicitudes<br>
+        When GET a /group/{groupId}/requests<br>
+        Then devuelve lista vacía (200).<br><br>
+    </td>
+    <td>EP-001</td>
+</tr>
+<tr>
+    <td>TS-039</td>
+    <td>Filtrar tareas por estado</td>
+    <td>Como developer, quiero obtener tareas filtradas por estado para visualizar su progreso.</td>
+    <td>
+        <b>Escenario 1: Tareas activas</b><br>
+        Given grupo con tareas activas<br>
+        When GET a /tasks?status="status", donde status es el status a buscar<br>
+        Then devuelve lista de tareas activas (200).<br><br>
+        <b>Escenario 2: Estado no válido</b><br>
+        Given parámetro de estado inválido<br>
+        When GET a /tasks?status=invalido<br>
+        Then devuelve error 400.<br><br>
+    </td>
+    <td>EP-002</td>
+</tr>
+<tr>
+    <td>TS-040</td>
+    <td>Agregar comentario a tarea</td>
+    <td>Como developer, quiero permitir agregar comentarios a tareas para facilitar la colaboración.</td>
+    <td>
+        <b>Escenario 1: Comentario exitoso</b><br>
+        Given tarea existente<br>
+        When POST a /tasks/{id}/comments<br>
+        Then el comentario se guarda (201).<br><br>
+        <b>Escenario 2: Tarea no encontrada</b><br>
+        Given ID de tarea inexistente<br>
+        When POST a /tasks/{id}/comments<br>
+        Then devuelve error 404.<br><br>
+    </td>
+    <td>EP-002</td>
+</tr>
+<tr>
+    <td>TS-041</td>
+    <td>Consultar tareas de un integrante</td>
+    <td>Como developer, quiero consultar las tareas asignadas a un integrante específico del grupo.</td>
+    <td>
+        <b>Escenario 1: Consultar tareas asignadas</b><br>
+        Given integrante con tareas<br>
+        When GET a /group/{groupId}/members/{memberId}/tasks<br>
+        Then devuelve lista de tareas (200).<br><br>
+        <b>Escenario 2: Sin tareas asignadas</b><br>
+        Given integrante sin tareas<br>
+        When GET a /group/{groupId}/members/{memberId}/tasks<br>
+        Then devuelve lista vacía (200).<br><br>
+    </td>
+    <td>EP-002</td>
+</tr>
+<tr>
+    <td>TS-042</td>
+    <td>Aceptar validación de tarea completada</td>
+    <td>Como developer, quiero aceptar manualmente tareas completadas para confirmar su cierre.</td>
+    <td>
+        <b>Escenario 1: Validar tarea completada</b><br>
+        Given tarea marcada como completada<br>
+        When PATCH a /task/{taskId}<br>
+        Then cambia el estado a “Validada” (200).<br><br>
+        <b>Escenario 2: Tarea ya validada</b><br>
+        Given tarea ya validada<br>
+        When PATCH a /task/{taskId}<br>
+        Then devuelve error 409.<br><br>
+    </td>
+    <td>EP-002</td>
+</tr>
+<tr>
+    <td>TS-043</td>
+    <td>Validación automática de tarea vencida</td>
+    <td>Como developer, quiero que el sistema valide automáticamente las tareas vencidas para actualizar su estado y asegurar calidad.</td>
+    <td>
+        <b>Escenario 1: Validación de tarea vencida</b><br>
+        Given tarea con fecha límite pasada<br>
+        When el sistema ejecuta validación automática<br>
+        Then el estado cambia a "Vencido" (200).<br><br>
+        <b>Escenario 2: Validación sin tareas vencidas</b><br>
+        Given no existen tareas con fecha límite pasada<br>
+        When el sistema ejecuta validación automática<br>
+        Then no se realiza ningún cambio y devuelve estado 204.<br><br>
+    </td>
+    <td>EP-002</td>
+</tr>
+<tr>
+    <td>TS-044</td>
+    <td>Cambio de estado de solicitud manual</td>
+    <td>Como developer, quiero cambiar el estado de una solicitud para aceptarla o rechazarla mediante un endpoint PATCH.</td>
+    <td>
+        <b>Escenario 1: Aceptar solicitud activa</b><br>
+        Given una solicitud activa en el sistema<br>
+        When se realiza PATCH a /group/{groupId}/requests/{requestId}/accepted<br>
+        Then la solicitud cambia su estado a "Aceptada" (200).<br><br>
+        <b>Escenario 2: Rechazar solicitud activa</b><br>
+        Given una solicitud activa en el sistema<br>
+        When se realiza PATCH a /group/{groupId}/requests/{requestId}/rejected<br>
+        Then la solicitud cambia su estado a "Rechazada" (200).<br><br>
+    </td>
+    <td>EP-002</td>
+</tr>
+<tr>
+    <td>TS-045</td>
+    <td>Eliminación de solicitud del sistema</td>
+    <td>Como developer, quiero eliminar solicitudes procesadas para limpiar el sistema y notificar al usuario.</td>
+    <td>
+        <b>Escenario 1: Eliminar solicitud aceptada</b><br>
+        Given una solicitud aceptada y procesada<br>
+        When se realiza DELETE a /group/{groupId}/requests/{requestId}<br>
+        Then la solicitud se elimina y se notifica al usuario (200).<br><br>
+        <b>Escenario 2: Eliminar solicitud rechazada</b><br>
+        Given una solicitud rechazada<br>
+        When se realiza DELETE a /group/{groupId}/requests/{requestId}<br>
+        Then la solicitud se elimina y se notifica al usuario (200).<br><br>
+    </td>
+    <td>EP-005</td>
+</tr>
+<tr>
+    <td>TS-046</td>
+    <td>Aceptar una solicitud</td>
+    <td>Como developer, quiero aceptar una solicitud activa para cambiar su estado y continuar con el proceso.</td>
+    <td>
+        <b>Escenario 1: Solicitud activa aceptada</b><br>
+        Given una solicitud activa en el sistema<br>
+        When se realiza PATCH a /group/{groupId}/requests/{requestId}/{status}<br>
+        Then la solicitud cambia a estado "{status}" (200).<br><br>
+        <b>Escenario 2: Solicitud ya aceptada</b><br>
+        Given una solicitud con estado "Aceptada"<br>
+        When se realiza PATCH a /group/{groupId}/requests/{requestId}/accepted<br>
+        Then devuelve error 409 (conflicto).<br><br>
+    </td>
+    <td>EP-005</td>
+</tr>
+<tr>
+    <td>TS-047</td>
+    <td>Eliminar solicitud tras aceptación</td>
+    <td>Como developer, quiero eliminar una solicitud después de que haya sido aceptada para mantener el sistema limpio.</td>
+    <td>
+        <b>Escenario 1: Solicitud eliminada correctamente</b><br>
+        Given una solicitud aceptada en el sistema<br>
+        When se realiza DELETE a /group/{groupId}/requests/{requestId}<br>
+        Then la solicitud se elimina y se notifica la eliminación (200).<br><br>
+        <b>Escenario 2: Solicitud no encontrada</b><br>
+        Given una solicitud inexistente o ya eliminada<br>
+        When se realiza DELETE a /group/{groupId}/requests/{requestId}<br>
+        Then devuelve error 404 (no encontrado).<br><br>
+    </td>
+    <td>EP-005</td>
+</tr>
+<tr>
+    <td>TS-048</td>
+    <td>Modificar tarea tras aceptación de solicitud</td>
+    <td>Como developer, quiero actualizar una tarea luego de aceptar una solicitud para reflejar los cambios realizados.</td>
+    <td>
+        <b>Escenario 1: Tarea actualizada correctamente</b><br>
+        Given una tarea asociada a una solicitud aceptada<br>
+        When se realiza PATCH a /task/{taskId}<br>
+        Then la tarea se modifica y se notifica el cambio al usuario (200).<br><br>
+        <b>Escenario 2: Tarea no encontrada</b><br>
+        Given una tarea inexistente<br>
+        When se realiza PATCH a /task/{taskId}<br>
+        Then devuelve error 404 (no encontrada).<br><br>
+    </td>
+    <td>EP-002</td>
+</tr>
+<tr>
+    <td>TS-049</td>
+    <td>Actualizar tarea completada</td>
+    <td>Como developer, quiero actualizar el estado de una tarea marcada como completada para reflejar su cierre.</td>
+    <td>
+        <b>Escenario 1: Tarea completada actualizada correctamente</b><br>
+        Given una tarea marcada como completada<br>
+        When se realiza PATCH a /task/{taskId}<br>
+        Then el estado de la tarea cambia a "Completada" (200).<br><br>
+        <b>Escenario 2: Tarea completada no encontrada</b><br>
+        Given una tarea completada inexistente<br>
+        When se realiza PATCH a /task/{taskId}<br>
+        Then devuelve error 404 (no encontrada).<br><br>
+    </td>
+    <td>EP-002</td>
+</tr>
+<tr>
+    <td>TS-050</td>
+    <td>Eliminar solicitud tras tarea completada</td>
+    <td>Como developer, quiero eliminar la solicitud asociada tras la actualización de tarea completada para mantener la base limpia.</td>
+    <td>
+        <b>Escenario 1: Solicitud eliminada tras tarea completada</b><br>
+        Given una solicitud activa relacionada a tarea completada<br>
+        When se realiza DELETE a /group/{groupId}/requests/{requestId}<br>
+        Then la solicitud se elimina y se notifica la eliminación (200).<br><br>
+        <b>Escenario 2: Solicitud no encontrada para eliminar</b><br>
+        Given una solicitud inexistente o ya eliminada<br>
+        When se realiza DELETE a /group/{groupId}/requests/{requestId}<br>
+        Then devuelve error 404 (no encontrada).<br><br>
+    </td>
+    <td>EP-005</td>
+</tr>
+<tr>
+    <td>TS-051</td>
+    <td>Actualizar tarea completada con rechazo</td>
+    <td>Como developer, quiero actualizar una tarea completada cuando es rechazada para que el usuario realice correcciones.</td>
+    <td>
+        <b>Escenario 1: Tarea completada rechazada y actualizada</b><br>
+        Given una tarea marcada como completada<br>
+        When se realiza PATCH a /task/{taskId}<br>
+        Then el estado cambia a "Rechazada" y se aplica nuevo tiempo para correcciones (200).<br><br>
+        <b>Escenario 2: Tarea completada no encontrada para rechazo</b><br>
+        Given una tarea completada inexistente<br>
+        When se realiza PATCH a /task/{taskId}<br>
+        Then devuelve error 404 (no encontrada).<br><br>
+    </td>
+    <td>EP-002</td>
+</tr>
+<tr>
+    <td>TS-052</td>
+    <td>Eliminar solicitud tras rechazo de tarea completada</td>
+    <td>Como developer, quiero eliminar la solicitud asociada tras el rechazo de una tarea completada para mantener el sistema actualizado.</td>
+    <td>
+        <b>Escenario 1: Solicitud eliminada correctamente tras rechazo</b><br>
+        Given una solicitud activa relacionada a tarea completada rechazada<br>
+        When se realiza DELETE a /group/{groupId}/requests/{requestId}<br>
+        Then la solicitud se elimina y se notifica la eliminación (200).<br><br>
+        <b>Escenario 2: Solicitud no encontrada para eliminar</b><br>
+        Given una solicitud inexistente o ya eliminada<br>
+        When se realiza DELETE a /group/{groupId}/requests/{requestId}<br>
+        Then devuelve error 404 (no encontrada).<br><br>
+    </td>
+    <td>EP-005</td>
+</tr>
+<tr>
+    <td>TS-053</td>
+    <td>Actualizar tarea vencida</td>
+    <td>Como developer, quiero actualizar el estado de una tarea vencida para gestionar su reasignación.</td>
+    <td>
+        <b>Escenario 1: Tarea vencida actualizada correctamente</b><br>
+        Given una tarea vencida<br>
+        When se realiza PATCH a /task/{taskId}<br>
+        Then el estado de la tarea cambia a "Reasignada" (200).<br><br>
+        <b>Escenario 2: Tarea vencida no encontrada</b><br>
+        Given una tarea vencida inexistente<br>
+        When se realiza PATCH a /task/{taskId}<br>
+        Then devuelve error 404 (no encontrada).<br><br>
+    </td>
+    <td>EP-002</td>
+</tr>
+<tr>
+    <td>TS-054</td>
+    <td>Eliminar solicitud tras tarea vencida</td>
+    <td>Como developer, quiero eliminar la solicitud relacionada a una tarea vencida para mantener el sistema actualizado.</td>
+    <td>
+        <b>Escenario 1: Solicitud eliminada correctamente</b><br>
+        Given una solicitud activa relacionada a tarea vencida<br>
+        When se realiza DELETE a /group/{groupId}/requests/{requestId}<br>
+        Then la solicitud se elimina y se notifica la eliminación (200).<br><br>
+        <b>Escenario 2: Solicitud no encontrada</b><br>
+        Given una solicitud inexistente o ya eliminada<br>
+        When se realiza DELETE a /group/{groupId}/requests/{requestId}<br>
+        Then devuelve error 404 (no encontrada).<br><br>
+    </td>
+    <td>EP-005</td>
+</tr>
+</tbody>
 </table>
 
 ### 3.3. Impact Mapping
@@ -2397,6 +2850,9 @@ En esta sección, se presenta el mapa de empatía, que nos ayudará a comprender
     <tr><td>1</td><td>TS-010</td><td>Crear un nuevo miembro</td><td>Como developer, quiero crear un nuevo miembro para asegurarme de que el miembro se registra correctamente en el sistema.</td><td>5</td></tr>
     <tr><td>1</td><td>TS-013</td><td>Actualizar tarea</td><td>Como developer, quiero actualizar una tarea para asegurarme de que la tarea se modifica correctamente en el sistema.</td><td>5</td></tr>
     <tr><td>1</td><td>TS-025</td><td>Crear nueva solicitud</td><td>Como developer, quiero crear una nueva solicitud para asegurarme de que la solicitud se crea correctamente con los datos proporcionados.</td><td>5</td></tr>
+    <tr><td>1</td><td>TS-027</td><td>Loguearse en el app móvil</td><td>Como developer, quiero manejar autenticación segura para garantizar acceso autorizado.</td><td>5</td></tr>
+    <tr><td>1</td><td>TS-028</td><td>Actualizar contraseña</td><td>Como developer, quiero permitir a los usuarios actualizar su contraseña para mantener la seguridad de su cuenta.</td><td>2</td></tr>
+    <tr><td>1</td><td>TS-046</td><td>Aceptar una solicitud</td><td>Como developer, quiero aceptar una solicitud activa para cambiar su estado y continuar con el proceso.</td><td>3</td></tr>
     <tr><td>2</td><td>US-016</td><td>Solicitud de aprobación de tarea</td><td>Como miembro, quiero enviar tareas completadas para validación del líder.</td><td>3</td></tr>
     <tr><td>2</td><td>US-017</td><td>Validación de tareas</td><td>Como líder, quiero aprobar o rechazar tareas completadas para asegurar calidad.</td><td>3</td></tr>
     <tr><td>2</td><td>US-021</td><td>Visualización de miembros del grupo</td><td>Como líder, quiero ver la lista de miembros de mi grupo para gestionar la colaboración.</td><td>3</td></tr>
@@ -2414,6 +2870,14 @@ En esta sección, se presenta el mapa de empatía, que nos ayudará a comprender
     <tr><td>2</td><td>TS-016</td><td>Obtener todas las tareas</td><td>Como developer, quiero obtener todas las tareas para verificar que la API devuelve todas las tareas correctamente.</td><td>2</td></tr>
     <tr><td>2</td><td>TS-024</td><td>Actualizar estado de solicitud</td><td>Como developer, quiero actualizar el estado de una solicitud para reflejar correctamente su estado actual.</td><td>3</td></tr>
     <tr><td>2</td><td>TS-026</td><td>Obtener solicitud por ID</td><td>Como developer, quiero obtener una solicitud por su ID para verificar que la API devuelve la solicitud correcta con los detalles asociados.</td><td>2</td></tr>
+    <tr><td>2</td><td>TS-029</td><td>Crear usuarios</td><td>Como developer, quiero crear usuarios con distintos roles para asignar permisos específicos.</td><td>2</td></tr>
+    <tr><td>2</td><td>TS-030</td><td>Editar usuario</td><td>Como developer, quiero actualizar información de usuario para mantener los datos al día.</td><td>1</td></tr>
+    <tr><td>2</td><td>TS-039</td><td>Filtrar tareas por estado</td><td>Como developer, quiero obtener tareas filtradas por estado para visualizar su progreso.</td><td>3</td></tr>
+    <tr><td>2</td><td>TS-040</td><td>Agregar comentario a tarea</td><td>Como developer, quiero permitir agregar comentarios a tareas para facilitar la colaboración.</td><td>3</td></tr>
+    <tr><td>2</td><td>TS-041</td><td>Consultar tareas de un integrante</td><td>Como developer, quiero consultar las tareas asignadas a un integrante específico del grupo.</td><td>2</td></tr>
+    <tr><td>2</td><td>TS-042</td><td>Aceptar validación de tarea completada</td><td>Como developer, quiero aceptar manualmente tareas completadas para confirmar su cierre.</td><td>3</td></tr>
+    <tr><td>2</td><td>TS-043</td><td>Validación automática de tarea vencida</td><td>Como developer, quiero que el sistema valide automáticamente las tareas vencidas para actualizar su estado y asegurar calidad.</td><td>3</td></tr>
+    <tr><td>2</td><td>TS-044</td><td>Cambio de estado de solicitud manual</td><td>Como developer, quiero cambiar el estado de una solicitud para aceptarla o rechazarla mediante un endpoint PATCH.</td><td>2</td></tr>
     <tr><td>3</td><td>US-003</td><td>Eliminación de grupo</td><td>Como líder, quiero eliminar grupos inactivos para mantener la organización.</td><td>2</td></tr>
     <tr><td>3</td><td>US-006</td><td>Eliminación de tareas</td><td>Como líder, quiero eliminar tareas incorrectas o duplicadas.</td><td>2</td></tr>
     <tr><td>3</td><td>US-008</td><td>Reprogramación de tareas</td><td>Como líder, quiero cambiar fechas límite cuando surgen imprevistos.</td><td>2</td></tr>
@@ -2428,6 +2892,18 @@ En esta sección, se presenta el mapa de empatía, que nos ayudará a comprender
     <tr><td>3</td><td>TS-019</td><td>Marcar notificación como leída</td><td>Como developer, quiero marcar una notificación como leída para asegurarme de que el estado de la notificación se actualiza correctamente.</td><td>2</td></tr>
     <tr><td>3</td><td>TS-020</td><td>Obtener notificaciones de usuario</td><td>Como developer, quiero obtener todas las notificaciones de un usuario para verificar que la API devuelve correctamente las notificaciones asociadas a un usuario.</td><td>2</td></tr>
     <tr><td>3</td><td>TS-022</td><td>Generar reporte para un usuario</td><td>Como developer, quiero generar un reporte para un usuario para asegurarme de que la generación del reporte es exitosa y los datos son correctos.</td><td>5</td></tr>
+    <tr><td>3</td><td>TS-031</td><td>Crear grupo</td><td>Como developer, quiero permitir la creación de grupos para organizar equipos de trabajo.</td><td>2</td></tr>
+    <tr><td>3</td><td>TS-032</td><td>Buscar grupo</td><td>Como developer, quiero buscar grupos por código para obtener sus detalles.</td><td>2</td></tr>
+    <tr><td>3</td><td>TS-033</td><td>Actualizar grupo</td><td>Como developer, quiero actualizar información de grupos existentes para mantenerla actualizada.</td><td>3</td></tr>
+    <tr><td>3</td><td>TS-034</td><td>Obtener grupo de miembro o líder</td><td>Como developer, quiero obtener el grupo al que pertenece un miembro o líder para mostrar la información relacionada.</td><td>3</td></tr>
+    <tr><td>3</td><td>TS-035</td><td>Enviar solicitud de unión a grupo</td><td>Como sistema, quiero permitir que un miembro envíe una solicitud para unirse a un grupo.</td><td>3</td></tr>
+    <tr><td>3</td><td>TS-036</td><td>Aceptar solicitud de unión</td><td>Como sistema, quiero aceptar una solicitud de unión para añadir el usuario al grupo.</td><td>3</td></tr>
+    <tr><td>3</td><td>TS-037</td><td>Eliminar solicitud</td><td>Como sistema, quiero permitir rechazar o cancelar solicitudes de unión a grupos.</td><td>2</td></tr>
+    <tr><td>3</td><td>TS-038</td><td>Obtener solicitudes de grupo</td><td>Como sistema, quiero listar todas las solicitudes de unión enviadas a un grupo.</td><td>2</td></tr>
+    <tr><td>3</td><td>TS-048</td><td>Modificar tarea tras aceptación de solicitud</td><td>Como developer, quiero actualizar una tarea luego de aceptar una solicitud para reflejar los cambios realizados.</td><td>2</td></tr>
+    <tr><td>3</td><td>TS-049</td><td>Actualizar tarea completada</td><td>Como developer, quiero actualizar el estado de una tarea marcada como completada para reflejar su cierre.</td><td>3</td></tr>
+    <tr><td>3</td><td>TS-051</td><td>Actualizar tarea completada con rechazo</td><td>Como developer, quiero actualizar una tarea completada cuando es rechazada para que el usuario realice correcciones.</td><td>2</td></tr>
+    <tr><td>3</td><td>TS-053</td><td>Actualizar tarea vencida</td><td>Como developer, quiero actualizar el estado de una tarea vencida para gestionar su reasignación.</td><td>2</td></tr>
     <tr><td>4</td><td>US-010</td><td>Notificaciones por email</td><td>Como miembro, quiero recibir notificaciones por email cuando no esté activo en la plataforma.</td><td>2</td></tr>
     <tr><td>4</td><td>US-011</td><td>Preferencias de notificación</td><td>Como miembro, quiero configurar qué notificaciones recibo para gestionar mi atención.</td><td>1</td></tr>
     <tr><td>4</td><td>US-014</td><td>Reporte de reprogramaciones</td><td>Como líder, quiero ver un gráfico de líneas con la cantidad de tareas reprogramadas por semana.</td><td>2</td></tr>
@@ -2442,6 +2918,11 @@ En esta sección, se presenta el mapa de empatía, que nos ayudará a comprender
     <tr><td>4</td><td>US-030</td><td>Confirmación antes de eliminar una tarea</td><td>Como líder, quiero recibir una confirmación antes de eliminar una tarea para evitar borrados accidentales.</td><td>1</td></tr>
     <tr><td>4</td><td>TS-021</td><td>Obtener notificaciones no leídas de usuario</td><td>Como developer, quiero obtener todas las notificaciones no leídas de un usuario para verificar que la API devuelve correctamente las notificaciones no leídas.</td><td>1</td></tr>
     <tr><td>4</td><td>TS-023</td><td>Obtener reportes de un usuario</td><td>Como developer, quiero obtener todos los reportes generados para un usuario para verificar que la API devuelve correctamente los reportes asociados al usuario.</td><td>1</td></tr>
+    <tr><td>4</td><td>TS-045</td><td>Eliminación de solicitud del sistema</td><td>Como developer, quiero eliminar solicitudes procesadas para limpiar el sistema y notificar al usuario.</td><td>1</td></tr>
+    <tr><td>4</td><td>TS-047</td><td>Eliminar solicitud tras aceptación</td><td>Como developer, quiero eliminar una solicitud después de que haya sido aceptada para mantener el sistema limpio.</td><td>1</td></tr>
+    <tr><td>4</td><td>TS-050</td><td>Eliminar solicitud tras tarea completada</td><td>Como developer, quiero eliminar la solicitud asociada tras la actualización de tarea completada para mantener la base limpia.</td><td>1</td></tr>
+    <tr><td>4</td><td>TS-052</td><td>Eliminar solicitud tras rechazo de tarea completada</td><td>Como developer, quiero eliminar la solicitud asociada tras el rechazo de una tarea completada para mantener el sistema actualizado.</td><td>1</td></tr>
+    <tr><td>4</td><td>TS-054</td><td>Eliminar solicitud tras tarea vencida</td><td>Como developer, quiero eliminar la solicitud relacionada a una tarea vencida para mantener el sistema actualizado.</td><td>1</td></tr>
   </tbody>
 </table>
 
