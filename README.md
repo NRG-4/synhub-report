@@ -9714,21 +9714,24 @@ Validar la usabilidad y efectividad de la landing page y la aplicación para cad
 
 #### 6.3.2. Registro de entrevistas
 
-A continuación se presentan los detalles clave de las entrevistas realizadas a los líderes.
+Todas las entrevistas se encuentran en el siguiente enlace: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202220033_upc_edu_pe/ERhNubuBgupHqSMD-uHMbYMBGUnymgiSsIZ6UfO1tQaymg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=beHMLq](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202220033_upc_edu_pe/ERhNubuBgupHqSMD-uHMbYMBGUnymgiSsIZ6UfO1tQaymg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=beHMLq)
+
+A continuación se presentan los detalles clave de las entrevistas realizadas a los líderes. 
 
 
 | **Entrevista 1: Coordinadores o Líderes de Grupo** |                                                                                                                                    |
-| --------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
-| Nombre de Entrevistado                              | Luis Angel Alejo Cardenas                                                                                                          |
-| Edad                                                | 25                                                                                                                                 |
+|----------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------|
+| Nombre de Entrevistado                             | Luis Angel Alejo Cardenas                                                                                                          |
+| Edad                                               | 25                                                                                                                                 |
 | Profesión                                          | Project Manager                                                                                                                    |
-| Distrito                                            | San Martin de Porres                                                                                                               |
+| Distrito                                           | San Martin de Porres                                                                                                               |
 | Duración de la Entrevista                          | 19:00                                                                                                                              |
+| Minuto de inicio                                   |                                                                                                                              |
 | **Análisis de la Entrevista**                      |                                                                                                                                    |
 | Creación de Grupos                                 | Nos comenta que la creacion de grupos fue bastante sencilla e intuitiva.                                                           |
 | Gestión de Tareas                                  | Es bastante sencillo la creacion de tareas preferiria que hubiera una leyenda que explique los colores de cada estado de la tarea. |
-| Generación de Reportes                             | Argumento que era la parte mas llamativa,ya que le permite mantenerse actualizado a como va el desempeño del grupo.               |
-| Solicitudes y Validaciones                          | Menciona que esta bien distribuido pero añadiria el color de la solicitud o validacion de fondo para que sea mas clara la idea.   |
+| Generación de Reportes                             | Argumento que era la parte mas llamativa,ya que le permite mantenerse actualizado a como va el desempeño del grupo.                |
+| Solicitudes y Validaciones                         | Menciona que esta bien distribuido pero añadiria el color de la solicitud o validacion de fondo para que sea mas clara la idea.    |
 | Navegación General                                 | Considera que la navegacion es un poco extensa para un nuevo usuario pero tiene una curva de aprendizaje corta o sencilla.         |
 
 <img src="images/chapter-6/entrevistaCoordinadorLiderDeGrupo1.png">
@@ -9745,6 +9748,7 @@ A continuación se presentan los detalles clave de las entrevistas realizadas a 
     <tr><td><strong>Profesión</strong></td><td>Coordinador de equipos universitarios</td></tr>
     <tr><td><strong>Distrito</strong></td><td>Surco</td></tr>
     <tr><td><strong>Duración de la Entrevista</strong></td><td>15:00</td></tr>
+    <tr><td><strong>Minuto de inicio</strong></td><td>27:46</td></tr>
     <tr><td><strong>Análisis de la Entrevista</strong></td><td>
       Flavio mostró una actitud positiva hacia la herramienta, destacando su facilidad de uso y la utilidad de las funciones principales. Sin embargo, identificó áreas de mejora relacionadas con la claridad de ciertas métricas y la visibilidad de algunos elementos clave, lo que sugiere que la experiencia de usuario podría optimizarse para usuarios nuevos o menos experimentados.
     </td></tr>
@@ -9781,6 +9785,7 @@ A continuación se presentan los detalles clave de las entrevistas realizadas a 
     <tr><td><strong>Profesión</strong></td><td>Líder de grupo de investigación</td></tr>
     <tr><td><strong>Distrito</strong></td><td>Magdalena del Mar</td></tr>
     <tr><td><strong>Duración de la Entrevista</strong></td><td>00:00</td></tr>
+    <tr><td><strong>Minuto de inicio</strong></td><td>30:42</td></tr>
     <tr><td><strong>Análisis de la Entrevista</strong></td><td>
       Arianna valoró la simplicidad y el enfoque visual de la plataforma, resaltando la importancia de la claridad para equipos grandes. Identificó oportunidades para mejorar la personalización y accesibilidad, especialmente para usuarios que recién se integran o que manejan múltiples proyectos simultáneamente.
     </td></tr>
@@ -9808,19 +9813,20 @@ A continuación se presentan los detalles clave de las entrevistas realizadas a 
 A continuación se presentan los detalles clave de las entrevistas realizadas a los miembros.
 
 
-| **Entrevista 4: Miembros del Equipo o Grupo |                                                                                                                                                                                                                                                                          |
-|---------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Nombre de Entrevistado                      | David Rivas                                                                                                                                                                                                                                                              |
-| Edad                                        | 21                                                                                                                                                                                                                                                                       |
-| Profesión                                   | Estudiante de Ingeniería de Software                                                                                                                                                                                                                                     |
-| Distrito                                    | Jesus María                                                                                                                                                                                                                                                              |
-| Duración de la Entrevista                   | 13:57                                                                                                                                                                                                                                                                    |
-| **Análisis de la Entrevista**               |                                                                                                                                                                                                                                                                          |
+| **Entrevista 4: Miembros del Equipo o Grupo |                                                                                                                                                                                                                                                                         |
+|---------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Nombre de Entrevistado                      | David Rivas                                                                                                                                                                                                                                                             |
+| Edad                                        | 21                                                                                                                                                                                                                                                                      |
+| Profesión                                   | Estudiante de Ingeniería de Software                                                                                                                                                                                                                                    |
+| Distrito                                    | Jesus María                                                                                                                                                                                                                                                             |
+| Duración de la Entrevista                   | 13:57                                                                                                                                                                                                                                                                   |
+| Minuto de inicio                            | 14:02                                                                                                                                                                                                                                                                   |
+| **Análisis de la Entrevista**               |                                                                                                                                                                                                                                                                         |
 | Unión y Visualización del Grupo             | El procedimiento para unirse a un grupo es sencillo y no requiere de demasiados pasos. Inicialmente mostró confusión con respecto al código del grupo en la visualización de detalles del grupo, y sugirió agregar un subtítulo que mencione que es el código del grupo. |
-| Listado de Tareas                           | Las tareas están bien organizadas y son fáciles de comprender, además de contener colores que permiten una fácil deducción del significado.                                                                                                                              |
-| Visualización de Solicitudes                | La pantalla está ordenada y tiene buen diseño, pero mostró confusión con respecto a la diferencia entre las tareas y las solicitudes en un inicio.                                                                                                                       |
-| Desempeño del Miembro                       | El desempeño del miembro es útil, y piensa que las variables son adecuadas, pero opina que podría haber algunas variables adicionales para considerar el reporte como completo.                                                                                          |
-| Navegación General                          | La navegación es clara y concisa, indica qué acción deseas realizar y a dónde se está navegando. La disponibilidad de "shortcuts" en la pantalla principal fue una buena idea.                                                                                           |
+| Listado de Tareas                           | Las tareas están bien organizadas y son fáciles de comprender, además de contener colores que permiten una fácil deducción del significado.                                                                                                                             |
+| Visualización de Solicitudes                | La pantalla está ordenada y tiene buen diseño, pero mostró confusión con respecto a la diferencia entre las tareas y las solicitudes en un inicio.                                                                                                                      |
+| Desempeño del Miembro                       | El desempeño del miembro es útil, y piensa que las variables son adecuadas, pero opina que podría haber algunas variables adicionales para considerar el reporte como completo.                                                                                         |
+| Navegación General                          | La navegación es clara y concisa, indica qué acción deseas realizar y a dónde se está navegando. La disponibilidad de "shortcuts" en la pantalla principal fue una buena idea.                                                                                          |
 
 ![EntrevistaDavid.png](images/chapter-6/EntrevistaDavid.png)
 
@@ -9831,6 +9837,7 @@ A continuación se presentan los detalles clave de las entrevistas realizadas a 
 | Profesión                                   | Estudiante de Psicología                                                                                                                                                                         |
 | Distrito                                    | Jesus María                                                                                                                                                                                      |
 | Duración de la Entrevista                   |                                                                                                                                                                                                  |
+| Minuto de inicio                            | 00:00                                                                                                                                                                                            |
 | **Análisis de la Entrevista**               |                                                                                                                                                                                                  |
 | Unión y Visualización del Grupo             | El procedimiento de unión a un grupo no ha sido confuso, y lo ve muy seguro, especialmente sabiendo que puede saber cuándo le han aceptado la invitación o no.                                   |
 | Listado de Tareas                           | Las tareas están detalladas y la manera en la que se presenta es muy agradable, pero no está convencida con los colores usados en la pantalla principal siendo igual al apartado de solicitudes. |
@@ -9852,6 +9859,7 @@ A continuación se presentan los detalles clave de las entrevistas realizadas a 
     <tr><td><strong>Profesión</strong></td><td>Estudiante universitario</td></tr>
     <tr><td><strong>Distrito</strong></td><td>Breña</td></tr>
     <tr><td><strong>Duración de la Entrevista</strong></td><td>00:00</td></tr>
+    <tr><td><strong>Minuto de inicio</strong></td><td>33:13</td></tr>
     <tr><td><strong>Análisis de la Entrevista</strong></td><td>
       Aldo percibió la plataforma como una herramienta que facilita la organización personal y grupal. Destacó la motivación que generan las métricas y la autonomía que le brinda el acceso a sus tareas y pendientes, aunque identificó oportunidades para mejorar la interacción y el feedback dentro de las tareas.
     </td></tr>
@@ -10033,6 +10041,12 @@ Tarea Evaluada: Solicitudes y Validaciones
 Recomendación: Utilizar un fondo de color más destacado o efectos visuales (como sombreado o bordes) para resaltar mejor las validaciones y facilitar su identificación inmediata.
 
 ### 6.4.  Video About-the-Product.
+
+| Sección                            | Descripción                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+|------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Resumen del video**              | El video presenta una introducción a la aplicación SynHub, destacando sus principales características y beneficios para la gestión de grupos. Se enfoca en cómo la app facilita la organización, asignación de tareas y seguimiento del desempeño para líderes. Se muestran ejemplos prácticos de uso, enfatizando la usabilidad y el diseño intuitivo de la interfaz.                                                                                                                                                                                                                                                                           |
+| **Cuadro de video Representativo** | <img src="images/chapter-6/about-the-product.png">                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+| **Url de video**                   | [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202220033_upc_edu_pe/EbLyyJWHGzNPqSvy1jzfmOsB9b7Q1nnWZ67fQRKKAuulCA?e=AYxmiq&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202220033_upc_edu_pe/EbLyyJWHGzNPqSvy1jzfmOsB9b7Q1nnWZ67fQRKKAuulCA?e=AYxmiq&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) |
 
 ## Conclusiones
 
