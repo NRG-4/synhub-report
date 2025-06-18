@@ -9616,7 +9616,14 @@ Para este sprint se desarrollaron 2 productos siendo estos: web application y we
 
 **Flutter Development**
 
+<img src="images/chapter-6/teamCollaborationInsightsDuringSprintFrontendFlutter1.png">
+<img src="images/chapter-6/teamCollaborationInsightsDuringSprintFrontendFlutter2.png">
+
 **Distribucion de commits:**
+
+* Alejo Cardenas Jose Antonio (Firtness): 2 commits
+* Astonitas Díaz Juan Diego (NeoRise456): 1 commits
+* Casas Sanchez Gabriel Alexander (Al3xiel): 41 commits
 
 **Backend**
 
@@ -9798,7 +9805,6 @@ A continuación se presentan los detalles clave de las entrevistas realizadas a 
 
 ![EntrevistaArianna.png](images/chapter-6/EntrevistaArianna.png)
 
-
 A continuación se presentan los detalles clave de las entrevistas realizadas a los miembros.
 
 
@@ -9895,15 +9901,12 @@ En esta sección se presentan las evaluaciones de usabilidad de la landing page 
 3. **Supervisión de Tareas del Grupo**: Evaluar si el líder puede entender con rapidez el estado de las tareas, reasignar o modificarlas fácilmente.
 4. **Acceso y Visualización de Reportes/Estadísticas**: Evaluar qué tan útil y comprensible es la información sobre desempeño del grupo para la toma de decisiones.
 
-
 **Para el Segmento Miembro:**
 
 1. **Unión e Identificación del Grupo**: Evaluar qué tan claro es el proceso para unirse a un grupo y visualizar correctamente los detalles del grupo.
 2. **Visualización y Gestión de Tareas**: Evaluar si las tareas son comprensibles, están bien organizadas y si los colores e iconos ayudan a la interpretación.
 3. **Gestión y Revisión de Solicitudes**: Evaluar si el miembro comprende la diferencia entre tareas asignadas y solicitudes dentro del grupo.
 4. **Visualización de su Desempeño Individual**: Evaluar si el miembro puede visualizar claramente su rendimiento y entender cómo está siendo evaluado.
-
-
 
 **Escala de Severidad** Los errores serán puntuados tomando en cuenta la siguiente escala de severidad:
 
@@ -9933,7 +9936,6 @@ En esta sección se presentan las evaluaciones de usabilidad de la landing page 
     </tr>
   </tbody>
 </table>
-
 
 **Tabla Resumen** La tabla de resumen muestra los problemas identificados, su nivel de severidad y el principio heurístico o diseño violado.
 
@@ -9999,7 +10001,6 @@ En esta sección se presentan las evaluaciones de usabilidad de la landing page 
     </tr>
   </tbody>
 </table>
-
 
 **Descripción de Problemas**
 
