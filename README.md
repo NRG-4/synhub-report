@@ -9726,8 +9726,77 @@ A continuación se presentan los detalles clave de las entrevistas realizadas a 
 
 <img src="images/chapter-6/entrevistaCoordinadorLiderDeGrupo1.png">
 
+<table border="1">
+  <thead>
+    <tr>
+      <th colspan="2">Entrevista 2: Coordinadores o Líderes de Grupo</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td><strong>Nombre de Entrevistado</strong></td><td>Flavio Gallardo</td></tr>
+    <tr><td><strong>Edad</strong></td><td>21</td></tr>
+    <tr><td><strong>Profesión</strong></td><td>Coordinador de equipos universitarios</td></tr>
+    <tr><td><strong>Distrito</strong></td><td>Surco</td></tr>
+    <tr><td><strong>Duración de la Entrevista</strong></td><td>15:00</td></tr>
+    <tr><td><strong>Análisis de la Entrevista</strong></td><td>
+      Flavio mostró una actitud positiva hacia la herramienta, destacando su facilidad de uso y la utilidad de las funciones principales. Sin embargo, identificó áreas de mejora relacionadas con la claridad de ciertas métricas y la visibilidad de algunos elementos clave, lo que sugiere que la experiencia de usuario podría optimizarse para usuarios nuevos o menos experimentados.
+    </td></tr>
+    <tr><td>Creación de Grupos</td><td>
+      Señala que fue un proceso fácil e intuitivo; valora que se genere el código automáticamente, ya que esto agiliza la incorporación de nuevos miembros. Menciona que la interfaz para crear grupos es clara y que los pasos están bien guiados, lo que reduce la posibilidad de errores. Sugiere que sería útil poder personalizar el mensaje de invitación para los nuevos integrantes.
+    </td></tr>
+    <tr><td>Gestión de Tareas</td><td>
+      Crear y editar tareas fue sencillo, aunque le costó entender la opción de reprogramar la fecha. Considera que un tutorial breve o mensajes contextuales ayudarían a clarificar esta función. Además, destaca que la posibilidad de asignar tareas a varios miembros a la vez es muy útil, pero le gustaría poder agregar etiquetas o prioridades para organizar mejor el trabajo.
+    </td></tr>
+    <tr><td>Generación de Reportes</td><td>
+      Le parecen útiles, pero algunas métricas no eran tan claras; sugiere incluir una explicación o ayuda. Por ejemplo, no comprendió de inmediato la diferencia entre "tareas completadas" y "tareas validadas". Recomienda incorporar íconos informativos o una sección de preguntas frecuentes accesible desde los reportes.
+    </td></tr>
+    <tr><td>Solicitudes y Validaciones</td><td>
+      Fácil de gestionar desde la app, aunque menciona que las solicitudes rechazadas deberían ocultarse para evitar confusiones. Propone que se pueda filtrar las solicitudes por estado y recibir notificaciones más visibles cuando una solicitud requiere atención inmediata.
+    </td></tr>
+    <tr><td>Navegación General</td><td>
+      Considera que está bien organizada en general, pero ubicar los reportes al inicio le resultó difícil. Sugiere que los reportes tengan un acceso directo desde el menú principal o que se resalten con un color distintivo. También menciona que la navegación entre secciones es fluida, pero que sería útil un buscador para acceder rápidamente a tareas o miembros.
+    </td></tr>
+  </tbody>
+</table>
+<br>
 
+![EntrevistaFlavio.png](images/chapter-6/EntrevistaFlavio.png)
 
+<table border="1">
+  <thead>
+    <tr>
+      <th colspan="2">Entrevista 3: Coordinadores o Líderes de Grupo</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td><strong>Nombre de Entrevistado</strong></td><td>Arianna Alvarez</td></tr>
+    <tr><td><strong>Edad</strong></td><td>20</td></tr>
+    <tr><td><strong>Profesión</strong></td><td>Líder de grupo de investigación</td></tr>
+    <tr><td><strong>Distrito</strong></td><td>Magdalena del Mar</td></tr>
+    <tr><td><strong>Duración de la Entrevista</strong></td><td>00:00</td></tr>
+    <tr><td><strong>Análisis de la Entrevista</strong></td><td>
+      Arianna valoró la simplicidad y el enfoque visual de la plataforma, resaltando la importancia de la claridad para equipos grandes. Identificó oportunidades para mejorar la personalización y accesibilidad, especialmente para usuarios que recién se integran o que manejan múltiples proyectos simultáneamente.
+    </td></tr>
+    <tr><td>Creación de Grupos</td><td>
+      El proceso fue claro y sin complicaciones; destaca la generación automática del código de invitación, lo que facilita la integración de nuevos miembros. Sugiere que sería útil poder ver una vista previa del grupo antes de finalizar la creación, para verificar los datos ingresados.
+    </td></tr>
+    <tr><td>Gestión de Tareas</td><td>
+      Crear y asignar fue fácil; sugiere agregar un espacio para comentarios dentro de las tareas al editarlas, permitiendo dejar instrucciones o aclaraciones para los miembros. Considera que la opción de adjuntar archivos sería un valor agregado para el seguimiento de tareas complejas.
+    </td></tr>
+    <tr><td>Generación de Reportes</td><td>
+      Considera que los reportes son útiles, pero que algunos términos deberían tener una explicación visible. Propone que al pasar el cursor sobre ciertos indicadores aparezca una breve descripción. Además, le gustaría poder exportar los reportes en diferentes formatos para compartirlos con otros coordinadores.
+    </td></tr>
+    <tr><td>Solicitudes y Validaciones</td><td>
+      Flujo claro y rápido, aunque propone mejorar el contraste de colores entre los distintos estados para facilitar la identificación visual. Sugiere que los estados de las solicitudes se acompañen de íconos o etiquetas para mayor claridad.
+    </td></tr>
+    <tr><td>Navegación General</td><td>
+      Estructura clara y con íconos intuitivos, aunque los reportes están un poco ocultos para el usuario nuevo. Recomienda que la sección de reportes tenga un acceso destacado o que se incluya en el recorrido inicial de la aplicación. También menciona que la navegación entre tareas y miembros es eficiente, pero sería útil un panel resumen en la pantalla principal.
+    </td></tr>
+  </tbody>
+</table>
+<br>
+
+![EntrevistaArianna.png](images/chapter-6/EntrevistaArianna.png)
 
 
 A continuación se presentan los detalles clave de las entrevistas realizadas a los miembros.
@@ -9761,6 +9830,44 @@ A continuación se presentan los detalles clave de las entrevistas realizadas a 
 | Visualización de Solicitudes               | El concepto de las solicitudes es muy buena, ya que los colores e íconos sirven como guía para comprender qué solicitud es.                                                                     |
 | Desempeño del Miembro                      | Considera el desempeño como una parte importante del manejo de grupos, y los datos propuestos son adecuados para las métricas.                                                                   |
 | Navegación General                         | La navegación es clara con respecto a los botones, no se perdió en ningún momento y los títulos presentados en cada pantalla la ponía en contexto de qué se trataba.                         |
+
+<table border="1">
+  <thead>
+    <tr>
+      <th colspan="2">Entrevista 5: Miembros del Equipo o Grupo</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td><strong>Nombre de Entrevistado</strong></td><td>Aldo Vasquez</td></tr>
+    <tr><td><strong>Edad</strong></td><td>22</td></tr>
+    <tr><td><strong>Profesión</strong></td><td>Estudiante universitario</td></tr>
+    <tr><td><strong>Distrito</strong></td><td>Breña</td></tr>
+    <tr><td><strong>Duración de la Entrevista</strong></td><td>00:00</td></tr>
+    <tr><td><strong>Análisis de la Entrevista</strong></td><td>
+      Aldo percibió la plataforma como una herramienta que facilita la organización personal y grupal. Destacó la motivación que generan las métricas y la autonomía que le brinda el acceso a sus tareas y pendientes, aunque identificó oportunidades para mejorar la interacción y el feedback dentro de las tareas.
+    </td></tr>
+    <tr><td>Listado de Tareas</td><td>
+      Encontró sus tareas fácilmente; la información le pareció clara y los estados comprensibles. Sugiere que se pueda filtrar las tareas por prioridad o fecha de entrega para organizar mejor su trabajo diario.
+    </td></tr>
+    <tr><td>Visualización de Solicitudes y Validaciones</td><td>
+      Le fue sencillo entender qué solicitudes requerían acción; valora la claridad del flujo. Propone que las notificaciones sean más personalizables, permitiendo elegir entre alertas visuales o por correo.
+    </td></tr>
+    <tr><td>Desempeño del Miembro</td><td>
+      Las métricas le resultan motivadoras; le gustó comparar su rendimiento en el grupo. Considera que sería útil recibir sugerencias automáticas para mejorar su desempeño, basadas en su historial de tareas.
+    </td></tr>
+    <tr><td>Navegación General</td><td>
+      Interfaz sencilla y bien organizada; solo le costó encontrar las métricas al inicio. Recomienda que las métricas estén visibles en la pantalla principal o que se pueda acceder a ellas desde un botón destacado.
+    </td></tr>
+    <tr><td>Diseño General</td><td>
+      Considera que los textos e íconos son claros, aunque propone hacer más grandes los botones en tareas para facilitar su uso en dispositivos móviles. Sugiere también que los colores sean más contrastantes para personas con dificultades visuales.
+    </td></tr>
+    <tr><td>Uso Regular</td><td>
+      Valora ver todo lo pendiente sin depender del líder; solo le desanima la falta de comentarios en tareas. Propone que se habilite una sección de comentarios o chat dentro de cada tarea para mejorar la comunicación y el seguimiento.
+    </td></tr>
+  </tbody>
+</table>
+
+![EntrevistaAldo.png](images/chapter-6/EntrevistaAldo.png)
 
 #### 6.3.3. Evaluaciones según heurísticas
 
