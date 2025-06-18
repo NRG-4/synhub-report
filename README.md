@@ -5269,6 +5269,12 @@ Los wireframes de Synhub representan la estructura y disposición de las pantall
 
 <img src="images/chapter-5/wireframe-6.png" alt="Wireframe 1" width="600"/>
 
+<img src="images/chapter-5/wireframe-7.png" alt="Wireframe 7" width="600"/>
+
+<img src="images/chapter-5/wireframe-8.png" alt="Wireframe 8" width="600"/>
+
+<img src="images/chapter-5/wireframe-9.png" alt="Wireframe 9" width="600"/>
+
 ##### 5.1.4.2. Mobile Applications Wireflow Diagrams
 
 Los wireflow diagrams de Synhub representan la secuencia de interacciones y pantallas que los usuarios experimentarán al navegar por la aplicación.
@@ -5303,6 +5309,29 @@ Los wireflow diagrams de Synhub representan la secuencia de interacciones y pant
 
 <img src="images/chapter-5/wireflow-7.png" alt="Wireflow 7" width="600"/>
 
+**Unirse a un grupo:** Este wireflow corresponde a cuando un miembro busca unirse a un grupo.
+
+<img src="images/chapter-5/wireflow-8.png" alt="Wireflow 8" width="600"/>
+
+
+**Enviar un comentario a una tarea:** Este wireflow corresponde a cuando un miembro busca sus tareas asignadas y envia un comentario a la tarea respectiva.
+
+
+<img src="images/chapter-5/wireflow-9.png" alt="Wireflow 9" width="600"/>
+
+
+**Visualizar solicitud o validacion pendiente:** Este wireflow corresponde a cuando un miembro busca sus solicitudes o validaciones pendientes.
+
+
+<img src="images/chapter-5/wireflow-10.png" alt="Wireflow 10" width="600"/>
+
+
+**Ver metricas de desempeño:** Este wireflow corresponde a cuando un miembro busca visualizar su desempeño mediante una metrica.
+
+
+<img src="images/chapter-5/wireflow-11.png" alt="Wireflow 11" width="600"/>
+
+
 ##### 5.1.4.3. Mobile Applications Mock-ups
 
 En esta sección se presentan y explican los Mock-ups de la aplicación. Se evidencia la aplicación de los principios y elementos de diseño, el diseño inclusivo, la arquitectura de información y el Design System establecido en el desarrollo de los wireframes. Cada mock-up ilustra cómo se implementan estos conceptos en la interfaz de usuario.
@@ -5320,6 +5349,12 @@ En esta sección se presentan y explican los Mock-ups de la aplicación. Se evid
 <img src="images/chapter-5/mockup-6.png" alt="Mockup 6" width="600"/>
 
 <img src="images/chapter-5/mockup-7.png" alt="Mockup 7" width="600"/>
+
+<img src="images/chapter-5/mockup-8.png" alt="Mockup 8" width="600"/>
+
+<img src="images/chapter-5/mockup-9.png" alt="Mockup 9" width="600"/>
+
+<img src="images/chapter-5/mockup-10.png" alt="Mockup 10" width="600"/>
 
 ##### 5.1.4.4. Mobile Applications User Flow Diagrams
 
@@ -5371,6 +5406,48 @@ Task flow: 🟥 Happy Path, 🟨 Error Path, 🟦 User Goal
 <img src="images/chapter-5/userflow-t7.png" alt="Userflow Table 7" width="600"/>
 
 <img src="images/chapter-5/userflow-7.png" alt="Userflow 7" width="600"/>
+
+**Unirse a un grupo:** Este wireflow corresponde a cuando un miembro busca unirse a un grupo.
+Task flow: 🟥 Happy Path, 🟨 Error Path, 🟦 User Goal
+
+
+<img src="images/chapter-5/userflow-t8.png" alt="Userflow t8" width="600"/>
+
+
+<img src="images/chapter-5/userflow-8.png" alt="Userflow t7" width="600"/>
+
+
+**Enviar un comentario a una tarea:** Este wireflow corresponde a cuando un miembro busca sus tareas asignadas y envia un comentario a la tarea respectiva.
+Task flow: 🟥 Happy Path, 🟨 Error Path, 🟦 User Goal
+
+
+<img src="images/chapter-5/userflow-t9.png" alt="Userflow t9" width="600"/>
+
+
+<img src="images/chapter-5/userflow-9.png" alt="Userflow t9" width="600"/>
+
+
+**Visualizar solicitud o validacion pendiente:** Este wireflow corresponde a cuando un miembro busca sus solicitudes o validaciones pendientes.
+Task flow: 🟥 Happy Path, 🟨 Error Path, 🟦 User Goal
+
+
+<img src="images/chapter-5/userflow-t10.png" alt="Userflow t10" width="600"/>
+
+
+<img src="images/chapter-5/userflow-10.png" alt="Userflow 10" width="600"/>
+
+
+**Ver metricas de desempeño:** Este wireflow corresponde a cuando un miembro busca visualizar su desempeño mediante una metrica.
+Task flow: 🟥 Happy Path, 🟨 Error Path, 🟦 User Goal
+
+
+
+<img src="images/chapter-5/userflow-t11.png" alt="Userflow t11" width="600"/>
+
+
+<img src="images/chapter-5/userflow-11.png" alt="Userflow 11" width="600"/>
+
+
 
 ##### 5.1.4.5. Mobile Applications Prototyping
 
@@ -6729,3 +6806,6 @@ Nielsen Norman Group. (n.d.). User Journey Mapping. [https://www.nngroup.com/art
 Sommerville, I. (2016). Software Engineering (10th ed.). Pearson Education. [https://www.pearson.com/en-us/subject-catalog/p/software-engineering/P200000005158/9780133943030](https://www.pearson.com/en-us/subject-catalog/p/software-engineering/P200000005158/9780133943030)
 
 ## Anexos
+
+**Visualizar solicitud o validacion pendiente:** Este wireflow corresponde a cuando un miembro busca sus solicitudes o validaciones pendientes.
+Task flow: 🟥 Happy Path, 🟨 Error Path, 🟦 User Goal
