@@ -9601,7 +9601,7 @@ Durante el desarrollo, se podrá generar un *build personal* de la aplicación e
 
 Para este sprint se desarrollaron 2 productos siendo estos: web application y web services. Para la landing page hubo un solo encargado debido a q ya se encontraba en la etapa final de su desarrollo. Para lode más productos todo los integrantes participaron. La distribución de commit fue la siguiente:
 
-**Frontend**
+**Android Native Development**
 
 <img src="images/chapter-6/teamCollaborationInsightsDuringSprintFrontend1.png">
 <img src="images/chapter-6/teamCollaborationInsightsDuringSprintFrontend2.png">
@@ -9614,8 +9614,11 @@ Para este sprint se desarrollaron 2 productos siendo estos: web application y we
 * Pacheco Astiguetta Sebastian (Pachieeee): 39 commits
 * Pasquale Barrenechea Gianluca Santino (cwassointt): 41 commits
 
-**Backend**
+**Flutter Development**
 
+**Distribucion de commits:**
+
+**Backend**
 
 <img src="images/chapter-6/teamCollaborationInsightsDuringSprintBackend1.png">
 <img src="images/chapter-6/teamCollaborationInsightsDuringSprintBackend2.png">
