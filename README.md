@@ -9636,30 +9636,38 @@ Para este sprint se desarrollaron 2 productos siendo estos: web application y we
 #### 6.3.1. Diseño de entrevistas
 
 ##### Objetivo de la Entrevista
+
 Validar la usabilidad y efectividad de la landing page y la aplicación para cada uno de los segmentos de usuarios, asegurando que los flujos de usuario (user flows) sean intuitivos y satisfactorios.
+
 ##### Elementos de Validación
+
 - **Landing Page**: Los usuarios interactuarán con la landing page para evaluar la claridad del mensaje, las llamadas a la acción (CTA), la navegación y el diseño.
 - **Aplicación para líderes**: Se guiará a los usuarios a través de flujos principales, como la creación de grupos, aceptar las solicitudes de unión, creación y edición de tareas, vista de métricas de desarrollo, manejo de solicitudes y validaciones, visualización de miembros junto a la creación e inicio de sesión de usuarios.
 - **Aplicación para miembros**: Se guiará a los usuarios a través de flujos principales, como la unión a grupos, la visualización de sus tareas, las solicitudes o validaciones que tiene pendiente y la visualización de sus estadísticas de desempeño.
+
 ##### User Flows a Validar
+
 - **Landing Page**:
+
   - Sección de Características: Listado de las características que SynHub ofrece con respecto a la aplicación.
   - Sección About Us y Team: Misión y Visión en SynHub, y el listado del equipo de desarrolladores.
-
 - **Aplicación Móvil para Líderes**:
+
   - Creación de Grupos: Facilidad para registrar un grupo en la aplicación, proporcionando un código generado para la invitación a miembros.
   - Gestión de Tareas: Visualizar, crear, modificar y eliminar tareas pertenecientes al grupo.
   - Generación de Reportes: Generar reportes y visualizar la distribución de tareas en el equipo.
   - Solicitudes y validaciones: Capacidad de gestionar y validar solicitudes respecto a tareas enviadas por los miembros.
-
 - **Aplicación Móvil para Miembros**:
+
   - Unión y Visualización del Grupo: Facilidad para enviar solicitud e unirse a un grupo y ver sus integrantes.
   - Listado de Tareas: Facilidad para gestionar tareas asignadas.
   - Visualización de Solicitudes: Visualizar el estado de las solicitudes enviadas.
   - Desempeño del Miembro: Visualizar el reporte generado a partir del desempeño del miembro.
 
 ##### Formato de Registro de la Entrevista
+
 **Landing Page**
+
 - ¿Qué fue lo primero que pensaste o sentiste al ver la landing page?
 - ¿Podrías describir con tus propias palabras qué ofrece esta plataforma?
 - ¿Te quedó claro el propósito de la plataforma con solo ver el título o el eslogan principal? ¿Qué mensaje te transmite?
@@ -9672,6 +9680,7 @@ Validar la usabilidad y efectividad de la landing page y la aplicación para cad
 - ¿Qué mejorarías en la landing page para que sea más clara, atractiva o útil para nuevos usuarios?
 
 **Segmento Líderes**
+
 - ¿Cómo fue tu experiencia al crear una cuenta e iniciar sesión como líder? ¿Qué tan claro te resultó este proceso?
 - ¿Pudiste crear un grupo sin complicaciones? ¿Hay algo en el proceso que te pareció confuso o innecesario?
 - ¿Cómo fue tu experiencia al revisar y aceptar solicitudes de miembros que querían unirse a tu grupo?
@@ -9685,6 +9694,7 @@ Validar la usabilidad y efectividad de la landing page y la aplicación para cad
 - ¿Crees que esta aplicación realmente te facilita liderar y coordinar a tu equipo? ¿Qué funciones destacarías como más útiles?
 
 **Segmento Miembros**
+
 - ¿Cómo fue tu experiencia al registrarte e iniciar sesión en la aplicación? ¿Hubo algo que te confunde o te tomará más tiempo de lo esperado?
 - ¿Lograste unirte a un grupo sin ayuda? ¿Qué tan claro te resultó el proceso y los pasos necesarios?
 - ¿Pudiste encontrar tus tareas fácilmente? ¿Cómo calificarías la claridad de la información mostrada en cada tarea?
@@ -9699,51 +9709,217 @@ Validar la usabilidad y efectividad de la landing page y la aplicación para cad
 
 A continuación se presentan los detalles clave de las entrevistas realizadas a los líderes.
 
-| **Entrevista 1: Coordinadores o Líderes de Grupo | |
-| - | - |
-| Nombre de Entrevistado | |
-| Edad | |
-| Profesión | |
-| Distrito | |
-| Duración de la Entrevista | |
-| **Análisis de la Entrevista** | |
-| Creación de Grupos | |
-| Gestión de Tareas | |
-| Generación de Reportes | |
-| Solicitudes y Validaciones | |
-| Navegación General | |
+
+| **Entrevista 1: Coordinadores o Líderes de Grupo** |                                                                                                                                    |
+| --------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
+| Nombre de Entrevistado                              | Luis Angel Alejo Cardenas                                                                                                          |
+| Edad                                                | 25                                                                                                                                 |
+| Profesión                                          | Project Manager                                                                                                                    |
+| Distrito                                            | San Martin de Porres                                                                                                               |
+| Duración de la Entrevista                          | 19:00                                                                                                                              |
+| **Análisis de la Entrevista**                      |                                                                                                                                    |
+| Creación de Grupos                                 | Nos comenta que la creacion de grupos fue bastante sencilla e intuitiva.                                                           |
+| Gestión de Tareas                                  | Es bastante sencillo la creacion de tareas preferiria que hubiera una leyenda que explique los colores de cada estado de la tarea. |
+| Generación de Reportes                             | Argumento que era la parte mas llamativa,ya que le permite mantenerse actualizado a como va el desempeño del grupo.               |
+| Solicitudes y Validaciones                          | Menciona que esta bien distribuido pero añadiria el color de la solicitud o validacion de fondo para que sea mas clara la idea.   |
+| Navegación General                                 | Considera que la navegacion es un poco extensa para un nuevo usuario pero tiene una curva de aprendizaje corta o sencilla.         |
+
+<img src="images/chapter-6/entrevistaCoordinadorLiderDeGrupo1.png">
+
+
+
+
 
 A continuación se presentan los detalles clave de las entrevistas realizadas a los miembros.
 
-| **Entrevista 4: Miembros del Equipo o Grupo |                                      |
-|---------------------------------------------|--------------------------------------|
-| Nombre de Entrevistado                      | David Rivas                          |
-| Edad                                        | 21                                   |
-| Profesión                                   | Estudiante de Ingeniería de Software |
-| Distrito                                    | Jesus María                          |
-| Duración de la Entrevista                   | 13:57 |
-| **Análisis de la Entrevista**               |                                      |
-| Unión y Visualización del Grupo | El procedimiento para unirse a un grupo es sencillo y no requiere de demasiados pasos. Inicialmente mostró confusión con respecto al código del grupo en la visualización de detalles del grupo, y sugirió agregar un subtítulo que mencione que es el código del grupo. |
-| Listado de Tareas                           | Las tareas están bien organizadas y son fáciles de comprender, además de contener colores que permiten una fácil deducción del significado. |
-| Visualización de Solicitudes                | La pantalla está ordenada y tiene buen diseño, pero mostró confusión con respecto a la diferencia entre las tareas y las solicitudes en un inicio. |
-| Desempeño del Miembro                       | El desempeño del miembro es útil, y piensa que las variables son adecuadas, pero opina que podría haber algunas variables adicionales para considerar el reporte como completo. |
-| Navegación General                          | La navegación es clara y concisa, indica qué acción deseas realizar y a dónde se está navegando. La disponibilidad de "shortcuts" en la pantalla principal fue una buena idea. |
 
-| **Entrevista 4: Miembros del Equipo o Grupo |                 |
-|---------------------------------------------|-----------------|
-| Nombre de Entrevistado                      | Camila Palacios |
-| Edad                                        | 21              |
-| Profesión                                   | Estudiante de Psicología     |
-| Distrito                                    | Jesus María     |
-| Duración de la Entrevista                   |                 |
-| **Análisis de la Entrevista**               |                 |
-| Unión y Visualización del Grupo | El procedimiento de unión a un grupo no ha sido confuso, y lo ve muy seguro, especialmente sabiendo que puede saber cuándo le han aceptado la invitación o no. |
+| **Entrevista 4: Miembros del Equipo o Grupo |                                                                                                                                                                                                                                                                                 |
+| ------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Nombre de Entrevistado                      | David Rivas                                                                                                                                                                                                                                                                     |
+| Edad                                        | 21                                                                                                                                                                                                                                                                              |
+| Profesión                                  | Estudiante de Ingeniería de Software                                                                                                                                                                                                                                           |
+| Distrito                                    | Jesus María                                                                                                                                                                                                                                                                    |
+| Duración de la Entrevista                  | 13:57                                                                                                                                                                                                                                                                           |
+| **Análisis de la Entrevista**              |                                                                                                                                                                                                                                                                                 |
+| Unión y Visualización del Grupo           | El procedimiento para unirse a un grupo es sencillo y no requiere de demasiados pasos. Inicialmente mostró confusión con respecto al código del grupo en la visualización de detalles del grupo, y sugirió agregar un subtítulo que mencione que es el código del grupo. |
+| Listado de Tareas                           | Las tareas están bien organizadas y son fáciles de comprender, además de contener colores que permiten una fácil deducción del significado.                                                                                                                                |
+| Visualización de Solicitudes               | La pantalla está ordenada y tiene buen diseño, pero mostró confusión con respecto a la diferencia entre las tareas y las solicitudes en un inicio.                                                                                                                          |
+| Desempeño del Miembro                      | El desempeño del miembro es útil, y piensa que las variables son adecuadas, pero opina que podría haber algunas variables adicionales para considerar el reporte como completo.                                                                                              |
+| Navegación General                         | La navegación es clara y concisa, indica qué acción deseas realizar y a dónde se está navegando. La disponibilidad de "shortcuts" en la pantalla principal fue una buena idea.                                                                                             |
+
+
+| **Entrevista 4: Miembros del Equipo o Grupo |                                                                                                                                                                                                    |
+| ------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Nombre de Entrevistado                      | Camila Palacios                                                                                                                                                                                    |
+| Edad                                        | 21                                                                                                                                                                                                 |
+| Profesión                                  | Estudiante de Psicología                                                                                                                                                                          |
+| Distrito                                    | Jesus María                                                                                                                                                                                       |
+| Duración de la Entrevista                  |                                                                                                                                                                                                    |
+| **Análisis de la Entrevista**              |                                                                                                                                                                                                    |
+| Unión y Visualización del Grupo           | El procedimiento de unión a un grupo no ha sido confuso, y lo ve muy seguro, especialmente sabiendo que puede saber cuándo le han aceptado la invitación o no.                                  |
 | Listado de Tareas                           | Las tareas están detalladas y la manera en la que se presenta es muy agradable, pero no está convencida con los colores usados en la pantalla principal siendo igual al apartado de solicitudes. |
-| Visualización de Solicitudes                | El concepto de las solicitudes es muy buena, ya que los colores e íconos sirven como guía para comprender qué solicitud es. |
-| Desempeño del Miembro                       | Considera el desempeño como una parte importante del manejo de grupos, y los datos propuestos son adecuados para las métricas. |
-| Navegación General                          | La navegación es clara con respecto a los botones, no se perdió en ningún momento y los títulos presentados en cada pantalla la ponía en contexto de qué se trataba. |
+| Visualización de Solicitudes               | El concepto de las solicitudes es muy buena, ya que los colores e íconos sirven como guía para comprender qué solicitud es.                                                                     |
+| Desempeño del Miembro                      | Considera el desempeño como una parte importante del manejo de grupos, y los datos propuestos son adecuados para las métricas.                                                                   |
+| Navegación General                         | La navegación es clara con respecto a los botones, no se perdió en ningún momento y los títulos presentados en cada pantalla la ponía en contexto de qué se trataba.                         |
 
 #### 6.3.3. Evaluaciones según heurísticas
+
+En esta sección se presentan las evaluaciones de usabilidad de la landing page y la aplicación mobile de servicios de coordinacion y administracion de grupos, basadas en heurísticas y principios de diseño.
+
+**UX Heuristics & Principles Evaluation** **Usability – Inclusive Design – Information Architecture**
+
+**Información del Proyecto**
+
+* **Carrera:** Ingeniería de Software
+* **Curso:** Aplicaciones Moviles
+* **Auditor:** NRG4
+* **Cliente:** NRG4
+* **Site o App a Evaluar:** SynHub
+
+**Tareas a Evaluar** El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas:
+
+**Para el Segmento Lider:**
+
+1. **Gestión y Navegación del Grupo**: Evaluar la facilidad con la que el líder puede visualizar, navegar y gestionar la información general de su grupo.
+2. **Gestión de Solicitudes y Validaciones**: Evaluar la claridad y eficacia del flujo para aceptar o rechazar solicitudes de unión, tareas o validaciones.
+3. **Supervisión de Tareas del Grupo**: Evaluar si el líder puede entender con rapidez el estado de las tareas, reasignar o modificarlas fácilmente.
+4. **Acceso y Visualización de Reportes/Estadísticas**: Evaluar qué tan útil y comprensible es la información sobre desempeño del grupo para la toma de decisiones.
+
+
+**Para el Segmento Miembro:**
+
+1. **Unión e Identificación del Grupo**: Evaluar qué tan claro es el proceso para unirse a un grupo y visualizar correctamente los detalles del grupo.
+2. **Visualización y Gestión de Tareas**: Evaluar si las tareas son comprensibles, están bien organizadas y si los colores e iconos ayudan a la interpretación.
+3. **Gestión y Revisión de Solicitudes**: Evaluar si el miembro comprende la diferencia entre tareas asignadas y solicitudes dentro del grupo.
+4. **Visualización de su Desempeño Individual**: Evaluar si el miembro puede visualizar claramente su rendimiento y entender cómo está siendo evaluado.
+
+
+
+**Escala de Severidad** Los errores serán puntuados tomando en cuenta la siguiente escala de severidad:
+
+<table  cellspacing="0" cellpadding="8">
+  <thead>
+    <tr>
+      <th>Nivel</th>
+      <th>Descripción</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>Problema superficial: puede ser fácilmente superado por el usuario o ocurre con muy poca frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo.</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Problema menor: puede ocurrir con más frecuencia o es más difícil de superar para el usuario. Debería tener una prioridad baja para resolverse en la próxima versión.</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlo. Debería tener alta prioridad para corregirse.</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>Problema muy grave: error que impide al usuario continuar utilizando la herramienta. Debe corregirse antes del lanzamiento.</td>
+    </tr>
+  </tbody>
+</table>
+
+
+**Tabla Resumen** La tabla de resumen muestra los problemas identificados, su nivel de severidad y el principio heurístico o diseño violado.
+
+<table cellspacing="0" cellpadding="8">
+  <thead>
+    <tr>
+      <th>#</th>
+      <th>Problema</th>
+      <th>Escala de severidad</th>
+      <th>Heurística/Principio violado</th>
+      <th>Tarea evaluada</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>Colores de estado de tareas sin leyenda explicativa</td>
+      <td>2</td>
+      <td>Consistencia y estándares</td>
+      <td>Gestión de Tareas</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Navegación extensa al inicio para nuevos usuarios</td>
+      <td>2</td>
+      <td>Minimización de carga cognitiva</td>
+      <td>Navegación General</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>Falta de diferenciación visual entre tareas y solicitudes</td>
+      <td>3</td>
+      <td>Reconocer mejor que recordar</td>
+      <td>Visualización de Solicitudes</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>Colores de solicitudes similares a otras secciones</td>
+      <td>2</td>
+      <td>Diseño estético y minimalista</td>
+      <td>Listado de Tareas</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>Falta de indicación clara para identificar el código del grupo</td>
+      <td>2</td>
+      <td>Ayuda y documentación</td>
+      <td>Unión y Visualización del Grupo</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>Variables de desempeño percibidas como incompletas</td>
+      <td>2</td>
+      <td>Visibilidad del estado del sistema</td>
+      <td>Visualización de Desempeño del Miembro</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>Fondo de validaciones no resalta lo suficiente</td>
+      <td>2</td>
+      <td>Consistencia y estándares</td>
+      <td>Solicitudes y Validaciones</td>
+    </tr>
+  </tbody>
+</table>
+
+
+**Descripción de Problemas**
+
+**Problema #1: Colores de estado de tareas sin leyenda explicativa**
+Tarea Evaluada: Gestión de Tareas
+Recomendación: Incluir una leyenda visible que explique el significado de cada color usado en el estado de las tareas. Esto permitirá a los usuarios interpretar rápidamente el estado de avance sin ambigüedades.
+
+**Problema #2: Navegación extensa al inicio para nuevos usuarios**
+Tarea Evaluada: Navegación General
+Recomendación: Simplificar el flujo de navegación para nuevos usuarios con una guía inicial o tour interactivo. Además, se pueden incorporar accesos directos para tareas comunes.
+
+**Problema #3: Falta de diferenciación visual entre tareas y solicitudes**
+Tarea Evaluada: Visualización de Solicitudes
+Recomendación: Utilizar elementos visuales distintivos como íconos, colores o bordes para separar claramente las tareas de las solicitudes y evitar confusiones.
+
+**Problema #4: Colores de solicitudes similares a otras secciones**
+Tarea Evaluada: Listado de Tareas
+Recomendación: Cambiar la paleta de colores para evitar redundancias visuales entre secciones. Cada tipo de información debe tener un estilo visual único y consistente.
+
+**Problema #5: Falta de indicación clara para identificar el código del grupo**
+Tarea Evaluada: Unión y Visualización del Grupo
+Recomendación: Agregar un subtítulo o etiqueta junto al código del grupo que diga explícitamente "Código de Grupo" para que no haya ambigüedad sobre su función.
+
+**Problema #6: Variables de desempeño percibidas como incompletas**
+Tarea Evaluada: Visualización de Desempeño del Miembro
+Recomendación: Incluir variables adicionales para enriquecer el reporte de desempeño, como tiempo de entrega, frecuencia de participación o aportes clave.
+
+**Problema #7: Fondo de validaciones no resalta lo suficiente**
+Tarea Evaluada: Solicitudes y Validaciones
+Recomendación: Utilizar un fondo de color más destacado o efectos visuales (como sombreado o bordes) para resaltar mejor las validaciones y facilitar su identificación inmediata.
 
 ### 6.4.  Video About-the-Product.
 
