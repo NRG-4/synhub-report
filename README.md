@@ -7511,6 +7511,8 @@ En esta sección se presentan los commits realizados en el repositorio de landin
   </tr>
 </table>
 
+
+
 **Commits realizados en el repositorio del Frontend durante el sprint 2:**
 
 <table>
@@ -8307,6 +8309,9 @@ En esta sección se presentan los commits realizados en el repositorio de landin
   <th>Jun 16 2025</th>
 </tr>
 </table>
+
+
+
 
 **Commits realizados en el repositorio del Backend durante el sprint 2:**
 
@@ -10467,6 +10472,806 @@ Para este sprint se desarrollaron 2 productos siendo estos: web application y we
 
 
 #### 6.2.3.3. Development Evidence for Sprint Review.
+
+**Commits realizados en el repositorio de la Landing Page durante el sprint 3:**
+
+<table>
+  <tr>
+    <th>Repository</th>
+    <th>Branch</th>
+    <th>Commit Id</th>
+    <th>Commit Message</th>
+    <th>Commit Message Body</th>
+    <th>Committed on (Date)</th>
+  </tr>
+  <tr>
+    <td>synhub-landing</td>
+    <td>master</td>
+    <td>690e99afbab468d3e31a7409aa68d2b74135f1f6</td>
+    <td>Merge pull request #2 from NRG-4/develop</td>
+    <td>Merge pull request #2 from NRG-4/develop</td>
+    <td>Jun 18 2025</td>
+  </tr>
+  <tr>
+    <td>synhub-landing</td>
+    <td>master</td>
+    <td>79d94fc2b202fb00d66587519ede0f5dbcdb8079</td>
+    <td>feat: add videos section to showcase project in action</td>
+    <td>feat: add videos section to showcase project in action</td>
+    <td>Jun 18 2025</td>
+  </tr>
+  <tr>
+    <td>synhub-landing</td>
+    <td>master</td>
+    <td>c2fd252e5fc116fdbc54a6244a23dc111065c0d9</td>
+    <td>fix: remove hash from section IDs for proper linking</td>
+    <td>fix: remove hash from section IDs for proper linking</td>
+    <td>Jun 18 2025</td>
+  </tr>
+</table>
+
+**Commits realizados en el repositorio del Frontend durante el sprint 3:**
+
+<table>
+  <tr>
+    <th>Repository</th>
+    <th>Branch</th>
+    <th>Commit Id</th>
+    <th>Commit Message</th>
+    <th>Commit Message Body</th>
+    <th>Committed on (Date)</th>
+  </tr>
+  <tr>
+  <td>synhub-frontend</td>
+  <td>develop</td>
+  <td>Pachieeee</td>
+  <td>feat(request): add BLoC provider for request handling in main.</td>
+  <td>feat(request): add BLoC provider for request handling in main.</td>
+  <td>Jul 5 2025</td>
+</tr>
+<tr>
+  <td>synhub-frontend</td>
+  <td>develop</td>
+  <td>Pachieeee</td>
+  <td>refactor(home): update navigation and labels for requests screen.</td>
+  <td>refactor(home): update navigation and labels for requests screen.</td>
+  <td>Jul 5 2025</td>
+</tr>
+<tr>
+  <td>synhub-frontend</td>
+  <td>develop</td>
+  <td>Pachieeee</td>
+  <td>refactor(request): rename RequestAndValidationsScreen to RequestsScreen and update initialization.</td>
+  <td>refactor(request): rename RequestAndValidationsScreen to RequestsScreen and update initialization.</td>
+  <td>Jul 5 2025</td>
+</tr>
+<tr>
+  <td>synhub-frontend</td>
+  <td>develop</td>
+  <td>Pachieeee</td>
+  <td>feat(request): add BLoC for request handling with events and states.</td>
+  <td>feat(request): add BLoC for request handling with events and states.</td>
+  <td>Jul 5 2025</td>
+</tr>
+<tr>
+  <td>synhub-frontend</td>
+  <td>develop</td>
+  <td>Pachieeee</td>
+  <td>feat(request): implement request service.</td>
+  <td>feat(request): implement request service.</td>
+  <td>Jul 5 2025</td>
+</tr>
+<tr>
+  <td>synhub-frontend</td>
+  <td>develop</td>
+  <td>Pachieeee</td>
+  <td>feat(request): add request model.</td>
+  <td>feat(request): add request model.</td>
+  <td>Jul 5 2025</td>
+</tr>
+  <tr>
+  <td>synhub-frontend</td>
+  <td>develop</td>
+  <td>223352986199aef60cd3b542a7d40d5e0f4a4ad9</td>
+  <td>chore(statistics_service): remove trailing whitespace for code cleanliness</td>
+  <td>chore(statistics_service): remove trailing whitespace for code cleanliness</td>
+  <td>Jul 4 2025</td>
+</tr>
+<tr>
+  <td>synhub-frontend</td>
+  <td>develop</td>
+  <td>79cf4a1adb94a219bb786e645efcc809a62b2533</td>
+  <td>feat(statistics): enhance task statistics display and improve layout for better readability</td>
+  <td>feat(statistics): enhance task statistics display and improve layout for better readability</td>
+  <td>Jul 4 2025</td>
+</tr>
+<tr>
+  <td>synhub-frontend</td>
+  <td>develop</td>
+  <td>5fbc13ca5ac758cb05c0d1555d0f2150e341c167</td>
+  <td>feat(statistics): add 'done' field to TaskOverview for enhanced task tracking</td>
+  <td>feat(statistics): add 'done' field to TaskOverview for enhanced task tracking</td>
+  <td>Jul 4 2025</td>
+</tr>
+<tr>
+  <td>synhub-frontend</td>
+  <td>develop</td>
+  <td>cbe81e61d769bfff17eef6401dfa6a3fffa0c88b</td>
+  <td>feat(metrics): add metrics summary to home screen with loading state management</td>
+  <td>feat(metrics): add metrics summary to home screen with loading state management</td>
+  <td>Jul 4 2025</td>
+</tr>
+  <tr>
+    <td>synhub-frontend</td>
+    <td>develop</td>
+    <td>63950cb69f8bc582b9c17287b0fefcf0e569cfa8</td>
+    <td>fix(home): update import path for statistics screen</td>
+    <td>fix(home): update import path for statistics screen</td>
+    <td>Jul 4 2025</td>
+  </tr>
+  <tr>
+    <td>synhub-frontend</td>
+    <td>develop</td>
+    <td>13f5e33d82c4873d1eca7d7597669152de4b1320</td>
+    <td>Merge pull request #6 from NRG-4/feat/metrics</td>
+    <td>Merge pull request #6 from NRG-4/feat/metrics</td>
+    <td>Jul 4 2025</td>
+  </tr>
+  <tr>
+    <td>synhub-frontend</td>
+    <td>develop</td>
+    <td>a5f96349b16a9f2b1fc09ab4424425bcd4d24245</td>
+    <td>Merge branch 'develop' into feat/metrics</td>
+    <td>Merge branch 'develop' into feat/metrics</td>
+    <td>Jul 4 2025</td>
+  </tr>
+  <tr>
+    <td>synhub-frontend</td>
+    <td>develop</td>
+    <td>31036c2deb192306a18bd358c30c43ee817bb968</td>
+    <td>feat(invitation): update invitation handling with improved UI and error management</td>
+    <td>feat(invitation): update invitation handling with improved UI and error management</td>
+    <td>Jul 3 2025</td>
+  </tr>
+  <tr>
+    <td>synhub-frontend</td>
+    <td>develop</td>
+    <td>92975508c5af8efbe56d75b2c686bdbd7a2e218d</td>
+    <td>feat(task): enhance task display with improved layout, date formatting, and dynamic status color indicators</td>
+    <td>feat(task): enhance task display with improved layout, date formatting, and dynamic status color indicators</td>
+    <td>Jul 3 2025</td>
+  </tr>
+  <tr>
+    <td>synhub-frontend</td>
+    <td>develop</td>
+    <td>b28ad3f1997f9b6bb4528eb0335fada82e9e5ab2</td>
+    <td>feat(statistics): add StatisticsState class for managing statistics states</td>
+    <td>feat(statistics): add StatisticsState class for managing statistics states</td>
+    <td>Jul 3 2025</td>
+  </tr>
+  <tr>
+    <td>synhub-frontend</td>
+    <td>develop</td>
+    <td>366c522e12159395a9f6c4521b0b023b1c1818b6</td>
+    <td>feat(statistics): add StatisticsService for fetching member statistics</td>
+    <td>feat(statistics): add StatisticsService for fetching member statistics</td>
+    <td>Jul 3 2025</td>
+  </tr>
+  <tr>
+    <td>synhub-frontend</td>
+    <td>develop</td>
+    <td>b1d5ac684d4822e4536ca46b0a2cb9acf733fb31</td>
+    <td>feat(statistics): add StatisticsScreen for displaying member performance metrics</td>
+    <td>feat(statistics): add StatisticsScreen for displaying member performance metrics</td>
+    <td>Jul 3 2025</td>
+  </tr>
+  <tr>
+    <td>synhub-frontend</td>
+    <td>develop</td>
+    <td>b349a18d6368d0a6c369e4342203e8197121980e</td>
+    <td>feat(statistics): add StatisticsEvent class for member statistics loading</td>
+    <td>feat(statistics): add StatisticsEvent class for member statistics loading</td>
+    <td>Jul 3 2025</td>
+  </tr>
+  <tr>
+    <td>synhub-frontend</td>
+    <td>develop</td>
+    <td>9f3465efc65f5973b7d039e08b3e44734dbc9a55</td>
+    <td>feat(member): implement loading next task functionality with state management</td>
+    <td>feat(member): implement loading next task functionality with state management</td>
+    <td>Jul 3 2025</td>
+  </tr>
+  <tr>
+    <td>synhub-frontend</td>
+    <td>develop</td>
+    <td>f8ad128c2208cf4c3da27420c11de64705315550</td>
+    <td>feat(statistics): implement StatisticsBloc for managing member statistics</td>
+    <td>feat(statistics): implement StatisticsBloc for managing member statistics</td>
+    <td>Jul 3 2025</td>
+  </tr>
+  <tr>
+    <td>synhub-frontend</td>
+    <td>develop</td>
+    <td>3af159ef77fd6f4ae8bc841b04fe3ab76fcc85f3</td>
+    <td>feat(statistics): add classes for task overview, distribution, and member statistics</td>
+    <td>feat(statistics): add classes for task overview, distribution, and member statistics</td>
+    <td>Jul 3 2025</td>
+  </tr>
+  <tr>
+    <td>synhub-frontend</td>
+    <td>develop</td>
+    <td>40b99c03693cfe2766bfef46ddbcbfb03e8b4004</td>
+    <td>feat(home): update navigation to pass member details to StatisticsScreen</td>
+    <td>feat(home): update navigation to pass member details to StatisticsScreen</td>
+    <td>Jul 3 2025</td>
+  </tr>
+  <tr>
+    <td>synhub-frontend</td>
+    <td>develop</td>
+    <td>c259ac8b817848ebdc6ecd457e5a55029904dd42</td>
+    <td>feat(group): implement leave group functionality with confirmation dialog and state management</td>
+    <td>feat(group): implement leave group functionality with confirmation dialog and state management</td>
+    <td>Jul 3 2025</td>
+  </tr>
+  <tr>
+    <td>synhub-frontend</td>
+    <td>develop</td>
+    <td>cb955adda281db0bd4a51c4f202201a5f42e2115</td>
+    <td>feat(tasks): enhance task display with color-coded status indicators and improved section organization</td>
+    <td>feat(tasks): enhance task display with color-coded status indicators and improved section organization</td>
+    <td>Jul 3 2025</td>
+  </tr>
+  <tr>
+    <td>synhub-frontend</td>
+    <td>develop</td>
+    <td>e8f89f5740773d0c907a6863f08d163e54608bef</td>
+    <td>feat(tasks): rename tasks.dart to task_screen.dart and update import path</td>
+    <td>feat(tasks): rename tasks.dart to task_screen.dart and update import path</td>
+    <td>Jul 1 2025</td>
+  </tr>
+  <tr>
+    <td>synhub-frontend</td>
+    <td>develop</td>
+    <td>3402f9d9c843bcc1dd0b80cf4a182de80d03225d</td>
+    <td>feat(task): update progress calculation to use seconds instead of days</td>
+    <td>feat(task): update progress calculation to use seconds instead of days</td>
+    <td>Jul 1 2025</td>
+  </tr>
+  <tr>
+    <td>synhub-frontend</td>
+    <td>develop</td>
+    <td>93b132fcbb7279bf29497b86c802526d0b71a93f</td>
+    <td>feat(task): update date formatting to include time in task details</td>
+    <td>feat(task): update date formatting to include time in task details</td>
+    <td>Jul 1 2025</td>
+  </tr>
+  <tr>
+    <td>synhub-frontend</td>
+    <td>develop</td>
+    <td>dd21f744eab26dba68b5e07c5cecc95ebc71f938</td>
+    <td>feat(login): update label and hint text for username input field</td>
+    <td>feat(login): update label and hint text for username input field</td>
+    <td>Jun 30 2025</td>
+  </tr>
+  <tr>
+    <td>synhub-frontend</td>
+    <td>develop</td>
+    <td>1e4175e43a30cee682e34648566fb4f2f3e62b36</td>
+    <td>feat(tasks): add help button to TaskScreen with task details and progress indicators</td>
+    <td>feat(tasks): add help button to TaskScreen with task details and progress indicators</td>
+    <td>Jun 30 2025</td>
+  </tr>
+  <tr>
+    <td>synhub-frontend</td>
+    <td>develop</td>
+    <td>996bad1fc7fc0d14783943b4afe60e0309abb351</td>
+    <td>feat(group): update GroupScreen to use ListView for member display and adjust member details</td>
+    <td>feat(group): update GroupScreen to use ListView for member display and adjust member details</td>
+    <td>Jun 30 2025</td>
+  </tr>
+  <tr>
+    <td>synhub-frontend</td>
+    <td>develop</td>
+    <td>d48caeb86c8692f62424e10e55a88e558e06e370</td>
+    <td>feat(group): enhance GroupScreen with dynamic app bar title and member list display</td>
+    <td>feat(group): enhance GroupScreen with dynamic app bar title and member list display</td>
+    <td>Jun 30 2025</td>
+  </tr>
+  <tr>
+    <td>synhub-frontend</td>
+    <td>ff253f58c409d6a8b784a1b9a882380d86438e8f</td>
+    <td>Firtness</td>
+    <td>feat(group): implement GroupScreen to display member group details</td>
+    <td>feat(group): implement GroupScreen to display member group details</td>
+    <td>Jun 30 2025</td>
+  </tr>
+  <tr>
+    <td>synhub-frontend</td>
+    <td>develop</td>
+    <td>23526b99ff470e9ba6038f4554ad7f2cee8ea34d</td>
+    <td>feat(group): add event handler for loading member group data</td>
+    <td>feat(group): add event handler for loading member group data</td>
+    <td>Jun 30 2025</td>
+  </tr>
+  <tr>
+    <td>synhub-frontend</td>
+    <td>develop</td>
+    <td>beb9a395917ef6db2bed9ac38a7fd7805a3b3d0e</td>
+    <td>feat(group): add MemberGroupLoaded state to represent loaded member group data</td>
+    <td>feat(group): add MemberGroupLoaded state to represent loaded member group data</td>
+    <td>Jun 30 2025</td>
+  </tr>
+  <tr>
+    <td>synhub-frontend</td>
+    <td>develop</td>
+    <td>f0d919ec575664dbc479878924b444192be6f403</td>
+    <td>feat(group): add LoadMemberGroupEvent class to handle loading member group events</td>
+    <td>feat(group): add LoadMemberGroupEvent class to handle loading member group events</td>
+    <td>Jun 30 2025</td>
+  </tr>
+  <tr>
+    <td>synhub-frontend</td>
+    <td>develop</td>
+    <td>3401b781f991322566d67a628cb71fc6834cf341</td>
+    <td>feat(group): add method to fetch member group details from API</td>
+    <td>feat(group): add method to fetch member group details from API</td>
+    <td>Jun 30 2025</td>
+  </tr>
+  <tr>
+    <td>synhub-frontend</td>
+    <td>develop</td>
+    <td>0c0d6226331dfdc750b3d1cc6447b437e2a6270f</td>
+    <td>feat(group): add members list to Group model and create Member model</td>
+    <td>feat(group): add members list to Group model and create Member model</td>
+    <td>Jun 30 2025</td>
+  </tr>
+  <tr>
+    <td>synhub-frontend</td>
+    <td>develop</td>
+    <td>6ff1bc79832d9643e5a41a7babedd1c9fe854ab0</td>
+    <td>fix(home): update import path for group screen</td>
+    <td>fix(home): update import path for group screen</td>
+    <td>Jun 30 2025</td>
+  </tr>
+   <tr>
+    <td>synhub-frontend</td>
+    <td>develop</td>
+    <td>e6f69d943bc1dc84d56e5643e3624e65109a0324</td>
+    <td>feat(task): add buttons for submitting comments and marking tasks as completed in TaskDetail screen</td>
+    <td>feat(task): add buttons for submitting comments and marking tasks as completed in TaskDetail screen</td>
+    <td>Jun 29 2025</td>
+  </tr>
+  <tr>
+    <td>synhub-frontend</td>
+    <td>develop</td>
+    <td>8426907d4e80c3476318b4305fc731c226d03f1b</td>
+    <td>feat(task): add TaskDetail screen for displaying task details and progress</td>
+    <td>feat(task): add TaskDetail screen for displaying task details and progress</td>
+    <td>Jun 29 2025</td>
+  </tr>
+  <tr>
+    <td>synhub-frontend</td>
+    <td>develop</td>
+    <td>3c46b2e9fb71568a692f84eb5cad0a080d98c00f</td>
+    <td>feat(task): integrate TaskBloc and MemberBloc into the main application and enhance TasksScreen with task loading and display functionality</td>
+    <td>feat(task): integrate TaskBloc and MemberBloc into the main application and enhance TasksScreen with task loading and display functionality</td>
+    <td>Jun 29 2025</td>
+  </tr>
+  <tr>
+    <td>synhub-frontend</td>
+    <td>develop</td>
+    <td>91f73d0bdc3e4c90c0d805a0102b0cb531d55c57</td>
+    <td>feat(task): implement TaskBloc for managing task-related events and states</td>
+    <td>feat(task): implement TaskBloc for managing task-related events and states</td>
+    <td>Jun 29 2025</td>
+  </tr>
+  <tr>
+    <td>synhub-frontend</td>
+    <td>develop</td>
+    <td>5c84396107e099cbb529c5586f665fa3ff00dc14</td>
+    <td>feat(task): add TaskState classes for managing task-related states</td>
+    <td>feat(task): add TaskState classes for managing task-related states</td>
+    <td>Jun 29 2025</td>
+  </tr>
+  <tr>
+    <td>synhub-frontend</td>
+    <td>develop</td>
+    <td>e3850c25199d7978d212d893f1014bc8b9931822</td>
+    <td>feat(task): add TaskEvent class and events for loading member tasks and task details</td>
+    <td>feat(task): add TaskEvent class and events for loading member tasks and task details</td>
+    <td>Jun 29 2025</td>
+  </tr>
+  <tr>
+    <td>synhub-frontend</td>
+    <td>develop</td>
+    <td>9e4cacba84c6685d436f4bc9b652f15fa86b463c</td>
+    <td>feat(task): implement TaskService for fetching member tasks and task details</td>
+    <td>feat(task): implement TaskService for fetching member tasks and task details</td>
+    <td>Jun 29 2025</td>
+  </tr>
+  <tr>
+    <td>synhub-frontend</td>
+    <td>develop</td>
+    <td>62d319cd9c86c64578a51cb80b09fa0022cf9865</td>
+    <td>feat(task): add Task model with JSON serialization</td>
+    <td>feat(task): add Task model with JSON serialization</td>
+    <td>Jun 29 2025</td>
+  </tr>
+  <tr>
+    <td>synhub-frontend</td>
+    <td>develop</td>
+    <td>d9cfb6a57b0e8a01db92d3bc71384e98bd0b825e</td>
+    <td>feat(dependencies): add intl package version 0.18.1 to pubspec.yaml</td>
+    <td>feat(dependencies): add intl package version 0.18.1 to pubspec.yaml</td>
+    <td>Jun 29 2025</td>
+  </tr>
+  <tr>
+    <td>synhub-frontend</td>
+    <td>develop</td>
+    <td>192780b61e8d4ca80ae24e6ee4085ce2ad181c12</td>
+    <td>fix(home): fixed navigation label for statistics to analytics and reports</td>
+    <td>fix(home): fixed navigation label for statistics to analytics and reports</td>
+    <td>Jun 29 2025</td>
+  </tr>
+  <tr>
+    <td>synhub-frontend</td>
+    <td>develop</td>
+    <td>a15592a9cb956d9f3b3bb1772bde716386fc6f9f</td>
+    <td>feat(ui): standardize background color for group, home, request & validations, and statistics screens</td>
+    <td>feat(ui): standardize background color for group, home, request & validations, and statistics screens</td>
+    <td>Jun 29 2025</td>
+  </tr>
+  <tr>
+    <td>synhub-frontend</td>
+    <td>develop</td>
+    <td>a49b56ef956b905f8e6931d89a5e8bdc837b9edb</td>
+    <td>Merge pull request #5 from NRG-4/develop</td>
+    <td>Merge pull request #5 from NRG-4/develop</td>
+    <td>Jun 17 2025</td>
+  </tr>
+</table>
+
+
+**Commits realizados en el repositorio del Backend durante el sprint 3:**
+
+<table>
+  <tr>
+    <th>Repository</th>
+    <th>Branch</th>
+    <th>Commit Id</th>
+    <th>Commit Message</th>
+    <th>Commit Message Body</th>
+    <th>Committed on (Date)</th>
+  </tr>
+  <tr>
+    <td>synhub-backend</td>
+    <td>feat/metrics</td>
+    <td>41f3db07736bed6c5235f708538999da554e41d4</td>
+    <td>feat(metrics): update rescheduled tasks calculations to sum total rearranged times</td>
+    <td>feat(metrics): update rescheduled tasks calculations to sum total rearranged times</td>
+    <td>Jul 4 2025</td>
+  </tr>
+  <tr>
+    <td>synhub-backend</td>
+    <td>feat/metrics</td>
+    <td>ca847054a93ee5150f9dd77341c5f7a1bbca6aca</td>
+    <td>Merge remote-tracking branch 'origin/feat/metrics' into feat/metrics</td>
+    <td>Merge remote-tracking branch 'origin/feat/metrics' into feat/metrics</td>
+    <td>Jul 4 2025</td>
+  </tr>
+  <tr>
+    <td>synhub-backend</td>
+    <td>feat/metrics</td>
+    <td>19b5e5def7b6048f5bbff5ee73c509da1b9eeecc</td>
+    <td>feat(metrics): update task status filter from COMPLETED to DONE in metrics queries</td>
+    <td>feat(metrics): update task status filter from COMPLETED to DONE in metrics queries</td>
+    <td>Jul 4 2025</td>
+  </tr>
+  <tr>
+    <td>synhub-backend</td>
+    <td>feat/metrics</td>
+    <td>45365e42c741812bcfebd6dd8df7940cea87f795</td>
+    <td>feat(metrics): implement query handlers for member task overview, distribution, rescheduled tasks, and average completion time</td>
+    <td>feat(metrics): implement query handlers for member task overview, distribution, rescheduled tasks, and average completion time</td>
+    <td>Jul 4 2025</td>
+  </tr>
+  <tr>
+    <td>synhub-backend</td>
+    <td>feat/metrics</td>
+    <td>fc66347b8d6182e0d03ad07cb89f6a6b8426e5b0</td>
+    <td>feat(metrics): add query handlers for member task overview, distribution, rescheduled tasks, and average completion time</td>
+    <td>feat(metrics): add query handlers for member task overview, distribution, rescheduled tasks, and average completion time</td>
+    <td>Jul 4 2025</td>
+  </tr>
+  <tr>
+    <td>synhub-backend</td>
+    <td>feat/metrics</td>
+    <td>64a01f47c8313590a10846056eeb7654f0ac2028</td>
+    <td>feat(metrics): add endpoints for member task overview, distribution, rescheduled tasks, and average completion time retrieval</td>
+    <td>feat(metrics): add endpoints for member task overview, distribution, rescheduled tasks, and average completion time retrieval</td>
+    <td>Jul 4 2025</td>
+  </tr>
+  <tr>
+    <td>synhub-backend</td>
+    <td>feat/metrics</td>
+    <td>11390525b5a0a7a71ea7acddd06fcbcfdb06381c</td>
+    <td>feat(metrics): add GetTaskOverviewForMemberQuery record for member task overview retrieval</td>
+    <td>feat(metrics): add GetTaskOverviewForMemberQuery record for member task overview retrieval</td>
+    <td>Jul 4 2025</td>
+  </tr>
+  <tr>
+    <td>synhub-backend</td>
+    <td>feat/metrics</td>
+    <td>34d8ec6f99091c492b45868e12f31c409c0c9fef</td>
+    <td>feat(metrics): add GetTaskDistributionForMemberQuery record for member task distribution retrieval</td>
+    <td>feat(metrics): add GetTaskDistributionForMemberQuery record for member task distribution retrieval</td>
+    <td>Jul 4 2025</td>
+  </tr>
+  <tr>
+    <td>synhub-backend</td>
+    <td>feat/metrics</td>
+    <td>5e1bc28f7e5749e40dd236cc64e7215f0463e747</td>
+    <td>feat(metrics): add GetRescheduledTasksForMemberQuery record for member rescheduled tasks retrieval</td>
+    <td>feat(metrics): add GetRescheduledTasksForMemberQuery record for member rescheduled tasks retrieval</td>
+    <td>Jul 4 2025</td>
+  </tr>
+  <tr>
+    <td>synhub-backend</td>
+    <td>feat/metrics</td>
+    <td>0eeada10cdd19d6b4b3b016a94737eac580d5b50</td>
+    <td>feat(metrics): add GetAvgCompletionTimeForMemberQuery record for member completion time retrieval</td>
+    <td>feat(metrics): add GetAvgCompletionTimeForMemberQuery record for member completion time retrieval</td>
+    <td>Jul 4 2025</td>
+  </tr>
+  <tr>
+    <td>synhub-backend</td>
+    <td>fix/requests</td>
+    <td>5aa5f707ecaa7e560a86d21ef5c14aa85b2cd7a0</td>
+    <td>chore(services): request command service implementation code cleanup.</td>
+    <td>chore(services): request command service implementation code cleanup.</td>
+    <td>Jul 4 2025</td>
+  </tr>
+  <tr>
+    <td>synhub-backend</td>
+    <td>fix/requests</td>
+    <td>3402b651ef6984ecd8383198cb215637ee84f388</td>
+    <td>chore(controllers): request controller code cleanup.</td>
+    <td>chore(controllers): request controller code cleanup.</td>
+    <td>Jul 4 2025</td>
+  </tr>
+  <tr>
+    <td>synhub-backend</td>
+    <td>fix/requests</td>
+    <td>63524f8d1eb3ed0773bda1ccd52f2ecb38d57609</td>
+    <td>Merge remote-tracking branch 'origin/fix/requests' into fix/requests</td>
+    <td>Merge remote-tracking branch 'origin/fix/requests' into fix/requests</td>
+    <td>Jul 4 2025</td>
+  </tr>
+  <tr>
+    <td>synhub-backend</td>
+    <td>fix/requests</td>
+    <td>342fdf819725c06c08feed602a82cb10a7100ee9</td>
+    <td>chore(services): remove commented line.</td>
+    <td>chore(services): remove commented line.</td>
+    <td>Jul 4 2025</td>
+  </tr>
+  <tr>
+    <td>synhub-backend</td>
+    <td>fix/requests</td>
+    <td>9b98f65f7dae531cbf498c70742b233635cfe03c</td>
+    <td>fix(requests-bounded-context): remove all instances of member id from requests, as they're embedded in task included in the request.</td>
+    <td>fix(requests-bounded-context): remove all instances of member id from requests, as they're embedded in task included in the request.</td>
+    <td>Jul 4 2025</td>
+  </tr>
+  <tr>
+    <td>synhub-backend</td>
+    <td>fix/requests</td>
+    <td>ac86926c507c5c02d7684ca9bc82985677fab6e4</td>
+    <td>feat(context-facade): add get task by id method for external usage.</td>
+    <td>feat(context-facade): add get task by id method for external usage.</td>
+    <td>Jul 4 2025</td>
+  </tr>
+  <tr>
+    <td>synhub-backend</td>
+    <td>fix/requests</td>
+    <td>e0ec9a7a6bc8175e487242c4ebf45640672b2e2d</td>
+    <td>fix(resources): change task variable type getter for requests.</td>
+    <td>fix(resources): change task variable type getter for requests.</td>
+    <td>Jul 4 2025</td>
+  </tr>
+  <tr>
+    <td>synhub-backend</td>
+    <td>fix/requests</td>
+    <td>fb47b0036b3468591486aabbe7a0717ecb8ec6e9</td>
+    <td>fix(services): imlement task context facade to get the task object.</td>
+    <td>fix(services): imlement task context facade to get the task object.</td>
+    <td>Jul 4 2025</td>
+  </tr>
+  <tr>
+    <td>synhub-backend</td>
+    <td>fix/requests</td>
+    <td>3fc03a42cadc6b8e29e41ee302b6bdb1eb692b30</td>
+    <td>fix(domain): change request's task id to task object.</td>
+    <td>fix(domain): change request's task id to task object.</td>
+    <td>Jul 4 2025</td>
+  </tr>
+  <tr>
+    <td>synhub-backend</td>
+    <td>develop</td>
+    <td>46cea413cf5499222111c60c8c1ec28d3f4ecc43</td>
+    <td>feat(tasks): add endpoint to fetch the next task for authenticated members</td>
+    <td>feat(tasks): add endpoint to fetch the next task for authenticated members</td>
+    <td>Jul 3 2025</td>
+  </tr>
+  <tr>
+    <td>synhub-backend</td>
+    <td>fix/requests</td>
+    <td>14e7c94ad8d6503893ff8baeda48a018e8f24cfc</td>
+    <td>chore(services): remove commented line.</td>
+    <td>chore(services): remove commented line.</td>
+    <td>Jul 2 2025</td>
+  </tr>
+  <tr>
+    <td>synhub-backend</td>
+    <td>fix/requests</td>
+    <td>1cb48f6f316591154056a73f2d2dca0dc449e50f</td>
+    <td>fix(requests-bounded-context): remove all instances of member id from requests, as they're embedded in task included in the request.</td>
+    <td>fix(requests-bounded-context): remove all instances of member id from requests, as they're embedded in task included in the request.</td>
+    <td>Jul 2 2025</td>
+  </tr>
+  <tr>
+    <td>synhub-backend</td>
+    <td>feat/metrics</td>
+    <td>3f90bdb36c4980d923d43b7bd3cbfab274e54f32</td>
+    <td>feat(metrics): implement query handlers for member task overview, distribution, rescheduled tasks, and average completion time</td>
+    <td>feat(metrics): implement query handlers for member task overview, distribution, rescheduled tasks, and average completion time</td>
+    <td>Jul 1 2025</td>
+  </tr>
+  <tr>
+    <td>synhub-backend</td>
+    <td>feat/metrics</td>
+    <td>1c509b4cb2892838cdccc4a9e2592db253b42d8f</td>
+    <td>feat(metrics): add query handlers for member task overview, distribution, rescheduled tasks, and average completion time</td>
+    <td>feat(metrics): add query handlers for member task overview, distribution, rescheduled tasks, and average completion time</td>
+    <td>Jul 1 2025</td>
+  </tr>
+  <tr>
+    <td>synhub-backend</td>
+    <td>feat/metrics</td>
+    <td>25e85bde97facf05fe6d2192e08936c3b8a5fe88</td>
+    <td>feat(metrics): add endpoints for member task overview, distribution, rescheduled tasks, and average completion time retrieval</td>
+    <td>feat(metrics): add endpoints for member task overview, distribution, rescheduled tasks, and average completion time retrieval</td>
+    <td>Jul 1 2025</td>
+  </tr>
+  <tr>
+    <td>synhub-backend</td>
+    <td>feat/metrics</td>
+    <td>760bf0318a7bb7973077761a302c5563e5484814</td>
+    <td>feat(metrics): add GetTaskOverviewForMemberQuery record for member task overview retrieval</td>
+    <td>feat(metrics): add GetTaskOverviewForMemberQuery record for member task overview retrieval</td>
+    <td>Jul 1 2025</td>
+  </tr>
+  <tr>
+    <td>synhub-backend</td>
+    <td>feat/metrics</td>
+    <td>da7d12d492f6e5efc087916c9a3f0336ae61f75d</td>
+    <td>feat(metrics): add GetTaskDistributionForMemberQuery record for member task distribution retrieval</td>
+    <td>feat(metrics): add GetTaskDistributionForMemberQuery record for member task distribution retrieval</td>
+    <td>Jul 1 2025</td>
+  </tr>
+  <tr>
+    <td>synhub-backend</td>
+    <td>feat/metrics</td>
+    <td>bbd98bc67ff54da5617cfead05984784a9c47f24</td>
+    <td>feat(metrics): add GetRescheduledTasksForMemberQuery record for member rescheduled tasks retrieval</td>
+    <td>feat(metrics): add GetRescheduledTasksForMemberQuery record for member rescheduled tasks retrieval</td>
+    <td>Jul 1 2025</td>
+  </tr>
+  <tr>
+    <td>synhub-backend</td>
+    <td>feat/metrics</td>
+    <td>32bee7795db961a68ba13cc8f948306b238d2926</td>
+    <td>feat(metrics): add GetAvgCompletionTimeForMemberQuery record for member completion time retrieval</td>
+    <td>feat(metrics): add GetAvgCompletionTimeForMemberQuery record for member completion time retrieval</td>
+    <td>Jul 1 2025</td>
+  </tr>
+  <tr>
+    <td>synhub-backend</td>
+    <td>fix/requests</td>
+    <td>b1a763c2dc0af863d3db0c8fd33d13b0c768bb52</td>
+    <td>feat(context-facade): add get task by id method for external usage.</td>
+    <td>feat(context-facade): add get task by id method for external usage.</td>
+    <td>Jul 1 2025</td>
+  </tr>
+  <tr>
+    <td>synhub-backend</td>
+    <td>fix/requests</td>
+    <td>23fb5ef8087ef70dcd02af6e0681c13d2e8c333a</td>
+    <td>fix(resources): change task variable type getter for requests.</td>
+    <td>fix(resources): change task variable type getter for requests.</td>
+    <td>Jul 1 2025</td>
+  </tr>
+  <tr>
+    <td>synhub-backend</td>
+    <td>fix/requests</td>
+    <td>5ff0d0f2d8645549dd38b61fd44121fffb184258</td>
+    <td>fix(services): imlement task context facade to get the task object.</td>
+    <td>fix(services): imlement task context facade to get the task object.</td>
+    <td>Jul 1 2025</td>
+  </tr>
+  <tr>
+    <td>synhub-backend</td>
+    <td>fix/requests</td>
+    <td>7a8d935257f82d01c10fe7b603ecc2f5a77788e9</td>
+    <td>fix(domain): change request's task id to task object.</td>
+    <td>fix(domain): change request's task id to task object.</td>
+    <td>Jul 1 2025</td>
+  </tr>
+  <tr>
+    <td>synhub-backend</td>
+    <td>develop</td>
+    <td>1df7c692524b2cf40068cbca561549be895cb8ab</td>
+    <td>feat(group): add LeaveGroupCommand and implement leave group functionality</td>
+    <td>feat(group): add LeaveGroupCommand and implement leave group functionality</td>
+    <td>Jul 1 2025</td>
+  </tr>
+  <tr>
+    <td>synhub-backend</td>
+    <td>develop</td>
+    <td>7d9030df811f6bebd6938f389facb3b3620ea761</td>
+    <td>feat(tasks): implement scheduled task status updates and enhance task status management</td>
+    <td>feat(tasks): implement scheduled task status updates and enhance task status management</td>
+    <td>Jul 1 2025</td>
+  </tr>
+  <tr>
+    <td>synhub-backend</td>
+    <td>develop</td>
+    <td>629ffff14e182f67fc56d2459197b8f1fc975e44</td>
+    <td>feat(group): add ExtendedGroupResource and assembler for group transformation</td>
+    <td>feat(group): add ExtendedGroupResource and assembler for group transformation</td>
+    <td>Jun 29 2025</td>
+  </tr>
+  <tr>
+    <td>synhub-backend</td>
+    <td>develop</td>
+    <td>e8697ad9ed0be9c7b876d6cf28deaddf94d898b4</td>
+    <td>refactor(date): replace Date with OffsetDateTime for better time handling</td>
+    <td>refactor(date): replace Date with OffsetDateTime for better time handling</td>
+    <td>Jun 29 2025</td>
+  </tr>
+  <tr>
+    <td>synhub-backend</td>
+    <td>develop</td>
+    <td>74013a0547cc8436a77f265a29b5ed1380fcfc2e</td>
+    <td>fix(docker): change exposed port from 8090 to 8080</td>
+    <td>fix(docker): change exposed port from 8090 to 8080</td>
+    <td>Jun 17 2025</td>
+  </tr>
+  <tr>
+    <td>synhub-backend</td>
+    <td>develop</td>
+    <td>ec5a0fc5bbe77cf1fa8ec7e594c220c19bca2d3b</td>
+    <td>feat(config): externalize database and JWT configuration properties</td>
+    <td>feat(config): externalize database and JWT configuration properties</td>
+    <td>Jun 17 2025</td>
+  </tr>
+  <tr>
+    <td>synhub-backend</td>
+    <td>develop</td>
+    <td>4fb83f3aff10e23ee315678813ebebfb18d66106</td>
+    <td>Merge pull request #16 from NRG-4/develop</td>
+    <td>Merge pull request #16 from NRG-4/develop</td>
+    <td>Jun 17 2025</td>
+  </tr>
+  <tr>
+    <td>synhub-backend</td>
+    <td>develop</td>
+    <td>8def6c882ad0e3c7377d2f5cc0a6bf553f7f1ae2</td>
+    <td>Merge pull request #15 from NRG-4/fix/requests</td>
+    <td>Merge pull request #15 from NRG-4/fix/requests</td>
+    <td>Jun 17 2025</td>
+  </tr>
+</table>
 
 #### 6.2.3.4. Testing Suite Evidence for Sprint Review.
 
