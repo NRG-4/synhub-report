@@ -201,104 +201,177 @@ Recapitulando los commits se dividieron de la siguiente manera:
 
 ## Contenido
 
-- [Student Outcome](#student-outcome)
-- [Objetivos SMART](#objetivos-smart)
-- [Capítulo I: Presentación](#capitulo-i-presentación)
-  - [1.1. Startup Profile](#11-startup-profile)
-    - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
-    - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
-  - [1.2. Solution Profile](#12-solution-profile)
-    - [1.2.1. Antecedentes y problemática](#121-antecedentes-y-problemática)
-    - [1.2.2. Lean UX Process](#122-lean-ux-process)
-      - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
-      - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
-      - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
-      - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
-  - [1.3. Segmentos Objetivo](#13-segmentos-objetivo)
-- [Capítulo II: Requirements Elicitation & Analysis](#capítulo-ii-requirements-elicitation--analysis)
-  - [2.1. Competidores](#21-competidores)
-    - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
-    - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
-  - [2.2. Entrevistas](#22-entrevistas)
-    - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
-    - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
-    - [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
-  - [2.3. Needfinding](#23-needfinding)
-    - [2.3.1. User Personas](#231-user-personas)
-    - [2.3.2. User Task Matrix](#232-user-task-matrix)
-    - [2.3.3. User Journey Mapping](#233-user-journey-mapping)
-    - [2.3.4. Empathy Mapping](#234-empathy-mapping)
-    - [2.3.5. As-is Scenario Mapping](#235-as-is-scenario-mapping)
-  - [2.4. Ubiquitous Language](#24-ubiquitous-language)
-- [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
-  - [3.1. To-Be Scenario Mapping](#31-to-be-scenario-mapping)
-  - [3.2. User Stories](#32-user-stories)
-  - [3.3. Impact Mapping](#33-impact-mapping)
-  - [3.4. Product Backlog](#34-product-backlog)
-- [Capítulo IV: Solution Software Design](#capítulo-iv-solution-software-design)
-  - [4.1. Strategic-Level Domain-Driven Design](#41-strategic-level-domain-driven-design)
-    - [4.1.1. EventStorming](#411-eventstorming)
-      - [4.1.1.1. Candidate Context Discovery](#4111-candidate-context-discovery)
-      - [4.1.1.2. Domain Message Flows Modeling](#4112-domain-message-flows-modeling)
-      - [4.1.1.3. Bounded Context Canvases](#4113-bounded-context-canvases)
-    - [4.1.2. Context Mapping](#412-context-mapping)
-    - [4.1.3. Software Architecture](#413-software-architecture)
-      - [4.1.3.1. Software Architecture Context Level Diagrams](#4131-software-architecture-context-level-diagrams)
-      - [4.1.3.2. Software Architecture Container Level Diagrams](#4132-software-architecture-container-level-diagrams)
-      - [4.1.3.3. Software Architecture Deployment Diagrams](#4133-software-architecture-deployment-diagrams)
-  - [4.2. Tactical-Level Domain-Driven Design](#42-tactical-level-domain-driven-design)
-    - [4.2.1. Bounded Context](#421-bounded-context)
-      - [4.2.1.1. Domain Layer](#4211-domain-layer)
-      - [4.2.1.2. Interface Layer](#4212-interface-layer)
-      - [4.2.1.3. Application Layer](#4213-application-layer)
-      - [4.2.1.4. Infrastructure Layer](#4214-infrastructure-layer)
-      - [4.2.1.5. Bounded Context Software Architecture Component Level Diagrams](#4215-bounded-context-software-architecture-component-level-diagrams)
-      - [4.2.1.6. Bounded Context Software Architecture Code Level Diagrams](#4216-bounded-context-software-architecture-code-level-diagrams)
+- [Universidad Peruana de Ciencias Aplicadas](#universidad-peruana-de-ciencias-aplicadas)
+    - [**CURSO:** Aplicaciones para Dispositivos Moviles](#curso-aplicaciones-para-dispositivos-moviles)
+    - [**NRC**: 358](#nrc-358)
+    - [**Profesor:** Eduardo Martin Reyes Rodriguez](#profesor-eduardo-martin-reyes-rodriguez)
+    - [**Ingeniería de software**](#ingeniería-de-software)
+  - [Informe de Trabajo Final](#informe-de-trabajo-final)
+    - [**Nombre del startup:** NRG4](#nombre-del-startup-nrg4)
+    - [**Nombre del producto:** SynHome](#nombre-del-producto-synhome)
+  - [**Integrantes**](#integrantes)
+  - [Registro de Versiones del Informe](#registro-de-versiones-del-informe)
+  - [Project Report Collaboration Insights](#project-report-collaboration-insights)
+  - [Contenido](#contenido)
+  - [Student Outcome](#student-outcome)
+  - [Objetivos SMART](#objetivos-smart)
+      - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
+    - [1.2. Solution Profile](#12-solution-profile)
+      - [1.2.1. Antecedentes y problemática](#121-antecedentes-y-problemática)
+      - [1.2.2. Lean UX Process](#122-lean-ux-process)
+        - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
+        - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
+        - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
+        - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
+    - [1.3. Segmentos Objetivo](#13-segmentos-objetivo)
+  - [Capítulo II: Requirements Elicitation \& Analysis](#capítulo-ii-requirements-elicitation--analysis)
+    - [2.1. Competidores](#21-competidores)
+      - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
+      - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
+    - [2.2. Entrevistas](#22-entrevistas)
+      - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
+      - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
+      - [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
+    - [2.3. Needfinding](#23-needfinding)
+      - [2.3.1. User Personas](#231-user-personas)
+      - [2.3.2. User Task Matrix](#232-user-task-matrix)
+      - [2.3.3. User Journey Mapping](#233-user-journey-mapping)
+      - [2.3.4. Empathy Mapping](#234-empathy-mapping)
+      - [2.3.5. As-is Scenario Mapping](#235-as-is-scenario-mapping)
+    - [2.4. Ubiquitous Language](#24-ubiquitous-language)
+  - [Capítulo III: Requirements specification](#capítulo-iii-requirements-specification)
+    - [3.1. To-Be Scenario Mapping](#31-to-be-scenario-mapping)
+    - [3.2. User Stories](#32-user-stories)
+    - [3.3. Impact Mapping](#33-impact-mapping)
+    - [3.4. Product Backlog](#34-product-backlog)
+  - [Capítulo IV: Solution Software Design](#capítulo-iv-solution-software-design)
+    - [4.1. Strategic-Level Domain-Driven Design](#41-strategic-level-domain-driven-design)
+      - [4.1.1. EventStorming](#411-eventstorming)
+        - [4.1.1.1. Candidate Context Discovery](#4111-candidate-context-discovery)
+        - [4.1.1.2. Domain Message Flows Modeling](#4112-domain-message-flows-modeling)
+        - [4.1.1.3. Bounded Context Canvases](#4113-bounded-context-canvases)
+      - [4.1.2. Context Mapping](#412-context-mapping)
+      - [4.1.3. Software Architecture](#413-software-architecture)
+        - [4.1.3.1. Software Architecture Context Level Diagrams](#4131-software-architecture-context-level-diagrams)
+        - [4.1.3.2. Software Architecture Container Level Diagrams](#4132-software-architecture-container-level-diagrams)
+        - [4.1.3.3. Software Architecture Deployment Diagrams](#4133-software-architecture-deployment-diagrams)
+    - [4.2. Tactical-Level Domain-Driven Design](#42-tactical-level-domain-driven-design)
+      - [4.2.1. Bounded Context: Analítica y Reportes](#421-bounded-context-analítica-y-reportes)
+        - [4.2.1.1. Domain Layer](#4211-domain-layer)
+        - [4.2.1.2. Interface Layer](#4212-interface-layer)
+        - [4.2.1.3. Application Layer](#4213-application-layer)
+        - [4.2.1.4. Infrastructure Layer](#4214-infrastructure-layer)
+        - [4.2.1.5. Bounded Context Software Architecture Component Level Diagrams](#4215-bounded-context-software-architecture-component-level-diagrams)
+        - [4.2.1.6. Bounded Context Software Architecture Code Level Diagrams](#4216-bounded-context-software-architecture-code-level-diagrams)
         - [4.2.1.6.1. Bounded Context Domain Layer Class Diagrams](#42161-bounded-context-domain-layer-class-diagrams)
-        - [4.2.1.6.2. Bounded Context Database Design Diagram](#42162-bounded-context-database-design-diagram)
-- [Capítulo V: Solution UI/UX Design](#capítulo-v-solution-uiux-design)
-  - [5.1. Product Design](#51-product-design)
-    - [5.1.1. Style Guidelines](#511-style-guidelines)
-      - [5.1.1.1. General Style Guidelines](#5111-general-style-guidelines)
-    - [5.1.2. Information Architecture](#512-information-architecture)
-      - [5.1.2.1. Organization Systems](#5121-organization-systems)
-      - [5.1.2.2. Labeling Systems](#5122-labeling-systems)
-      - [5.1.2.3. SEO Tags and Meta Tags](#5123-seo-tags-and-meta-tags)
-      - [5.1.2.4. Searching Systems](#5124-searching-systems)
-      - [5.1.2.5. Navigation Systems](#5125-navigation-systems)
-    - [5.1.3. Landing Page UI Design](#513-landing-page-ui-design)
-      - [5.1.3.1. Landing Page Wireframe](#5131-landing-page-wireframe)
-      - [5.1.3.2. Landing Page Mock-up](#5132-landing-page-mock-up)
-    - [5.1.4. Mobile Applications UX/UI Design](#514-mobile-applications-uxui-design)
-      - [5.1.4.1. Mobile Applications Wireframes](#5141-mobile-applications-wireframes)
-      - [5.1.4.2. Mobile Applications Wireflow Diagrams](#5142-mobile-applications-wireflow-diagrams)
-      - [5.1.4.3. Mobile Applications Mock-ups](#5143-mobile-applications-mock-ups)
-      - [5.1.4.4. Mobile Applications User Flow Diagrams](#5144-mobile-applications-user-flow-diagrams)
-      - [5.1.4.5. Mobile Applications Prototyping](#5145-mobile-applications-prototyping)
-- [Capítulo VI: Product Implementation, Validation & Deployment](#capítulo-vi-product-implementation-validation--deployment)
-  - [6.1. Software Configuration Management](#61-software-configuration-management)
-    - [6.1.1. Software Development Environment Configuration](#611-software-development-environment-configuration)
-    - [6.1.2. Source Code Management](#612-source-code-management)
-    - [6.1.3. Source Code Style Guide \& Conventions](#613-source-code-style-guide--conventions)
-    - [6.1.4. Software Deployment Configuration](#614-software-deployment-configuration)
-  - [6.2. Landing Page \& Mobile Application Implementation](#62-landing-page--mobile-application-implementation)
-    - [6.2.1. Sprint 1](#621-sprint-1)
-      - [6.2.1.1. Sprint Planning 1](#6211-sprint-planning-1)
-      - [6.2.1.2. Sprint Backlog 1](#6212-sprint-backlog-1)
-      - [6.2.1.3. Development Evidence for Sprint Review](#6213-development-evidence-for-sprint-review)
-      - [6.2.1.4. Testing Suite Evidence for Sprint Review](#6214-testing-suite-evidence-for-sprint-review)
-      - [6.2.1.5. Execution Evidence for Sprint Review](#6215-execution-evidence-for-sprint-review)
-      - [6.2.1.6. Services Documentation Evidence for Sprint Review](#6216-services-documentation-evidence-for-sprint-review)
-      - [6.2.1.7. Software Deployment Evidence for Sprint Review](#6217-software-deployment-evidence-for-sprint-review)
-      - [6.2.1.8. Team Collaboration Insights during Sprint](#6218-team-collaboration-insights-during-sprint)
-  - [6.3. Validation Interviews](#63-validation-interviews)
-    - [6.3.1. Diseño de entrevistas](#631-diseño-de-entrevistas)
-    - [6.3.2. Registro de entrevistas](#632-registro-de-entrevistas)
-    - [6.3.3. Evaluaciones según heurísticas](#633-evaluaciones-según-heurísticas)
-  - [6.4. Video About-the-Product](#64-video-about-the-product)
-- [Conclusiones](#conclusiones)
-- [Bibliografía](#bibliografía)
-- [Anexos](#anexos)
+      - [4.2.2. Bounded Context: Notificaciones](#422-bounded-context-notificaciones)
+        - [4.2.2.1. Domain Layer](#4221-domain-layer)
+        - [4.2.2.2. Interface Layer](#4222-interface-layer)
+        - [4.2.2.3. Application Layer](#4223-application-layer)
+        - [4.2.2.4. Infrastructure Layer](#4224-infrastructure-layer)
+        - [4.2.2.5. Bounded Context Software Architecture Component Level Diagrams](#4225-bounded-context-software-architecture-component-level-diagrams)
+        - [4.2.2.6. Bounded Context Software Architecture Code Level Diagrams](#4226-bounded-context-software-architecture-code-level-diagrams)
+        - [4.2.2.6.1. Bounded Context Domain Layer Class Diagrams](#42261-bounded-context-domain-layer-class-diagrams)
+      - [4.2.3. Bounded Context: Gestión de grupos](#423-bounded-context-gestión-de-grupos)
+        - [4.2.3.1. Domain Layer](#4231-domain-layer)
+        - [4.2.3.2. Interface Layer](#4232-interface-layer)
+        - [4.2.3.3. Application Layer](#4233-application-layer)
+        - [4.2.3.4. Infrastructure Layer](#4234-infrastructure-layer)
+        - [4.2.3.5. Bounded Context Software Architecture Component Level Diagrams](#4235-bounded-context-software-architecture-component-level-diagrams)
+        - [4.2.3.6. Bounded Context Software Architecture Code Level Diagrams](#4236-bounded-context-software-architecture-code-level-diagrams)
+          - [4.2.3.6.1. Bounded Context Domain Layer Class Diagrams](#42361-bounded-context-domain-layer-class-diagrams)
+          - [4.2.3.6.2. Bounded Context Database Design Diagram](#42362-bounded-context-database-design-diagram)
+      - [4.2.4. Bounded Context: Solicitudes y Validaciones](#424-bounded-context-solicitudes-y-validaciones)
+        - [4.2.4.1. Domain Layer](#4241-domain-layer)
+        - [4.2.4.2. Interface Layer](#4242-interface-layer)
+        - [4.2.4.3. Application Layer](#4243-application-layer)
+        - [4.2.4.4. Infrastructure Layer](#4244-infrastructure-layer)
+        - [4.2.4.5. Bounded Context Software Architecture Component Level Diagrams](#4245-bounded-context-software-architecture-component-level-diagrams)
+        - [4.2.4.6. Bounded Context Software Architecture Code Level Diagrams](#4246-bounded-context-software-architecture-code-level-diagrams)
+          - [4.2.4.6.1. Bounded Context Domain Layer Class Diagrams](#42461-bounded-context-domain-layer-class-diagrams)
+          - [4.2.4.6.2. Bounded Context Database Design Diagram](#42462-bounded-context-database-design-diagram)
+        - [4.2.5.1. Domain Layer](#4251-domain-layer)
+    - [**Aggregate: `TaskAggregate`**](#aggregate-taskaggregate)
+    - [**Entities:**](#entities)
+    - [**Value Objects**](#value-objects)
+    - [**Factories**](#factories)
+    - [**Domain Services**](#domain-services)
+        - [4.2.5.2. Interface Layer](#4252-interface-layer)
+    - [**Controllers**](#controllers)
+        - [4.2.5.3. Application Layer](#4253-application-layer)
+    - [**Command Handlers**](#command-handlers)
+    - [**Event Handlers**](#event-handlers)
+        - [4.2.5.4. Infrastructure Layer](#4254-infrastructure-layer)
+    - [**Repositories**](#repositories)
+        - [4.2.5.5. Bounded Context Software Architecture Component Level Diagrams](#4255-bounded-context-software-architecture-component-level-diagrams)
+        - [4.2.5.6. Bounded Context Software Architecture Code Level Diagrams](#4256-bounded-context-software-architecture-code-level-diagrams)
+          - [4.2.5.6.1. Bounded Context Domain Layer Class Diagrams](#42561-bounded-context-domain-layer-class-diagrams)
+          - [4.2.5.6.2. Bounded Context Database Design Diagram](#42562-bounded-context-database-design-diagram)
+  - [Capítulo V: Solution UI/UX Design](#capítulo-v-solution-uiux-design)
+    - [5.1. Product Design](#51-product-design)
+      - [5.1.1. Style Guidelines](#511-style-guidelines)
+        - [5.1.1.1. General Style Guidelines](#5111-general-style-guidelines)
+      - [5.1.2. Information Architecture](#512-information-architecture)
+        - [5.1.2.1. Organization Systems](#5121-organization-systems)
+        - [5.1.2.2. Labeling Systems](#5122-labeling-systems)
+        - [5.1.2.3. SEO Tags and Meta Tags](#5123-seo-tags-and-meta-tags)
+        - [5.1.2.4. Searching Systems](#5124-searching-systems)
+        - [5.1.2.5. Navigation Systems](#5125-navigation-systems)
+      - [5.1.3. Landing Page UI Design](#513-landing-page-ui-design)
+        - [5.1.3.1. Landing Page Wireframe](#5131-landing-page-wireframe)
+        - [5.1.3.2. Landing Page Mock-up](#5132-landing-page-mock-up)
+      - [5.1.4. Mobile Applications UX/UI Design](#514-mobile-applications-uxui-design)
+        - [5.1.4.1. Mobile Applications Wireframes](#5141-mobile-applications-wireframes)
+        - [5.1.4.2. Mobile Applications Wireflow Diagrams](#5142-mobile-applications-wireflow-diagrams)
+        - [5.1.4.3. Mobile Applications Mock-ups](#5143-mobile-applications-mock-ups)
+        - [5.1.4.4. Mobile Applications User Flow Diagrams](#5144-mobile-applications-user-flow-diagrams)
+        - [5.1.4.5. Mobile Applications Prototyping](#5145-mobile-applications-prototyping)
+  - [Capítulo VI: Product Implementation, Validation \& Deployment](#capítulo-vi-product-implementation-validation--deployment)
+    - [6.1. Software Configuration Management](#61-software-configuration-management)
+      - [6.1.1. Software Development Environment Configuration](#611-software-development-environment-configuration)
+      - [6.1.2. Source Code Management](#612-source-code-management)
+      - [6.1.3. Source Code Style Guide \& Conventions](#613-source-code-style-guide--conventions)
+      - [6.1.4. Software Deployment Configuration](#614-software-deployment-configuration)
+    - [6.2. Landing Page \& Mobile Application Implementation](#62-landing-page--mobile-application-implementation)
+      - [6.2.1. Sprint 1](#621-sprint-1)
+        - [6.2.1.1. Sprint Planning 1](#6211-sprint-planning-1)
+        - [6.2.1.2. Sprint Backlog 1](#6212-sprint-backlog-1)
+        - [6.2.1.3. Development Evidence for Sprint Review](#6213-development-evidence-for-sprint-review)
+        - [6.2.1.4. Testing Suite Evidence for Sprint Review](#6214-testing-suite-evidence-for-sprint-review)
+        - [6.2.1.5. Execution Evidence for Sprint Review](#6215-execution-evidence-for-sprint-review)
+        - [6.2.1.6. Services Documentation Evidence for Sprint Review](#6216-services-documentation-evidence-for-sprint-review)
+        - [6.2.1.7. Software Deployment Evidence for Sprint Review](#6217-software-deployment-evidence-for-sprint-review)
+        - [6.2.1.8. Team Collaboration Insights during Sprint](#6218-team-collaboration-insights-during-sprint)
+    - [6.2.1. Sprint 2](#621-sprint-2)
+      - [6.2.2.1. Sprint Planning 2.](#6221-sprint-planning-2)
+      - [6.2.2.2. Sprint Backlog 2.](#6222-sprint-backlog-2)
+      - [6.2.2.3. Development Evidence for Sprint Review.](#6223-development-evidence-for-sprint-review)
+      - [6.2.2.4. Testing Suite Evidence for Sprint Review.](#6224-testing-suite-evidence-for-sprint-review)
+      - [6.2.2.5. Execution Evidence for Sprint Review.](#6225-execution-evidence-for-sprint-review)
+      - [6.2.2.6. Services Documentation Evidence for Sprint Review.](#6226-services-documentation-evidence-for-sprint-review)
+      - [6.2.2.7. Software Deployment Evidence for Sprint Review.](#6227-software-deployment-evidence-for-sprint-review)
+      - [6.2.2.8. Team Collaboration Insights during Sprint.](#6228-team-collaboration-insights-during-sprint)
+    - [6.2.3. Sprint 3](#623-sprint-3)
+      - [6.2.2.1. Sprint Planning 3.](#6221-sprint-planning-3)
+      - [6.2.2.2. Sprint Backlog 3.](#6222-sprint-backlog-3)
+      - [6.2.2.3. Development Evidence for Sprint Review.](#6223-development-evidence-for-sprint-review-1)
+      - [6.2.2.4. Testing Suite Evidence for Sprint Review.](#6224-testing-suite-evidence-for-sprint-review-1)
+      - [6.2.2.5. Execution Evidence for Sprint Review.](#6225-execution-evidence-for-sprint-review-1)
+      - [6.2.2.6. Services Documentation Evidence for Sprint Review.](#6226-services-documentation-evidence-for-sprint-review-1)
+      - [6.2.2.7. Software Deployment Evidence for Sprint Review.](#6227-software-deployment-evidence-for-sprint-review-1)
+      - [6.2.2.8. Team Collaboration Insights during Sprint.](#6228-team-collaboration-insights-during-sprint-1)
+    - [6.3. Validation Interviews](#63-validation-interviews)
+      - [6.3.1. Diseño de entrevistas](#631-diseño-de-entrevistas)
+        - [Objetivo de la Entrevista](#objetivo-de-la-entrevista)
+        - [Elementos de Validación](#elementos-de-validación)
+        - [User Flows a Validar](#user-flows-a-validar)
+        - [Formato de Registro de la Entrevista](#formato-de-registro-de-la-entrevista)
+      - [6.3.2. Registro de entrevistas](#632-registro-de-entrevistas)
+      - [6.3.3. Evaluaciones según heurísticas](#633-evaluaciones-según-heurísticas)
+    - [6.4.  Video About-the-Product.](#64--video-about-the-product)
+  - [Conclusiones](#conclusiones)
+  - [Bibliografía](#bibliografía)
+  - [Anexos](#anexos)
 
 ## Student Outcome
 
@@ -3184,17 +3257,20 @@ La arquitectura del sistema se estructura en tres niveles: el Context Diagram de
 El Context Diagram muestra a SynHub (el sistema central) interactuando con sus usuarios principales —el Miembro y el Líder— quienes utilizan la aplicación para gestionar actividades, mientras que SynHub se integra con Google Calendar para sincronizar eventos externos. Este diagrama enfatiza las relaciones externas del sistema, sin detallar componentes internos, destacando cómo los actores clave (usuarios y servicios externos) se conectan con la plataforma principal para intercambiar información.
 
 <img src="images/chapter-4/contextDiagram.png" alt="Context Diagram" width="600"/>
+<img src="images/chapter-4/contextDiagram.png" alt="Context Diagram" width="600"/>
 
 ##### 4.1.3.2. Software Architecture Container Level Diagrams
 
 El Container Diagram describe la arquitectura del sistema, donde los usuarios (Miembro y Líder) interactúan con la Landing Page (web) y la Mobile App, las cuales se conectan a una API REST (backend) que gestiona la lógica de negocio. Esta API se comunica con una base de datos PostgreSQL para almacenar datos y con Google Calendar (mediante su API) para sincronizar eventos. Cada componente (frontend, backend, base de datos y servicio externo) opera en contenedores o entornos independientes, conectados a través de APIs RESTful (HTTPS/JSON) y protocolos como JDBC (PostgreSQL) y OAuth 2.0 (Google).
 
 <img src="images/chapter-4/containerDiagram.png" alt="Container Diagram" width="600"/>
+<img src="images/chapter-4/containerDiagram.png" alt="Container Diagram" width="600"/>
 
 ##### 4.1.3.3. Software Architecture Deployment Diagrams
 
 El diagrama de despliegue representa un sistema donde una aplicación móvil se comunica con una API REST mediante HTTP/HTTPS; esta API gestiona la lógica de negocio, interactúa con una base de datos PostgreSQL para almacenar datos y se integra con Google Calendar a través de su API  para sincronizar eventos. Los componentes clave incluyen: la app (frontend), el servidor de la API (backend), la base de datos (almacenamiento) y el servicio externo de Google , conectados mediante protocolos como RESTful APIs (JSON).
 
+<img src="images/chapter-4/deploymentDiagram.png" alt="Deployment Diagram" width="600"/>
 <img src="images/chapter-4/deploymentDiagram.png" alt="Deployment Diagram" width="600"/>
 
 ### 4.2. Tactical-Level Domain-Driven Design
@@ -5177,6 +5253,7 @@ Este diagrama representa la arquitectura a nivel de componentes del Bounded Cont
 Este diagrama de clases muestra un diseño simplificado para un sistema de gestión de tareas y comentarios siguiendo el patrón CQRS (Command Query Responsibility Segregation). El modelo central incluye la entidad `Task` (como Aggregate Root) con su Value Object `TaskStatus`, y la entidad `Comment`. Los servicios se dividen en comandos (`TaskCommandService` para operaciones de escritura como crear/actualizar/eliminar tareas) y consultas (`TaskQueryService` y `CommentQueryService` para operaciones de lectura). Las relaciones muestran cómo los servicios interactúan con las entidades: los de comando las manipulan, mientras que los de consulta solo acceden a los datos, manteniendo una clara separación de responsabilidades.
 
 <img src="./images/chapter-4/Domain-Layer-Class-Diagrams.png" alt="Chamilo" width="800"/>
+<img src="./images/chapter-4/Domain-Layer-Class-Diagrams.png" alt="Chamilo" width="800"/>
 
 ###### 4.2.5.6.2. Bounded Context Database Design Diagram
 
@@ -6859,7 +6936,7 @@ Para este sprint se desarrollaron 3 productos siendo estos: landing page, web ap
 - Alejo Cardenas Jose Antonio: 7 commits.
 - Pacheco Astiguetta Sebastian: 39 commits.
 
-### 6.2.1. Sprint 1
+### 6.2.1. Sprint 2
 
 #### 6.2.2.1. Sprint Planning 2.
 
@@ -10259,6 +10336,10 @@ Para este sprint se desarrollaron 2 productos siendo estos: web application y we
 * Astonitas Díaz Juan Diego (NeoRise456): 1 commits
 * Casas Sanchez Gabriel Alexander (Al3xiel): 41 commits
 
+* Alejo Cardenas Jose Antonio (Firtness): 2 commits
+* Astonitas Díaz Juan Diego (NeoRise456): 1 commits
+* Casas Sanchez Gabriel Alexander (Al3xiel): 41 commits
+
 **Backend**
 
 <img src="images/chapter-6/teamCollaborationInsightsDuringSprintBackend1.png">
@@ -10271,6 +10352,132 @@ Para este sprint se desarrollaron 2 productos siendo estos: web application y we
 * Casas Sanchez Gabriel Alexander (Al3xiel): 78 commits
 * Pacheco Astiguetta Sebastian (Pachieeee): 51 commits
 * Pasquale Barrenechea Gianluca Santino (cwassointt): 74 commits
+
+### 6.2.3. Sprint 3 
+#### 6.2.2.1. Sprint Planning 3.
+
+<table>
+  <tr>
+    <td colspan="1"><strong>Sprint #</strong></td>
+    <td colspan="1">3</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Sprint Planning Background</strong></td>
+  </tr>
+  <tr>
+    <td colspan="1"><strong>Date</strong></td>
+    <td colspan="1">2025-05-07</td>
+  </tr>
+  <tr>
+    <td colspan="1"><strong>Time</strong></td>
+    <td colspan="1">23:00 PM</td>
+  </tr>
+  <tr>
+    <td colspan="1"><strong>Location</strong></td>
+    <td colspan="1">Discord</td>
+  </tr>
+  <tr>
+    <td colspan="1"><strong>Prepared by</strong></td>
+    <td colspan="1">Gabriel Casas</td>
+  </tr>
+  <tr>
+    <td colspan="1"><strong>Attendees (to planning meeting)</strong></td>
+    <td colspan="1">Juan Astonitas, Jose Alejo, Gabriel Casas, Gianluca Pasquale, Sebastian Pacheco</td>
+  </tr>
+  <tr>
+    <td colspan="1"><strong>Sprint n – 2 Review Summary</strong></td>
+    <td colspan="1">Se actualizo la landing page implementada con next.js con el video-about-the-product y el video-about-the-team, el front del mobile en flutter y el backend en spring boot JAVA</td>
+  </tr>
+  <tr>
+    <td colspan="1"><strong>Sprint n – 2 Retrospective Summary</strong></td>
+    <td colspan="1">Continuar con la misma distribucion de tareas y encargos, ya que fue muy efectivo el sprint anterior</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Sprint Goal & User Stories</strong></td>
+  </tr>
+  <tr>
+    <td colspan="1"><strong>Sprint 3 Goal</strong></td>
+    <td colspan="1">Nuestro enfoque está en garantizar que SynHub alcance hitos clave para sus distintos usuarios: considerando la landing page ya finalizada, avanzando el backend al 100% y lanzando la ultima versión de la app móvil (para líderes e integrantes de equipo). Creemos que esto permitirá una experiencia integral e intuitiva, donde los nuevos usuarios comprendan el valor de la plataforma, los desarrolladores tengan bases técnicas sólidas, y los equipos internos empiecen a operar con herramientas funcionales. Esto se confirmará cuando: la landing page esté publicada sin errores y con alta conversión, el backend tenga el 100% de sus endpoints críticos probados y documentados, y la app móvil (v2.0) permita gestionar todas las tareas y haya sido validada por líderes de manera que cubra todas sus espectativas.</td>
+  </tr>
+  <tr>
+    <td colspan="1"><strong>Sprint 3 Velocity</strong></td>
+    <td colspan="1">Para este sprint nuestro equipo puende aceptar hasta 80 story points</td>
+  </tr>
+  <tr>
+    <td colspan="1"><strong>Sum of Story Points</strong></td>
+    <td colspan="1">La suma de story point atendidos es de 75 story point.</td>
+  </tr>
+</table>
+
+#### 6.2.2.2. Sprint Backlog 3.
+
+<table>
+  <thead>
+    <tr>
+      <th>Sprint #</th>
+      <th colspan="7">Sprint 2</th>
+    </tr>
+    <tr>
+      <th colspan="2">User Story</th>
+      <th colspan="6">Work-Item/task</th>
+    </tr>
+    <tr>
+      <th>Id</th>
+      <th>Title</th>
+      <th>Id</th>
+      <th>Title</th>
+      <th>Description</th>
+      <th>Estimation (Hrs)</th>
+      <th>Assigned To</th>
+      <th>Status</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>US-001</td><td>Creación de grupo</td><td>T001</td><td>Pantalla creación grupo</td><td>Formulario nombre, descripción, imagen y guardar grupo en Flutter.</td><td>3</td><td>Por asignar</td><td>To Do</td></tr>
+    <tr><td>US-002</td><td>Envío de invitaciones</td><td>T002</td><td>Invitar miembros</td><td>UI para seleccionar usuarios y enviar invitación.</td><td>2</td><td>Por asignar</td><td>To Do</td></tr>
+    <tr><td>US-003</td><td>Eliminación de grupo</td><td>T003</td><td>Confirmar eliminación grupo</td><td>Modal de confirmación y reasignación de tareas si aplica.</td><td>3</td><td>Por asignar</td><td>To Do</td></tr>
+    <tr><td>US-004</td><td>Creación de tareas</td><td>T004</td><td>Pantalla creación tarea</td><td>Formulario título, descripción, responsable y validación.</td><td>3</td><td>Por asignar</td><td>To Do</td></tr>
+    <tr><td>US-005</td><td>Asignación de tareas</td><td>T005</td><td>Asignar tarea</td><td>UI para asignar/reasignar y notificar miembros.</td><td>2</td><td>Por asignar</td><td>To Do</td></tr>
+    <tr><td>US-006</td><td>Eliminación de tareas</td><td>T006</td><td>Eliminar tarea</td><td>Swipe/delete con confirmación extra para tareas completadas.</td><td>2</td><td>Por asignar</td><td>To Do</td></tr>
+    <tr><td>US-007</td><td>Actualización de estado</td><td>T007</td><td>Actualizar estado</td><td>Botón para marcar completada o cancelada, motivo opcional.</td><td>2</td><td>Por asignar</td><td>To Do</td></tr>
+    <tr><td>US-008</td><td>Reprogramación de tareas</td><td>T008</td><td>Modificar fecha límite</td><td>Selector de fecha editable y ver historial de cambios.</td><td>2</td><td>Por asignar</td><td>To Do</td></tr>
+    <tr><td>US-009</td><td>Notificaciones in-app</td><td>T009</td><td>Mostrar notificaciones</td><td>Campana, badge y lista de notificaciones en Flutter.</td><td>3</td><td>Por asignar</td><td>To Do</td></tr>
+    <tr><td>US-010</td><td>Preferencias notificación</td><td>T011</td><td>Preferencias notificación</td><td>Configuración granular por grupo y tipos de evento.</td><td>2</td><td>Por asignar</td><td>To Do</td></tr>
+    <tr><td>US-011</td><td>Gráfico distribución tareas</td><td>T012</td><td>Gráfico pastel tareas</td><td>Integrar gráfico pastel dinámico con filtros.</td><td>3</td><td>Por asignar</td><td>To Do</td></tr>
+    <tr><td>US-012</td><td>Gráfico estados tareas</td><td>T013</td><td>Gráfico barras estados</td><td>Gráfico de barras de estados.</td><td>3</td><td>Por asignar</td><td>To Do</td></tr>
+    <tr><td>US-013</td><td>Reporte reprogramaciones</td><td>T014</td><td>Gráfico líneas reprogramaciones</td><td>Gráfico línea con tooltip de motivos.</td><td>3</td><td>Por asignar</td><td>To Do</td></tr>
+    <tr><td>US-014</td><td>Reporte productividad</td><td>T015</td><td>Reporte individual</td><td>Vista con métricas de tareas completadas y comparativas.</td><td>2</td><td>Por asignar</td><td>To Do</td></tr>
+    <tr><td>US-015</td><td>Solicitud aprobación tarea</td><td>T016</td><td>Enviar a validación</td><td>Botón para enviar tarea a revisión.</td><td>2</td><td>Por asignar</td><td>To Do</td></tr>
+    <tr><td>US-016</td><td>Validación de tareas</td><td>T017</td><td>Validar tarea</td><td>UI para aprobar/rechazar tarea.</td><td>2</td><td>Por asignar</td><td>To Do</td></tr>
+    <tr><td>US-017</td><td>Solicitud extensión plazo</td><td>T018</td><td>Solicitar extensión</td><td>Pantalla para pedir nueva fecha con motivo y esperar aprobación.</td><td>1</td><td>Por asignar</td><td>To Do</td></tr>
+    <tr><td>US-018</td><td>Histórico validaciones</td><td>T019</td><td>Historial validaciones</td><td>Vista para consultar aprobaciones/rechazos con filtro por miembro.</td><td>2</td><td>Por asignar</td><td>To Do</td></tr>
+    <tr><td>US-019</td><td>Notificación cambio estado</td><td>T020</td><td>Alertar cambio estado</td><td>Mostrar alerta cuando aprueban/rechazan solicitud.</td><td>1</td><td>Por asignar</td><td>To Do</td></tr>
+    <tr><td>US-020</td><td>Visualizar miembros</td><td>T021</td><td>Lista y detalle miembros</td><td>Pantalla con lista de miembros, roles y tareas asignadas.</td><td>2</td><td>Por asignar</td><td>To Do</td></tr>
+    <tr><td>US-021</td><td>Editar info grupo</td><td>T022</td><td>Editar grupo</td><td>Formulario para editar nombre, descripción, imagen del grupo.</td><td>1</td><td>Por asignar</td><td>To Do</td></tr>
+    <tr><td>US-022</td><td>Visualizar tareas asignadas</td><td>T023</td><td>Lista tareas asignadas</td><td>Pantalla de lista de tareas asignadas con detalles y estado.</td><td>1</td><td>Por asignar</td><td>To Do</td></tr>
+    <tr><td>US-023</td><td>Comentario en tareas</td><td>T024</td><td>Comentar tareas</td><td>Hilo de comentarios y notificación a líder.</td><td>2</td><td>Por asignar</td><td>To Do</td></tr>
+    <tr><td>US-024</td><td>Configurar preferencias notificación</td><td>T025</td><td>Pantalla preferencias</td><td>Seleccionar tipos de alerta y opción desactivar todas.</td><td>1</td><td>Por asignar</td><td>To Do</td></tr>
+    <tr><td>US-025</td><td>Resumen semanal actividad</td><td>T026</td><td>Vista resumen semanal</td><td>Mostrar tareas completadas/pendientes .</td><td>2</td><td>Por asignar</td><td>To Do</td></tr>
+    <tr><td>US-026</td><td>Carga trabajo miembro</td><td>T027</td><td>Gráfico carga trabajo</td><td>Gráfico barras por miembro.</td><td>2</td><td>Por asignar</td><td>To Do</td></tr>
+    <tr><td>US-027</td><td>Reporte cumplimiento plazos</td><td>T028</td><td>Reporte plazos</td><td>Mostrar porcentaje tareas a tiempo con filtro por periodo.</td><td>2</td><td>Por asignar</td><td>To Do</td></tr>
+    <tr><td>US-028</td><td>Revisión comentarios tareas</td><td>T029</td><td>Ver/responder comentarios</td><td>Permitir líder leer/responder comentarios.</td><td>2</td><td>Por asignar</td><td>To Do</td></tr>
+    <tr><td>US-029</td><td>Confirmación eliminación tarea</td><td>T030</td><td>Confirmar eliminar</td><td>Diálogo de confirmación antes de borrar tarea.</td><td>1</td><td>Por asignar</td><td>To Do</td></tr>
+  </tbody>
+</table>
+
+
+#### 6.2.2.3. Development Evidence for Sprint Review.
+
+#### 6.2.2.4. Testing Suite Evidence for Sprint Review.
+
+#### 6.2.2.5. Execution Evidence for Sprint Review.
+
+#### 6.2.2.6. Services Documentation Evidence for Sprint Review.
+
+#### 6.2.2.7. Software Deployment Evidence for Sprint Review.
+
+#### 6.2.2.8. Team Collaboration Insights during Sprint. 
+
 
 ### 6.3. Validation Interviews
 
@@ -10707,6 +10914,3 @@ Nielsen Norman Group. (n.d.). User Journey Mapping. [https://www.nngroup.com/art
 Sommerville, I. (2016). Software Engineering (10th ed.). Pearson Education. [https://www.pearson.com/en-us/subject-catalog/p/software-engineering/P200000005158/9780133943030](https://www.pearson.com/en-us/subject-catalog/p/software-engineering/P200000005158/9780133943030)
 
 ## Anexos
-
-**Visualizar solicitud o validacion pendiente:** Este wireflow corresponde a cuando un miembro busca sus solicitudes o validaciones pendientes.
-Task flow: 🟥 Happy Path, 🟨 Error Path, 🟦 User Goal
