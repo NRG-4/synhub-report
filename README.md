@@ -352,14 +352,14 @@ Recapitulando los commits se dividieron de la siguiente manera:
       - [6.2.2.7. Software Deployment Evidence for Sprint Review.](#6227-software-deployment-evidence-for-sprint-review)
       - [6.2.2.8. Team Collaboration Insights during Sprint.](#6228-team-collaboration-insights-during-sprint)
     - [6.2.3. Sprint 3](#623-sprint-3)
-      - [6.2.2.1. Sprint Planning 3.](#6221-sprint-planning-3)
-      - [6.2.2.2. Sprint Backlog 3.](#6222-sprint-backlog-3)
-      - [6.2.2.3. Development Evidence for Sprint Review.](#6223-development-evidence-for-sprint-review-1)
-      - [6.2.2.4. Testing Suite Evidence for Sprint Review.](#6224-testing-suite-evidence-for-sprint-review-1)
-      - [6.2.2.5. Execution Evidence for Sprint Review.](#6225-execution-evidence-for-sprint-review-1)
-      - [6.2.2.6. Services Documentation Evidence for Sprint Review.](#6226-services-documentation-evidence-for-sprint-review-1)
-      - [6.2.2.7. Software Deployment Evidence for Sprint Review.](#6227-software-deployment-evidence-for-sprint-review-1)
-      - [6.2.2.8. Team Collaboration Insights during Sprint.](#6228-team-collaboration-insights-during-sprint-1)
+      - [6.2.3.1. Sprint Planning 3.](#6231-sprint-planning-3)
+      - [6.2.3.2. Sprint Backlog 3.](#6232-sprint-backlog-3)
+      - [6.2.3.3. Development Evidence for Sprint Review.](#6233-development-evidence-for-sprint-review)
+      - [6.2.3.4. Testing Suite Evidence for Sprint Review.](#6234-testing-suite-evidence-for-sprint-review)
+      - [6.2.3.5. Execution Evidence for Sprint Review.](#6235-execution-evidence-for-sprint-review)
+      - [6.2.3.6. Services Documentation Evidence for Sprint Review.](#6236-services-documentation-evidence-for-sprint-review)
+      - [6.2.3.7. Software Deployment Evidence for Sprint Review.](#6237-software-deployment-evidence-for-sprint-review)
+      - [6.2.3.8. Team Collaboration Insights during Sprint.](#6238-team-collaboration-insights-during-sprint)
     - [6.3. Validation Interviews](#63-validation-interviews)
       - [6.3.1. Diseño de entrevistas](#631-diseño-de-entrevistas)
         - [Objetivo de la Entrevista](#objetivo-de-la-entrevista)
@@ -10354,7 +10354,7 @@ Para este sprint se desarrollaron 2 productos siendo estos: web application y we
 * Pasquale Barrenechea Gianluca Santino (cwassointt): 74 commits
 
 ### 6.2.3. Sprint 3 
-#### 6.2.2.1. Sprint Planning 3.
+#### 6.2.3.1. Sprint Planning 3.
 
 <table>
   <tr>
@@ -10409,13 +10409,13 @@ Para este sprint se desarrollaron 2 productos siendo estos: web application y we
   </tr>
 </table>
 
-#### 6.2.2.2. Sprint Backlog 3.
+#### 6.2.3.2. Sprint Backlog 3.
 
 <table>
   <thead>
     <tr>
       <th>Sprint #</th>
-      <th colspan="7">Sprint 2</th>
+      <th colspan="7">Sprint 3</th>
     </tr>
     <tr>
       <th colspan="2">User Story</th>
@@ -10433,9 +10433,9 @@ Para este sprint se desarrollaron 2 productos siendo estos: web application y we
     </tr>
   </thead>
   <tbody>
-    <tr><td>US-001</td><td>Creación de grupo</td><td>T001</td><td>Pantalla creación grupo</td><td>Formulario nombre, descripción, imagen y guardar grupo en Flutter.</td><td>3</td><td>Por asignar</td><td>To Do</td></tr>
-    <tr><td>US-002</td><td>Envío de invitaciones</td><td>T002</td><td>Invitar miembros</td><td>UI para seleccionar usuarios y enviar invitación.</td><td>2</td><td>Por asignar</td><td>To Do</td></tr>
-    <tr><td>US-003</td><td>Eliminación de grupo</td><td>T003</td><td>Confirmar eliminación grupo</td><td>Modal de confirmación y reasignación de tareas si aplica.</td><td>3</td><td>Por asignar</td><td>To Do</td></tr>
+    <tr><td>US-001</td><td>Creación de grupo</td><td>T001</td><td>Mejora estetica de la pantalla creación grupo</td><td>Mejora estetica del formulario nombre, descripción, imagen y guardar grupo en Flutter.</td><td>3</td><td>Por asignar</td><td>To Do</td></tr>
+    <tr><td>US-002</td><td>Envío de invitaciones</td><td>T002</td><td>Mejora estetica al invitar miembros</td><td>Mejora estetica del UI para seleccionar usuarios y enviar invitación.</td><td>2</td><td>Por asignar</td><td>To Do</td></tr>
+    <tr><td>US-003</td><td>Eliminación de grupo</td><td>T003</td><td>Mostrar dialog para confirmar eliminación grupo</td><td>Mejora estetica del modal de confirmación y reasignación de tareas si aplica.</td><td>3</td><td>Por asignar</td><td>To Do</td></tr>
     <tr><td>US-004</td><td>Creación de tareas</td><td>T004</td><td>Pantalla creación tarea</td><td>Formulario título, descripción, responsable y validación.</td><td>3</td><td>Por asignar</td><td>To Do</td></tr>
     <tr><td>US-005</td><td>Asignación de tareas</td><td>T005</td><td>Asignar tarea</td><td>UI para asignar/reasignar y notificar miembros.</td><td>2</td><td>Por asignar</td><td>To Do</td></tr>
     <tr><td>US-006</td><td>Eliminación de tareas</td><td>T006</td><td>Eliminar tarea</td><td>Swipe/delete con confirmación extra para tareas completadas.</td><td>2</td><td>Por asignar</td><td>To Do</td></tr>
@@ -10466,17 +10466,17 @@ Para este sprint se desarrollaron 2 productos siendo estos: web application y we
 </table>
 
 
-#### 6.2.2.3. Development Evidence for Sprint Review.
+#### 6.2.3.3. Development Evidence for Sprint Review.
 
-#### 6.2.2.4. Testing Suite Evidence for Sprint Review.
+#### 6.2.3.4. Testing Suite Evidence for Sprint Review.
 
-#### 6.2.2.5. Execution Evidence for Sprint Review.
+#### 6.2.3.5. Execution Evidence for Sprint Review.
 
-#### 6.2.2.6. Services Documentation Evidence for Sprint Review.
+#### 6.2.3.6. Services Documentation Evidence for Sprint Review.
 
-#### 6.2.2.7. Software Deployment Evidence for Sprint Review.
+#### 6.2.3.7. Software Deployment Evidence for Sprint Review.
 
-#### 6.2.2.8. Team Collaboration Insights during Sprint. 
+#### 6.2.3.8. Team Collaboration Insights during Sprint. 
 
 
 ### 6.3. Validation Interviews
