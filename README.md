@@ -10433,35 +10433,35 @@ Para este sprint se desarrollaron 2 productos siendo estos: web application y we
     </tr>
   </thead>
   <tbody>
-    <tr><td>US-001</td><td>Creación de grupo</td><td>T001</td><td>Mejora estetica de la pantalla creación grupo</td><td>Mejora estetica del formulario nombre, descripción, imagen y guardar grupo en Flutter.</td><td>3</td><td>Por asignar</td><td>To Do</td></tr>
-    <tr><td>US-002</td><td>Envío de invitaciones</td><td>T002</td><td>Mejora estetica al invitar miembros</td><td>Mejora estetica del UI para seleccionar usuarios y enviar invitación.</td><td>2</td><td>Por asignar</td><td>To Do</td></tr>
-    <tr><td>US-003</td><td>Eliminación de grupo</td><td>T003</td><td>Mostrar dialog para confirmar eliminación grupo</td><td>Mejora estetica del modal de confirmación y reasignación de tareas si aplica.</td><td>3</td><td>Por asignar</td><td>To Do</td></tr>
-    <tr><td>US-004</td><td>Creación de tareas</td><td>T004</td><td>Pantalla creación tarea</td><td>Formulario título, descripción, responsable y validación.</td><td>3</td><td>Por asignar</td><td>To Do</td></tr>
-    <tr><td>US-005</td><td>Asignación de tareas</td><td>T005</td><td>Asignar tarea</td><td>UI para asignar/reasignar y notificar miembros.</td><td>2</td><td>Por asignar</td><td>To Do</td></tr>
-    <tr><td>US-006</td><td>Eliminación de tareas</td><td>T006</td><td>Eliminar tarea</td><td>Swipe/delete con confirmación extra para tareas completadas.</td><td>2</td><td>Por asignar</td><td>To Do</td></tr>
-    <tr><td>US-007</td><td>Actualización de estado</td><td>T007</td><td>Actualizar estado</td><td>Botón para marcar completada o cancelada, motivo opcional.</td><td>2</td><td>Por asignar</td><td>To Do</td></tr>
-    <tr><td>US-008</td><td>Reprogramación de tareas</td><td>T008</td><td>Modificar fecha límite</td><td>Selector de fecha editable y ver historial de cambios.</td><td>2</td><td>Por asignar</td><td>To Do</td></tr>
-    <tr><td>US-009</td><td>Notificaciones in-app</td><td>T009</td><td>Mostrar notificaciones</td><td>Campana, badge y lista de notificaciones en Flutter.</td><td>3</td><td>Por asignar</td><td>To Do</td></tr>
-    <tr><td>US-010</td><td>Preferencias notificación</td><td>T011</td><td>Preferencias notificación</td><td>Configuración granular por grupo y tipos de evento.</td><td>2</td><td>Por asignar</td><td>To Do</td></tr>
-    <tr><td>US-011</td><td>Gráfico distribución tareas</td><td>T012</td><td>Gráfico pastel tareas</td><td>Integrar gráfico pastel dinámico con filtros.</td><td>3</td><td>Por asignar</td><td>To Do</td></tr>
-    <tr><td>US-012</td><td>Gráfico estados tareas</td><td>T013</td><td>Gráfico barras estados</td><td>Gráfico de barras de estados.</td><td>3</td><td>Por asignar</td><td>To Do</td></tr>
-    <tr><td>US-013</td><td>Reporte reprogramaciones</td><td>T014</td><td>Gráfico líneas reprogramaciones</td><td>Gráfico línea con tooltip de motivos.</td><td>3</td><td>Por asignar</td><td>To Do</td></tr>
-    <tr><td>US-014</td><td>Reporte productividad</td><td>T015</td><td>Reporte individual</td><td>Vista con métricas de tareas completadas y comparativas.</td><td>2</td><td>Por asignar</td><td>To Do</td></tr>
-    <tr><td>US-015</td><td>Solicitud aprobación tarea</td><td>T016</td><td>Enviar a validación</td><td>Botón para enviar tarea a revisión.</td><td>2</td><td>Por asignar</td><td>To Do</td></tr>
-    <tr><td>US-016</td><td>Validación de tareas</td><td>T017</td><td>Validar tarea</td><td>UI para aprobar/rechazar tarea.</td><td>2</td><td>Por asignar</td><td>To Do</td></tr>
-    <tr><td>US-017</td><td>Solicitud extensión plazo</td><td>T018</td><td>Solicitar extensión</td><td>Pantalla para pedir nueva fecha con motivo y esperar aprobación.</td><td>1</td><td>Por asignar</td><td>To Do</td></tr>
-    <tr><td>US-018</td><td>Histórico validaciones</td><td>T019</td><td>Historial validaciones</td><td>Vista para consultar aprobaciones/rechazos con filtro por miembro.</td><td>2</td><td>Por asignar</td><td>To Do</td></tr>
-    <tr><td>US-019</td><td>Notificación cambio estado</td><td>T020</td><td>Alertar cambio estado</td><td>Mostrar alerta cuando aprueban/rechazan solicitud.</td><td>1</td><td>Por asignar</td><td>To Do</td></tr>
-    <tr><td>US-020</td><td>Visualizar miembros</td><td>T021</td><td>Lista y detalle miembros</td><td>Pantalla con lista de miembros, roles y tareas asignadas.</td><td>2</td><td>Por asignar</td><td>To Do</td></tr>
-    <tr><td>US-021</td><td>Editar info grupo</td><td>T022</td><td>Editar grupo</td><td>Formulario para editar nombre, descripción, imagen del grupo.</td><td>1</td><td>Por asignar</td><td>To Do</td></tr>
-    <tr><td>US-022</td><td>Visualizar tareas asignadas</td><td>T023</td><td>Lista tareas asignadas</td><td>Pantalla de lista de tareas asignadas con detalles y estado.</td><td>1</td><td>Por asignar</td><td>To Do</td></tr>
-    <tr><td>US-023</td><td>Comentario en tareas</td><td>T024</td><td>Comentar tareas</td><td>Hilo de comentarios y notificación a líder.</td><td>2</td><td>Por asignar</td><td>To Do</td></tr>
-    <tr><td>US-024</td><td>Configurar preferencias notificación</td><td>T025</td><td>Pantalla preferencias</td><td>Seleccionar tipos de alerta y opción desactivar todas.</td><td>1</td><td>Por asignar</td><td>To Do</td></tr>
-    <tr><td>US-025</td><td>Resumen semanal actividad</td><td>T026</td><td>Vista resumen semanal</td><td>Mostrar tareas completadas/pendientes .</td><td>2</td><td>Por asignar</td><td>To Do</td></tr>
-    <tr><td>US-026</td><td>Carga trabajo miembro</td><td>T027</td><td>Gráfico carga trabajo</td><td>Gráfico barras por miembro.</td><td>2</td><td>Por asignar</td><td>To Do</td></tr>
-    <tr><td>US-027</td><td>Reporte cumplimiento plazos</td><td>T028</td><td>Reporte plazos</td><td>Mostrar porcentaje tareas a tiempo con filtro por periodo.</td><td>2</td><td>Por asignar</td><td>To Do</td></tr>
-    <tr><td>US-028</td><td>Revisión comentarios tareas</td><td>T029</td><td>Ver/responder comentarios</td><td>Permitir líder leer/responder comentarios.</td><td>2</td><td>Por asignar</td><td>To Do</td></tr>
-    <tr><td>US-029</td><td>Confirmación eliminación tarea</td><td>T030</td><td>Confirmar eliminar</td><td>Diálogo de confirmación antes de borrar tarea.</td><td>1</td><td>Por asignar</td><td>To Do</td></tr>
+    <tr><td>US-001</td><td>Creación de grupo</td><td>T001</td><td>Mejora estetica de la pantalla creación grupo</td><td>Mejora estetica del formulario nombre, descripción, imagen y guardar grupo en Flutter.</td><td>3</td><td>Jose Alejo</td><td>Done</td></tr>
+    <tr><td>US-002</td><td>Envío de invitaciones</td><td>T002</td><td>Mejora estetica al invitar miembros</td><td>Mejora estetica del UI para seleccionar usuarios y enviar invitación.</td><td>2</td><td>Alex Casas</td><td>Done</td></tr>
+    <tr><td>US-003</td><td>Eliminación de grupo</td><td>T003</td><td>Mejora estetica del dialog para confirmar eliminación grupo</td><td>Mejora estetica del modal de confirmación y reasignación de tareas si aplica.</td><td>3</td><td>Juan Astonitas</td><td>Done</td></tr>
+    <tr><td>US-004</td><td>Creación de tareas</td><td>T004</td><td>Pantalla creación tarea</td><td>Formulario título, descripción, responsable y validación.</td><td>3</td><td>Gianluca Pasquale</td><td>Done</td></tr>
+    <tr><td>US-005</td><td>Asignación de tareas</td><td>T005</td><td>Asignar tarea</td><td>UI para asignar/reasignar y notificar miembros.</td><td>2</td><td>Sebastian Pacheco</td><td>Done</td></tr>
+    <tr><td>US-006</td><td>Eliminación de tareas</td><td>T006</td><td>Eliminar tarea</td><td>Swipe/delete con confirmación extra para tareas completadas.</td><td>2</td><td>Alex Casas</td><td>Done</td></tr>
+    <tr><td>US-007</td><td>Actualización de estado</td><td>T007</td><td>Actualizar estado</td><td>Botón para marcar completada o cancelada, motivo opcional.</td><td>2</td><td>Sebastian Pacheco</td><td>Done</td></tr>
+    <tr><td>US-008</td><td>Reprogramación de tareas</td><td>T008</td><td>Modificar fecha límite</td><td>Selector de fecha editable y ver historial de cambios.</td><td>2</td><td>Gianluca Pasquale</td><td>Done</td></tr>
+    <tr><td>US-009</td><td>Notificaciones in-app</td><td>T009</td><td>Mostrar notificaciones</td><td>Campana, badge y lista de notificaciones en Flutter.</td><td>3</td><td>Juan Astonitas</td><td>Done</td></tr>
+    <tr><td>US-010</td><td>Preferencias notificación</td><td>T010</td><td>Preferencias notificación</td><td>Configuración granular por grupo y tipos de evento.</td><td>2</td><td>Alex Casas</td><td>Done</td></tr>
+    <tr><td>US-011</td><td>Gráfico distribución tareas</td><td>T011</td><td>Gráfico pastel tareas</td><td>Integrar gráfico pastel dinámico con filtros.</td><td>3</td><td>Sebastian Pacheco</td><td>Done</td></tr>
+    <tr><td>US-012</td><td>Gráfico estados tareas</td><td>T012</td><td>Gráfico barras estados</td><td>Gráfico de barras de estados.</td><td>3</td><td>Alex Casas</td><td>Done</td></tr>
+    <tr><td>US-013</td><td>Reporte reprogramaciones</td><td>T013</td><td>Gráfico líneas reprogramaciones</td><td>Gráfico línea con tooltip de motivos.</td><td>3</td><td>Alex Casas</td><td>Done</td></tr>
+    <tr><td>US-014</td><td>Reporte productividad</td><td>T014</td><td>Reporte individual</td><td>Vista con métricas de tareas completadas y comparativas.</td><td>2</td><td>Jose Alejo</td><td>Done</td></tr>
+    <tr><td>US-015</td><td>Solicitud aprobación tarea</td><td>T015</td><td>Enviar a validación</td><td>Botón para enviar tarea a revisión.</td><td>2</td><td>Juan Astonitas</td><td>Done</td></tr>
+    <tr><td>US-016</td><td>Validación de tareas</td><td>T016</td><td>Validar tarea</td><td>UI para aprobar/rechazar tarea.</td><td>2</td><td>Alex Casas</td><td>Done</td></tr>
+    <tr><td>US-017</td><td>Solicitud extensión plazo</td><td>T017</td><td>Solicitar extensión</td><td>Pantalla para pedir nueva fecha con motivo y esperar aprobación.</td><td>1</td><td>Gianluca Pasquale</td><td>Done</td></tr>
+    <tr><td>US-018</td><td>Histórico validaciones</td><td>T018</td><td>Historial validaciones</td><td>Vista para consultar aprobaciones/rechazos con filtro por miembro.</td><td>2</td><td>Jose Alejo</td><td>Done</td></tr>
+    <tr><td>US-019</td><td>Notificación cambio estado</td><td>T019</td><td>Alertar cambio estado</td><td>Mostrar alerta cuando aprueban/rechazan solicitud.</td><td>1</td><td>Alex Casas</td><td>Done</td></tr>
+    <tr><td>US-020</td><td>Visualizar miembros</td><td>T020</td><td>Lista y detalle miembros</td><td>Pantalla con lista de miembros, roles y tareas asignadas.</td><td>2</td><td>Gianluca Pasquale</td><td>Done</td></tr>
+    <tr><td>US-021</td><td>Editar info grupo</td><td>T021</td><td>Mejora estetica del dialog para editar grupo</td><td>Mejora estetica del formulario para editar nombre, descripción, imagen del grupo.</td><td>1</td><td>Jose Alejo</td><td>Done</td></tr>
+    <tr><td>US-022</td><td>Visualizar tareas asignadas</td><td>T022</td><td>Lista tareas asignadas</td><td>Pantalla de lista de tareas asignadas con detalles y estado.</td><td>1</td><td>Juan Astonitas</td><td>Done</td></tr>
+    <tr><td>US-023</td><td>Comentario en tareas</td><td>T023</td><td>Comentar tareas</td><td>Hilo de comentarios y notificación a líder.</td><td>2</td><td>Alex Casas</td><td>Done</td></tr>
+    <tr><td>US-024</td><td>Configurar preferencias notificación</td><td>T024</td><td>Pantalla preferencias</td><td>Seleccionar tipos de alerta y opción desactivar todas.</td><td>1</td><td>Juan Astonitas</td><td>Done</td></tr>
+    <tr><td>US-025</td><td>Resumen semanal actividad</td><td>T025</td><td>Vista resumen semanal</td><td>Mostrar tareas completadas/pendientes .</td><td>2</td><td>Jose Alejo</td><td>Done</td></tr>
+    <tr><td>US-026</td><td>Carga trabajo miembro</td><td>T026</td><td>Gráfico carga trabajo</td><td>Gráfico barras por miembro.</td><td>2</td><td>Juan Astonitas</td><td>Done</td></tr>
+    <tr><td>US-027</td><td>Reporte cumplimiento plazos</td><td>T027</td><td>Reporte plazos</td><td>Mostrar porcentaje tareas a tiempo con filtro por periodo.</td><td>2</td><td>Jose Alejo</td><td>Done</td></tr>
+    <tr><td>US-028</td><td>Revisión comentarios tareas</td><td>T028</td><td>Ver/responder comentarios</td><td>Permitir líder leer/responder comentarios.</td><td>2</td><td>Sebastian Pacheco</td><td>Done</td></tr>
+    <tr><td>US-029</td><td>Confirmación eliminación tarea</td><td>T029</td><td>Confirmar eliminar</td><td>Diálogo de confirmación antes de borrar tarea.</td><td>1</td><td>Sebastian Pacheco</td><td>Done</td></tr>
   </tbody>
 </table>
 
@@ -10471,6 +10471,35 @@ Para este sprint se desarrollaron 2 productos siendo estos: web application y we
 #### 6.2.3.4. Testing Suite Evidence for Sprint Review.
 
 #### 6.2.3.5. Execution Evidence for Sprint Review.
+
+En esta sección se presentan las evidencias de la ejecución de la aplicación para el sprint 2.
+En esta sección, presentamos una recopilación visual y detallada de los avances logrados durante el sprint. A través de imágenes y un video demostrativo, podrás apreciar los resultados concretos de nuestro trabajo y comprender mejor cómo hemos dado forma a las funcionalidades del producto.
+
+<img src="images/chapter-6/landingPage1.png" alt="API">
+
+<img src="images/chapter-6/landingPage2.png" alt="API">
+
+<img src="images/chapter-6/landingPage3.png" alt="API">
+
+<img src="images/chapter-6/landingPage4.png" alt="API">
+
+<img src="images/chapter-6/landingPage5.png" alt="API">
+
+<img src="images/chapter-6/landingPage6.png" alt="API">
+
+<img src="images/chapter-6/landingPage7.png" alt="API">
+
+<img src="images/chapter-6/landingPage8.png" alt="API">
+
+<img src="images/chapter-6/landingPage9.png" alt="API">
+
+<img src="images/chapter-6/landingPage10.png" alt="API">
+
+<img src="images/chapter-6/api1.png" alt="API">
+
+<img src="images/chapter-6/api2.png" alt="API">
+
+<img src="images/chapter-6/api3.png" alt="API">
 
 #### 6.2.3.6. Services Documentation Evidence for Sprint Review.
 
