@@ -10476,6 +10476,23 @@ Para este sprint se desarrollaron 2 productos siendo estos: web application y we
 
 #### 6.2.3.7. Software Deployment Evidence for Sprint Review.
 
+**Landing Page**
+Para hacer el deployment de la aplicacion web se utilizó render, una plataforma que permite hacer el deployment de aplicaciones de forma sencilla y rápida.
+Enlace de la landing page:[https://synhub-landing.onrender.com/](https://synhub-landing.onrender.com/ "https://synhub-landing.onrender.com/")
+
+<img src="images/chapter-6/deploy1.png">
+
+**Backend**
+Para hacer el deployment de la aplicacion web se utilizó render, una plataforma que permite hacer el deployment de aplicaciones de forma sencilla y rápida.
+Enlace del backend: [https://synhub-backend.onrender.com/swagger-ui/index.html#/](https://synhub-backend.onrender.com/swagger-ui/index.html#/ "https://synhub-backend.onrender.com/swagger-ui/index.html#/")
+
+<img src="images/chapter-6/deploy2.png">
+
+**Frontend**
+Durante el desarrollo, se podrá generar un *build personal* de la aplicación en formato APK, el cual podrá ser instalado directamente en un dispositivo Android mediante conexión USB a una PC o laptop. Esta forma de instalación es útil para realizar pruebas locales sin necesidad de subir la app a una tienda oficial. Solo se requiere tener activada la opción de "Depuración por USB" en el dispositivo y usar herramientas como Android Studio o ADB (*Android Debug Bridge*) para transferir e instalar el archivo APK.
+
+<img src="images/chapter-6/deploy3.png">
+
 #### 6.2.3.8. Team Collaboration Insights during Sprint. 
 
 
