@@ -10510,7 +10510,603 @@ Para este sprint se desarrollaron 2 productos siendo estos: web application y we
   </tr>
 </table>
 
-**Commits realizados en el repositorio del Frontend durante el sprint 3:**
+**Commits realizados en el repositorio del Frontend-Android durante el sprint 3:**
+<table>
+  <tr>
+    <th>Repository</th>
+    <th>Branch</th>
+    <th>Commit Id</th>
+    <th>Commit Message</th>
+    <th>Commit Message Body</th>
+    <th>Committed on (Date)</th>
+  </tr>
+  <tr>
+    <td>synhub-mobile-app</td>
+    <td>develop</td>
+    <td>46ef11d9285ea03f1b8277598f97fafdab651c85</td>
+    <td>feat(strings): update app name to 'SynHub for Leaders'</td>
+    <td>feat(strings): update app name to 'SynHub for Leaders'</td>
+    <td>Jul 8 2025</td>
+  </tr>
+  <tr>
+    <td>synhub-mobile-app</td>
+    <td>develop</td>
+    <td>7591192175c81ebdca16429d2d3d8fb908e6751b</td>
+    <td>feat(firebase): integrate Firebase services and update Retrofit base URL</td>
+    <td>feat(firebase): integrate Firebase services and update Retrofit base URL</td>
+    <td>Jul 8 2025</td>
+  </tr>
+  <tr>
+    <td>synhub-mobile-app</td>
+    <td>fix/requests-validations</td>
+    <td>dd329385d790355a98c7f5fba5680a872629234c</td>
+    <td>Merge pull request #17 from NRG-4/fix/requests-validations</td>
+    <td>Merge pull request #17 from NRG-4/fix/requests-validations</td>
+    <td>Jul 8 2025</td>
+  </tr>
+  <tr>
+    <td>synhub-mobile-app</td>
+    <td>develop</td>
+    <td>c85176b29037dbb2286f44289944a2ac5723e7a1</td>
+    <td>fix(navigation): update Validation and EditRequestTask routes to include requestId parameter.</td>
+    <td>fix(navigation): update Validation and EditRequestTask routes to include requestId parameter.</td>
+    <td>Jul 8 2025</td>
+  </tr>
+  <tr>
+    <td>synhub-mobile-app</td>
+    <td>develop</td>
+    <td>4107f43c93206ac5891c53409912abd8f4ec8a25</td>
+    <td>fix(views): add requestId parameter to EditRequestTask and ValidationView, update navigation and request handling.</td>
+    <td>fix(views): add requestId parameter to EditRequestTask and ValidationView, update navigation and request handling.</td>
+    <td>Jul 8 2025</td>
+  </tr>
+  <tr>
+    <td>synhub-mobile-app</td>
+    <td>develop</td>
+    <td>d9e12e7cf62c8a7c354b95df2be25967857876bb</td>
+    <td>fix(viewmodel): update request methods to include requestId parameter.</td>
+    <td>fix(viewmodel): update request methods to include requestId parameter.</td>
+    <td>Jul 8 2025</td>
+  </tr>
+  <tr>
+    <td>synhub-mobile-app</td>
+    <td>develop</td>
+    <td>f0cb6075ea31a1ce868fdd712237de86cbd1c9d7</td>
+    <td>fix(web-service): update request endpoints.</td>
+    <td>fix(web-service): update request endpoints.</td>
+    <td>Jul 8 2025</td>
+  </tr>
+  <tr>
+    <td>synhub-mobile-app</td>
+    <td>fix/requests-validations</td>
+    <td>f953ba83b8a3df3cf32396dcf9c943ff93db6970</td>
+    <td>Merge remote-tracking branch 'origin/fix/requests-validations' into fix/requests-validations</td>
+    <td>Merge remote-tracking branch 'origin/fix/requests-validations' into fix/requests-validations</td>
+    <td>Jul 7 2025</td>
+  </tr>
+  <tr>
+    <td>synhub-mobile-app</td>
+    <td>develop</td>
+    <td>f6fdae46a886af37b2144b16687cb15b4ba0b8a9</td>
+    <td>fix(views): adjust layout of request cards in GroupRequestList for better responsiveness.</td>
+    <td>fix(views): adjust layout of request cards in GroupRequestList for better responsiveness.</td>
+    <td>Jul 7 2025</td>
+  </tr>
+  <tr>
+    <td>synhub-mobile-app</td>
+    <td>develop</td>
+    <td>cfffc48d2bed3c556b4a32a0ff6e69f64a7ed8ce</td>
+    <td>fix(views): update request description display in GroupRequestList and ValidationView.</td>
+    <td>fix(views): update request description display in GroupRequestList and ValidationView.</td>
+    <td>Jul 7 2025</td>
+  </tr>
+  <tr>
+    <td>synhub-mobile-app</td>
+    <td>develop</td>
+    <td>d63142349d851d14e1ebf76a2fa5a9d935b6fe1b</td>
+    <td>feat(home): implement request fetching and display in home view.</td>
+    <td>feat(home): implement request fetching and display in home view.</td>
+    <td>Jul 7 2025</td>
+  </tr>
+  <tr>
+    <td>synhub-mobile-app</td>
+    <td>develop</td>
+    <td>52d1b55e35fed0932bd01822a9ad7dd0709a71e8</td>
+    <td>feat(views): update date formatting methods to handle UTC and local time.</td>
+    <td>feat(views): update date formatting methods to handle UTC and local time.</td>
+    <td>Jul 7 2025</td>
+  </tr>
+  <tr>
+    <td>synhub-mobile-app</td>
+    <td>develop</td>
+    <td>ad795c675761ec51c88c9975a388e4005088231d</td>
+    <td>feat(views): added UTC formatting functionality, profile picture display and a component when there are no requests.</td>
+    <td>feat(views): added UTC formatting functionality, profile picture display and a component when there are no requests.</td>
+    <td>Jul 7 2025</td>
+  </tr>
+  <tr>
+    <td>synhub-mobile-app</td>
+    <td>develop</td>
+    <td>b4dbf7dd6eac6d13bb4862c1401dbaecc15ed482</td>
+    <td>feat(views): added task edit screen for request navigation.</td>
+    <td>feat(views): added task edit screen for request navigation.</td>
+    <td>Jul 7 2025</td>
+  </tr>
+  <tr>
+    <td>synhub-mobile-app</td>
+    <td>develop</td>
+    <td>17cc251ccc61239314f4fbc2d67554a23292a202</td>
+    <td>chore(view-models): remove unused functions.</td>
+    <td>chore(view-models): remove unused functions.</td>
+    <td>Jul 7 2025</td>
+  </tr>
+  <tr>
+    <td>synhub-mobile-app</td>
+    <td>develop</td>
+    <td>9c72aaa0bded1cf90bd18b9d17a68d37f4aae7f8</td>
+    <td>chore: delete unused files.</td>
+    <td>chore: delete unused files.</td>
+    <td>Jul 7 2025</td>
+  </tr>
+  <tr>
+    <td>synhub-mobile-app</td>
+    <td>develop</td>
+    <td>aa337b29813241c1c532ce80ddadc371a36cfa75</td>
+    <td>chore(view-models): remove temporary function not needed anymore.</td>
+    <td>chore(view-models): remove temporary function not needed anymore.</td>
+    <td>Jul 7 2025</td>
+  </tr>
+  <tr>
+    <td>synhub-mobile-app</td>
+    <td>develop</td>
+    <td>a0564a681dd7f39ca4d04847db57ce49c3c90d09</td>
+    <td>chore(navigator): remove unused screens.</td>
+    <td>chore(navigator): remove unused screens.</td>
+    <td>Jul 7 2025</td>
+  </tr>
+  <tr>
+    <td>synhub-mobile-app</td>
+    <td>develop</td>
+    <td>d997e193b897393c86e8b662cbeb8c35dd9e3b09</td>
+    <td>fix(views): remove task objects and adapt the values to use request's task instead.</td>
+    <td>fix(views): remove task objects and adapt the values to use request's task instead.</td>
+    <td>Jul 7 2025</td>
+  </tr>
+  <tr>
+    <td>synhub-mobile-app</td>
+    <td>develop</td>
+    <td>3ecb16b8611f3f6064ee12ab59f4641fc289cbfa</td>
+    <td>chore(web-service): remove unused method.</td>
+    <td>chore(web-service): remove unused method.</td>
+    <td>Jul 7 2025</td>
+  </tr>
+  <tr>
+    <td>synhub-mobile-app</td>
+    <td>develop</td>
+    <td>d1b19d85b2569de4790ea9e0acb2e88a6a7f1e67</td>
+    <td>fix(dto): replace task id with an appropriate object to match response, and remove member id.</td>
+    <td>fix(dto): replace task id with an appropriate object to match response, and remove member id.</td>
+    <td>Jul 7 2025</td>
+  </tr>
+  <tr>
+    <td>synhub-mobile-app</td>
+    <td>develop</td>
+    <td>04a630d6211b672d66501e653b779ff232393d44</td>
+    <td>refactor(tasks): remove redundant button UI code from MemberDetails and Tasks</td>
+    <td>refactor(tasks): remove redundant button UI code from MemberDetails and Tasks</td>
+    <td>Jul 6 2025</td>
+  </tr>
+  <tr>
+    <td>synhub-mobile-app</td>
+    <td>develop</td>
+    <td>c53a1f98813c225b4ebec4426e637245d1a2c66c</td>
+    <td>fix(views): adjust layout of request cards in GroupRequestList for better responsiveness.</td>
+    <td>fix(views): adjust layout of request cards in GroupRequestList for better responsiveness.</td>
+    <td>Jul 6 2025</td>
+  </tr>
+  <tr>
+    <td>synhub-mobile-app</td>
+    <td>develop</td>
+    <td>e798b8f6fc6bb4bab07dc0d8481b3a98a68fa0bf</td>
+    <td>fix(views): update request description display in GroupRequestList and ValidationView.</td>
+    <td>fix(views): update request description display in GroupRequestList and ValidationView.</td>
+    <td>Jul 5 2025</td>
+  </tr>
+  <tr>
+    <td>synhub-mobile-app</td>
+    <td>develop</td>
+    <td>8b1a4eb28deb03cc3911aea5693a56df034c794c</td>
+    <td>feat(home): implement request fetching and display in home view.</td>
+    <td>feat(home): implement request fetching and display in home view.</td>
+    <td>Jul 5 2025</td>
+  </tr>
+  <tr>
+    <td>synhub-mobile-app</td>
+    <td>fix/requests-validations</td>
+    <td>f0c441aaee2c37fca0679a504b3a6b0d79cdc0f3</td>
+    <td>Merge remote-tracking branch 'origin/fix/requests-validations' into fix/requests-validations</td>
+    <td>Merge remote-tracking branch 'origin/fix/requests-validations' into fix/requests-validations</td>
+    <td>Jul 5 2025</td>
+  </tr>
+  <tr>
+    <td>synhub-mobile-app</td>
+    <td>develop</td>
+    <td>85d748716a1a217578db305fc7ac33267f158bf1</td>
+    <td>feat(views): update date formatting methods to handle UTC and local time.</td>
+    <td>feat(views): update date formatting methods to handle UTC and local time.</td>
+    <td>Jul 5 2025</td>
+  </tr>
+  <tr>
+    <td>synhub-mobile-app</td>
+    <td>develop</td>
+    <td>14ea74da9e0b097e49b4d89f6bbe313bf994996b</td>
+    <td>feat(views): added UTC formatting functionality, profile picture display and a component when there are no requests.</td>
+    <td>feat(views): added UTC formatting functionality, profile picture display and a component when there are no requests.</td>
+    <td>Jul 5 2025</td>
+  </tr>
+  <tr>
+    <td>synhub-mobile-app</td>
+    <td>develop</td>
+    <td>51b5e1ff7527250d8268c63c77af1c0a4f024882</td>
+    <td>feat(views): added task edit screen for request navigation.</td>
+    <td>feat(views): added task edit screen for request navigation.</td>
+    <td>Jul 5 2025</td>
+  </tr>
+  <tr>
+    <td>synhub-mobile-app</td>
+    <td>develop</td>
+    <td>2b888c0750fd62562732e626880c5381612015f1</td>
+    <td>chore(view-models): remove unused functions.</td>
+    <td>chore(view-models): remove unused functions.</td>
+    <td>Jul 5 2025</td>
+  </tr>
+  <tr>
+    <td>synhub-mobile-app</td>
+    <td>develop</td>
+    <td>4f428e334e6f2a5e467e54bb4ed3596c2c0088b4</td>
+    <td>chore: delete unused files.</td>
+    <td>chore: delete unused files.</td>
+    <td>Jul 5 2025</td>
+  </tr>
+  <tr>
+    <td>synhub-mobile-app</td>
+    <td>develop</td>
+    <td>9798374173194dfdfa10565e67eda7d6ac05521e</td>
+    <td>chore(view-models): remove temporary function not needed anymore.</td>
+    <td>chore(view-models): remove temporary function not needed anymore.</td>
+    <td>Jul 5 2025</td>
+  </tr>
+  <tr>
+    <td>synhub-mobile-app</td>
+    <td>develop</td>
+    <td>366c5d1d6940e72ef6b9fed71a3118e4f3a96ebc</td>
+    <td>chore(navigator): remove unused screens.</td>
+    <td>chore(navigator): remove unused screens.</td>
+    <td>Jul 5 2025</td>
+  </tr>
+  <tr>
+    <td>synhub-mobile-app</td>
+    <td>develop</td>
+    <td>f6cd2d0837c120dff05bd8d401cdfb40056eecc5</td>
+    <td>fix(views): remove task objects and adapt the values to use request's task instead.</td>
+    <td>fix(views): remove task objects and adapt the values to use request's task instead.</td>
+    <td>Jul 5 2025</td>
+  </tr>
+  <tr>
+    <td>synhub-mobile-app</td>
+    <td>develop</td>
+    <td>ef14f229dfc5d33b68af5f7a019e13a8483315d7</td>
+    <td>chore(web-service): remove unused method.</td>
+    <td>chore(web-service): remove unused method.</td>
+    <td>Jul 5 2025</td>
+  </tr>
+  <tr>
+    <td>synhub-mobile-app</td>
+    <td>develop</td>
+    <td>8a4f74da74b46a8d1d0cfb19877a37947821fe8f</td>
+    <td>fix(dto): replace task id with an appropriate object to match response, and remove member id.</td>
+    <td>fix(dto): replace task id with an appropriate object to match response, and remove member id.</td>
+    <td>Jul 5 2025</td>
+  </tr>
+  <tr>
+    <td>synhub-mobile-app</td>
+    <td>develop</td>
+    <td>a3883170e34d3ed2d830df27e0e0fd4e1f3fee86</td>
+    <td>feat(analytics): change background color to white for improved visibility</td>
+    <td>feat(analytics): change background color to white for improved visibility</td>
+    <td>Jul 4 2025</td>
+  </tr>
+  <tr>
+    <td>synhub-mobile-app</td>
+    <td>develop</td>
+    <td>1633b06664102e5ae2ac77e983cbbb3756c1e153</td>
+    <td>feat(views): added task edit screen for request navigation.</td>
+    <td>feat(views): added task edit screen for request navigation.</td>
+    <td>Jul 4 2025</td>
+  </tr>
+  <tr>
+    <td>synhub-mobile-app</td>
+    <td>develop</td>
+    <td>3501fe13e7c448a1d33fc9ec43c0c2d32a58a554</td>
+    <td>chore(view-models): remove unused functions.</td>
+    <td>chore(view-models): remove unused functions.</td>
+    <td>Jul 4 2025</td>
+  </tr>
+  <tr>
+    <td>synhub-mobile-app</td>
+    <td>develop</td>
+    <td>7dc1e16b1888fcdbe1850000c650ed73a03a01fb</td>
+    <td>chore: delete unused files.</td>
+    <td>chore: delete unused files.</td>
+    <td>Jul 4 2025</td>
+  </tr>
+  <tr>
+    <td>synhub-mobile-app</td>
+    <td>develop</td>
+    <td>7bb2af8cddae0c03d92de66310e79cd55a3930c3</td>
+    <td>chore(view-models): remove temporary function not needed anymore.</td>
+    <td>chore(view-models): remove temporary function not needed anymore.</td>
+    <td>Jul 4 2025</td>
+  </tr>
+  <tr>
+    <td>synhub-mobile-app</td>
+    <td>develop</td>
+    <td>28feda7924f4a76e4c19334ea9e75205449a2e0b</td>
+    <td>chore(navigator): remove unused screens.</td>
+    <td>chore(navigator): remove unused screens.</td>
+    <td>Jul 4 2025</td>
+  </tr>
+  <tr>
+    <td>synhub-mobile-app</td>
+    <td>develop</td>
+    <td>f4fbb22c25dc29693bd09d34acebc64593513bc9</td>
+    <td>fix(views): remove task objects and adapt the values to use request's task instead.</td>
+    <td>fix(views): remove task objects and adapt the values to use request's task instead.</td>
+    <td>Jul 4 2025</td>
+  </tr>
+  <tr>
+    <td>synhub-mobile-app</td>
+    <td>develop</td>
+    <td>c5120fd20a6e445d4f34f0d0f34bd82cd2895755</td>
+    <td>chore(web-service): remove unused method.</td>
+    <td>chore(web-service): remove unused method.</td>
+    <td>Jul 4 2025</td>
+  </tr>
+  <tr>
+    <td>synhub-mobile-app</td>
+    <td>develop</td>
+    <td>992bbb9dc7e64c6884f12f8f1ba58fdbf4c5a191</td>
+    <td>fix(retrofit): update base URL for local development environment</td>
+    <td>fix(retrofit): update base URL for local development environment</td>
+    <td>Jul 4 2025</td>
+  </tr>
+  <tr>
+    <td>synhub-mobile-app</td>
+    <td>develop</td>
+    <td>992bbb9dc7e64c6884f12f8f1ba58fdbf4c5a191</td>
+    <td>feat(analytics): update color scheme for improved UI consistency</td>
+    <td>feat(analytics): update color scheme for improved UI consistency</td>
+    <td>Jul 4 2025</td>
+  </tr>
+  <tr>
+    <td>synhub-mobile-app</td>
+    <td>develop</td>
+    <td>e362b115686a20dbdb4b5a496ec93bcaeecbf768</td>
+    <td>feat(tasks): add status field to tasks and enhance task display with status-based color coding</td>
+    <td>feat(tasks): add status field to tasks and enhance task display with status-based color coding</td>
+    <td>Jul 2 2025</td>
+  </tr>
+  <tr>
+    <td>synhub-mobile-app</td>
+    <td>develop</td>
+    <td>731a79cacca749d13e82de4cf22d964c7b6588a0</td>
+    <td>feat(date): update date formatting to include time for improved clarity</td>
+    <td>feat(date): update date formatting to include time for improved clarity</td>
+    <td>Jul 1 2025</td>
+  </tr>
+  <tr>
+    <td>synhub-mobile-app</td>
+    <td>develop</td>
+    <td>8c9db46a37f13ddd8abdfbf351a295c4ef181f24</td>
+    <td>feat(tasks): enhance date handling to support ZonedDateTime for improved accuracy</td>
+    <td>feat(tasks): enhance date handling to support ZonedDateTime for improved accuracy</td>
+    <td>Jul 1 2025</td>
+  </tr>
+  <tr>
+    <td>synhub-mobile-app</td>
+    <td>develop</td>
+    <td>88907ee78be17f49b383b1099126f6b07033f2ee</td>
+    <td>feat(layout): add spacing between items for improved visual separation</td>
+    <td>feat(layout): add spacing between items for improved visual separation</td>
+    <td>Jul 1 2025</td>
+  </tr>
+  <tr>
+    <td>synhub-mobile-app</td>
+    <td>develop</td>
+    <td>cdfeca65b3a756e12ae907e109aa9a5bfb29eaa6</td>
+    <td>feat(help): add help dialog to provide task and member information</td>
+    <td>feat(help): add help dialog to provide task and member information</td>
+    <td>Jun 30 2025</td>
+  </tr>
+  <tr>
+    <td>synhub-mobile-app</td>
+    <td>develop</td>
+    <td>d0e6a589d0bb0e36f5b365b26a9953872484f4cc</td>
+    <td>feat(member): add confirmation dialog for deleting group members</td>
+    <td>feat(member): add confirmation dialog for deleting group members</td>
+    <td>Jun 30 2025</td>
+  </tr>
+  <tr>
+    <td>synhub-mobile-app</td>
+    <td>develop</td>
+    <td>4168f0b449f6a676dbd1d5c37f6c6628860cdf02</td>
+    <td>feat(tasks): add confirmation dialog for deleting tasks</td>
+    <td>feat(tasks): add confirmation dialog for deleting tasks</td>
+    <td>Jun 30 2025</td>
+  </tr>
+  <tr>
+    <td>synhub-mobile-app</td>
+    <td>develop</td>
+    <td>96c24a145638ed39a2902e29ff049b78b3809cad</td>
+    <td>feat(login): add error dialog for login failures</td>
+    <td>feat(login): add error dialog for login failures</td>
+    <td>Jun 30 2025</td>
+  </tr>
+  <tr>
+    <td>synhub-mobile-app</td>
+    <td>develop</td>
+    <td>f9889f71615219b558b64520f8f3643852b8401a</td>
+    <td>feat(Group): add confirmation dialog for deleting group members</td>
+    <td>feat(Group): add confirmation dialog for deleting group members</td>
+    <td>Jun 30 2025</td>
+  </tr>
+  <tr>
+    <td>synhub-mobile-app</td>
+    <td>develop</td>
+    <td>95b554d9ba5d6636c97f22461b6ed7882d6b867d</td>
+    <td>fix(tasks): improve date handling to parse and format created and due dates as local dates</td>
+    <td>fix(tasks): improve date handling to parse and format created and due dates as local dates</td>
+    <td>Jun 23 2025</td>
+  </tr>
+  <tr>
+    <td>synhub-mobile-app</td>
+    <td>develop</td>
+    <td>181c0d619bfb23c91fd1bb13d9f87d4e5bba9f3e</td>
+    <td>fix(tasks): update date handling to interpret milliseconds as UTC and improve date parsing</td>
+    <td>fix(tasks): update date handling to interpret milliseconds as UTC and improve date parsing</td>
+    <td>Jun 23 2025</td>
+  </tr>
+  <tr>
+    <td>synhub-mobile-app</td>
+    <td>develop</td>
+    <td>f52b443616269f323fbe4a79aacb18f7f9574537</td>
+    <td>fix(tasks): update due date handling to always send UTC time.</td>
+    <td>fix(tasks): update due date handling to always send UTC time.</td>
+    <td>Jun 23 2025</td>
+  </tr>
+  <tr>
+    <td>synhub-mobile-app</td>
+    <td>develop</td>
+    <td>7c70eef8eda01b89eac79fa468e40fb7778648fa</td>
+    <td>fix(task): update due date handling to use UTC format</td>
+    <td>fix(task): update due date handling to use UTC format</td>
+    <td>Jun 17 2025</td>
+  </tr>
+  <tr>
+    <td>synhub-mobile-app</td>
+    <td>develop</td>
+    <td>6da055398a339f32db23cd42748d5b36b62d4564</td>
+    <td>fix(CreateGroup, Register): restore visual transformation for password fields</td>
+    <td>fix(CreateGroup, Register): restore visual transformation for password fields</td>
+    <td>Jun 17 2025</td>
+  </tr>
+  <tr>
+    <td>synhub-mobile-app</td>
+    <td>develop</td>
+    <td>18f43223f25570c0f619358cef8b9371201ae917</td>
+    <td>fix(RetrofitClient): update base URL to use the production server</td>
+    <td>fix(RetrofitClient): update base URL to use the production server</td>
+    <td>Jun 17 2025</td>
+  </tr>
+  <tr>
+    <td>synhub-mobile-app</td>
+    <td>develop</td>
+    <td>f9a4980ad4a94513ea1cf31e7c485765432b3204</td>
+    <td>Merge pull request #16 from NRG-4/develop</td>
+    <td>Merge pull request #16 from NRG-4/develop</td>
+    <td>Jun 17 2025</td>
+  </tr>
+  <tr>
+    <td>synhub-mobile-app</td>
+    <td>develop</td>
+    <td>566e7406112be7a24e44300b3d6e0682e1454a31</td>
+    <td>Merge pull request #15 from NRG-4/feat/requests</td>
+    <td>Merge pull request #15 from NRG-4/feat/requests</td>
+    <td>Jun 17 2025</td>
+  </tr>
+  <tr>
+    <td>synhub-mobile-app</td>
+    <td>develop</td>
+    <td>cbf3d1be68a3b46980b01ad165de0d9fbe81d758</td>
+    <td>fix(web-service): fix update request status parameters to match provided values.</td>
+    <td>fix(web-service): fix update request status parameters to match provided values.</td>
+    <td>Jun 17 2025</td>
+  </tr>
+  <tr>
+    <td>synhub-mobile-app</td>
+    <td>develop</td>
+    <td>91fb493fe414606edb4cb45ade74a512d616b922</td>
+    <td>fix(requests): fix update request status parameters to match provided values.</td>
+    <td>fix(requests): fix update request status parameters to match provided values.</td>
+    <td>Jun 17 2025</td>
+  </tr>
+  <tr>
+    <td>synhub-mobile-app</td>
+    <td>develop</td>
+    <td>0b496ef1951e0fbd153b0ebedfc9968ae9240145</td>
+    <td>fix(requests): fix button functionality regarding status update and navigation.</td>
+    <td>fix(requests): fix button functionality regarding status update and navigation.</td>
+    <td>Jun 17 2025</td>
+  </tr>
+  <tr>
+    <td>synhub-mobile-app</td>
+    <td>develop</td>
+    <td>f3fef8c34f4c1b68dea5555045eaf1e42bef687c</td>
+    <td>Merge remote-tracking branch 'origin/feat/requests' into feat/requests</td>
+    <td>Merge remote-tracking branch 'origin/feat/requests' into feat/requests</td>
+    <td>Jun 17 2025</td>
+  </tr>
+  <tr>
+    <td>synhub-mobile-app</td>
+    <td>develop</td>
+    <td>69f63008dcf57b0cceb59e911f5d551c445997a2</td>
+    <td>fix(requests): fix conditionals for buttons and their colours, and add a deny button for modification requests.</td>
+    <td>fix(requests): fix conditionals for buttons and their colours, and add a deny button for modification requests.</td>
+    <td>Jun 17 2025</td>
+  </tr>
+  <tr>
+    <td>synhub-mobile-app</td>
+    <td>develop</td>
+    <td>d69bf331aa3b26f3ea3ed6e4e5b7d54a71fd4a9a</td>
+    <td>feat(tasks): add temporary task mapping to correct request view issue.</td>
+    <td>feat(tasks): add temporary task mapping to correct request view issue.</td>
+    <td>Jun 17 2025</td>
+  </tr>
+  <tr>
+  <td>synhub-mobile-app</td>
+  <td>develop</td>
+  <td>e4768ccfd60084886732ab98b8ce5a80ffbdc665</td>
+  <td>feat(tasks): add update task status service.</td>
+  <td>feat(tasks): add update task status service.</td>
+  <td>Jun 17 2025</td>
+</tr>
+<tr>
+  <td>synhub-mobile-app</td>
+  <td>develop</td>
+  <td>b52947f5c4cb0c346832f48c058d97013c87f138</td>
+  <td>fix(requests): fix request listing to the correct conditions and icons.</td>
+  <td>fix(requests): fix request listing to the correct conditions and icons.</td>
+  <td>Jun 17 2025</td>
+</tr>
+<tr>
+  <td>synhub-mobile-app</td>
+  <td>develop</td>
+  <td>9de0ea74f66db414cc5c4eb110a5092d21ba4c55</td>
+  <td>fix(requests): fix conditionals for buttons and their colours, and add a deny button for modification requests.</td>
+  <td>fix(requests): fix conditionals for buttons and their colours, and add a deny button for modification requests.</td>
+  <td>Jun 17 2025</td>
+</tr>
+<tr>
+  <td>synhub-mobile-app</td>
+  <td>develop</td>
+  <td>add0e49c35cfc481fd25155264bc3115e3ecc624</td>
+  <td>feat(tasks): add temporary task mapping to correct request view issue.</td>
+  <td>feat(tasks): add temporary task mapping to correct request view issue.</td>
+  <td>Jun 17 2025</td>
+</tr>
+</table>
+
+**Commits realizados en el repositorio del Frontend-Flutter durante el sprint 3:**
 
 <table>
   <tr>
@@ -10524,7 +11120,183 @@ Para este sprint se desarrollaron 2 productos siendo estos: web application y we
   <tr>
   <td>synhub-frontend</td>
   <td>develop</td>
-  <td>Pachieeee</td>
+  <td>eeca47e91ca9f749ce7cd3e1af158bc4061d9dd9</td>
+  <td>fix(project): update asset catalog compiler settings for AppIcon</td>
+  <td>fix(project): update asset catalog compiler settings for AppIcon</td>
+  <td>Jul 8 2025</td>
+</tr>
+<tr>
+  <td>synhub-frontend</td>
+  <td>develop</td>
+  <td>91a8847674071488d9362066ca3e8833f31ba23e</td>
+  <td>feat: update AndroidManifest and Gradle files for FlutterFire integration and permissions</td>
+  <td>feat: update AndroidManifest and Gradle files for FlutterFire integration and permissions</td>
+  <td>Jul 8 2025</td>
+</tr>
+<tr>
+  <td>synhub-frontend</td>
+  <td>develop</td>
+  <td>e269bfa4cd27c0dcbe16f5b7df38bdcabbfece57</td>
+  <td>Merge pull request #8 from NRG-4/feat/requests</td>
+  <td>Merge pull request #8 from NRG-4/feat/requests</td>
+  <td>Jul 8 2025</td>
+</tr>
+<tr>
+  <td>synhub-frontend</td>
+  <td>develop</td>
+  <td>73ca108bf05b81ee6901bc076d02ee2c430d7e96</td>
+  <td>Merge remote-tracking branch 'origin/feat/requests' into feat/requests</td>
+  <td>Merge remote-tracking branch 'origin/feat/requests' into feat/requests</td>
+  <td>Jul 8 2025</td>
+</tr>
+<tr>
+  <td>synhub-frontend</td>
+  <td>develop</td>
+  <td>4cc97e29c23a88d4a90cac2c85ce4af596df42d0</td>
+  <td>feat(request): add method to update task status in task service</td>
+  <td>feat(request): add method to update task status in task service</td>
+  <td>Jul 8 2025</td>
+</tr>
+<tr>
+  <td>synhub-frontend</td>
+  <td>develop</td>
+  <td>3a3f7be84ccf8ad37c7b2093a30b193fe489e153</td>
+  <td>feat(request): enhance task detail and tasks screen with request creation functionality.</td>
+  <td>feat(request): enhance task detail and tasks screen with request creation functionality.</td>
+  <td>Jul 8 2025</td>
+</tr>
+<tr>
+  <td>synhub-frontend</td>
+  <td>develop</td>
+  <td>81605953f947cd2c1aa03745ef247f2cc39f9b3c</td>
+  <td>feat(request): add event and handler for updating task status in BLoC.</td>
+  <td>feat(request): add event and handler for updating task status in BLoC.</td>
+  <td>Jul 8 2025</td>
+</tr>
+<tr>
+  <td>synhub-frontend</td>
+  <td>develop</td>
+  <td>e330877efcf24a4c16f746ae3be0a1ee6ca0f369</td>
+  <td>feat(request): update request service methods to handle new requests.</td>
+  <td>feat(request): update request service methods to handle new requests.</td>
+  <td>Jul 8 2025</td>
+</tr>
+<tr>
+  <td>synhub-frontend</td>
+  <td>develop</td>
+  <td>2d0f849ab16732f9c74d873c2b86850921d5929f</td>
+  <td>feat(request): add requestType field to Request model.</td>
+  <td>feat(request): add requestType field to Request model.</td>
+  <td>Jul 8 2025</td>
+</tr>
+<tr>
+  <td>synhub-frontend</td>
+  <td>develop</td>
+  <td>27a0026ce2b790febb105dae7cd10422773a4a2e</td>
+  <td>feat(request): implement request loading and creation events in BLoC.</td>
+  <td>feat(request): implement request loading and creation events in BLoC.</td>
+  <td>Jul 8 2025</td>
+</tr>
+<tr>
+  <td>synhub-frontend</td>
+  <td>develop</td>
+  <td>d6b8259e6f0ff67709b676182051f3a71005d0a9</td>
+  <td>feat(request): add CreateRequestScreen for task request submission.</td>
+  <td>feat(request): add CreateRequestScreen for task request submission.</td>
+  <td>Jul 8 2025</td>
+</tr>
+<tr>
+  <td>synhub-frontend</td>
+  <td>develop</td>
+  <td>6e994404ef172de9f9853a9033dc3e1a4dc45422</td>
+  <td>feat(request): update requests screen title style with new color.</td>
+  <td>feat(request): update requests screen title style with new color.</td>
+  <td>Jul 8 2025</td>
+</tr>
+<tr>
+  <td>synhub-frontend</td>
+  <td>develop</td>
+  <td>46d6b2f70113a0aa767e85a5f4ab173c22e330c3</td>
+  <td>feat(request): enhance requests screen with loading states and request categorization.</td>
+  <td>feat(request): enhance requests screen with loading states and request categorization.</td>
+  <td>Jul 8 2025</td>
+</tr>
+<tr>
+  <td>synhub-frontend</td>
+  <td>develop</td>
+  <td>7418d3bf1e80407ef1d8d28d91863d47c4c35b01</td>
+  <td>feat(request): add BLoC provider for request handling in main.</td>
+  <td>feat(request): add BLoC provider for request handling in main.</td>
+  <td>Jul 8 2025</td>
+</tr>
+<tr>
+  <td>synhub-frontend</td>
+  <td>develop</td>
+  <td>ee650d36bd4d830b2534c89eb93922672375977d</td>
+  <td>refactor(home): update navigation and labels for requests screen.</td>
+  <td>refactor(home): update navigation and labels for requests screen.</td>
+  <td>Jul 8 2025</td>
+</tr>
+<tr>
+  <td>synhub-frontend</td>
+  <td>develop</td>
+  <td>6bcd7bf19833082f96e5704f18c4acbf4627c661</td>
+  <td>refactor(request): rename RequestAndValidationsScreen to RequestsScreen and update initialization.</td>
+  <td>refactor(request): rename RequestAndValidationsScreen to RequestsScreen and update initialization.</td>
+  <td>Jul 8 2025</td>
+</tr>
+<tr>
+  <td>synhub-frontend</td>
+  <td>develop</td>
+  <td>8e987e959bc625a495879a880aa82e5c51025ac8</td>
+  <td>feat(request): add BLoC for request handling with events and states.</td>
+  <td>feat(request): add BLoC for request handling with events and states.</td>
+  <td>Jul 8 2025</td>
+</tr>
+<tr>
+  <td>synhub-frontend</td>
+  <td>develop</td>
+  <td>092cbccb2c8873d487dafd158ff41b564af98702</td>
+  <td>feat(request): implement request service.</td>
+  <td>feat(request): implement request service.</td>
+  <td>Jul 8 2025</td>
+</tr>
+<tr>
+  <td>synhub-frontend</td>
+  <td>develop</td>
+  <td>173298a1ebd02beb3d2ffc47e465f29d158eee63</td>
+  <td>feat(request): add request model.</td>
+  <td>feat(request): add request model.</td>
+  <td>Jul 8 2025</td>
+</tr>
+  <tr>
+  <td>synhub-frontend</td>
+  <td>develop</td>
+  <td>72098c4abbcbeed2ec08814cd7875672784381b7</td>
+  <td>Merge pull request #7 from NRG-4/feat/metrics</td>
+  <td>Merge pull request #7 from NRG-4/feat/metrics</td>
+  <td>Jul 6 2025</td>
+</tr>
+<tr>
+  <td>synhub-frontend</td>
+  <td>develop</td>
+  <td>d41606c443f2b69d6a781fe86dd592dc091d2619</td>
+  <td>feat(request): update requests screen title style with new color.</td>
+  <td>feat(request): update requests screen title style with new color.</td>
+  <td>Jul 6 2025</td>
+</tr>
+<tr>
+  <td>synhub-frontend</td>
+  <td>develop</td>
+  <td>a2e7cedc7fdd5e43116daa916e1c215778365a19</td>
+  <td>feat(request): enhance requests screen with loading states and request categorization.</td>
+  <td>feat(request): enhance requests screen with loading states and request categorization.</td>
+  <td>Jul 6 2025</td>
+</tr>
+  <tr>
+  <td>synhub-frontend</td>
+  <td>develop</td>
+  <td>301233cdc909e1e04de96e944ecb9384e5bf3537</td>
   <td>feat(request): add BLoC provider for request handling in main.</td>
   <td>feat(request): add BLoC provider for request handling in main.</td>
   <td>Jul 5 2025</td>
@@ -10532,7 +11304,7 @@ Para este sprint se desarrollaron 2 productos siendo estos: web application y we
 <tr>
   <td>synhub-frontend</td>
   <td>develop</td>
-  <td>Pachieeee</td>
+  <td>a5d3832efbe5b72c260e159a28b5dbf8ecc57323</td>
   <td>refactor(home): update navigation and labels for requests screen.</td>
   <td>refactor(home): update navigation and labels for requests screen.</td>
   <td>Jul 5 2025</td>
@@ -10540,7 +11312,7 @@ Para este sprint se desarrollaron 2 productos siendo estos: web application y we
 <tr>
   <td>synhub-frontend</td>
   <td>develop</td>
-  <td>Pachieeee</td>
+  <td>1a5f03011af7abbbcf648f5eec08f5884d4a3290</td>
   <td>refactor(request): rename RequestAndValidationsScreen to RequestsScreen and update initialization.</td>
   <td>refactor(request): rename RequestAndValidationsScreen to RequestsScreen and update initialization.</td>
   <td>Jul 5 2025</td>
@@ -10548,7 +11320,7 @@ Para este sprint se desarrollaron 2 productos siendo estos: web application y we
 <tr>
   <td>synhub-frontend</td>
   <td>develop</td>
-  <td>Pachieeee</td>
+  <td>e995d189205e0957feed138561fa61303d431935</td>
   <td>feat(request): add BLoC for request handling with events and states.</td>
   <td>feat(request): add BLoC for request handling with events and states.</td>
   <td>Jul 5 2025</td>
@@ -10556,7 +11328,7 @@ Para este sprint se desarrollaron 2 productos siendo estos: web application y we
 <tr>
   <td>synhub-frontend</td>
   <td>develop</td>
-  <td>Pachieeee</td>
+  <td>89eee45816e64b19277a2c3eba94c11951c588d3</td>
   <td>feat(request): implement request service.</td>
   <td>feat(request): implement request service.</td>
   <td>Jul 5 2025</td>
@@ -10564,7 +11336,7 @@ Para este sprint se desarrollaron 2 productos siendo estos: web application y we
 <tr>
   <td>synhub-frontend</td>
   <td>develop</td>
-  <td>Pachieeee</td>
+  <td>1db3efccb075e77ca9f1fdd5e413ba6d6a3e6d94</td>
   <td>feat(request): add request model.</td>
   <td>feat(request): add request model.</td>
   <td>Jul 5 2025</td>
@@ -10943,6 +11715,166 @@ Para este sprint se desarrollaron 2 productos siendo estos: web application y we
     <th>Commit Message Body</th>
     <th>Committed on (Date)</th>
   </tr>
+  <tr>
+  <td>synhub-backend</td>
+  <td>develop</td>
+  <td>ac10b76434dd17de0eb857125254fd78e8bc3463</td>
+  <td>Merge pull request #20 from NRG-4/develop</td>
+  <td>Merge pull request #20 from NRG-4/develop</td>
+  <td>Jul 8 2025</td>
+</tr>
+<tr>
+  <td>synhub-backend</td>
+  <td>develop</td>
+  <td>2ea5ecd5f49ebb6c514ab6e970f99714e7c1b142</td>
+  <td>Merge pull request #19 from NRG-4/fix/requests</td>
+  <td>Merge pull request #19 from NRG-4/fix/requests</td>
+  <td>Jul 8 2025</td>
+</tr>
+<tr>
+  <td>synhub-backend</td>
+  <td>develop</td>
+  <td>b7e325df4617a0c93d8c815c9827163bb89eeee2</td>
+  <td>fix(controllers): update request queries to handle multiple requests by taskId and adjust API endpoints accordingly.</td>
+  <td>fix(controllers): update request queries to handle multiple requests by taskId and adjust API endpoints accordingly.</td>
+  <td>Jul 8 2025</td>
+</tr>
+<tr>
+  <td>synhub-backend</td>
+  <td>develop</td>
+  <td>609a725f7cf0fac080b783d52c22873e9dbb673e</td>
+  <td>fix(requests): add deletion command and rename query.</td>
+  <td>fix(requests): add deletion command and rename query.</td>
+  <td>Jul 8 2025</td>
+</tr>
+<tr>
+  <td>synhub-backend</td>
+  <td>develop</td>
+  <td>84ee0bd421e46543aa59fd67bb4149cb1c43fe91</td>
+  <td>fix(requests): integrate RequestCommandService into TaskStatusScheduler for automatic request creation on task expiration.</td>
+  <td>fix(requests): integrate RequestCommandService into TaskStatusScheduler for automatic request creation on task expiration.</td>
+  <td>Jul 8 2025</td>
+</tr>
+<tr>
+  <td>synhub-backend</td>
+  <td>develop</td>
+  <td>b341504c9b4e46db655e3d55aec3ba53b2be7e0d</td>
+  <td>fix(requests): update RequestRepository to return a list of requests by taskId and add deleteByTaskId method.</td>
+  <td>fix(requests): update RequestRepository to return a list of requests by taskId and add deleteByTaskId method.</td>
+  <td>Jul 8 2025</td>
+</tr>
+<tr>
+  <td>synhub-backend</td>
+  <td>develop</td>
+  <td>1288742571feef7fb2a7f5f01c727c25012d6d3e</td>
+  <td>fix(requests): change relationship from OneToOne to ManyToOne for task association.</td>
+  <td>fix(requests): change relationship from OneToOne to ManyToOne for task association.</td>
+  <td>Jul 8 2025</td>
+</tr>
+<tr>
+  <td>synhub-backend</td>
+  <td>develop</td>
+  <td>0f0d59ec78869fcfabbd26e5927ca5f64a527034</td>
+  <td>feat(requests): add additional command handling and update query service.</td>
+  <td>feat(requests): add additional command handling and update query service.</td>
+  <td>Jul 8 2025</td>
+</tr>
+<tr>
+  <td>synhub-backend</td>
+  <td>develop</td>
+  <td>79ac62fcd074673b786bf81de4fe1f97653eab09</td>
+  <td>chore: added enviroment variables</td>
+  <td>chore: added enviroment variables</td>
+  <td>Jul 7 2025</td>
+</tr>
+<tr>
+  <td>synhub-backend</td>
+  <td>develop</td>
+  <td>7fa8bd4aa5f38f1b52ada4bd2659f2a8c78e7008</td>
+  <td>Merge pull request #18 from NRG-4/develop</td>
+  <td>Merge pull request #18 from NRG-4/develop</td>
+  <td>Jul 7 2025</td>
+</tr>
+<tr>
+  <td>synhub-backend</td>
+  <td>develop</td>
+  <td>bd003f486abeac24087a0db662a6cdbb413df523</td>
+  <td>Merge remote-tracking branch 'origin/fix/requests' into fix/requests</td>
+  <td>Merge remote-tracking branch 'origin/fix/requests' into fix/requests</td>
+  <td>Jul 7 2025</td>
+</tr>
+<tr>
+  <td>synhub-backend</td>
+  <td>develop</td>
+  <td>02e4f1905396d6bae13269dcc634ffbad3a45d8a</td>
+  <td>chore(services): request command service implementation code cleanup.</td>
+  <td>chore(services): request command service implementation code cleanup.</td>
+  <td>Jul 7 2025</td>
+</tr>
+<tr>
+  <td>synhub-backend</td>
+  <td>develop</td>
+  <td>17a953b6b7eedd2494e4f944075cde7af1606e12</td>
+  <td>chore(controllers): request controller code cleanup.</td>
+  <td>chore(controllers): request controller code cleanup.</td>
+  <td>Jul 7 2025</td>
+</tr>
+<tr>
+  <td>synhub-backend</td>
+  <td>develop</td>
+  <td>8847214a8f6e7cacf89cbeedac0e040194da379c</td>
+  <td>chore(services): remove commented line.</td>
+  <td>chore(services): remove commented line.</td>
+  <td>Jul 7 2025</td>
+</tr>
+<tr>
+  <td>synhub-backend</td>
+  <td>develop</td>
+  <td>5fbcf4ef1b6697dee5fd2feed3e350bd8b7de79a</td>
+  <td>fix(requests-bounded-context): remove all instances of member id from requests, as they're embedded in task included in the request.</td>
+  <td>fix(requests-bounded-context): remove all instances of member id from requests, as they're embedded in task included in the request.</td>
+  <td>Jul 7 2025</td>
+</tr>
+<tr>
+  <td>synhub-backend</td>
+  <td>develop</td>
+  <td>c001c99cd185c65862df51f563555bbc44426d84</td>
+  <td>feat(context-facade): add get task by id method for external usage.</td>
+  <td>feat(context-facade): add get task by id method for external usage.</td>
+  <td>Jul 7 2025</td>
+</tr>
+<tr>
+  <td>synhub-backend</td>
+  <td>develop</td>
+  <td>4b5dfd670f287c882e5bc5b02b6a1f178e5a862f</td>
+  <td>fix(resources): change task variable type getter for requests.</td>
+  <td>fix(resources): change task variable type getter for requests.</td>
+  <td>Jul 7 2025</td>
+</tr>
+<tr>
+  <td>synhub-backend</td>
+  <td>develop</td>
+  <td>943d98056c7fc86f62ce1139408763114966b23e</td>
+  <td>fix(services): imlement task context facade to get the task object.</td>
+  <td>fix(services): imlement task context facade to get the task object.</td>
+  <td>Jul 7 2025</td>
+</tr>
+<tr>
+  <td>synhub-backend</td>
+  <td>develop</td>
+  <td>4dad3b9a2baf93754a7db9639094688805f82218</td>
+  <td>fix(domain): change request's task id to task object.</td>
+  <td>fix(domain): change request's task id to task object.</td>
+  <td>Jul 7 2025</td>
+</tr>
+<tr>
+  <td>synhub-backend</td>
+  <td>develop</td>
+  <td>a2b59a93ff2cf23dda965de997e7bc8bc16d4456</td>
+  <td>Merge pull request #17 from NRG-4/feat/metrics</td>
+  <td>Merge pull request #17 from NRG-4/feat/metrics</td>
+  <td>Jul 6 2025</td>
+</tr>
   <tr>
     <td>synhub-backend</td>
     <td>feat/metrics</td>
