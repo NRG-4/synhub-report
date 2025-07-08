@@ -137,6 +137,36 @@
   <td>Alejo Cardenas Jose Antonio</td>
   <td>Avance de ítems: Conclusiones, Bibliografía y Anexos.</td>
 </tr>
+<tr>
+  <td>3.1</td>
+  <td>2025-06-20</td>
+  <td>Casas Sanchez Gabriel Alexander</td>
+  <td>Desarrollo del ítem 6.2.3.1. Sprint Planning 3.</td>
+</tr>
+<tr>
+  <td>3.2</td>
+  <td>2025-06-21</td>
+  <td>Casas Sanchez Gabriel Alexander</td>
+  <td>Desarrollo del ítem 6.2.3.2. Sprint Backlog 3.</td>
+</tr>
+<tr>
+  <td>3.3</td>
+  <td>2025-06-22</td>
+  <td>Alejo Cardenas Jose Antonio</td>
+  <td>Desarrollo de los ítems: 6.2.3.3. Development Evidence for Sprint Review, 6.2.3.4. Testing Suite Evidence for Sprint Review, 6.2.3.8. Team Collaboration Insights during Sprint.</td>
+</tr>
+<tr>
+  <td>3.4</td>
+  <td>2025-06-23</td>
+  <td>Pasquale Barrenechea Gianluca Santino, Pacheco Astiguetta Sebastian, Astonitas Díaz Juan Diego</td>
+  <td>Desarrollo de los ítems: 6.2.3.5. Execution Evidence for Sprint Review, 6.2.3.6. Services Documentation Evidence for Sprint Review, 6.2.3.7. Software Deployment Evidence for Sprint Review.</td>
+</tr>
+<tr>
+  <td>4.0</td>
+  <td>2025-06-24</td>
+  <td>Alejo Cardenas Jose Antonio</td>
+  <td>Finalización de Conclusiones, Bibliografía y Anexos.</td>
+</tr>
   </tbody>
 </table>
 
@@ -184,10 +214,27 @@ Recapitulando los commits se dividieron de la siguiente manera:
 
 Entrega TB2 (19/06/2025):
 
-<img src="images/insights/report-insights-3-1.png" alt="Insights Report Collaboration Insights 4" />
-<img src="images/insights/report-insights-3-2.png" alt="Insights Report Collaboration Insights 4" />
-<img src="images/insights/report-insights-3-3.png" alt="Insights Report Collaboration Insights 4" />
-<img src="images/insights/report-insights-3-4.png" alt="Insights Report Collaboration Insights 4" />
+<img src="images/insights/TB2_insights1.png" alt="Insights Report Collaboration Insights TB2" />
+<img src="images/insights/TB2_insights2.png" alt="Insights Report Collaboration Insights TB2" />
+<img src="images/insights/TB2_insights3.png" alt="Insights Report Collaboration Insights TB2" />
+<img src="images/insights/TB2_insights4.png" alt="Insights Report Collaboration Insights TB2" />
+
+Para esta entrega se desarollo el capitulo 6, en la captura adjuntada se evidencia del trabajo colaborativo de github. Todos los integrantes del grupo trabajaron en el proyecto.
+
+Recapitulando los commits se dividieron de la siguiente manera:
+
+* Alejo Cardenas Jose Antonio (Firtness): 104 commits
+* Astonitas Díaz Juan Diego (NeoRise456): 16 commits
+* Casas Sanchez Gabriel Alexander (Al3xiel): 56 commits
+* Pacheco Astiguetta Sebastian (Pachieeee): 26 commits
+* Pasquale Barrenechea Gianluca Santino (cwassointt): 26 commits
+
+Entrega TF (9/07/2025):
+
+<img src="images/insights/TF_insights1.png" alt="Insights Report Collaboration Insights TF" />
+<img src="images/insights/TF_insights2.png" alt="Insights Report Collaboration Insights TF" />
+<img src="images/insights/TF_insights3.png" alt="Insights Report Collaboration Insights TF" />
+<img src="images/insights/TF_insights4.png" alt="Insights Report Collaboration Insights TF" />
 
 Para esta entrega se desarollo el capitulo 6, en la captura adjuntada se evidencia del trabajo colaborativo de github. Todos los integrantes del grupo trabajaron en el proyecto.
 
@@ -201,104 +248,168 @@ Recapitulando los commits se dividieron de la siguiente manera:
 
 ## Contenido
 
-- [Student Outcome](#student-outcome)
-- [Objetivos SMART](#objetivos-smart)
-- [Capítulo I: Presentación](#capitulo-i-presentación)
-  - [1.1. Startup Profile](#11-startup-profile)
-    - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
-    - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
-  - [1.2. Solution Profile](#12-solution-profile)
-    - [1.2.1. Antecedentes y problemática](#121-antecedentes-y-problemática)
-    - [1.2.2. Lean UX Process](#122-lean-ux-process)
-      - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
-      - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
-      - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
-      - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
-  - [1.3. Segmentos Objetivo](#13-segmentos-objetivo)
-- [Capítulo II: Requirements Elicitation & Analysis](#capítulo-ii-requirements-elicitation--analysis)
-  - [2.1. Competidores](#21-competidores)
-    - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
-    - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
-  - [2.2. Entrevistas](#22-entrevistas)
-    - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
-    - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
-    - [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
-  - [2.3. Needfinding](#23-needfinding)
-    - [2.3.1. User Personas](#231-user-personas)
-    - [2.3.2. User Task Matrix](#232-user-task-matrix)
-    - [2.3.3. User Journey Mapping](#233-user-journey-mapping)
-    - [2.3.4. Empathy Mapping](#234-empathy-mapping)
-    - [2.3.5. As-is Scenario Mapping](#235-as-is-scenario-mapping)
-  - [2.4. Ubiquitous Language](#24-ubiquitous-language)
-- [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
-  - [3.1. To-Be Scenario Mapping](#31-to-be-scenario-mapping)
-  - [3.2. User Stories](#32-user-stories)
-  - [3.3. Impact Mapping](#33-impact-mapping)
-  - [3.4. Product Backlog](#34-product-backlog)
-- [Capítulo IV: Solution Software Design](#capítulo-iv-solution-software-design)
-  - [4.1. Strategic-Level Domain-Driven Design](#41-strategic-level-domain-driven-design)
-    - [4.1.1. EventStorming](#411-eventstorming)
-      - [4.1.1.1. Candidate Context Discovery](#4111-candidate-context-discovery)
-      - [4.1.1.2. Domain Message Flows Modeling](#4112-domain-message-flows-modeling)
-      - [4.1.1.3. Bounded Context Canvases](#4113-bounded-context-canvases)
-    - [4.1.2. Context Mapping](#412-context-mapping)
-    - [4.1.3. Software Architecture](#413-software-architecture)
-      - [4.1.3.1. Software Architecture Context Level Diagrams](#4131-software-architecture-context-level-diagrams)
-      - [4.1.3.2. Software Architecture Container Level Diagrams](#4132-software-architecture-container-level-diagrams)
-      - [4.1.3.3. Software Architecture Deployment Diagrams](#4133-software-architecture-deployment-diagrams)
-  - [4.2. Tactical-Level Domain-Driven Design](#42-tactical-level-domain-driven-design)
-    - [4.2.1. Bounded Context](#421-bounded-context)
-      - [4.2.1.1. Domain Layer](#4211-domain-layer)
-      - [4.2.1.2. Interface Layer](#4212-interface-layer)
-      - [4.2.1.3. Application Layer](#4213-application-layer)
-      - [4.2.1.4. Infrastructure Layer](#4214-infrastructure-layer)
-      - [4.2.1.5. Bounded Context Software Architecture Component Level Diagrams](#4215-bounded-context-software-architecture-component-level-diagrams)
-      - [4.2.1.6. Bounded Context Software Architecture Code Level Diagrams](#4216-bounded-context-software-architecture-code-level-diagrams)
+- [Universidad Peruana de Ciencias Aplicadas](#universidad-peruana-de-ciencias-aplicadas)
+    - [**CURSO:** Aplicaciones para Dispositivos Moviles](#curso-aplicaciones-para-dispositivos-moviles)
+    - [**NRC**: 358](#nrc-358)
+    - [**Profesor:** Eduardo Martin Reyes Rodriguez](#profesor-eduardo-martin-reyes-rodriguez)
+    - [**Ingeniería de software**](#ingeniería-de-software)
+  - [Informe de Trabajo Final](#informe-de-trabajo-final)
+    - [**Nombre del startup:** NRG4](#nombre-del-startup-nrg4)
+    - [**Nombre del producto:** SynHome](#nombre-del-producto-synhome)
+  - [**Integrantes**](#integrantes)
+  - [Registro de Versiones del Informe](#registro-de-versiones-del-informe)
+  - [Project Report Collaboration Insights](#project-report-collaboration-insights)
+  - [Contenido](#contenido)
+  - [Student Outcome](#student-outcome)
+  - [Objetivos SMART](#objetivos-smart)
+      - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
+    - [1.2. Solution Profile](#12-solution-profile)
+      - [1.2.1. Antecedentes y problemática](#121-antecedentes-y-problemática)
+      - [1.2.2. Lean UX Process](#122-lean-ux-process)
+        - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
+        - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
+        - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
+        - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
+    - [1.3. Segmentos Objetivo](#13-segmentos-objetivo)
+  - [Capítulo II: Requirements Elicitation \& Analysis](#capítulo-ii-requirements-elicitation--analysis)
+    - [2.1. Competidores](#21-competidores)
+      - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
+      - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
+    - [2.2. Entrevistas](#22-entrevistas)
+      - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
+      - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
+      - [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
+    - [2.3. Needfinding](#23-needfinding)
+      - [2.3.1. User Personas](#231-user-personas)
+      - [2.3.2. User Task Matrix](#232-user-task-matrix)
+      - [2.3.3. User Journey Mapping](#233-user-journey-mapping)
+      - [2.3.4. Empathy Mapping](#234-empathy-mapping)
+      - [2.3.5. As-is Scenario Mapping](#235-as-is-scenario-mapping)
+    - [2.4. Ubiquitous Language](#24-ubiquitous-language)
+  - [Capítulo III: Requirements specification](#capítulo-iii-requirements-specification)
+    - [3.1. To-Be Scenario Mapping](#31-to-be-scenario-mapping)
+    - [3.2. User Stories](#32-user-stories)
+    - [3.3. Impact Mapping](#33-impact-mapping)
+    - [3.4. Product Backlog](#34-product-backlog)
+  - [Capítulo IV: Solution Software Design](#capítulo-iv-solution-software-design)
+    - [4.1. Strategic-Level Domain-Driven Design](#41-strategic-level-domain-driven-design)
+      - [4.1.1. EventStorming](#411-eventstorming)
+        - [4.1.1.1. Candidate Context Discovery](#4111-candidate-context-discovery)
+        - [4.1.1.2. Domain Message Flows Modeling](#4112-domain-message-flows-modeling)
+        - [4.1.1.3. Bounded Context Canvases](#4113-bounded-context-canvases)
+      - [4.1.2. Context Mapping](#412-context-mapping)
+      - [4.1.3. Software Architecture](#413-software-architecture)
+        - [4.1.3.1. Software Architecture Context Level Diagrams](#4131-software-architecture-context-level-diagrams)
+        - [4.1.3.2. Software Architecture Container Level Diagrams](#4132-software-architecture-container-level-diagrams)
+        - [4.1.3.3. Software Architecture Deployment Diagrams](#4133-software-architecture-deployment-diagrams)
+    - [4.2. Tactical-Level Domain-Driven Design](#42-tactical-level-domain-driven-design)
+      - [4.2.1. Bounded Context: Analítica y Reportes](#421-bounded-context-analítica-y-reportes)
+        - [4.2.1.1. Domain Layer](#4211-domain-layer)
+        - [4.2.1.2. Interface Layer](#4212-interface-layer)
+        - [4.2.1.3. Application Layer](#4213-application-layer)
+        - [4.2.1.4. Infrastructure Layer](#4214-infrastructure-layer)
+        - [4.2.1.5. Bounded Context Software Architecture Component Level Diagrams](#4215-bounded-context-software-architecture-component-level-diagrams)
+        - [4.2.1.6. Bounded Context Software Architecture Code Level Diagrams](#4216-bounded-context-software-architecture-code-level-diagrams)
         - [4.2.1.6.1. Bounded Context Domain Layer Class Diagrams](#42161-bounded-context-domain-layer-class-diagrams)
-        - [4.2.1.6.2. Bounded Context Database Design Diagram](#42162-bounded-context-database-design-diagram)
-- [Capítulo V: Solution UI/UX Design](#capítulo-v-solution-uiux-design)
-  - [5.1. Product Design](#51-product-design)
-    - [5.1.1. Style Guidelines](#511-style-guidelines)
-      - [5.1.1.1. General Style Guidelines](#5111-general-style-guidelines)
-    - [5.1.2. Information Architecture](#512-information-architecture)
-      - [5.1.2.1. Organization Systems](#5121-organization-systems)
-      - [5.1.2.2. Labeling Systems](#5122-labeling-systems)
-      - [5.1.2.3. SEO Tags and Meta Tags](#5123-seo-tags-and-meta-tags)
-      - [5.1.2.4. Searching Systems](#5124-searching-systems)
-      - [5.1.2.5. Navigation Systems](#5125-navigation-systems)
-    - [5.1.3. Landing Page UI Design](#513-landing-page-ui-design)
-      - [5.1.3.1. Landing Page Wireframe](#5131-landing-page-wireframe)
-      - [5.1.3.2. Landing Page Mock-up](#5132-landing-page-mock-up)
-    - [5.1.4. Mobile Applications UX/UI Design](#514-mobile-applications-uxui-design)
-      - [5.1.4.1. Mobile Applications Wireframes](#5141-mobile-applications-wireframes)
-      - [5.1.4.2. Mobile Applications Wireflow Diagrams](#5142-mobile-applications-wireflow-diagrams)
-      - [5.1.4.3. Mobile Applications Mock-ups](#5143-mobile-applications-mock-ups)
-      - [5.1.4.4. Mobile Applications User Flow Diagrams](#5144-mobile-applications-user-flow-diagrams)
-      - [5.1.4.5. Mobile Applications Prototyping](#5145-mobile-applications-prototyping)
-- [Capítulo VI: Product Implementation, Validation & Deployment](#capítulo-vi-product-implementation-validation--deployment)
-  - [6.1. Software Configuration Management](#61-software-configuration-management)
-    - [6.1.1. Software Development Environment Configuration](#611-software-development-environment-configuration)
-    - [6.1.2. Source Code Management](#612-source-code-management)
-    - [6.1.3. Source Code Style Guide \& Conventions](#613-source-code-style-guide--conventions)
-    - [6.1.4. Software Deployment Configuration](#614-software-deployment-configuration)
-  - [6.2. Landing Page \& Mobile Application Implementation](#62-landing-page--mobile-application-implementation)
-    - [6.2.1. Sprint 1](#621-sprint-1)
-      - [6.2.1.1. Sprint Planning 1](#6211-sprint-planning-1)
-      - [6.2.1.2. Sprint Backlog 1](#6212-sprint-backlog-1)
-      - [6.2.1.3. Development Evidence for Sprint Review](#6213-development-evidence-for-sprint-review)
-      - [6.2.1.4. Testing Suite Evidence for Sprint Review](#6214-testing-suite-evidence-for-sprint-review)
-      - [6.2.1.5. Execution Evidence for Sprint Review](#6215-execution-evidence-for-sprint-review)
-      - [6.2.1.6. Services Documentation Evidence for Sprint Review](#6216-services-documentation-evidence-for-sprint-review)
-      - [6.2.1.7. Software Deployment Evidence for Sprint Review](#6217-software-deployment-evidence-for-sprint-review)
-      - [6.2.1.8. Team Collaboration Insights during Sprint](#6218-team-collaboration-insights-during-sprint)
-  - [6.3. Validation Interviews](#63-validation-interviews)
-    - [6.3.1. Diseño de entrevistas](#631-diseño-de-entrevistas)
-    - [6.3.2. Registro de entrevistas](#632-registro-de-entrevistas)
-    - [6.3.3. Evaluaciones según heurísticas](#633-evaluaciones-según-heurísticas)
-  - [6.4. Video About-the-Product](#64-video-about-the-product)
-- [Conclusiones](#conclusiones)
-- [Bibliografía](#bibliografía)
-- [Anexos](#anexos)
+      - [4.2.2. Bounded Context: Notificaciones](#422-bounded-context-notificaciones)
+        - [4.2.2.1. Domain Layer](#4221-domain-layer)
+        - [4.2.2.2. Interface Layer](#4222-interface-layer)
+        - [4.2.2.3. Application Layer](#4223-application-layer)
+        - [4.2.2.4. Infrastructure Layer](#4224-infrastructure-layer)
+        - [4.2.2.5. Bounded Context Software Architecture Component Level Diagrams](#4225-bounded-context-software-architecture-component-level-diagrams)
+        - [4.2.2.6. Bounded Context Software Architecture Code Level Diagrams](#4226-bounded-context-software-architecture-code-level-diagrams)
+        - [4.2.2.6.1. Bounded Context Domain Layer Class Diagrams](#42261-bounded-context-domain-layer-class-diagrams)
+      - [4.2.3. Bounded Context: Gestión de grupos](#423-bounded-context-gestión-de-grupos)
+        - [4.2.3.1. Domain Layer](#4231-domain-layer)
+        - [4.2.3.2. Interface Layer](#4232-interface-layer)
+        - [4.2.3.3. Application Layer](#4233-application-layer)
+        - [4.2.3.4. Infrastructure Layer](#4234-infrastructure-layer)
+        - [4.2.3.5. Bounded Context Software Architecture Component Level Diagrams](#4235-bounded-context-software-architecture-component-level-diagrams)
+        - [4.2.3.6. Bounded Context Software Architecture Code Level Diagrams](#4236-bounded-context-software-architecture-code-level-diagrams)
+          - [4.2.3.6.1. Bounded Context Domain Layer Class Diagrams](#42361-bounded-context-domain-layer-class-diagrams)
+          - [4.2.3.6.2. Bounded Context Database Design Diagram](#42362-bounded-context-database-design-diagram)
+      - [4.2.4. Bounded Context: Solicitudes y Validaciones](#424-bounded-context-solicitudes-y-validaciones)
+        - [4.2.4.1. Domain Layer](#4241-domain-layer)
+        - [4.2.4.2. Interface Layer](#4242-interface-layer)
+        - [4.2.4.3. Application Layer](#4243-application-layer)
+        - [4.2.4.4. Infrastructure Layer](#4244-infrastructure-layer)
+        - [4.2.4.5. Bounded Context Software Architecture Component Level Diagrams](#4245-bounded-context-software-architecture-component-level-diagrams)
+        - [4.2.4.6. Bounded Context Software Architecture Code Level Diagrams](#4246-bounded-context-software-architecture-code-level-diagrams)
+          - [4.2.4.6.1. Bounded Context Domain Layer Class Diagrams](#42461-bounded-context-domain-layer-class-diagrams)
+          - [4.2.4.6.2. Bounded Context Database Design Diagram](#42462-bounded-context-database-design-diagram)
+        - [4.2.5.1. Domain Layer](#4251-domain-layer)
+    - [**Aggregate: `TaskAggregate`**](#aggregate-taskaggregate)
+    - [**Entities:**](#entities)
+    - [**Value Objects**](#value-objects)
+    - [**Factories**](#factories)
+    - [**Domain Services**](#domain-services)
+        - [4.2.5.2. Interface Layer](#4252-interface-layer)
+    - [**Controllers**](#controllers)
+        - [4.2.5.3. Application Layer](#4253-application-layer)
+    - [**Command Handlers**](#command-handlers)
+    - [**Event Handlers**](#event-handlers)
+        - [4.2.5.4. Infrastructure Layer](#4254-infrastructure-layer)
+    - [**Repositories**](#repositories)
+        - [4.2.5.5. Bounded Context Software Architecture Component Level Diagrams](#4255-bounded-context-software-architecture-component-level-diagrams)
+        - [4.2.5.6. Bounded Context Software Architecture Code Level Diagrams](#4256-bounded-context-software-architecture-code-level-diagrams)
+          - [4.2.5.6.1. Bounded Context Domain Layer Class Diagrams](#42561-bounded-context-domain-layer-class-diagrams)
+          - [4.2.5.6.2. Bounded Context Database Design Diagram](#42562-bounded-context-database-design-diagram)
+  - [Capítulo V: Solution UI/UX Design](#capítulo-v-solution-uiux-design)
+    - [5.1. Product Design](#51-product-design)
+      - [5.1.1. Style Guidelines](#511-style-guidelines)
+        - [5.1.1.1. General Style Guidelines](#5111-general-style-guidelines)
+      - [5.1.2. Information Architecture](#512-information-architecture)
+        - [5.1.2.1. Organization Systems](#5121-organization-systems)
+        - [5.1.2.2. Labeling Systems](#5122-labeling-systems)
+        - [5.1.2.3. SEO Tags and Meta Tags](#5123-seo-tags-and-meta-tags)
+        - [5.1.2.4. Searching Systems](#5124-searching-systems)
+        - [5.1.2.5. Navigation Systems](#5125-navigation-systems)
+      - [5.1.3. Landing Page UI Design](#513-landing-page-ui-design)
+        - [5.1.3.1. Landing Page Wireframe](#5131-landing-page-wireframe)
+        - [5.1.3.2. Landing Page Mock-up](#5132-landing-page-mock-up)
+      - [5.1.4. Mobile Applications UX/UI Design](#514-mobile-applications-uxui-design)
+        - [5.1.4.1. Mobile Applications Wireframes](#5141-mobile-applications-wireframes)
+        - [5.1.4.2. Mobile Applications Wireflow Diagrams](#5142-mobile-applications-wireflow-diagrams)
+        - [5.1.4.3. Mobile Applications Mock-ups](#5143-mobile-applications-mock-ups)
+        - [5.1.4.4. Mobile Applications User Flow Diagrams](#5144-mobile-applications-user-flow-diagrams)
+        - [5.1.4.5. Mobile Applications Prototyping](#5145-mobile-applications-prototyping)
+  - [Capítulo VI: Product Implementation, Validation \& Deployment](#capítulo-vi-product-implementation-validation--deployment)
+    - [6.1. Software Configuration Management](#61-software-configuration-management)
+      - [6.1.1. Software Development Environment Configuration](#611-software-development-environment-configuration)
+      - [6.1.2. Source Code Management](#612-source-code-management)
+      - [6.1.3. Source Code Style Guide \& Conventions](#613-source-code-style-guide--conventions)
+      - [6.1.4. Software Deployment Configuration](#614-software-deployment-configuration)
+    - [6.2. Landing Page \& Mobile Application Implementation](#62-landing-page--mobile-application-implementation)
+      - [6.2.1. Sprint 1](#621-sprint-1)
+        - [6.2.1.1. Sprint Planning 1](#6211-sprint-planning-1)
+        - [6.2.1.2. Sprint Backlog 1](#6212-sprint-backlog-1)
+        - [6.2.1.3. Development Evidence for Sprint Review](#6213-development-evidence-for-sprint-review)
+        - [6.2.1.4. Testing Suite Evidence for Sprint Review](#6214-testing-suite-evidence-for-sprint-review)
+        - [6.2.1.5. Execution Evidence for Sprint Review](#6215-execution-evidence-for-sprint-review)
+        - [6.2.1.6. Services Documentation Evidence for Sprint Review](#6216-services-documentation-evidence-for-sprint-review)
+        - [6.2.1.7. Software Deployment Evidence for Sprint Review](#6217-software-deployment-evidence-for-sprint-review)
+        - [6.2.1.8. Team Collaboration Insights during Sprint](#6218-team-collaboration-insights-during-sprint)
+    - [6.2.1. Sprint 1](#621-sprint-1-1)
+      - [6.2.2.1. Sprint Planning 2.](#6221-sprint-planning-2)
+      - [6.2.2.2. Sprint Backlog 2.](#6222-sprint-backlog-2)
+      - [6.2.2.3. Development Evidence for Sprint Review.](#6223-development-evidence-for-sprint-review)
+      - [6.2.2.4. Testing Suite Evidence for Sprint Review.](#6224-testing-suite-evidence-for-sprint-review)
+      - [6.2.2.5. Execution Evidence for Sprint Review.](#6225-execution-evidence-for-sprint-review)
+      - [6.2.2.6. Services Documentation Evidence for Sprint Review.](#6226-services-documentation-evidence-for-sprint-review)
+      - [6.2.2.7. Software Deployment Evidence for Sprint Review.](#6227-software-deployment-evidence-for-sprint-review)
+      - [6.2.2.8. Team Collaboration Insights during Sprint.](#6228-team-collaboration-insights-during-sprint)
+    - [6.3. Validation Interviews](#63-validation-interviews)
+      - [6.3.1. Diseño de entrevistas](#631-diseño-de-entrevistas)
+        - [Objetivo de la Entrevista](#objetivo-de-la-entrevista)
+        - [Elementos de Validación](#elementos-de-validación)
+        - [User Flows a Validar](#user-flows-a-validar)
+        - [Formato de Registro de la Entrevista](#formato-de-registro-de-la-entrevista)
+      - [6.3.2. Registro de entrevistas](#632-registro-de-entrevistas)
+      - [6.3.3. Evaluaciones según heurísticas](#633-evaluaciones-según-heurísticas)
+    - [6.4.  Video About-the-Product.](#64--video-about-the-product)
+  - [Conclusiones](#conclusiones)
+  - [Bibliografía](#bibliografía)
+  - [Anexos](#anexos)
 
 ## Student Outcome
 
@@ -335,9 +446,16 @@ Alejo Cardenas Jose Antonio - TB2: Encargado de la elaboración del Sprint Backl
 Astonitas Díaz Juan Diego - TB2: Participó activamente en el diseño de entrevistas y su registro, además de contribuir en las evaluaciones según heurísticas, fortaleciendo el proceso de validación y recolección de feedback del producto.<br>
 Pasquale Barrenechea Gianluca Santino - TB2: Colaboró en el diseño y registro de entrevistas, así como en la evaluación heurística, demostrando enfoque en la experiencia de usuario y validación del diseño.<br>
 Pacheco Astiguetta Sebastian - TB2: Participó en el diseño y registro de entrevistas, y en las evaluaciones según heurísticas, aportando en la etapa de recolección de información y refinamiento de la solución desde la perspectiva del usuario.<br>
+<br>TF:<br>
+Casas Sanchez Gabriel Alexander - TF: Responsable de la planificación de actividades clave para actualizar conocimientos técnicos y metodológicos. Coordinó reuniones de revisión, fomentó el uso de metodologías ágiles y documentó aprendizajes aplicados al proyecto.<br>
+Alejo Cardenas Jose Antonio - TF: Encargado principal de investigar y aplicar conceptos avanzados en arquitectura y desarrollo de software. Desarrolló mejoras en la estructura de servicios y controladores, asegurando buenas prácticas de codificación.<br>
+Astonitas Díaz Juan Diego - TF: Colaboró en la integración de herramientas de validación de interfaces y testing, aportando a la actualización de procesos para garantizar la calidad técnica del proyecto.<br>
+Pasquale Barrenechea Gianluca Santino - TF: Aplicó nuevos enfoques para optimizar la experiencia de usuario. Realizó pruebas de usabilidad y propuso mejoras basadas en tendencias actuales en diseño centrado en el usuario.<br>
+Pacheco Astiguetta Sebastian - TF: Contribuyó en la revisión de prácticas de documentación técnica y despliegue, ayudando a estandarizar procesos y garantizar la calidad de la solución.<br>
       </td>
       <td>
-        TB1:Durante el desarrollo del trabajo final, cada integrante del equipo actualizó y fortaleció sus conocimientos en metodologías ágiles, diseño centrado en el usuario, modelado estratégico y arquitectura de software. A través de la aplicación práctica de herramientas como Lean UX Canvas, Event Storming, Context Mapping y desarrollo de User Stories, logramos conectar la teoría con la ejecución de un proyecto real. Esta experiencia no solo nos permitió comprender mejor los conceptos aprendidos en clase, sino también integrarlos en la solución propuesta, elevando así nuestra preparación profesional y nuestra capacidad de enfrentar retos en el desarrollo de soluciones de software.<br>TP:El equipo ha demostrado una actualización efectiva de conceptos clave en diversas áreas del desarrollo de software, abordando tanto aspectos técnicos como de diseño y gestión. Desde la configuración del entorno de desarrollo, el manejo de código fuente y buenas prácticas de estilo, hasta la implementación de sistemas de navegación, etiquetado, SEO y diseño de interfaces móviles, se evidencia un dominio creciente de herramientas y metodologías actuales. Esta amplitud de conocimientos refleja una preparación profesional alineada con los requerimientos del proyecto y las demandas del sector tecnológico.<br>TB2:Durante el desarrollo del TB2, el equipo fortaleció y actualizó sus conocimientos en áreas clave del ciclo de vida del software, como la planificación de sprints, la elaboración de backlogs y la ejecución técnica utilizando Spring Boot y Kotlin. Se aplicaron conceptos esenciales sobre arquitectura, documentación de servicios, despliegue y validación de interfaces mediante entrevistas y evaluaciones heurísticas. Este proceso permitió afianzar buenas prácticas de ingeniería de software y consolidar competencias fundamentales para el desarrollo de soluciones tecnológicas reales y de calidad profesional.
+        TB1:Durante el desarrollo del trabajo final, cada integrante del equipo actualizó y fortaleció sus conocimientos en metodologías ágiles, diseño centrado en el usuario, modelado estratégico y arquitectura de software. A través de la aplicación práctica de herramientas como Lean UX Canvas, Event Storming, Context Mapping y desarrollo de User Stories, logramos conectar la teoría con la ejecución de un proyecto real. Esta experiencia no solo nos permitió comprender mejor los conceptos aprendidos en clase, sino también integrarlos en la solución propuesta, elevando así nuestra preparación profesional y nuestra capacidad de enfrentar retos en el desarrollo de soluciones de software.<br>TP:El equipo ha demostrado una actualización efectiva de conceptos clave en diversas áreas del desarrollo de software, abordando tanto aspectos técnicos como de diseño y gestión. Desde la configuración del entorno de desarrollo, el manejo de código fuente y buenas prácticas de estilo, hasta la implementación de sistemas de navegación, etiquetado, SEO y diseño de interfaces móviles, se evidencia un dominio creciente de herramientas y metodologías actuales. Esta amplitud de conocimientos refleja una preparación profesional alineada con los requerimientos del proyecto y las demandas del sector tecnológico.<br>TB2:Durante el desarrollo del TB2, el equipo fortaleció y actualizó sus conocimientos en áreas clave del ciclo de vida del software, como la planificación de sprints, la elaboración de backlogs y la ejecución técnica utilizando Spring Boot y Kotlin. Se aplicaron conceptos esenciales sobre arquitectura, documentación de servicios, despliegue y validación de interfaces mediante entrevistas y evaluaciones heurísticas. Este proceso permitió afianzar buenas prácticas de ingeniería de software y consolidar competencias fundamentales para el desarrollo de soluciones tecnológicas reales y de calidad profesional.<br>
+        TF: Durante este ciclo, el equipo actualizó y reforzó conocimientos clave para el desarrollo de software, aplicando buenas prácticas de planificación ágil, arquitectura limpia y validación de interfaces. Esta experiencia fortaleció sus capacidades técnicas y consolidó aprendizajes prácticos alineados a las necesidades reales del sector.  
       </td>
     </tr>
     <tr>
@@ -353,9 +471,16 @@ Alejo Cardenas Jose Antonio - TB2: Encargado de la elaboración del Sprint Backl
 Astonitas Díaz Juan Diego - TB2: Participó activamente en el diseño de entrevistas y su registro, además de contribuir en las evaluaciones según heurísticas, fortaleciendo el proceso de validación y recolección de feedback del producto.<br>
 Pasquale Barrenechea Gianluca Santino - TB2: Colaboró en el diseño y registro de entrevistas, así como en la evaluación heurística, demostrando enfoque en la experiencia de usuario y validación del diseño.<br>
 Pacheco Astiguetta Sebastian - TB2: Participó en el diseño y registro de entrevistas, y en las evaluaciones según heurísticas, aportando en la etapa de recolección de información y refinamiento de la solución desde la perspectiva del usuario.<br>
+<br>TF:<br>
+Casas Sanchez Gabriel Alexander - TF: Promovió sesiones de retroalimentación y aprendizaje colaborativo para identificar oportunidades de mejora continua. Fomentó la búsqueda de recursos actualizados para mantener la vigencia del conocimiento técnico.<br>
+Alejo Cardenas Jose Antonio - TF: Impulsó la adopción de nuevas tecnologías y herramientas, motivando la autoformación y la documentación de buenas prácticas para fortalecer el aprendizaje permanente.<br>
+Astonitas Díaz Juan Diego - TF: Contribuyó con la actualización de procesos de pruebas y validación, buscando optimizar la eficiencia del equipo mediante el aprendizaje constante.<br>
+Pasquale Barrenechea Gianluca Santino - TF: Investigó tendencias de diseño centrado en el usuario y compartió recursos útiles para mantener al equipo alineado a estándares actuales de experiencia de usuario.<br>
+Pacheco Astiguetta Sebastian - TF: Colaboró en la mejora de procesos de despliegue y mantenimiento, aplicando nuevas prácticas para garantizar la evolución continua del proyecto.<br>
       </td>
       <td>
-        TB1:El trabajo realizado evidenció la importancia del aprendizaje constante en el ámbito profesional. A lo largo del proyecto, nos enfrentamos a desafíos que requerían investigar nuevas herramientas, adoptar enfoques colaborativos y profundizar en técnicas no vistas previamente. Este proceso nos mostró que el conocimiento adquirido no es estático, sino que debe complementarse con una actitud activa hacia la mejora continua. Reconocemos que en un entorno tecnológico en constante evolución, solo mediante el aprendizaje permanente se puede ofrecer soluciones de calidad, adaptarse a las necesidades del usuario y desenvolverse de manera efectiva en el desarrollo profesional y de proyectos.<br>TP:Cada integrante ha asumido tareas que implican el uso de tecnologías y enfoques actualizados, lo cual demuestra una actitud activa hacia el aprendizaje continuo. La ejecución de entregables como wireflows, prototipos móviles, planificación ágil, documentación de servicios y evidencias de pruebas revela una disposición a explorar y aplicar nuevos conocimientos. Esta mentalidad de mejora constante y autoformación es esencial para afrontar los retos cambiantes del desarrollo de software y garantizar la evolución profesional a largo plazo.<br>TB2:La experiencia adquirida en el TB2 evidenció la importancia del aprendizaje continuo como elemento esencial para adaptarse a los desafíos tecnológicos. Los integrantes del equipo no solo aplicaron conocimientos previos, sino que también se enfrentaron a nuevas herramientas y técnicas, desarrollando habilidades mediante la investigación, la experimentación y el trabajo colaborativo. Esta dinámica reafirmó la necesidad de mantenerse en constante actualización para enfrentar con éxito la evolución de los lenguajes, metodologías y entornos en el ámbito del desarrollo de software.
+        TB1:El trabajo realizado evidenció la importancia del aprendizaje constante en el ámbito profesional. A lo largo del proyecto, nos enfrentamos a desafíos que requerían investigar nuevas herramientas, adoptar enfoques colaborativos y profundizar en técnicas no vistas previamente. Este proceso nos mostró que el conocimiento adquirido no es estático, sino que debe complementarse con una actitud activa hacia la mejora continua. Reconocemos que en un entorno tecnológico en constante evolución, solo mediante el aprendizaje permanente se puede ofrecer soluciones de calidad, adaptarse a las necesidades del usuario y desenvolverse de manera efectiva en el desarrollo profesional y de proyectos.<br>TP:Cada integrante ha asumido tareas que implican el uso de tecnologías y enfoques actualizados, lo cual demuestra una actitud activa hacia el aprendizaje continuo. La ejecución de entregables como wireflows, prototipos móviles, planificación ágil, documentación de servicios y evidencias de pruebas revela una disposición a explorar y aplicar nuevos conocimientos. Esta mentalidad de mejora constante y autoformación es esencial para afrontar los retos cambiantes del desarrollo de software y garantizar la evolución profesional a largo plazo.<br>TB2:La experiencia adquirida en el TB2 evidenció la importancia del aprendizaje continuo como elemento esencial para adaptarse a los desafíos tecnológicos. Los integrantes del equipo no solo aplicaron conocimientos previos, sino que también se enfrentaron a nuevas herramientas y técnicas, desarrollando habilidades mediante la investigación, la experimentación y el trabajo colaborativo. Esta dinámica reafirmó la necesidad de mantenerse en constante actualización para enfrentar con éxito la evolución de los lenguajes, metodologías y entornos en el ámbito del desarrollo de software.<br>
+        TF: Durante el desarrollo del TF, el equipo reconoció la importancia del aprendizaje permanente como pilar para el desempeño profesional. Cada integrante fortaleció su capacidad de autoaprendizaje y adaptación, incorporando nuevas herramientas y enfoques para enfrentar retos tecnológicos cambiantes.<br>
       </td>
     </tr>
   </tbody>
