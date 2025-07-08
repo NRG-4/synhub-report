@@ -12240,6 +12240,312 @@ En esta sección, presentamos una recopilación visual y detallada de los avance
 
 #### 6.2.3.6. Services Documentation Evidence for Sprint Review.
 
+<table>
+  <tr>
+    <th>Tag</th>
+    <th>Verbo http</th>
+    <th>Endpoint</th>
+    <th>Summary</th>
+    <th>Description</th>
+    <th>OperationId</th>
+  </tr>
+  <tr>
+    <td>Request</td>
+    <td>PUT</td>
+    <td>/api/v1/tasks/{taskId}/requests/{requestId}/status/{status}</td>
+    <td>Update</td>
+    <td>Update a request status</td>
+    <td>requests_update_status_by_task</td>
+  </tr>
+  <tr>
+    <td>Parameters</td>
+    <td colspan="2">{taskId}, {requestId}, {status}</td>
+    <td>Request body</td>
+    <td colspan="2">no</td>
+  </tr>
+  <tr>
+    <td>Request</td>
+    <td>GET</td>
+    <td>/api/v1/tasks/{taskId}/requests</td>
+    <td>List</td>
+    <td>Get requests from a task</td>
+    <td>requests_list_by_task</td>
+  </tr>
+  <tr>
+    <td>Parameters</td>
+    <td colspan="2">{taskId}</td>
+    <td>Request body</td>
+    <td colspan="2">no</td>
+  </tr>
+  <tr>
+    <td>Request</td>
+    <td>POST</td>
+    <td>/api/v1/tasks/{taskId}/requests</td>
+    <td>Create</td>
+    <td>Create a new request</td>
+    <td>requests_create_by_task</td>
+  </tr>
+  <tr>
+    <td>Parameters</td>
+    <td colspan="2">{taskId}</td>
+    <td>Request body</td>
+    <td colspan="2">yes</td>
+  </tr>
+  <tr>
+    <td>Request</td>
+    <td>GET</td>
+    <td>/api/v1/tasks/{taskId}/requests/{requestId}</td>
+    <td>Get</td>
+    <td>Get a request by ID</td>
+    <td>requests_get_by_id_by_task</td>
+  </tr>
+  <tr>
+    <td>Parameters</td>
+    <td colspan="2">{taskId}, {requestId}</td>
+    <td>Request body</td>
+    <td colspan="2">no</td>
+  </tr>
+  <tr>
+    <td>Request</td>
+    <td>DELETE</td>
+    <td>/api/v1/tasks/{taskId}/requests/{requestId}</td>
+    <td>Delete</td>
+    <td>Delete a request by ID</td>
+    <td>requests_delete_by_id_by_task</td>
+  </tr>
+  <tr>
+    <td>Parameters</td>
+    <td colspan="2">{taskId}, {requestId}</td>
+    <td>Request body</td>
+    <td colspan="2">no</td>
+  </tr>
+  <tr>
+    <td>Group Requests</td>
+    <td>GET</td>
+    <td>/api/v1/member/group/requests</td>
+    <td>List</td>
+    <td>Get all requests from member</td>
+    <td>group_requests_by_member</td>
+  </tr>
+  <tr>
+    <td>Parameters</td>
+    <td colspan="2">–</td>
+    <td>Request body</td>
+    <td colspan="2">no</td>
+  </tr>
+  <tr>
+    <td>Group Requests</td>
+    <td>GET</td>
+    <td>/api/v1/leader/group/requests</td>
+    <td>List</td>
+    <td>Get all requests from a group</td>
+    <td>group_requests_by_leader</td>
+  </tr>
+  <tr>
+    <td>Parameters</td>
+    <td colspan="2">–</td>
+    <td>Request body</td>
+    <td colspan="2">no</td>
+  </tr>
+  <tr>
+    <td>Member</td>
+    <td>GET</td>
+    <td>/api/v1/member/tasks/next</td>
+    <td>Get</td>
+    <td>Get the next task by authenticated member</td>
+    <td>member_next_task</td>
+  </tr>
+  <tr>
+    <td>Parameters</td>
+    <td colspan="2">–</td>
+    <td>Request body</td>
+    <td colspan="2">no</td>
+  </tr>
+  <tr>
+    <td>Member</td>
+    <td>DELETE</td>
+    <td>/api/v1/member/group/leave</td>
+    <td>Delete</td>
+    <td>Leave group by member authenticated</td>
+    <td>member_leave_group</td>
+  </tr>
+  <tr>
+    <td>Parameters</td>
+    <td colspan="2">–</td>
+    <td>Request body</td>
+    <td colspan="2">no</td>
+  </tr>
+  <tr>
+    <td>Metrics</td>
+    <td>GET</td>
+    <td>/api/v1/metrics/tasks/rescheduled</td>
+    <td>Get</td>
+    <td>Get rescheduled tasks for group</td>
+    <td>metrics_group_tasks_rescheduled</td>
+  </tr>
+  <tr>
+    <td>Parameters</td>
+    <td colspan="2">–</td>
+    <td>Request body</td>
+    <td colspan="2">no</td>
+  </tr>
+  <tr>
+    <td>Metrics</td>
+    <td>GET</td>
+    <td>/api/v1/metrics/tasks/overview</td>
+    <td>Get</td>
+    <td>Get task overview for group</td>
+    <td>metrics_group_tasks_overview</td>
+  </tr>
+  <tr>
+    <td>Parameters</td>
+    <td colspan="2">–</td>
+    <td>Request body</td>
+    <td colspan="2">no</td>
+  </tr>
+  <tr>
+    <td>Metrics</td>
+    <td>GET</td>
+    <td>/api/v1/metrics/tasks/distribution</td>
+    <td>Get</td>
+    <td>Get task distribution for group</td>
+    <td>metrics_group_tasks_distribution</td>
+  </tr>
+  <tr>
+    <td>Parameters</td>
+    <td colspan="2">–</td>
+    <td>Request body</td>
+    <td colspan="2">no</td>
+  </tr>
+  <tr>
+    <td>Metrics</td>
+    <td>GET</td>
+    <td>/api/v1/metrics/tasks/avg-completion-time</td>
+    <td>Get</td>
+    <td>Get average completion time for group</td>
+    <td>metrics_group_avg_completion_time</td>
+  </tr>
+  <tr>
+    <td>Parameters</td>
+    <td colspan="2">–</td>
+    <td>Request body</td>
+    <td colspan="2">no</td>
+  </tr>
+  <tr>
+    <td>Metrics</td>
+    <td>GET</td>
+    <td>/api/v1/metrics/task/member/{memberId}/time-passed</td>
+    <td>Get</td>
+    <td>Get time passed for a member's completed task</td>
+    <td>metrics_member_task_time_passed</td>
+  </tr>
+  <tr>
+    <td>Parameters</td>
+    <td colspan="2">{memberId}</td>
+    <td>Request body</td>
+    <td colspan="2">no</td>
+  </tr>
+  <tr>
+    <td>Metrics</td>
+    <td>GET</td>
+    <td>/api/v1/metrics/member/{memberId}/tasks/rescheduled</td>
+    <td>Get</td>
+    <td>Get rescheduled tasks for member</td>
+    <td>metrics_member_tasks_rescheduled</td>
+  </tr>
+  <tr>
+    <td>Parameters</td>
+    <td colspan="2">{memberId}</td>
+    <td>Request body</td>
+    <td colspan="2">no</td>
+  </tr>
+  <tr>
+    <td>Metrics</td>
+    <td>GET</td>
+    <td>/api/v1/metrics/member/{memberId}/tasks/overview</td>
+    <td>Get</td>
+    <td>Get task overview for member</td>
+    <td>metrics_member_tasks_overview</td>
+  </tr>
+  <tr>
+    <td>Parameters</td>
+    <td colspan="2">{memberId}</td>
+    <td>Request body</td>
+    <td colspan="2">no</td>
+  </tr>
+  <tr>
+    <td>Metrics</td>
+    <td>GET</td>
+    <td>/api/v1/metrics/member/{memberId}/tasks/distribution</td>
+    <td>Get</td>
+    <td>Get task distribution for member</td>
+    <td>metrics_member_tasks_distribution</td>
+  </tr>
+  <tr>
+    <td>Parameters</td>
+    <td colspan="2">{memberId}</td>
+    <td>Request body</td>
+    <td colspan="2">no</td>
+  </tr>
+  <tr>
+    <td>Metrics</td>
+    <td>GET</td>
+    <td>/api/v1/metrics/member/{memberId}/tasks/avg-completion-time</td>
+    <td>Get</td>
+    <td>Get average completion time for member</td>
+    <td>metrics_member_avg_completion_time</td>
+  </tr>
+  <tr>
+    <td>Parameters</td>
+    <td colspan="2">{memberId}</td>
+    <td>Request body</td>
+    <td colspan="2">no</td>
+  </tr>
+  <tr>
+    <td>Tests</td>
+    <td>POST</td>
+    <td>/api/v1/tests/token</td>
+    <td>Create</td>
+    <td>Generate a new JWT token</td>
+    <td>tests_generate_token</td>
+  </tr>
+  <tr>
+    <td>Parameters</td>
+    <td colspan="2">–</td>
+    <td>Request body</td>
+    <td colspan="2">no</td>
+  </tr>
+  <tr>
+    <td>Tests</td>
+    <td>GET</td>
+    <td>/api/v1/tests/fetch-user</td>
+    <td>Get</td>
+    <td>Fetch test user</td>
+    <td>tests_fetch_user</td>
+  </tr>
+  <tr>
+    <td>Parameters</td>
+    <td colspan="2">–</td>
+    <td>Request body</td>
+    <td colspan="2">no</td>
+  </tr>
+  <tr>
+    <td>Tasks Member</td>
+    <td>GET</td>
+    <td>/api/v1/members/{memberId}/tasks/next</td>
+    <td>Get</td>
+    <td>Get the next task by member ID</td>
+    <td>tasks_member_next</td>
+  </tr>
+  <tr>
+    <td>Parameters</td>
+    <td colspan="2">{memberId}</td>
+    <td>Request body</td>
+    <td colspan="2">no</td>
+  </tr>
+</table>
+
+
 #### 6.2.3.7. Software Deployment Evidence for Sprint Review.
 
 **Landing Page**
