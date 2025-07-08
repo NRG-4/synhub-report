@@ -12257,13 +12257,13 @@ Al momento de seleccionar el apartado tasks podremos ver arriba a la derecha un 
 
 <img src="images/chapter-6/testing_flutter_tasks_legend.png" alt="Testing" width="300">
 
-Podemos ver nuestro grupo con su codigo y los entegran
+Podemos ver nuestro grupo con su codigo.
 
-<img src="images/chapter-6/testesting_flutter_group_members1.png" alt="Testing" width="300">
+<img src="images/chapter-6/testing_flutter_group_members1.png" alt="Testing" width="300">
 
 Ademas, podremos ver a otros miembros que se unan al mismo grupo.
 
-<img src="images/chapter-6/testesting_flutter_group_members2.png" alt="Testing" width="300">
+<img src="images/chapter-6/testing_flutter_group_members2.png" alt="Testing" width="300">
 
 Estando ya en el grupo y cuando se nos asignae una task podremos observar sus datos como titulo,deadline,etc. Ademas, podremos marcarla como completada o hacer un comentario solicitando mas tiempo. Como aun hay tiempo se mostrara de color verde.
 
@@ -12340,11 +12340,11 @@ Ya habiendo verificado que el app no se reinicia cambiando de plano proseguiremo
 
 Un diseño que se ajuste a la pantalla de un dispositivo. Los usuarios deben ver el contenido principal sin acercarse o desplazarse horizontalmente.
 
-<img src="images/chapter-6/content.png" alt="Design" width="300">
+<img src="images/chapter-6/formating_content.png" alt="Design" width="300">
 
 Elementos de interfaz de usuario diseñados para gestos táctiles para que la interacción con su aplicación se sienta fácil y natural.
 
-<img src="images/chapter-6/controls.png" alt="Design" width="300">
+<img src="images/chapter-6/touch_controls.png" alt="Design" width="300">
 
 Controles que midan al menos 44 puntos x 44 puntos para que puedan ser aprovechados con precisión con un dedo.
 
@@ -12356,7 +12356,7 @@ Texto debe tener al menos 11 puntos, por lo que es legible a una distancia de vi
 
 Amplio contraste entre el color de la fuente y el fondo para que el texto sea legible.
 
-<img src="images/chapter-6/contrast.png" alt="Design" width="300">
+<img src="images/chapter-6/constrast.png" alt="Design" width="300">
 
 Mejorar la legibilidad al aumentar la altura de la línea o el espacio de las letras.
 
@@ -13212,162 +13212,3 @@ Nielsen Norman Group. (n.d.). User Journey Mapping. [https://www.nngroup.com/art
 Sommerville, I. (2016). Software Engineering (10th ed.). Pearson Education. [https://www.pearson.com/en-us/subject-catalog/p/software-engineering/P200000005158/9780133943030](https://www.pearson.com/en-us/subject-catalog/p/software-engineering/P200000005158/9780133943030)
 
 ## Anexos
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
