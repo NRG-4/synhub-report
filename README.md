@@ -10471,39 +10471,44 @@ Para este sprint se desarrollaron 2 productos siendo estos: web application y we
 **Commits realizados en el repositorio de la Landing Page durante el sprint 3:**
 
 <table>
-  <tr>
-    <th>Repository</th>
-    <th>Branch</th>
-    <th>Commit Id</th>
-    <th>Commit Message</th>
-    <th>Commit Message Body</th>
-    <th>Committed on (Date)</th>
-  </tr>
-  <tr>
-    <td>synhub-landing</td>
-    <td>master</td>
-    <td>690e99afbab468d3e31a7409aa68d2b74135f1f6</td>
-    <td>Merge pull request #2 from NRG-4/develop</td>
-    <td>Merge pull request #2 from NRG-4/develop</td>
-    <td>Jun 18 2025</td>
-  </tr>
-  <tr>
-    <td>synhub-landing</td>
-    <td>master</td>
-    <td>79d94fc2b202fb00d66587519ede0f5dbcdb8079</td>
-    <td>feat: add videos section to showcase project in action</td>
-    <td>feat: add videos section to showcase project in action</td>
-    <td>Jun 18 2025</td>
-  </tr>
-  <tr>
-    <td>synhub-landing</td>
-    <td>master</td>
-    <td>c2fd252e5fc116fdbc54a6244a23dc111065c0d9</td>
-    <td>fix: remove hash from section IDs for proper linking</td>
-    <td>fix: remove hash from section IDs for proper linking</td>
-    <td>Jun 18 2025</td>
-  </tr>
+  <thead>
+    <tr>
+      <th>Repository</th>
+      <th>Branch</th>
+      <th>Commit Id</th>
+      <th>Commit Message</th>
+      <th>Commit Message Body</th>
+      <th>Committed on (Date)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>synhub-landing</td>
+      <td>master</td>
+      <td>690e99afbab468d3e31a7409aa68d2b74135f1f6</td>
+      <td>Merge pull request #2 from NRG-4/develop</td>
+      <td>Merge pull request #2 from NRG-4/develop</td>
+      <td>Jun 18 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-landing</td>
+      <td>master</td>
+      <td>79d94fc2b202fb00d66587519ede0f5dbcdb8079</td>
+      <td>feat: add videos section to showcase project in action</td>
+      <td>feat: add videos section to showcase project in action</td>
+      <td>Jun 18 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-landing</td>
+      <td>master</td>
+      <td>c2fd252e5fc116fdbc54a6244a23dc111065c0d9</td>
+      <td>fix: remove hash from section IDs for proper linking</td>
+      <td>fix: remove hash from section IDs for proper linking</td>
+      <td>Jun 18 2025</td>
+    </tr>
+  </tbody>
 </table>
+
 
 **Commits realizados en el repositorio del Frontend-Android durante el sprint 3:**
 
@@ -12238,64 +12243,83 @@ Caso contrario el daremos sincronizar para unirnos sin problemas al grupo para e
 <img src="images/chapter-6/testing_flutter_joingroup_true_summary.png" alt="Testing">
 
 Al momento de seleccionar el apartado tasks podremos ver arriba a la derecha un icono de una incognita con la cual podremos ver la leyenda de los colores y su significado.
+
 <img src="images/chapter-6/testing_flutter_tasks_legend.png" alt="Testing">
 
 Podemos ver nuestro grupo con su codigo y los entegran
+
 <img src="images/chapter-6/testesting_flutter_group_members1.png" alt="Testing">
 
 Ademas, podremos ver a otros miembros que se unan al mismo grupo.
+
 <img src="images/chapter-6/testesting_flutter_group_members2.png" alt="Testing">
 
 Estando ya en el grupo y cuando se nos asignae una task podremos observar sus datos como titulo,deadline,etc. Ademas, podremos marcarla como completada o hacer un comentario solicitando mas tiempo. Como aun hay tiempo se mostrara de color verde.
+
 <img src="images/chapter-6/testing_flutter_tasks.png" alt="Testing">
 
 Al realizar un comentario nos saldran a completar los siguientes valores en la pantalla.
+
 <img src="images/chapter-6/testing_flutter_tasks_comment.png" alt="Testing">
 
 Al mismo tiempo podremos ver en solicitudes el reflejo de la tarea en la cual solicitamos mas tiempo de color naranja.
+
 <img src="images/chapter-6/testing_flutter_requests_comment.png" alt="Testing">
 
 Y vemos como nuestra tarea pasa a espera de validacion de color naranja.
+
 <img src="images/chapter-6/testing_flutter_tasks_validation.png" alt="Testing">
 
 Por otro lado si tenemos una tarea en la cual su deadline ya se ha superado se mostrara de rojo como ya vencida.
+
 <img src="images/chapter-6/testing_flutter_tasks_overdued.png" alt="Testing">
 
 Tambien, la tendremos en solicitudes del mismo color rojo.
+
 <img src="images/chapter-6/testing_flutter_requests_overdued.png" alt="Testing">
 
 Podemos marcar una tarea como completada cuando la hayamos terminado, por lo tanto esta tarea pasara a ser validada.
+
 <img src="images/chapter-6/testing_flutter_tasks_completed1.png" alt="Testing">
 
-Y quedara marcada como hecha,ya que asi lo hemos querido
+Y quedara marcada como hecha,ya que asi lo hemos querido.
+
 <img src="images/chapter-6/testing_flutter_tasks_completed2.png" alt="Testing">
 
 Asi mismo, la veremos como nueva solicitud.
+
 <img src="images/chapter-6/testing_flutter_requests_completed.png" alt="Testing">
 
 Por ahora podemos ver que no tenemos ninguna tarea finiquitada.
+
 <img src="images/chapter-6/testing_flutter_tasks_finished1.png" alt="Testing">
 
 Pero una vez se nos haya considerado la tarea como finiquitada podremos observar que cambia a color celeste.
+
 <img src="images/chapter-6/testing_flutter_tasks_finished2.png" alt="Testing">
 
 Podemos ver que ninguna tarea ha sido resuelta por parte del profesor.
+
 <img src="images/chapter-6/testing_flutter_requests_resolved1.png" alt="Testing">
 
 
 En el momento que se nos resuelva alguna de las solicitudes que tenemos se veran como resueltas.
+
 <img src="images/chapter-6/testing_flutter_requests_resolved2.png" alt="Testing">
 <img src="images/chapter-6/testing_flutter_requests_comment2.png" alt="Testing">
 
 Al final del testing nuestras tareas terminarian en sus correspondientes estados.
+
 <img src="images/chapter-6/testing_flutter_tasks_final1.png" alt="Testing">
 <img src="images/chapter-6/testing_flutter_tasks_final2.png" alt="Testing">
 
 
 Y podemos ver que nuestro resumen de perfil ha cambiado mostrando nuevos datos.
+
 <img src="images/chapter-6/testing_flutter_joingroup_true_finalsummary.png" alt="Testing">
 
 Ya teniendo en orden con las evaluaciones de las heuristicas verificamos que al minimizar el app no se reinicie todo el aplicativo y solo se pause o entre a segundo plano.
+
 <img src="images/chapter-6/testing_flutter_enhaced1.png" alt="Design">
 <img src="images/chapter-6/testing_flutter_enhaced2.png" alt="Design">
 <img src="images/chapter-6/testing_flutter_enhaced3.png" alt="Design">
@@ -12304,33 +12328,43 @@ Ya teniendo en orden con las evaluaciones de las heuristicas verificamos que al 
 Ya habiendo verificado que el app no se reinicia cambiando de plano proseguiremos con los UI Design Dos and Don’ts.
 
 Un diseño que se ajuste a la pantalla de un dispositivo. Los usuarios deben ver el contenido principal sin acercarse o desplazarse horizontalmente.
+
 <img src="images/chapter-6/content.png" alt="Design">
 
 Elementos de interfaz de usuario diseñados para gestos táctiles para que la interacción con su aplicación se sienta fácil y natural.
+
 <img src="images/chapter-6/controls.png" alt="Design">
 
 Controles que midan al menos 44 puntos x 44 puntos para que puedan ser aprovechados con precisión con un dedo.
+
 <img src="images/chapter-6/hit_targets.png" alt="Design">
 
 Texto debe tener al menos 11 puntos, por lo que es legible a una distancia de visión típica sin zoom.
+
 <img src="images/chapter-6/text_sized.png" alt="Design">
 
 Amplio contraste entre el color de la fuente y el fondo para que el texto sea legible.
+
 <img src="images/chapter-6/contrast.png" alt="Design">
 
 Mejorar la legibilidad al aumentar la altura de la línea o el espacio de las letras.
+
 <img src="images/chapter-6/spacing.png" alt="Design">
 
 Versiones de alta resolución de todos los activos de imagen. Las imágenes que no son @2x y @3x aparecerán borrosas en la pantalla Retina.
+
 <img src="images/chapter-6/high_resolution.png" alt="Design">
 
 Imágenes en su relación de aspecto prevista para evitar la distorsión.
+
 <img src="images/chapter-6/distortion.png" alt="Design">
 
 Diseño fácil de leer que ponga los controles cerca del contenido que modifican.
+
 <img src="images/chapter-6/organization.png" alt="Design">
 
 Texto, las imágenes y los botones alineados para mostrar a los usuarios cómo se relaciona la información.
+
 <img src="images/chapter-6/alignment.png" alt="Design">
 
 
