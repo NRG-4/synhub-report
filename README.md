@@ -10481,30 +10481,32 @@ Para este sprint se desarrollaron 2 productos siendo estos: web application y we
     <th>Committed on (Date)</th>
   </tr>
   </thead>
-  <tr>
-    <td>synhub-landing</td>
-    <td>master</td>
-    <td>690e99afbab468d3e31a7409aa68d2b74135f1f6</td>
-    <td>Merge pull request #2 from NRG-4/develop</td>
-    <td>Merge pull request #2 from NRG-4/develop</td>
-    <td>Jun 18 2025</td>
-  </tr>
-  <tr>
-    <td>synhub-landing</td>
-    <td>master</td>
-    <td>79d94fc2b202fb00d66587519ede0f5dbcdb8079</td>
-    <td>feat: add videos section to showcase project in action</td>
-    <td>feat: add videos section to showcase project in action</td>
-    <td>Jun 18 2025</td>
-  </tr>
-  <tr>
-    <td>synhub-landing</td>
-    <td>master</td>
-    <td>c2fd252e5fc116fdbc54a6244a23dc111065c0d9</td>
-    <td>fix: remove hash from section IDs for proper linking</td>
-    <td>fix: remove hash from section IDs for proper linking</td>
-    <td>Jun 18 2025</td>
-  </tr>
+  <tbody>
+    <tr>
+      <td>synhub-landing</td>
+      <td>master</td>
+      <td>690e99afbab468d3e31a7409aa68d2b74135f1f6</td>
+      <td>Merge pull request #2 from NRG-4/develop</td>
+      <td>Merge pull request #2 from NRG-4/develop</td>
+      <td>Jun 18 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-landing</td>
+      <td>master</td>
+      <td>79d94fc2b202fb00d66587519ede0f5dbcdb8079</td>
+      <td>feat: add videos section to showcase project in action</td>
+      <td>feat: add videos section to showcase project in action</td>
+      <td>Jun 18 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-landing</td>
+      <td>master</td>
+      <td>c2fd252e5fc116fdbc54a6244a23dc111065c0d9</td>
+      <td>fix: remove hash from section IDs for proper linking</td>
+      <td>fix: remove hash from section IDs for proper linking</td>
+      <td>Jun 18 2025</td>
+    </tr>
+  </tbody>
 </table>
 
 **Commits realizados en el repositorio del Frontend-Android durante el sprint 3:**
