@@ -11239,7 +11239,7 @@ Para este sprint se desarrollaron 2 productos siendo estos: web application y we
     <td>Jul 8 2025</td>
   </tr>
   <tr>
-  <td>synhub-frontend</td>
+    <td>synhub-frontend</td>
     <td>develop</td>
     <td>6bcd7bf19833082f96e5704f18c4acbf4627c661</td>
     <td>refactor(request): rename RequestAndValidationsScreen to RequestsScreen and update initialization.</td>
@@ -11716,166 +11716,166 @@ Para este sprint se desarrollaron 2 productos siendo estos: web application y we
     <th>Commit Message Body</th>
     <th>Committed on (Date)</th>
   </tr>
-<tr>
-  <td>synhub-backend</td>
-  <td>develop</td>
-  <td>ac10b76434dd17de0eb857125254fd78e8bc3463</td>
-  <td>Merge pull request #20 from NRG-4/develop</td>
-  <td>Merge pull request #20 from NRG-4/develop</td>
-  <td>Jul 8 2025</td>
-</tr>
-<tr>
-  <td>synhub-backend</td>
-  <td>develop</td>
-  <td>2ea5ecd5f49ebb6c514ab6e970f99714e7c1b142</td>
-  <td>Merge pull request #19 from NRG-4/fix/requests</td>
-  <td>Merge pull request #19 from NRG-4/fix/requests</td>
-  <td>Jul 8 2025</td>
-</tr>
-<tr>
-  <td>synhub-backend</td>
-  <td>develop</td>
-  <td>b7e325df4617a0c93d8c815c9827163bb89eeee2</td>
-  <td>fix(controllers): update request queries to handle multiple requests by taskId and adjust API endpoints accordingly.</td>
-  <td>fix(controllers): update request queries to handle multiple requests by taskId and adjust API endpoints accordingly.</td>
-  <td>Jul 8 2025</td>
-</tr>
-<tr>
-  <td>synhub-backend</td>
-  <td>develop</td>
-  <td>609a725f7cf0fac080b783d52c22873e9dbb673e</td>
-  <td>fix(requests): add deletion command and rename query.</td>
-  <td>fix(requests): add deletion command and rename query.</td>
-  <td>Jul 8 2025</td>
-</tr>
-<tr>
-  <td>synhub-backend</td>
-  <td>develop</td>
-  <td>84ee0bd421e46543aa59fd67bb4149cb1c43fe91</td>
-  <td>fix(requests): integrate RequestCommandService into TaskStatusScheduler for automatic request creation on task expiration.</td>
-  <td>fix(requests): integrate RequestCommandService into TaskStatusScheduler for automatic request creation on task expiration.</td>
-  <td>Jul 8 2025</td>
-</tr>
-<tr>
-  <td>synhub-backend</td>
-  <td>develop</td>
-  <td>b341504c9b4e46db655e3d55aec3ba53b2be7e0d</td>
-  <td>fix(requests): update RequestRepository to return a list of requests by taskId and add deleteByTaskId method.</td>
-  <td>fix(requests): update RequestRepository to return a list of requests by taskId and add deleteByTaskId method.</td>
-  <td>Jul 8 2025</td>
-</tr>
-<tr>
-  <td>synhub-backend</td>
-  <td>develop</td>
-  <td>1288742571feef7fb2a7f5f01c727c25012d6d3e</td>
-  <td>fix(requests): change relationship from OneToOne to ManyToOne for task association.</td>
-  <td>fix(requests): change relationship from OneToOne to ManyToOne for task association.</td>
-  <td>Jul 8 2025</td>
-</tr>
-<tr>
-  <td>synhub-backend</td>
-  <td>develop</td>
-  <td>0f0d59ec78869fcfabbd26e5927ca5f64a527034</td>
-  <td>feat(requests): add additional command handling and update query service.</td>
-  <td>feat(requests): add additional command handling and update query service.</td>
-  <td>Jul 8 2025</td>
-</tr>
-<tr>
-  <td>synhub-backend</td>
-  <td>develop</td>
-  <td>79ac62fcd074673b786bf81de4fe1f97653eab09</td>
-  <td>chore: added enviroment variables</td>
-  <td>chore: added enviroment variables</td>
-  <td>Jul 7 2025</td>
-</tr>
-<tr>
-  <td>synhub-backend</td>
-  <td>develop</td>
-  <td>7fa8bd4aa5f38f1b52ada4bd2659f2a8c78e7008</td>
-  <td>Merge pull request #18 from NRG-4/develop</td>
-  <td>Merge pull request #18 from NRG-4/develop</td>
-  <td>Jul 7 2025</td>
-</tr>
-<tr>
-  <td>synhub-backend</td>
-  <td>develop</td>
-  <td>bd003f486abeac24087a0db662a6cdbb413df523</td>
-  <td>Merge remote-tracking branch 'origin/fix/requests' into fix/requests</td>
-  <td>Merge remote-tracking branch 'origin/fix/requests' into fix/requests</td>
-  <td>Jul 7 2025</td>
-</tr>
-<tr>
-  <td>synhub-backend</td>
-  <td>develop</td>
-  <td>02e4f1905396d6bae13269dcc634ffbad3a45d8a</td>
-  <td>chore(services): request command service implementation code cleanup.</td>
-  <td>chore(services): request command service implementation code cleanup.</td>
-  <td>Jul 7 2025</td>
-</tr>
-<tr>
-  <td>synhub-backend</td>
-  <td>develop</td>
-  <td>17a953b6b7eedd2494e4f944075cde7af1606e12</td>
-  <td>chore(controllers): request controller code cleanup.</td>
-  <td>chore(controllers): request controller code cleanup.</td>
-  <td>Jul 7 2025</td>
-</tr>
-<tr>
-  <td>synhub-backend</td>
-  <td>develop</td>
-  <td>8847214a8f6e7cacf89cbeedac0e040194da379c</td>
-  <td>chore(services): remove commented line.</td>
-  <td>chore(services): remove commented line.</td>
-  <td>Jul 7 2025</td>
-</tr>
-<tr>
-  <td>synhub-backend</td>
-  <td>develop</td>
-  <td>5fbcf4ef1b6697dee5fd2feed3e350bd8b7de79a</td>
-  <td>fix(requests-bounded-context): remove all instances of member id from requests, as they're embedded in task included in the request.</td>
-  <td>fix(requests-bounded-context): remove all instances of member id from requests, as they're embedded in task included in the request.</td>
-  <td>Jul 7 2025</td>
-</tr>
-<tr>
-  <td>synhub-backend</td>
-  <td>develop</td>
-  <td>c001c99cd185c65862df51f563555bbc44426d84</td>
-  <td>feat(context-facade): add get task by id method for external usage.</td>
-  <td>feat(context-facade): add get task by id method for external usage.</td>
-  <td>Jul 7 2025</td>
-</tr>
-<tr>
-  <td>synhub-backend</td>
-  <td>develop</td>
-  <td>4b5dfd670f287c882e5bc5b02b6a1f178e5a862f</td>
-  <td>fix(resources): change task variable type getter for requests.</td>
-  <td>fix(resources): change task variable type getter for requests.</td>
-  <td>Jul 7 2025</td>
-</tr>
-<tr>
-  <td>synhub-backend</td>
-  <td>develop</td>
-  <td>943d98056c7fc86f62ce1139408763114966b23e</td>
-  <td>fix(services): imlement task context facade to get the task object.</td>
-  <td>fix(services): imlement task context facade to get the task object.</td>
-  <td>Jul 7 2025</td>
-</tr>
-<tr>
-  <td>synhub-backend</td>
-  <td>develop</td>
-  <td>4dad3b9a2baf93754a7db9639094688805f82218</td>
-  <td>fix(domain): change request's task id to task object.</td>
-  <td>fix(domain): change request's task id to task object.</td>
-  <td>Jul 7 2025</td>
-</tr>
-<tr>
-  <td>synhub-backend</td>
-  <td>develop</td>
-  <td>a2b59a93ff2cf23dda965de997e7bc8bc16d4456</td>
-  <td>Merge pull request #17 from NRG-4/feat/metrics</td>
-  <td>Merge pull request #17 from NRG-4/feat/metrics</td>
-  <td>Jul 6 2025</td>
-</tr>
+  <tr>
+    <td>synhub-backend</td>
+    <td>develop</td>
+    <td>ac10b76434dd17de0eb857125254fd78e8bc3463</td>
+    <td>Merge pull request #20 from NRG-4/develop</td>
+    <td>Merge pull request #20 from NRG-4/develop</td>
+    <td>Jul 8 2025</td>
+  </tr>
+  <tr>
+    <td>synhub-backend</td>
+    <td>develop</td>
+    <td>2ea5ecd5f49ebb6c514ab6e970f99714e7c1b142</td>
+    <td>Merge pull request #19 from NRG-4/fix/requests</td>
+    <td>Merge pull request #19 from NRG-4/fix/requests</td>
+    <td>Jul 8 2025</td>
+  </tr>
+  <tr>
+    <td>synhub-backend</td>
+    <td>develop</td>
+    <td>b7e325df4617a0c93d8c815c9827163bb89eeee2</td>
+    <td>fix(controllers): update request queries to handle multiple requests by taskId and adjust API endpoints accordingly.</td>
+    <td>fix(controllers): update request queries to handle multiple requests by taskId and adjust API endpoints accordingly.</td>
+    <td>Jul 8 2025</td>
+  </tr>
+  <tr>
+    <td>synhub-backend</td>
+    <td>develop</td>
+    <td>609a725f7cf0fac080b783d52c22873e9dbb673e</td>
+    <td>fix(requests): add deletion command and rename query.</td>
+    <td>fix(requests): add deletion command and rename query.</td>
+    <td>Jul 8 2025</td>
+  </tr>
+  <tr>
+    <td>synhub-backend</td>
+    <td>develop</td>
+    <td>84ee0bd421e46543aa59fd67bb4149cb1c43fe91</td>
+    <td>fix(requests): integrate RequestCommandService into TaskStatusScheduler for automatic request creation on task expiration.</td>
+    <td>fix(requests): integrate RequestCommandService into TaskStatusScheduler for automatic request creation on task expiration.</td>
+    <td>Jul 8 2025</td>
+  </tr>
+  <tr>
+    <td>synhub-backend</td>
+    <td>develop</td>
+    <td>b341504c9b4e46db655e3d55aec3ba53b2be7e0d</td>
+    <td>fix(requests): update RequestRepository to return a list of requests by taskId and add deleteByTaskId method.</td>
+    <td>fix(requests): update RequestRepository to return a list of requests by taskId and add deleteByTaskId method.</td>
+    <td>Jul 8 2025</td>
+  </tr>
+  <tr>
+    <td>synhub-backend</td>
+    <td>develop</td>
+    <td>1288742571feef7fb2a7f5f01c727c25012d6d3e</td>
+    <td>fix(requests): change relationship from OneToOne to ManyToOne for task association.</td>
+    <td>fix(requests): change relationship from OneToOne to ManyToOne for task association.</td>
+    <td>Jul 8 2025</td>
+  </tr>
+  <tr>
+    <td>synhub-backend</td>
+    <td>develop</td>
+    <td>0f0d59ec78869fcfabbd26e5927ca5f64a527034</td>
+    <td>feat(requests): add additional command handling and update query service.</td>
+    <td>feat(requests): add additional command handling and update query service.</td>
+    <td>Jul 8 2025</td>
+  </tr>
+  <tr>
+    <td>synhub-backend</td>
+    <td>develop</td>
+    <td>79ac62fcd074673b786bf81de4fe1f97653eab09</td>
+    <td>chore: added enviroment variables</td>
+    <td>chore: added enviroment variables</td>
+    <td>Jul 7 2025</td>
+  </tr>
+  <tr>
+    <td>synhub-backend</td>
+    <td>develop</td>
+    <td>7fa8bd4aa5f38f1b52ada4bd2659f2a8c78e7008</td>
+    <td>Merge pull request #18 from NRG-4/develop</td>
+    <td>Merge pull request #18 from NRG-4/develop</td>
+    <td>Jul 7 2025</td>
+  </tr>
+  <tr>
+    <td>synhub-backend</td>
+    <td>develop</td>
+    <td>bd003f486abeac24087a0db662a6cdbb413df523</td>
+    <td>Merge remote-tracking branch 'origin/fix/requests' into fix/requests</td>
+    <td>Merge remote-tracking branch 'origin/fix/requests' into fix/requests</td>
+    <td>Jul 7 2025</td>
+  </tr>
+  <tr>
+    <td>synhub-backend</td>
+    <td>develop</td>
+    <td>02e4f1905396d6bae13269dcc634ffbad3a45d8a</td>
+    <td>chore(services): request command service implementation code cleanup.</td>
+    <td>chore(services): request command service implementation code cleanup.</td>
+    <td>Jul 7 2025</td>
+  </tr>
+  <tr>
+    <td>synhub-backend</td>
+    <td>develop</td>
+    <td>17a953b6b7eedd2494e4f944075cde7af1606e12</td>
+    <td>chore(controllers): request controller code cleanup.</td>
+    <td>chore(controllers): request controller code cleanup.</td>
+    <td>Jul 7 2025</td>
+  </tr>
+  <tr>
+    <td>synhub-backend</td>
+    <td>develop</td>
+    <td>8847214a8f6e7cacf89cbeedac0e040194da379c</td>
+    <td>chore(services): remove commented line.</td>
+    <td>chore(services): remove commented line.</td>
+    <td>Jul 7 2025</td>
+  </tr>
+  <tr>
+    <td>synhub-backend</td>
+    <td>develop</td>
+    <td>5fbcf4ef1b6697dee5fd2feed3e350bd8b7de79a</td>
+    <td>fix(requests-bounded-context): remove all instances of member id from requests, as they're embedded in task included in the request.</td>
+    <td>fix(requests-bounded-context): remove all instances of member id from requests, as they're embedded in task included in the request.</td>
+    <td>Jul 7 2025</td>
+  </tr>
+  <tr>
+    <td>synhub-backend</td>
+    <td>develop</td>
+    <td>c001c99cd185c65862df51f563555bbc44426d84</td>
+    <td>feat(context-facade): add get task by id method for external usage.</td>
+    <td>feat(context-facade): add get task by id method for external usage.</td>
+    <td>Jul 7 2025</td>
+  </tr>
+  <tr>
+    <td>synhub-backend</td>
+    <td>develop</td>
+    <td>4b5dfd670f287c882e5bc5b02b6a1f178e5a862f</td>
+    <td>fix(resources): change task variable type getter for requests.</td>
+    <td>fix(resources): change task variable type getter for requests.</td>
+    <td>Jul 7 2025</td>
+  </tr>
+  <tr>
+    <td>synhub-backend</td>
+    <td>develop</td>
+    <td>943d98056c7fc86f62ce1139408763114966b23e</td>
+    <td>fix(services): imlement task context facade to get the task object.</td>
+    <td>fix(services): imlement task context facade to get the task object.</td>
+    <td>Jul 7 2025</td>
+  </tr>
+  <tr>
+    <td>synhub-backend</td>
+    <td>develop</td>
+    <td>4dad3b9a2baf93754a7db9639094688805f82218</td>
+    <td>fix(domain): change request's task id to task object.</td>
+    <td>fix(domain): change request's task id to task object.</td>
+    <td>Jul 7 2025</td>
+  </tr>
+  <tr>
+    <td>synhub-backend</td>
+    <td>develop</td>
+    <td>a2b59a93ff2cf23dda965de997e7bc8bc16d4456</td>
+    <td>Merge pull request #17 from NRG-4/feat/metrics</td>
+    <td>Merge pull request #17 from NRG-4/feat/metrics</td>
+    <td>Jul 6 2025</td>
+  </tr>
   <tr>
     <td>synhub-backend</td>
     <td>feat/metrics</td>
