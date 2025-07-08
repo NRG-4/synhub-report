@@ -12222,161 +12222,161 @@ Para este sprint se desarrollaron 2 productos siendo estos: web application y we
 
 Al inicar el aplicativo tenemos el login
 
-<img src="images/chapter-6/testing_flutter_login1.png" alt="Testing">
+<img src="images/chapter-6/testing_flutter_login1.png" alt="Testing" width="300">
 
 Nos registramos en el aplicativo mediante el Register button y completamos todos los campos obligatorios.
 
-<img src="images/chapter-6/testing_flutter_register1.png" alt="Testing">
+<img src="images/chapter-6/testing_flutter_register1.png" alt="Testing" width="300">
 
 Al momento de registrarnos nos logeara automaticamente.
 
-<img src="images/chapter-6/testing_flutter_joingroup1.png" alt="Testing">
+<img src="images/chapter-6/testing_flutter_joingroup1.png" alt="Testing" width="300">
 
 Estando ya logeados lo primero que nos solicitara es el codigo de grupo necesario para poder unirnos a un grupo y utilizar las funcionalidades.
 
-<img src="images/chapter-6/testing_flutter_joingroup2.png" alt="Testing">
+<img src="images/chapter-6/testing_flutter_joingroup2.png" alt="Testing" width="300">
 
 Al buscar el grupo nos saldra un apartado mostrandonos la informacion del grupo al cual queremos unirnos.
 
-<img src="images/chapter-6/testing_flutter_joingroup3.png" alt="Testing">
+<img src="images/chapter-6/testing_flutter_joingroup3.png" alt="Testing" width="300">
 
 Nos uninos al grupo que estamos buscando y esperamos que el profesor acepte nuestra solicitud de union.
 
-<img src="images/chapter-6/testing_flutter_joingroup4.png" alt="Testing">
+<img src="images/chapter-6/testing_flutter_joingroup4.png" alt="Testing" width="300">
 
 En caso de que se nos rechaze la union a un grupo se mostrara un mensaje en la parte inferior para indicar lo antes mencionado.
 
-<img src="images/chapter-6/testing_flutter_joingroup_false.png" alt="Testing">
+<img src="images/chapter-6/testing_flutter_joingroup_false.png" alt="Testing" width="300">
 
 Caso contrario el daremos sincronizar para unirnos sin problemas al grupo para empezar a usar las funcionalidades.
 
-<img src="images/chapter-6/testing_flutter_joingroup_true1.png" alt="Testing">
-<img src="images/chapter-6/testing_flutter_joingroup_true_summary.png" alt="Testing">
+<img src="images/chapter-6/testing_flutter_joingroup_true1.png" alt="Testing" width="300">
+<img src="images/chapter-6/testing_flutter_joingroup_true_summary.png" alt="Testing" width="300">
 
 Al momento de seleccionar el apartado tasks podremos ver arriba a la derecha un icono de una incognita con la cual podremos ver la leyenda de los colores y su significado.
 
-<img src="images/chapter-6/testing_flutter_tasks_legend.png" alt="Testing">
+<img src="images/chapter-6/testing_flutter_tasks_legend.png" alt="Testing" width="300">
 
 Podemos ver nuestro grupo con su codigo y los entegran
 
-<img src="images/chapter-6/testesting_flutter_group_members1.png" alt="Testing">
+<img src="images/chapter-6/testesting_flutter_group_members1.png" alt="Testing" width="300">
 
 Ademas, podremos ver a otros miembros que se unan al mismo grupo.
 
-<img src="images/chapter-6/testesting_flutter_group_members2.png" alt="Testing">
+<img src="images/chapter-6/testesting_flutter_group_members2.png" alt="Testing" width="300">
 
 Estando ya en el grupo y cuando se nos asignae una task podremos observar sus datos como titulo,deadline,etc. Ademas, podremos marcarla como completada o hacer un comentario solicitando mas tiempo. Como aun hay tiempo se mostrara de color verde.
 
-<img src="images/chapter-6/testing_flutter_tasks.png" alt="Testing">
+<img src="images/chapter-6/testing_flutter_tasks.png" alt="Testing" width="300">
 
 Al realizar un comentario nos saldran a completar los siguientes valores en la pantalla.
 
-<img src="images/chapter-6/testing_flutter_tasks_comment.png" alt="Testing">
+<img src="images/chapter-6/testing_flutter_tasks_comment.png" alt="Testing" width="300">
 
 Al mismo tiempo podremos ver en solicitudes el reflejo de la tarea en la cual solicitamos mas tiempo de color naranja.
 
-<img src="images/chapter-6/testing_flutter_requests_comment.png" alt="Testing">
+<img src="images/chapter-6/testing_flutter_requests_comment.png" alt="Testing" width="300">
 
 Y vemos como nuestra tarea pasa a espera de validacion de color naranja.
 
-<img src="images/chapter-6/testing_flutter_tasks_validation.png" alt="Testing">
+<img src="images/chapter-6/testing_flutter_tasks_validation.png" alt="Testing" width="300">
 
 Por otro lado si tenemos una tarea en la cual su deadline ya se ha superado se mostrara de rojo como ya vencida.
 
-<img src="images/chapter-6/testing_flutter_tasks_overdued.png" alt="Testing">
+<img src="images/chapter-6/testing_flutter_tasks_overdued.png" alt="Testing" width="300">
 
 Tambien, la tendremos en solicitudes del mismo color rojo.
 
-<img src="images/chapter-6/testing_flutter_requests_overdued.png" alt="Testing">
+<img src="images/chapter-6/testing_flutter_requests_overdued.png" alt="Testing" width="300">
 
 Podemos marcar una tarea como completada cuando la hayamos terminado, por lo tanto esta tarea pasara a ser validada.
 
-<img src="images/chapter-6/testing_flutter_tasks_completed1.png" alt="Testing">
+<img src="images/chapter-6/testing_flutter_tasks_completed1.png" alt="Testing" width="300">
 
 Y quedara marcada como hecha,ya que asi lo hemos querido.
 
-<img src="images/chapter-6/testing_flutter_tasks_completed2.png" alt="Testing">
+<img src="images/chapter-6/testing_flutter_tasks_completed2.png" alt="Testing" width="300">
 
 Asi mismo, la veremos como nueva solicitud.
 
-<img src="images/chapter-6/testing_flutter_requests_completed.png" alt="Testing">
+<img src="images/chapter-6/testing_flutter_requests_completed.png" alt="Testing" width="300">
 
 Por ahora podemos ver que no tenemos ninguna tarea finiquitada.
 
-<img src="images/chapter-6/testing_flutter_tasks_finished1.png" alt="Testing">
+<img src="images/chapter-6/testing_flutter_tasks_finished1.png" alt="Testing" width="300">
 
 Pero una vez se nos haya considerado la tarea como finiquitada podremos observar que cambia a color celeste.
 
-<img src="images/chapter-6/testing_flutter_tasks_finished2.png" alt="Testing">
+<img src="images/chapter-6/testing_flutter_tasks_finished2.png" alt="Testing" width="300">
 
 Podemos ver que ninguna tarea ha sido resuelta por parte del profesor.
 
-<img src="images/chapter-6/testing_flutter_requests_resolved1.png" alt="Testing">
+<img src="images/chapter-6/testing_flutter_requests_resolved1.png" alt="Testing" width="300">
 
 
 En el momento que se nos resuelva alguna de las solicitudes que tenemos se veran como resueltas.
 
-<img src="images/chapter-6/testing_flutter_requests_resolved2.png" alt="Testing">
-<img src="images/chapter-6/testing_flutter_requests_comment2.png" alt="Testing">
+<img src="images/chapter-6/testing_flutter_requests_resolved2.png" alt="Testing" width="300">
+<img src="images/chapter-6/testing_flutter_requests_comment2.png" alt="Testing" width="300">
 
 Al final del testing nuestras tareas terminarian en sus correspondientes estados.
 
-<img src="images/chapter-6/testing_flutter_tasks_final1.png" alt="Testing">
-<img src="images/chapter-6/testing_flutter_tasks_final2.png" alt="Testing">
+<img src="images/chapter-6/testing_flutter_tasks_final1.png" alt="Testing" width="300">
+<img src="images/chapter-6/testing_flutter_tasks_final2.png" alt="Testing" width="300">
 
 
 Y podemos ver que nuestro resumen de perfil ha cambiado mostrando nuevos datos.
 
-<img src="images/chapter-6/testing_flutter_joingroup_true_finalsummary.png" alt="Testing">
+<img src="images/chapter-6/testing_flutter_joingroup_true_finalsummary.png" alt="Testing" width="300">
 
 Ya teniendo en orden con las evaluaciones de las heuristicas verificamos que al minimizar el app no se reinicie todo el aplicativo y solo se pause o entre a segundo plano.
 
-<img src="images/chapter-6/testing_flutter_enhaced1.png" alt="Design">
-<img src="images/chapter-6/testing_flutter_enhaced2.png" alt="Design">
-<img src="images/chapter-6/testing_flutter_enhaced3.png" alt="Design">
-<img src="images/chapter-6/testing_flutter_enhaced4.png" alt="Design">
+<img src="images/chapter-6/testing_flutter_enhaced1.png" alt="Design" width="300">
+<img src="images/chapter-6/testing_flutter_enhaced2.png" alt="Design" width="300">
+<img src="images/chapter-6/testing_flutter_enhaced3.png" alt="Design" width="300">
+<img src="images/chapter-6/testing_flutter_enhaced4.png" alt="Design" width="300">
 
 Ya habiendo verificado que el app no se reinicia cambiando de plano proseguiremos con los UI Design Dos and Don’ts.
 
 Un diseño que se ajuste a la pantalla de un dispositivo. Los usuarios deben ver el contenido principal sin acercarse o desplazarse horizontalmente.
 
-<img src="images/chapter-6/content.png" alt="Design">
+<img src="images/chapter-6/content.png" alt="Design" width="300">
 
 Elementos de interfaz de usuario diseñados para gestos táctiles para que la interacción con su aplicación se sienta fácil y natural.
 
-<img src="images/chapter-6/controls.png" alt="Design">
+<img src="images/chapter-6/controls.png" alt="Design" width="300">
 
 Controles que midan al menos 44 puntos x 44 puntos para que puedan ser aprovechados con precisión con un dedo.
 
-<img src="images/chapter-6/hit_targets.png" alt="Design">
+<img src="images/chapter-6/hit_targets.png" alt="Design" width="300">
 
 Texto debe tener al menos 11 puntos, por lo que es legible a una distancia de visión típica sin zoom.
 
-<img src="images/chapter-6/text_sized.png" alt="Design">
+<img src="images/chapter-6/text_sized.png" alt="Design" width="300">
 
 Amplio contraste entre el color de la fuente y el fondo para que el texto sea legible.
 
-<img src="images/chapter-6/contrast.png" alt="Design">
+<img src="images/chapter-6/contrast.png" alt="Design" width="300">
 
 Mejorar la legibilidad al aumentar la altura de la línea o el espacio de las letras.
 
-<img src="images/chapter-6/spacing.png" alt="Design">
+<img src="images/chapter-6/spacing.png" alt="Design" width="300">
 
 Versiones de alta resolución de todos los activos de imagen. Las imágenes que no son @2x y @3x aparecerán borrosas en la pantalla Retina.
 
-<img src="images/chapter-6/high_resolution.png" alt="Design">
+<img src="images/chapter-6/high_resolution.png" alt="Design" width="300">
 
 Imágenes en su relación de aspecto prevista para evitar la distorsión.
 
-<img src="images/chapter-6/distortion.png" alt="Design">
+<img src="images/chapter-6/distortion.png" alt="Design" width="300">
 
 Diseño fácil de leer que ponga los controles cerca del contenido que modifican.
 
-<img src="images/chapter-6/organization.png" alt="Design">
+<img src="images/chapter-6/organization.png" alt="Design" width="300">
 
 Texto, las imágenes y los botones alineados para mostrar a los usuarios cómo se relaciona la información.
 
-<img src="images/chapter-6/alignment.png" alt="Design">
+<img src="images/chapter-6/alignment.png" alt="Design" width="300">
 
 
 #### 6.2.3.5. Execution Evidence for Sprint Review.
