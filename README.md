@@ -13001,10 +13001,42 @@ A continuación se presentan los detalles clave de las entrevistas realizadas a 
 
 ![EntrevistaArianna.png](images/chapter-6/EntrevistaArianna.png)
 
+<table border="1">
+  <thead>
+    <tr>
+      <th colspan="2">Entrevista 4: Coordinadores o Líderes de Grupo</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td><strong>Nombre de Entrevistado</strong></td><td>Elvia Rodriguez</td></tr>
+    <tr><td><strong>Edad</strong></td><td>23</td></tr>
+    <tr><td><strong>Profesión</strong></td><td>Analista de Datos practicante y Estudiante</td></tr>
+    <tr><td><strong>Distrito</strong></td><td>Comas</td></tr>
+    <tr><td><strong>Duración de la Entrevista</strong></td><td>22:50</td></tr>
+    <tr><td><strong>Minuto de inicio</strong></td><td>35:55</td></tr>
+    <tr><td><strong>Análisis de la Entrevista</strong></td><td>
+    Elvia valoro lo intuitivo de la aplicacion, las funcionas y experiencia de usuario que ofrece.
+    </td></tr>
+    <tr><td>Simplicidad y Efectividad de la Landing Page</td><td>
+        La landing page es clara y directa, con un diseño atractivo que resalta las características principales de la aplicación. Elvia menciona que la sección de características es especialmente útil para entender rápidamente lo que SynHub ofrece.
+    </td></tr>
+    <tr><td>Facil Assignacion de Tareas</td><td>
+        La creación y asignación de tareas es intuitiva, con un flujo de trabajo claro que permite a los líderes gestionar sus grupos de manera eficiente. 
+    </td></tr>
+    <tr><td>Experiencia Intuitiva</td><td>
+        Elvia destaca que la aplicación es fácil de usar, con una curva de aprendizaje corta. La navegación entre secciones es fluida y los íconos son intuitivos, lo que facilita la comprensión de las diferentes funcionalidades.
+    </td></tr>
+  </tbody>
+</table>
+<br>
+
+![EntrevistaElvia.png](images/chapter-6/EntrevistaElvia.png)
+
+
 A continuación se presentan los detalles clave de las entrevistas realizadas a los miembros.
 
 
-| **Entrevista 4: Miembros del Equipo o Grupo |                                                                                                                                                                                                                                                                         |
+| **Entrevista 5: Miembros del Equipo o Grupo |                                                                                                                                                                                                                                                                         |
 |---------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Nombre de Entrevistado                      | David Rivas                                                                                                                                                                                                                                                             |
 | Edad                                        | 21                                                                                                                                                                                                                                                                      |
@@ -13021,7 +13053,7 @@ A continuación se presentan los detalles clave de las entrevistas realizadas a 
 
 ![EntrevistaDavid.png](images/chapter-6/EntrevistaDavid.png)
 
-| **Entrevista 5: Miembros del Equipo o Grupo |                                                                                                                                                                                                  |
+| **Entrevista 6: Miembros del Equipo o Grupo |                                                                                                                                                                                                  |
 |---------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Nombre de Entrevistado                      | Camila Palacios                                                                                                                                                                                  |
 | Edad                                        | 21                                                                                                                                                                                               |
@@ -13041,7 +13073,7 @@ A continuación se presentan los detalles clave de las entrevistas realizadas a 
 <table border="1">
   <thead>
     <tr>
-      <th colspan="2">Entrevista 6: Miembros del Equipo o Grupo</th>
+      <th colspan="2">Entrevista 7: Miembros del Equipo o Grupo</th>
     </tr>
   </thead>
   <tbody>
@@ -13246,6 +13278,8 @@ Recomendación: Utilizar un fondo de color más destacado o efectos visuales (co
 **TP**: En el TP, los integrantes del equipo consolidaron y ampliaron sus conocimientos técnicos aplicando buenas prácticas en desarrollo de software, diseño de interfaces móviles, gestión del código fuente, y despliegue. La implementación de bounded contexts, wireframes, prototipos y configuraciones específicas refleja un dominio cada vez más avanzado y profesional. Esta etapa práctica confirmó la necesidad de mantenerse actualizados mediante el aprendizaje autónomo, reafirmando el valor de la autoformación en la adaptación a nuevas herramientas, lenguajes y tendencias del sector tecnológico.
 
 **TB2**: Durante el desarrollo del TB2, el equipo consolidó sus competencias técnicas mediante la construcción de una arquitectura robusta basada en **Spring Boot** para el backend y **Kotlin** para el frontend móvil. Esta etapa destacó por la integración efectiva entre capas, el diseño e implementación de APIs RESTful, y el manejo adecuado de servicios, controladores y entidades de dominio. En el frontend, el uso de Kotlin permitió aplicar principios modernos de desarrollo móvil, asegurando una experiencia de usuario fluida y adaptada. El trabajo coordinado entre backend y frontend evidenció la madurez del equipo para desarrollar soluciones completas y escalables, reafirmando la importancia de una comunicación clara entre servicios y una implementación coherente de los requisitos funcionales y no funcionales del sistema. Este proceso fortaleció la visión integral del desarrollo de software, orientada a la calidad, mantenibilidad y evolución continua.
+
+**TF**: Durante el desarrollo de este Trabajo de Fin de Curso, el equipo demostró una sólida capacidad para aplicar conocimientos técnicos avanzados y metodologías ágiles en la creación de una solución de software integral. Se consolidaron competencias clave en arquitectura de software, desarrollo backend con Spring Boot y desarrollo móvil con Kotlin, logrando una integración eficiente de servicios y una comunicación fluida entre capas. La implementación de APIs RESTful, la estructuración de controladores y entidades de dominio, así como la aplicación de principios de diseño centrado en el usuario, reflejan un enfoque profesional orientado a la calidad, la escalabilidad y el mantenimiento continuo del sistema.Este proceso fortaleció la visión de trabajo en equipo y aprendizaje permanente, fomentando la innovación, la adaptación a nuevas herramientas y la evolución constante de buenas prácticas de ingeniería de software. Como resultado, se alcanzó un producto funcional alineado a necesidades reales, demostrando la madurez del equipo para enfrentar desafíos del entorno profesional y contribuir con soluciones tecnológicas de alto impacto y valor para la sociedad.
 
 ## Bibliografía
 
