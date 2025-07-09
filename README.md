@@ -205,11 +205,11 @@ Para esta entrega se desarollo el capitulo 5, en la captura adjuntada se evidenc
 
 Recapitulando los commits se dividieron de la siguiente manera:
 
-* Alejo Cardenas Jose Antonio (Firtness): 31 commits
-* Astonitas Díaz Juan Diego (NeoRise456): 13 commits
-* Casas Sanchez Gabriel Alexander (Al3xiel): 33 commits
-* Pacheco Astiguetta Sebastian (Pachieeee): 11 commits
-* Pasquale Barrenechea Gianluca Santino (cwassointt): 10 commits
+* Alejo Cardenas Jose Antonio (Firtness): 48 commits
+* Astonitas Díaz Juan Diego (NeoRise456): 8 commits
+* Casas Sanchez Gabriel Alexander (Al3xiel): 27 commits
+* Pacheco Astiguetta Sebastian (Pachieeee): 17 commits
+* Pasquale Barrenechea Gianluca Santino (cwassointt): 18 commits
 
 
 Entrega TB2 (19/06/2025):
@@ -240,11 +240,11 @@ Para esta entrega se desarollo el capitulo 6, en la captura adjuntada se evidenc
 
 Recapitulando los commits se dividieron de la siguiente manera:
 
-* Alejo Cardenas Jose Antonio (Firtness): 35 commits
-* Astonitas Díaz Juan Diego (NeoRise456): 0 commits
-* Casas Sanchez Gabriel Alexander (Al3xiel): 3 commits
-* Pacheco Astiguetta Sebastian (Pachieeee): 3 commits
-* Pasquale Barrenechea Gianluca Santino (cwassointt): 1 commits
+* Alejo Cardenas Jose Antonio (Firtness): 104 commits
+* Astonitas Díaz Juan Diego (NeoRise456): 16 commits
+* Casas Sanchez Gabriel Alexander (Al3xiel): 56 commits
+* Pacheco Astiguetta Sebastian (Pachieeee): 26 commits
+* Pasquale Barrenechea Gianluca Santino (cwassointt): 26 commits
 
 ## Contenido
 
@@ -262,7 +262,7 @@ Recapitulando los commits se dividieron de la siguiente manera:
   - [Contenido](#contenido)
   - [Student Outcome](#student-outcome)
   - [Objetivos SMART](#objetivos-smart)
-    - [1.1. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
+      - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
     - [1.2. Solution Profile](#12-solution-profile)
       - [1.2.1. Antecedentes y problemática](#121-antecedentes-y-problemática)
       - [1.2.2. Lean UX Process](#122-lean-ux-process)
@@ -338,9 +338,18 @@ Recapitulando los commits se dividieron de la siguiente manera:
           - [4.2.4.6.1. Bounded Context Domain Layer Class Diagrams](#42461-bounded-context-domain-layer-class-diagrams)
           - [4.2.4.6.2. Bounded Context Database Design Diagram](#42462-bounded-context-database-design-diagram)
         - [4.2.5.1. Domain Layer](#4251-domain-layer)
+    - [**Aggregate: `TaskAggregate`**](#aggregate-taskaggregate)
+    - [**Entities:**](#entities)
+    - [**Value Objects**](#value-objects)
+    - [**Factories**](#factories)
+    - [**Domain Services**](#domain-services)
         - [4.2.5.2. Interface Layer](#4252-interface-layer)
+    - [**Controllers**](#controllers)
         - [4.2.5.3. Application Layer](#4253-application-layer)
+    - [**Command Handlers**](#command-handlers)
+    - [**Event Handlers**](#event-handlers)
         - [4.2.5.4. Infrastructure Layer](#4254-infrastructure-layer)
+    - [**Repositories**](#repositories)
         - [4.2.5.5. Bounded Context Software Architecture Component Level Diagrams](#4255-bounded-context-software-architecture-component-level-diagrams)
         - [4.2.5.6. Bounded Context Software Architecture Code Level Diagrams](#4256-bounded-context-software-architecture-code-level-diagrams)
           - [4.2.5.6.1. Bounded Context Domain Layer Class Diagrams](#42561-bounded-context-domain-layer-class-diagrams)
@@ -380,29 +389,33 @@ Recapitulando los commits se dividieron de la siguiente manera:
         - [6.2.1.6. Services Documentation Evidence for Sprint Review](#6216-services-documentation-evidence-for-sprint-review)
         - [6.2.1.7. Software Deployment Evidence for Sprint Review](#6217-software-deployment-evidence-for-sprint-review)
         - [6.2.1.8. Team Collaboration Insights during Sprint](#6218-team-collaboration-insights-during-sprint)
-      - [6.2.2. Sprint 2](#621-sprint-2)
-        - [6.2.2.1. Sprint Planning 2.](#6221-sprint-planning-2)
-        - [6.2.2.2. Sprint Backlog 2.](#6222-sprint-backlog-2)
-        - [6.2.2.3. Development Evidence for Sprint Review.](#6223-development-evidence-for-sprint-review)
-        - [6.2.2.4. Testing Suite Evidence for Sprint Review.](#6224-testing-suite-evidence-for-sprint-review)
-        - [6.2.2.5. Execution Evidence for Sprint Review.](#6225-execution-evidence-for-sprint-review)
-        - [6.2.2.6. Services Documentation Evidence for Sprint Review.](#6226-services-documentation-evidence-for-sprint-review)
-        - [6.2.2.7. Software Deployment Evidence for Sprint Review.](#6227-software-deployment-evidence-for-sprint-review)
-        - [6.2.2.8. Team Collaboration Insights during Sprint.](#6228-team-collaboration-insights-during-sprint)
-      - [6.2.3. Sprint 3](#623-sprint-3)
-        - [6.2.3.1. Sprint Planning 3.](#6231-sprint-planning-3)
-        - [6.2.3.2. Sprint Backlog 3.](#6232-sprint-backlog-3)
-        - [6.2.3.3. Development Evidence for Sprint Review.](#6233-development-evidence-for-sprint-review)
-        - [6.2.3.4. Testing Suite Evidence for Sprint Review.](#6234-testing-suite-evidence-for-sprint-review)
-        - [6.2.3.5. Execution Evidence for Sprint Review.](#6235-execution-evidence-for-sprint-review)
-        - [6.2.3.6. Services Documentation Evidence for Sprint Review.](#6236-services-documentation-evidence-for-sprint-review)
-        - [6.2.3.7. Software Deployment Evidence for Sprint Review.](#6237-software-deployment-evidence-for-sprint-review)
-        - [6.2.3.8. Team Collaboration Insights during Sprint.](#6238-team-collaboration-insights-during-sprint)
-      - [6.3. Validation Interviews](#63-validation-interviews)
-        - [6.3.1. Diseño de entrevistas](#631-diseño-de-entrevistas)
-        - [6.3.2. Registro de entrevistas](#632-registro-de-entrevistas)
-        - [6.3.3. Evaluaciones según heurísticas](#633-evaluaciones-según-heurísticas)
-      - [6.4.  Video About-the-Product.](#64--video-about-the-product)
+    - [6.2.1. Sprint 2](#621-sprint-2)
+      - [6.2.2.1. Sprint Planning 2.](#6221-sprint-planning-2)
+      - [6.2.2.2. Sprint Backlog 2.](#6222-sprint-backlog-2)
+      - [6.2.2.3. Development Evidence for Sprint Review.](#6223-development-evidence-for-sprint-review)
+      - [6.2.2.4. Testing Suite Evidence for Sprint Review.](#6224-testing-suite-evidence-for-sprint-review)
+      - [6.2.2.5. Execution Evidence for Sprint Review.](#6225-execution-evidence-for-sprint-review)
+      - [6.2.2.6. Services Documentation Evidence for Sprint Review.](#6226-services-documentation-evidence-for-sprint-review)
+      - [6.2.2.7. Software Deployment Evidence for Sprint Review.](#6227-software-deployment-evidence-for-sprint-review)
+      - [6.2.2.8. Team Collaboration Insights during Sprint.](#6228-team-collaboration-insights-during-sprint)
+    - [6.2.3. Sprint 3](#623-sprint-3)
+      - [6.2.3.1. Sprint Planning 3.](#6231-sprint-planning-3)
+      - [6.2.3.2. Sprint Backlog 3.](#6232-sprint-backlog-3)
+      - [6.2.3.3. Development Evidence for Sprint Review.](#6233-development-evidence-for-sprint-review)
+      - [6.2.3.4. Testing Suite Evidence for Sprint Review.](#6234-testing-suite-evidence-for-sprint-review)
+      - [6.2.3.5. Execution Evidence for Sprint Review.](#6235-execution-evidence-for-sprint-review)
+      - [6.2.3.6. Services Documentation Evidence for Sprint Review.](#6236-services-documentation-evidence-for-sprint-review)
+      - [6.2.3.7. Software Deployment Evidence for Sprint Review.](#6237-software-deployment-evidence-for-sprint-review)
+      - [6.2.3.8. Team Collaboration Insights during Sprint.](#6238-team-collaboration-insights-during-sprint)
+    - [6.3. Validation Interviews](#63-validation-interviews)
+      - [6.3.1. Diseño de entrevistas](#631-diseño-de-entrevistas)
+        - [Objetivo de la Entrevista](#objetivo-de-la-entrevista)
+        - [Elementos de Validación](#elementos-de-validación)
+        - [User Flows a Validar](#user-flows-a-validar)
+        - [Formato de Registro de la Entrevista](#formato-de-registro-de-la-entrevista)
+      - [6.3.2. Registro de entrevistas](#632-registro-de-entrevistas)
+      - [6.3.3. Evaluaciones según heurísticas](#633-evaluaciones-según-heurísticas)
+    - [6.4.  Video About-the-Product.](#64--video-about-the-product)
   - [Conclusiones](#conclusiones)
   - [Bibliografía](#bibliografía)
   - [Anexos](#anexos)
