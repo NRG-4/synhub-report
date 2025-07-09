@@ -12905,7 +12905,7 @@ Validar la usabilidad y efectividad de la landing page y la aplicación para cad
 
 #### 6.3.2. Registro de entrevistas
 
-Todas las entrevistas se encuentran en el siguiente enlace: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202220033_upc_edu_pe/ERhNubuBgupHqSMD-uHMbYMBGUnymgiSsIZ6UfO1tQaymg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=beHMLq](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202220033_upc_edu_pe/ERhNubuBgupHqSMD-uHMbYMBGUnymgiSsIZ6UfO1tQaymg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=beHMLq)
+Todas las entrevistas se encuentran en el siguiente enlace: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202220033_upc_edu_pe/Ef60MVhQmSREjeZKuqLEpBgB46AiRe11YudcAajnTxECjA?e=Uwrhpd&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202220033_upc_edu_pe/Ef60MVhQmSREjeZKuqLEpBgB46AiRe11YudcAajnTxECjA?e=Uwrhpd&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
 A continuación se presentan los detalles clave de las entrevistas realizadas a los líderes. 
 
@@ -12917,7 +12917,7 @@ A continuación se presentan los detalles clave de las entrevistas realizadas a 
 | Profesión                                          | Project Manager                                                                                                                    |
 | Distrito                                           | San Martin de Porres                                                                                                               |
 | Duración de la Entrevista                          | 19:00                                                                                                                              |
-| Minuto de inicio                                   |                                                                                                                              |
+| Minuto de inicio                                   | 58:45                                                                                                                              |
 | **Análisis de la Entrevista**                      |                                                                                                                                    |
 | Creación de Grupos                                 | Nos comenta que la creacion de grupos fue bastante sencilla e intuitiva.                                                           |
 | Gestión de Tareas                                  | Es bastante sencillo la creacion de tareas preferiria que hubiera una leyenda que explique los colores de cada estado de la tarea. |
