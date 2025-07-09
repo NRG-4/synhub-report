@@ -137,6 +137,36 @@
   <td>Alejo Cardenas Jose Antonio</td>
   <td>Avance de ítems: Conclusiones, Bibliografía y Anexos.</td>
 </tr>
+<tr>
+  <td>3.1</td>
+  <td>2025-06-20</td>
+  <td>Casas Sanchez Gabriel Alexander</td>
+  <td>Desarrollo del ítem 6.2.3.1. Sprint Planning 3.</td>
+</tr>
+<tr>
+  <td>3.2</td>
+  <td>2025-06-21</td>
+  <td>Casas Sanchez Gabriel Alexander</td>
+  <td>Desarrollo del ítem 6.2.3.2. Sprint Backlog 3.</td>
+</tr>
+<tr>
+  <td>3.3</td>
+  <td>2025-06-22</td>
+  <td>Alejo Cardenas Jose Antonio</td>
+  <td>Desarrollo de los ítems: 6.2.3.3. Development Evidence for Sprint Review, 6.2.3.4. Testing Suite Evidence for Sprint Review, 6.2.3.8. Team Collaboration Insights during Sprint.</td>
+</tr>
+<tr>
+  <td>3.4</td>
+  <td>2025-06-23</td>
+  <td>Pasquale Barrenechea Gianluca Santino, Pacheco Astiguetta Sebastian, Astonitas Díaz Juan Diego</td>
+  <td>Desarrollo de los ítems: 6.2.3.5. Execution Evidence for Sprint Review, 6.2.3.6. Services Documentation Evidence for Sprint Review, 6.2.3.7. Software Deployment Evidence for Sprint Review.</td>
+</tr>
+<tr>
+  <td>4.0</td>
+  <td>2025-06-24</td>
+  <td>Alejo Cardenas Jose Antonio</td>
+  <td>Finalización de Conclusiones, Bibliografía y Anexos.</td>
+</tr>
   </tbody>
 </table>
 
@@ -184,10 +214,27 @@ Recapitulando los commits se dividieron de la siguiente manera:
 
 Entrega TB2 (19/06/2025):
 
-<img src="images/insights/report-insights-3-1.png" alt="Insights Report Collaboration Insights 4" />
-<img src="images/insights/report-insights-3-2.png" alt="Insights Report Collaboration Insights 4" />
-<img src="images/insights/report-insights-3-3.png" alt="Insights Report Collaboration Insights 4" />
-<img src="images/insights/report-insights-3-4.png" alt="Insights Report Collaboration Insights 4" />
+<img src="images/insights/TB2_insights1.png" alt="Insights Report Collaboration Insights TB2" />
+<img src="images/insights/TB2_insights2.png" alt="Insights Report Collaboration Insights TB2" />
+<img src="images/insights/TB2_insights3.png" alt="Insights Report Collaboration Insights TB2" />
+<img src="images/insights/TB2_insights4.png" alt="Insights Report Collaboration Insights TB2" />
+
+Para esta entrega se desarollo el capitulo 6, en la captura adjuntada se evidencia del trabajo colaborativo de github. Todos los integrantes del grupo trabajaron en el proyecto.
+
+Recapitulando los commits se dividieron de la siguiente manera:
+
+* Alejo Cardenas Jose Antonio (Firtness): 104 commits
+* Astonitas Díaz Juan Diego (NeoRise456): 16 commits
+* Casas Sanchez Gabriel Alexander (Al3xiel): 56 commits
+* Pacheco Astiguetta Sebastian (Pachieeee): 26 commits
+* Pasquale Barrenechea Gianluca Santino (cwassointt): 26 commits
+
+Entrega TF (9/07/2025):
+
+<img src="images/insights/TF_insights1.png" alt="Insights Report Collaboration Insights TF" />
+<img src="images/insights/TF_insights2.png" alt="Insights Report Collaboration Insights TF" />
+<img src="images/insights/TF_insights3.png" alt="Insights Report Collaboration Insights TF" />
+<img src="images/insights/TF_insights4.png" alt="Insights Report Collaboration Insights TF" />
 
 Para esta entrega se desarollo el capitulo 6, en la captura adjuntada se evidencia del trabajo colaborativo de github. Todos los integrantes del grupo trabajaron en el proyecto.
 
@@ -291,18 +338,9 @@ Recapitulando los commits se dividieron de la siguiente manera:
           - [4.2.4.6.1. Bounded Context Domain Layer Class Diagrams](#42461-bounded-context-domain-layer-class-diagrams)
           - [4.2.4.6.2. Bounded Context Database Design Diagram](#42462-bounded-context-database-design-diagram)
         - [4.2.5.1. Domain Layer](#4251-domain-layer)
-    - [**Aggregate: `TaskAggregate`**](#aggregate-taskaggregate)
-    - [**Entities:**](#entities)
-    - [**Value Objects**](#value-objects)
-    - [**Factories**](#factories)
-    - [**Domain Services**](#domain-services)
         - [4.2.5.2. Interface Layer](#4252-interface-layer)
-    - [**Controllers**](#controllers)
         - [4.2.5.3. Application Layer](#4253-application-layer)
-    - [**Command Handlers**](#command-handlers)
-    - [**Event Handlers**](#event-handlers)
         - [4.2.5.4. Infrastructure Layer](#4254-infrastructure-layer)
-    - [**Repositories**](#repositories)
         - [4.2.5.5. Bounded Context Software Architecture Component Level Diagrams](#4255-bounded-context-software-architecture-component-level-diagrams)
         - [4.2.5.6. Bounded Context Software Architecture Code Level Diagrams](#4256-bounded-context-software-architecture-code-level-diagrams)
           - [4.2.5.6.1. Bounded Context Domain Layer Class Diagrams](#42561-bounded-context-domain-layer-class-diagrams)
@@ -342,33 +380,29 @@ Recapitulando los commits se dividieron de la siguiente manera:
         - [6.2.1.6. Services Documentation Evidence for Sprint Review](#6216-services-documentation-evidence-for-sprint-review)
         - [6.2.1.7. Software Deployment Evidence for Sprint Review](#6217-software-deployment-evidence-for-sprint-review)
         - [6.2.1.8. Team Collaboration Insights during Sprint](#6218-team-collaboration-insights-during-sprint)
-    - [6.2.1. Sprint 2](#621-sprint-2)
-      - [6.2.2.1. Sprint Planning 2.](#6221-sprint-planning-2)
-      - [6.2.2.2. Sprint Backlog 2.](#6222-sprint-backlog-2)
-      - [6.2.2.3. Development Evidence for Sprint Review.](#6223-development-evidence-for-sprint-review)
-      - [6.2.2.4. Testing Suite Evidence for Sprint Review.](#6224-testing-suite-evidence-for-sprint-review)
-      - [6.2.2.5. Execution Evidence for Sprint Review.](#6225-execution-evidence-for-sprint-review)
-      - [6.2.2.6. Services Documentation Evidence for Sprint Review.](#6226-services-documentation-evidence-for-sprint-review)
-      - [6.2.2.7. Software Deployment Evidence for Sprint Review.](#6227-software-deployment-evidence-for-sprint-review)
-      - [6.2.2.8. Team Collaboration Insights during Sprint.](#6228-team-collaboration-insights-during-sprint)
-    - [6.2.3. Sprint 3](#623-sprint-3)
-      - [6.2.3.1. Sprint Planning 3.](#6231-sprint-planning-3)
-      - [6.2.3.2. Sprint Backlog 3.](#6232-sprint-backlog-3)
-      - [6.2.3.3. Development Evidence for Sprint Review.](#6233-development-evidence-for-sprint-review)
-      - [6.2.3.4. Testing Suite Evidence for Sprint Review.](#6234-testing-suite-evidence-for-sprint-review)
-      - [6.2.3.5. Execution Evidence for Sprint Review.](#6235-execution-evidence-for-sprint-review)
-      - [6.2.3.6. Services Documentation Evidence for Sprint Review.](#6236-services-documentation-evidence-for-sprint-review)
-      - [6.2.3.7. Software Deployment Evidence for Sprint Review.](#6237-software-deployment-evidence-for-sprint-review)
-      - [6.2.3.8. Team Collaboration Insights during Sprint.](#6238-team-collaboration-insights-during-sprint)
-    - [6.3. Validation Interviews](#63-validation-interviews)
-      - [6.3.1. Diseño de entrevistas](#631-diseño-de-entrevistas)
-        - [Objetivo de la Entrevista](#objetivo-de-la-entrevista)
-        - [Elementos de Validación](#elementos-de-validación)
-        - [User Flows a Validar](#user-flows-a-validar)
-        - [Formato de Registro de la Entrevista](#formato-de-registro-de-la-entrevista)
-      - [6.3.2. Registro de entrevistas](#632-registro-de-entrevistas)
-      - [6.3.3. Evaluaciones según heurísticas](#633-evaluaciones-según-heurísticas)
-    - [6.4.  Video About-the-Product.](#64--video-about-the-product)
+      - [6.2.2. Sprint 2](#621-sprint-2)
+        - [6.2.2.1. Sprint Planning 2.](#6221-sprint-planning-2)
+        - [6.2.2.2. Sprint Backlog 2.](#6222-sprint-backlog-2)
+        - [6.2.2.3. Development Evidence for Sprint Review.](#6223-development-evidence-for-sprint-review)
+        - [6.2.2.4. Testing Suite Evidence for Sprint Review.](#6224-testing-suite-evidence-for-sprint-review)
+        - [6.2.2.5. Execution Evidence for Sprint Review.](#6225-execution-evidence-for-sprint-review)
+        - [6.2.2.6. Services Documentation Evidence for Sprint Review.](#6226-services-documentation-evidence-for-sprint-review)
+        - [6.2.2.7. Software Deployment Evidence for Sprint Review.](#6227-software-deployment-evidence-for-sprint-review)
+        - [6.2.2.8. Team Collaboration Insights during Sprint.](#6228-team-collaboration-insights-during-sprint)
+      - [6.2.3. Sprint 3](#623-sprint-3)
+        - [6.2.3.1. Sprint Planning 3.](#6231-sprint-planning-3)
+        - [6.2.3.2. Sprint Backlog 3.](#6232-sprint-backlog-3)
+        - [6.2.3.3. Development Evidence for Sprint Review.](#6233-development-evidence-for-sprint-review)
+        - [6.2.3.4. Testing Suite Evidence for Sprint Review.](#6234-testing-suite-evidence-for-sprint-review)
+        - [6.2.3.5. Execution Evidence for Sprint Review.](#6235-execution-evidence-for-sprint-review)
+        - [6.2.3.6. Services Documentation Evidence for Sprint Review.](#6236-services-documentation-evidence-for-sprint-review)
+        - [6.2.3.7. Software Deployment Evidence for Sprint Review.](#6237-software-deployment-evidence-for-sprint-review)
+        - [6.2.3.8. Team Collaboration Insights during Sprint.](#6238-team-collaboration-insights-during-sprint)
+      - [6.3. Validation Interviews](#63-validation-interviews)
+        - [6.3.1. Diseño de entrevistas](#631-diseño-de-entrevistas)
+        - [6.3.2. Registro de entrevistas](#632-registro-de-entrevistas)
+        - [6.3.3. Evaluaciones según heurísticas](#633-evaluaciones-según-heurísticas)
+      - [6.4.  Video About-the-Product.](#64--video-about-the-product)
   - [Conclusiones](#conclusiones)
   - [Bibliografía](#bibliografía)
   - [Anexos](#anexos)
@@ -408,9 +442,16 @@ Alejo Cardenas Jose Antonio - TB2: Encargado de la elaboración del Sprint Backl
 Astonitas Díaz Juan Diego - TB2: Participó activamente en el diseño de entrevistas y su registro, además de contribuir en las evaluaciones según heurísticas, fortaleciendo el proceso de validación y recolección de feedback del producto.<br>
 Pasquale Barrenechea Gianluca Santino - TB2: Colaboró en el diseño y registro de entrevistas, así como en la evaluación heurística, demostrando enfoque en la experiencia de usuario y validación del diseño.<br>
 Pacheco Astiguetta Sebastian - TB2: Participó en el diseño y registro de entrevistas, y en las evaluaciones según heurísticas, aportando en la etapa de recolección de información y refinamiento de la solución desde la perspectiva del usuario.<br>
+<br>TF:<br>
+Casas Sanchez Gabriel Alexander - TF: Responsable de la planificación de actividades clave para actualizar conocimientos técnicos y metodológicos. Coordinó reuniones de revisión, fomentó el uso de metodologías ágiles y documentó aprendizajes aplicados al proyecto.<br>
+Alejo Cardenas Jose Antonio - TF: Encargado principal de investigar y aplicar conceptos avanzados en arquitectura y desarrollo de software. Desarrolló mejoras en la estructura de servicios y controladores, asegurando buenas prácticas de codificación.<br>
+Astonitas Díaz Juan Diego - TF: Colaboró en la integración de herramientas de validación de interfaces y testing, aportando a la actualización de procesos para garantizar la calidad técnica del proyecto.<br>
+Pasquale Barrenechea Gianluca Santino - TF: Aplicó nuevos enfoques para optimizar la experiencia de usuario. Realizó pruebas de usabilidad y propuso mejoras basadas en tendencias actuales en diseño centrado en el usuario.<br>
+Pacheco Astiguetta Sebastian - TF: Contribuyó en la revisión de prácticas de documentación técnica y despliegue, ayudando a estandarizar procesos y garantizar la calidad de la solución.<br>
       </td>
       <td>
-        TB1:Durante el desarrollo del trabajo final, cada integrante del equipo actualizó y fortaleció sus conocimientos en metodologías ágiles, diseño centrado en el usuario, modelado estratégico y arquitectura de software. A través de la aplicación práctica de herramientas como Lean UX Canvas, Event Storming, Context Mapping y desarrollo de User Stories, logramos conectar la teoría con la ejecución de un proyecto real. Esta experiencia no solo nos permitió comprender mejor los conceptos aprendidos en clase, sino también integrarlos en la solución propuesta, elevando así nuestra preparación profesional y nuestra capacidad de enfrentar retos en el desarrollo de soluciones de software.<br>TP:El equipo ha demostrado una actualización efectiva de conceptos clave en diversas áreas del desarrollo de software, abordando tanto aspectos técnicos como de diseño y gestión. Desde la configuración del entorno de desarrollo, el manejo de código fuente y buenas prácticas de estilo, hasta la implementación de sistemas de navegación, etiquetado, SEO y diseño de interfaces móviles, se evidencia un dominio creciente de herramientas y metodologías actuales. Esta amplitud de conocimientos refleja una preparación profesional alineada con los requerimientos del proyecto y las demandas del sector tecnológico.<br>TB2:Durante el desarrollo del TB2, el equipo fortaleció y actualizó sus conocimientos en áreas clave del ciclo de vida del software, como la planificación de sprints, la elaboración de backlogs y la ejecución técnica utilizando Spring Boot y Kotlin. Se aplicaron conceptos esenciales sobre arquitectura, documentación de servicios, despliegue y validación de interfaces mediante entrevistas y evaluaciones heurísticas. Este proceso permitió afianzar buenas prácticas de ingeniería de software y consolidar competencias fundamentales para el desarrollo de soluciones tecnológicas reales y de calidad profesional.
+        TB1:Durante el desarrollo del trabajo final, cada integrante del equipo actualizó y fortaleció sus conocimientos en metodologías ágiles, diseño centrado en el usuario, modelado estratégico y arquitectura de software. A través de la aplicación práctica de herramientas como Lean UX Canvas, Event Storming, Context Mapping y desarrollo de User Stories, logramos conectar la teoría con la ejecución de un proyecto real. Esta experiencia no solo nos permitió comprender mejor los conceptos aprendidos en clase, sino también integrarlos en la solución propuesta, elevando así nuestra preparación profesional y nuestra capacidad de enfrentar retos en el desarrollo de soluciones de software.<br>TP:El equipo ha demostrado una actualización efectiva de conceptos clave en diversas áreas del desarrollo de software, abordando tanto aspectos técnicos como de diseño y gestión. Desde la configuración del entorno de desarrollo, el manejo de código fuente y buenas prácticas de estilo, hasta la implementación de sistemas de navegación, etiquetado, SEO y diseño de interfaces móviles, se evidencia un dominio creciente de herramientas y metodologías actuales. Esta amplitud de conocimientos refleja una preparación profesional alineada con los requerimientos del proyecto y las demandas del sector tecnológico.<br>TB2:Durante el desarrollo del TB2, el equipo fortaleció y actualizó sus conocimientos en áreas clave del ciclo de vida del software, como la planificación de sprints, la elaboración de backlogs y la ejecución técnica utilizando Spring Boot y Kotlin. Se aplicaron conceptos esenciales sobre arquitectura, documentación de servicios, despliegue y validación de interfaces mediante entrevistas y evaluaciones heurísticas. Este proceso permitió afianzar buenas prácticas de ingeniería de software y consolidar competencias fundamentales para el desarrollo de soluciones tecnológicas reales y de calidad profesional.<br>
+        TF: Durante este ciclo, el equipo actualizó y reforzó conocimientos clave para el desarrollo de software, aplicando buenas prácticas de planificación ágil, arquitectura limpia y validación de interfaces. Esta experiencia fortaleció sus capacidades técnicas y consolidó aprendizajes prácticos alineados a las necesidades reales del sector.  
       </td>
     </tr>
     <tr>
@@ -426,9 +467,16 @@ Alejo Cardenas Jose Antonio - TB2: Encargado de la elaboración del Sprint Backl
 Astonitas Díaz Juan Diego - TB2: Participó activamente en el diseño de entrevistas y su registro, además de contribuir en las evaluaciones según heurísticas, fortaleciendo el proceso de validación y recolección de feedback del producto.<br>
 Pasquale Barrenechea Gianluca Santino - TB2: Colaboró en el diseño y registro de entrevistas, así como en la evaluación heurística, demostrando enfoque en la experiencia de usuario y validación del diseño.<br>
 Pacheco Astiguetta Sebastian - TB2: Participó en el diseño y registro de entrevistas, y en las evaluaciones según heurísticas, aportando en la etapa de recolección de información y refinamiento de la solución desde la perspectiva del usuario.<br>
+<br>TF:<br>
+Casas Sanchez Gabriel Alexander - TF: Promovió sesiones de retroalimentación y aprendizaje colaborativo para identificar oportunidades de mejora continua. Fomentó la búsqueda de recursos actualizados para mantener la vigencia del conocimiento técnico.<br>
+Alejo Cardenas Jose Antonio - TF: Impulsó la adopción de nuevas tecnologías y herramientas, motivando la autoformación y la documentación de buenas prácticas para fortalecer el aprendizaje permanente.<br>
+Astonitas Díaz Juan Diego - TF: Contribuyó con la actualización de procesos de pruebas y validación, buscando optimizar la eficiencia del equipo mediante el aprendizaje constante.<br>
+Pasquale Barrenechea Gianluca Santino - TF: Investigó tendencias de diseño centrado en el usuario y compartió recursos útiles para mantener al equipo alineado a estándares actuales de experiencia de usuario.<br>
+Pacheco Astiguetta Sebastian - TF: Colaboró en la mejora de procesos de despliegue y mantenimiento, aplicando nuevas prácticas para garantizar la evolución continua del proyecto.<br>
       </td>
       <td>
-        TB1:El trabajo realizado evidenció la importancia del aprendizaje constante en el ámbito profesional. A lo largo del proyecto, nos enfrentamos a desafíos que requerían investigar nuevas herramientas, adoptar enfoques colaborativos y profundizar en técnicas no vistas previamente. Este proceso nos mostró que el conocimiento adquirido no es estático, sino que debe complementarse con una actitud activa hacia la mejora continua. Reconocemos que en un entorno tecnológico en constante evolución, solo mediante el aprendizaje permanente se puede ofrecer soluciones de calidad, adaptarse a las necesidades del usuario y desenvolverse de manera efectiva en el desarrollo profesional y de proyectos.<br>TP:Cada integrante ha asumido tareas que implican el uso de tecnologías y enfoques actualizados, lo cual demuestra una actitud activa hacia el aprendizaje continuo. La ejecución de entregables como wireflows, prototipos móviles, planificación ágil, documentación de servicios y evidencias de pruebas revela una disposición a explorar y aplicar nuevos conocimientos. Esta mentalidad de mejora constante y autoformación es esencial para afrontar los retos cambiantes del desarrollo de software y garantizar la evolución profesional a largo plazo.<br>TB2:La experiencia adquirida en el TB2 evidenció la importancia del aprendizaje continuo como elemento esencial para adaptarse a los desafíos tecnológicos. Los integrantes del equipo no solo aplicaron conocimientos previos, sino que también se enfrentaron a nuevas herramientas y técnicas, desarrollando habilidades mediante la investigación, la experimentación y el trabajo colaborativo. Esta dinámica reafirmó la necesidad de mantenerse en constante actualización para enfrentar con éxito la evolución de los lenguajes, metodologías y entornos en el ámbito del desarrollo de software.
+        TB1:El trabajo realizado evidenció la importancia del aprendizaje constante en el ámbito profesional. A lo largo del proyecto, nos enfrentamos a desafíos que requerían investigar nuevas herramientas, adoptar enfoques colaborativos y profundizar en técnicas no vistas previamente. Este proceso nos mostró que el conocimiento adquirido no es estático, sino que debe complementarse con una actitud activa hacia la mejora continua. Reconocemos que en un entorno tecnológico en constante evolución, solo mediante el aprendizaje permanente se puede ofrecer soluciones de calidad, adaptarse a las necesidades del usuario y desenvolverse de manera efectiva en el desarrollo profesional y de proyectos.<br>TP:Cada integrante ha asumido tareas que implican el uso de tecnologías y enfoques actualizados, lo cual demuestra una actitud activa hacia el aprendizaje continuo. La ejecución de entregables como wireflows, prototipos móviles, planificación ágil, documentación de servicios y evidencias de pruebas revela una disposición a explorar y aplicar nuevos conocimientos. Esta mentalidad de mejora constante y autoformación es esencial para afrontar los retos cambiantes del desarrollo de software y garantizar la evolución profesional a largo plazo.<br>TB2:La experiencia adquirida en el TB2 evidenció la importancia del aprendizaje continuo como elemento esencial para adaptarse a los desafíos tecnológicos. Los integrantes del equipo no solo aplicaron conocimientos previos, sino que también se enfrentaron a nuevas herramientas y técnicas, desarrollando habilidades mediante la investigación, la experimentación y el trabajo colaborativo. Esta dinámica reafirmó la necesidad de mantenerse en constante actualización para enfrentar con éxito la evolución de los lenguajes, metodologías y entornos en el ámbito del desarrollo de software.<br>
+        TF: Durante el desarrollo del TF, el equipo reconoció la importancia del aprendizaje permanente como pilar para el desempeño profesional. Cada integrante fortaleció su capacidad de autoaprendizaje y adaptación, incorporando nuevas herramientas y enfoques para enfrentar retos tecnológicos cambiantes.<br>
       </td>
     </tr>
   </tbody>
