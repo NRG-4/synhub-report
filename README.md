@@ -12733,9 +12733,61 @@ Enlace del backend: [https://synhub-backend.onrender.com/swagger-ui/index.html#/
 <img src="images/chapter-6/deploy2.png">
 
 **Frontend**
-Durante el desarrollo, se podrá generar un *build personal* de la aplicación en formato APK, el cual podrá ser instalado directamente en un dispositivo Android mediante conexión USB a una PC o laptop. Esta forma de instalación es útil para realizar pruebas locales sin necesidad de subir la app a una tienda oficial. Solo se requiere tener activada la opción de "Depuración por USB" en el dispositivo y usar herramientas como Android Studio o ADB (*Android Debug Bridge*) para transferir e instalar el archivo APK.
+Tanto para las versiones de flutter y android se generaron los APKs y se subieron a la plataforma de firebase distribution, para que puedan ser descargados por los usuarios de prueba.
 
-<img src="images/chapter-6/deploy3.png">
+Para poder realizar este proceso primero se debe crear un proyecto de firebase:
+
+<img src="images/chapter-6/sprint-3/firebase-deploy-1.png">
+<img src="images/chapter-6/sprint-3/firebase-deploy-2.png">
+
+Una vez se a creado el proyecto se debe agregar un app y escoger el tipo de app que se desea agregar, en este caso se agregaron dos apps, una para flutter y otra para android nativo:
+
+<img src="images/chapter-6/sprint-3/firebase-deploy-3.png">
+<img src="images/chapter-6/sprint-3/firebase-deploy-4.png">
+
+Para android se siguieron los siguientes pasos:
+
+<img src="images/chapter-6/sprint-3/firebase-deploy-5.png">
+<img src="images/chapter-6/sprint-3/firebase-deploy-6.png">
+<img src="images/chapter-6/sprint-3/firebase-deploy-7.png">
+<img src="images/chapter-6/sprint-3/firebase-deploy-8.png">
+<img src="images/chapter-6/sprint-3/firebase-deploy-9.png">
+
+Luego de eso desde el servicio firebase distribution debe subirse el apk de la aplicación, agregar verificadores y algún comentario:
+
+<img src="images/chapter-6/sprint-3/firebase-deploy-10.png">
+<img src="images/chapter-6/sprint-3/firebase-deploy-11.png">
+<img src="images/chapter-6/sprint-3/firebase-deploy-12.png">
+<img src="images/chapter-6/sprint-3/firebase-deploy-13.png">
+
+Para flutter se siguieron los siguientes pasos:
+
+<img src="images/chapter-6/sprint-3/firebase-deploy-14.png">
+<img src="images/chapter-6/sprint-3/firebase-deploy-15.png">
+<img src="images/chapter-6/sprint-3/firebase-deploy-16.png">
+
+Además de esto en el proyecto flutter dentro del pubspec.yaml se debe agregar el plugin de firebase distribution:
+
+```yaml
+dev_dependencies:
+  firebase_core: ^2.0.0
+```
+
+Y agregar el inicializador de firebase al app:
+
+<img src="images/chapter-6/sprint-3/firebase-deploy-17.png">
+
+Luego se deben subir el/los archivo apk a firebase distribution, agregar verificadores y algún comentario. El apk se crear a partir del comando:
+
+```bash
+flutter build apk --release
+```
+
+<img src="images/chapter-6/sprint-3/firebase-deploy-18.png">
+<img src="images/chapter-6/sprint-3/firebase-deploy-19.png">
+<img src="images/chapter-6/sprint-3/firebase-deploy-20.png">
+
+Finalemente desde un dispositivo móvil se debe abrir el correo de verificador que se le asignó y descargar la aplicación desde firebase app distribution (se instala automáticamente desde la invitación de correo) para poder probar las aplicaciones distribuidas por firebase.
 
 #### 6.2.3.8. Team Collaboration Insights during Sprint. 
 
