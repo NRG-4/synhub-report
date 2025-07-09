@@ -201,104 +201,177 @@ Recapitulando los commits se dividieron de la siguiente manera:
 
 ## Contenido
 
-- [Student Outcome](#student-outcome)
-- [Objetivos SMART](#objetivos-smart)
-- [Capítulo I: Presentación](#capitulo-i-presentación)
-  - [1.1. Startup Profile](#11-startup-profile)
-    - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
-    - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
-  - [1.2. Solution Profile](#12-solution-profile)
-    - [1.2.1. Antecedentes y problemática](#121-antecedentes-y-problemática)
-    - [1.2.2. Lean UX Process](#122-lean-ux-process)
-      - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
-      - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
-      - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
-      - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
-  - [1.3. Segmentos Objetivo](#13-segmentos-objetivo)
-- [Capítulo II: Requirements Elicitation & Analysis](#capítulo-ii-requirements-elicitation--analysis)
-  - [2.1. Competidores](#21-competidores)
-    - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
-    - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
-  - [2.2. Entrevistas](#22-entrevistas)
-    - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
-    - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
-    - [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
-  - [2.3. Needfinding](#23-needfinding)
-    - [2.3.1. User Personas](#231-user-personas)
-    - [2.3.2. User Task Matrix](#232-user-task-matrix)
-    - [2.3.3. User Journey Mapping](#233-user-journey-mapping)
-    - [2.3.4. Empathy Mapping](#234-empathy-mapping)
-    - [2.3.5. As-is Scenario Mapping](#235-as-is-scenario-mapping)
-  - [2.4. Ubiquitous Language](#24-ubiquitous-language)
-- [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
-  - [3.1. To-Be Scenario Mapping](#31-to-be-scenario-mapping)
-  - [3.2. User Stories](#32-user-stories)
-  - [3.3. Impact Mapping](#33-impact-mapping)
-  - [3.4. Product Backlog](#34-product-backlog)
-- [Capítulo IV: Solution Software Design](#capítulo-iv-solution-software-design)
-  - [4.1. Strategic-Level Domain-Driven Design](#41-strategic-level-domain-driven-design)
-    - [4.1.1. EventStorming](#411-eventstorming)
-      - [4.1.1.1. Candidate Context Discovery](#4111-candidate-context-discovery)
-      - [4.1.1.2. Domain Message Flows Modeling](#4112-domain-message-flows-modeling)
-      - [4.1.1.3. Bounded Context Canvases](#4113-bounded-context-canvases)
-    - [4.1.2. Context Mapping](#412-context-mapping)
-    - [4.1.3. Software Architecture](#413-software-architecture)
-      - [4.1.3.1. Software Architecture Context Level Diagrams](#4131-software-architecture-context-level-diagrams)
-      - [4.1.3.2. Software Architecture Container Level Diagrams](#4132-software-architecture-container-level-diagrams)
-      - [4.1.3.3. Software Architecture Deployment Diagrams](#4133-software-architecture-deployment-diagrams)
-  - [4.2. Tactical-Level Domain-Driven Design](#42-tactical-level-domain-driven-design)
-    - [4.2.1. Bounded Context](#421-bounded-context)
-      - [4.2.1.1. Domain Layer](#4211-domain-layer)
-      - [4.2.1.2. Interface Layer](#4212-interface-layer)
-      - [4.2.1.3. Application Layer](#4213-application-layer)
-      - [4.2.1.4. Infrastructure Layer](#4214-infrastructure-layer)
-      - [4.2.1.5. Bounded Context Software Architecture Component Level Diagrams](#4215-bounded-context-software-architecture-component-level-diagrams)
-      - [4.2.1.6. Bounded Context Software Architecture Code Level Diagrams](#4216-bounded-context-software-architecture-code-level-diagrams)
+- [Universidad Peruana de Ciencias Aplicadas](#universidad-peruana-de-ciencias-aplicadas)
+    - [**CURSO:** Aplicaciones para Dispositivos Moviles](#curso-aplicaciones-para-dispositivos-moviles)
+    - [**NRC**: 358](#nrc-358)
+    - [**Profesor:** Eduardo Martin Reyes Rodriguez](#profesor-eduardo-martin-reyes-rodriguez)
+    - [**Ingeniería de software**](#ingeniería-de-software)
+  - [Informe de Trabajo Final](#informe-de-trabajo-final)
+    - [**Nombre del startup:** NRG4](#nombre-del-startup-nrg4)
+    - [**Nombre del producto:** SynHome](#nombre-del-producto-synhome)
+  - [**Integrantes**](#integrantes)
+  - [Registro de Versiones del Informe](#registro-de-versiones-del-informe)
+  - [Project Report Collaboration Insights](#project-report-collaboration-insights)
+  - [Contenido](#contenido)
+  - [Student Outcome](#student-outcome)
+  - [Objetivos SMART](#objetivos-smart)
+      - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
+    - [1.2. Solution Profile](#12-solution-profile)
+      - [1.2.1. Antecedentes y problemática](#121-antecedentes-y-problemática)
+      - [1.2.2. Lean UX Process](#122-lean-ux-process)
+        - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
+        - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
+        - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
+        - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
+    - [1.3. Segmentos Objetivo](#13-segmentos-objetivo)
+  - [Capítulo II: Requirements Elicitation \& Analysis](#capítulo-ii-requirements-elicitation--analysis)
+    - [2.1. Competidores](#21-competidores)
+      - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
+      - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
+    - [2.2. Entrevistas](#22-entrevistas)
+      - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
+      - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
+      - [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
+    - [2.3. Needfinding](#23-needfinding)
+      - [2.3.1. User Personas](#231-user-personas)
+      - [2.3.2. User Task Matrix](#232-user-task-matrix)
+      - [2.3.3. User Journey Mapping](#233-user-journey-mapping)
+      - [2.3.4. Empathy Mapping](#234-empathy-mapping)
+      - [2.3.5. As-is Scenario Mapping](#235-as-is-scenario-mapping)
+    - [2.4. Ubiquitous Language](#24-ubiquitous-language)
+  - [Capítulo III: Requirements specification](#capítulo-iii-requirements-specification)
+    - [3.1. To-Be Scenario Mapping](#31-to-be-scenario-mapping)
+    - [3.2. User Stories](#32-user-stories)
+    - [3.3. Impact Mapping](#33-impact-mapping)
+    - [3.4. Product Backlog](#34-product-backlog)
+  - [Capítulo IV: Solution Software Design](#capítulo-iv-solution-software-design)
+    - [4.1. Strategic-Level Domain-Driven Design](#41-strategic-level-domain-driven-design)
+      - [4.1.1. EventStorming](#411-eventstorming)
+        - [4.1.1.1. Candidate Context Discovery](#4111-candidate-context-discovery)
+        - [4.1.1.2. Domain Message Flows Modeling](#4112-domain-message-flows-modeling)
+        - [4.1.1.3. Bounded Context Canvases](#4113-bounded-context-canvases)
+      - [4.1.2. Context Mapping](#412-context-mapping)
+      - [4.1.3. Software Architecture](#413-software-architecture)
+        - [4.1.3.1. Software Architecture Context Level Diagrams](#4131-software-architecture-context-level-diagrams)
+        - [4.1.3.2. Software Architecture Container Level Diagrams](#4132-software-architecture-container-level-diagrams)
+        - [4.1.3.3. Software Architecture Deployment Diagrams](#4133-software-architecture-deployment-diagrams)
+    - [4.2. Tactical-Level Domain-Driven Design](#42-tactical-level-domain-driven-design)
+      - [4.2.1. Bounded Context: Analítica y Reportes](#421-bounded-context-analítica-y-reportes)
+        - [4.2.1.1. Domain Layer](#4211-domain-layer)
+        - [4.2.1.2. Interface Layer](#4212-interface-layer)
+        - [4.2.1.3. Application Layer](#4213-application-layer)
+        - [4.2.1.4. Infrastructure Layer](#4214-infrastructure-layer)
+        - [4.2.1.5. Bounded Context Software Architecture Component Level Diagrams](#4215-bounded-context-software-architecture-component-level-diagrams)
+        - [4.2.1.6. Bounded Context Software Architecture Code Level Diagrams](#4216-bounded-context-software-architecture-code-level-diagrams)
         - [4.2.1.6.1. Bounded Context Domain Layer Class Diagrams](#42161-bounded-context-domain-layer-class-diagrams)
-        - [4.2.1.6.2. Bounded Context Database Design Diagram](#42162-bounded-context-database-design-diagram)
-- [Capítulo V: Solution UI/UX Design](#capítulo-v-solution-uiux-design)
-  - [5.1. Product Design](#51-product-design)
-    - [5.1.1. Style Guidelines](#511-style-guidelines)
-      - [5.1.1.1. General Style Guidelines](#5111-general-style-guidelines)
-    - [5.1.2. Information Architecture](#512-information-architecture)
-      - [5.1.2.1. Organization Systems](#5121-organization-systems)
-      - [5.1.2.2. Labeling Systems](#5122-labeling-systems)
-      - [5.1.2.3. SEO Tags and Meta Tags](#5123-seo-tags-and-meta-tags)
-      - [5.1.2.4. Searching Systems](#5124-searching-systems)
-      - [5.1.2.5. Navigation Systems](#5125-navigation-systems)
-    - [5.1.3. Landing Page UI Design](#513-landing-page-ui-design)
-      - [5.1.3.1. Landing Page Wireframe](#5131-landing-page-wireframe)
-      - [5.1.3.2. Landing Page Mock-up](#5132-landing-page-mock-up)
-    - [5.1.4. Mobile Applications UX/UI Design](#514-mobile-applications-uxui-design)
-      - [5.1.4.1. Mobile Applications Wireframes](#5141-mobile-applications-wireframes)
-      - [5.1.4.2. Mobile Applications Wireflow Diagrams](#5142-mobile-applications-wireflow-diagrams)
-      - [5.1.4.3. Mobile Applications Mock-ups](#5143-mobile-applications-mock-ups)
-      - [5.1.4.4. Mobile Applications User Flow Diagrams](#5144-mobile-applications-user-flow-diagrams)
-      - [5.1.4.5. Mobile Applications Prototyping](#5145-mobile-applications-prototyping)
-- [Capítulo VI: Product Implementation, Validation & Deployment](#capítulo-vi-product-implementation-validation--deployment)
-  - [6.1. Software Configuration Management](#61-software-configuration-management)
-    - [6.1.1. Software Development Environment Configuration](#611-software-development-environment-configuration)
-    - [6.1.2. Source Code Management](#612-source-code-management)
-    - [6.1.3. Source Code Style Guide \& Conventions](#613-source-code-style-guide--conventions)
-    - [6.1.4. Software Deployment Configuration](#614-software-deployment-configuration)
-  - [6.2. Landing Page \& Mobile Application Implementation](#62-landing-page--mobile-application-implementation)
-    - [6.2.1. Sprint 1](#621-sprint-1)
-      - [6.2.1.1. Sprint Planning 1](#6211-sprint-planning-1)
-      - [6.2.1.2. Sprint Backlog 1](#6212-sprint-backlog-1)
-      - [6.2.1.3. Development Evidence for Sprint Review](#6213-development-evidence-for-sprint-review)
-      - [6.2.1.4. Testing Suite Evidence for Sprint Review](#6214-testing-suite-evidence-for-sprint-review)
-      - [6.2.1.5. Execution Evidence for Sprint Review](#6215-execution-evidence-for-sprint-review)
-      - [6.2.1.6. Services Documentation Evidence for Sprint Review](#6216-services-documentation-evidence-for-sprint-review)
-      - [6.2.1.7. Software Deployment Evidence for Sprint Review](#6217-software-deployment-evidence-for-sprint-review)
-      - [6.2.1.8. Team Collaboration Insights during Sprint](#6218-team-collaboration-insights-during-sprint)
-  - [6.3. Validation Interviews](#63-validation-interviews)
-    - [6.3.1. Diseño de entrevistas](#631-diseño-de-entrevistas)
-    - [6.3.2. Registro de entrevistas](#632-registro-de-entrevistas)
-    - [6.3.3. Evaluaciones según heurísticas](#633-evaluaciones-según-heurísticas)
-  - [6.4. Video About-the-Product](#64-video-about-the-product)
-- [Conclusiones](#conclusiones)
-- [Bibliografía](#bibliografía)
-- [Anexos](#anexos)
+      - [4.2.2. Bounded Context: Notificaciones](#422-bounded-context-notificaciones)
+        - [4.2.2.1. Domain Layer](#4221-domain-layer)
+        - [4.2.2.2. Interface Layer](#4222-interface-layer)
+        - [4.2.2.3. Application Layer](#4223-application-layer)
+        - [4.2.2.4. Infrastructure Layer](#4224-infrastructure-layer)
+        - [4.2.2.5. Bounded Context Software Architecture Component Level Diagrams](#4225-bounded-context-software-architecture-component-level-diagrams)
+        - [4.2.2.6. Bounded Context Software Architecture Code Level Diagrams](#4226-bounded-context-software-architecture-code-level-diagrams)
+        - [4.2.2.6.1. Bounded Context Domain Layer Class Diagrams](#42261-bounded-context-domain-layer-class-diagrams)
+      - [4.2.3. Bounded Context: Gestión de grupos](#423-bounded-context-gestión-de-grupos)
+        - [4.2.3.1. Domain Layer](#4231-domain-layer)
+        - [4.2.3.2. Interface Layer](#4232-interface-layer)
+        - [4.2.3.3. Application Layer](#4233-application-layer)
+        - [4.2.3.4. Infrastructure Layer](#4234-infrastructure-layer)
+        - [4.2.3.5. Bounded Context Software Architecture Component Level Diagrams](#4235-bounded-context-software-architecture-component-level-diagrams)
+        - [4.2.3.6. Bounded Context Software Architecture Code Level Diagrams](#4236-bounded-context-software-architecture-code-level-diagrams)
+          - [4.2.3.6.1. Bounded Context Domain Layer Class Diagrams](#42361-bounded-context-domain-layer-class-diagrams)
+          - [4.2.3.6.2. Bounded Context Database Design Diagram](#42362-bounded-context-database-design-diagram)
+      - [4.2.4. Bounded Context: Solicitudes y Validaciones](#424-bounded-context-solicitudes-y-validaciones)
+        - [4.2.4.1. Domain Layer](#4241-domain-layer)
+        - [4.2.4.2. Interface Layer](#4242-interface-layer)
+        - [4.2.4.3. Application Layer](#4243-application-layer)
+        - [4.2.4.4. Infrastructure Layer](#4244-infrastructure-layer)
+        - [4.2.4.5. Bounded Context Software Architecture Component Level Diagrams](#4245-bounded-context-software-architecture-component-level-diagrams)
+        - [4.2.4.6. Bounded Context Software Architecture Code Level Diagrams](#4246-bounded-context-software-architecture-code-level-diagrams)
+          - [4.2.4.6.1. Bounded Context Domain Layer Class Diagrams](#42461-bounded-context-domain-layer-class-diagrams)
+          - [4.2.4.6.2. Bounded Context Database Design Diagram](#42462-bounded-context-database-design-diagram)
+        - [4.2.5.1. Domain Layer](#4251-domain-layer)
+    - [**Aggregate: `TaskAggregate`**](#aggregate-taskaggregate)
+    - [**Entities:**](#entities)
+    - [**Value Objects**](#value-objects)
+    - [**Factories**](#factories)
+    - [**Domain Services**](#domain-services)
+        - [4.2.5.2. Interface Layer](#4252-interface-layer)
+    - [**Controllers**](#controllers)
+        - [4.2.5.3. Application Layer](#4253-application-layer)
+    - [**Command Handlers**](#command-handlers)
+    - [**Event Handlers**](#event-handlers)
+        - [4.2.5.4. Infrastructure Layer](#4254-infrastructure-layer)
+    - [**Repositories**](#repositories)
+        - [4.2.5.5. Bounded Context Software Architecture Component Level Diagrams](#4255-bounded-context-software-architecture-component-level-diagrams)
+        - [4.2.5.6. Bounded Context Software Architecture Code Level Diagrams](#4256-bounded-context-software-architecture-code-level-diagrams)
+          - [4.2.5.6.1. Bounded Context Domain Layer Class Diagrams](#42561-bounded-context-domain-layer-class-diagrams)
+          - [4.2.5.6.2. Bounded Context Database Design Diagram](#42562-bounded-context-database-design-diagram)
+  - [Capítulo V: Solution UI/UX Design](#capítulo-v-solution-uiux-design)
+    - [5.1. Product Design](#51-product-design)
+      - [5.1.1. Style Guidelines](#511-style-guidelines)
+        - [5.1.1.1. General Style Guidelines](#5111-general-style-guidelines)
+      - [5.1.2. Information Architecture](#512-information-architecture)
+        - [5.1.2.1. Organization Systems](#5121-organization-systems)
+        - [5.1.2.2. Labeling Systems](#5122-labeling-systems)
+        - [5.1.2.3. SEO Tags and Meta Tags](#5123-seo-tags-and-meta-tags)
+        - [5.1.2.4. Searching Systems](#5124-searching-systems)
+        - [5.1.2.5. Navigation Systems](#5125-navigation-systems)
+      - [5.1.3. Landing Page UI Design](#513-landing-page-ui-design)
+        - [5.1.3.1. Landing Page Wireframe](#5131-landing-page-wireframe)
+        - [5.1.3.2. Landing Page Mock-up](#5132-landing-page-mock-up)
+      - [5.1.4. Mobile Applications UX/UI Design](#514-mobile-applications-uxui-design)
+        - [5.1.4.1. Mobile Applications Wireframes](#5141-mobile-applications-wireframes)
+        - [5.1.4.2. Mobile Applications Wireflow Diagrams](#5142-mobile-applications-wireflow-diagrams)
+        - [5.1.4.3. Mobile Applications Mock-ups](#5143-mobile-applications-mock-ups)
+        - [5.1.4.4. Mobile Applications User Flow Diagrams](#5144-mobile-applications-user-flow-diagrams)
+        - [5.1.4.5. Mobile Applications Prototyping](#5145-mobile-applications-prototyping)
+  - [Capítulo VI: Product Implementation, Validation \& Deployment](#capítulo-vi-product-implementation-validation--deployment)
+    - [6.1. Software Configuration Management](#61-software-configuration-management)
+      - [6.1.1. Software Development Environment Configuration](#611-software-development-environment-configuration)
+      - [6.1.2. Source Code Management](#612-source-code-management)
+      - [6.1.3. Source Code Style Guide \& Conventions](#613-source-code-style-guide--conventions)
+      - [6.1.4. Software Deployment Configuration](#614-software-deployment-configuration)
+    - [6.2. Landing Page \& Mobile Application Implementation](#62-landing-page--mobile-application-implementation)
+      - [6.2.1. Sprint 1](#621-sprint-1)
+        - [6.2.1.1. Sprint Planning 1](#6211-sprint-planning-1)
+        - [6.2.1.2. Sprint Backlog 1](#6212-sprint-backlog-1)
+        - [6.2.1.3. Development Evidence for Sprint Review](#6213-development-evidence-for-sprint-review)
+        - [6.2.1.4. Testing Suite Evidence for Sprint Review](#6214-testing-suite-evidence-for-sprint-review)
+        - [6.2.1.5. Execution Evidence for Sprint Review](#6215-execution-evidence-for-sprint-review)
+        - [6.2.1.6. Services Documentation Evidence for Sprint Review](#6216-services-documentation-evidence-for-sprint-review)
+        - [6.2.1.7. Software Deployment Evidence for Sprint Review](#6217-software-deployment-evidence-for-sprint-review)
+        - [6.2.1.8. Team Collaboration Insights during Sprint](#6218-team-collaboration-insights-during-sprint)
+    - [6.2.1. Sprint 2](#621-sprint-2)
+      - [6.2.2.1. Sprint Planning 2.](#6221-sprint-planning-2)
+      - [6.2.2.2. Sprint Backlog 2.](#6222-sprint-backlog-2)
+      - [6.2.2.3. Development Evidence for Sprint Review.](#6223-development-evidence-for-sprint-review)
+      - [6.2.2.4. Testing Suite Evidence for Sprint Review.](#6224-testing-suite-evidence-for-sprint-review)
+      - [6.2.2.5. Execution Evidence for Sprint Review.](#6225-execution-evidence-for-sprint-review)
+      - [6.2.2.6. Services Documentation Evidence for Sprint Review.](#6226-services-documentation-evidence-for-sprint-review)
+      - [6.2.2.7. Software Deployment Evidence for Sprint Review.](#6227-software-deployment-evidence-for-sprint-review)
+      - [6.2.2.8. Team Collaboration Insights during Sprint.](#6228-team-collaboration-insights-during-sprint)
+    - [6.2.3. Sprint 3](#623-sprint-3)
+      - [6.2.3.1. Sprint Planning 3.](#6231-sprint-planning-3)
+      - [6.2.3.2. Sprint Backlog 3.](#6232-sprint-backlog-3)
+      - [6.2.3.3. Development Evidence for Sprint Review.](#6233-development-evidence-for-sprint-review)
+      - [6.2.3.4. Testing Suite Evidence for Sprint Review.](#6234-testing-suite-evidence-for-sprint-review)
+      - [6.2.3.5. Execution Evidence for Sprint Review.](#6235-execution-evidence-for-sprint-review)
+      - [6.2.3.6. Services Documentation Evidence for Sprint Review.](#6236-services-documentation-evidence-for-sprint-review)
+      - [6.2.3.7. Software Deployment Evidence for Sprint Review.](#6237-software-deployment-evidence-for-sprint-review)
+      - [6.2.3.8. Team Collaboration Insights during Sprint.](#6238-team-collaboration-insights-during-sprint)
+    - [6.3. Validation Interviews](#63-validation-interviews)
+      - [6.3.1. Diseño de entrevistas](#631-diseño-de-entrevistas)
+        - [Objetivo de la Entrevista](#objetivo-de-la-entrevista)
+        - [Elementos de Validación](#elementos-de-validación)
+        - [User Flows a Validar](#user-flows-a-validar)
+        - [Formato de Registro de la Entrevista](#formato-de-registro-de-la-entrevista)
+      - [6.3.2. Registro de entrevistas](#632-registro-de-entrevistas)
+      - [6.3.3. Evaluaciones según heurísticas](#633-evaluaciones-según-heurísticas)
+    - [6.4.  Video About-the-Product.](#64--video-about-the-product)
+  - [Conclusiones](#conclusiones)
+  - [Bibliografía](#bibliografía)
+  - [Anexos](#anexos)
 
 ## Student Outcome
 
@@ -3184,17 +3257,20 @@ La arquitectura del sistema se estructura en tres niveles: el Context Diagram de
 El Context Diagram muestra a SynHub (el sistema central) interactuando con sus usuarios principales —el Miembro y el Líder— quienes utilizan la aplicación para gestionar actividades, mientras que SynHub se integra con Google Calendar para sincronizar eventos externos. Este diagrama enfatiza las relaciones externas del sistema, sin detallar componentes internos, destacando cómo los actores clave (usuarios y servicios externos) se conectan con la plataforma principal para intercambiar información.
 
 <img src="images/chapter-4/contextDiagram.png" alt="Context Diagram" width="600"/>
+<img src="images/chapter-4/contextDiagram.png" alt="Context Diagram" width="600"/>
 
 ##### 4.1.3.2. Software Architecture Container Level Diagrams
 
 El Container Diagram describe la arquitectura del sistema, donde los usuarios (Miembro y Líder) interactúan con la Landing Page (web) y la Mobile App, las cuales se conectan a una API REST (backend) que gestiona la lógica de negocio. Esta API se comunica con una base de datos PostgreSQL para almacenar datos y con Google Calendar (mediante su API) para sincronizar eventos. Cada componente (frontend, backend, base de datos y servicio externo) opera en contenedores o entornos independientes, conectados a través de APIs RESTful (HTTPS/JSON) y protocolos como JDBC (PostgreSQL) y OAuth 2.0 (Google).
 
 <img src="images/chapter-4/containerDiagram.png" alt="Container Diagram" width="600"/>
+<img src="images/chapter-4/containerDiagram.png" alt="Container Diagram" width="600"/>
 
 ##### 4.1.3.3. Software Architecture Deployment Diagrams
 
 El diagrama de despliegue representa un sistema donde una aplicación móvil se comunica con una API REST mediante HTTP/HTTPS; esta API gestiona la lógica de negocio, interactúa con una base de datos PostgreSQL para almacenar datos y se integra con Google Calendar a través de su API  para sincronizar eventos. Los componentes clave incluyen: la app (frontend), el servidor de la API (backend), la base de datos (almacenamiento) y el servicio externo de Google , conectados mediante protocolos como RESTful APIs (JSON).
 
+<img src="images/chapter-4/deploymentDiagram.png" alt="Deployment Diagram" width="600"/>
 <img src="images/chapter-4/deploymentDiagram.png" alt="Deployment Diagram" width="600"/>
 
 ### 4.2. Tactical-Level Domain-Driven Design
@@ -5177,6 +5253,7 @@ Este diagrama representa la arquitectura a nivel de componentes del Bounded Cont
 Este diagrama de clases muestra un diseño simplificado para un sistema de gestión de tareas y comentarios siguiendo el patrón CQRS (Command Query Responsibility Segregation). El modelo central incluye la entidad `Task` (como Aggregate Root) con su Value Object `TaskStatus`, y la entidad `Comment`. Los servicios se dividen en comandos (`TaskCommandService` para operaciones de escritura como crear/actualizar/eliminar tareas) y consultas (`TaskQueryService` y `CommentQueryService` para operaciones de lectura). Las relaciones muestran cómo los servicios interactúan con las entidades: los de comando las manipulan, mientras que los de consulta solo acceden a los datos, manteniendo una clara separación de responsabilidades.
 
 <img src="./images/chapter-4/Domain-Layer-Class-Diagrams.png" alt="Chamilo" width="800"/>
+<img src="./images/chapter-4/Domain-Layer-Class-Diagrams.png" alt="Chamilo" width="800"/>
 
 ###### 4.2.5.6.2. Bounded Context Database Design Diagram
 
@@ -6859,7 +6936,7 @@ Para este sprint se desarrollaron 3 productos siendo estos: landing page, web ap
 - Alejo Cardenas Jose Antonio: 7 commits.
 - Pacheco Astiguetta Sebastian: 39 commits.
 
-### 6.2.1. Sprint 1
+### 6.2.1. Sprint 2
 
 #### 6.2.2.1. Sprint Planning 2.
 
@@ -7433,6 +7510,8 @@ En esta sección se presentan los commits realizados en el repositorio de landin
     <th>Jun 13 2025</th>
   </tr>
 </table>
+
+
 
 **Commits realizados en el repositorio del Frontend durante el sprint 2:**
 
@@ -8230,6 +8309,9 @@ En esta sección se presentan los commits realizados en el repositorio de landin
   <th>Jun 16 2025</th>
 </tr>
 </table>
+
+
+
 
 **Commits realizados en el repositorio del Backend durante el sprint 2:**
 
@@ -9740,7 +9822,7 @@ En esta sección, presentamos una recopilación visual y detallada de los avance
 Esta tabla presenta la documentación de los servicios implementados como evidencia para la revisión del sprint. Detalla los endpoints disponibles, sus métodos HTTP, descripciones breves de su funcionalidad y los parámetros requeridos, organizados por categorías como *Groups*, *Members*, *Tasks* y *Member Tasks*.
 
 <table>
-    <tr>
+  <tr>
     <th>Tag</th>
     <th>Verbo http</th>
     <th>Endpoint</th>
@@ -10272,6 +10354,2481 @@ Para este sprint se desarrollaron 2 productos siendo estos: web application y we
 * Pacheco Astiguetta Sebastian (Pachieeee): 51 commits
 * Pasquale Barrenechea Gianluca Santino (cwassointt): 74 commits
 
+### 6.2.3. Sprint 3 
+#### 6.2.3.1. Sprint Planning 3.
+
+<table>
+  <tr>
+    <td colspan="1"><strong>Sprint #</strong></td>
+    <td colspan="1">3</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Sprint Planning Background</strong></td>
+  </tr>
+  <tr>
+    <td colspan="1"><strong>Date</strong></td>
+    <td colspan="1">2025-05-07</td>
+  </tr>
+  <tr>
+    <td colspan="1"><strong>Time</strong></td>
+    <td colspan="1">23:00 PM</td>
+  </tr>
+  <tr>
+    <td colspan="1"><strong>Location</strong></td>
+    <td colspan="1">Discord</td>
+  </tr>
+  <tr>
+    <td colspan="1"><strong>Prepared by</strong></td>
+    <td colspan="1">Gabriel Casas</td>
+  </tr>
+  <tr>
+    <td colspan="1"><strong>Attendees (to planning meeting)</strong></td>
+    <td colspan="1">Juan Astonitas, Jose Alejo, Gabriel Casas, Gianluca Pasquale, Sebastian Pacheco</td>
+  </tr>
+  <tr>
+    <td colspan="1"><strong>Sprint n – 2 Review Summary</strong></td>
+    <td colspan="1">Se actualizo la landing page implementada con next.js con el video-about-the-product y el video-about-the-team, el front del mobile en flutter y el backend en spring boot JAVA</td>
+  </tr>
+  <tr>
+    <td colspan="1"><strong>Sprint n – 2 Retrospective Summary</strong></td>
+    <td colspan="1">Continuar con la misma distribucion de tareas y encargos, ya que fue muy efectivo el sprint anterior</td>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>Sprint Goal & User Stories</strong></td>
+  </tr>
+  <tr>
+    <td colspan="1"><strong>Sprint 3 Goal</strong></td>
+    <td colspan="1">Nuestro enfoque está en garantizar que SynHub alcance hitos clave para sus distintos usuarios: considerando la landing page ya finalizada, avanzando el backend al 100% y lanzando la ultima versión de la app móvil (para líderes e integrantes de equipo). Creemos que esto permitirá una experiencia integral e intuitiva, donde los nuevos usuarios comprendan el valor de la plataforma, los desarrolladores tengan bases técnicas sólidas, y los equipos internos empiecen a operar con herramientas funcionales. Esto se confirmará cuando: la landing page esté publicada sin errores y con alta conversión, el backend tenga el 100% de sus endpoints críticos probados y documentados, y la app móvil (v2.0) permita gestionar todas las tareas y haya sido validada por líderes de manera que cubra todas sus espectativas.</td>
+  </tr>
+  <tr>
+    <td colspan="1"><strong>Sprint 3 Velocity</strong></td>
+    <td colspan="1">Para este sprint nuestro equipo puende aceptar hasta 80 story points</td>
+  </tr>
+  <tr>
+    <td colspan="1"><strong>Sum of Story Points</strong></td>
+    <td colspan="1">La suma de story point atendidos es de 75 story point.</td>
+  </tr>
+</table>
+
+#### 6.2.3.2. Sprint Backlog 3.
+
+<table>
+  <thead>
+    <tr>
+      <th>Sprint #</th>
+      <th colspan="7">Sprint 3</th>
+    </tr>
+    <tr>
+      <th colspan="2">User Story</th>
+      <th colspan="6">Work-Item/task</th>
+    </tr>
+    <tr>
+      <th>Id</th>
+      <th>Title</th>
+      <th>Id</th>
+      <th>Title</th>
+      <th>Description</th>
+      <th>Estimation (Hrs)</th>
+      <th>Assigned To</th>
+      <th>Status</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>US-001</td><td>Creación de grupo</td><td>T001</td><td>Mejora estetica de la pantalla creación grupo</td><td>Mejora estetica del formulario nombre, descripción, imagen y guardar grupo en Flutter.</td><td>3</td><td>Jose Alejo</td><td>Done</td></tr>
+    <tr><td>US-002</td><td>Envío de invitaciones</td><td>T002</td><td>Mejora estetica al invitar miembros</td><td>Mejora estetica del UI para seleccionar usuarios y enviar invitación.</td><td>2</td><td>Alex Casas</td><td>Done</td></tr>
+    <tr><td>US-003</td><td>Eliminación de grupo</td><td>T003</td><td>Mejora estetica del dialog para confirmar eliminación grupo</td><td>Mejora estetica del modal de confirmación y reasignación de tareas si aplica.</td><td>3</td><td>Juan Astonitas</td><td>Done</td></tr>
+    <tr><td>US-004</td><td>Creación de tareas</td><td>T004</td><td>Pantalla creación tarea</td><td>Formulario título, descripción, responsable y validación.</td><td>3</td><td>Gianluca Pasquale</td><td>Done</td></tr>
+    <tr><td>US-005</td><td>Asignación de tareas</td><td>T005</td><td>Asignar tarea</td><td>UI para asignar/reasignar y notificar miembros.</td><td>2</td><td>Sebastian Pacheco</td><td>Done</td></tr>
+    <tr><td>US-006</td><td>Eliminación de tareas</td><td>T006</td><td>Eliminar tarea</td><td>Swipe/delete con confirmación extra para tareas completadas.</td><td>2</td><td>Alex Casas</td><td>Done</td></tr>
+    <tr><td>US-007</td><td>Actualización de estado</td><td>T007</td><td>Actualizar estado</td><td>Botón para marcar completada o cancelada, motivo opcional.</td><td>2</td><td>Sebastian Pacheco</td><td>Done</td></tr>
+    <tr><td>US-008</td><td>Reprogramación de tareas</td><td>T008</td><td>Modificar fecha límite</td><td>Selector de fecha editable y ver historial de cambios.</td><td>2</td><td>Gianluca Pasquale</td><td>Done</td></tr>
+    <tr><td>US-009</td><td>Notificaciones in-app</td><td>T009</td><td>Mostrar notificaciones</td><td>Campana, badge y lista de notificaciones en Flutter.</td><td>3</td><td>Juan Astonitas</td><td>Done</td></tr>
+    <tr><td>US-010</td><td>Preferencias notificación</td><td>T010</td><td>Preferencias notificación</td><td>Configuración granular por grupo y tipos de evento.</td><td>2</td><td>Alex Casas</td><td>Done</td></tr>
+    <tr><td>US-011</td><td>Gráfico distribución tareas</td><td>T011</td><td>Gráfico pastel tareas</td><td>Integrar gráfico pastel dinámico con filtros.</td><td>3</td><td>Sebastian Pacheco</td><td>Done</td></tr>
+    <tr><td>US-012</td><td>Gráfico estados tareas</td><td>T012</td><td>Gráfico barras estados</td><td>Gráfico de barras de estados.</td><td>3</td><td>Alex Casas</td><td>Done</td></tr>
+    <tr><td>US-013</td><td>Reporte reprogramaciones</td><td>T013</td><td>Gráfico líneas reprogramaciones</td><td>Gráfico línea con tooltip de motivos.</td><td>3</td><td>Alex Casas</td><td>Done</td></tr>
+    <tr><td>US-014</td><td>Reporte productividad</td><td>T014</td><td>Reporte individual</td><td>Vista con métricas de tareas completadas y comparativas.</td><td>2</td><td>Jose Alejo</td><td>Done</td></tr>
+    <tr><td>US-015</td><td>Solicitud aprobación tarea</td><td>T015</td><td>Enviar a validación</td><td>Botón para enviar tarea a revisión.</td><td>2</td><td>Juan Astonitas</td><td>Done</td></tr>
+    <tr><td>US-016</td><td>Validación de tareas</td><td>T016</td><td>Validar tarea</td><td>UI para aprobar/rechazar tarea.</td><td>2</td><td>Alex Casas</td><td>Done</td></tr>
+    <tr><td>US-017</td><td>Solicitud extensión plazo</td><td>T017</td><td>Solicitar extensión</td><td>Pantalla para pedir nueva fecha con motivo y esperar aprobación.</td><td>1</td><td>Gianluca Pasquale</td><td>Done</td></tr>
+    <tr><td>US-018</td><td>Histórico validaciones</td><td>T018</td><td>Historial validaciones</td><td>Vista para consultar aprobaciones/rechazos con filtro por miembro.</td><td>2</td><td>Jose Alejo</td><td>Done</td></tr>
+    <tr><td>US-019</td><td>Notificación cambio estado</td><td>T019</td><td>Alertar cambio estado</td><td>Mostrar alerta cuando aprueban/rechazan solicitud.</td><td>1</td><td>Alex Casas</td><td>Done</td></tr>
+    <tr><td>US-020</td><td>Visualizar miembros</td><td>T020</td><td>Lista y detalle miembros</td><td>Pantalla con lista de miembros, roles y tareas asignadas.</td><td>2</td><td>Gianluca Pasquale</td><td>Done</td></tr>
+    <tr><td>US-021</td><td>Editar info grupo</td><td>T021</td><td>Mejora estetica del dialog para editar grupo</td><td>Mejora estetica del formulario para editar nombre, descripción, imagen del grupo.</td><td>1</td><td>Jose Alejo</td><td>Done</td></tr>
+    <tr><td>US-022</td><td>Visualizar tareas asignadas</td><td>T022</td><td>Lista tareas asignadas</td><td>Pantalla de lista de tareas asignadas con detalles y estado.</td><td>1</td><td>Juan Astonitas</td><td>Done</td></tr>
+    <tr><td>US-023</td><td>Comentario en tareas</td><td>T023</td><td>Comentar tareas</td><td>Hilo de comentarios y notificación a líder.</td><td>2</td><td>Alex Casas</td><td>Done</td></tr>
+    <tr><td>US-024</td><td>Configurar preferencias notificación</td><td>T024</td><td>Pantalla preferencias</td><td>Seleccionar tipos de alerta y opción desactivar todas.</td><td>1</td><td>Juan Astonitas</td><td>Done</td></tr>
+    <tr><td>US-025</td><td>Resumen semanal actividad</td><td>T025</td><td>Vista resumen semanal</td><td>Mostrar tareas completadas/pendientes .</td><td>2</td><td>Jose Alejo</td><td>Done</td></tr>
+    <tr><td>US-026</td><td>Carga trabajo miembro</td><td>T026</td><td>Gráfico carga trabajo</td><td>Gráfico barras por miembro.</td><td>2</td><td>Juan Astonitas</td><td>Done</td></tr>
+    <tr><td>US-027</td><td>Reporte cumplimiento plazos</td><td>T027</td><td>Reporte plazos</td><td>Mostrar porcentaje tareas a tiempo con filtro por periodo.</td><td>2</td><td>Jose Alejo</td><td>Done</td></tr>
+    <tr><td>US-028</td><td>Revisión comentarios tareas</td><td>T028</td><td>Ver/responder comentarios</td><td>Permitir líder leer/responder comentarios.</td><td>2</td><td>Sebastian Pacheco</td><td>Done</td></tr>
+    <tr><td>US-029</td><td>Confirmación eliminación tarea</td><td>T029</td><td>Confirmar eliminar</td><td>Diálogo de confirmación antes de borrar tarea.</td><td>1</td><td>Sebastian Pacheco</td><td>Done</td></tr>
+  </tbody>
+</table>
+
+#### 6.2.3.3. Development Evidence for Sprint Review.
+
+**Commits realizados en el repositorio de la Landing Page durante el sprint 3:**
+
+<table>
+  <thead>
+  <tr>
+    <th>Repository</th>
+    <th>Branch</th>
+    <th>Commit Id</th>
+    <th>Commit Message</th>
+    <th>Commit Message Body</th>
+    <th>Committed on (Date)</th>
+  </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>synhub-landing</td>
+      <td>master</td>
+      <td>690e99afbab468d3e31a7409aa68d2b74135f1f6</td>
+      <td>Merge pull request #2 from NRG-4/develop</td>
+      <td>Merge pull request #2 from NRG-4/develop</td>
+      <td>Jun 18 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-landing</td>
+      <td>master</td>
+      <td>79d94fc2b202fb00d66587519ede0f5dbcdb8079</td>
+      <td>feat: add videos section to showcase project in action</td>
+      <td>feat: add videos section to showcase project in action</td>
+      <td>Jun 18 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-landing</td>
+      <td>master</td>
+      <td>c2fd252e5fc116fdbc54a6244a23dc111065c0d9</td>
+      <td>fix: remove hash from section IDs for proper linking</td>
+      <td>fix: remove hash from section IDs for proper linking</td>
+      <td>Jun 18 2025</td>
+    </tr>
+  </tbody>
+</table>
+
+**Commits realizados en el repositorio del Frontend-Android durante el sprint 3:**
+
+<table>
+  <thead>
+    <tr>
+      <th>Repository</th>
+      <th>Branch</th>
+      <th>Commit Id</th>
+      <th>Commit Message</th>
+      <th>Commit Message Body</th>
+      <th>Committed on (Date)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>synhub-mobile-app</td>
+      <td>develop</td>
+      <td>46ef11d9285ea03f1b8277598f97fafdab651c85</td>
+      <td>feat(strings): update app name to 'SynHub for Leaders'</td>
+      <td>feat(strings): update app name to 'SynHub for Leaders'</td>
+      <td>Jul 8 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-mobile-app</td>
+      <td>develop</td>
+      <td>7591192175c81ebdca16429d2d3d8fb908e6751b</td>
+      <td>feat(firebase): integrate Firebase services and update Retrofit base URL</td>
+      <td>feat(firebase): integrate Firebase services and update Retrofit base URL</td>
+      <td>Jul 8 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-mobile-app</td>
+      <td>fix/requests-validations</td>
+      <td>dd329385d790355a98c7f5fba5680a872629234c</td>
+      <td>Merge pull request #17 from NRG-4/fix/requests-validations</td>
+      <td>Merge pull request #17 from NRG-4/fix/requests-validations</td>
+      <td>Jul 8 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-mobile-app</td>
+      <td>develop</td>
+      <td>c85176b29037dbb2286f44289944a2ac5723e7a1</td>
+      <td>fix(navigation): update Validation and EditRequestTask routes to include requestId parameter.</td>
+      <td>fix(navigation): update Validation and EditRequestTask routes to include requestId parameter.</td>
+      <td>Jul 8 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-mobile-app</td>
+      <td>develop</td>
+      <td>4107f43c93206ac5891c53409912abd8f4ec8a25</td>
+      <td>fix(views): add requestId parameter to EditRequestTask and ValidationView, update navigation and request handling.</td>
+      <td>fix(views): add requestId parameter to EditRequestTask and ValidationView, update navigation and request handling.</td>
+      <td>Jul 8 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-mobile-app</td>
+      <td>develop</td>
+      <td>d9e12e7cf62c8a7c354b95df2be25967857876bb</td>
+      <td>fix(viewmodel): update request methods to include requestId parameter.</td>
+      <td>fix(viewmodel): update request methods to include requestId parameter.</td>
+      <td>Jul 8 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-mobile-app</td>
+      <td>develop</td>
+      <td>f0cb6075ea31a1ce868fdd712237de86cbd1c9d7</td>
+      <td>fix(web-service): update request endpoints.</td>
+      <td>fix(web-service): update request endpoints.</td>
+      <td>Jul 8 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-mobile-app</td>
+      <td>fix/requests-validations</td>
+      <td>f953ba83b8a3df3cf32396dcf9c943ff93db6970</td>
+      <td>Merge remote-tracking branch 'origin/fix/requests-validations' into fix/requests-validations</td>
+      <td>Merge remote-tracking branch 'origin/fix/requests-validations' into fix/requests-validations</td>
+      <td>Jul 7 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-mobile-app</td>
+      <td>develop</td>
+      <td>f6fdae46a886af37b2144b16687cb15b4ba0b8a9</td>
+      <td>fix(views): adjust layout of request cards in GroupRequestList for better responsiveness.</td>
+      <td>fix(views): adjust layout of request cards in GroupRequestList for better responsiveness.</td>
+      <td>Jul 7 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-mobile-app</td>
+      <td>develop</td>
+      <td>cfffc48d2bed3c556b4a32a0ff6e69f64a7ed8ce</td>
+      <td>fix(views): update request description display in GroupRequestList and ValidationView.</td>
+      <td>fix(views): update request description display in GroupRequestList and ValidationView.</td>
+      <td>Jul 7 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-mobile-app</td>
+      <td>develop</td>
+      <td>d63142349d851d14e1ebf76a2fa5a9d935b6fe1b</td>
+      <td>feat(home): implement request fetching and display in home view.</td>
+      <td>feat(home): implement request fetching and display in home view.</td>
+      <td>Jul 7 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-mobile-app</td>
+      <td>develop</td>
+      <td>52d1b55e35fed0932bd01822a9ad7dd0709a71e8</td>
+      <td>feat(views): update date formatting methods to handle UTC and local time.</td>
+      <td>feat(views): update date formatting methods to handle UTC and local time.</td>
+      <td>Jul 7 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-mobile-app</td>
+      <td>develop</td>
+      <td>ad795c675761ec51c88c9975a388e4005088231d</td>
+      <td>feat(views): added UTC formatting functionality, profile picture display and a component when there are no requests.</td>
+      <td>feat(views): added UTC formatting functionality, profile picture display and a component when there are no requests.</td>
+      <td>Jul 7 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-mobile-app</td>
+      <td>develop</td>
+      <td>b4dbf7dd6eac6d13bb4862c1401dbaecc15ed482</td>
+      <td>feat(views): added task edit screen for request navigation.</td>
+      <td>feat(views): added task edit screen for request navigation.</td>
+      <td>Jul 7 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-mobile-app</td>
+      <td>develop</td>
+      <td>17cc251ccc61239314f4fbc2d67554a23292a202</td>
+      <td>chore(view-models): remove unused functions.</td>
+      <td>chore(view-models): remove unused functions.</td>
+      <td>Jul 7 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-mobile-app</td>
+      <td>develop</td>
+      <td>9c72aaa0bded1cf90bd18b9d17a68d37f4aae7f8</td>
+      <td>chore: delete unused files.</td>
+      <td>chore: delete unused files.</td>
+      <td>Jul 7 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-mobile-app</td>
+      <td>develop</td>
+      <td>aa337b29813241c1c532ce80ddadc371a36cfa75</td>
+      <td>chore(view-models): remove temporary function not needed anymore.</td>
+      <td>chore(view-models): remove temporary function not needed anymore.</td>
+      <td>Jul 7 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-mobile-app</td>
+      <td>develop</td>
+      <td>a0564a681dd7f39ca4d04847db57ce49c3c90d09</td>
+      <td>chore(navigator): remove unused screens.</td>
+      <td>chore(navigator): remove unused screens.</td>
+      <td>Jul 7 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-mobile-app</td>
+      <td>develop</td>
+      <td>d997e193b897393c86e8b662cbeb8c35dd9e3b09</td>
+      <td>fix(views): remove task objects and adapt the values to use request's task instead.</td>
+      <td>fix(views): remove task objects and adapt the values to use request's task instead.</td>
+      <td>Jul 7 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-mobile-app</td>
+      <td>develop</td>
+      <td>3ecb16b8611f3f6064ee12ab59f4641fc289cbfa</td>
+      <td>chore(web-service): remove unused method.</td>
+      <td>chore(web-service): remove unused method.</td>
+      <td>Jul 7 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-mobile-app</td>
+      <td>develop</td>
+      <td>d1b19d85b2569de4790ea9e0acb2e88a6a7f1e67</td>
+      <td>fix(dto): replace task id with an appropriate object to match response, and remove member id.</td>
+      <td>fix(dto): replace task id with an appropriate object to match response, and remove member id.</td>
+      <td>Jul 7 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-mobile-app</td>
+      <td>develop</td>
+      <td>04a630d6211b672d66501e653b779ff232393d44</td>
+      <td>refactor(tasks): remove redundant button UI code from MemberDetails and Tasks</td>
+      <td>refactor(tasks): remove redundant button UI code from MemberDetails and Tasks</td>
+      <td>Jul 6 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-mobile-app</td>
+      <td>develop</td>
+      <td>c53a1f98813c225b4ebec4426e637245d1a2c66c</td>
+      <td>fix(views): adjust layout of request cards in GroupRequestList for better responsiveness.</td>
+      <td>fix(views): adjust layout of request cards in GroupRequestList for better responsiveness.</td>
+      <td>Jul 6 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-mobile-app</td>
+      <td>develop</td>
+      <td>e798b8f6fc6bb4bab07dc0d8481b3a98a68fa0bf</td>
+      <td>fix(views): update request description display in GroupRequestList and ValidationView.</td>
+      <td>fix(views): update request description display in GroupRequestList and ValidationView.</td>
+      <td>Jul 5 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-mobile-app</td>
+      <td>develop</td>
+      <td>8b1a4eb28deb03cc3911aea5693a56df034c794c</td>
+      <td>feat(home): implement request fetching and display in home view.</td>
+      <td>feat(home): implement request fetching and display in home view.</td>
+      <td>Jul 5 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-mobile-app</td>
+      <td>fix/requests-validations</td>
+      <td>f0c441aaee2c37fca0679a504b3a6b0d79cdc0f3</td>
+      <td>Merge remote-tracking branch 'origin/fix/requests-validations' into fix/requests-validations</td>
+      <td>Merge remote-tracking branch 'origin/fix/requests-validations' into fix/requests-validations</td>
+      <td>Jul 5 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-mobile-app</td>
+      <td>develop</td>
+      <td>85d748716a1a217578db305fc7ac33267f158bf1</td>
+      <td>feat(views): update date formatting methods to handle UTC and local time.</td>
+      <td>feat(views): update date formatting methods to handle UTC and local time.</td>
+      <td>Jul 5 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-mobile-app</td>
+      <td>develop</td>
+      <td>14ea74da9e0b097e49b4d89f6bbe313bf994996b</td>
+      <td>feat(views): added UTC formatting functionality, profile picture display and a component when there are no requests.</td>
+      <td>feat(views): added UTC formatting functionality, profile picture display and a component when there are no requests.</td>
+      <td>Jul 5 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-mobile-app</td>
+      <td>develop</td>
+      <td>51b5e1ff7527250d8268c63c77af1c0a4f024882</td>
+      <td>feat(views): added task edit screen for request navigation.</td>
+      <td>feat(views): added task edit screen for request navigation.</td>
+      <td>Jul 5 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-mobile-app</td>
+      <td>develop</td>
+      <td>2b888c0750fd62562732e626880c5381612015f1</td>
+      <td>chore(view-models): remove unused functions.</td>
+      <td>chore(view-models): remove unused functions.</td>
+      <td>Jul 5 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-mobile-app</td>
+      <td>develop</td>
+      <td>4f428e334e6f2a5e467e54bb4ed3596c2c0088b4</td>
+      <td>chore: delete unused files.</td>
+      <td>chore: delete unused files.</td>
+      <td>Jul 5 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-mobile-app</td>
+      <td>develop</td>
+      <td>9798374173194dfdfa10565e67eda7d6ac05521e</td>
+      <td>chore(view-models): remove temporary function not needed anymore.</td>
+      <td>chore(view-models): remove temporary function not needed anymore.</td>
+      <td>Jul 5 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-mobile-app</td>
+      <td>develop</td>
+      <td>366c5d1d6940e72ef6b9fed71a3118e4f3a96ebc</td>
+      <td>chore(navigator): remove unused screens.</td>
+      <td>chore(navigator): remove unused screens.</td>
+      <td>Jul 5 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-mobile-app</td>
+      <td>develop</td>
+      <td>f6cd2d0837c120dff05bd8d401cdfb40056eecc5</td>
+      <td>fix(views): remove task objects and adapt the values to use request's task instead.</td>
+      <td>fix(views): remove task objects and adapt the values to use request's task instead.</td>
+      <td>Jul 5 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-mobile-app</td>
+      <td>develop</td>
+      <td>ef14f229dfc5d33b68af5f7a019e13a8483315d7</td>
+      <td>chore(web-service): remove unused method.</td>
+      <td>chore(web-service): remove unused method.</td>
+      <td>Jul 5 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-mobile-app</td>
+      <td>develop</td>
+      <td>8a4f74da74b46a8d1d0cfb19877a37947821fe8f</td>
+      <td>fix(dto): replace task id with an appropriate object to match response, and remove member id.</td>
+      <td>fix(dto): replace task id with an appropriate object to match response, and remove member id.</td>
+      <td>Jul 5 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-mobile-app</td>
+      <td>develop</td>
+      <td>a3883170e34d3ed2d830df27e0e0fd4e1f3fee86</td>
+      <td>feat(analytics): change background color to white for improved visibility</td>
+      <td>feat(analytics): change background color to white for improved visibility</td>
+      <td>Jul 4 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-mobile-app</td>
+      <td>develop</td>
+      <td>1633b06664102e5ae2ac77e983cbbb3756c1e153</td>
+      <td>feat(views): added task edit screen for request navigation.</td>
+      <td>feat(views): added task edit screen for request navigation.</td>
+      <td>Jul 4 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-mobile-app</td>
+      <td>develop</td>
+      <td>3501fe13e7c448a1d33fc9ec43c0c2d32a58a554</td>
+      <td>chore(view-models): remove unused functions.</td>
+      <td>chore(view-models): remove unused functions.</td>
+      <td>Jul 4 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-mobile-app</td>
+      <td>develop</td>
+      <td>7dc1e16b1888fcdbe1850000c650ed73a03a01fb</td>
+      <td>chore: delete unused files.</td>
+      <td>chore: delete unused files.</td>
+      <td>Jul 4 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-mobile-app</td>
+      <td>develop</td>
+      <td>7bb2af8cddae0c03d92de66310e79cd55a3930c3</td>
+      <td>chore(view-models): remove temporary function not needed anymore.</td>
+      <td>chore(view-models): remove temporary function not needed anymore.</td>
+      <td>Jul 4 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-mobile-app</td>
+      <td>develop</td>
+      <td>28feda7924f4a76e4c19334ea9e75205449a2e0b</td>
+      <td>chore(navigator): remove unused screens.</td>
+      <td>chore(navigator): remove unused screens.</td>
+      <td>Jul 4 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-mobile-app</td>
+      <td>develop</td>
+      <td>f4fbb22c25dc29693bd09d34acebc64593513bc9</td>
+      <td>fix(views): remove task objects and adapt the values to use request's task instead.</td>
+      <td>fix(views): remove task objects and adapt the values to use request's task instead.</td>
+      <td>Jul 4 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-mobile-app</td>
+      <td>develop</td>
+      <td>c5120fd20a6e445d4f34f0d0f34bd82cd2895755</td>
+      <td>chore(web-service): remove unused method.</td>
+      <td>chore(web-service): remove unused method.</td>
+      <td>Jul 4 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-mobile-app</td>
+      <td>develop</td>
+      <td>992bbb9dc7e64c6884f12f8f1ba58fdbf4c5a191</td>
+      <td>fix(retrofit): update base URL for local development environment</td>
+      <td>fix(retrofit): update base URL for local development environment</td>
+      <td>Jul 4 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-mobile-app</td>
+      <td>develop</td>
+      <td>992bbb9dc7e64c6884f12f8f1ba58fdbf4c5a191</td>
+      <td>feat(analytics): update color scheme for improved UI consistency</td>
+      <td>feat(analytics): update color scheme for improved UI consistency</td>
+      <td>Jul 4 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-mobile-app</td>
+      <td>develop</td>
+      <td>e362b115686a20dbdb4b5a496ec93bcaeecbf768</td>
+      <td>feat(tasks): add status field to tasks and enhance task display with status-based color coding</td>
+      <td>feat(tasks): add status field to tasks and enhance task display with status-based color coding</td>
+      <td>Jul 2 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-mobile-app</td>
+      <td>develop</td>
+      <td>731a79cacca749d13e82de4cf22d964c7b6588a0</td>
+      <td>feat(date): update date formatting to include time for improved clarity</td>
+      <td>feat(date): update date formatting to include time for improved clarity</td>
+      <td>Jul 1 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-mobile-app</td>
+      <td>develop</td>
+      <td>8c9db46a37f13ddd8abdfbf351a295c4ef181f24</td>
+      <td>feat(tasks): enhance date handling to support ZonedDateTime for improved accuracy</td>
+      <td>feat(tasks): enhance date handling to support ZonedDateTime for improved accuracy</td>
+      <td>Jul 1 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-mobile-app</td>
+      <td>develop</td>
+      <td>88907ee78be17f49b383b1099126f6b07033f2ee</td>
+      <td>feat(layout): add spacing between items for improved visual separation</td>
+      <td>feat(layout): add spacing between items for improved visual separation</td>
+      <td>Jul 1 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-mobile-app</td>
+      <td>develop</td>
+      <td>cdfeca65b3a756e12ae907e109aa9a5bfb29eaa6</td>
+      <td>feat(help): add help dialog to provide task and member information</td>
+      <td>feat(help): add help dialog to provide task and member information</td>
+      <td>Jun 30 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-mobile-app</td>
+      <td>develop</td>
+      <td>d0e6a589d0bb0e36f5b365b26a9953872484f4cc</td>
+      <td>feat(member): add confirmation dialog for deleting group members</td>
+      <td>feat(member): add confirmation dialog for deleting group members</td>
+      <td>Jun 30 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-mobile-app</td>
+      <td>develop</td>
+      <td>4168f0b449f6a676dbd1d5c37f6c6628860cdf02</td>
+      <td>feat(tasks): add confirmation dialog for deleting tasks</td>
+      <td>feat(tasks): add confirmation dialog for deleting tasks</td>
+      <td>Jun 30 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-mobile-app</td>
+      <td>develop</td>
+      <td>96c24a145638ed39a2902e29ff049b78b3809cad</td>
+      <td>feat(login): add error dialog for login failures</td>
+      <td>feat(login): add error dialog for login failures</td>
+      <td>Jun 30 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-mobile-app</td>
+      <td>develop</td>
+      <td>f9889f71615219b558b64520f8f3643852b8401a</td>
+      <td>feat(Group): add confirmation dialog for deleting group members</td>
+      <td>feat(Group): add confirmation dialog for deleting group members</td>
+      <td>Jun 30 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-mobile-app</td>
+      <td>develop</td>
+      <td>95b554d9ba5d6636c97f22461b6ed7882d6b867d</td>
+      <td>fix(tasks): improve date handling to parse and format created and due dates as local dates</td>
+      <td>fix(tasks): improve date handling to parse and format created and due dates as local dates</td>
+      <td>Jun 23 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-mobile-app</td>
+      <td>develop</td>
+      <td>181c0d619bfb23c91fd1bb13d9f87d4e5bba9f3e</td>
+      <td>fix(tasks): update date handling to interpret milliseconds as UTC and improve date parsing</td>
+      <td>fix(tasks): update date handling to interpret milliseconds as UTC and improve date parsing</td>
+      <td>Jun 23 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-mobile-app</td>
+      <td>develop</td>
+      <td>f52b443616269f323fbe4a79aacb18f7f9574537</td>
+      <td>fix(tasks): update due date handling to always send UTC time.</td>
+      <td>fix(tasks): update due date handling to always send UTC time.</td>
+      <td>Jun 23 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-mobile-app</td>
+      <td>develop</td>
+      <td>7c70eef8eda01b89eac79fa468e40fb7778648fa</td>
+      <td>fix(task): update due date handling to use UTC format</td>
+      <td>fix(task): update due date handling to use UTC format</td>
+      <td>Jun 17 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-mobile-app</td>
+      <td>develop</td>
+      <td>6da055398a339f32db23cd42748d5b36b62d4564</td>
+      <td>fix(CreateGroup, Register): restore visual transformation for password fields</td>
+      <td>fix(CreateGroup, Register): restore visual transformation for password fields</td>
+      <td>Jun 17 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-mobile-app</td>
+      <td>develop</td>
+      <td>18f43223f25570c0f619358cef8b9371201ae917</td>
+      <td>fix(RetrofitClient): update base URL to use the production server</td>
+      <td>fix(RetrofitClient): update base URL to use the production server</td>
+      <td>Jun 17 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-mobile-app</td>
+      <td>develop</td>
+      <td>f9a4980ad4a94513ea1cf31e7c485765432b3204</td>
+      <td>Merge pull request #16 from NRG-4/develop</td>
+      <td>Merge pull request #16 from NRG-4/develop</td>
+      <td>Jun 17 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-mobile-app</td>
+      <td>develop</td>
+      <td>566e7406112be7a24e44300b3d6e0682e1454a31</td>
+      <td>Merge pull request #15 from NRG-4/feat/requests</td>
+      <td>Merge pull request #15 from NRG-4/feat/requests</td>
+      <td>Jun 17 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-mobile-app</td>
+      <td>develop</td>
+      <td>cbf3d1be68a3b46980b01ad165de0d9fbe81d758</td>
+      <td>fix(web-service): fix update request status parameters to match provided values.</td>
+      <td>fix(web-service): fix update request status parameters to match provided values.</td>
+      <td>Jun 17 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-mobile-app</td>
+      <td>develop</td>
+      <td>91fb493fe414606edb4cb45ade74a512d616b922</td>
+      <td>fix(requests): fix update request status parameters to match provided values.</td>
+      <td>fix(requests): fix update request status parameters to match provided values.</td>
+      <td>Jun 17 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-mobile-app</td>
+      <td>develop</td>
+      <td>0b496ef1951e0fbd153b0ebedfc9968ae9240145</td>
+      <td>fix(requests): fix button functionality regarding status update and navigation.</td>
+      <td>fix(requests): fix button functionality regarding status update and navigation.</td>
+      <td>Jun 17 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-mobile-app</td>
+      <td>develop</td>
+      <td>f3fef8c34f4c1b68dea5555045eaf1e42bef687c</td>
+      <td>Merge remote-tracking branch 'origin/feat/requests' into feat/requests</td>
+      <td>Merge remote-tracking branch 'origin/feat/requests' into feat/requests</td>
+      <td>Jun 17 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-mobile-app</td>
+      <td>develop</td>
+      <td>69f63008dcf57b0cceb59e911f5d551c445997a2</td>
+      <td>fix(requests): fix conditionals for buttons and their colours, and add a deny button for modification requests.</td>
+      <td>fix(requests): fix conditionals for buttons and their colours, and add a deny button for modification requests.</td>
+      <td>Jun 17 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-mobile-app</td>
+      <td>develop</td>
+      <td>d69bf331aa3b26f3ea3ed6e4e5b7d54a71fd4a9a</td>
+      <td>feat(tasks): add temporary task mapping to correct request view issue.</td>
+      <td>feat(tasks): add temporary task mapping to correct request view issue.</td>
+      <td>Jun 17 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-mobile-app</td>
+      <td>develop</td>
+      <td>e4768ccfd60084886732ab98b8ce5a80ffbdc665</td>
+      <td>feat(tasks): add update task status service.</td>
+      <td>feat(tasks): add update task status service.</td>
+      <td>Jun 17 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-mobile-app</td>
+      <td>develop</td>
+      <td>b52947f5c4cb0c346832f48c058d97013c87f138</td>
+      <td>fix(requests): fix request listing to the correct conditions and icons.</td>
+      <td>fix(requests): fix request listing to the correct conditions and icons.</td>
+      <td>Jun 17 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-mobile-app</td>
+      <td>develop</td>
+      <td>9de0ea74f66db414cc5c4eb110a5092d21ba4c55</td>
+      <td>fix(requests): fix conditionals for buttons and their colours, and add a deny button for modification requests.</td>
+      <td>fix(requests): fix conditionals for buttons and their colours, and add a deny button for modification requests.</td>
+      <td>Jun 17 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-mobile-app</td>
+      <td>develop</td>
+      <td>add0e49c35cfc481fd25155264bc3115e3ecc624</td>
+      <td>feat(tasks): add temporary task mapping to correct request view issue.</td>
+      <td>feat(tasks): add temporary task mapping to correct request view issue.</td>
+      <td>Jun 17 2025</td>
+    </tr>
+  </tbody>
+</table>
+
+**Commits realizados en el repositorio del Frontend-Flutter durante el sprint 3:**
+
+<table>
+  <thead>
+    <tr>
+      <th>Repository</th>
+      <th>Branch</th>
+      <th>Commit Id</th>
+      <th>Commit Message</th>
+      <th>Commit Message Body</th>
+      <th>Committed on (Date)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>synhub-frontend</td>
+      <td>develop</td>
+      <td>eeca47e91ca9f749ce7cd3e1af158bc4061d9dd9</td>
+      <td>fix(project): update asset catalog compiler settings for AppIcon</td>
+      <td>fix(project): update asset catalog compiler settings for AppIcon</td>
+      <td>Jul 8 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-frontend</td>
+      <td>develop</td>
+      <td>91a8847674071488d9362066ca3e8833f31ba23e</td>
+      <td>feat: update AndroidManifest and Gradle files for FlutterFire integration and permissions</td>
+      <td>feat: update AndroidManifest and Gradle files for FlutterFire integration and permissions</td>
+      <td>Jul 8 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-frontend</td>
+      <td>develop</td>
+      <td>e269bfa4cd27c0dcbe16f5b7df38bdcabbfece57</td>
+      <td>Merge pull request #8 from NRG-4/feat/requests</td>
+      <td>Merge pull request #8 from NRG-4/feat/requests</td>
+      <td>Jul 8 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-frontend</td>
+      <td>develop</td>
+      <td>73ca108bf05b81ee6901bc076d02ee2c430d7e96</td>
+      <td>Merge remote-tracking branch 'origin/feat/requests' into feat/requests</td>
+      <td>Merge remote-tracking branch 'origin/feat/requests' into feat/requests</td>
+      <td>Jul 8 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-frontend</td>
+      <td>develop</td>
+      <td>4cc97e29c23a88d4a90cac2c85ce4af596df42d0</td>
+      <td>feat(request): add method to update task status in task service</td>
+      <td>feat(request): add method to update task status in task service</td>
+      <td>Jul 8 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-frontend</td>
+      <td>develop</td>
+      <td>3a3f7be84ccf8ad37c7b2093a30b193fe489e153</td>
+      <td>feat(request): enhance task detail and tasks screen with request creation functionality.</td>
+      <td>feat(request): enhance task detail and tasks screen with request creation functionality.</td>
+      <td>Jul 8 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-frontend</td>
+      <td>develop</td>
+      <td>81605953f947cd2c1aa03745ef247f2cc39f9b3c</td>
+      <td>feat(request): add event and handler for updating task status in BLoC.</td>
+      <td>feat(request): add event and handler for updating task status in BLoC.</td>
+      <td>Jul 8 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-frontend</td>
+      <td>develop</td>
+      <td>e330877efcf24a4c16f746ae3be0a1ee6ca0f369</td>
+      <td>feat(request): update request service methods to handle new requests.</td>
+      <td>feat(request): update request service methods to handle new requests.</td>
+      <td>Jul 8 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-frontend</td>
+      <td>develop</td>
+      <td>2d0f849ab16732f9c74d873c2b86850921d5929f</td>
+      <td>feat(request): add requestType field to Request model.</td>
+      <td>feat(request): add requestType field to Request model.</td>
+      <td>Jul 8 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-frontend</td>
+      <td>develop</td>
+      <td>27a0026ce2b790febb105dae7cd10422773a4a2e</td>
+      <td>feat(request): implement request loading and creation events in BLoC.</td>
+      <td>feat(request): implement request loading and creation events in BLoC.</td>
+      <td>Jul 8 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-frontend</td>
+      <td>develop</td>
+      <td>d6b8259e6f0ff67709b676182051f3a71005d0a9</td>
+      <td>feat(request): add CreateRequestScreen for task request submission.</td>
+      <td>feat(request): add CreateRequestScreen for task request submission.</td>
+      <td>Jul 8 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-frontend</td>
+      <td>develop</td>
+      <td>6e994404ef172de9f9853a9033dc3e1a4dc45422</td>
+      <td>feat(request): update requests screen title style with new color.</td>
+      <td>feat(request): update requests screen title style with new color.</td>
+      <td>Jul 8 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-frontend</td>
+      <td>develop</td>
+      <td>46d6b2f70113a0aa767e85a5f4ab173c22e330c3</td>
+      <td>feat(request): enhance requests screen with loading states and request categorization.</td>
+      <td>feat(request): enhance requests screen with loading states and request categorization.</td>
+      <td>Jul 8 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-frontend</td>
+      <td>develop</td>
+      <td>7418d3bf1e80407ef1d8d28d91863d47c4c35b01</td>
+      <td>feat(request): add BLoC provider for request handling in main.</td>
+      <td>feat(request): add BLoC provider for request handling in main.</td>
+      <td>Jul 8 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-frontend</td>
+      <td>develop</td>
+      <td>ee650d36bd4d830b2534c89eb93922672375977d</td>
+      <td>refactor(home): update navigation and labels for requests screen.</td>
+      <td>refactor(home): update navigation and labels for requests screen.</td>
+      <td>Jul 8 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-frontend</td>
+      <td>develop</td>
+      <td>6bcd7bf19833082f96e5704f18c4acbf4627c661</td>
+      <td>refactor(request): rename RequestAndValidationsScreen to RequestsScreen and update initialization.</td>
+      <td>refactor(request): rename RequestAndValidationsScreen to RequestsScreen and update initialization.</td>
+      <td>Jul 8 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-frontend</td>
+      <td>develop</td>
+      <td>8e987e959bc625a495879a880aa82e5c51025ac8</td>
+      <td>feat(request): add BLoC for request handling with events and states.</td>
+      <td>feat(request): add BLoC for request handling with events and states.</td>
+      <td>Jul 8 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-frontend</td>
+      <td>develop</td>
+      <td>092cbccb2c8873d487dafd158ff41b564af98702</td>
+      <td>feat(request): implement request service.</td>
+      <td>feat(request): implement request service.</td>
+      <td>Jul 8 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-frontend</td>
+      <td>develop</td>
+      <td>173298a1ebd02beb3d2ffc47e465f29d158eee63</td>
+      <td>feat(request): add request model.</td>
+      <td>feat(request): add request model.</td>
+      <td>Jul 8 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-frontend</td>
+      <td>develop</td>
+      <td>72098c4abbcbeed2ec08814cd7875672784381b7</td>
+      <td>Merge pull request #7 from NRG-4/feat/metrics</td>
+      <td>Merge pull request #7 from NRG-4/feat/metrics</td>
+      <td>Jul 6 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-frontend</td>
+      <td>develop</td>
+      <td>d41606c443f2b69d6a781fe86dd592dc091d2619</td>
+      <td>feat(request): update requests screen title style with new color.</td>
+      <td>feat(request): update requests screen title style with new color.</td>
+      <td>Jul 6 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-frontend</td>
+      <td>develop</td>
+      <td>a2e7cedc7fdd5e43116daa916e1c215778365a19</td>
+      <td>feat(request): enhance requests screen with loading states and request categorization.</td>
+      <td>feat(request): enhance requests screen with loading states and request categorization.</td>
+      <td>Jul 6 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-frontend</td>
+      <td>develop</td>
+      <td>301233cdc909e1e04de96e944ecb9384e5bf3537</td>
+      <td>feat(request): add BLoC provider for request handling in main.</td>
+      <td>feat(request): add BLoC provider for request handling in main.</td>
+      <td>Jul 5 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-frontend</td>
+      <td>develop</td>
+      <td>a5d3832efbe5b72c260e159a28b5dbf8ecc57323</td>
+      <td>refactor(home): update navigation and labels for requests screen.</td>
+      <td>refactor(home): update navigation and labels for requests screen.</td>
+      <td>Jul 5 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-frontend</td>
+      <td>develop</td>
+      <td>1a5f03011af7abbbcf648f5eec08f5884d4a3290</td>
+      <td>refactor(request): rename RequestAndValidationsScreen to RequestsScreen and update initialization.</td>
+      <td>refactor(request): rename RequestAndValidationsScreen to RequestsScreen and update initialization.</td>
+      <td>Jul 5 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-frontend</td>
+      <td>develop</td>
+      <td>e995d189205e0957feed138561fa61303d431935</td>
+      <td>feat(request): add BLoC for request handling with events and states.</td>
+      <td>feat(request): add BLoC for request handling with events and states.</td>
+      <td>Jul 5 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-frontend</td>
+      <td>develop</td>
+      <td>89eee45816e64b19277a2c3eba94c11951c588d3</td>
+      <td>feat(request): implement request service.</td>
+      <td>feat(request): implement request service.</td>
+      <td>Jul 5 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-frontend</td>
+      <td>develop</td>
+      <td>1db3efccb075e77ca9f1fdd5e413ba6d6a3e6d94</td>
+      <td>feat(request): add request model.</td>
+      <td>feat(request): add request model.</td>
+      <td>Jul 5 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-frontend</td>
+      <td>develop</td>
+      <td>223352986199aef60cd3b542a7d40d5e0f4a4ad9</td>
+      <td>chore(statistics_service): remove trailing whitespace for code cleanliness</td>
+      <td>chore(statistics_service): remove trailing whitespace for code cleanliness</td>
+      <td>Jul 4 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-frontend</td>
+      <td>develop</td>
+      <td>79cf4a1adb94a219bb786e645efcc809a62b2533</td>
+      <td>feat(statistics): enhance task statistics display and improve layout for better readability</td>
+      <td>feat(statistics): enhance task statistics display and improve layout for better readability</td>
+      <td>Jul 4 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-frontend</td>
+      <td>develop</td>
+      <td>5fbc13ca5ac758cb05c0d1555d0f2150e341c167</td>
+      <td>feat(statistics): add 'done' field to TaskOverview for enhanced task tracking</td>
+      <td>feat(statistics): add 'done' field to TaskOverview for enhanced task tracking</td>
+      <td>Jul 4 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-frontend</td>
+      <td>develop</td>
+      <td>cbe81e61d769bfff17eef6401dfa6a3fffa0c88b</td>
+      <td>feat(metrics): add metrics summary to home screen with loading state management</td>
+      <td>feat(metrics): add metrics summary to home screen with loading state management</td>
+      <td>Jul 4 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-frontend</td>
+      <td>develop</td>
+      <td>63950cb69f8bc582b9c17287b0fefcf0e569cfa8</td>
+      <td>fix(home): update import path for statistics screen</td>
+      <td>fix(home): update import path for statistics screen</td>
+      <td>Jul 4 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-frontend</td>
+      <td>develop</td>
+      <td>13f5e33d82c4873d1eca7d7597669152de4b1320</td>
+      <td>Merge pull request #6 from NRG-4/feat/metrics</td>
+      <td>Merge pull request #6 from NRG-4/feat/metrics</td>
+      <td>Jul 4 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-frontend</td>
+      <td>develop</td>
+      <td>a5f96349b16a9f2b1fc09ab4424425bcd4d24245</td>
+      <td>Merge branch 'develop' into feat/metrics</td>
+      <td>Merge branch 'develop' into feat/metrics</td>
+      <td>Jul 4 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-frontend</td>
+      <td>develop</td>
+      <td>31036c2deb192306a18bd358c30c43ee817bb968</td>
+      <td>feat(invitation): update invitation handling with improved UI and error management</td>
+      <td>feat(invitation): update invitation handling with improved UI and error management</td>
+      <td>Jul 3 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-frontend</td>
+      <td>develop</td>
+      <td>92975508c5af8efbe56d75b2c686bdbd7a2e218d</td>
+      <td>feat(task): enhance task display with improved layout, date formatting, and dynamic status color indicators</td>
+      <td>feat(task): enhance task display with improved layout, date formatting, and dynamic status color indicators</td>
+      <td>Jul 3 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-frontend</td>
+      <td>develop</td>
+      <td>b28ad3f1997f9b6bb4528eb0335fada82e9e5ab2</td>
+      <td>feat(statistics): add StatisticsState class for managing statistics states</td>
+      <td>feat(statistics): add StatisticsState class for managing statistics states</td>
+      <td>Jul 3 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-frontend</td>
+      <td>develop</td>
+      <td>366c522e12159395a9f6c4521b0b023b1c1818b6</td>
+      <td>feat(statistics): add StatisticsService for fetching member statistics</td>
+      <td>feat(statistics): add StatisticsService for fetching member statistics</td>
+      <td>Jul 3 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-frontend</td>
+      <td>develop</td>
+      <td>b1d5ac684d4822e4536ca46b0a2cb9acf733fb31</td>
+      <td>feat(statistics): add StatisticsScreen for displaying member performance metrics</td>
+      <td>feat(statistics): add StatisticsScreen for displaying member performance metrics</td>
+      <td>Jul 3 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-frontend</td>
+      <td>develop</td>
+      <td>b349a18d6368d0a6c369e4342203e8197121980e</td>
+      <td>feat(statistics): add StatisticsEvent class for member statistics loading</td>
+      <td>feat(statistics): add StatisticsEvent class for member statistics loading</td>
+      <td>Jul 3 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-frontend</td>
+      <td>develop</td>
+      <td>9f3465efc65f5973b7d039e08b3e44734dbc9a55</td>
+      <td>feat(member): implement loading next task functionality with state management</td>
+      <td>feat(member): implement loading next task functionality with state management</td>
+      <td>Jul 3 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-frontend</td>
+      <td>develop</td>
+      <td>f8ad128c2208cf4c3da27420c11de64705315550</td>
+      <td>feat(statistics): implement StatisticsBloc for managing member statistics</td>
+      <td>feat(statistics): implement StatisticsBloc for managing member statistics</td>
+      <td>Jul 3 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-frontend</td>
+      <td>develop</td>
+      <td>3af159ef77fd6f4ae8bc841b04fe3ab76fcc85f3</td>
+      <td>feat(statistics): add classes for task overview, distribution, and member statistics</td>
+      <td>feat(statistics): add classes for task overview, distribution, and member statistics</td>
+      <td>Jul 3 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-frontend</td>
+      <td>develop</td>
+      <td>40b99c03693cfe2766bfef46ddbcbfb03e8b4004</td>
+      <td>feat(home): update navigation to pass member details to StatisticsScreen</td>
+      <td>feat(home): update navigation to pass member details to StatisticsScreen</td>
+      <td>Jul 3 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-frontend</td>
+      <td>develop</td>
+      <td>c259ac8b817848ebdc6ecd457e5a55029904dd42</td>
+      <td>feat(group): implement leave group functionality with confirmation dialog and state management</td>
+      <td>feat(group): implement leave group functionality with confirmation dialog and state management</td>
+      <td>Jul 3 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-frontend</td>
+      <td>develop</td>
+      <td>cb955adda281db0bd4a51c4f202201a5f42e2115</td>
+      <td>feat(tasks): enhance task display with color-coded status indicators and improved section organization</td>
+      <td>feat(tasks): enhance task display with color-coded status indicators and improved section organization</td>
+      <td>Jul 3 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-frontend</td>
+      <td>develop</td>
+      <td>e8f89f5740773d0c907a6863f08d163e54608bef</td>
+      <td>feat(tasks): rename tasks.dart to task_screen.dart and update import path</td>
+      <td>feat(tasks): rename tasks.dart to task_screen.dart and update import path</td>
+      <td>Jul 1 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-frontend</td>
+      <td>develop</td>
+      <td>3402f9d9c843bcc1dd0b80cf4a182de80d03225d</td>
+      <td>feat(task): update progress calculation to use seconds instead of days</td>
+      <td>feat(task): update progress calculation to use seconds instead of days</td>
+      <td>Jul 1 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-frontend</td>
+      <td>develop</td>
+      <td>93b132fcbb7279bf29497b86c802526d0b71a93f</td>
+      <td>feat(task): update date formatting to include time in task details</td>
+      <td>feat(task): update date formatting to include time in task details</td>
+      <td>Jul 1 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-frontend</td>
+      <td>develop</td>
+      <td>dd21f744eab26dba68b5e07c5cecc95ebc71f938</td>
+      <td>feat(login): update label and hint text for username input field</td>
+      <td>feat(login): update label and hint text for username input field</td>
+      <td>Jun 30 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-frontend</td>
+      <td>develop</td>
+      <td>1e4175e43a30cee682e34648566fb4f2f3e62b36</td>
+      <td>feat(tasks): add help button to TaskScreen with task details and progress indicators</td>
+      <td>feat(tasks): add help button to TaskScreen with task details and progress indicators</td>
+      <td>Jun 30 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-frontend</td>
+      <td>develop</td>
+      <td>996bad1fc7fc0d14783943b4afe60e0309abb351</td>
+      <td>feat(group): update GroupScreen to use ListView for member display and adjust member details</td>
+      <td>feat(group): update GroupScreen to use ListView for member display and adjust member details</td>
+      <td>Jun 30 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-frontend</td>
+      <td>develop</td>
+      <td>d48caeb86c8692f62424e10e55a88e558e06e370</td>
+      <td>feat(group): enhance GroupScreen with dynamic app bar title and member list display</td>
+      <td>feat(group): enhance GroupScreen with dynamic app bar title and member list display</td>
+      <td>Jun 30 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-frontend</td>
+      <td>develop</td>
+      <td>ff253f58c409d6a8b784a1b9a882380d86438e8f</td>
+      <td>feat(group): implement GroupScreen to display member group details</td>
+      <td>feat(group): implement GroupScreen to display member group details</td>
+      <td>Jun 30 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-frontend</td>
+      <td>develop</td>
+      <td>23526b99ff470e9ba6038f4554ad7f2cee8ea34d</td>
+      <td>feat(group): add event handler for loading member group data</td>
+      <td>feat(group): add event handler for loading member group data</td>
+      <td>Jun 30 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-frontend</td>
+      <td>develop</td>
+      <td>beb9a395917ef6db2bed9ac38a7fd7805a3b3d0e</td>
+      <td>feat(group): add MemberGroupLoaded state to represent loaded member group data</td>
+      <td>feat(group): add MemberGroupLoaded state to represent loaded member group data</td>
+      <td>Jun 30 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-frontend</td>
+      <td>develop</td>
+      <td>f0d919ec575664dbc479878924b444192be6f403</td>
+      <td>feat(group): add LoadMemberGroupEvent class to handle loading member group events</td>
+      <td>feat(group): add LoadMemberGroupEvent class to handle loading member group events</td>
+      <td>Jun 30 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-frontend</td>
+      <td>develop</td>
+      <td>3401b781f991322566d67a628cb71fc6834cf341</td>
+      <td>feat(group): add method to fetch member group details from API</td>
+      <td>feat(group): add method to fetch member group details from API</td>
+      <td>Jun 30 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-frontend</td>
+      <td>develop</td>
+      <td>0c0d6226331dfdc750b3d1cc6447b437e2a6270f</td>
+      <td>feat(group): add members list to Group model and create Member model</td>
+      <td>feat(group): add members list to Group model and create Member model</td>
+      <td>Jun 30 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-frontend</td>
+      <td>develop</td>
+      <td>6ff1bc79832d9643e5a41a7babedd1c9fe854ab0</td>
+      <td>fix(home): update import path for group screen</td>
+      <td>fix(home): update import path for group screen</td>
+      <td>Jun 30 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-frontend</td>
+      <td>develop</td>
+      <td>e6f69d943bc1dc84d56e5643e3624e65109a0324</td>
+      <td>feat(task): add buttons for submitting comments and marking tasks as completed in TaskDetail screen</td>
+      <td>feat(task): add buttons for submitting comments and marking tasks as completed in TaskDetail screen</td>
+      <td>Jun 29 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-frontend</td>
+      <td>develop</td>
+      <td>8426907d4e80c3476318b4305fc731c226d03f1b</td>
+      <td>feat(task): add TaskDetail screen for displaying task details and progress</td>
+      <td>feat(task): add TaskDetail screen for displaying task details and progress</td>
+      <td>Jun 29 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-frontend</td>
+      <td>develop</td>
+      <td>3c46b2e9fb71568a692f84eb5cad0a080d98c00f</td>
+      <td>feat(task): integrate TaskBloc and MemberBloc into the main application and enhance TasksScreen with task loading and display functionality</td>
+      <td>feat(task): integrate TaskBloc and MemberBloc into the main application and enhance TasksScreen with task loading and display functionality</td>
+      <td>Jun 29 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-frontend</td>
+      <td>develop</td>
+      <td>91f73d0bdc3e4c90c0d805a0102b0cb531d55c57</td>
+      <td>feat(task): implement TaskBloc for managing task-related events and states</td>
+      <td>feat(task): implement TaskBloc for managing task-related events and states</td>
+      <td>Jun 29 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-frontend</td>
+      <td>develop</td>
+      <td>5c84396107e099cbb529c5586f665fa3ff00dc14</td>
+      <td>feat(task): add TaskState classes for managing task-related states</td>
+      <td>feat(task): add TaskState classes for managing task-related states</td>
+      <td>Jun 29 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-frontend</td>
+      <td>develop</td>
+      <td>e3850c25199d7978d212d893f1014bc8b9931822</td>
+      <td>feat(task): add TaskEvent class and events for loading member tasks and task details</td>
+      <td>feat(task): add TaskEvent class and events for loading member tasks and task details</td>
+      <td>Jun 29 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-frontend</td>
+      <td>develop</td>
+      <td>9e4cacba84c6685d436f4bc9b652f15fa86b463c</td>
+      <td>feat(task): implement TaskService for fetching member tasks and task details</td>
+      <td>feat(task): implement TaskService for fetching member tasks and task details</td>
+      <td>Jun 29 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-frontend</td>
+      <td>develop</td>
+      <td>62d319cd9c86c64578a51cb80b09fa0022cf9865</td>
+      <td>feat(task): add Task model with JSON serialization</td>
+      <td>feat(task): add Task model with JSON serialization</td>
+      <td>Jun 29 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-frontend</td>
+      <td>develop</td>
+      <td>d9cfb6a57b0e8a01db92d3bc71384e98bd0b825e</td>
+      <td>feat(dependencies): add intl package version 0.18.1 to pubspec.yaml</td>
+      <td>feat(dependencies): add intl package version 0.18.1 to pubspec.yaml</td>
+      <td>Jun 29 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-frontend</td>
+      <td>develop</td>
+      <td>192780b61e8d4ca80ae24e6ee4085ce2ad181c12</td>
+      <td>fix(home): fixed navigation label for statistics to analytics and reports</td>
+      <td>fix(home): fixed navigation label for statistics to analytics and reports</td>
+      <td>Jun 29 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-frontend</td>
+      <td>develop</td>
+      <td>a15592a9cb956d9f3b3bb1772bde716386fc6f9f</td>
+      <td>feat(ui): standardize background color for group, home, request & validations, and statistics screens</td>
+      <td>feat(ui): standardize background color for group, home, request & validations, and statistics screens</td>
+      <td>Jun 29 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-frontend</td>
+      <td>develop</td>
+      <td>a49b56ef956b905f8e6931d89a5e8bdc837b9edb</td>
+      <td>Merge pull request #5 from NRG-4/develop</td>
+      <td>Merge pull request #5 from NRG-4/develop</td>
+      <td>Jun 17 2025</td>
+    </tr>
+  </tbody>
+</table>
+
+
+**Commits realizados en el repositorio del Backend durante el sprint 3:**
+
+<table>
+  <thead>
+    <tr>
+      <th>Repository</th>
+      <th>Branch</th>
+      <th>Commit Id</th>
+      <th>Commit Message</th>
+      <th>Commit Message Body</th>
+      <th>Committed on (Date)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>synhub-backend</td>
+      <td>develop</td>
+      <td>ac10b76434dd17de0eb857125254fd78e8bc3463</td>
+      <td>Merge pull request #20 from NRG-4/develop</td>
+      <td>Merge pull request #20 from NRG-4/develop</td>
+      <td>Jul 8 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-backend</td>
+      <td>develop</td>
+      <td>2ea5ecd5f49ebb6c514ab6e970f99714e7c1b142</td>
+      <td>Merge pull request #19 from NRG-4/fix/requests</td>
+      <td>Merge pull request #19 from NRG-4/fix/requests</td>
+      <td>Jul 8 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-backend</td>
+      <td>develop</td>
+      <td>b7e325df4617a0c93d8c815c9827163bb89eeee2</td>
+      <td>fix(controllers): update request queries to handle multiple requests by taskId and adjust API endpoints accordingly.</td>
+      <td>fix(controllers): update request queries to handle multiple requests by taskId and adjust API endpoints accordingly.</td>
+      <td>Jul 8 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-backend</td>
+      <td>develop</td>
+      <td>609a725f7cf0fac080b783d52c22873e9dbb673e</td>
+      <td>fix(requests): add deletion command and rename query.</td>
+      <td>fix(requests): add deletion command and rename query.</td>
+      <td>Jul 8 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-backend</td>
+      <td>develop</td>
+      <td>84ee0bd421e46543aa59fd67bb4149cb1c43fe91</td>
+      <td>fix(requests): integrate RequestCommandService into TaskStatusScheduler for automatic request creation on task expiration.</td>
+      <td>fix(requests): integrate RequestCommandService into TaskStatusScheduler for automatic request creation on task expiration.</td>
+      <td>Jul 8 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-backend</td>
+      <td>develop</td>
+      <td>b341504c9b4e46db655e3d55aec3ba53b2be7e0d</td>
+      <td>fix(requests): update RequestRepository to return a list of requests by taskId and add deleteByTaskId method.</td>
+      <td>fix(requests): update RequestRepository to return a list of requests by taskId and add deleteByTaskId method.</td>
+      <td>Jul 8 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-backend</td>
+      <td>develop</td>
+      <td>1288742571feef7fb2a7f5f01c727c25012d6d3e</td>
+      <td>fix(requests): change relationship from OneToOne to ManyToOne for task association.</td>
+      <td>fix(requests): change relationship from OneToOne to ManyToOne for task association.</td>
+      <td>Jul 8 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-backend</td>
+      <td>develop</td>
+      <td>0f0d59ec78869fcfabbd26e5927ca5f64a527034</td>
+      <td>feat(requests): add additional command handling and update query service.</td>
+      <td>feat(requests): add additional command handling and update query service.</td>
+      <td>Jul 8 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-backend</td>
+      <td>develop</td>
+      <td>79ac62fcd074673b786bf81de4fe1f97653eab09</td>
+      <td>chore: added enviroment variables</td>
+      <td>chore: added enviroment variables</td>
+      <td>Jul 7 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-backend</td>
+      <td>develop</td>
+      <td>7fa8bd4aa5f38f1b52ada4bd2659f2a8c78e7008</td>
+      <td>Merge pull request #18 from NRG-4/develop</td>
+      <td>Merge pull request #18 from NRG-4/develop</td>
+      <td>Jul 7 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-backend</td>
+      <td>develop</td>
+      <td>bd003f486abeac24087a0db662a6cdbb413df523</td>
+      <td>Merge remote-tracking branch 'origin/fix/requests' into fix/requests</td>
+      <td>Merge remote-tracking branch 'origin/fix/requests' into fix/requests</td>
+      <td>Jul 7 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-backend</td>
+      <td>develop</td>
+      <td>02e4f1905396d6bae13269dcc634ffbad3a45d8a</td>
+      <td>chore(services): request command service implementation code cleanup.</td>
+      <td>chore(services): request command service implementation code cleanup.</td>
+      <td>Jul 7 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-backend</td>
+      <td>develop</td>
+      <td>17a953b6b7eedd2494e4f944075cde7af1606e12</td>
+      <td>chore(controllers): request controller code cleanup.</td>
+      <td>chore(controllers): request controller code cleanup.</td>
+      <td>Jul 7 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-backend</td>
+      <td>develop</td>
+      <td>8847214a8f6e7cacf89cbeedac0e040194da379c</td>
+      <td>chore(services): remove commented line.</td>
+      <td>chore(services): remove commented line.</td>
+      <td>Jul 7 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-backend</td>
+      <td>develop</td>
+      <td>5fbcf4ef1b6697dee5fd2feed3e350bd8b7de79a</td>
+      <td>fix(requests-bounded-context): remove all instances of member id from requests, as they're embedded in task included in the request.</td>
+      <td>fix(requests-bounded-context): remove all instances of member id from requests, as they're embedded in task included in the request.</td>
+      <td>Jul 7 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-backend</td>
+      <td>develop</td>
+      <td>c001c99cd185c65862df51f563555bbc44426d84</td>
+      <td>feat(context-facade): add get task by id method for external usage.</td>
+      <td>feat(context-facade): add get task by id method for external usage.</td>
+      <td>Jul 7 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-backend</td>
+      <td>develop</td>
+      <td>4b5dfd670f287c882e5bc5b02b6a1f178e5a862f</td>
+      <td>fix(resources): change task variable type getter for requests.</td>
+      <td>fix(resources): change task variable type getter for requests.</td>
+      <td>Jul 7 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-backend</td>
+      <td>develop</td>
+      <td>943d98056c7fc86f62ce1139408763114966b23e</td>
+      <td>fix(services): imlement task context facade to get the task object.</td>
+      <td>fix(services): imlement task context facade to get the task object.</td>
+      <td>Jul 7 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-backend</td>
+      <td>develop</td>
+      <td>4dad3b9a2baf93754a7db9639094688805f82218</td>
+      <td>fix(domain): change request's task id to task object.</td>
+      <td>fix(domain): change request's task id to task object.</td>
+      <td>Jul 7 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-backend</td>
+      <td>develop</td>
+      <td>a2b59a93ff2cf23dda965de997e7bc8bc16d4456</td>
+      <td>Merge pull request #17 from NRG-4/feat/metrics</td>
+      <td>Merge pull request #17 from NRG-4/feat/metrics</td>
+      <td>Jul 6 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-backend</td>
+      <td>feat/metrics</td>
+      <td>41f3db07736bed6c5235f708538999da554e41d4</td>
+      <td>feat(metrics): update rescheduled tasks calculations to sum total rearranged times</td>
+      <td>feat(metrics): update rescheduled tasks calculations to sum total rearranged times</td>
+      <td>Jul 4 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-backend</td>
+      <td>feat/metrics</td>
+      <td>ca847054a93ee5150f9dd77341c5f7a1bbca6aca</td>
+      <td>Merge remote-tracking branch 'origin/feat/metrics' into feat/metrics</td>
+      <td>Merge remote-tracking branch 'origin/feat/metrics' into feat/metrics</td>
+      <td>Jul 4 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-backend</td>
+      <td>feat/metrics</td>
+      <td>19b5e5def7b6048f5bbff5ee73c509da1b9eeecc</td>
+      <td>feat(metrics): update task status filter from COMPLETED to DONE in metrics queries</td>
+      <td>feat(metrics): update task status filter from COMPLETED to DONE in metrics queries</td>
+      <td>Jul 4 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-backend</td>
+      <td>feat/metrics</td>
+      <td>45365e42c741812bcfebd6dd8df7940cea87f795</td>
+      <td>feat(metrics): implement query handlers for member task overview, distribution, rescheduled tasks, and average completion time</td>
+      <td>feat(metrics): implement query handlers for member task overview, distribution, rescheduled tasks, and average completion time</td>
+      <td>Jul 4 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-backend</td>
+      <td>feat/metrics</td>
+      <td>fc66347b8d6182e0d03ad07cb89f6a6b8426e5b0</td>
+      <td>feat(metrics): add query handlers for member task overview, distribution, rescheduled tasks, and average completion time</td>
+      <td>feat(metrics): add query handlers for member task overview, distribution, rescheduled tasks, and average completion time</td>
+      <td>Jul 4 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-backend</td>
+      <td>feat/metrics</td>
+      <td>64a01f47c8313590a10846056eeb7654f0ac2028</td>
+      <td>feat(metrics): add endpoints for member task overview, distribution, rescheduled tasks, and average completion time retrieval</td>
+      <td>feat(metrics): add endpoints for member task overview, distribution, rescheduled tasks, and average completion time retrieval</td>
+      <td>Jul 4 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-backend</td>
+      <td>feat/metrics</td>
+      <td>11390525b5a0a7a71ea7acddd06fcbcfdb06381c</td>
+      <td>feat(metrics): add GetTaskOverviewForMemberQuery record for member task overview retrieval</td>
+      <td>feat(metrics): add GetTaskOverviewForMemberQuery record for member task overview retrieval</td>
+      <td>Jul 4 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-backend</td>
+      <td>feat/metrics</td>
+      <td>34d8ec6f99091c492b45868e12f31c409c0c9fef</td>
+      <td>feat(metrics): add GetTaskDistributionForMemberQuery record for member task distribution retrieval</td>
+      <td>feat(metrics): add GetTaskDistributionForMemberQuery record for member task distribution retrieval</td>
+      <td>Jul 4 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-backend</td>
+      <td>feat/metrics</td>
+      <td>5e1bc28f7e5749e40dd236cc64e7215f0463e747</td>
+      <td>feat(metrics): add GetRescheduledTasksForMemberQuery record for member rescheduled tasks retrieval</td>
+      <td>feat(metrics): add GetRescheduledTasksForMemberQuery record for member rescheduled tasks retrieval</td>
+      <td>Jul 4 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-backend</td>
+      <td>feat/metrics</td>
+      <td>0eeada10cdd19d6b4b3b016a94737eac580d5b50</td>
+      <td>feat(metrics): add GetAvgCompletionTimeForMemberQuery record for member completion time retrieval</td>
+      <td>feat(metrics): add GetAvgCompletionTimeForMemberQuery record for member completion time retrieval</td>
+      <td>Jul 4 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-backend</td>
+      <td>fix/requests</td>
+      <td>5aa5f707ecaa7e560a86d21ef5c14aa85b2cd7a0</td>
+      <td>chore(services): request command service implementation code cleanup.</td>
+      <td>chore(services): request command service implementation code cleanup.</td>
+      <td>Jul 4 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-backend</td>
+      <td>fix/requests</td>
+      <td>3402b651ef6984ecd8383198cb215637ee84f388</td>
+      <td>chore(controllers): request controller code cleanup.</td>
+      <td>chore(controllers): request controller code cleanup.</td>
+      <td>Jul 4 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-backend</td>
+      <td>fix/requests</td>
+      <td>63524f8d1eb3ed0773bda1ccd52f2ecb38d57609</td>
+      <td>Merge remote-tracking branch 'origin/fix/requests' into fix/requests</td>
+      <td>Merge remote-tracking branch 'origin/fix/requests' into fix/requests</td>
+      <td>Jul 4 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-backend</td>
+      <td>fix/requests</td>
+      <td>342fdf819725c06c08feed602a82cb10a7100ee9</td>
+      <td>chore(services): remove commented line.</td>
+      <td>chore(services): remove commented line.</td>
+      <td>Jul 4 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-backend</td>
+      <td>fix/requests</td>
+      <td>9b98f65f7dae531cbf498c70742b233635cfe03c</td>
+      <td>fix(requests-bounded-context): remove all instances of member id from requests, as they're embedded in task included in the request.</td>
+      <td>fix(requests-bounded-context): remove all instances of member id from requests, as they're embedded in task included in the request.</td>
+      <td>Jul 4 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-backend</td>
+      <td>fix/requests</td>
+      <td>ac86926c507c5c02d7684ca9bc82985677fab6e4</td>
+      <td>feat(context-facade): add get task by id method for external usage.</td>
+      <td>feat(context-facade): add get task by id method for external usage.</td>
+      <td>Jul 4 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-backend</td>
+      <td>fix/requests</td>
+      <td>e0ec9a7a6bc8175e487242c4ebf45640672b2e2d</td>
+      <td>fix(resources): change task variable type getter for requests.</td>
+      <td>fix(resources): change task variable type getter for requests.</td>
+      <td>Jul 4 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-backend</td>
+      <td>fix/requests</td>
+      <td>fb47b0036b3468591486aabbe7a0717ecb8ec6e9</td>
+      <td>fix(services): imlement task context facade to get the task object.</td>
+      <td>fix(services): imlement task context facade to get the task object.</td>
+      <td>Jul 4 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-backend</td>
+      <td>fix/requests</td>
+      <td>3fc03a42cadc6b8e29e41ee302b6bdb1eb692b30</td>
+      <td>fix(domain): change request's task id to task object.</td>
+      <td>fix(domain): change request's task id to task object.</td>
+      <td>Jul 4 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-backend</td>
+      <td>develop</td>
+      <td>46cea413cf5499222111c60c8c1ec28d3f4ecc43</td>
+      <td>feat(tasks): add endpoint to fetch the next task for authenticated members</td>
+      <td>feat(tasks): add endpoint to fetch the next task for authenticated members</td>
+      <td>Jul 3 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-backend</td>
+      <td>fix/requests</td>
+      <td>14e7c94ad8d6503893ff8baeda48a018e8f24cfc</td>
+      <td>chore(services): remove commented line.</td>
+      <td>chore(services): remove commented line.</td>
+      <td>Jul 2 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-backend</td>
+      <td>fix/requests</td>
+      <td>1cb48f6f316591154056a73f2d2dca0dc449e50f</td>
+      <td>fix(requests-bounded-context): remove all instances of member id from requests, as they're embedded in task included in the request.</td>
+      <td>fix(requests-bounded-context): remove all instances of member id from requests, as they're embedded in task included in the request.</td>
+      <td>Jul 2 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-backend</td>
+      <td>feat/metrics</td>
+      <td>3f90bdb36c4980d923d43b7bd3cbfab274e54f32</td>
+      <td>feat(metrics): implement query handlers for member task overview, distribution, rescheduled tasks, and average completion time</td>
+      <td>feat(metrics): implement query handlers for member task overview, distribution, rescheduled tasks, and average completion time</td>
+      <td>Jul 1 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-backend</td>
+      <td>feat/metrics</td>
+      <td>1c509b4cb2892838cdccc4a9e2592db253b42d8f</td>
+      <td>feat(metrics): add query handlers for member task overview, distribution, rescheduled tasks, and average completion time</td>
+      <td>feat(metrics): add query handlers for member task overview, distribution, rescheduled tasks, and average completion time</td>
+      <td>Jul 1 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-backend</td>
+      <td>feat/metrics</td>
+      <td>25e85bde97facf05fe6d2192e08936c3b8a5fe88</td>
+      <td>feat(metrics): add endpoints for member task overview, distribution, rescheduled tasks, and average completion time retrieval</td>
+      <td>feat(metrics): add endpoints for member task overview, distribution, rescheduled tasks, and average completion time retrieval</td>
+      <td>Jul 1 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-backend</td>
+      <td>feat/metrics</td>
+      <td>760bf0318a7bb7973077761a302c5563e5484814</td>
+      <td>feat(metrics): add GetTaskOverviewForMemberQuery record for member task overview retrieval</td>
+      <td>feat(metrics): add GetTaskOverviewForMemberQuery record for member task overview retrieval</td>
+      <td>Jul 1 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-backend</td>
+      <td>feat/metrics</td>
+      <td>da7d12d492f6e5efc087916c9a3f0336ae61f75d</td>
+      <td>feat(metrics): add GetTaskDistributionForMemberQuery record for member task distribution retrieval</td>
+      <td>feat(metrics): add GetTaskDistributionForMemberQuery record for member task distribution retrieval</td>
+      <td>Jul 1 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-backend</td>
+      <td>feat/metrics</td>
+      <td>bbd98bc67ff54da5617cfead05984784a9c47f24</td>
+      <td>feat(metrics): add GetRescheduledTasksForMemberQuery record for member rescheduled tasks retrieval</td>
+      <td>feat(metrics): add GetRescheduledTasksForMemberQuery record for member rescheduled tasks retrieval</td>
+      <td>Jul 1 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-backend</td>
+      <td>feat/metrics</td>
+      <td>32bee7795db961a68ba13cc8f948306b238d2926</td>
+      <td>feat(metrics): add GetAvgCompletionTimeForMemberQuery record for member completion time retrieval</td>
+      <td>feat(metrics): add GetAvgCompletionTimeForMemberQuery record for member completion time retrieval</td>
+      <td>Jul 1 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-backend</td>
+      <td>fix/requests</td>
+      <td>b1a763c2dc0af863d3db0c8fd33d13b0c768bb52</td>
+      <td>feat(context-facade): add get task by id method for external usage.</td>
+      <td>feat(context-facade): add get task by id method for external usage.</td>
+      <td>Jul 1 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-backend</td>
+      <td>fix/requests</td>
+      <td>23fb5ef8087ef70dcd02af6e0681c13d2e8c333a</td>
+      <td>fix(resources): change task variable type getter for requests.</td>
+      <td>fix(resources): change task variable type getter for requests.</td>
+      <td>Jul 1 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-backend</td>
+      <td>fix/requests</td>
+      <td>5ff0d0f2d8645549dd38b61fd44121fffb184258</td>
+      <td>fix(services): imlement task context facade to get the task object.</td>
+      <td>fix(services): imlement task context facade to get the task object.</td>
+      <td>Jul 1 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-backend</td>
+      <td>fix/requests</td>
+      <td>7a8d935257f82d01c10fe7b603ecc2f5a77788e9</td>
+      <td>fix(domain): change request's task id to task object.</td>
+      <td>fix(domain): change request's task id to task object.</td>
+      <td>Jul 1 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-backend</td>
+      <td>develop</td>
+      <td>1df7c692524b2cf40068cbca561549be895cb8ab</td>
+      <td>feat(group): add LeaveGroupCommand and implement leave group functionality</td>
+      <td>feat(group): add LeaveGroupCommand and implement leave group functionality</td>
+      <td>Jul 1 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-backend</td>
+      <td>develop</td>
+      <td>7d9030df811f6bebd6938f389facb3b3620ea761</td>
+      <td>feat(tasks): implement scheduled task status updates and enhance task status management</td>
+      <td>feat(tasks): implement scheduled task status updates and enhance task status management</td>
+      <td>Jul 1 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-backend</td>
+      <td>develop</td>
+      <td>629ffff14e182f67fc56d2459197b8f1fc975e44</td>
+      <td>feat(group): add ExtendedGroupResource and assembler for group transformation</td>
+      <td>feat(group): add ExtendedGroupResource and assembler for group transformation</td>
+      <td>Jun 29 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-backend</td>
+      <td>develop</td>
+      <td>e8697ad9ed0be9c7b876d6cf28deaddf94d898b4</td>
+      <td>refactor(date): replace Date with OffsetDateTime for better time handling</td>
+      <td>refactor(date): replace Date with OffsetDateTime for better time handling</td>
+      <td>Jun 29 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-backend</td>
+      <td>develop</td>
+      <td>74013a0547cc8436a77f265a29b5ed1380fcfc2e</td>
+      <td>fix(docker): change exposed port from 8090 to 8080</td>
+      <td>fix(docker): change exposed port from 8090 to 8080</td>
+      <td>Jun 17 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-backend</td>
+      <td>develop</td>
+      <td>ec5a0fc5bbe77cf1fa8ec7e594c220c19bca2d3b</td>
+      <td>feat(config): externalize database and JWT configuration properties</td>
+      <td>feat(config): externalize database and JWT configuration properties</td>
+      <td>Jun 17 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-backend</td>
+      <td>develop</td>
+      <td>4fb83f3aff10e23ee315678813ebebfb18d66106</td>
+      <td>Merge pull request #16 from NRG-4/develop</td>
+      <td>Merge pull request #16 from NRG-4/develop</td>
+      <td>Jun 17 2025</td>
+    </tr>
+    <tr>
+      <td>synhub-backend</td>
+      <td>develop</td>
+      <td>8def6c882ad0e3c7377d2f5cc0a6bf553f7f1ae2</td>
+      <td>Merge pull request #15 from NRG-4/fix/requests</td>
+      <td>Merge pull request #15 from NRG-4/fix/requests</td>
+      <td>Jun 17 2025</td>
+    </tr>
+  </tbody>
+</table>
+
+
+#### 6.2.3.4. Testing Suite Evidence for Sprint Review.
+
+Al inicar el aplicativo tenemos el login
+
+<img src="images/chapter-6/testing_flutter_login1.png" alt="Testing" width="300">
+
+Nos registramos en el aplicativo mediante el Register button y completamos todos los campos obligatorios.
+
+<img src="images/chapter-6/testing_flutter_register1.png" alt="Testing" width="300">
+
+Al momento de registrarnos nos logeara automaticamente.
+
+<img src="images/chapter-6/testing_flutter_joingroup1.png" alt="Testing" width="300">
+
+Estando ya logeados lo primero que nos solicitara es el codigo de grupo necesario para poder unirnos a un grupo y utilizar las funcionalidades.
+
+<img src="images/chapter-6/testing_flutter_joingroup2.png" alt="Testing" width="300">
+
+Al buscar el grupo nos saldra un apartado mostrandonos la informacion del grupo al cual queremos unirnos.
+
+<img src="images/chapter-6/testing_flutter_joingroup3.png" alt="Testing" width="300">
+
+Nos uninos al grupo que estamos buscando y esperamos que el profesor acepte nuestra solicitud de union.
+
+<img src="images/chapter-6/testing_flutter_joingroup4.png" alt="Testing" width="300">
+
+En caso de que se nos rechaze la union a un grupo se mostrara un mensaje en la parte inferior para indicar lo antes mencionado.
+
+<img src="images/chapter-6/testing_flutter_joingroup_false.png" alt="Testing" width="300">
+
+Caso contrario el daremos sincronizar para unirnos sin problemas al grupo para empezar a usar las funcionalidades.
+
+<img src="images/chapter-6/testing_flutter_joingroup_true1.png" alt="Testing" width="300">
+<img src="images/chapter-6/testing_flutter_joingroup_true_summary.png" alt="Testing" width="300">
+
+Al momento de seleccionar el apartado tasks podremos ver arriba a la derecha un icono de una incognita con la cual podremos ver la leyenda de los colores y su significado.
+
+<img src="images/chapter-6/testing_flutter_tasks_legend.png" alt="Testing" width="300">
+
+Podemos ver nuestro grupo con su codigo.
+
+<img src="images/chapter-6/testing_flutter_group_members1.png" alt="Testing" width="300">
+
+Ademas, podremos ver a otros miembros que se unan al mismo grupo.
+
+<img src="images/chapter-6/testing_flutter_group_members2.png" alt="Testing" width="300">
+
+Estando ya en el grupo y cuando se nos asignae una task podremos observar sus datos como titulo,deadline,etc. Ademas, podremos marcarla como completada o hacer un comentario solicitando mas tiempo. Como aun hay tiempo se mostrara de color verde.
+
+<img src="images/chapter-6/testing_flutter_tasks.png" alt="Testing" width="300">
+
+Al realizar un comentario nos saldran a completar los siguientes valores en la pantalla.
+
+<img src="images/chapter-6/testing_flutter_tasks_comment.png" alt="Testing" width="300">
+
+Al mismo tiempo podremos ver en solicitudes el reflejo de la tarea en la cual solicitamos mas tiempo de color naranja.
+
+<img src="images/chapter-6/testing_flutter_requests_comment.png" alt="Testing" width="300">
+
+Y vemos como nuestra tarea pasa a espera de validacion de color naranja.
+
+<img src="images/chapter-6/testing_flutter_tasks_validation.png" alt="Testing" width="300">
+
+Por otro lado si tenemos una tarea en la cual su deadline ya se ha superado se mostrara de rojo como ya vencida.
+
+<img src="images/chapter-6/testing_flutter_tasks_overdued.png" alt="Testing" width="300">
+
+Tambien, la tendremos en solicitudes del mismo color rojo.
+
+<img src="images/chapter-6/testing_flutter_requests_overdued.png" alt="Testing" width="300">
+
+Podemos marcar una tarea como completada cuando la hayamos terminado, por lo tanto esta tarea pasara a ser validada.
+
+<img src="images/chapter-6/testing_flutter_tasks_completed1.png" alt="Testing" width="300">
+
+Y quedara marcada como hecha,ya que asi lo hemos querido.
+
+<img src="images/chapter-6/testing_flutter_tasks_completed2.png" alt="Testing" width="300">
+
+Asi mismo, la veremos como nueva solicitud.
+
+<img src="images/chapter-6/testing_flutter_requests_completed.png" alt="Testing" width="300">
+
+Por ahora podemos ver que no tenemos ninguna tarea finiquitada.
+
+<img src="images/chapter-6/testing_flutter_tasks_finished1.png" alt="Testing" width="300">
+
+Pero una vez se nos haya considerado la tarea como finiquitada podremos observar que cambia a color celeste.
+
+<img src="images/chapter-6/testing_flutter_tasks_finished2.png" alt="Testing" width="300">
+
+Podemos ver que ninguna tarea ha sido resuelta por parte del profesor.
+
+<img src="images/chapter-6/testing_flutter_requests_resolved1.png" alt="Testing" width="300">
+
+
+En el momento que se nos resuelva alguna de las solicitudes que tenemos se veran como resueltas.
+
+<img src="images/chapter-6/testing_flutter_requests_resolved2.png" alt="Testing" width="300">
+<img src="images/chapter-6/testing_flutter_requests_comment2.png" alt="Testing" width="300">
+
+Al final del testing nuestras tareas terminarian en sus correspondientes estados.
+
+<img src="images/chapter-6/testing_flutter_tasks_final1.png" alt="Testing" width="300">
+<img src="images/chapter-6/testing_flutter_tasks_final2.png" alt="Testing" width="300">
+
+
+Y podemos ver que nuestro resumen de perfil ha cambiado mostrando nuevos datos.
+
+<img src="images/chapter-6/testing_flutter_joingroup_true_finalsummary.png" alt="Testing" width="300">
+
+Ya teniendo en orden con las evaluaciones de las heuristicas verificamos que al minimizar el app no se reinicie todo el aplicativo y solo se pause o entre a segundo plano.
+
+<img src="images/chapter-6/testing_flutter_enhaced1.png" alt="Design" width="300">
+<img src="images/chapter-6/testing_flutter_enhaced2.png" alt="Design" width="300">
+<img src="images/chapter-6/testing_flutter_enhaced3.png" alt="Design" width="300">
+<img src="images/chapter-6/testing_flutter_enhaced4.png" alt="Design" width="300">
+
+Ya habiendo verificado que el app no se reinicia cambiando de plano proseguiremos con los UI Design Dos and Don’ts.
+
+Un diseño que se ajuste a la pantalla de un dispositivo. Los usuarios deben ver el contenido principal sin acercarse o desplazarse horizontalmente.
+
+<img src="images/chapter-6/formating_content.png" alt="Design" width="300">
+
+Elementos de interfaz de usuario diseñados para gestos táctiles para que la interacción con su aplicación se sienta fácil y natural.
+
+<img src="images/chapter-6/touch_controls.png" alt="Design" width="300">
+
+Controles que midan al menos 44 puntos x 44 puntos para que puedan ser aprovechados con precisión con un dedo.
+
+<img src="images/chapter-6/hit_targets.png" alt="Design" width="300">
+
+Texto debe tener al menos 11 puntos, por lo que es legible a una distancia de visión típica sin zoom.
+
+<img src="images/chapter-6/text_sized.png" alt="Design" width="300">
+
+Amplio contraste entre el color de la fuente y el fondo para que el texto sea legible.
+
+<img src="images/chapter-6/constrast.png" alt="Design" width="300">
+
+Mejorar la legibilidad al aumentar la altura de la línea o el espacio de las letras.
+
+<img src="images/chapter-6/spacing.png" alt="Design" width="300">
+
+Versiones de alta resolución de todos los activos de imagen. Las imágenes que no son @2x y @3x aparecerán borrosas en la pantalla Retina.
+
+<img src="images/chapter-6/high_resolution.png" alt="Design" width="300">
+
+Imágenes en su relación de aspecto prevista para evitar la distorsión.
+
+<img src="images/chapter-6/distortion.png" alt="Design" width="300">
+
+Diseño fácil de leer que ponga los controles cerca del contenido que modifican.
+
+<img src="images/chapter-6/organization.png" alt="Design" width="300">
+
+Texto, las imágenes y los botones alineados para mostrar a los usuarios cómo se relaciona la información.
+
+<img src="images/chapter-6/alignment.png" alt="Design" width="300">
+
+
+#### 6.2.3.5. Execution Evidence for Sprint Review.
+
+En esta sección se presentan las evidencias de la ejecución de la aplicación para el sprint 2.
+En esta sección, presentamos una recopilación visual y detallada de los avances logrados durante el sprint. A través de imágenes y un video demostrativo, podrás apreciar los resultados concretos de nuestro trabajo y comprender mejor cómo hemos dado forma a las funcionalidades del producto.
+
+<img src="images/chapter-6/landingPage1.png" alt="API">
+
+<img src="images/chapter-6/landingPage2.png" alt="API">
+
+<img src="images/chapter-6/landingPage3.png" alt="API">
+
+<img src="images/chapter-6/landingPage4.png" alt="API">
+
+<img src="images/chapter-6/landingPage5.png" alt="API">
+
+<img src="images/chapter-6/landingPage6.png" alt="API">
+
+<img src="images/chapter-6/landingPage7.png" alt="API">
+
+<img src="images/chapter-6/landingPage8.png" alt="API">
+
+<img src="images/chapter-6/landingPage9.png" alt="API">
+
+<img src="images/chapter-6/landingPage10.png" alt="API">
+
+<img src="images/chapter-6/api1.png" alt="API">
+
+<img src="images/chapter-6/api2.png" alt="API">
+
+<img src="images/chapter-6/api3.png" alt="API">
+
+#### 6.2.3.6. Services Documentation Evidence for Sprint Review.
+
+<table>
+  <tr>
+    <th>Tag</th>
+    <th>Verbo http</th>
+    <th>Endpoint</th>
+    <th>Summary</th>
+    <th>Description</th>
+    <th>OperationId</th>
+  </tr>
+  <tr>
+    <td>Request</td>
+    <td>PUT</td>
+    <td>/api/v1/tasks/{taskId}/requests/{requestId}/status/{status}</td>
+    <td>Update</td>
+    <td>Update a request status</td>
+    <td>requests_update_status_by_task</td>
+  </tr>
+  <tr>
+    <td>Parameters</td>
+    <td colspan="2">{taskId}, {requestId}, {status}</td>
+    <td>Request body</td>
+    <td colspan="2">no</td>
+  </tr>
+  <tr>
+    <td>Request</td>
+    <td>GET</td>
+    <td>/api/v1/tasks/{taskId}/requests</td>
+    <td>List</td>
+    <td>Get requests from a task</td>
+    <td>requests_list_by_task</td>
+  </tr>
+  <tr>
+    <td>Parameters</td>
+    <td colspan="2">{taskId}</td>
+    <td>Request body</td>
+    <td colspan="2">no</td>
+  </tr>
+  <tr>
+    <td>Request</td>
+    <td>POST</td>
+    <td>/api/v1/tasks/{taskId}/requests</td>
+    <td>Create</td>
+    <td>Create a new request</td>
+    <td>requests_create_by_task</td>
+  </tr>
+  <tr>
+    <td>Parameters</td>
+    <td colspan="2">{taskId}</td>
+    <td>Request body</td>
+    <td colspan="2">yes</td>
+  </tr>
+  <tr>
+    <td>Request</td>
+    <td>GET</td>
+    <td>/api/v1/tasks/{taskId}/requests/{requestId}</td>
+    <td>Get</td>
+    <td>Get a request by ID</td>
+    <td>requests_get_by_id_by_task</td>
+  </tr>
+  <tr>
+    <td>Parameters</td>
+    <td colspan="2">{taskId}, {requestId}</td>
+    <td>Request body</td>
+    <td colspan="2">no</td>
+  </tr>
+  <tr>
+    <td>Request</td>
+    <td>DELETE</td>
+    <td>/api/v1/tasks/{taskId}/requests/{requestId}</td>
+    <td>Delete</td>
+    <td>Delete a request by ID</td>
+    <td>requests_delete_by_id_by_task</td>
+  </tr>
+  <tr>
+    <td>Parameters</td>
+    <td colspan="2">{taskId}, {requestId}</td>
+    <td>Request body</td>
+    <td colspan="2">no</td>
+  </tr>
+  <tr>
+    <td>Group Requests</td>
+    <td>GET</td>
+    <td>/api/v1/member/group/requests</td>
+    <td>List</td>
+    <td>Get all requests from member</td>
+    <td>group_requests_by_member</td>
+  </tr>
+  <tr>
+    <td>Parameters</td>
+    <td colspan="2">–</td>
+    <td>Request body</td>
+    <td colspan="2">no</td>
+  </tr>
+  <tr>
+    <td>Group Requests</td>
+    <td>GET</td>
+    <td>/api/v1/leader/group/requests</td>
+    <td>List</td>
+    <td>Get all requests from a group</td>
+    <td>group_requests_by_leader</td>
+  </tr>
+  <tr>
+    <td>Parameters</td>
+    <td colspan="2">–</td>
+    <td>Request body</td>
+    <td colspan="2">no</td>
+  </tr>
+  <tr>
+    <td>Member</td>
+    <td>GET</td>
+    <td>/api/v1/member/tasks/next</td>
+    <td>Get</td>
+    <td>Get the next task by authenticated member</td>
+    <td>member_next_task</td>
+  </tr>
+  <tr>
+    <td>Parameters</td>
+    <td colspan="2">–</td>
+    <td>Request body</td>
+    <td colspan="2">no</td>
+  </tr>
+  <tr>
+    <td>Member</td>
+    <td>DELETE</td>
+    <td>/api/v1/member/group/leave</td>
+    <td>Delete</td>
+    <td>Leave group by member authenticated</td>
+    <td>member_leave_group</td>
+  </tr>
+  <tr>
+    <td>Parameters</td>
+    <td colspan="2">–</td>
+    <td>Request body</td>
+    <td colspan="2">no</td>
+  </tr>
+  <tr>
+    <td>Metrics</td>
+    <td>GET</td>
+    <td>/api/v1/metrics/tasks/rescheduled</td>
+    <td>Get</td>
+    <td>Get rescheduled tasks for group</td>
+    <td>metrics_group_tasks_rescheduled</td>
+  </tr>
+  <tr>
+    <td>Parameters</td>
+    <td colspan="2">–</td>
+    <td>Request body</td>
+    <td colspan="2">no</td>
+  </tr>
+  <tr>
+    <td>Metrics</td>
+    <td>GET</td>
+    <td>/api/v1/metrics/tasks/overview</td>
+    <td>Get</td>
+    <td>Get task overview for group</td>
+    <td>metrics_group_tasks_overview</td>
+  </tr>
+  <tr>
+    <td>Parameters</td>
+    <td colspan="2">–</td>
+    <td>Request body</td>
+    <td colspan="2">no</td>
+  </tr>
+  <tr>
+    <td>Metrics</td>
+    <td>GET</td>
+    <td>/api/v1/metrics/tasks/distribution</td>
+    <td>Get</td>
+    <td>Get task distribution for group</td>
+    <td>metrics_group_tasks_distribution</td>
+  </tr>
+  <tr>
+    <td>Parameters</td>
+    <td colspan="2">–</td>
+    <td>Request body</td>
+    <td colspan="2">no</td>
+  </tr>
+  <tr>
+    <td>Metrics</td>
+    <td>GET</td>
+    <td>/api/v1/metrics/tasks/avg-completion-time</td>
+    <td>Get</td>
+    <td>Get average completion time for group</td>
+    <td>metrics_group_avg_completion_time</td>
+  </tr>
+  <tr>
+    <td>Parameters</td>
+    <td colspan="2">–</td>
+    <td>Request body</td>
+    <td colspan="2">no</td>
+  </tr>
+  <tr>
+    <td>Metrics</td>
+    <td>GET</td>
+    <td>/api/v1/metrics/task/member/{memberId}/time-passed</td>
+    <td>Get</td>
+    <td>Get time passed for a member's completed task</td>
+    <td>metrics_member_task_time_passed</td>
+  </tr>
+  <tr>
+    <td>Parameters</td>
+    <td colspan="2">{memberId}</td>
+    <td>Request body</td>
+    <td colspan="2">no</td>
+  </tr>
+  <tr>
+    <td>Metrics</td>
+    <td>GET</td>
+    <td>/api/v1/metrics/member/{memberId}/tasks/rescheduled</td>
+    <td>Get</td>
+    <td>Get rescheduled tasks for member</td>
+    <td>metrics_member_tasks_rescheduled</td>
+  </tr>
+  <tr>
+    <td>Parameters</td>
+    <td colspan="2">{memberId}</td>
+    <td>Request body</td>
+    <td colspan="2">no</td>
+  </tr>
+  <tr>
+    <td>Metrics</td>
+    <td>GET</td>
+    <td>/api/v1/metrics/member/{memberId}/tasks/overview</td>
+    <td>Get</td>
+    <td>Get task overview for member</td>
+    <td>metrics_member_tasks_overview</td>
+  </tr>
+  <tr>
+    <td>Parameters</td>
+    <td colspan="2">{memberId}</td>
+    <td>Request body</td>
+    <td colspan="2">no</td>
+  </tr>
+  <tr>
+    <td>Metrics</td>
+    <td>GET</td>
+    <td>/api/v1/metrics/member/{memberId}/tasks/distribution</td>
+    <td>Get</td>
+    <td>Get task distribution for member</td>
+    <td>metrics_member_tasks_distribution</td>
+  </tr>
+  <tr>
+    <td>Parameters</td>
+    <td colspan="2">{memberId}</td>
+    <td>Request body</td>
+    <td colspan="2">no</td>
+  </tr>
+  <tr>
+    <td>Metrics</td>
+    <td>GET</td>
+    <td>/api/v1/metrics/member/{memberId}/tasks/avg-completion-time</td>
+    <td>Get</td>
+    <td>Get average completion time for member</td>
+    <td>metrics_member_avg_completion_time</td>
+  </tr>
+  <tr>
+    <td>Parameters</td>
+    <td colspan="2">{memberId}</td>
+    <td>Request body</td>
+    <td colspan="2">no</td>
+  </tr>
+  <tr>
+    <td>Tests</td>
+    <td>POST</td>
+    <td>/api/v1/tests/token</td>
+    <td>Create</td>
+    <td>Generate a new JWT token</td>
+    <td>tests_generate_token</td>
+  </tr>
+  <tr>
+    <td>Parameters</td>
+    <td colspan="2">–</td>
+    <td>Request body</td>
+    <td colspan="2">no</td>
+  </tr>
+  <tr>
+    <td>Tests</td>
+    <td>GET</td>
+    <td>/api/v1/tests/fetch-user</td>
+    <td>Get</td>
+    <td>Fetch test user</td>
+    <td>tests_fetch_user</td>
+  </tr>
+  <tr>
+    <td>Parameters</td>
+    <td colspan="2">–</td>
+    <td>Request body</td>
+    <td colspan="2">no</td>
+  </tr>
+  <tr>
+    <td>Tasks Member</td>
+    <td>GET</td>
+    <td>/api/v1/members/{memberId}/tasks/next</td>
+    <td>Get</td>
+    <td>Get the next task by member ID</td>
+    <td>tasks_member_next</td>
+  </tr>
+  <tr>
+    <td>Parameters</td>
+    <td colspan="2">{memberId}</td>
+    <td>Request body</td>
+    <td colspan="2">no</td>
+  </tr>
+</table>
+
+
+#### 6.2.3.7. Software Deployment Evidence for Sprint Review.
+
+**Landing Page**
+Para hacer el deployment de la aplicacion web se utilizó render, una plataforma que permite hacer el deployment de aplicaciones de forma sencilla y rápida.
+Enlace de la landing page:[https://synhub-landing.onrender.com/](https://synhub-landing.onrender.com/ "https://synhub-landing.onrender.com/")
+
+<img src="images/chapter-6/deploy1.png">
+
+**Backend**
+Para hacer el deployment de la aplicacion web se utilizó render, una plataforma que permite hacer el deployment de aplicaciones de forma sencilla y rápida.
+Enlace del backend: [https://synhub-backend.onrender.com/swagger-ui/index.html#/](https://synhub-backend.onrender.com/swagger-ui/index.html#/ "https://synhub-backend.onrender.com/swagger-ui/index.html#/")
+
+<img src="images/chapter-6/deploy2.png">
+
+**Frontend**
+Tanto para las versiones de flutter y android se generaron los APKs y se subieron a la plataforma de firebase distribution, para que puedan ser descargados por los usuarios de prueba.
+
+Para poder realizar este proceso primero se debe crear un proyecto de firebase:
+
+<img src="images/chapter-6/sprint-3/firebase-deploy-1.png">
+<img src="images/chapter-6/sprint-3/firebase-deploy-2.png">
+
+Una vez se a creado el proyecto se debe agregar un app y escoger el tipo de app que se desea agregar, en este caso se agregaron dos apps, una para flutter y otra para android nativo:
+
+<img src="images/chapter-6/sprint-3/firebase-deploy-3.png">
+<img src="images/chapter-6/sprint-3/firebase-deploy-4.png">
+
+Para android se siguieron los siguientes pasos:
+
+<img src="images/chapter-6/sprint-3/firebase-deploy-5.png">
+<img src="images/chapter-6/sprint-3/firebase-deploy-6.png">
+<img src="images/chapter-6/sprint-3/firebase-deploy-7.png">
+<img src="images/chapter-6/sprint-3/firebase-deploy-8.png">
+<img src="images/chapter-6/sprint-3/firebase-deploy-9.png">
+
+Luego de eso desde el servicio firebase distribution debe subirse el apk de la aplicación, agregar verificadores y algún comentario:
+
+<img src="images/chapter-6/sprint-3/firebase-deploy-10.png">
+<img src="images/chapter-6/sprint-3/firebase-deploy-11.png">
+<img src="images/chapter-6/sprint-3/firebase-deploy-12.png">
+<img src="images/chapter-6/sprint-3/firebase-deploy-13.png">
+
+Para flutter se siguieron los siguientes pasos:
+
+<img src="images/chapter-6/sprint-3/firebase-deploy-14.png">
+<img src="images/chapter-6/sprint-3/firebase-deploy-15.png">
+<img src="images/chapter-6/sprint-3/firebase-deploy-16.png">
+
+Además de esto en el proyecto flutter dentro del pubspec.yaml se debe agregar el plugin de firebase distribution:
+
+```yaml
+dev_dependencies:
+  firebase_core: ^2.0.0
+```
+
+Y agregar el inicializador de firebase al app:
+
+<img src="images/chapter-6/sprint-3/firebase-deploy-17.png">
+
+Luego se deben subir el/los archivo apk a firebase distribution, agregar verificadores y algún comentario. El apk se crear a partir del comando:
+
+```bash
+flutter build apk --release
+```
+
+<img src="images/chapter-6/sprint-3/firebase-deploy-18.png">
+<img src="images/chapter-6/sprint-3/firebase-deploy-19.png">
+<img src="images/chapter-6/sprint-3/firebase-deploy-20.png">
+
+Finalemente desde un dispositivo móvil se debe abrir el correo de verificador que se le asignó y descargar la aplicación desde firebase app distribution (se instala automáticamente desde la invitación de correo) para poder probar las aplicaciones distribuidas por firebase.
+
+#### 6.2.3.8. Team Collaboration Insights during Sprint. 
+
+**Android Native Development**
+
+<img src="images/chapter-6/teamCollaborationInsightsDuringSprintFrontend1-TB2.png">
+<img src="images/chapter-6/teamCollaborationInsightsDuringSprintFrontend2-TB2.png">
+
+**Distribucion de commits:**
+
+* Alejo Cardenas Jose Antonio (Firtness): 17 commits
+* Astonitas Díaz Juan Diego (NeoRise456): 11 commits
+* Casas Sanchez Gabriel Alexander (Al3xiel): 29 commits
+* Pacheco Astiguetta Sebastian (Pachieeee): 39 commits
+* Pasquale Barrenechea Gianluca Santino (cwassointt): 41 commits
+
+**Flutter Development**
+
+<img src="images/chapter-6/teamCollaborationInsightsDuringSprintFrontendFlutter1-TB2.png">
+<img src="images/chapter-6/teamCollaborationInsightsDuringSprintFrontendFlutter2-TB2.png">
+
+**Distribucion de commits:**
+
+* Alejo Cardenas Jose Antonio (Firtness): 2 commits
+* Astonitas Díaz Juan Diego (NeoRise456): 2 commits
+* Casas Sanchez Gabriel Alexander (Al3xiel): 41 commits
+
+**Backend**
+
+<img src="images/chapter-6/teamCollaborationInsightsDuringSprintBackend1-TB2.png">
+<img src="images/chapter-6/teamCollaborationInsightsDuringSprintBackend2-TB2.png">
+
+**Distribucion de commits:**
+
+* Alejo Cardenas Jose Antonio (Firtness): 23 commits
+* Astonitas Díaz Juan Diego (NeoRise456): 39 commits
+* Casas Sanchez Gabriel Alexander (Al3xiel): 86 commits
+* Pacheco Astiguetta Sebastian (Pachieeee): 79 commits
+* Pasquale Barrenechea Gianluca Santino (cwassointt): 90 commits
+
+
 ### 6.3. Validation Interviews
 
 #### 6.3.1. Diseño de entrevistas
@@ -10348,7 +12905,7 @@ Validar la usabilidad y efectividad de la landing page y la aplicación para cad
 
 #### 6.3.2. Registro de entrevistas
 
-Todas las entrevistas se encuentran en el siguiente enlace: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202220033_upc_edu_pe/ERhNubuBgupHqSMD-uHMbYMBGUnymgiSsIZ6UfO1tQaymg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=beHMLq](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202220033_upc_edu_pe/ERhNubuBgupHqSMD-uHMbYMBGUnymgiSsIZ6UfO1tQaymg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=beHMLq)
+Todas las entrevistas se encuentran en el siguiente enlace: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202220033_upc_edu_pe/Ef60MVhQmSREjeZKuqLEpBgB46AiRe11YudcAajnTxECjA?e=Uwrhpd&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202220033_upc_edu_pe/Ef60MVhQmSREjeZKuqLEpBgB46AiRe11YudcAajnTxECjA?e=Uwrhpd&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
 A continuación se presentan los detalles clave de las entrevistas realizadas a los líderes. 
 
@@ -10360,7 +12917,7 @@ A continuación se presentan los detalles clave de las entrevistas realizadas a 
 | Profesión                                          | Project Manager                                                                                                                    |
 | Distrito                                           | San Martin de Porres                                                                                                               |
 | Duración de la Entrevista                          | 19:00                                                                                                                              |
-| Minuto de inicio                                   |                                                                                                                              |
+| Minuto de inicio                                   | 58:45                                                                                                                              |
 | **Análisis de la Entrevista**                      |                                                                                                                                    |
 | Creación de Grupos                                 | Nos comenta que la creacion de grupos fue bastante sencilla e intuitiva.                                                           |
 | Gestión de Tareas                                  | Es bastante sencillo la creacion de tareas preferiria que hubiera una leyenda que explique los colores de cada estado de la tarea. |
@@ -10444,10 +13001,42 @@ A continuación se presentan los detalles clave de las entrevistas realizadas a 
 
 ![EntrevistaArianna.png](images/chapter-6/EntrevistaArianna.png)
 
+<table border="1">
+  <thead>
+    <tr>
+      <th colspan="2">Entrevista 4: Coordinadores o Líderes de Grupo</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td><strong>Nombre de Entrevistado</strong></td><td>Elvia Rodriguez</td></tr>
+    <tr><td><strong>Edad</strong></td><td>23</td></tr>
+    <tr><td><strong>Profesión</strong></td><td>Analista de Datos practicante y Estudiante</td></tr>
+    <tr><td><strong>Distrito</strong></td><td>Comas</td></tr>
+    <tr><td><strong>Duración de la Entrevista</strong></td><td>22:50</td></tr>
+    <tr><td><strong>Minuto de inicio</strong></td><td>35:55</td></tr>
+    <tr><td><strong>Análisis de la Entrevista</strong></td><td>
+    Elvia valoro lo intuitivo de la aplicacion, las funcionas y experiencia de usuario que ofrece.
+    </td></tr>
+    <tr><td>Simplicidad y Efectividad de la Landing Page</td><td>
+        La landing page es clara y directa, con un diseño atractivo que resalta las características principales de la aplicación. Elvia menciona que la sección de características es especialmente útil para entender rápidamente lo que SynHub ofrece.
+    </td></tr>
+    <tr><td>Facil Assignacion de Tareas</td><td>
+        La creación y asignación de tareas es intuitiva, con un flujo de trabajo claro que permite a los líderes gestionar sus grupos de manera eficiente. 
+    </td></tr>
+    <tr><td>Experiencia Intuitiva</td><td>
+        Elvia destaca que la aplicación es fácil de usar, con una curva de aprendizaje corta. La navegación entre secciones es fluida y los íconos son intuitivos, lo que facilita la comprensión de las diferentes funcionalidades.
+    </td></tr>
+  </tbody>
+</table>
+<br>
+
+![EntrevistaElvia.png](images/chapter-6/EntrevistaElvia.png)
+
+
 A continuación se presentan los detalles clave de las entrevistas realizadas a los miembros.
 
 
-| **Entrevista 4: Miembros del Equipo o Grupo |                                                                                                                                                                                                                                                                         |
+| **Entrevista 5: Miembros del Equipo o Grupo |                                                                                                                                                                                                                                                                         |
 |---------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Nombre de Entrevistado                      | David Rivas                                                                                                                                                                                                                                                             |
 | Edad                                        | 21                                                                                                                                                                                                                                                                      |
@@ -10464,7 +13053,7 @@ A continuación se presentan los detalles clave de las entrevistas realizadas a 
 
 ![EntrevistaDavid.png](images/chapter-6/EntrevistaDavid.png)
 
-| **Entrevista 5: Miembros del Equipo o Grupo |                                                                                                                                                                                                  |
+| **Entrevista 6: Miembros del Equipo o Grupo |                                                                                                                                                                                                  |
 |---------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Nombre de Entrevistado                      | Camila Palacios                                                                                                                                                                                  |
 | Edad                                        | 21                                                                                                                                                                                               |
@@ -10484,7 +13073,7 @@ A continuación se presentan los detalles clave de las entrevistas realizadas a 
 <table border="1">
   <thead>
     <tr>
-      <th colspan="2">Entrevista 6: Miembros del Equipo o Grupo</th>
+      <th colspan="2">Entrevista 7: Miembros del Equipo o Grupo</th>
     </tr>
   </thead>
   <tbody>
@@ -10690,6 +13279,8 @@ Recomendación: Utilizar un fondo de color más destacado o efectos visuales (co
 
 **TB2**: Durante el desarrollo del TB2, el equipo consolidó sus competencias técnicas mediante la construcción de una arquitectura robusta basada en **Spring Boot** para el backend y **Kotlin** para el frontend móvil. Esta etapa destacó por la integración efectiva entre capas, el diseño e implementación de APIs RESTful, y el manejo adecuado de servicios, controladores y entidades de dominio. En el frontend, el uso de Kotlin permitió aplicar principios modernos de desarrollo móvil, asegurando una experiencia de usuario fluida y adaptada. El trabajo coordinado entre backend y frontend evidenció la madurez del equipo para desarrollar soluciones completas y escalables, reafirmando la importancia de una comunicación clara entre servicios y una implementación coherente de los requisitos funcionales y no funcionales del sistema. Este proceso fortaleció la visión integral del desarrollo de software, orientada a la calidad, mantenibilidad y evolución continua.
 
+**TF**: Durante el desarrollo de este Trabajo de Fin de Curso, el equipo demostró una sólida capacidad para aplicar conocimientos técnicos avanzados y metodologías ágiles en la creación de una solución de software integral. Se consolidaron competencias clave en arquitectura de software, desarrollo backend con Spring Boot y desarrollo móvil con Kotlin, logrando una integración eficiente de servicios y una comunicación fluida entre capas. La implementación de APIs RESTful, la estructuración de controladores y entidades de dominio, así como la aplicación de principios de diseño centrado en el usuario, reflejan un enfoque profesional orientado a la calidad, la escalabilidad y el mantenimiento continuo del sistema.Este proceso fortaleció la visión de trabajo en equipo y aprendizaje permanente, fomentando la innovación, la adaptación a nuevas herramientas y la evolución constante de buenas prácticas de ingeniería de software. Como resultado, se alcanzó un producto funcional alineado a necesidades reales, demostrando la madurez del equipo para enfrentar desafíos del entorno profesional y contribuir con soluciones tecnológicas de alto impacto y valor para la sociedad.
+
 ## Bibliografía
 
 Khan, M. (2024, 4 septiembre). *State of Teams Report 2021 - Work Life by Atlassian*. Work Life By Atlassian. [https://www.atlassian.com/blog/state-of-teams](https://www.atlassian.com/blog/state-of-teams)
@@ -10707,6 +13298,3 @@ Nielsen Norman Group. (n.d.). User Journey Mapping. [https://www.nngroup.com/art
 Sommerville, I. (2016). Software Engineering (10th ed.). Pearson Education. [https://www.pearson.com/en-us/subject-catalog/p/software-engineering/P200000005158/9780133943030](https://www.pearson.com/en-us/subject-catalog/p/software-engineering/P200000005158/9780133943030)
 
 ## Anexos
-
-**Visualizar solicitud o validacion pendiente:** Este wireflow corresponde a cuando un miembro busca sus solicitudes o validaciones pendientes.
-Task flow: 🟥 Happy Path, 🟨 Error Path, 🟦 User Goal
