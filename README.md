@@ -262,7 +262,7 @@ Recapitulando los commits se dividieron de la siguiente manera:
   - [Contenido](#contenido)
   - [Student Outcome](#student-outcome)
   - [Objetivos SMART](#objetivos-smart)
-      - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
+    - [1.1. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
     - [1.2. Solution Profile](#12-solution-profile)
       - [1.2.1. Antecedentes y problemática](#121-antecedentes-y-problemática)
       - [1.2.2. Lean UX Process](#122-lean-ux-process)
