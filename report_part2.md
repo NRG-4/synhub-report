@@ -6499,10 +6499,41 @@ A continuación se presentan los detalles clave de las entrevistas realizadas a 
 
 ![EntrevistaArianna.png](images/chapter-6/EntrevistaArianna.png)
 
+<table border="1">
+  <thead>
+    <tr>
+      <th colspan="2">Entrevista 4: Coordinadores o Líderes de Grupo</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td><strong>Nombre de Entrevistado</strong></td><td>Elvia Rodriguez</td></tr>
+    <tr><td><strong>Edad</strong></td><td>23</td></tr>
+    <tr><td><strong>Profesión</strong></td><td>Analista de Datos practicante y Estudiante</td></tr>
+    <tr><td><strong>Distrito</strong></td><td>Comas</td></tr>
+    <tr><td><strong>Duración de la Entrevista</strong></td><td>22:50</td></tr>
+    <tr><td><strong>Minuto de inicio</strong></td><td>35:55</td></tr>
+    <tr><td><strong>Análisis de la Entrevista</strong></td><td>
+    Elvia valoro lo intuitivo de la aplicacion, las funcionas y experiencia de usuario que ofrece.
+    </td></tr>
+    <tr><td>Simplicidad y Efectividad de la Landing Page</td><td>
+        La landing page es clara y directa, con un diseño atractivo que resalta las características principales de la aplicación. Elvia menciona que la sección de características es especialmente útil para entender rápidamente lo que SynHub ofrece.
+    </td></tr>
+    <tr><td>Facil Assignacion de Tareas</td><td>
+        La creación y asignación de tareas es intuitiva, con un flujo de trabajo claro que permite a los líderes gestionar sus grupos de manera eficiente. 
+    </td></tr>
+    <tr><td>Experiencia Intuitiva</td><td>
+        Elvia destaca que la aplicación es fácil de usar, con una curva de aprendizaje corta. La navegación entre secciones es fluida y los íconos son intuitivos, lo que facilita la comprensión de las diferentes funcionalidades.
+    </td></tr>
+  </tbody>
+</table>
+<br>
+
+![EntrevistaElvia.png](images/chapter-6/EntrevistaElvia.png)
+
 A continuación se presentan los detalles clave de las entrevistas realizadas a los miembros.
 
 
-| **Entrevista 4: Miembros del Equipo o Grupo |                                                                                                                                                                                                                                                                         |
+| **Entrevista 5: Miembros del Equipo o Grupo |                                                                                                                                                                                                                                                                         |
 |---------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Nombre de Entrevistado                      | David Rivas                                                                                                                                                                                                                                                             |
 | Edad                                        | 21                                                                                                                                                                                                                                                                      |
@@ -6519,7 +6550,7 @@ A continuación se presentan los detalles clave de las entrevistas realizadas a 
 
 ![EntrevistaDavid.png](images/chapter-6/EntrevistaDavid.png)
 
-| **Entrevista 5: Miembros del Equipo o Grupo |                                                                                                                                                                                                  |
+| **Entrevista 6: Miembros del Equipo o Grupo |                                                                                                                                                                                                  |
 |---------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Nombre de Entrevistado                      | Camila Palacios                                                                                                                                                                                  |
 | Edad                                        | 21                                                                                                                                                                                               |
@@ -6539,7 +6570,7 @@ A continuación se presentan los detalles clave de las entrevistas realizadas a 
 <table border="1">
   <thead>
     <tr>
-      <th colspan="2">Entrevista 6: Miembros del Equipo o Grupo</th>
+      <th colspan="2">Entrevista 7: Miembros del Equipo o Grupo</th>
     </tr>
   </thead>
   <tbody>
